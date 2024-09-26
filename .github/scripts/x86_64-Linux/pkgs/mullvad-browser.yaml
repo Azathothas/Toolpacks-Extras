@@ -1,0 +1,16 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/mullvad-browser
+name: "mullvad-browser"
+bin_name: "mullvad-browser"
+bins:
+  - "mullvad-browser.NixAppImage"
+  - "mullvad-browser.tar.xz"
+category:
+ - "anonymity"
+ - "browser"
+ - "privacy"
+ - "tor"
+description: "Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)"
+web_url: "https://mullvad.net/en/browser"
+path: "/"
+src_url: "https://gitlab.torproject.org/tpo/applications/mullvad-browser/"

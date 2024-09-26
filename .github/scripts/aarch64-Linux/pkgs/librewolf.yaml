@@ -1,0 +1,14 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf
+name: "librewolf"
+bin_name: "librewolf"
+bins:
+  - "librewolf.AppImage"
+  - "librewolf.NixAppImage"
+category:
+ - "browser"
+ - "privacy"
+description: "LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)"
+web_url: "https://librewolf.net"
+path: "/"
+src_url: "https://gitlab.com/librewolf-community/browser"
