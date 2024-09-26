@@ -1,0 +1,15 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/olive
+name: "olive-editor"
+bin_name: "olive"
+bins:
+  - "olive-editor.AppImage"  
+  - "olive-editor.NixAppImage"
+category:
+ - "multimedia"
+ - "video"
+ - "video-editor"
+description: "Free open-source non-linear video editor (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/olive-editor/olive/actions)"
+web_url: "https://www.olivevideoeditor.org"
+path: "/"
+src_url: "https://github.com/olive-editor/olive"
