@@ -125,9 +125,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
       #End
-       LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
        popd >/dev/null 2>&1
 fi
+LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
