@@ -32,6 +32,10 @@ if [[ ! -n "${GITHUB_TOKEN}" ]]; then
    echo -e "\n[-] GITHUB_TOKEN is NOT Exported"
    echo -e "Export it to Use GH\n"
 fi
+if [[ ! -n "${GITLAB_TOKEN}" ]]; then
+   echo -e "\n[-] GITLAB_TOKEN is NOT Exported"
+   echo -e "Export it to Use GH\n"
+fi
 if ! command -v git-lfs &> /dev/null; then
    echo -e "\n[-] git-lfs is NOT Installed\n"
 fi

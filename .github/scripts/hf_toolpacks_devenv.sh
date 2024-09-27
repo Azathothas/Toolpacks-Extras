@@ -172,6 +172,7 @@ export -f hf_cleanup_purge
 #-------------------------------------------------------#
 hf_help()
 {
+  #GH 
   if [[ -n "${GITHUB_TOKEN}" ]]; then
      echo -e "\n[+] GITHUB_TOKEN is Exported"
      gh auth status
@@ -180,6 +181,14 @@ hf_help()
      echo -e "\n[-] GITHUB_TOKEN is NOT Exported"
      echo -e "Export it to avoid ratelimits\n"
      eget --rate
+  fi
+  #GL
+  if [[ -n "${GITLAB_TOKEN}" ]]; then
+     echo -e "\n[+] GITLAB_TOKEN is Exported"
+     gh auth status
+  else
+     echo -e "\n[-] GITLAB_TOKEN is NOT Exported"
+     echo -e "Export it to avoid ratelimits\n"
   fi
   #hf
   if ! command -v huggingface-cli &> /dev/null; then

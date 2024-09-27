@@ -39,6 +39,7 @@
 
 #-------------------------------------------------------#
 ##Sanity Checks
+#GH
 if [[ -n "${GITHUB_TOKEN}" ]]; then
    echo -e "\n[+] GITHUB_TOKEN is Exported"
   ##gh-cli (uses ${GITHUB_TOKEN} env var)
@@ -53,6 +54,14 @@ else
    echo -e "Export it to avoid ratelimits\n"
    eget --rate
    exit 1
+fi
+#GL
+if [[ -n "${GITLAB_TOKEN}" ]]; then
+   echo -e "\n[+] GITLAB is Exported"
+   glab auth status
+else
+   echo -e "\n[-] GITLAB_TOKEN is NOT Exported"
+   echo -e "Export it to avoid ratelimits\n"
 fi
 #hf
 if ! command -v huggingface-cli &> /dev/null; then
