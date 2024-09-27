@@ -46,6 +46,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
          APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
        #Repack  
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -126,6 +127,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \

@@ -19,31 +19,86 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="YES" #no aarch64 support yet
-#mullvad-browser : Privacy-focused browser for Linux, macOS and Windows
-export BIN="mullvad-browser"
-export SOURCE_URL="https://github.com/mullvad/mullvad-browser"
+export SKIP_BUILD="NO"
+#inkscape : FOSS Vector Graphics Editor
+export BIN="inkscape"
+export SOURCE_URL="https://gitlab.com/inkscape/inkscape"
 if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
-      ##https://github.com/mullvad/mullvad-browser/issues/11
-      ##Fetch (NO --exclude-pre-releases)
+      ##Fetch (Dev)
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="mullvad-browser"
-       export PKG_NAME="${APP}.tar.xz"
-       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       gh release view "${RELEASE_TAG}" --repo "${SOURCE_URL}" --json "assets" \
-         --jq '.assets[].name' | grep -P 'linux.*aarch.*64.*\.tar\.xz$' | xargs -I "{}" \
-         gh release download --repo "${SOURCE_URL}" "${RELEASE_TAG}" --clobber --pattern "{}" \
-         --output "${OWD}/${PKG_NAME}"
+       export APP="inkscape-dev"
+       export PKG_NAME="${APP}.AppImage"
+       #https://gitlab.com/inkscape/inkscape/-/artifacts
+       #curl -qfsSL "https://gitlab.com/inkscape/inkscape/-/jobs/artifacts/master/download?job=appimage:linux" -o "${OWD}/${APP}.zip"
+       glab job artifact master "appimage:linux" --repo "${SOURCE_URL}"
+       RELEASE_TAG="$(find "${OWD}" -type f -iname "*.AppImage" -exec sh -c 'basename "$1" | sed -n "s/.*-\([^-]*\)\.AppImage/\1/p"' _ {} \; | head -n 1 | tr -d '[:space:]')-dev" && export RELEASE_TAG="${RELEASE_TAG}"
+       find "${OWD}" -type f -iname "*.AppImage" -execdir mv "{}" "${OWD}/${PKG_NAME}" \;
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
          PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
          echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
-       #Copy
-         rsync -achL --exclude="*/" "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
+       #Extract
+         APPIMAGE="${OWD}/${PKG_NAME}" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
+         "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
+         APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
+       #Repack
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
+           cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
+           --mksquashfs-opt -root-owned \
+           --mksquashfs-opt -no-xattrs \
+           --mksquashfs-opt -noappend \
+           --mksquashfs-opt -b --mksquashfs-opt "1M" \
+           --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
+           --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
+           --updateinformation "zsync|${HF_REPO_DL}/${PKG_NAME}.zsync" \
+           "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
+           find "${OWD}" -maxdepth 1 -name "*.zsync" -exec rsync -achL "{}" "${BINDIR}" \;
+           rm -rf "${OWD}" && popd >/dev/null 2>&1
+         fi
+       #Info
+         find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+       fi
+     #-------------------------------------------------------#
+      ##Fetch (Stable):https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inkscape
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="inkscape"
+       export PKG_NAME="${APP}.AppImage"
+       RELEASE_TAG="$(curl -qfsSI https://inkscape.org/release/ | awk -F'[-/]' '/[Ll]ocation/ {print $(NF-1)}' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       DOWNLOAD_URL="$(curl -A "${USER_AGENT}" -qfsSL "https://inkscape.org/gallery/item/44616/" |\
+         grep -o 'href="[^"]*"' | sed 's/href="//' | sed 's/"$//' | grep -iE '\.AppImage$' |\
+         sort --version-sort -u | head -n 1 | grep -iE "$(uname -m)" | tr -d '[:space:]')" && export DOWNLOAD_URL="${DOWNLOAD_URL}"
+       curl -qfsSL "https://inkscape.org/${DOWNLOAD_URL}" -o "${OWD}/${PKG_NAME}"
+      #HouseKeeping 
+       if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
+       #Version
+         PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+         echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+       #Extract
+         APPIMAGE="${OWD}/${PKG_NAME}" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
+         "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
+         APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
+       #Repack  
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
+           cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
+           --mksquashfs-opt -root-owned \
+           --mksquashfs-opt -no-xattrs \
+           --mksquashfs-opt -noappend \
+           --mksquashfs-opt -b --mksquashfs-opt "1M" \
+           --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
+           --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
+           --updateinformation "zsync|${HF_REPO_DL}/${PKG_NAME}.zsync" \
+           "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
+           find "${OWD}" -maxdepth 1 -name "*.zsync" -exec rsync -achL "{}" "${BINDIR}" \;
+           rm -rf "${OWD}" && popd >/dev/null 2>&1
+         fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
@@ -54,8 +109,9 @@ if [ "$SKIP_BUILD" == "NO" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="inkscape"
        export PKG_NAME="${APP}.NixAppImage"
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}" --log-format bar-with-logs
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#inkscape-with-extensions" --log-format bar-with-logs
       #Copy
        sudo rsync -achL "${OWD}/${APP}.AppImage" "${OWD}/${PKG_NAME}.tmp"
        sudo chown -R "$(whoami):$(whoami)" "${OWD}/${PKG_NAME}.tmp" && chmod -R 755 "${OWD}/${PKG_NAME}.tmp"
@@ -112,7 +168,6 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
-           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -131,7 +186,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        fi
       #End
        popd >/dev/null 2>&1
-    fi   
+    fi       
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#

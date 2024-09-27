@@ -125,12 +125,14 @@ set +x
         ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
       echo -e "\n[+] Completed (Building|Fetching) ${BIN} [${SOURCE_URL}] :: ${ELAPSED_TIME} ==> ${LOG_PATH}\n"
     } > "${TEMP_LOG}" 2>&1
-     sed -e '/.*github_pat.*/d' \
-        -e '/.*ghp_.*/d' \
-        -e '/.*hf_.*/d' \
-        -e '/.*access_key_id.*/d' \
-        -e '/.*secret_access_key.*/d' \
-        -e '/.*cloudflarestorage.*/d' "${TEMP_LOG}" | tee "${LOG_PATH}"
+     sed -e '/.*github_pat.*/Id' \
+        -e '/.*ghp_.*/Id' \
+        -e '/.*glpat.*/Id' \
+        -e '/.*hf_.*/Id' \
+        -e '/.*token.*/Id' \
+        -e '/.*access_key_id.*/Id' \
+        -e '/.*secret_access_key.*/Id' \
+        -e '/.*cloudflarestorage.*/Id' "${TEMP_LOG}" | tee "${LOG_PATH}"
     done
     rm "${TEMP_LOG}" 2>/dev/null
   echo -e "\n\n [+] Finished Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
@@ -253,7 +255,7 @@ popd >/dev/null 2>&1
 pushd "$(mktemp -d)" >/dev/null
  find "${HF_REPO_PKGDIR}" -type f -regex ".*\.log$" -exec sh -c 'echo -e "\n\n" >> merged_logs.log && cat "$1" >> merged_logs.log' sh {} \;
  rsync -av --checksum --copy-links --human-readable --remove-source-files --exclude="*/" "./merged_logs.log" "${HF_REPO_PKGDIR}/BUILD.log.txt"
- sed -e '/.*github_pat.*/d' -e '/.*ghp_.*/d' -e '/.*hf_.*/d' -e '/.*access_key_id.*/d' -e '/.*secret_access_key.*/d' -e '/.*cloudflarestorage.*/d' -i "${HF_REPO_PKGDIR}/BUILD.log.txt"
+ sed -e '/.*github_pat.*/Id' -e '/.*glpat.*/Id' -e '/.*ghp_.*/Id' -e '/.*hf_.*/Id' -e '/.*token.*/Id' -e '/.*access_key_id.*/Id' -e '/.*secret_access_key.*/Id' -e '/.*cloudflarestorage.*/Id' -i "${HF_REPO_PKGDIR}/BUILD.log.txt"
 popd >/dev/null 2>&1
 #Sync Repo (II)
 pushd "${HF_REPO_LOCAL}" >/dev/null 2>&1

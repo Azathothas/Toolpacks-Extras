@@ -1,0 +1,15 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inkscape
+name: "inkscape"
+bin_name: "inkscape"
+bins:
+  - "inkscape.AppImage"
+  - "inkscape-dev.AppImage"
+  - "inkscape.NixAppImage"
+category:
+ - "Graphics"
+ - "multimedia"
+description: "FOSS Vector Graphics Editor (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)"
+web_url: "https://inkscape.org"
+path: "/"
+src_url: "https://gitlab.com/inkscape/inkscape"
