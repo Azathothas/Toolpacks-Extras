@@ -1,0 +1,70 @@
+[
+  {
+    "filename": "./BLAKE3SUM.json",
+    "sum": "62e33e16244a051247da8f152623918788a3ed59944318ffd56727b5b24a2625"
+  },
+  {
+    "filename": "./FILE.json",
+    "sum": "18db9d534b1c6137ca60a4bff22c6f41512f3e8c58b0f358cd04817789ddd406"
+  },
+  {
+    "filename": "./SHA256SUM.json",
+    "sum": "6ea977954d885b0eb2474218e23977b6d06d771d95de62b6af78a9df5b1d4221"
+  },
+  {
+    "filename": "./SIZE.json",
+    "sum": "533e74474b79befbc939a88c474146b9014c2b5e92360e4c9a742b17fcef644f"
+  },
+  {
+    "filename": "./librewolf.AppImage",
+    "sum": "1ca6ec33cf566e396dbfd8c8611c59cbe1994bd2510d9a674d62e8b2aba131c2"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "sum": "da5891d092a306ff72afafa936a70e0202ef94bae2d5e4af3e1ae69aeef43097"
+  },
+  {
+    "filename": "./librewolf.log",
+    "sum": "f5dc9bada1c787a488485ba8ece3870cbb1a82b00227179e2563f6f9abd70dd1"
+  },
+  {
+    "filename": "./mullvad-browser.NixAppImage",
+    "sum": "69301abfb161bd9e4a8e1e517285fb0be1a3cd0761c72594c8a43c133aba4813"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "sum": "970ff625ff8d91e681d664045446b6d1be27983edab445554381fff1f91836a0"
+  },
+  {
+    "filename": "./METADATA.json",
+    "sum": "5c02ada5eecd58472fd15c03d4869314adc7671dd15764a3391dc42f71c904cc"
+  },
+  {
+    "filename": "./METADATA.min.json",
+    "sum": "c801eab3d909c49a0bfbbef6e2aeb78648513dfd6607caa1923a95cba1b89181"
+  },
+  {
+    "filename": "./mullvad-browser.tar.xz",
+    "sum": "6038bb7cb0e1262ac576e5ce03b4976795ff518bfd067cbbb048933539a9dc74"
+  },
+  {
+    "filename": "./mullvad-browser.AppImage",
+    "sum": "8d544063f89e352ca84aeaed700f1beb08f5ec74acfd32778728c1047c3fa70d"
+  },
+  {
+    "filename": "./inkscape.AppImage",
+    "sum": "682b03f69728600812cab59b13fea9bb43fdb0e9176fd0ca18e3ff7ca8e568d3"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "sum": "72d8884483215c6c82c611237ee8a2a65de7570ed4f2a14c9215e3d026d8b520"
+  },
+  {
+    "filename": "./inkscape.log",
+    "sum": "aa5a62a59c0ffafb0a26d98536c7047e4c1bccab0a6f676f9c8f3672e4056b59"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "sum": "a9201a62454ea956e94b39b05eb749f8085426a9f6b91dd400442b0cddcf524a"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "filename": "./BLAKE3SUM.json",
+    "sum": "824aedec2bf20b19c04c977d8af932ae2c01bf7d82456ca23525decdd6393dd2"
+  },
+  {
+    "filename": "./FILE.json",
+    "sum": "1028772b6bd116a8018ee67eebc9bfa7a266a4f55adae5c52f01ac8270151c54"
+  },
+  {
+    "filename": "./METADATA.json",
+    "sum": "01335cee0a36f30ddbd1c2ead2cc7f01181a478f93fbe4e0c7e5e038d3a54bf9"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "sum": "5caca7443c65b61d7459cae0cb1552048c33d5f8060b9f67c43516190f03ae7d"
+  },
+  {
+    "filename": "./METADATA.min.json",
+    "sum": "ed7b0b456754e27ec75e203bf1b22d9bb6d97edec5571945b3559aedfd9294d3"
+  },
+  {
+    "filename": "./SHA256SUM.json",
+    "sum": "e6e093af8390d16b61ab80b6bfbb619fb044abd45f4f24ac165138cd0b1c69e3"
+  },
+  {
+    "filename": "./SIZE.json",
+    "sum": "83c3e59f5ff9075a1c11589fd518837eb272b482df34ea4cd900d0f9eabf822a"
+  },
+  {
+    "filename": "./librewolf.AppImage",
+    "sum": "bb0fb8df760e3aced94f87cea27a0e1dddc1997d452d06f08cfc798d9be64924"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "sum": "b5af9abd5cfb2ef47f81b0c339629bd7893c79ee6502818cfb9e7cec6030acd1"
+  },
+  {
+    "filename": "./librewolf.log",
+    "sum": "f0ae6a934042c92ee6d978184bfeccd8cbae29948d3162fe7b100171d20c86da"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "sum": "8ba4a534c315e45a9c7420075077a1a983af6a5dc995feee392ab8437c50b842"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "sum": "8d20e47de838ca3817d161d9f36d95b9bd8831313c5fc80798ababb594b46d22"
+  },
+  {
+    "filename": "./inkscape.log",
+    "sum": "f28282a61dafccb5d83d99e2d70d584847d87077d2042248d9484324c2087bff"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "sum": "f4bbc6a4a92c5d55ee96bc9e32b188c6633822c59b647658bd7619a35c9bdbd1"
+  }
+]
