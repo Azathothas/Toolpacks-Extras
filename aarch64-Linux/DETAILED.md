@@ -11,6 +11,9 @@
 - **B3SUM 🔐:** `6c3d6b4579f1277ebab8bb89c3a6da22b515be5d24ae6ea44355eea0352b25a1`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.zsync
 
 ---
 
@@ -27,6 +30,9 @@
 - **B3SUM 🔐:** `7cfa8f2d3324f9ae5f13245a78f61530d783b606c532ce60bb6e8559421d06a0`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.zsync
 
 ---
 
@@ -43,6 +49,9 @@
 - **B3SUM 🔐:** `43fe96c4b4157b66f389e23e4aeb4e6df89e2fa9b725df5e9ee1c9a567987321`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.zsync
 
 ---
 
