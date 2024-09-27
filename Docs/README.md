@@ -47,20 +47,16 @@
 - #### How to verify checksums?
 > - [**SHA256SUM**](https://linux.die.net/man/1/sha256sum)
 > ```bash
-> ❯ Linux (curl + jq + sha256sum) [RECOMMENDED]
+> ❯ Linux (curl + jq + sha256sum)
 > !#path= should be exact location to $PKG, so if it's in cwd, path="./$PKG" [REPLACE $PKG with literal Value)
 > echo "$(curl -qfsSL "https://pkg.ajam.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$PKG") | .shasum')  $PKG" | sha256sum -c -
 >  
-> ❯ Linux (curl + awk + sha256sum)
-> !#path= should be exact location to $PKG, so if it's in cwd, path="./$PKG" [REPLACE $PKG with literal Value)
-> curl -qfsSL "https://pkg.ajam.dev/$(uname -m)/SHA256SUM.txt" | awk -v path="$PKG" '/ $PKG$/{print $1, path}' | sha256sum -c -
->
 > ```
 > - Or You can do it manually, the checksums are at:
-> > - [`BLAKE3SUM aarch64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BLAKE3SUM.txt): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BLAKE3SUM.txt
-> > - [`BLAKE3SUM x86_64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BLAKE3SUM.txt): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BLAKE3SUM.txt
-> > - [`SHA256SUM aarch64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SHA256SUM.txt): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SHA256SUM.txt
-> > - [`SHA256SUM x86_64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/SHA256SUM.txt): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/SHA256SUM.txt
+> > - [`BLAKE3SUM aarch64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BLAKE3SUM.json): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BLAKE3SUM.json
+> > - [`BLAKE3SUM x86_64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BLAKE3SUM.json): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BLAKE3SUM.json
+> > - [`SHA256SUM aarch64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SHA256SUM.json): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SHA256SUM.json
+> > - [`SHA256SUM x86_64-Linux`](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/SHA256SUM.json): https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/SHA256SUM.json
 ---
 
 - #### Supporting More [`Architectures`](https://wiki.debian.org/SupportedArchitectures) & [`OS`](https://en.wikipedia.org/wiki/List_of_operating_systems)
