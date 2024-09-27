@@ -64,7 +64,7 @@ pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:non
  git sparse-checkout add "${HOST_TRIPLET}/**"
  git sparse-checkout list
  BINDIR_SIZE="$(du -sh "${HF_REPO_PKGDIR}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "BINDIR_SIZE=${BINDIR_SIZE}"
- git add --all --verbose && git commit -m "[+] Dev Builds (${HOST_TRIPLET}) $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h "/" 2>/dev/null
+ git add --all --verbose && git commit -m "[+] PKG Built (${HOST_TRIPLET}) [${BINDIR_SIZE}B $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h "/" 2>/dev/null
  git pull origin main ; git push origin main
 popd >/dev/null 2>&1
 #Gen_meta_src
@@ -76,7 +76,7 @@ pushd "${HF_REPO_LOCAL}" >/dev/null 2>&1
  git pull origin main --force || git reset --hard "origin/main"
  find "${HF_REPO_PKGDIR}" -type f -size -3c -delete
  git sparse-checkout list
- git add --all --verbose && git commit -m "[+] Dev Builds (${HOST_TRIPLET}) [Meta $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h "/" 2>/dev/null
+ git add --all --verbose && git commit -m "[+] METADATA SRC (${HOST_TRIPLET}) [Meta $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h "/" 2>/dev/null
  git branch -a || git show-branch
  git push origin main
 popd >/dev/null 2>&1
