@@ -1,0 +1,70 @@
+[
+  {
+    "filename": "./librewolf.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./librewolf.log",
+    "type": "ASCII text, with very long lines (484), with CR, LF line terminators"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./mullvad-browser.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./BLAKE3SUM.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./FILE.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./SHA256SUM.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./SIZE.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.min.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.tar.xz",
+    "type": "XZ compressed data, checksum CRC64"
+  },
+  {
+    "filename": "./mullvad-browser.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (2531), with CR, LF line terminators"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "type": "ASCII text"
+  }
+]

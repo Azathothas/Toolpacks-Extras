@@ -1,0 +1,90 @@
+[
+  {
+    "filename": ".",
+    "size": "4096 B"
+  },
+  {
+    "filename": "./librewolf.AppImage",
+    "size": "88.19 MB"
+  },
+  {
+    "filename": "./librewolf.AppImage.version",
+    "size": "11 B"
+  },
+  {
+    "filename": "./librewolf.AppImage.zsync",
+    "size": "301.64 kB"
+  },
+  {
+    "filename": "./librewolf.DirIcon",
+    "size": "6177 B"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "size": "333.96 MB"
+  },
+  {
+    "filename": "./librewolf.NixAppImage.version",
+    "size": "8 B"
+  },
+  {
+    "filename": "./librewolf.NixAppImage.zsync",
+    "size": "1.14 MB"
+  },
+  {
+    "filename": "./librewolf.desktop",
+    "size": "677 B"
+  },
+  {
+    "filename": "./librewolf.icon.png",
+    "size": "6177 B"
+  },
+  {
+    "filename": "./librewolf.log",
+    "size": "65.22 kB"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "size": "1457 B"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage.version",
+    "size": "12 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./inkscape.DirIcon",
+    "size": "15.27 kB"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "size": "245.78 MB"
+  },
+  {
+    "filename": "./inkscape.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./inkscape.NixAppImage.zsync",
+    "size": "840.28 kB"
+  },
+  {
+    "filename": "./inkscape.desktop",
+    "size": "19.49 kB"
+  },
+  {
+    "filename": "./inkscape.icon.png",
+    "size": "15.27 kB"
+  },
+  {
+    "filename": "./inkscape.log",
+    "size": "234.39 kB"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "size": "2809 B"
+  }
+]
