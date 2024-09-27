@@ -7,6 +7,7 @@ if [ "${BUILD}" != "YES" ] || \
    [ -z "${GIT_TERMINAL_PROMPT}" ] || \
    [ -z "${GIT_ASKPASS}" ] || \
    [ -z "${GITHUB_TOKEN}" ] || \
+   [ -z "${GITLAB_TOKEN}" ] || \
    [ -z "${HF_REPO_DL}" ] || \
    [ -z "${SYSTMP}" ] || \
    [ -z "${TMPDIRS}" ]; then
