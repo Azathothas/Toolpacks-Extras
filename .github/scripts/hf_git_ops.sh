@@ -21,7 +21,7 @@ if [ -z "${BINDIR}" ] || \
    [ -z "${SYSTMP}" ] || \
    [ -z "${TMPDIRS}" ]; then
  #exit
-  echo -e "\n[+]Require ENV:VARS are NOT Set...\n"
+  echo -e "\n[+]Required ENV:VARS are NOT Set...\n"
   exit 1
 fi
 #Size
@@ -57,7 +57,7 @@ pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:non
  git checkout ; ls -lah "." "./${HOST_TRIPLET}"
  git sparse-checkout list
 #Fetch Bins
- rsync -av --checksum --copy-links --human-readable --exclude="*/" "${BINDIR}/." "${HF_REPO_PKGDIR}/"
+ rsync -av --checksum --copy-links --human-readable --remove-source-files --exclude="*/" "${BINDIR}/." "${HF_REPO_PKGDIR}/"
 #Sync Repo (I)
  git pull origin main --ff-only ; git merge --no-ff -m "Merge & Sync"
  find "${HF_REPO_PKGDIR}" -type f -size -3c -delete

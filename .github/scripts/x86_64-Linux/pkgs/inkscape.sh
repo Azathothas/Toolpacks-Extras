@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#self: source 
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/inkscape.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks

@@ -15,7 +15,7 @@ if [ -z "${HF_REPO_PKGDIR}" ] || \
    [ -z "${SYSTMP}" ] || \
    [ -z "${TMPDIRS}" ]; then
  #exit
-  echo -e "\n[+]Require ENV:VARS are NOT Set...\n"
+  echo -e "\n[+]Required ENV:VARS are NOT Set...\n"
   exit 1
 fi
 #-------------------------------------------------------#
