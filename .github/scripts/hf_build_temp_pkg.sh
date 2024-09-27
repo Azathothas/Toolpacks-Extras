@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ## <CAN BE RUN STANDALONE>
 ## <REQUIRES: hf_setup_env>
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/hf_build_standalone.sh")
-# source <(curl -qfsSL "https://l.ajam.dev/hf-build-standalone")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/hf_build_temp_pkg.sh")
+# source <(curl -qfsSL "https://l.ajam.dev/hf-build-temp-pkg")
 ##
 #-------------------------------------------------------#
 
