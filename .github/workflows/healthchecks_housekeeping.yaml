@@ -155,8 +155,8 @@ jobs:
             jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "$SYSTMP/aarch64-Linux-METADATA.json" "$SYSTMP/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
             sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux|https://pkg.ajam.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux|https://pkg.ajam.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
            #Gen Yaml
-            cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy > "${GITHUB_WORKSPACE}/main/METADATA.yaml"
-            cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy > "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
+            cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.yaml"
+            cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
           popd >/dev/null 2>&1
           #Sync
            if jq --exit-status . "${GITHUB_WORKSPACE}/main/METADATA.json" >/dev/null 2>&1; then
@@ -203,7 +203,7 @@ jobs:
           #-------------#
           if jq empty "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" 2>/dev/null; then
             #Convert to YAML
-             cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | yj -jy > yq . > "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.yaml"
+             cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | yj -jy | yq . > "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.yaml"
             ##Gen aarch64-Linux/DETAILED.md
              cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "### [`\(.name // "" | if . == null or . == "" then "" else . end)` 📀](\(.download_url // "" | if . == null or . == "" then "" else . end))\n- **PKG_Name 📦:** \(.bin_name // "" | if . == null or . == "" then "" else . end)\n- **Version 🧬:** `\(.version // "" | if . == null or . == "" then "" else . end)`\n- **Description ℹ️:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note ⚠️:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Homepage 🌐:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Source 📡:** [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end))\n- **Download ⬇️:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Size 💾:** `\(.size // "" | if . == null or . == "" then "" else . end)`\n- **SHA256SUM 🔐:** `\(.shasum // "" | if . == null or . == "" then "" else . end)`\n- **B3SUM 🔐:** `\(.bsum // "" | if . == null or . == "" then "" else . end)`\n- **Script ⚙️:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Log 🧾:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/aarch64-Linux/DETAILED.md"
             ##aarch64-Linux/README.md
