@@ -165,7 +165,9 @@ if jq --exit-status . "${TMPDIR}/METADATA.json.bak" >/dev/null 2>&1; then
        find "${HF_REPO_LOCAL}" -type f -size -3c -delete
        rm "./${HOST_TRIPLET}/METADATA.json.tmp"
        cp "${TMPDIR}/METADATA.json" "./${HOST_TRIPLET}/METADATA.json"
-       jq -r tostring "${TMPDIR}/METADATA.json" > "./${HOST_TRIPLET}/METADATA.min.json"
+       #jq -r tostring "${TMPDIR}/METADATA.json" > "./${HOST_TRIPLET}/METADATA.min.json"
+       sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/$(uname -m)-$(uname -s)|https://pkg.ajam.dev/$(uname -m)|g" \
+       "./${HOST_TRIPLET}/METADATA.json" | jq -r tostring > "./${HOST_TRIPLET}/METADATA.min.json"
       #Commit & Push
        git add --all --verbose && git commit -m "[+] METADATA (${HOST_TRIPLET}) [$(TZ='UTC' date +'%Y_%m_%d')]"
        git branch -a || git show-branch
