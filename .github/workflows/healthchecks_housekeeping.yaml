@@ -178,6 +178,24 @@ jobs:
            fi
         continue-on-error: true
 
+      - name: Update TOTAL_PACKAGES
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Presets
+          set +x ; set +e
+          #--------------#          
+          ##aarch64-Linux/
+           unset TOTAL_PACKAGES
+           TOTAL_PACKAGES="$(curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/METADATA.json" | jq '.[] | select(.host == "aarch64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="${TOTAL_PACKAGES}"
+           sed 's#\(tree/main/aarch64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
+          ##x86_64-Linux/
+           unset TOTAL_PACKAGES
+           TOTAL_PACKAGES="$(curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="${TOTAL_PACKAGES}"
+           sed 's#\(tree/main/x86_64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
+        continue-on-error: true
+
       - name: Get DateTime
         run: |
           #Presets
