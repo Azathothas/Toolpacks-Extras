@@ -99,9 +99,9 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          cd "${GITHUB_WORKSPACE}/main/.github/scripts/aarch64_Linux/pkgs"
+          cd "${GITHUB_WORKSPACE}/main/.github/scripts/aarch64-Linux/pkgs"
           find "." -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
-          cd "${GITHUB_WORKSPACE}/main/.github/scripts/x86_64_Linux/pkgs"
+          cd "${GITHUB_WORKSPACE}/main/.github/scripts/x86_64-Linux/pkgs"
           find "." -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
         continue-on-error: true
 
