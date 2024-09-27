@@ -196,6 +196,22 @@ jobs:
            sed 's#\(tree/main/x86_64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
         continue-on-error: true
 
+      - name: Generate README (aarch64)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          if jq empty "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" 2>/dev/null; then
+            #Convert to YAML
+             cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | yj -jy > yq . > "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.yaml"
+            ##Gen aarch64-Linux/DETAILED.md
+             cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "### [`\(.name // "" | if . == null or . == "" then "" else . end)` 📀](\(.download_url // "" | if . == null or . == "" then "" else . end))\n- **PKG_Name 📦:** \(.bin_name // "" | if . == null or . == "" then "" else . end)\n- **Version 🧬:** `\(.version // "" | if . == null or . == "" then "" else . end)`\n- **Description ℹ️:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note ⚠️:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Homepage 🌐:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Source 📡:** [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end))\n- **Download ⬇️:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Size 💾:** `\(.size // "" | if . == null or . == "" then "" else . end)`\n- **SHA256SUM 🔐:** `\(.shasum // "" | if . == null or . == "" then "" else . end)`\n- **B3SUM 🔐:** `\(.bsum // "" | if . == null or . == "" then "" else . end)`\n- **Script ⚙️:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Log 🧾:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n\n---\n"' > "$GITHUB_WORKSPACE/main/aarch64-Linux/DETAILED.md"
+            ##aarch64-Linux/README.md
+             {echo '|PKG 📀|PKG_Name 📦|Version 🧬| Description ℹ️|Note ⚠️|Homepage 🌐|Source 📡|Size 💾|SHA256SUM 🔐|B3SUM 🔐|Script ⚙️|Log 🧾|';echo '| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |';cat "$GITHUB_WORKSPACE/main/aarch64-Linux/METADATA.json" | sed 's/|/,/g' | jq -r '.[] | "| [`\(.name // "" | if . == null or . == "" then "" else . end)`](\(.download_url // "" | if . == null or . == "" then "" else . end)) | \(.bin_name // "" | if . == null or . == "" then "" else . end) | \(.version // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.note // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end)) |\(.size // "" | if . == null or . == "" then "" else . end) | `\(.shasum // "" | if . == null or . == "" then "" else . end)` | `\(.bsum // "" | if . == null or . == "" then "" else . end)` | \(.build_script // "" | if . == null or . == "" then "" else . end) | \(.build_log // "" | if . == null or . == "" then "" else . end) | \(.category // "" | if . == null or . == "" then "" else . end)|"';} > "$GITHUB_WORKSPACE/main/aarch64-Linux/README.md"
+             sed 's/||//g' -i "$GITHUB_WORKSPACE/main/aarch64-Linux/README.md"
+          fi
+        continue-on-error: true
+
       - name: Get DateTime
         run: |
           #Presets
@@ -213,12 +229,6 @@ jobs:
           commit_message: "✅ Updated (Metadata) 🛍️ <-- ${{ env.UTC_TIME }} ⌚"
           #push_options: '--force'
         continue-on-error: true
-
-
-
-
-
-
 #------------------------------------------------------------------------------------#
       - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/${GITHUB_REPOSITORY}")
         run: |
