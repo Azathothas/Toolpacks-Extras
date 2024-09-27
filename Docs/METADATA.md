@@ -62,4 +62,4 @@
 > > curl -qfsSLO "https://pkg.ajam.dev/$(uname -m)/$PKG_OR_PATH_TO_PKG"
 > >
 > > ```
-> ![image](https://github.com/user-attachments/assets/93a2b039-ee7f-4120-8bc7-c795d5f27303)
+> ![image](https://github.com/user-attachments/assets/26b2fe7a-48ce-4661-b184-13a5e3f3a149)
