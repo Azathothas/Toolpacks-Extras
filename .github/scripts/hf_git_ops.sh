@@ -53,7 +53,7 @@ pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:non
  mkdir -p "${HF_REPO_PKGDIR}" ; git fetch origin main ; git lfs track "./${HOST_TRIPLET}/**"
  git sparse-checkout disable
  git sparse-checkout set --no-cone --sparse-index "/METADATA.json" \
- "${HOST_TRIPLET}/*.json" "${HOST_TRIPLET}/*.log" "${HOST_TRIPLET}/*.temp" "${HOST_TRIPLET}/*.tmp" "${HOST_TRIPLET}/*.txt"
+ "${HOST_TRIPLET}/*.json" "${HOST_TRIPLET}/*.log" "${HOST_TRIPLET}/*.temp" "${HOST_TRIPLET}/*.tmp" "${HOST_TRIPLET}/*.txt" "${HOST_TRIPLET}/*.yaml" "${HOST_TRIPLET}/*.yml"
  git checkout ; ls -lah "." "./${HOST_TRIPLET}"
  git sparse-checkout list
 #Fetch Bins

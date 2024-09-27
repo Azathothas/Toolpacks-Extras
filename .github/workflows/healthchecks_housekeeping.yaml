@@ -23,13 +23,13 @@ jobs:
       contents: write
       
     steps:
-      - name: Debloat Runner
-        run: |
-          #Presets
-          set +x ; set +e
-          #--------------#
-          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
-        continue-on-error: true
+      #- name: Debloat Runner
+      #  run: |
+      #    #Presets
+      #    set +x ; set +e
+      #    #--------------#
+      #    bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+      #  continue-on-error: true
         
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -163,9 +163,9 @@ jobs:
              pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras" && cd "./Toolpacks-Extras"
                git lfs install
                huggingface-cli lfs-enable-largefiles "."
-               git fetch origin main ; git lfs track "./METADATA.json" "./METADATA.yaml"
+               git fetch origin main ; git lfs track "./METADATA.json" "./METADATA.min.json" "./METADATA.yaml" "./METADATA.min.yaml"
                git sparse-checkout disable
-               git sparse-checkout set --no-cone --sparse-index "/METADATA.json" "/METADATA.yaml"
+               git sparse-checkout set --no-cone --sparse-index "/METADATA.json" "/METADATA.min.json" "/METADATA.yaml" "/METADATA.min.yaml"
                git checkout ; ls -lah "." 
                cat "${GITHUB_WORKSPACE}/main/METADATA.json" | jq . > "./METADATA.json"
                cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | jq . > "./METADATA.min.json"
@@ -205,7 +205,7 @@ jobs:
       - name: rClone BackUp Repo ("https://pub.ajam.dev/repos/${GITHUB_REPOSITORY}")
         run: |
           # Presets
-          set -x ; set +e
+          set +x ; set +e
           #--------------#
           #touch "$HOME/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
