@@ -7,7 +7,7 @@ category:
  - "emulator"
  - "hypervisor"
 description: "Emulator of x86-based machines (AppImage)"
-note: "(CI_VERIFIED: https://github.com/86Box/86Box/actions)"
+note: "You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)"
 web_url: "https://86box.readthedocs.io"
 path: "/"
 src_url: "https://github.com/86Box/86Box"
