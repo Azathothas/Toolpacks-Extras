@@ -1,3 +1,22 @@
+### [`86box.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/86box.AppImage)
+- **PKG_Name 📦:** 86box
+- **Version 🧬:** `v4.2.1`
+- **Description ℹ️:** Emulator of x86-based machines (AppImage)
+- **Note ⚠️:** You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)
+- **Homepage 🌐:** [https://86box.readthedocs.io](https://86box.readthedocs.io)
+- **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/86box.AppImage
+- **Size 💾:** `57.96 MB`
+- **SHA256SUM 🔐:** `769c5930e7d0abce45d68591f85ff44157a7d2611f069c2c9fd2a94b8c24b20f`
+- **B3SUM 🔐:** `b5412cf2599826c17b6b14cf2364e87a8138d4516eee4844cec7570948b6fd50`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/86box.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/86box.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/86box.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/86box.zsync
+
+---
+
 ### [`inkscape.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage)
 - **PKG_Name 📦:** inkscape
 - **Version 🧬:** `1.3.2`

@@ -1,3 +1,19 @@
+- name: 86box.AppImage
+  bin_name: 86box
+  description: Emulator of x86-based machines (AppImage)
+  note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
+  version: v4.2.1
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.AppImage
+  size: 57.96 MB
+  bsum: b5412cf2599826c17b6b14cf2364e87a8138d4516eee4844cec7570948b6fd50
+  shasum: 769c5930e7d0abce45d68591f85ff44157a7d2611f069c2c9fd2a94b8c24b20f
+  build_date: 2024-09-28T17:50:21
+  src_url: https://github.com/86Box/86Box
+  web_url: https://86box.readthedocs.io
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.log
+  category: emulator,hypervisor
+  extra_bins: ""
 - name: inkscape.AppImage
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
@@ -7,12 +23,12 @@
   size: 96.33 MB
   bsum: 682b03f69728600812cab59b13fea9bb43fdb0e9176fd0ca18e3ff7ca8e568d3
   shasum: 59562a5191e9aec18fde3e15d803bd01b909c3ffd763007e00c60f58de3794b0
-  build_date: 2024-09-27T10:23:39
+  build_date: 2024-09-28T18:27:18
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.log
-  category: Graphics,multimedia
+  category: graphics,multimedia
   extra_bins: inkscape-dev.AppImage,inkscape.NixAppImage
 - name: inkscape.NixAppImage
   bin_name: inkscape
@@ -23,12 +39,12 @@
   size: 254.07 MB
   bsum: 72d8884483215c6c82c611237ee8a2a65de7570ed4f2a14c9215e3d026d8b520
   shasum: d1824d0883c894bca45bf7bcc4622db4c0e0069ee38be8ee1127e0a3fcf1bd10
-  build_date: 2024-09-27T10:26:17
+  build_date: 2024-09-28T18:27:26
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.log
-  category: Graphics,multimedia
+  category: graphics,multimedia
   extra_bins: inkscape.AppImage,inkscape-dev.AppImage
 - name: librewolf.AppImage
   bin_name: librewolf
@@ -39,7 +55,7 @@
   size: 93.68 MB
   bsum: 1ca6ec33cf566e396dbfd8c8611c59cbe1994bd2510d9a674d62e8b2aba131c2
   shasum: c48b030825134d051e4c218047d05a6448e43f1679451749a89dafdf2b10e75b
-  build_date: 2024-09-27T10:26:39
+  build_date: 2024-09-28T18:27:18
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -55,7 +71,7 @@
   size: 344.45 MB
   bsum: da5891d092a306ff72afafa936a70e0202ef94bae2d5e4af3e1ae69aeef43097
   shasum: d55864615efb55965ad65efc43cd006f94b7a86ed25b54c6241f97a8cc9d0ccf
-  build_date: 2024-09-27T10:28:28
+  build_date: 2024-09-28T18:27:29
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -71,7 +87,7 @@
   size: 364 MB
   bsum: 69301abfb161bd9e4a8e1e517285fb0be1a3cd0761c72594c8a43c133aba4813
   shasum: 6213e10bef742c1af4ba8e82e65677573c85d5a5dba776f4e312ddd351c37354
-  build_date: 2024-09-27T10:30:22
+  build_date: 2024-09-28T18:27:30
   src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
   web_url: https://mullvad.net/en/browser
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
@@ -87,7 +103,7 @@
   size: 108.78 MB
   bsum: 6038bb7cb0e1262ac576e5ce03b4976795ff518bfd067cbbb048933539a9dc74
   shasum: 9c3d05eea103426ca850d2fe251e03f9fbbf23006bb1d2058772f0e00430f04a
-  build_date: 2024-09-27T10:28:38
+  build_date: 2024-09-28T18:27:19
   src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
   web_url: https://mullvad.net/en/browser
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
