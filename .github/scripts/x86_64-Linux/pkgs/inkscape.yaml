@@ -6,7 +6,7 @@ bins:
   - "inkscape-dev.AppImage"
   - "inkscape.NixAppImage"
 category:
- - "Graphics"
+ - "graphics"
  - "multimedia"
 description: "FOSS Vector Graphics Editor (AppImage|NixAppImage)"
 note: "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)"

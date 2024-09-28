@@ -1,0 +1,13 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/aarch64/86box
+name: "86box"
+bin_name: "86box"
+bins:
+  - "86box.AppImage"
+category:
+ - "emulator"
+ - "hypervisor"
+description: "Emulator of x86-based machines (AppImage)"
+note: "(CI_VERIFIED: https://github.com/86Box/86Box/actions)"
+web_url: "https://86box.readthedocs.io"
+path: "/"
+src_url: "https://github.com/86Box/86Box"
