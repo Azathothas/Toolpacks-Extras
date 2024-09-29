@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #affine : FOSS Knowledge Base with fully merged docs, whiteboards and databases
 export BIN="affine"
 export SOURCE_URL="https://github.com/toeverything/AFFiNE"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch

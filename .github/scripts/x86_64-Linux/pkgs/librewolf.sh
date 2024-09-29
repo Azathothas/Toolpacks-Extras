@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #librewolf : LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom
 export BIN="librewolf"
 export SOURCE_URL="https://gitlab.com/librewolf-community/browser"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch

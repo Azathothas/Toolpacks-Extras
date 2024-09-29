@@ -20,19 +20,19 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#acreom : An IDE based Knowledge Base using Markdown
-export BIN="acreom"
-export SOURCE_URL="https://github.com/Acreom/releases"
+#qbittorrent-enhanced : A qBittorrent for with Enhanced Features
+export BIN="qbittorrent-enhanced"
+export SOURCE_URL="https://github.com/c0re100/qBittorrent-Enhanced-Edition"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="acreom"
+       export APP="qbittorrent-enhanced"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "AppImage" --asset "^aarch64" --asset "^arm" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset ".AppImage" --asset "x86_64"  --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version

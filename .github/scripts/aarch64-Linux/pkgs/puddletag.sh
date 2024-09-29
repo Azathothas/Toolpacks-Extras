@@ -25,7 +25,7 @@ export SKIP_BUILD="NO"
 #puddletag : Powerful, simple, audio tag editor for GNU/Linux
 export BIN="puddletag"
 export SOURCE_URL="https://github.com/puddletag/puddletag"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="YES"

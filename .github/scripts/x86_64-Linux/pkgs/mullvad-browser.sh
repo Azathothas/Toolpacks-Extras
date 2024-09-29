@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #mullvad-browser : Privacy-focused browser for Linux, macOS and Windows
 export BIN="mullvad-browser"
 export SOURCE_URL="https://github.com/mullvad/mullvad-browser"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
       ##Fetch (NO --exclude-pre-releases)

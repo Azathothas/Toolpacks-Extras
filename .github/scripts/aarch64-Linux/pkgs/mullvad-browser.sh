@@ -23,7 +23,7 @@ export SKIP_BUILD="YES" #no aarch64 support yet
 #mullvad-browser : Privacy-focused browser for Linux, macOS and Windows
 export BIN="mullvad-browser"
 export SOURCE_URL="https://github.com/mullvad/mullvad-browser"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
       ##https://github.com/mullvad/mullvad-browser/issues/11

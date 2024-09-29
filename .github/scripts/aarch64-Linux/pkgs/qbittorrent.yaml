@@ -1,0 +1,14 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qbittorrent
+name: "qbittorrent"
+bin_name: "qbittorrent"
+bins:
+  - "qbittorrent.AppImage"
+  - "qbittorrent.NixAppImage"  
+category:
+ - "downloader"
+ - "torrent"
+description: "A qBittorrent for with Enhanced Features (AppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)"
+web_url: "https://www.qbittorrent.org"
+path: "/"
+src_url: "https://github.com/qbittorrent/qBittorrent"

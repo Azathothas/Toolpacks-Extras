@@ -1,0 +1,13 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/qbittorrent-enhanced
+name: "qbittorrent-enhanced"
+bin_name: "qbittorrent-enhanced"
+bins:
+  - "qbittorrent-enhanced.AppImage"
+category:
+ - "downloader"
+ - "torrent"
+description: "A qBittorrent for with Enhanced Features (AppImage)"
+note: "(CI_VERIFIED: https://github.com/c0re100/qBittorrent-Enhanced-Edition/actions)"
+web_url: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
+path: "/"
+src_url: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"

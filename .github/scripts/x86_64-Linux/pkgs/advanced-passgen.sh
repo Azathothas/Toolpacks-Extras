@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #advanced-passgen : Advanced Password Generator
 export BIN="advanced-passgen"
 export SOURCE_URL="https://github.com/CodeDead/Advanced-PassGen"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch

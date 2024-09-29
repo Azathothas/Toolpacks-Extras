@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #inkscape : FOSS Vector Graphics Editor
 export BIN="inkscape"
 export SOURCE_URL="https://gitlab.com/inkscape/inkscape"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
       ##Fetch (Dev)

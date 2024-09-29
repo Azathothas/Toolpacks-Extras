@@ -23,7 +23,7 @@ export SKIP_BUILD="NO"
 #olive-editor : Free open-source non-linear video editor
 export BIN="olive-editor"
 export SOURCE_URL="https://github.com/olive-editor/olive"
-if [ "$SKIP_BUILD" == "NO" ]; then
+if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch
