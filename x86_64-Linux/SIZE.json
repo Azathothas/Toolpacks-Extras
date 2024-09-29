@@ -146,5 +146,17 @@
   {
     "filename": "./86box.AppImage.zsync",
     "size": "198.32 kB"
+  },
+  {
+    "filename": "./86box.DirIcon",
+    "size": "78.43 kB"
+  },
+  {
+    "filename": "./86box.desktop",
+    "size": "263 B"
+  },
+  {
+    "filename": "./86box.icon.png",
+    "size": "78.43 kB"
   }
 ]
