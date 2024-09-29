@@ -6,6 +6,7 @@ bins:
 category:
  - "ide"
  - "knowledge-base"
+ - "wiki"
 description: "An IDE based Knowledge Base using Markdown (AppImage)"
 note: "Closed Source<br>(CI_VERIFIED: NONE)"
 web_url: "https://acreom.com"

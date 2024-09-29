@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export APP="86box"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --asset "Linux" --asset "arm64" --asset "AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "Linux" --asset "arm64" --asset "AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version

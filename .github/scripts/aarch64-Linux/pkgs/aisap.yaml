@@ -1,0 +1,14 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aisap
+name: "aisap"
+bin_name: "aisap"
+bins:
+  - "aisap.AppImage"
+  - "aisap.shimg"
+category:
+ - "cli"
+ - "sandbox"
+description: "Tool to make sandboxing AppImages easy (AppImage | shImg)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)"
+web_url: "https://github.com/mgord9518/aisap"
+path: "/"
+src_url: "https://github.com/mgord9518/aisap"

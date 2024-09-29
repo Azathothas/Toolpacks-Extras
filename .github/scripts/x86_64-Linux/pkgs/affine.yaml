@@ -1,0 +1,14 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine
+name: "affine"
+bin_name: "affine"
+bins:
+  - "affine.AppImage"
+  - "affine.NixAppImage"
+category:
+ - "knowledge-base"
+ - "wiki"
+description: "Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)"
+web_url: "https://affine.pro"
+path: "/"
+src_url: "https://github.com/toeverything/AFFiNE"

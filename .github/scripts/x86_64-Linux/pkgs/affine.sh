@@ -20,21 +20,19 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#librewolf : LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom
-export BIN="librewolf"
-export SOURCE_URL="https://gitlab.com/librewolf-community/browser"
+#affine : FOSS Knowledge Base with fully merged docs, whiteboards and databases
+export BIN="affine"
+export SOURCE_URL="https://github.com/toeverything/AFFiNE"
 if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="librewolf"
+       export APP="affine"
        export PKG_NAME="${APP}.AppImage"
-       RELEASE_TAG="$(curl -qfsSL "https://gitlab.com/api/v4/projects/24386000/releases/" | jq -r '.[0].tag_name' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       curl -qfsSL "https://gitlab.com/api/v4/projects/24386000/releases/${RELEASE_TAG}" | jq --arg ARCH "$(uname -m)" \
-       -r '.assets | (.sources[]?.url, .links[]?.url) | select(. | contains($ARCH) and endswith(".AppImage"))' | tr -d '[:space:]'|\
-       xargs -I "{}" curl -qfsSL "{}" -o "${OWD}/${PKG_NAME}"
+       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "stable" --asset "linux" --asset "x64" --asset "appimage" --asset "^aarch64" --asset "^arm" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
@@ -166,7 +164,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        fi
       #End
        popd >/dev/null 2>&1
-    fi   
+    fi       
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
