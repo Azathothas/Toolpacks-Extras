@@ -1,18 +1,34 @@
+- name: 86box.AppImage
+  bin_name: 86box
+  description: Emulator of x86-based machines (AppImage)
+  note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
+  version: v4.2.1
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/86box.AppImage
+  size: 54.21 MB
+  bsum: 0a56b0009140fcc48a55dadb93b1b94bf5abb7186cb3c737977b4719ba667af6
+  shasum: 15b538e3bd37a98f39b9a0031b27aa04643beecc13279b17d0be63a047670024
+  build_date: 2024-09-29T11:46:53
+  src_url: https://github.com/86Box/86Box
+  web_url: https://86box.readthedocs.io
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/86box.log
+  category: emulator,hypervisor
+  extra_bins: ""
 - name: inkscape.NixAppImage
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
   version: 1.3.2
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.NixAppImage
-  size: 245.78 MB
-  bsum: 6c3d6b4579f1277ebab8bb89c3a6da22b515be5d24ae6ea44355eea0352b25a1
-  shasum: 8d20e47de838ca3817d161d9f36d95b9bd8831313c5fc80798ababb594b46d22
-  build_date: 2024-09-27T10:07:40
+  size: 245.76 MB
+  bsum: 074497b00ca5d21013afc43ab03e0717e0534e453fd83642940e991e7e6a02f9
+  shasum: c8b9e3138750178311b47e64a48615a0580425958c06963cb16d033614630341
+  build_date: 2024-09-29T11:50:57
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.log
-  category: Graphics,multimedia
+  category: graphics,multimedia
   extra_bins: inkscape.AppImage,inkscape-dev.AppImage
 - name: librewolf.AppImage
   bin_name: librewolf
@@ -20,10 +36,10 @@
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
   version: v130.0.1-1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.AppImage
-  size: 88.19 MB
-  bsum: 7cfa8f2d3324f9ae5f13245a78f61530d783b606c532ce60bb6e8559421d06a0
-  shasum: bb0fb8df760e3aced94f87cea27a0e1dddc1997d452d06f08cfc798d9be64924
-  build_date: 2024-09-27T10:08:09
+  size: 88.18 MB
+  bsum: 7ffd263769f2e67c02d9ac87d1fa22ee7887155936528ad9628a6b2bcc9f1d3a
+  shasum: ae1574e89be7e2d658d400c9134cf037abe4b60ed428388af5a70384acefcb03
+  build_date: 2024-09-29T11:51:34
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
@@ -37,9 +53,9 @@
   version: 130.0-3
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/librewolf.NixAppImage
   size: 333.96 MB
-  bsum: 43fe96c4b4157b66f389e23e4aeb4e6df89e2fa9b725df5e9ee1c9a567987321
-  shasum: b5af9abd5cfb2ef47f81b0c339629bd7893c79ee6502818cfb9e7cec6030acd1
-  build_date: 2024-09-27T10:09:27
+  bsum: f75183da61c0619aefdf40fe2760c42134f5bd9ba0ef06d96c41e64764bd9d09
+  shasum: 2dff61ed9d780db2fcb81ec8be0931ad973d338bc700dff6f9faae3c4d63b30d
+  build_date: 2024-09-29T11:54:22
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh

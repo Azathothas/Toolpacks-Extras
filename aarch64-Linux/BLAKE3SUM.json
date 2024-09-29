@@ -1,11 +1,11 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "e618b7a9d23ca6ce8d71f8b448adc712e572ff59135e5ab03e8a25cb13dd7986"
+    "sum": "a5d5931670a3f3604aac5098d2c7c1fb8a007f63a62913807a428ee6a4080dc6"
   },
   {
     "filename": "./FILE.json",
-    "sum": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262"
+    "sum": "4adf8185155b0139f1f63c3e8a69d61e9490a552291ebf9ada798f25ad8ecd09"
   },
   {
     "filename": "./METADATA.json",
@@ -13,7 +13,7 @@
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "35dc2a7d116fb188ad67559133cfcee2eef882d7cf3377e658ffe44adb2ce229"
+    "sum": "851212c4bbbc0d60b255e7b203b8d0b0f744b8b1d5988b4e60ca1601175744e8"
   },
   {
     "filename": "./METADATA.min.json",
@@ -21,42 +21,66 @@
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "7bce69d6cc840fc41a37cbbee3fb93fa1ddb81a4859e5e499d80447cc5165d8f"
+    "sum": "26b5837f6287f52e317ed6f89062dee7e806727a9b458349d6d3e97fe1c894a7"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "e842982a6aa71fa090fe6155fe4aff50fb56c76b243825d50b6cc876be62d4e5"
+    "sum": "a9d387381d1cf115a412ac30f0cd20fb1857750278e1b51ef429129241116e3b"
   },
   {
     "filename": "./librewolf.AppImage",
-    "sum": "7cfa8f2d3324f9ae5f13245a78f61530d783b606c532ce60bb6e8559421d06a0"
+    "sum": "7ffd263769f2e67c02d9ac87d1fa22ee7887155936528ad9628a6b2bcc9f1d3a"
   },
   {
     "filename": "./librewolf.NixAppImage",
-    "sum": "43fe96c4b4157b66f389e23e4aeb4e6df89e2fa9b725df5e9ee1c9a567987321"
+    "sum": "f75183da61c0619aefdf40fe2760c42134f5bd9ba0ef06d96c41e64764bd9d09"
   },
   {
     "filename": "./librewolf.log",
-    "sum": "9cd36ee87bea5ad243ba1c60b74ba1ab8e672bb25c110c7f173f1633a54faede"
+    "sum": "270b666cb7c5815d6283797396c2a95a116e15830b704bab0b56354310ab84bf"
   },
   {
     "filename": "./mullvad-browser.log",
-    "sum": "fe7d0c8f01e335cf894518fa24974054403d43fdb4ab9b63a5a598d89d7884fd"
+    "sum": "010f5a1f43cd68ee834d70a87cf7078faae44493aa42c944183d40d543daf7d1"
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "sum": "6c3d6b4579f1277ebab8bb89c3a6da22b515be5d24ae6ea44355eea0352b25a1"
+    "sum": "074497b00ca5d21013afc43ab03e0717e0534e453fd83642940e991e7e6a02f9"
   },
   {
     "filename": "./inkscape.log",
-    "sum": "ef707a7f6959ffd6da8e34a17d0a48c08d8eef971d219de22e4ce808fbf5ed3e"
+    "sum": "f3ed8da797cc8b3836c9ede04040c3185ebcdfaa72bdd6ab3a4bc37000729e45"
   },
   {
     "filename": "./olive-editor.log",
-    "sum": "5bb01503f20dd55e6c0cb8875389ab71dd9b6361f2da50789e422c8365a16fe1"
+    "sum": "a0c5a9aa61fbac846eeb2b948980cf67ac7178c317fa54e4065a74616ee9784f"
   },
   {
     "filename": "./86box.AppImage",
-    "sum": "a7505a343cf8d8affedd7bb6655dc10ea73b17ac4fe1341ba8989c76519e0cb7"
+    "sum": "0a56b0009140fcc48a55dadb93b1b94bf5abb7186cb3c737977b4719ba667af6"
+  },
+  {
+    "filename": "./86box.log",
+    "sum": "5169e5355ba244c41a6e7679035b26ec81b1cc205c7af14587cdae70da7c8635"
+  },
+  {
+    "filename": "./affine.log",
+    "sum": "d7687769f124f8f852dcf7678b3393df1f0dd58002b2c5b573f5bb46214eca85"
+  },
+  {
+    "filename": "./aisap.log",
+    "sum": "6d3c857afcacbddd5558f0d209d2d93ea1a7e26e7608a00e7c94dfb6abafb28c"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "sum": "0d8beaabe51c2b4569fc22adaa7639b5e2315776d9dea90fe2bf515bfb689364"
+  },
+  {
+    "filename": "./puddletag.log",
+    "sum": "0328b0a0b68dd07313a50d2bab314b09a649512abe52c363d3de1fdfc6c2a7bd"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "sum": "d9c54e6171972c19a98d8693ee3042bb18eb9284d7e3f3f92d1e1e8885372411"
   }
 ]

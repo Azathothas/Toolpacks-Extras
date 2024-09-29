@@ -57,7 +57,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (2531), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (490), with CR, LF line terminators"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -65,7 +65,7 @@
   },
   {
     "filename": "./olive-editor.log",
-    "type": "ASCII text"
+    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
   },
   {
     "filename": "./86box.AppImage",
@@ -74,5 +74,101 @@
   {
     "filename": "./METADATA.json.tmp",
     "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.log",
+    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
+  },
+  {
+    "filename": "./acreom.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./acreom.log",
+    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+  },
+  {
+    "filename": "./actual.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./actual.log",
+    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+  },
+  {
+    "filename": "./advanced-passgen.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./advanced-passgen.log",
+    "type": "ASCII text, with very long lines (498), with CR, LF line terminators"
+  },
+  {
+    "filename": "./affine.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./affine.log",
+    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+  },
+  {
+    "filename": "./aisap.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped"
+  },
+  {
+    "filename": "./aisap.log",
+    "type": "ASCII text, with CR, LF line terminators"
+  },
+  {
+    "filename": "./aisap.shimg",
+    "type": "POSIX shell script executable (binary data)"
+  },
+  {
+    "filename": "./i3.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./i3.log",
+    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
+  },
+  {
+    "filename": "./i3.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./obs-studio.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "type": "ASCII text, with very long lines (486), with CR, LF line terminators"
+  },
+  {
+    "filename": "./olive-editor.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./puddletag.log",
+    "type": "ASCII text, with very long lines (490)"
+  },
+  {
+    "filename": "./qbittorrent.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.log",
+    "type": "ASCII text, with very long lines (506), with CR, LF line terminators"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "type": "ASCII text, with very long lines (488), with CR, LF line terminators"
   }
 ]

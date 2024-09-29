@@ -1,11 +1,39 @@
 [
   {
+    "filename": "./86box.AppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./86box.log",
+    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
+  },
+  {
+    "filename": "./affine.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./aisap.log",
+    "type": "ASCII text, with CR, LF line terminators"
+  },
+  {
+    "filename": "./BLAKE3SUM.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.log",
+    "type": "ASCII text, with very long lines (2554)"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
     "filename": "./librewolf.AppImage",
     "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
   },
   {
     "filename": "./librewolf.log",
-    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (487), with CR, LF line terminators"
   },
   {
     "filename": "./librewolf.NixAppImage",
@@ -16,16 +44,32 @@
     "type": "JSON text data"
   },
   {
+    "filename": "./METADATA.json.tmp",
+    "type": "JSON text data"
+  },
+  {
     "filename": "./METADATA.min.json",
     "type": "JSON text data"
   },
   {
-    "filename": "./BLAKE3SUM.json",
-    "type": "JSON text data"
+    "filename": "./mullvad-browser.log",
+    "type": "ASCII text"
   },
   {
-    "filename": "./FILE.json",
-    "type": "JSON text data"
+    "filename": "./obs-studio.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./puddletag.log",
+    "type": "ASCII text, with very long lines (493)"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "type": "ASCII text"
   },
   {
     "filename": "./SHA256SUM.json",
@@ -34,25 +78,5 @@
   {
     "filename": "./SIZE.json",
     "type": "JSON text data"
-  },
-  {
-    "filename": "./METADATA.json.tmp",
-    "type": "JSON text data"
-  },
-  {
-    "filename": "./mullvad-browser.log",
-    "type": "ASCII text"
-  },
-  {
-    "filename": "./inkscape.log",
-    "type": "ASCII text"
-  },
-  {
-    "filename": "./inkscape.NixAppImage",
-    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
-  },
-  {
-    "filename": "./olive-editor.log",
-    "type": "ASCII text"
   }
 ]

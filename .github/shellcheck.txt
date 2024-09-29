@@ -1,29 +1,29 @@
 
-In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 131:
+In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 134:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 133:
+In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 136:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 134:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 135:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 137:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 140:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -31,31 +31,31 @@ In .github/scripts/aarch64-Linux/pkgs/librewolf.sh line 137:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 172:
+In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 175:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 174:
+In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 177:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 175:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 176:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 178:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 179:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 181:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -63,31 +63,95 @@ In .github/scripts/aarch64-Linux/pkgs/inkscape.sh line 178:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 99:
+In .github/scripts/aarch64-Linux/pkgs/obs-studio.sh line 135:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 101:
+In .github/scripts/aarch64-Linux/pkgs/obs-studio.sh line 137:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 102:
+In .github/scripts/aarch64-Linux/pkgs/obs-studio.sh line 138:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 103:
+In .github/scripts/aarch64-Linux/pkgs/obs-studio.sh line 139:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/obs-studio.sh line 141:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64-Linux/pkgs/qbittorrent.sh line 133:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/qbittorrent.sh line 135:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/qbittorrent.sh line 136:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/qbittorrent.sh line 137:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/qbittorrent.sh line 139:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 102:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 104:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 105:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 106:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 108:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -95,31 +159,95 @@ In .github/scripts/aarch64-Linux/pkgs/mullvad-browser.sh line 105:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 133:
+In .github/scripts/aarch64-Linux/pkgs/affine.sh line 132:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 135:
+In .github/scripts/aarch64-Linux/pkgs/affine.sh line 134:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 136:
+In .github/scripts/aarch64-Linux/pkgs/affine.sh line 135:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 137:
+In .github/scripts/aarch64-Linux/pkgs/affine.sh line 136:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
+In .github/scripts/aarch64-Linux/pkgs/affine.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64-Linux/pkgs/puddletag.sh line 82:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/puddletag.sh line 84:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/puddletag.sh line 85:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/puddletag.sh line 86:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/puddletag.sh line 88:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 136:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
 In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 139:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 140:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/aarch64-Linux/pkgs/olive-editor.sh line 142:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -135,31 +263,31 @@ In .github/scripts/hf_toolpacks_devenv.sh line 166:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 131:
+In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 134:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 133:
+In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 136:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 134:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 135:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 137:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 140:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -167,31 +295,31 @@ In .github/scripts/x86_64-Linux/pkgs/librewolf.sh line 137:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 174:
+In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 177:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 176:
+In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 179:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 177:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-
-
-In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 178:
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
-                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 180:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 181:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 183:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -199,31 +327,127 @@ In .github/scripts/x86_64-Linux/pkgs/inkscape.sh line 180:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 98:
+In .github/scripts/x86_64-Linux/pkgs/obs-studio.sh line 135:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 100:
+In .github/scripts/x86_64-Linux/pkgs/obs-studio.sh line 137:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 101:
+In .github/scripts/x86_64-Linux/pkgs/obs-studio.sh line 138:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 102:
+In .github/scripts/x86_64-Linux/pkgs/obs-studio.sh line 139:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/obs-studio.sh line 141:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64-Linux/pkgs/qbittorrent.sh line 133:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/qbittorrent.sh line 135:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/qbittorrent.sh line 136:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/qbittorrent.sh line 137:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/qbittorrent.sh line 139:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64-Linux/pkgs/i3.sh line 137:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/i3.sh line 139:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/i3.sh line 140:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/i3.sh line 141:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/i3.sh line 143:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 101:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 103:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
 In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 104:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 105:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 107:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
@@ -231,31 +455,95 @@ In .github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh line 104:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 133:
+In .github/scripts/x86_64-Linux/pkgs/affine.sh line 132:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 135:
+In .github/scripts/x86_64-Linux/pkgs/affine.sh line 134:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 136:
+In .github/scripts/x86_64-Linux/pkgs/affine.sh line 135:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 137:
+In .github/scripts/x86_64-Linux/pkgs/affine.sh line 136:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
+In .github/scripts/x86_64-Linux/pkgs/affine.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 82:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 84:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 85:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 86:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 88:
+            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                 ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
+
+In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 136:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                         ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 138:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                             ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
 In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 139:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                                ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 140:
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+                                                                                                               ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+                                                                                                                              ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
+
+
+In .github/scripts/x86_64-Linux/pkgs/olive-editor.sh line 142:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
