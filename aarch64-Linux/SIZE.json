@@ -5,7 +5,7 @@
   },
   {
     "filename": "./librewolf.AppImage",
-    "size": "88.19 MB"
+    "size": "88.18 MB"
   },
   {
     "filename": "./librewolf.AppImage.version",
@@ -13,7 +13,7 @@
   },
   {
     "filename": "./librewolf.AppImage.zsync",
-    "size": "301.64 kB"
+    "size": "301.62 kB"
   },
   {
     "filename": "./librewolf.DirIcon",
@@ -41,11 +41,11 @@
   },
   {
     "filename": "./librewolf.log",
-    "size": "65.22 kB"
+    "size": "93.09 kB"
   },
   {
     "filename": "./mullvad-browser.log",
-    "size": "1457 B"
+    "size": "1458 B"
   },
   {
     "filename": "./inkscape-dev.AppImage.version",
@@ -61,7 +61,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "size": "245.78 MB"
+    "size": "245.76 MB"
   },
   {
     "filename": "./inkscape.NixAppImage.version",
@@ -69,7 +69,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "840.28 kB"
+    "size": "840.21 kB"
   },
   {
     "filename": "./inkscape.desktop",
@@ -81,10 +81,66 @@
   },
   {
     "filename": "./inkscape.log",
-    "size": "234.39 kB"
+    "size": "341.54 kB"
   },
   {
     "filename": "./olive-editor.log",
-    "size": "2809 B"
+    "size": "2810 B"
+  },
+  {
+    "filename": "./86box.AppImage",
+    "size": "54.21 MB"
+  },
+  {
+    "filename": "./86box.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./86box.AppImage.zsync",
+    "size": "185.48 kB"
+  },
+  {
+    "filename": "./86box.DirIcon",
+    "size": "15.89 kB"
+  },
+  {
+    "filename": "./86box.desktop",
+    "size": "264 B"
+  },
+  {
+    "filename": "./86box.icon.png",
+    "size": "15.89 kB"
+  },
+  {
+    "filename": "./86box.log",
+    "size": "12.23 kB"
+  },
+  {
+    "filename": "./affine.log",
+    "size": "1374 B"
+  },
+  {
+    "filename": "./aisap.log",
+    "size": "3050 B"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "size": "1412 B"
+  },
+  {
+    "filename": "./puddletag.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./puddletag.desktop",
+    "size": "172 B"
+  },
+  {
+    "filename": "./puddletag.log",
+    "size": "38.26 kB"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "size": "2765 B"
   }
 ]

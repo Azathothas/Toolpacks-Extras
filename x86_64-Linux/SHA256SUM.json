@@ -1,39 +1,39 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "ff5f399b46411163e8345552351fed41b7595d99d3f664c413e82fc37f8ef528"
+    "sum": "a8381c15cf62c64b6c44c8733c00aa5b7eb3d6efdcecf7be35600ba7986e59bb"
   },
   {
     "filename": "./FILE.json",
-    "sum": "20312727bb63b9f68fb93a01b74df483226af364fc0d806fed22bd9811c61de8"
+    "sum": "5b0a65dfe89128839c7fc33a16a7f7ae34fbe8fa8263f48e336313f748cf0f38"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "c02b2d5b119a27826f1568122ea4108e4d8b49640d08dc9c3c6b576057aa41cd"
+    "sum": "d392e8d4cb37551cda0f28eee7a563485a11de36f41dc13110412baec81df09a"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "c5db398b6ec642c44f12752fd68fb4b45d04a81f01bb8de480861588352fda4a"
+    "sum": "695bdf73bbe077bec7743cff2f6f1bba11597c5615336e9ad5b89fbd28202e0f"
   },
   {
     "filename": "./librewolf.AppImage",
-    "sum": "c48b030825134d051e4c218047d05a6448e43f1679451749a89dafdf2b10e75b"
+    "sum": "b99a68ebc8360527ab113df665056d5efdc8b8c01af051ed00cf96e62aa3f9cc"
   },
   {
     "filename": "./librewolf.NixAppImage",
-    "sum": "d55864615efb55965ad65efc43cd006f94b7a86ed25b54c6241f97a8cc9d0ccf"
+    "sum": "a470e2cae59628aaa9265ffc03eae0f20b0470e20bfcb2635ad6c18d2d42b28e"
   },
   {
     "filename": "./librewolf.log",
-    "sum": "9df18f8e2d53a80e1a4ebfb99872d4eeb501933d4971f7334b2afe34e07b4fbd"
+    "sum": "a53097da551af67a4944e9d09e646f9a909d3fa52f430e2ce8de92b1ebfe249e"
   },
   {
     "filename": "./mullvad-browser.NixAppImage",
-    "sum": "6213e10bef742c1af4ba8e82e65677573c85d5a5dba776f4e312ddd351c37354"
+    "sum": "7ceb41e452aa7828d6ababe493764f6c48fab1dec4bed4b124b0dd92d12a11d9"
   },
   {
     "filename": "./mullvad-browser.log",
-    "sum": "f3d6601e244093c241623455bc6bbe1321541b4aacea1728bf292c88ae97a5d3"
+    "sum": "4e743d23f140f1412d20c84baad635c04374d85c01df36aeb04ce6e449d0b4c3"
   },
   {
     "filename": "./METADATA.json",
@@ -53,26 +53,122 @@
   },
   {
     "filename": "./inkscape.AppImage",
-    "sum": "59562a5191e9aec18fde3e15d803bd01b909c3ffd763007e00c60f58de3794b0"
+    "sum": "999027bf1af436cf807eefe1250a95b4358798d9ecfbf08e4bec9dbe186e88cc"
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "sum": "d1824d0883c894bca45bf7bcc4622db4c0e0069ee38be8ee1127e0a3fcf1bd10"
+    "sum": "9fae3fd8fb39b736f5989a25c9fdcffa5b609a1305a4d6a0932290e8ba95410e"
   },
   {
     "filename": "./inkscape.log",
-    "sum": "e052e50f1e1ecfc704d831b1537f6eeb39ef3a1d841af6aa9a7ad81b53ce3e03"
+    "sum": "a7c750ab716b4bf2853f11ae28fb03d57fb96c75b5c61e5d179c1ff8f5541b38"
   },
   {
     "filename": "./olive-editor.log",
-    "sum": "c8e0ba706d60a9ce55027f75243b63a54498149821786583b1c02f11a341d05d"
+    "sum": "e8451e2c16189f53e6d1451f1604ad08c918e0e9f1ae1eb824a813cd92bc390f"
   },
   {
     "filename": "./86box.AppImage",
-    "sum": "6c8aa3e907ecd1d550645fa130c7d9a5b9cc0e3340ecabb0bec121e53826de37"
+    "sum": "d41c5e14a5cc52d4261866d6399cf3e970d344393a011c406ac3405901c58784"
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "7617904a55975448c2b03f0e6e70e111321e5d0e99f97d56d7c94d02f4a5ebb3"
+    "sum": "9b4fd5d8d15e434a3e5ad402ded148b806efd28799451e50da54b8a28bd135fe"
+  },
+  {
+    "filename": "./86box.log",
+    "sum": "7530f6c4b83446717594f979dbdd0809ffd9114bdf7a35cf2bf3fb2ca8e197f4"
+  },
+  {
+    "filename": "./acreom.AppImage",
+    "sum": "dc3353dc9babbd356fc59efe4ca2f82ddcc9a8681647f728637de4225caddd52"
+  },
+  {
+    "filename": "./acreom.log",
+    "sum": "54da7af706cf8f5dacbb3233dbe9663501bf1bb3b189a8cae5a40cdb5077ccdc"
+  },
+  {
+    "filename": "./actual.AppImage",
+    "sum": "462676ef25ac0296ccc4d364b48aaee9280bcca37f5458bc68884f95401e2ead"
+  },
+  {
+    "filename": "./actual.log",
+    "sum": "1f3445300dca5ed97f9f965a7a89e0b57f863923fb9cc7ff31f42d51e59e2894"
+  },
+  {
+    "filename": "./advanced-passgen.AppImage",
+    "sum": "f3d7afb9931a22e3163ebc416cf7b151bd039102c99a3f82ad5478ace12b297a"
+  },
+  {
+    "filename": "./advanced-passgen.log",
+    "sum": "3a0ae6492162cb12da9472bd1431ac2ba5cbf9b764ad14facf35927026ca387f"
+  },
+  {
+    "filename": "./affine.AppImage",
+    "sum": "cca2d1d145d26d2838f7bfe033284d3c7c587ef1cb168a3de60cc8caebb2ceba"
+  },
+  {
+    "filename": "./affine.log",
+    "sum": "c0d74c0aeff976a0f7532e1f4b8d74144794add264ac31df0d465393a9b5031c"
+  },
+  {
+    "filename": "./aisap.AppImage",
+    "sum": "72fa582902fb6228be2909c85ceadef309cc0b9fc2df9a703133b0a8cad19f15"
+  },
+  {
+    "filename": "./aisap.log",
+    "sum": "920e83280e21ecc842b72613779957f1522ce4043c39bf106a41047476a5740a"
+  },
+  {
+    "filename": "./aisap.shimg",
+    "sum": "f2460f95a37b59dbf6feda0f0cb4d5b22f650f67384b9bb401ede929047ff94f"
+  },
+  {
+    "filename": "./i3.AppImage",
+    "sum": "dfd0ec5c407cd86d293695083420ef0644828d943ba591393cdace22e95588ba"
+  },
+  {
+    "filename": "./i3.NixAppImage",
+    "sum": "704b1f7c1e0cca9d3a4b284b6365be3fff7786cf51cdf4a2784bb3a90d113dc1"
+  },
+  {
+    "filename": "./i3.log",
+    "sum": "22a65b418ce192654d055ba49c4695fc08fd9cd314485a6bfe39df470e8f58df"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage",
+    "sum": "60596728aaa10530bbd25d621e6b7a05019cfabce75983cc16477bf0a98c4ab5"
+  },
+  {
+    "filename": "./obs-studio.AppImage",
+    "sum": "9c1bc0d285d3dc0e4ab362c16f3a21020241ae03c3d30bdd54b33356f42da85f"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "sum": "2e94119b7674746174e59a1e05e9d3e95bec72eb195048fc3ad0073d2605f4f8"
+  },
+  {
+    "filename": "./olive-editor.AppImage",
+    "sum": "d0be4f44829988f379fefe528db45525ca100498b9108dd10f971cbcb52dc2e9"
+  },
+  {
+    "filename": "./puddletag.log",
+    "sum": "424e0dfaab4f223d25c120d4723a43da258b4d84594ca26caa526e26e05755fc"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage",
+    "sum": "656b2b7a8b274229d4943fe33ebcf9f5a2df31016611ad53ae993fb8bd9c5a45"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.log",
+    "sum": "4a6b6d02696a262d5dd06f2a90b89831a3c38cd9d4c5cc7cfab5f6731b2c64fd"
+  },
+  {
+    "filename": "./qbittorrent.AppImage",
+    "sum": "d5fdcc1bd67bc39016f596d1528514f01521ca8ca05966e1c305cea75c659850"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "sum": "71d38f2f3ccd4a5b2cdd3243aa22ef74690bbd68beb6e803e875730cfb42add2"
   }
 ]
