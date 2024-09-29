@@ -1,0 +1,15 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/i3
+name: "i3"
+bin_name: "i3"
+bins:
+  - "i3.AppImage"
+  - "i3.NixAppImage"
+category:
+ - "window"
+ - "window-manager"
+ - "wm"
+description: "A Tiling Window Manager (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)"
+web_url: "https://i3wm.org"
+path: "/"
+src_url: "https://github.com/i3/i3"

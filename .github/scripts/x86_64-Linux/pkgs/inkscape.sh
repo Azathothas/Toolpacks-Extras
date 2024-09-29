@@ -190,6 +190,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \

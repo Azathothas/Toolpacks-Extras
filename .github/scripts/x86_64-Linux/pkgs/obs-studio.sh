@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/puddletag.sh")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/obs-studio.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -22,20 +22,73 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#puddletag : Powerful, simple, audio tag editor for GNU/Linux
-export BIN="puddletag"
-export SOURCE_URL="https://github.com/puddletag/puddletag"
+#obs-studio : FOSS cross-platform screencasting and streaming app
+export BIN="obs-studio"
+export SOURCE_URL="https://github.com/obsproject/obs-studio"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES"
+      ##Fetch
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="obs-studio"
+       export PKG_NAME="${APP}.AppImage"
+       RELEASE_TAG="$(curl -qfsSL "https://gitlab.archlinux.org/archlinux/packaging/packages/obs-studio/-/raw/main/PKGBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       timeout 1m eget "https://github.com/ivan-hc/OBS-Studio-appimage" --tag "continuous" --asset "$(uname -m)" --asset ".AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+      #HouseKeeping 
+       if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
+       #Version
+         PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+         echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+       #Extract
+         APPIMAGE="${OWD}/${PKG_NAME}" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
+         "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
+         APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
+       #Repack  
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+          #Fix Media & Copy
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.png" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.png" \;
+           if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
+             find "${APPIMAGE_EXTRACT}" \( -path "*/128x128/apps/*${APP}*.png" -o -path "*/256x256/*${APP}*.png" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+           fi
+           rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
+           rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${BINDIR}/${BIN}.icon.png"
+           rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.desktop" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop" \;
+           if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.desktop" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.desktop") -le 3 ]]; then
+             find "${APPIMAGE_EXTRACT}" -path "*${APP}*.desktop" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
+           fi
+           sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
+           rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
+           ls -lah "${APPIMAGE_EXTRACT}"
+          #Pack
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
+           cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
+           --mksquashfs-opt -root-owned \
+           --mksquashfs-opt -no-xattrs \
+           --mksquashfs-opt -noappend \
+           --mksquashfs-opt -b --mksquashfs-opt "1M" \
+           --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
+           --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
+           --updateinformation "zsync|${HF_REPO_DL}/${PKG_NAME}.zsync" \
+           "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
+           find "${OWD}" -maxdepth 1 -name "*.zsync" -exec rsync -achL "{}" "${BINDIR}" \;
+           rm -rf "${OWD}" && popd >/dev/null 2>&1
+         fi
+       #Info
+         find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+       fi
+     #-------------------------------------------------------#
+    export BUILD_NIX_APPIMAGE="NO" #egl issues
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="puddletag"
-       export PKG_NAME="${APP}.NixAppImage"
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}" --log-format bar-with-logs
+       export APP="obs"
+       export PKG_NAME="${APP}-studio.NixAppImage"
+       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}-studio" --log-format bar-with-logs
       #Copy
        sudo rsync -achL "${OWD}/${APP}.AppImage" "${OWD}/${PKG_NAME}.tmp"
        sudo chown -R "$(whoami):$(whoami)" "${OWD}/${PKG_NAME}.tmp" && chmod -R 755 "${OWD}/${PKG_NAME}.tmp"
@@ -43,7 +96,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #HouseKeeping
        if [[ -f "${OWD}/${PKG_NAME}.tmp" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}.tmp") -gt 1024 ]]; then
        #Version
-         PKG_VERSION="$(nix derivation show "nixpkgs#${APP}" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
+         PKG_VERSION="$(nix derivation show "nixpkgs#${APP}-studio" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
          echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
        #Extract
          APPIMAGE="${OWD}/${PKG_NAME}.tmp" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
