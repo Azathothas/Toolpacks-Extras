@@ -1,19 +1,19 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "17c8b84ba0fbbdca2e72f76c3f26b5d80821baa9476200db793f4d5f7e4fdaa8"
+    "sum": "a50f2571ab209877962bbf7c12f9017ba092f1146b8798b462467492244a1492"
   },
   {
     "filename": "./FILE.json",
-    "sum": "f11faad2b1d901636e27d383d518d0936d4677e8cdf165a2bbdd139a94760643"
+    "sum": "e1a0c7940f0cef233eaa8b819ed895f56680d4c9f004e61cb6c1b68b5570e5e7"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "010855ea36b99ba51dfa448230f162f3ee1f71a99b7780d3b7841f62a028471c"
+    "sum": "211f63662037f2d0756e0525c58175fa78cfc2d38620a61e2ab741780bad5cf2"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "ca5ff8d0c14513a3a0ec05e99cd42d33af207382d912f8c13cd1436e6c43cc93"
+    "sum": "fef9a8eb04dfbd2f7774293496ae5ba123cd53652fd08b8a4530bf614b2d4b5c"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -37,11 +37,11 @@
   },
   {
     "filename": "./METADATA.json",
-    "sum": "47ca900268e4301de5f458c20b3d2e460075f1c367625e4b6956201cc53d6c1a"
+    "sum": "28bec3e7267ca4a797abab2fab096dfe56e87d759bcb331487e7cd6b2df72503"
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "51e33dc2f08a2b12bc7083152335e05c79276e98eb3c6324725202f6a7aad3cc"
+    "sum": "3682c20efc101375fbaa265ae1dc2758c8d6f36edcb0af1b6d1535ba3adbb83c"
   },
   {
     "filename": "./mullvad-browser.tar.xz",
@@ -69,6 +69,10 @@
   },
   {
     "filename": "./86box.AppImage",
-    "sum": "b5412cf2599826c17b6b14cf2364e87a8138d4516eee4844cec7570948b6fd50"
+    "sum": "6fd894b32bef0c4fd8d3c185e62f5285b9b7017439edb2960d1ebde3eb35acfb"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "sum": "f8ebcdd5666445c1c9474312b4f7b959ce34fdb69e674bd3f85f32a8481840d3"
   }
 ]

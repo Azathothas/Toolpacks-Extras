@@ -1,15 +1,15 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "23f4b20fcff0d650f39b0642f943223ca5456bb36bdc3cffae4acda29cfa456c"
+    "sum": "e618b7a9d23ca6ce8d71f8b448adc712e572ff59135e5ab03e8a25cb13dd7986"
   },
   {
     "filename": "./FILE.json",
-    "sum": "0e7fc00e255a3a7468f503ad29ee930f70cf64a3d965623f8e79c5a93548ad7f"
+    "sum": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262"
   },
   {
     "filename": "./METADATA.json",
-    "sum": "828fc06cc7e4d9545b76dfb3ad269b09a2e1b88878fb35078e16b922d3f7b55e"
+    "sum": "523d37d56e5b3f0803630a346bbb35827acd34a72c2da26380e970fea7bff292"
   },
   {
     "filename": "./METADATA.json.tmp",
@@ -17,11 +17,11 @@
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "276cc9e720348063427dffcbefddfeee4c9ff6b6f0ce87a877fc917295545b63"
+    "sum": "10be6c53a571734a5e5aaa97620bf81174d5034ccad06614b3ba9e66408e4592"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "a966e27f25d4b9cc6a41670376a21d9ec1eb1ff277aa650dd53d2c27b4b91c0d"
+    "sum": "7bce69d6cc840fc41a37cbbee3fb93fa1ddb81a4859e5e499d80447cc5165d8f"
   },
   {
     "filename": "./SIZE.json",
@@ -54,5 +54,9 @@
   {
     "filename": "./olive-editor.log",
     "sum": "5bb01503f20dd55e6c0cb8875389ab71dd9b6361f2da50789e422c8365a16fe1"
+  },
+  {
+    "filename": "./86box.AppImage",
+    "sum": "a7505a343cf8d8affedd7bb6655dc10ea73b17ac4fe1341ba8989c76519e0cb7"
   }
 ]
