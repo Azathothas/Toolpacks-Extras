@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#self: source 
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/puddletag.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -20,39 +22,18 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#mullvad-browser : Privacy-focused browser for Linux, macOS and Windows
-export BIN="mullvad-browser"
-export SOURCE_URL="https://github.com/mullvad/mullvad-browser"
+#puddletag : Powerful, simple, audio tag editor for GNU/Linux
+export BIN="puddletag"
+export SOURCE_URL="https://github.com/puddletag/puddletag"
 if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
-     #-------------------------------------------------------#
-      ##Fetch (NO --exclude-pre-releases)
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="mullvad-browser"
-       export PKG_NAME="${APP}.tar.xz"
-       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       gh release view "${RELEASE_TAG}" --repo "${SOURCE_URL}" --json "assets" \
-         --jq '.assets[].name' | grep -P 'linux.*x.*64.*\.tar\.xz$' | xargs -I "{}" \
-         gh release download --repo "${SOURCE_URL}" "${RELEASE_TAG}" --clobber --pattern "{}" \
-         --output "${OWD}/${PKG_NAME}"
-      #HouseKeeping 
-       if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
-       #Version
-         PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
-         echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
-       #Copy
-         rsync -achL --exclude="*/" "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
-       #Info
-         find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
-       fi
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="YES"
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="puddletag"
        export PKG_NAME="${APP}.NixAppImage"
        nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}" --log-format bar-with-logs
       #Copy
@@ -114,7 +95,6 @@ if [ "$SKIP_BUILD" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
-           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -133,7 +113,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        fi
       #End
        popd >/dev/null 2>&1
-    fi
+    fi       
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
