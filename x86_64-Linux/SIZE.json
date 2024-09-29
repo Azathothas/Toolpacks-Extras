@@ -17,7 +17,7 @@
   },
   {
     "filename": "./librewolf.DirIcon",
-    "size": "6177 B"
+    "size": "78.43 kB"
   },
   {
     "filename": "./librewolf.NixAppImage",
@@ -33,11 +33,11 @@
   },
   {
     "filename": "./librewolf.desktop",
-    "size": "677 B"
+    "size": "263 B"
   },
   {
     "filename": "./librewolf.icon.png",
-    "size": "6177 B"
+    "size": "78.43 kB"
   },
   {
     "filename": "./librewolf.log",
@@ -134,5 +134,17 @@
   {
     "filename": "./olive-editor.log",
     "size": "3161 B"
+  },
+  {
+    "filename": "./86box.AppImage",
+    "size": "57.96 MB"
+  },
+  {
+    "filename": "./86box.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./86box.AppImage.zsync",
+    "size": "198.32 kB"
   }
 ]
