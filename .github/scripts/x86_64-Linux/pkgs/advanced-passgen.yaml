@@ -1,0 +1,13 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/advanced-passgen
+name: "advanced-passgen"
+bin_name: "advanced-passgen"
+bins:
+  - "advanced-passgen.AppImage"
+category:
+ - "passgen"
+ - "password-manager"
+description: "Advanced Password Generator (AppImage)"
+note: "(CI_VERIFIED: https://github.com/CodeDead/Advanced-PassGen/actions)"
+web_url: "https://advancedpassgen.codedead.com"
+path: "/"
+src_url: "https://github.com/CodeDead/Advanced-PassGen"

@@ -48,19 +48,19 @@ hf_build_temp_pkg()
    ##Run
    #Locally
     if [[ "${LOCAL_SCRIPT}" == true ]] || [[ "${ARG}" == *.sh ]]; then
-      echo "\n[+] (--local) --> $(realpath ${ARG})\n"
+      echo -e "\n[+] (--local) --> $(realpath ${ARG})\n"
       { 
         source "$(realpath "${ARG}")"
       } > "${TEMP_LOG}" 2>&1
    #Remote    
     elif [[ "${REMOTE_SCRIPT}" == true ]]; then
         if [[ "${ARG}" != *.sh ]]; then
-         echo "\n[+] (--remote) --> ${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}.sh\n"
+         echo -e "\n[+] (--remote) --> ${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}.sh\n"
          { 
            source <(curl -qfsSL "${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}.sh")
          } > "${TEMP_LOG}" 2>&1
         else
-         echo "\n[+] (--remote) --> ${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}\n"
+         echo -e "\n[+] (--remote) --> ${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}\n"
          { 
            source <(curl -qfsSL "${GH_REPO_DL}/${HOST_TRIPLET}/pkgs/${ARG}")
          } > "${TEMP_LOG}" 2>&1

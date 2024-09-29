@@ -32,7 +32,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        export APP="86box"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --asset "Linux" --asset "x86_64" --asset "AppImage" "^.zsync" --to "${OWD}/${PKG_NAME}"
+       timeout 1m eget "${SOURCE_URL}" --asset "Linux" --asset "x86_64" --asset "AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
@@ -45,11 +45,17 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Repack  
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
           #Fix Media & Copy
-           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -iname "*.png" -exec mv -f {} "${APPIMAGE_EXTRACT}/${APP}.png" \;
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.png" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.png" \;
+           if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
+             find "${APPIMAGE_EXTRACT}" \( -path "*/128x128/apps/*${APP}*.png" -o -path "*/256x256/*${APP}*.png" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+           fi
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${BINDIR}/${BIN}.icon.png"
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
-           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -iname "*.desktop" -exec mv -f {} "${APPIMAGE_EXTRACT}/${APP}.desktop" \;
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.desktop" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop" \;
+           if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.desktop" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.desktop") -le 3 ]]; then
+             find "${APPIMAGE_EXTRACT}" -path "*${APP}*.desktop" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
+           fi
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
@@ -71,7 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
-       fi  
+       fi
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#

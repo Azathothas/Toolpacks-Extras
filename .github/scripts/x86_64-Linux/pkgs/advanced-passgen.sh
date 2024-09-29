@@ -20,19 +20,19 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#86box : Emulator of x86-based machines. and freedom
-export BIN="86box"
-export SOURCE_URL="https://github.com/86Box/86Box"
+#advanced-passgen : Advanced Password Generator
+export BIN="advanced-passgen"
+export SOURCE_URL="https://github.com/CodeDead/Advanced-PassGen"
 if [ "$SKIP_BUILD" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="86box"
+       export APP="advanced-passgen"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --asset "Linux" --asset "arm64" --asset "AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+       timeout 1m eget "${SOURCE_URL}" --asset "amd64" --asset "AppImage" --asset "^aarch64" --asset "^arm" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
@@ -77,7 +77,7 @@ if [ "$SKIP_BUILD" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
-       fi  
+       fi
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#

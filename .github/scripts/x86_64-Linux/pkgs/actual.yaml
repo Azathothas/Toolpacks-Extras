@@ -1,0 +1,12 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual
+name: "actual"
+bin_name: "actual"
+bins:
+  - "actual.AppImage"
+category:
+ - "finance"
+description: "A local-first personal finance app (AppImage)"
+note: "(CI_VERIFIED: https://github.com/actualbudget/actual/actions)"
+web_url: "https://actualbudget.org"
+path: "/"
+src_url: "https://github.com/actualbudget/actual"

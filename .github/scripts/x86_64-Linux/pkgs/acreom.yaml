@@ -1,0 +1,13 @@
+#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acreom
+name: "acreom"
+bin_name: "acreom"
+bins:
+  - "acreom.AppImage"
+category:
+ - "ide"
+ - "knowledge-base"
+description: "An IDE based Knowledge Base using Markdown (AppImage)"
+note: "Closed Source<br>(CI_VERIFIED: NONE)"
+web_url: "https://acreom.com"
+path: "/"
+src_url: "https://github.com/Acreom/releases"
