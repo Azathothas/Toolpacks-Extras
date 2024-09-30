@@ -39,11 +39,13 @@ fi
 ##Git OPS
 hf_git_ops()
 {
-#Configure GIT   
+#Configure GIT
+pushd "$(mktemp -d)" >/dev/null 2>&1
  git config --global "credential.helper" store
  git config --global "user.email" "AjamX101@gmail.com"
  git config --global "user.name" "Azathothas"
  huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential
+popd >/dev/null 2>&1
 #Setup Repo
 pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras" && cd "./Toolpacks-Extras"
  git lfs install
