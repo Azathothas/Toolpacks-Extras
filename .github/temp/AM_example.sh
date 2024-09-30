@@ -50,7 +50,7 @@ EOF
 chmod a+x "./AM-updater" || exit 1
 
 # LAUNCHER & ICON
-curl -qfsSL "${SITE}/${APP}.desktop" -o "./${APP}.desktop"
-curl -qfsSL "${SITE}/${APP}.DirIcon" -o "./.DirIcon"
+curl -qfsSL "${SRC}/${APP}.desktop" -o "./${APP}.desktop"
+curl -qfsSL "${SRC}/${APP}.DirIcon" -o "./.DirIcon"
 sed -i "s#Exec=[^ ]*#Exec=${APP}#g; s#Icon=.*#Icon=/opt/${APP}/icons/${APP}#g" "./${APP}.desktop"
 mv "./${APP}.desktop" "/usr/local/share/applications/${APP}-AM.desktop" && mv "./.DirIcon" "./icons/${APP}" 1>/dev/null
