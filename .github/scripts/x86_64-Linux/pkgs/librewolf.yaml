@@ -1,4 +1,3 @@
-#https://github.com/ivan-hc/AM/blob/main/programs/x86_64/librewolf
 name: "librewolf"
 bin_name: "librewolf"
 bins:
