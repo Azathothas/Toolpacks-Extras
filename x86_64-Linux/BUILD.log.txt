@@ -9772,9 +9772,6 @@ a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36  /tmp/toolpack_
 -e 
 
 
-
-[+] Fetching : https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/x86_64-Linux/pkgs/86box.sh (1/15)
-
 ++ '[' YES '!=' YES ']'
 ++ '[' -z /tmp/toolpack_x86_64 ']'
 ++ '[' -z 0 ']'
@@ -9789,17 +9786,19 @@ a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36  /tmp/toolpack_
 ++ export SOURCE_URL=https://github.com/86Box/86Box
 ++ SOURCE_URL=https://github.com/86Box/86Box
 ++ '[' NO == NO ']'
-++ echo -e '\n\n [+] (Building | Fetching) 86box :: https://github.com/86Box/86Box\n'
++++ TZ=UTC
++++ date '+%A, %Y-%m-%d (%I:%M:%S %p)'
+++ echo -e '\n\n [+] (Building | Fetching) 86box :: https://github.com/86Box/86Box [Monday, 2024-09-30 (08:23:05 AM) UTC]\n'
 
 
- [+] (Building | Fetching) 86box :: https://github.com/86Box/86Box
+ [+] (Building | Fetching) 86box :: https://github.com/86Box/86Box [Monday, 2024-09-30 (08:23:05 AM) UTC]
 
 +++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux
-++ pushd /tmp/toolpacks/kqBEocw_x86_64_Linux
+++ pushd /tmp/toolpacks/OOdcjgJ_x86_64_Linux
 +++ realpath .
-++ OWD=/tmp/toolpacks/kqBEocw_x86_64_Linux
-++ export OWD=/tmp/toolpacks/kqBEocw_x86_64_Linux
-++ OWD=/tmp/toolpacks/kqBEocw_x86_64_Linux
+++ OWD=/tmp/toolpacks/OOdcjgJ_x86_64_Linux
+++ export OWD=/tmp/toolpacks/OOdcjgJ_x86_64_Linux
+++ OWD=/tmp/toolpacks/OOdcjgJ_x86_64_Linux
 ++ export APP=86box
 ++ APP=86box
 ++ export PKG_NAME=86box.AppImage
@@ -9810,74 +9809,74 @@ a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36  /tmp/toolpack_
 ++ RELEASE_TAG=v4.2.1
 ++ export RELEASE_TAG=v4.2.1
 ++ RELEASE_TAG=v4.2.1
-++ timeout 1m eget https://github.com/86Box/86Box --tag v4.2.1 --asset Linux --asset x86_64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
+++ timeout 1m eget https://github.com/86Box/86Box --tag v4.2.1 --asset Linux --asset x86_64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
 https://github.com/86Box/86Box/releases/download/v4.2.1/86Box-Linux-x86_64-b6130.AppImage
-Downloading   2% [                           ] (1.2/54 MB, 17.450 MB/s) [0s:3s]                                                                               Downloading  30% [=======>                   ] (16/54 MB, 120.595 MB/s) [0s:0s]                                                                               Downloading  64% [================>          ] (35/54 MB, 172.357 MB/s) [0s:0s]                                                                               Downloading  89% [=======================>   ] (48/54 MB, 173.345 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (54/54 MB, 190.204 MB/s)
-Extracted `86Box-Linux-x86_64-b6130.AppImage` to `/tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage`
-++ [[ -f /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage ]]
-+++ stat -c%s /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
+Downloading   2% [                           ] (1.1/54 MB, 16.371 MB/s) [0s:3s]                                                                               Downloading  22% [=====>                      ] (12/54 MB, 88.164 MB/s) [0s:0s]                                                                               Downloading  52% [=============>             ] (28/54 MB, 137.262 MB/s) [0s:0s]                                                                               Downloading  83% [=====================>     ] (45/54 MB, 164.942 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (54/54 MB, 160.424 MB/s)
+Extracted `86Box-Linux-x86_64-b6130.AppImage` to `/tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage`
+++ [[ -f /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage ]]
++++ stat -c%s /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
 ++ [[ 56239296 -gt 1024 ]]
 +++ echo v4.2.1
 ++ PKG_VERSION=v4.2.1
 ++ export PKG_VERSION=v4.2.1
 ++ PKG_VERSION=v4.2.1
 ++ echo v4.2.1
-++ APPIMAGE=/tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
-++ export APPIMAGE=/tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
-++ APPIMAGE=/tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
-++ chmod +x /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
-++ /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage --appimage-extract
-++ rm -f /tmp/toolpacks/kqBEocw_x86_64_Linux/86box.AppImage
-+++ realpath /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root
-++ APPIMAGE_EXTRACT=/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root
-++ export APPIMAGE_EXTRACT=/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root
-++ APPIMAGE_EXTRACT=/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root
-++ '[' -d /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root ']'
-+++ find /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root -mindepth 1 -print -quit
-++ '[' /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/net.86box.86Box.png ']'
-++ find /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root -maxdepth 1 -type f,l '(' -iname '*.[pP][nN][gG]' -o -iname '*.[sS][vV][gG]' ')' -printf '%s %p\n' -quit
+++ APPIMAGE=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
+++ export APPIMAGE=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
+++ APPIMAGE=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
+++ chmod +x /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
+++ /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage --appimage-extract
+++ rm -f /tmp/toolpacks/OOdcjgJ_x86_64_Linux/86box.AppImage
++++ realpath /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root
+++ export APPIMAGE_EXTRACT=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root
+++ '[' -d /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root ']'
++++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root -mindepth 1 -print -quit
+++ '[' /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/net.86box.86Box.png ']'
 ++ sort -n
 ++ awk 'NR==1 {print $2}'
-++ xargs -I '{}' convert '{}' -resize 128x128 -verbose /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png
-/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/net.86box.86Box.png=>/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png PNG 512x512=>128x128 128x128+0+0 8-bit sRGB 15892B 0.020u 0:00.009
-++ [[ ! -f /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png ]]
-+++ stat -c%s /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png
+++ xargs -I '{}' convert '{}' -resize 128x128 -verbose /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png
+++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root -maxdepth 1 -type f,l '(' -iname '*.[pP][nN][gG]' -o -iname '*.[sS][vV][gG]' ')' -printf '%s %p\n' -quit
+/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/net.86box.86Box.png=>/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png PNG 512x512=>128x128 128x128+0+0 8-bit sRGB 15892B 0.020u 0:00.009
+++ [[ ! -f /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png ]]
++++ stat -c%s /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png
 ++ [[ 15892 -le 3 ]]
-++ rsync -achL /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/.DirIcon
-++ rsync -achL /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.png /tmp/toolpack_x86_64/86box.icon.png
-++ rsync -achL /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/.DirIcon /tmp/toolpack_x86_64/86box.DirIcon
-++ find /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root -maxdepth 1 '(' -type f -o -type l ')' -iname '*.desktop' -exec rsync -achL '{}' /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.desktop ';'
-++ [[ ! -f /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.desktop ]]
-+++ stat -c%s /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.desktop
+++ rsync -achL /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/.DirIcon
+++ rsync -achL /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.png /tmp/toolpack_x86_64/86box.icon.png
+++ rsync -achL /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/.DirIcon /tmp/toolpack_x86_64/86box.DirIcon
+++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root -maxdepth 1 '(' -type f -o -type l ')' -iname '*.desktop' -exec rsync -achL '{}' /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.desktop ';'
+++ [[ ! -f /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.desktop ]]
++++ stat -c%s /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.desktop
 ++ [[ 273 -le 3 ]]
-++ sed 's/Icon=[^ ]*/Icon=86box/' -i /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.desktop
-++ rsync -achL /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root/86box.desktop /tmp/toolpack_x86_64/86box.desktop
-++ find /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
-++ ls -lah /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root
+++ sed 's/Icon=[^ ]*/Icon=86box/' -i /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.desktop
+++ rsync -achL /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root/86box.desktop /tmp/toolpack_x86_64/86box.desktop
+++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
+++ ls -lh --color=auto -lah /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root
 total 204K
-drwxr-xr-x 6 runner runner 4.0K Sep 29 11:45 .
-drwx------ 3 runner runner 4.0K Sep 29 11:45 ..
--r-xr-xr-x 1 runner runner  263 Sep 29 11:45 86box.desktop
--r-xr-xr-x 1 runner runner  16K Sep 29 11:45 86box.png
--r-xr-xr-x 1 runner runner  43K Sep 29 11:45 AppRun
--r-xr-xr-x 1 runner runner  982 Sep 29 11:45 AppRun.env
--r-xr-xr-x 1 runner runner 4.6K Sep 29 11:45 .bundle.yml
--r-xr-xr-x 1 runner runner  16K Sep 29 11:45 .DirIcon
-drwxr-xr-x 4 runner runner 4.0K Sep 29 11:45 lib
-drwxr-xr-x 2 runner runner 4.0K Sep 29 11:45 lib64
--r-xr-xr-x 1 runner runner  273 Sep 29 11:45 net.86box.86Box.desktop
--r-xr-xr-x 1 runner runner  77K Sep 29 11:45 net.86box.86Box.png
--r-xr-xr-x 1 runner runner  733 Sep 29 11:45 README
-drwxr-xr-x 4 runner runner 4.0K Sep 29 11:45 runtime
-drwxr-xr-x 5 runner runner 4.0K Sep 29 11:45 usr
-++ find /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root -type f -iname '*86box*appdata.xml' -delete
-++ cd /tmp/toolpacks/kqBEocw_x86_64_Linux
+drwxr-xr-x 6 runner runner 4.0K Sep 30 08:23 .
+drwx------ 3 runner runner 4.0K Sep 30 08:23 ..
+-r-xr-xr-x 1 runner runner  263 Sep 30 08:23 86box.desktop
+-r-xr-xr-x 1 runner runner  16K Sep 30 08:23 86box.png
+-r-xr-xr-x 1 runner runner  43K Sep 30 08:23 AppRun
+-r-xr-xr-x 1 runner runner  982 Sep 30 08:23 AppRun.env
+-r-xr-xr-x 1 runner runner 4.6K Sep 30 08:23 .bundle.yml
+-r-xr-xr-x 1 runner runner  16K Sep 30 08:23 .DirIcon
+drwxr-xr-x 4 runner runner 4.0K Sep 30 08:23 lib
+drwxr-xr-x 2 runner runner 4.0K Sep 30 08:23 lib64
+-r-xr-xr-x 1 runner runner  273 Sep 30 08:23 net.86box.86Box.desktop
+-r-xr-xr-x 1 runner runner  77K Sep 30 08:23 net.86box.86Box.png
+-r-xr-xr-x 1 runner runner  733 Sep 30 08:23 README
+drwxr-xr-x 4 runner runner 4.0K Sep 30 08:23 runtime
+drwxr-xr-x 5 runner runner 4.0K Sep 30 08:23 usr
+++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root -type f -iname '*86box*appdata.xml' -delete
+++ cd /tmp/toolpacks/OOdcjgJ_x86_64_Linux
 +++ uname -m
 ++ ARCH=x86_64
-++ appimagetool --comp zstd --mksquashfs-opt -root-owned --mksquashfs-opt -no-xattrs --mksquashfs-opt -noappend --mksquashfs-opt -b --mksquashfs-opt 1M --mksquashfs-opt -mkfs-time --mksquashfs-opt 0 --mksquashfs-opt -Xcompression-level --mksquashfs-opt 22 --updateinformation 'zsync|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.AppImage.zsync' /tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root /tmp/toolpack_x86_64/86box.AppImage
+++ appimagetool --comp zstd --mksquashfs-opt -root-owned --mksquashfs-opt -no-xattrs --mksquashfs-opt -noappend --mksquashfs-opt -b --mksquashfs-opt 1M --mksquashfs-opt -mkfs-time --mksquashfs-opt 0 --mksquashfs-opt -Xcompression-level --mksquashfs-opt 22 --updateinformation 'zsync|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.AppImage.zsync' /tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root /tmp/toolpack_x86_64/86box.AppImage
 appimagetool, continuous build (git version 81ee1db), build 172 built on 2024-08-08 00:18:46 UTC
 Using architecture x86_64
-/tmp/toolpacks/kqBEocw_x86_64_Linux/squashfs-root should be packaged as /tmp/toolpack_x86_64/86box.AppImage
+/tmp/toolpacks/OOdcjgJ_x86_64_Linux/squashfs-root should be packaged as /tmp/toolpack_x86_64/86box.AppImage
 WARNING: AppStream upstream metadata is missing, please consider creating it
          in usr/share/metainfo/net.86box.86Box.appdata.xml
          Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
@@ -9893,12 +9892,12 @@ Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
 	no xattrs, compressed ids
 	duplicates are removed
-Filesystem size 55939.04 Kbytes (54.63 Mbytes)
+Filesystem size 55939.10 Kbytes (54.63 Mbytes)
 	29.12% of uncompressed filesystem size (192126.73 Kbytes)
 Inode table size 7519 bytes (7.34 Kbytes)
 	27.49% of uncompressed inode table size (27352 bytes)
-Directory table size 7648 bytes (7.47 Kbytes)
-	42.42% of uncompressed directory table size (18030 bytes)
+Directory table size 7653 bytes (7.47 Kbytes)
+	42.45% of uncompressed directory table size (18030 bytes)
 Number of duplicate files found 4
 Number of inodes 763
 Number of files 516
@@ -9923,34 +9922,34 @@ Success
 Please consider submitting your AppImage to AppImageHub, the crowd-sourced
 central directory of available AppImages, by opening a pull request
 at https://github.com/AppImage/appimage.github.io
-++ find /tmp/toolpacks/kqBEocw_x86_64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_x86_64 ';'
-++ rm -rf /tmp/toolpacks/kqBEocw_x86_64_Linux
+++ find /tmp/toolpacks/OOdcjgJ_x86_64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_x86_64 ';'
+++ rm -rf /tmp/toolpacks/OOdcjgJ_x86_64_Linux
 ++ popd
-++ find /tmp/toolpack_x86_64 -type f -iname '*86box*' -print
 ++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+++ find /tmp/toolpack_x86_64 -type f -iname '*86box*' -print
 /tmp/toolpack_x86_64/86box.AppImage.version: ASCII text
 4c643f8c02f35116b925fc512042da6ab5fb7766f17dbd1fd2c8e1d3cffa3fd8  /tmp/toolpack_x86_64/86box.AppImage.version
 e07a58056326e82d78ae4ea1b6bed3c1b4e7d151dd38d07bc56e26f020ae8d30  /tmp/toolpack_x86_64/86box.AppImage.version
 4.0K	/tmp/toolpack_x86_64/86box.AppImage.version
 /tmp/toolpack_x86_64/86box.DirIcon: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
-b02b18922f10789a3ac40f5136fb68f97895622ba6e61fa4a1396a7c4c122ad1  /tmp/toolpack_x86_64/86box.DirIcon
-3796f003e9110b18dc1e4134ce73a505efda4345091e07efd6761fe46a438dbe  /tmp/toolpack_x86_64/86box.DirIcon
+e0d0b4f0061cf74de87bed07c473a224c886686f2d23f3ca4e4aaa241b5ff5db  /tmp/toolpack_x86_64/86box.DirIcon
+8302d88eacea0c50fc5cec313e6cd515a4dbf1cc1f42a455a065ed940d7a3c0c  /tmp/toolpack_x86_64/86box.DirIcon
 16K	/tmp/toolpack_x86_64/86box.DirIcon
 /tmp/toolpack_x86_64/86box.AppImage.zsync: data
-a20af52cef0f09f1c575c724c07990052272e75e124d6e2c66ec9b34ab7c9b74  /tmp/toolpack_x86_64/86box.AppImage.zsync
-7d59c234ed3a892549179b935d66f4c318a82624e23fbd8ea1f3e559613faeab  /tmp/toolpack_x86_64/86box.AppImage.zsync
+1f8a5cd76e59213205c3845d9ab656feb3da11925f6706b346b4e63ead48e306  /tmp/toolpack_x86_64/86box.AppImage.zsync
+11a1eec03cfcae6e114d540797f8842247586233ff36afb156be1ec8bfb7d504  /tmp/toolpack_x86_64/86box.AppImage.zsync
 196K	/tmp/toolpack_x86_64/86box.AppImage.zsync
 /tmp/toolpack_x86_64/86box.desktop: ASCII text
 54ac7fd5d9f9870a587405092dc860fde1313fd3f4e4d1e86eb475f7b7880fd8  /tmp/toolpack_x86_64/86box.desktop
 d9b2a2b0b83a22fe4925d2305d1b9b99a0897a4632b520d9d47c72499bb262a7  /tmp/toolpack_x86_64/86box.desktop
 4.0K	/tmp/toolpack_x86_64/86box.desktop
 /tmp/toolpack_x86_64/86box.icon.png: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
-b02b18922f10789a3ac40f5136fb68f97895622ba6e61fa4a1396a7c4c122ad1  /tmp/toolpack_x86_64/86box.icon.png
-3796f003e9110b18dc1e4134ce73a505efda4345091e07efd6761fe46a438dbe  /tmp/toolpack_x86_64/86box.icon.png
+e0d0b4f0061cf74de87bed07c473a224c886686f2d23f3ca4e4aaa241b5ff5db  /tmp/toolpack_x86_64/86box.icon.png
+8302d88eacea0c50fc5cec313e6cd515a4dbf1cc1f42a455a065ed940d7a3c0c  /tmp/toolpack_x86_64/86box.icon.png
 16K	/tmp/toolpack_x86_64/86box.icon.png
 /tmp/toolpack_x86_64/86box.AppImage: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
-f585eb270974f292abb2f81f14004ebbdaad9e18586e06a86cf2f211c190cc1b  /tmp/toolpack_x86_64/86box.AppImage
-d41c5e14a5cc52d4261866d6399cf3e970d344393a011c406ac3405901c58784  /tmp/toolpack_x86_64/86box.AppImage
+afcb415f2aa1e784f3e358a460889af67d4cc3d42298446bee78da786321b5d5  /tmp/toolpack_x86_64/86box.AppImage
+e18421f23af4229a221d7baa9da7ffe9a08b84dbebf53a001db20aa8bb28b17a  /tmp/toolpack_x86_64/86box.AppImage
 56M	/tmp/toolpack_x86_64/86box.AppImage
 ++ unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
 ++ LOG_PATH=/tmp/toolpack_x86_64/86box.log
@@ -9964,9 +9963,6 @@ d41c5e14a5cc52d4261866d6399cf3e970d344393a011c406ac3405901c58784  /tmp/toolpack_
 ++ unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 ++ unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
 ++ set +x
-
-[+] Completed (Building|Fetching) 86box [https://github.com/86Box/86Box] :: 00(Hr):00(Min):22(Sec) ==> /tmp/toolpack_x86_64/86box.log
-
 -e 
 
 
