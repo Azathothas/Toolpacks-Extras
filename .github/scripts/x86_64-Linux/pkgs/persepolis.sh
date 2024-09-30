@@ -54,7 +54,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           #Get Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "${APPIMAGE_EXTRACT}/usr/share/applications" && mkdir -p "${APPIMAGE_EXTRACT}/usr/share/metainfo"
-           SHARE_DIR="$(find "${APPIMAGE_EXTRACT}" -path "*share/*applications*${APP}*" -print -quit | sed 's|/share/applications.*||')/share" && export SHARE_DIR="${SHARE_DIR}"
+           SHARE_DIR="$(find "${APPIMAGE_EXTRACT}" -path "*share/*applications*${APP%%-*}*" -print -quit | sed 's|/share/applications.*||')/share" && export SHARE_DIR="${SHARE_DIR}"
            #usr/{applications,bash-completion,icons,metainfo,zsh}
             rsync -av --copy-links \
                       --include="*/" \
@@ -72,7 +72,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            fi
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
           #Desktop
-           find "${APPIMAGE_EXTRACT}" -path "*${APP}*.desktop" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
+           find "${APPIMAGE_EXTRACT}" -path "*${APP%%-*}*.desktop" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
            grep -P "^[[:ascii:]]*$" "${APPIMAGE_EXTRACT}/${APP}.desktop" > "./desktop" && sudo mv "./desktop" "${APPIMAGE_EXTRACT}/${APP}.desktop"
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
           #Perms
@@ -83,9 +83,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
             #Headers
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #docs & manpages
-            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #static libs
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
             #systemd (need .so)
@@ -97,7 +97,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
-           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP}*appdata.xml" -delete
+           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -111,7 +111,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            rm -rf "${OWD}" && popd >/dev/null 2>&1
          fi
        #Info
-         find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
       #End

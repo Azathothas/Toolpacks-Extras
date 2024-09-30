@@ -41,7 +41,7 @@ hf_check_bindir()
 {
  echo -e "\n[+] BINDIR set --> ${BINDIR}\n"
  ls -lah "${BINDIR}"
- find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+ find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
 }
 export -f hf_check_bindir
 #generate metadata

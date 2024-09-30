@@ -1,0 +1,14 @@
+name: "simplex-chat-desktop"
+bin_name: "simplex-chat-desktop"
+bins:
+  - "simplex-chat-desktop.AppImage"
+category:
+ - "anonymity"
+ - "chat"
+ - "messenger"
+ - "privacy"
+description: "Messaging network operating without user identifiers of any kind (AppImage)"
+note: "(CI_VERIFIED: https://github.com/simplex-chat/simplex-chat/actions)"
+web_url: "https://simplex.chat"
+path: "/"
+src_url: "https://github.com/simplex-chat/simplex-chat"

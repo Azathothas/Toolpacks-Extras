@@ -43,7 +43,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          rsync -achL "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
          rsync -achL "${OWD}/${APP}.shimg" "${BINDIR}/${APP}.shimg"
        #Info
-         find "${BINDIR}" -type f -iname "*${APP}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
 fi
