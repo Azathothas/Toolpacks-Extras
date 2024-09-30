@@ -5,6 +5,7 @@ set -u
 APP="86box"
 SRC="https://pkg.ajam.dev/$(uname -m)"
 TYPE="AppImage"
+SITE="${SRC}/${APP}.${TYPE}"
 
 # CREATE DIRECTORIES AND ADD REMOVER
 [ -n "${APP}" ] && mkdir -p "/opt/${APP}" "/opt/${APP}/icons" && cd "/opt/${APP}" || exit 1
@@ -13,9 +14,9 @@ printf '\n%s' "rm -f /usr/local/share/applications/${APP}-AM.desktop" >> "./remo
 chmod a+x "./remove" || exit 1
 
 # DOWNLOAD AND PREPARE THE APP, $version is also used for updates
-VERSION="$(curl -qfsSL "${SRC}/${APP}.version")"
-wget "${SRC}/${APP}.${TYPE}" -O "./${APP}" || exit 1
-wget "${SRC}/${APP}.${TYPE}.zsync" 2> /dev/null
+VERSION="$(curl -qfsSL "${SITE}.version")"
+wget "${SITE}" -O "./${APP}" || exit 1
+wget "${SITE}.zsync" 2> /dev/null
 echo "${VERSION}" > "./version"
 chmod a+x "./${APP}" || exit 1
 
