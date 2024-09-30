@@ -1,0 +1,13 @@
+name: "floorp"
+bin_name: "floorp"
+bins:
+  - "floorp.AppImage"
+  - "floorp.NixAppImage"
+category:
+ - "browser"
+ - "firefox-fork"
+description: "A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)"
+note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)"
+web_url: "https://floorp.app"
+path: "/"
+src_url: "https://github.com/Floorp-Projects/Floorp"
