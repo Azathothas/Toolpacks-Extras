@@ -1,7 +1,7 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "a8381c15cf62c64b6c44c8733c00aa5b7eb3d6efdcecf7be35600ba7986e59bb"
+    "sum": "d1fd638890c3c0c821358195dbda8025a2a321c65dbdcbbd5602c372e86136ef"
   },
   {
     "filename": "./FILE.json",
@@ -9,11 +9,11 @@
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "d392e8d4cb37551cda0f28eee7a563485a11de36f41dc13110412baec81df09a"
+    "sum": "8b8ed1c19c636d57442a4a75f78dd5a82bc575a12cbdadab3178fa2af23b9a28"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "695bdf73bbe077bec7743cff2f6f1bba11597c5615336e9ad5b89fbd28202e0f"
+    "sum": "bf85a728dade5c7633e759c571af35cd659dfb5da88eeec31603520f6fa1c7ee"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -37,11 +37,11 @@
   },
   {
     "filename": "./METADATA.json",
-    "sum": "94455707546c59b32115fd60dee203b9fcb6fb8275426d2b29464de1724c039a"
+    "sum": "92b1a4a737de84c31b15c72249b6d86aa2e15656b988c3954b1dc6692469d94f"
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "df9262e17cb4a9ef7c331cbe55b4cc5e5b2bcce039ffeb794f98b5fd10949286"
+    "sum": "f013ddab4ddca99ea0bb797a844d9d6e0cfaee9bee504396cf29aadf571aaab8"
   },
   {
     "filename": "./mullvad-browser.tar.xz",
@@ -69,15 +69,15 @@
   },
   {
     "filename": "./86box.AppImage",
-    "sum": "d41c5e14a5cc52d4261866d6399cf3e970d344393a011c406ac3405901c58784"
+    "sum": "e18421f23af4229a221d7baa9da7ffe9a08b84dbebf53a001db20aa8bb28b17a"
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "9b4fd5d8d15e434a3e5ad402ded148b806efd28799451e50da54b8a28bd135fe"
+    "sum": "8ed202ab79173862ef37cd565750936524334b9aa4e326107e48feb39d8e8189"
   },
   {
     "filename": "./86box.log",
-    "sum": "7530f6c4b83446717594f979dbdd0809ffd9114bdf7a35cf2bf3fb2ca8e197f4"
+    "sum": "664084812e215985c78c43cdf0754db37b7f314a3442475c875793e39af860b9"
   },
   {
     "filename": "./acreom.AppImage",
