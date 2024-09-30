@@ -168,11 +168,13 @@
           sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/squashfstools/sqfscat" -o "/usr/local/bin/sqfscat" && sudo chmod +x "/usr/local/bin/sqfscat"
           sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/squashfstools/sqfstar" -o "/usr/local/bin/sqfstar" && sudo chmod +x "/usr/local/bin/sqfstar"
           sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/squashfstools/unsquashfs" -o "/usr/local/bin/unsquashfs" && sudo chmod +x "/usr/local/bin/unsquashfs"
+          ##It doesn't work, it changes the shasums, and updates despite no delta diff
+          sudo apt install zsync -y -qq
           #zsyncmake2 requires libfuse: https://github.com/AppImageCommunity/zsync2/issues/76
-          sudo apt install fuse -y -qq
-          sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsync2" --asset "$(uname -m)" --asset "^zsyncmake" --asset "^.zsync" --to "/usr/local/bin/zsync"
-          sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsyncmake2" --asset "$(uname -m)" --asset "^.zsync" --to "/usr/local/bin/zsyncmake"
-          sudo chattr +i "/usr/local/bin/appimagetool" "/usr/local/bin/zsync" "/usr/local/bin/zsyncmake"
+          #sudo apt install fuse -y -qq
+          #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsync2" --asset "$(uname -m)" --asset "^zsyncmake" --asset "^.zsync" --to "/usr/local/bin/zsync"
+          #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsyncmake2" --asset "$(uname -m)" --asset "^.zsync" --to "/usr/local/bin/zsyncmake"
+          #sudo chattr +i "/usr/local/bin/appimagetool" "/usr/local/bin/zsync" "/usr/local/bin/zsyncmake"
     fi
     #-------------------------------------------------------#
     
