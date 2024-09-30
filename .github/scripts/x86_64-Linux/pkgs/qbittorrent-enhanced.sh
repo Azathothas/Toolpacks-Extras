@@ -24,7 +24,7 @@ export SKIP_BUILD="NO"
 export BIN="qbittorrent-enhanced"
 export SOURCE_URL="https://github.com/c0re100/qBittorrent-Enhanced-Edition"
 if [ "${SKIP_BUILD}" == "NO" ]; then
-     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL}\n"
+     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
