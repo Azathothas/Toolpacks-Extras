@@ -9329,9 +9329,6 @@ ec27616022bebf6a0175beed7eaec7d3a3126c42ef9e28dc24e2437f08cb5fac  /tmp/toolpack_
 -e 
 
 
-
-[+] Fetching : https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh (13/15)
-
 ++ '[' YES '!=' YES ']'
 ++ '[' -z /tmp/toolpack_x86_64 ']'
 ++ '[' -z 0 ']'
@@ -9355,171 +9352,58 @@ ec27616022bebf6a0175beed7eaec7d3a3126c42ef9e28dc24e2437f08cb5fac  /tmp/toolpack_
 ++ BUILD_NIX_APPIMAGE=YES
 ++ '[' YES == YES ']'
 +++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux
-++ pushd /tmp/toolpacks/aubVM2c_x86_64_Linux
+++ pushd /tmp/toolpacks/hNbdN4j_x86_64_Linux
 +++ realpath .
-++ OWD=/tmp/toolpacks/aubVM2c_x86_64_Linux
-++ export OWD=/tmp/toolpacks/aubVM2c_x86_64_Linux
-++ OWD=/tmp/toolpacks/aubVM2c_x86_64_Linux
+++ OWD=/tmp/toolpacks/hNbdN4j_x86_64_Linux
+++ export OWD=/tmp/toolpacks/hNbdN4j_x86_64_Linux
+++ OWD=/tmp/toolpacks/hNbdN4j_x86_64_Linux
 ++ export APP=puddletag
 ++ APP=puddletag
 ++ export PKG_NAME=puddletag.NixAppImage
 ++ PKG_NAME=puddletag.NixAppImage
 ++ nix bundle --bundler github:ralismark/nix-appimage nixpkgs#puddletag --log-format bar-with-logs
-copying path '/nix/store/vxziag74dy2id9d7wqj1b2z9v2gw6n9i-python3.12-audioread-3.0.1' from 'https://cache.nixos.org'...
-copying path '/nix/store/xpmxw7c0vxcbvimg5m4dbsm21md8mmlc-python3.12-dbus-python-1.3.2' from 'https://cache.nixos.org'...
-copying path '/nix/store/zhpg6dmprb4l4s4cm5ilxh1nq8gc8ahc-python3.12-configobj-5.0.8' from 'https://cache.nixos.org'...
-copying path '/nix/store/1h3vqf3kfywj5a8qihl71fv5jwprpfqf-python3.12-mutagen-1.47.0' from 'https://cache.nixos.org'...
-copying path '/nix/store/01d21awkwagq5i6v4k3ipbwhcl8bn5j9-python3.12-pyqt5-sip-12.15.0' from 'https://cache.nixos.org'...
-copying path '/nix/store/vsl1d3fsn5v9ldymbl3ibdqwbszrzrj2-python3.12-rapidfuzz-3.9.7' from 'https://cache.nixos.org'...
-copying path '/nix/store/b0a8a5ay85qqxxm4iznzi25613z4syc6-qttranslations-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/3ysdamq0n98p78p1b07hgwyypm4l42n0-python3.12-unidecode-1.3.8' from 'https://cache.nixos.org'...
-copying path '/nix/store/w8cfsafws5iabrc95395rfdilhpy9fvr-libevdev-1.13.2' from 'https://cache.nixos.org'...
-copying path '/nix/store/kwk69l370z971aq2fgaaxcq1rxgp1p0z-mtdev-1.1.7' from 'https://cache.nixos.org'...
-copying path '/nix/store/l54jqbzqhghvy3g9kqhmcha9z3vzzrxr-postgresql-16.4-lib' from 'https://cache.nixos.org'...
-copying path '/nix/store/502gz9zjwzqpbiyb5c294hgx0gzlv9il-mariadb-connector-c-3.3.5' from 'https://cache.nixos.org'...
-copying path '/nix/store/dzha36c4s22chp96w1nl8dk59hwijazm-libwacom-2.12.2' from 'https://cache.nixos.org'...
-copying path '/nix/store/1kjb7qqjjkyq0254yg23w1z73d2987yp-python3.12-pyacoustid-1.3.0' from 'https://cache.nixos.org'...
-copying path '/nix/store/56d9xcxqkxs5a6ina3r43jnvar6qz097-python3.12-dbus-python-1.3.2-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/kwgqvgwr4gqv89mkbri2nqabysah6zaz-libinput-1.26.2' from 'https://cache.nixos.org'...
-copying path '/nix/store/ayii81d9wa6pqd3bgldhq4qicbg1rcb9-python3.12-levenshtein-0.25.1' from 'https://cache.nixos.org'...
-copying path '/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/8iqyan2wfb0lsw6wsinrw9b93n077vhs-qtbase-5.15.14-bin' from 'https://cache.nixos.org'...
-copying path '/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/qaq79zk6jl3cbdan2qj046g7shhlpz61-qtsvg-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/yyzy10hf4i5zpayxp18a2anv8v78y1x1-qtsvg-5.15.14-bin' from 'https://cache.nixos.org'...
-copying path '/nix/store/y5vi11n40azcswks23fhc7fd7cm613i5-qtdeclarative-5.15.14-bin' from 'https://cache.nixos.org'...
-copying path '/nix/store/0ms3x2ma6q7v5y3301kibkc32096bqg5-qtwayland-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/jj98pxhl1ma80y4pm6xp940lvn8mll0p-qtwebchannel-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/65fv4w907094k2jydgcd8ci2ldmnkf5x-qtquickcontrols-5.15.14' from 'https://cache.nixos.org'...
-copying path '/nix/store/pdchlx1xajfz4avx3iw0ynjnncs8fys0-python3.12-pyqt5-5.15.10' from 'https://cache.nixos.org'...
-copying path '/nix/store/xvpkzlpprg59vya5s2hw5hz17gy7lgfk-qtwayland-5.15.14-bin' from 'https://cache.nixos.org'...
-copying path '/nix/store/wxb38acg9ibf8ag50zbm408w7073zp9n-python3.12-pyqt5-5.15.10-dev' from 'https://cache.nixos.org'...
-copying path '/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0' from 'https://cache.nixos.org'...
-building '/nix/store/14y23inz85hfjnmpkyjyp6na14z3n1s6-runtime-deps.drv'...
-building '/nix/store/9akm08r5ziypmmb8pkr0rf5y2izrws6p-puddletag.AppImage.drv'...
-puddletag.AppImage> Parallel mksquashfs: Using 4 processors
-puddletag.AppImage> Creating 4.0 filesystem on /nix/store/z0a1v1xdwz02vipfh3xqkzszsd5v97d2-puddletag.AppImage, block size 131072.
-puddletag.AppImage> Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
-puddletag.AppImage>     compressed data, compressed metadata, compressed fragments,
-puddletag.AppImage>     compressed xattrs, compressed ids
-puddletag.AppImage>     4k unaligned
-puddletag.AppImage>     duplicates are removed
-puddletag.AppImage> Filesystem size 308320.14 Kbytes (301.09 Mbytes)
-puddletag.AppImage>     35.28% of uncompressed filesystem size (874034.58 Kbytes)
-puddletag.AppImage> Inode table size 265704 bytes (259.48 Kbytes)
-puddletag.AppImage>     29.16% of uncompressed inode table size (911283 bytes)
-puddletag.AppImage> Directory table size 272792 bytes (266.40 Kbytes)
-puddletag.AppImage>     36.47% of uncompressed directory table size (748041 bytes)
-puddletag.AppImage> Number of duplicate files found 1
-puddletag.AppImage> Number of inodes 25951
-puddletag.AppImage> Number of files 18066
-puddletag.AppImage> Number of fragments 1912
-puddletag.AppImage> Number of symbolic links 1796
-puddletag.AppImage> Number of device nodes 0
-puddletag.AppImage> Number of fifo nodes 0
-puddletag.AppImage> Number of socket nodes 0
-puddletag.AppImage> Number of directories 6089
-puddletag.AppImage> Number of hard-links 3767
-puddletag.AppImage> Number of ids (unique uids + gids) 1
-puddletag.AppImage> Number of uids 1
-puddletag.AppImage>     root (0)
-puddletag.AppImage> Number of gids 1
-puddletag.AppImage>     root (0)
-puddletag.AppImage> Found a valid exportable SQUASHFS superblock on /nix/store/z0a1v1xdwz02vipfh3xqkzszsd5v97d2-puddletag.AppImage.
-puddletag.AppImage>     Compression used gzip
-puddletag.AppImage>     Inodes are compressed
-puddletag.AppImage>     Data is compressed
-puddletag.AppImage>     Fragments are compressed
-puddletag.AppImage>     Xattrs are compressed
-puddletag.AppImage>     Fragments are present in the filesystem
-puddletag.AppImage>     Always-use-fragments option is not specified
-puddletag.AppImage>     Duplicates are removed
-puddletag.AppImage>     Xattrs are stored
-puddletag.AppImage>     Filesystem size 308320.14 Kbytes (301.09 Mbytes)
-puddletag.AppImage>     Block size 131072
-puddletag.AppImage>     Number of fragments 1912
-puddletag.AppImage>     Number of inodes 25951
-puddletag.AppImage>     Number of ids 1
-puddletag.AppImage> Parallel mksquashfs: Using 4 processors
-puddletag.AppImage> Scanning existing filesystem...
-puddletag.AppImage> Read existing filesystem, 25950 inodes scanned
-puddletag.AppImage> Appending to existing 4.0 filesystem on /nix/store/z0a1v1xdwz02vipfh3xqkzszsd5v97d2-puddletag.AppImage, block size 131072
-puddletag.AppImage> All -b, -noI, -noD, -noF, -noX, -noId, -no-duplicates, -no-fragments,
-puddletag.AppImage> -always-use-fragments, -exportable and -comp options ignored
-puddletag.AppImage> If appending is not wanted, please re-run with -noappend specified!
-puddletag.AppImage> No recovery data option specified.
-puddletag.AppImage> Skipping saving recovery file.
-puddletag.AppImage> Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
-puddletag.AppImage>     compressed data, compressed metadata, compressed fragments,
-puddletag.AppImage>     compressed xattrs, compressed ids
-puddletag.AppImage>     4k unaligned
-puddletag.AppImage>     duplicates are removed
-puddletag.AppImage> Filesystem size 308342.77 Kbytes (301.12 Mbytes)
-puddletag.AppImage>     35.28% of uncompressed filesystem size (874100.21 Kbytes)
-puddletag.AppImage> Inode table size 265722 bytes (259.49 Kbytes)
-puddletag.AppImage>     29.16% of uncompressed inode table size (911125 bytes)
-puddletag.AppImage> Directory table size 272832 bytes (266.44 Kbytes)
-puddletag.AppImage>     35.50% of uncompressed directory table size (768470 bytes)
-puddletag.AppImage> Number of duplicate files found 1
-puddletag.AppImage> Number of inodes 25953
-puddletag.AppImage> Number of files 18067
-puddletag.AppImage> Number of fragments 1913
-puddletag.AppImage> Number of symbolic links 1796
-puddletag.AppImage> Number of device nodes 0
-puddletag.AppImage> Number of fifo nodes 0
-puddletag.AppImage> Number of socket nodes 0
-puddletag.AppImage> Number of directories 6090
-puddletag.AppImage> Number of hard-links 0
-puddletag.AppImage> Number of ids (unique uids + gids) 1
-puddletag.AppImage> Number of uids 1
-puddletag.AppImage>     root (0)
-puddletag.AppImage> Number of gids 1
-puddletag.AppImage>     root (0)
-puddletag.AppImage> 1926+1 records in
-puddletag.AppImage> 1926+1 records out
-puddletag.AppImage> 986512 bytes (987 kB, 963 KiB) copied, 0.00580445 s, 170 MB/s
-++ sudo rsync -achL /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.AppImage /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
+++ sudo rsync -achL /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.AppImage /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
 +++ whoami
 +++ whoami
-++ sudo chown -R runner:runner /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ chmod -R 755 /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ du -sh /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-303M	/tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ file /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-/tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
-++ [[ -f /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp ]]
-+++ stat -c%s /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
+++ sudo chown -R runner:runner /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ chmod -R 755 /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ du -sh /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+303M	/tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ file /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, not stripped
+++ [[ -f /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp ]]
++++ stat -c%s /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
 ++ [[ 316730768 -gt 1024 ]]
 +++ nix derivation show nixpkgs#puddletag
-+++ grep '"version"'
++++ grep --color=auto '"version"'
 +++ awk '-F: ' '{print $2}'
 +++ tr -d '"'
 ++ PKG_VERSION=2.3.0
 ++ export PKG_VERSION=2.3.0
 ++ PKG_VERSION=2.3.0
 ++ echo 2.3.0
-++ APPIMAGE=/tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ export APPIMAGE=/tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ APPIMAGE=/tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ chmod +x /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-++ /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp --appimage-extract
-++ rm -f /tmp/toolpacks/aubVM2c_x86_64_Linux/puddletag.NixAppImage.tmp
-+++ realpath /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
-++ APPIMAGE_EXTRACT=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
-++ export APPIMAGE_EXTRACT=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
-++ APPIMAGE_EXTRACT=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
-++ '[' -d /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root ']'
-+++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -mindepth 1 -print -quit
-++ '[' /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix ']'
-++ cd /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
-++ mkdir -p /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/usr/share/applications
-++ mkdir -p /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/usr/share/metainfo
-+++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -path '*share/*applications*puddletag*' -print -quit
+++ APPIMAGE=/tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ export APPIMAGE=/tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ APPIMAGE=/tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ chmod +x /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
+++ /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp --appimage-extract
+++ rm -f /tmp/toolpacks/hNbdN4j_x86_64_Linux/puddletag.NixAppImage.tmp
++++ realpath /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
+++ export APPIMAGE_EXTRACT=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
+++ '[' -d /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root ']'
++++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -mindepth 1 -print -quit
+++ '[' /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix ']'
+++ cd /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
+++ mkdir -p /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/usr/share/applications
+++ mkdir -p /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/usr/share/metainfo
++++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -path '*share/*applications*puddletag*' -print -quit
 +++ sed 's|/share/applications.*||'
-++ SHARE_DIR=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
-++ export SHARE_DIR=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
-++ SHARE_DIR=/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
-++ rsync -av --copy-links '--include=*/' '--include=*.desktop' '--include=*.png' '--include=*.svg' '--include=*.xml' '--exclude=*' /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share/ ./usr/share/
+++ SHARE_DIR=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
+++ export SHARE_DIR=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
+++ SHARE_DIR=/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share
+++ rsync -av --copy-links '--include=*/' '--include=*.desktop' '--include=*.png' '--include=*.svg' '--include=*.xml' '--exclude=*' /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share/ ./usr/share/
 sending incremental file list
 ./
 applications/
@@ -9529,189 +9413,188 @@ icons/puddletag.png
 man/
 man/man1/
 
-sent 46,083 bytes  received 81 bytes  92,328.00 bytes/sec
+sent 46,078 bytes  received 81 bytes  92,318.00 bytes/sec
 total size is 45,733  speedup is 0.99
-++ ls ./usr/share/
-applications
-icons
-man
-metainfo
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -maxdepth 1 -type f,l '(' -iname '*.[pP][nN][gG]' -o -iname '*.[sS][vV][gG]' ')' -printf '%s %p\n' -quit
-++ awk 'NR==1 {print $2}'
-++ sort -n
-++ xargs -I '{}' convert '{}' -resize 128x128 -verbose /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png
-++ [[ ! -f /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png ]]
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -regex '.*\(128x128/apps\|256x256\)/.*puddletag.*\.\(png\|svg\)' -printf '%s %p\n' -quit
+++ ls -lh --color=auto ./usr/share/
+total 16K
+drwxr-xr-x 2 runner runner 4.0K Oct  1 09:35 applications
+drwxr-xr-x 2 runner runner 4.0K Oct  1 09:35 icons
+drwxr-xr-x 3 runner runner 4.0K Oct  1 09:35 man
+drwxr-xr-x 2 runner runner 4.0K Oct  1 09:35 metainfo
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/puddletag.png -o /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png
 ++ sort -n
 ++ awk 'NR==1 {print $2}'
-++ xargs -I '{}' convert '{}' -resize 128x128 -verbose /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png
-++ rsync -achL /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/.DirIcon
-rsync: [sender] link_stat "/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png" failed: No such file or directory (2)
-rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.3.0]
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -path '*puddletag*.desktop' -printf '%s %p\n' -quit
-++ awk 'NR==1 {print $2}'
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -maxdepth 1 -type f,l '(' -iname '*.[pP][nN][gG]' -o -iname '*.[sS][vV][gG]' ')' -printf '%s %p\n' -quit
+++ xargs -I '{}' convert '{}' -resize 128x128 -verbose /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png PNG 256x256=>128x128 128x128+0+0 8-bit sRGB 18082B 0.020u 0:00.007
+++ [[ ! -f /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png ]]
++++ stat -c%s /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png
+++ [[ 18082 -le 3 ]]
+++ rsync -achL /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/.DirIcon
 ++ sort -n
+++ awk 'NR==1 {print $2}'
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -path '*puddletag*.desktop' -printf '%s %p\n' -quit
 ++ xargs -I '{}' sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
-++ sed 's/Icon=[^ ]*/Icon=puddletag/' -i /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.desktop
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
+++ sed 's/Icon=[^ ]*/Icon=puddletag/' -i /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.desktop
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
 ++ echo -e '\n[+] Purging Bloatware...\n'
 
 [+] Purging Bloatware...
 
-+++ du -sh /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
++++ du -sh /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
 +++ awk '{print $1}'
 ++ O_SIZE=918M
 ++ export O_SIZE=918M
 ++ O_SIZE=918M
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type d -path '*/include*' -print -exec rm -rf '{}' ';'
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/56d9xcxqkxs5a6ina3r43jnvar6qz097-python3.12-dbus-python-1.3.2-dev/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/xv328l88k34smcn9qcb8v38ki6r2q9dx-chromaprint-1.5.1/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/dqsadril5wh0xxwd0d4p9jp647d113pw-zix-0.4.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/w58y36pr3q7jrfddzy9wcmgw5iwdb726-libXScrnSaver-1.2.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/cklnqcikprsyi9bwbvzmsdiv6d5szmw6-libnfnetlink-1.0.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/i7d0rd6p2mnmyvhwrnfrfknkwf3z4nbv-libnetfilter_conntrack-1.0.9/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/ykzlrlb2zvz4qsngr16bv2140f637rd2-pixman-0.43.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/fvsswlqh6pc2f5x9qvahm4qbjgjlp86j-linux-pam-1.6.1/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/393kila9i9qzp5m0ixpv0fsnik6dghzk-libmnl-1.0.5/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lhfgwjwwdacygiq702yvbahvpqmxivpx-libxcrypt-4.4.36/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/yn6xa7k46fjqrvz6p81yi2v9jhn73d17-libpciaccess-0.18.1/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/w8cfsafws5iabrc95395rfdilhpy9fvr-libevdev-1.13.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/251i04kqvd3vizlp59xfap5cfgnni7bb-libbpf-1.4.5/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6jca1hvv7206hjg8sqcksklb92zkf7d9-libargon2-20190702/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/jypvaw7l47103xr03jrmj3ymdwb8g7vp-libsigc++-2.12.1/lib/sigc++-2.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/092sh0nakgk3pfqm04h9b8amc3s57gdv-gst-plugins-base-1.24.3/lib/gstreamer-1.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/cgcbhda3l86knmyciknmvw2x0321z7zc-glibmm-2.66.7/lib/giomm-2.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/cgcbhda3l86knmyciknmvw2x0321z7zc-glibmm-2.66.7/lib/glibmm-2.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/kwk69l370z971aq2fgaaxcq1rxgp1p0z-mtdev-1.1.7/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/i386/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/mac/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/pjxrn2wn0sn533p48jz5qxgjld84hn3i-glib-2.80.4/lib/glib-2.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nj3grvd1g7njfzxzmw07ca17sbi354yy-libwebp-1.4.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hg7hibc2fkm2jfqzwxksp0486xi97xrj-libXtst-1.2.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/h3bypadd78i0bwcsjhbwc1zsddqhpzhj-python3.12-lxml-5.2.2/lib/python3.12/site-packages/lxml/includes
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/na3hy5k969zmdrlqm857y06cdzxjb1cv-dbus-1.14.10-lib/lib/dbus-1.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nam71gzwd44qrqw80y1ys5l1q9j9mppq-libiec61883-1.2.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/99kdsvjp77yv0yxs9wzpn8x227j7d1zc-gsettings-desktop-schemas-46.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/ghx13vzz0hx84lma1zmikmm2gcj9dzl9-srt-1.5.3/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/l8frschj16wfrak4di1wvw5kcyzrsfvx-libwebp-1.4.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/kxz93908rmrrvx3qz17agvwa4vz0asjj-libraw1394-2.1.2/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lamgq763ag40rizy53aj7hzp7fsrwl1q-xvidcore-1.3.7/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/i23zlwwp190dqd2a2qm781kbnlkdcks7-libconfig-1.7.3/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/rd6kdl0q8adpww310zic1r9kvxv4nwh0-graphene-1.10.8/lib/graphene-1.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6gfa2d4ihzm4wc7vhppn4mna31xkmxzk-svt-av1-2.2.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4rr26l8j06p76sm8yr9b4cnixyy14jw6-libavc1394-0.5.4/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hlq5rxa4wv5bp8sma384n67m7sk775d2-libdeflate-1.20/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/5542zk0i45x7licgq686cqbf4n9saync-libnftnl-1.2.7/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/aikara3vi6q7fbmgwcam49mkmh9dfssc-npth-1.7/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/z11am5m1s5ciq48vqzzp1mixv27sv99f-libssh-0.10.6/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nbgkyxm9819xnl8kbmha1r0n1dyain1b-libxml++-3.0.1/lib/libxml++-3.0/include
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/q01y89dr5rfxjyb9w77lxxgnfk3rfxrx-cracklib-2.10.0/include
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type d -path '*doc/share*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type d -path '*/share/docs*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type d -path '*/share/man*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/58wn590yh2iqfbnn0l42jx5bz712zjxn-libXinerama-1.1.5/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/rqs1zrcncqz3966khjndg1183cpdnqxs-zlib-1.3.1/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/sm1g01qrm3hz9q2whpbv7g3grmn3hkk0-bluez-5.76/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/1h3vqf3kfywj5a8qihl71fv5jwprpfqf-python3.12-mutagen-1.47.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/w58y36pr3q7jrfddzy9wcmgw5iwdb726-libXScrnSaver-1.2.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/vsyc8jhsr4d9lm2r8yqq9n3j4i66inlj-gnugrep-3.11/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/3109g52zwkricfrdjsx249cfzqbhzdlg-tracker-3.7.3/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/w8cfsafws5iabrc95395rfdilhpy9fvr-libevdev-1.13.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/jxscs9x9pgskzgjcjiwbhz2iikx000gl-kexec-tools-2.0.28/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/p1ackxjqznm2q5dl3r178wp487q86jig-freetype-2.13.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/pgyj2z5jksb8dpfjv1hwaqa0zl5rj3aa-kmod-31/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/092sh0nakgk3pfqm04h9b8amc3s57gdv-gst-plugins-base-1.24.3/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nf30bbicn3sv2gisln2fiqdw94as92jq-libXft-2.3.8/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/dzha36c4s22chp96w1nl8dk59hwijazm-libwacom-2.12.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nj3grvd1g7njfzxzmw07ca17sbi354yy-libwebp-1.4.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hg7hibc2fkm2jfqzwxksp0486xi97xrj-libXtst-1.2.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/nam71gzwd44qrqw80y1ys5l1q9j9mppq-libiec61883-1.2.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/1hyf0l735lqx1qym9brw2l4xfq8sr37r-libXxf86vm-1.1.5/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/qgv3ji2ahl80jkq69vkk6j6j2fhpiha4-libXrandr-1.5.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/gwi3zswlzkkw5n8s70dpgiqlxsmvax8n-libXcursor-1.2.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/dm71g6klf3ybprhhyl2vzzi7g87qddhv-libXcomposite-0.4.6/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4iyki6wsawj3qyisw3yqqam6x7w50had-libxkbcommon-1.7.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/3hxxbbjc8r66nravvjind6ixhz7cpij1-mpdecimal-4.0.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/l8frschj16wfrak4di1wvw5kcyzrsfvx-libwebp-1.4.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/l2l5xr2zczq19gqpqz4j8vxxia1j41s1-gnutar-1.35/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/jxpv7kfb1zkqs45kxbxw1i430dz870f0-roc-toolkit-0.4.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/kxz93908rmrrvx3qz17agvwa4vz0asjj-libraw1394-2.1.2/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/wd7b3f9sqgs0flgicx213iiyzjb4jxqm-libXfixes-6.0.1/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/3zrkasqf3sqr9ff6sv5fddhlbf072a36-mailcap-2.1.54/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4rr26l8j06p76sm8yr9b4cnixyy14jw6-libavc1394-0.5.4/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/8y22k06sx5qk66bh24cvhnx1yc4zq85p-gnum4-1.4.19/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/502gz9zjwzqpbiyb5c294hgx0gzlv9il-mariadb-connector-c-3.3.5/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6a6xr6phgvmd7djmzn7d7m5jww9lhjrp-krb5-1.21.3-lib/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/d7xk4kz4n4djsq37kf143wgll4z7i8m9-xkeyboard-config-2.42/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/cpxjynj0s2hrl88l19jhkcg048b54spi-libXau-1.0.11/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/q01y89dr5rfxjyb9w77lxxgnfk3rfxrx-cracklib-2.10.0/share/man
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/usr/share/man
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type f -name '*.a' -print -exec rm -f '{}' ';'
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libasm.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libdw.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libelf.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/lib/libapparmor.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/2pd9d26vp5f0gxsy2r8w2kbbh2lwvx2l-libfido2-1.15.0/lib/libfido2.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/pvqh03iwjx7rqzlrgj2jps2gldsbml5a-openjpeg-2.5.2/lib/libopenjp2.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/p1ackxjqznm2q5dl3r178wp487q86jig-freetype-2.13.2/lib/libfreetype.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/251i04kqvd3vizlp59xfap5cfgnni7bb-libbpf-1.4.5/lib/libbpf.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/6jca1hvv7206hjg8sqcksklb92zkf7d9-libargon2-20190702/lib/libargon2.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/s8zhpxk3h2n0iibbh061nxqrppfq44xn-libselinux-3.6/lib/libselinux.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/lib/libpcap.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/2cck9cq8s2hz5nqnydlisnpf15m2kvmb-json-c-0.17/lib/libjson-c.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical_cxx.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalss.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical-glib.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalvcal.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalss_cxx.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/3dyw8dzj9ab4m8hv5dpyx7zii8d0w6fi-glibc-2.39-52/lib/libc_nonshared.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/lib/libcdda_interface.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/lib/libcdda_paranoia.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/yxznp0c7pdbfpicwrz5zcyjm7kfykipd-libvpx-1.14.1/lib/libvpx.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EglSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5ThemeSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EventDispatcherSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5PlatformCompositorSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5KmsSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EdidSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5FontDatabaseSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5Bootstrap.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5ServiceSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5InputSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5OpenGLExtensions.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5GlxSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5DeviceDiscoverySupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5LinuxAccessibilitySupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5AccessibilitySupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5FbSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5XkbCommonSupport.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/akrfqbqkmvnak0ply9rcl6icglpvhxn2-libvmaf-3.0.0/lib/libvmaf.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/ghx13vzz0hx84lma1zmikmm2gcj9dzl9-srt-1.5.3/lib/libsrt.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/lib/libgif.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/shxq4vm4qf9yfrcb5yawvqsaqvcrn643-keyutils-1.6.3-lib/lib/libkeyutils.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/hlq5rxa4wv5bp8sma384n67m7sk775d2-libdeflate-1.20/lib/libdeflate.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/502gz9zjwzqpbiyb5c294hgx0gzlv9il-mariadb-connector-c-3.3.5/lib/mariadb/libmariadbclient.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5PacketProtocol.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5QmlDevTools.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5QmlDebug.a
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/nix/store/lkl2dp6cc9i3hw6x522qsnycb646w3a0-libmysofa-1.3.2/lib/libmysofa.a
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type d -name '*systemd*' -exec find '{}' -type f '!' -name '*.so*' -delete ';'
-+++ du -sh /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type d -path '*/include*' -print -exec rm -rf '{}' ';'
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/56d9xcxqkxs5a6ina3r43jnvar6qz097-python3.12-dbus-python-1.3.2-dev/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/xv328l88k34smcn9qcb8v38ki6r2q9dx-chromaprint-1.5.1/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/dqsadril5wh0xxwd0d4p9jp647d113pw-zix-0.4.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/w58y36pr3q7jrfddzy9wcmgw5iwdb726-libXScrnSaver-1.2.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/cklnqcikprsyi9bwbvzmsdiv6d5szmw6-libnfnetlink-1.0.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/i7d0rd6p2mnmyvhwrnfrfknkwf3z4nbv-libnetfilter_conntrack-1.0.9/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/ykzlrlb2zvz4qsngr16bv2140f637rd2-pixman-0.43.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/fvsswlqh6pc2f5x9qvahm4qbjgjlp86j-linux-pam-1.6.1/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/393kila9i9qzp5m0ixpv0fsnik6dghzk-libmnl-1.0.5/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lhfgwjwwdacygiq702yvbahvpqmxivpx-libxcrypt-4.4.36/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/yn6xa7k46fjqrvz6p81yi2v9jhn73d17-libpciaccess-0.18.1/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/w8cfsafws5iabrc95395rfdilhpy9fvr-libevdev-1.13.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/251i04kqvd3vizlp59xfap5cfgnni7bb-libbpf-1.4.5/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6jca1hvv7206hjg8sqcksklb92zkf7d9-libargon2-20190702/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/jypvaw7l47103xr03jrmj3ymdwb8g7vp-libsigc++-2.12.1/lib/sigc++-2.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/092sh0nakgk3pfqm04h9b8amc3s57gdv-gst-plugins-base-1.24.3/lib/gstreamer-1.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/cgcbhda3l86knmyciknmvw2x0321z7zc-glibmm-2.66.7/lib/giomm-2.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/cgcbhda3l86knmyciknmvw2x0321z7zc-glibmm-2.66.7/lib/glibmm-2.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/kwk69l370z971aq2fgaaxcq1rxgp1p0z-mtdev-1.1.7/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/i386/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/keymaps/mac/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/pjxrn2wn0sn533p48jz5qxgjld84hn3i-glib-2.80.4/lib/glib-2.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nj3grvd1g7njfzxzmw07ca17sbi354yy-libwebp-1.4.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hg7hibc2fkm2jfqzwxksp0486xi97xrj-libXtst-1.2.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/h3bypadd78i0bwcsjhbwc1zsddqhpzhj-python3.12-lxml-5.2.2/lib/python3.12/site-packages/lxml/includes
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/na3hy5k969zmdrlqm857y06cdzxjb1cv-dbus-1.14.10-lib/lib/dbus-1.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nam71gzwd44qrqw80y1ys5l1q9j9mppq-libiec61883-1.2.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/99kdsvjp77yv0yxs9wzpn8x227j7d1zc-gsettings-desktop-schemas-46.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/ghx13vzz0hx84lma1zmikmm2gcj9dzl9-srt-1.5.3/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/l8frschj16wfrak4di1wvw5kcyzrsfvx-libwebp-1.4.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/kxz93908rmrrvx3qz17agvwa4vz0asjj-libraw1394-2.1.2/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lamgq763ag40rizy53aj7hzp7fsrwl1q-xvidcore-1.3.7/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/i23zlwwp190dqd2a2qm781kbnlkdcks7-libconfig-1.7.3/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/rd6kdl0q8adpww310zic1r9kvxv4nwh0-graphene-1.10.8/lib/graphene-1.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6gfa2d4ihzm4wc7vhppn4mna31xkmxzk-svt-av1-2.2.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4rr26l8j06p76sm8yr9b4cnixyy14jw6-libavc1394-0.5.4/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hlq5rxa4wv5bp8sma384n67m7sk775d2-libdeflate-1.20/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/5542zk0i45x7licgq686cqbf4n9saync-libnftnl-1.2.7/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/aikara3vi6q7fbmgwcam49mkmh9dfssc-npth-1.7/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/z11am5m1s5ciq48vqzzp1mixv27sv99f-libssh-0.10.6/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nbgkyxm9819xnl8kbmha1r0n1dyain1b-libxml++-3.0.1/lib/libxml++-3.0/include
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/q01y89dr5rfxjyb9w77lxxgnfk3rfxrx-cracklib-2.10.0/include
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type d -path '*doc/share*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type d -path '*/share/docs*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type d -path '*/share/man*' '!' -name '*puddletag*' -print -exec rm -rf '{}' ';'
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/58wn590yh2iqfbnn0l42jx5bz712zjxn-libXinerama-1.1.5/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/rqs1zrcncqz3966khjndg1183cpdnqxs-zlib-1.3.1/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/sm1g01qrm3hz9q2whpbv7g3grmn3hkk0-bluez-5.76/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/1h3vqf3kfywj5a8qihl71fv5jwprpfqf-python3.12-mutagen-1.47.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/w58y36pr3q7jrfddzy9wcmgw5iwdb726-libXScrnSaver-1.2.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/vsyc8jhsr4d9lm2r8yqq9n3j4i66inlj-gnugrep-3.11/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/3109g52zwkricfrdjsx249cfzqbhzdlg-tracker-3.7.3/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/w8cfsafws5iabrc95395rfdilhpy9fvr-libevdev-1.13.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/jxscs9x9pgskzgjcjiwbhz2iikx000gl-kexec-tools-2.0.28/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/p1ackxjqznm2q5dl3r178wp487q86jig-freetype-2.13.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/pgyj2z5jksb8dpfjv1hwaqa0zl5rj3aa-kmod-31/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/092sh0nakgk3pfqm04h9b8amc3s57gdv-gst-plugins-base-1.24.3/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6dn863zls7j1d57jqy5j36jf882igsr9-puddletag-2.3.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nf30bbicn3sv2gisln2fiqdw94as92jq-libXft-2.3.8/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/dzha36c4s22chp96w1nl8dk59hwijazm-libwacom-2.12.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/frngrlq2xa2szv4bx91jkymv0dy9akmx-kbd-2.6.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nj3grvd1g7njfzxzmw07ca17sbi354yy-libwebp-1.4.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hg7hibc2fkm2jfqzwxksp0486xi97xrj-libXtst-1.2.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/nam71gzwd44qrqw80y1ys5l1q9j9mppq-libiec61883-1.2.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/1hyf0l735lqx1qym9brw2l4xfq8sr37r-libXxf86vm-1.1.5/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/qgv3ji2ahl80jkq69vkk6j6j2fhpiha4-libXrandr-1.5.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/gwi3zswlzkkw5n8s70dpgiqlxsmvax8n-libXcursor-1.2.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/dm71g6klf3ybprhhyl2vzzi7g87qddhv-libXcomposite-0.4.6/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4iyki6wsawj3qyisw3yqqam6x7w50had-libxkbcommon-1.7.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/3hxxbbjc8r66nravvjind6ixhz7cpij1-mpdecimal-4.0.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/l8frschj16wfrak4di1wvw5kcyzrsfvx-libwebp-1.4.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/l2l5xr2zczq19gqpqz4j8vxxia1j41s1-gnutar-1.35/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/jxpv7kfb1zkqs45kxbxw1i430dz870f0-roc-toolkit-0.4.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/kxz93908rmrrvx3qz17agvwa4vz0asjj-libraw1394-2.1.2/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/wd7b3f9sqgs0flgicx213iiyzjb4jxqm-libXfixes-6.0.1/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/3zrkasqf3sqr9ff6sv5fddhlbf072a36-mailcap-2.1.54/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4rr26l8j06p76sm8yr9b4cnixyy14jw6-libavc1394-0.5.4/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/8y22k06sx5qk66bh24cvhnx1yc4zq85p-gnum4-1.4.19/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/502gz9zjwzqpbiyb5c294hgx0gzlv9il-mariadb-connector-c-3.3.5/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6a6xr6phgvmd7djmzn7d7m5jww9lhjrp-krb5-1.21.3-lib/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/d7xk4kz4n4djsq37kf143wgll4z7i8m9-xkeyboard-config-2.42/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/cpxjynj0s2hrl88l19jhkcg048b54spi-libXau-1.0.11/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/q01y89dr5rfxjyb9w77lxxgnfk3rfxrx-cracklib-2.10.0/share/man
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/usr/share/man
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type f -name '*.a' -print -exec rm -f '{}' ';'
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libasm.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libdw.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hld4f6s0yapc7qp71zfyjrqgrpvk6k4d-elfutils-0.191/lib/libelf.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/j9yjzgqvsdk5n51j48z9vycnx1j0rc69-libapparmor-4.0.1/lib/libapparmor.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/2pd9d26vp5f0gxsy2r8w2kbbh2lwvx2l-libfido2-1.15.0/lib/libfido2.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/pvqh03iwjx7rqzlrgj2jps2gldsbml5a-openjpeg-2.5.2/lib/libopenjp2.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/p1ackxjqznm2q5dl3r178wp487q86jig-freetype-2.13.2/lib/libfreetype.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/251i04kqvd3vizlp59xfap5cfgnni7bb-libbpf-1.4.5/lib/libbpf.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/6jca1hvv7206hjg8sqcksklb92zkf7d9-libargon2-20190702/lib/libargon2.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/s8zhpxk3h2n0iibbh061nxqrppfq44xn-libselinux-3.6/lib/libselinux.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lwhcdjlzin8bh5lpgwwj4bv5gyx07dd5-libpcap-1.10.4/lib/libpcap.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/2cck9cq8s2hz5nqnydlisnpf15m2kvmb-json-c-0.17/lib/libjson-c.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical_cxx.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalss.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical-glib.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libical.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalvcal.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/9gf698qji8n8dfm5rb3fw1gm3zvwj2r3-libical-3.0.18/lib/libicalss_cxx.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/3dyw8dzj9ab4m8hv5dpyx7zii8d0w6fi-glibc-2.39-52/lib/libc_nonshared.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/lib/libcdda_interface.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/4w6rh5warmzxvnx1jsq7i0hbpb9xxfbp-cdparanoia-III-10.2/lib/libcdda_paranoia.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/yxznp0c7pdbfpicwrz5zcyjm7kfykipd-libvpx-1.14.1/lib/libvpx.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EglSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5ThemeSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EventDispatcherSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5PlatformCompositorSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5KmsSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5EdidSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5FontDatabaseSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5Bootstrap.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5ServiceSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5InputSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5OpenGLExtensions.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5GlxSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5DeviceDiscoverySupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5LinuxAccessibilitySupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5AccessibilitySupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5FbSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/g93ia4cv3j8v42n8v7mj0i580h269bij-qtbase-5.15.14/lib/libQt5XkbCommonSupport.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/akrfqbqkmvnak0ply9rcl6icglpvhxn2-libvmaf-3.0.0/lib/libvmaf.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/ghx13vzz0hx84lma1zmikmm2gcj9dzl9-srt-1.5.3/lib/libsrt.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/gbl4r80dwh47rng4j25n56aq6p7g4ac5-giflib-5.2.2/lib/libgif.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/shxq4vm4qf9yfrcb5yawvqsaqvcrn643-keyutils-1.6.3-lib/lib/libkeyutils.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/lib/python3.12/config-3.12-x86_64-linux-gnu/libpython3.12.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/hlq5rxa4wv5bp8sma384n67m7sk775d2-libdeflate-1.20/lib/libdeflate.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/502gz9zjwzqpbiyb5c294hgx0gzlv9il-mariadb-connector-c-3.3.5/lib/mariadb/libmariadbclient.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5PacketProtocol.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5QmlDevTools.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/rka9n44kazy9wwjgxybidkp1fb1wcd0i-qtdeclarative-5.15.14/lib/libQt5QmlDebug.a
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/nix/store/lkl2dp6cc9i3hw6x522qsnycb646w3a0-libmysofa-1.3.2/lib/libmysofa.a
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type d -name '*systemd*' -exec find '{}' -type f '!' -name '*.so*' -delete ';'
++++ du -sh /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root
 +++ awk '{print $1}'
 ++ P_SIZE=810M
 ++ export P_SIZE=810M
@@ -9720,39 +9603,91 @@ rsync error: some files/attrs were not transferred (see previous errors) (code 2
 
 [+] Shaved off 918M --> 810M
 
-++ rsync -achL /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png /tmp/toolpack_x86_64/puddletag.icon.png
-rsync: [sender] link_stat "/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png" failed: No such file or directory (2)
-rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.3.0]
-++ rsync -achL /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/.DirIcon /tmp/toolpack_x86_64/puddletag.DirIcon
-rsync: [sender] link_stat "/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/.DirIcon" failed: No such file or directory (2)
-rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.3.0]
-++ rsync -achL /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.desktop /tmp/toolpack_x86_64/puddletag.desktop
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root -type f -iname '*puddletag*appdata.xml' -delete
-++ cd /tmp/toolpacks/aubVM2c_x86_64_Linux
+++ rsync -achL /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.png /tmp/toolpack_x86_64/puddletag.icon.png
+++ rsync -achL /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/.DirIcon /tmp/toolpack_x86_64/puddletag.DirIcon
+++ rsync -achL /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root/puddletag.desktop /tmp/toolpack_x86_64/puddletag.desktop
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root -type f -iname '*puddletag*appdata.xml' -delete
+++ cd /tmp/toolpacks/hNbdN4j_x86_64_Linux
 +++ uname -m
 ++ ARCH=x86_64
-++ appimagetool --comp zstd --mksquashfs-opt -root-owned --mksquashfs-opt -no-xattrs --mksquashfs-opt -noappend --mksquashfs-opt -b --mksquashfs-opt 1M --mksquashfs-opt -mkfs-time --mksquashfs-opt 0 --mksquashfs-opt -Xcompression-level --mksquashfs-opt 22 --updateinformation 'zsync|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.NixAppImage.zsync' /tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root /tmp/toolpack_x86_64/puddletag.NixAppImage
+++ appimagetool --comp zstd --mksquashfs-opt -root-owned --mksquashfs-opt -no-xattrs --mksquashfs-opt -noappend --mksquashfs-opt -b --mksquashfs-opt 1M --mksquashfs-opt -mkfs-time --mksquashfs-opt 0 --mksquashfs-opt -Xcompression-level --mksquashfs-opt 22 --updateinformation 'zsync|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.NixAppImage.zsync' /tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root /tmp/toolpack_x86_64/puddletag.NixAppImage
 appimagetool, continuous build (git version 81ee1db), build 172 built on 2024-08-08 00:18:46 UTC
 Using architecture x86_64
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root should be packaged as /tmp/toolpack_x86_64/puddletag.NixAppImage
-puddletag{.png,.svg,.xpm} defined in desktop file but not found
-For example, you could put a 256x256 pixel png into
-/tmp/toolpacks/aubVM2c_x86_64_Linux/squashfs-root/puddletag.png
-++ find /tmp/toolpacks/aubVM2c_x86_64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_x86_64 ';'
-++ rm -rf /tmp/toolpacks/aubVM2c_x86_64_Linux
+/tmp/toolpacks/hNbdN4j_x86_64_Linux/squashfs-root should be packaged as /tmp/toolpack_x86_64/puddletag.NixAppImage
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/puddletag.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Downloading runtime file from https://github.com/AppImage/type2-runtime/releases/download/continuous/runtime-x86_64
+Downloaded runtime binary of size 692624
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /tmp/toolpack_x86_64/puddletag.NixAppImage, block size 1048576.
+[===========================================================\] 16593/16593 100%
+
+Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 204760.35 Kbytes (199.96 Mbytes)
+	26.61% of uncompressed filesystem size (769354.25 Kbytes)
+Inode table size 203735 bytes (198.96 Kbytes)
+	23.41% of uncompressed inode table size (870122 bytes)
+Directory table size 230092 bytes (224.70 Kbytes)
+	34.28% of uncompressed directory table size (671224 bytes)
+Number of duplicate files found 5
+Number of inodes 25295
+Number of files 16261
+Number of fragments 417
+Number of symbolic links 3126
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 5908
+Number of hard-links 1921
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+zsyncmake is available and updateinformation is provided, hence generating zsync file
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+++ find /tmp/toolpacks/hNbdN4j_x86_64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_x86_64 ';'
+++ rm -rf /tmp/toolpacks/hNbdN4j_x86_64_Linux
 ++ popd
-++ find /tmp/toolpack_x86_64 -type f -iname '*puddletag*' -print
 ++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-sh: 0: getcwd() failed: No such file or directory
+++ find /tmp/toolpack_x86_64 -type f -iname '*puddletag*' -print
+/tmp/toolpack_x86_64/puddletag.icon.png: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+5a37a9643ca8a46a21884fe3844373d6f732b9323bdc1cdf5889e1866da75bd4  /tmp/toolpack_x86_64/puddletag.icon.png
+7d475786b928ed0cb5c440ad2ea7d87adb239e70e275a8ed55b32c9099b50398  /tmp/toolpack_x86_64/puddletag.icon.png
+20K	/tmp/toolpack_x86_64/puddletag.icon.png
+/tmp/toolpack_x86_64/puddletag.NixAppImage: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
+6644f004e2b2d1e6c42b522ed620a264740aa8e618e8341b624c78ce7687a28e  /tmp/toolpack_x86_64/puddletag.NixAppImage
+51720b6603d8d5048bc7bb33aafd115b61c7ea877c12dad71cf0acee0a490650  /tmp/toolpack_x86_64/puddletag.NixAppImage
+201M	/tmp/toolpack_x86_64/puddletag.NixAppImage
 /tmp/toolpack_x86_64/puddletag.desktop: ASCII text
 2fcef50f6e3a2123402a941be251358f0e10ea26dc8ce5e02599b8229d3cc8bc  /tmp/toolpack_x86_64/puddletag.desktop
 a5e68d43de7263bb4bc08e11badfd10cb7586f08ae9a72681d059bfb02c671e4  /tmp/toolpack_x86_64/puddletag.desktop
 4.0K	/tmp/toolpack_x86_64/puddletag.desktop
-sh: 0: getcwd() failed: No such file or directory
+/tmp/toolpack_x86_64/puddletag.NixAppImage.zsync: data
+567c082b79e2d6e3f9f3c71116598aca1a274e4e5e5c769003ce1224c2930a7b  /tmp/toolpack_x86_64/puddletag.NixAppImage.zsync
+06172dba00430e889c4af18225383de8d707cdcd6256e4c8e4ada239ec7cfbbe  /tmp/toolpack_x86_64/puddletag.NixAppImage.zsync
+352K	/tmp/toolpack_x86_64/puddletag.NixAppImage.zsync
 /tmp/toolpack_x86_64/puddletag.NixAppImage.version: ASCII text
 b92bc1e43d7efdc921541c4dc002d8a7c529efe7072208e2b21dbbe8ef59198b  /tmp/toolpack_x86_64/puddletag.NixAppImage.version
 a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36  /tmp/toolpack_x86_64/puddletag.NixAppImage.version
 4.0K	/tmp/toolpack_x86_64/puddletag.NixAppImage.version
+/tmp/toolpack_x86_64/puddletag.DirIcon: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+5a37a9643ca8a46a21884fe3844373d6f732b9323bdc1cdf5889e1866da75bd4  /tmp/toolpack_x86_64/puddletag.DirIcon
+7d475786b928ed0cb5c440ad2ea7d87adb239e70e275a8ed55b32c9099b50398  /tmp/toolpack_x86_64/puddletag.DirIcon
+20K	/tmp/toolpack_x86_64/puddletag.DirIcon
 ++ unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
 ++ popd
 ++ LOG_PATH=/tmp/toolpack_x86_64/puddletag.log
@@ -9766,9 +9701,6 @@ a42caf4a54bbbe27aa45b6efbc6356c5e299b19763e728b6cdb7201b02ebbe36  /tmp/toolpack_
 ++ unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
 ++ unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
 ++ set +x
-
-[+] Completed (Building|Fetching) puddletag [https://github.com/puddletag/puddletag] :: 00(Hr):00(Min):53(Sec) ==> /tmp/toolpack_x86_64/puddletag.log
-
 -e 
 
 

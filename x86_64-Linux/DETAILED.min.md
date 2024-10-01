@@ -7,8 +7,8 @@
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/86box.AppImage
 - **Size 💾:** `57.98 MB`
-- **SHA256SUM 🔐:** `d41c5e14a5cc52d4261866d6399cf3e970d344393a011c406ac3405901c58784`
-- **B3SUM 🔐:** `f585eb270974f292abb2f81f14004ebbdaad9e18586e06a86cf2f211c190cc1b`
+- **SHA256SUM 🔐:** `e18421f23af4229a221d7baa9da7ffe9a08b84dbebf53a001db20aa8bb28b17a`
+- **B3SUM 🔐:** `afcb415f2aa1e784f3e358a460889af67d4cc3d42298446bee78da786321b5d5`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/86box.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/86box.icon.png
@@ -337,6 +337,25 @@
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/olive-editor.icon.png
 - **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/olive-editor.desktop
 - **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/olive-editor.zsync
+
+---
+
+### [`puddletag.NixAppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/puddletag.NixAppImage)
+- **PKG_Name 📦:** puddletag
+- **Version 🧬:** `2.3.0`
+- **Description ℹ️:** Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)
+- **Note ⚠️:** (CI_VERIFIED: https://github.com/puddletag/puddletag/actions)
+- **Homepage 🌐:** [https://docs.puddletag.net](https://docs.puddletag.net)
+- **Source 📡:** [https://github.com/puddletag/puddletag](https://github.com/puddletag/puddletag)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.NixAppImage
+- **Size 💾:** `210.37 MB`
+- **SHA256SUM 🔐:** `51720b6603d8d5048bc7bb33aafd115b61c7ea877c12dad71cf0acee0a490650`
+- **B3SUM 🔐:** `6644f004e2b2d1e6c42b522ed620a264740aa8e618e8341b624c78ce7687a28e`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/puddletag.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.zsync
 
 ---
 

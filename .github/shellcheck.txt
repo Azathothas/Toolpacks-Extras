@@ -583,31 +583,31 @@ In .github/scripts/x86_64-Linux/pkgs/affine.sh line 138:
 For more information:
   https://www.shellcheck.net/wiki/SC2261 -- Multiple redirections compete for...
 
-In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 82:
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 83:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                           ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                          ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 84:
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 85:
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 85:
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 86:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                     ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                    ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 86:
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 87:
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
                                                                                                                    ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
 
 
-In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 88:
+In .github/scripts/x86_64-Linux/pkgs/puddletag.sh line 89:
             find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
                                                                                   ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
                                                                                                  ^-- SC2261 (error): Multiple redirections compete for stderr. Use cat, tee, or pass filenames instead.
