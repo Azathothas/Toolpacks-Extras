@@ -48,6 +48,11 @@ jobs:
           #GH Dirs
           mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
           mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
+          #Setup HF
+          git config --global "credential.helper" store
+          git config --global "user.email" "AjamX101@gmail.com"
+          git config --global "user.name" "Azathothas"
+          huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential >/dev/null 2>&1          
           #-------------#
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
@@ -148,23 +153,17 @@ jobs:
           pushd "${GITHUB_WORKSPACE}/main" >/dev/null 2>&1
            ##Get JSON
            #aarch64-Linux
-            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/METADATA.json" -o "$SYSTMP/aarch64-Linux-METADATA.json" || echo '{}' > "$SYSTMP/aarch64-Linux-METADATA.json"
+            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/METADATA.json" -o "${SYSTMP}/aarch64-Linux-METADATA.json" || echo '{}' > "${SYSTMP}/aarch64-Linux-METADATA.json"
            #x86_64-Linux
-            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/METADATA.json" -o "$SYSTMP/x86_64-Linux-METADATA.json" || echo '{}' > "$SYSTMP/x86_64-Linux-METADATA.json"
+            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/METADATA.json" -o "${SYSTMP}/x86_64-Linux-METADATA.json" || echo '{}' > "${SYSTMP}/x86_64-Linux-METADATA.json"
            ##Merge
-            jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "$SYSTMP/aarch64-Linux-METADATA.json" "$SYSTMP/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
+            jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "${SYSTMP}/aarch64-Linux-METADATA.json" "${SYSTMP}/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
             sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux|https://pkg.ajam.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux|https://pkg.ajam.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
            #Gen Yaml
             cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.yaml"
             cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
           popd >/dev/null 2>&1
           ##Sync
-          #Setup HF
-          git config --global "credential.helper" store
-          git config --global "user.email" "AjamX101@gmail.com"
-          git config --global "user.name" "Azathothas"
-          huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential >/dev/null 2>&1
-          #Push
            if jq --exit-status . "${GITHUB_WORKSPACE}/main/METADATA.json" >/dev/null 2>&1; then
              pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras" && cd "./Toolpacks-Extras"
                git lfs install
@@ -182,6 +181,231 @@ jobs:
                git pull origin main ; git push origin main
              popd >/dev/null 2>&1
            fi
+        continue-on-error: true
+
+      - name: Generate All-In-One (x86_64-Linux)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Main (bin.ajam.dev)
+          curl -qfsSL "https://bin.ajam.dev/x86_64/METADATA.json" |\
+          jq -r '
+            .[] | 
+            "[[bin.x86_64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.b3sum)\"\n" +
+            "shasum = \"\(.sha256)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.repo_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"https://bin.ajam.dev/x86_64/\(.name).log.txt\"\n" +
+            "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' > "${SYSTMP}/x86_64-Linux-METADATA.toml"
+          validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
+          ##BaseUtils (bin.ajam.dev)
+          curl -qfsSL "https://bin.ajam.dev/x86_64/Baseutils/METADATA.json" |\
+          jq -r '
+            .[] | 
+            "[[base.x86_64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.b3sum)\"\n" +
+            "shasum = \"\(.sha256)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.repo_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"https://bin.ajam.dev/x86_64/\(.name).log.txt\"\n" +
+            "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
+          validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
+          ##Main (pkg.ajam.dev)
+          curl -qfsSL "https://pkg.ajam.dev/x86_64/METADATA.min.json" |\
+          jq -r '
+            .[] | 
+            "[[pkg.x86_64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.bin_name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"\(.version)\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.bsum)\"\n" +
+            "shasum = \"\(.shasum)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.src_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"\(.build_log)\"\n" +
+            "category = \"\(.category)\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
+          taplo check "${SYSTMP}/x86_64-Linux-METADATA.toml" && cp "${SYSTMP}/x86_64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml"
+          cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -tj | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json"
+          cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json"
+          cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml"
+        continue-on-error: true
+
+      - name: Sync Metadata (x86_64-Linux-TOML)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Sync
+           pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras" && cd "./Toolpacks-Extras"
+             git lfs install
+             huggingface-cli lfs-enable-largefiles "."
+             git sparse-checkout disable
+             git sparse-checkout set --no-cone --sparse-index "x86_64-Linux/*.json" "x86_64-Linux/*.log" "x86_64-Linux/*.temp" "x86_64-Linux/*.tmp" "x86_64-Linux/*.txt" "x86_64-Linux/*.yaml" "x86_64-Linux/*.yml"
+             git checkout ; ls -lah "." "./x86_64-Linux"
+             git sparse-checkout list
+             #copy TOML
+             taplo check "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" && cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" "./x86_64-Linux/METADATA.AIO.toml"
+             #copy json
+             if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "./x86_64-Linux/METADATA.AIO.json"
+             fi
+             #copy min.json
+             if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" "./x86_64-Linux/METADATA.AIO.min.json"
+             fi
+             #copy yaml
+             if yq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "./x86_64-Linux/METADATA.AIO.yaml"
+             fi
+             find "." -type f -size -3c -delete
+             git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
+             git pull origin main ; git push origin main
+           popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: Generate All-In-One (aarch64-Linux)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Main (bin.ajam.dev)
+          curl -qfsSL "https://bin.ajam.dev/aarch64/METADATA.json" |\
+          jq -r '
+            .[] | 
+            "[[bin.aarch64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.b3sum)\"\n" +
+            "shasum = \"\(.sha256)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.repo_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"https://bin.ajam.dev/aarch64/\(.name).log.txt\"\n" +
+            "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' > "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          ##BaseUtils (bin.ajam.dev)
+          curl -qfsSL "https://bin.ajam.dev/aarch64/Baseutils/METADATA.json" |\
+          jq -r '
+            .[] | 
+            "[[base.aarch64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.b3sum)\"\n" +
+            "shasum = \"\(.sha256)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.repo_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"https://bin.ajam.dev/aarch64/\(.name).log.txt\"\n" +
+            "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          ##Main (pkg.ajam.dev)
+          curl -qfsSL "https://pkg.ajam.dev/aarch64/METADATA.min.json" |\
+          jq -r '
+            .[] | 
+            "[[pkg.aarch64-Linux]]\n" +
+            "name = \"\(.name)\"\n" +
+            "bin_name = \"\(.bin_name)\"\n" +
+            "description = \"\(.description)\"\n" +
+            "note = \"\(.note)\"\n" +
+            "version = \"\(.version)\"\n" +
+            "download_url = \"\(.download_url)\"\n" +
+            "size = \"\(.size)\"\n" +
+            "bsum = \"\(.bsum)\"\n" +
+            "shasum = \"\(.shasum)\"\n" +
+            "build_date = \"\(.build_date)\"\n" +
+            "src_url = \"\(.src_url)\"\n" +
+            "web_url = \"\(.web_url)\"\n" +
+            "build_script = \"\(.build_script)\"\n" +
+            "build_log = \"\(.build_log)\"\n" +
+            "category = \"\(.category)\"\n" +
+            "extra_bins = \"\(.extra_bins)\"\n"
+          ' >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
+          taplo check "${SYSTMP}/aarch64-Linux-METADATA.toml" && cp "${SYSTMP}/aarch64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml"
+          cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -tj | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json"
+          cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json"
+          cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml"
+        continue-on-error: true
+
+      - name: Sync Metadata (aarch64-Linux-TOML)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Sync
+           pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras" && cd "./Toolpacks-Extras"
+             git lfs install
+             huggingface-cli lfs-enable-largefiles "."
+             git sparse-checkout disable
+             git sparse-checkout set --no-cone --sparse-index "aarch64-Linux/*.json" "aarch64-Linux/*.log" "aarch64-Linux/*.temp" "aarch64-Linux/*.tmp" "aarch64-Linux/*.txt" "aarch64-Linux/*.yaml" "aarch64-Linux/*.yml"
+             git checkout ; ls -lah "." "./aarch64-Linux"
+             git sparse-checkout list
+             #copy TOML
+             taplo check "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" && cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" "./aarch64-Linux/METADATA.AIO.toml"
+             #copy json
+             if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "./aarch64-Linux/METADATA.AIO.json"
+             fi
+             #copy min.json
+             if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" "./aarch64-Linux/METADATA.AIO.min.json"
+             fi
+             #copy yaml
+             if yq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
+               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "./aarch64-Linux/METADATA.AIO.yaml"
+             fi
+             find "." -type f -size -3c -delete
+             git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
+             git pull origin main ; git push origin main
+           popd >/dev/null 2>&1
         continue-on-error: true
 
       - name: Update TOTAL_PACKAGES
