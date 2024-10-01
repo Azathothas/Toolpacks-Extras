@@ -1,20 +1,36 @@
 - host: aarch64-Linux
   main:
+    - name: 86box.AppImage
+      bin_name: 86box
+      description: Emulator of x86-based machines (AppImage)
+      note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
+      version: v4.2.1
+      download_url: https://pkg.ajam.dev/aarch64-Linux/86box.AppImage
+      size: 54.21 MB
+      bsum: 0a56b0009140fcc48a55dadb93b1b94bf5abb7186cb3c737977b4719ba667af6
+      shasum: 15b538e3bd37a98f39b9a0031b27aa04643beecc13279b17d0be63a047670024
+      build_date: 2024-09-29T11:46:53
+      src_url: https://github.com/86Box/86Box
+      web_url: https://86box.readthedocs.io
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.sh
+      build_log: https://pkg.ajam.dev/aarch64-Linux/86box.log
+      category: emulator,hypervisor
+      extra_bins: ""
     - name: inkscape.NixAppImage
       bin_name: inkscape
       description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
       note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
       version: 1.3.2
       download_url: https://pkg.ajam.dev/aarch64-Linux/inkscape.NixAppImage
-      size: 245.78 MB
-      bsum: 6c3d6b4579f1277ebab8bb89c3a6da22b515be5d24ae6ea44355eea0352b25a1
-      shasum: 8d20e47de838ca3817d161d9f36d95b9bd8831313c5fc80798ababb594b46d22
-      build_date: 2024-09-27T10:07:40
+      size: 245.76 MB
+      bsum: 074497b00ca5d21013afc43ab03e0717e0534e453fd83642940e991e7e6a02f9
+      shasum: c8b9e3138750178311b47e64a48615a0580425958c06963cb16d033614630341
+      build_date: 2024-09-29T11:50:57
       src_url: https://gitlab.com/inkscape/inkscape
       web_url: https://inkscape.org
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh
       build_log: https://pkg.ajam.dev/aarch64-Linux/inkscape.log
-      category: Graphics,multimedia
+      category: graphics,multimedia
       extra_bins: inkscape.AppImage,inkscape-dev.AppImage
     - name: librewolf.AppImage
       bin_name: librewolf
@@ -22,10 +38,10 @@
       note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
       version: v130.0.1-1
       download_url: https://pkg.ajam.dev/aarch64-Linux/librewolf.AppImage
-      size: 88.19 MB
-      bsum: 7cfa8f2d3324f9ae5f13245a78f61530d783b606c532ce60bb6e8559421d06a0
-      shasum: bb0fb8df760e3aced94f87cea27a0e1dddc1997d452d06f08cfc798d9be64924
-      build_date: 2024-09-27T10:08:09
+      size: 88.18 MB
+      bsum: 7ffd263769f2e67c02d9ac87d1fa22ee7887155936528ad9628a6b2bcc9f1d3a
+      shasum: ae1574e89be7e2d658d400c9134cf037abe4b60ed428388af5a70384acefcb03
+      build_date: 2024-09-29T11:51:34
       src_url: https://gitlab.com/librewolf-community/browser
       web_url: https://librewolf.net
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
@@ -39,9 +55,9 @@
       version: 130.0-3
       download_url: https://pkg.ajam.dev/aarch64-Linux/librewolf.NixAppImage
       size: 333.96 MB
-      bsum: 43fe96c4b4157b66f389e23e4aeb4e6df89e2fa9b725df5e9ee1c9a567987321
-      shasum: b5af9abd5cfb2ef47f81b0c339629bd7893c79ee6502818cfb9e7cec6030acd1
-      build_date: 2024-09-27T10:09:27
+      bsum: f75183da61c0619aefdf40fe2760c42134f5bd9ba0ef06d96c41e64764bd9d09
+      shasum: 2dff61ed9d780db2fcb81ec8be0931ad973d338bc700dff6f9faae3c4d63b30d
+      build_date: 2024-09-29T11:54:22
       src_url: https://gitlab.com/librewolf-community/browser
       web_url: https://librewolf.net
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
@@ -50,6 +66,150 @@
       extra_bins: librewolf.AppImage
 - host: x86_64-Linux
   main:
+    - name: 86box.AppImage
+      bin_name: 86box
+      description: Emulator of x86-based machines (AppImage)
+      note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
+      version: v4.2.1
+      download_url: https://pkg.ajam.dev/x86_64-Linux/86box.AppImage
+      size: 57.98 MB
+      bsum: afcb415f2aa1e784f3e358a460889af67d4cc3d42298446bee78da786321b5d5
+      shasum: e18421f23af4229a221d7baa9da7ffe9a08b84dbebf53a001db20aa8bb28b17a
+      build_date: 2024-10-01T09:40:30
+      src_url: https://github.com/86Box/86Box
+      web_url: https://86box.readthedocs.io
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/86box.log
+      category: emulator,hypervisor
+      extra_bins: ""
+    - name: acreom.AppImage
+      bin_name: acreom
+      description: An IDE based Knowledge Base using Markdown (AppImage)
+      note: 'Closed Source<br>(CI_VERIFIED: NONE)'
+      version: v1.20.1
+      download_url: https://pkg.ajam.dev/x86_64-Linux/acreom.AppImage
+      size: 139.07 MB
+      bsum: 09004cf4bd96d986ce4bbce2ae0372d2b41ff544e7665144762b61a1468e4520
+      shasum: dc3353dc9babbd356fc59efe4ca2f82ddcc9a8681647f728637de4225caddd52
+      build_date: 2024-10-01T09:40:16
+      src_url: https://github.com/Acreom/releases
+      web_url: https://acreom.com
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/acreom.log
+      category: ide,knowledge-base,wiki
+      extra_bins: ""
+    - name: actual.AppImage
+      bin_name: actual
+      description: A local-first personal finance app (AppImage)
+      note: '(CI_VERIFIED: https://github.com/actualbudget/actual/actions)'
+      version: v24.9.0
+      download_url: https://pkg.ajam.dev/x86_64-Linux/actual.AppImage
+      size: 101.05 MB
+      bsum: d355ac735293b597614d6b529b4c0c35cc58892375b153b8f48f36a30a0310c5
+      shasum: 462676ef25ac0296ccc4d364b48aaee9280bcca37f5458bc68884f95401e2ead
+      build_date: 2024-10-01T09:40:23
+      src_url: https://github.com/actualbudget/actual
+      web_url: https://actualbudget.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/actual.log
+      category: finance
+      extra_bins: ""
+    - name: advanced-passgen.AppImage
+      bin_name: advanced-passgen
+      description: Advanced Password Generator (AppImage)
+      note: '(CI_VERIFIED: https://github.com/CodeDead/Advanced-PassGen/actions)'
+      version: v2.5.1
+      download_url: https://pkg.ajam.dev/x86_64-Linux/advanced-passgen.AppImage
+      size: 100.69 MB
+      bsum: d3bf3d5992e84876c76391fc1175e2b43c7ef209959b4f2cbaec626742b0cb3f
+      shasum: f3d7afb9931a22e3163ebc416cf7b151bd039102c99a3f82ad5478ace12b297a
+      build_date: 2024-10-01T09:40:25
+      src_url: https://github.com/CodeDead/Advanced-PassGen
+      web_url: https://advancedpassgen.codedead.com
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/advanced-passgen.log
+      category: passgen,password-manager
+      extra_bins: ""
+    - name: affine.AppImage
+      bin_name: affine
+      description: Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)'
+      version: v0.17.2
+      download_url: https://pkg.ajam.dev/x86_64-Linux/affine.AppImage
+      size: 157.87 MB
+      bsum: fb5c1f0edfd316ff42b693d82a498520f0e3db50c95db54ef548b9c2d41db814
+      shasum: cca2d1d145d26d2838f7bfe033284d3c7c587ef1cb168a3de60cc8caebb2ceba
+      build_date: 2024-10-01T09:40:17
+      src_url: https://github.com/toeverything/AFFiNE
+      web_url: https://affine.pro
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/affine.log
+      category: knowledge-base,wiki
+      extra_bins: affine.NixAppImage
+    - name: aisap.AppImage
+      bin_name: aisap
+      description: Tool to make sandboxing AppImages easy (AppImage | shImg)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
+      version: continuous
+      download_url: https://pkg.ajam.dev/x86_64-Linux/aisap.AppImage
+      size: 2.71 MB
+      bsum: 86dd247ef59a8c6cccbf6a5f993bcf89b788bc0c02d1836fe46b943a223abfb5
+      shasum: 72fa582902fb6228be2909c85ceadef309cc0b9fc2df9a703133b0a8cad19f15
+      build_date: 2024-10-01T09:40:33
+      src_url: https://github.com/mgord9518/aisap
+      web_url: https://github.com/mgord9518/aisap
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/aisap.log
+      category: cli,sandbox
+      extra_bins: aisap.shimg
+    - name: aisap.shimg
+      bin_name: aisap
+      description: Tool to make sandboxing AppImages easy (AppImage | shImg)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
+      version: latest
+      download_url: https://pkg.ajam.dev/x86_64-Linux/aisap.shimg
+      size: 5.44 MB
+      bsum: 4264397461b74736dcefccbb326286dde41b24135a7e9fa949c6fa25a297aa1d
+      shasum: f2460f95a37b59dbf6feda0f0cb4d5b22f650f67384b9bb401ede929047ff94f
+      build_date: 2024-10-01T09:40:32
+      src_url: https://github.com/mgord9518/aisap
+      web_url: https://github.com/mgord9518/aisap
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/aisap.log
+      category: cli,sandbox
+      extra_bins: aisap.AppImage
+    - name: i3.AppImage
+      bin_name: i3
+      description: A Tiling Window Manager (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
+      version: "4.23"
+      download_url: https://pkg.ajam.dev/x86_64-Linux/i3.AppImage
+      size: 3.6 MB
+      bsum: c74fd4ca1741b6c42983f39a4a90210996caa6eff0cbb2405d49dee6a84fbbec
+      shasum: dfd0ec5c407cd86d293695083420ef0644828d943ba591393cdace22e95588ba
+      build_date: 2024-10-01T09:40:32
+      src_url: https://github.com/i3/i3
+      web_url: https://i3wm.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/i3.log
+      category: window,window-manager,wm
+      extra_bins: i3.NixAppImage
+    - name: i3.NixAppImage
+      bin_name: i3
+      description: A Tiling Window Manager (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
+      version: "4.23"
+      download_url: https://pkg.ajam.dev/x86_64-Linux/i3.NixAppImage
+      size: 40.21 MB
+      bsum: e4eaea1daeea655fdd84179aced4f63665281fa3f707afc57c1973c7f42ff8ed
+      shasum: 704b1f7c1e0cca9d3a4b284b6365be3fff7786cf51cdf4a2784bb3a90d113dc1
+      build_date: 2024-10-01T09:40:32
+      src_url: https://github.com/i3/i3
+      web_url: https://i3wm.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/i3.log
+      category: window,window-manager,wm
+      extra_bins: i3.AppImage
     - name: inkscape.AppImage
       bin_name: inkscape
       description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
@@ -57,30 +217,46 @@
       version: 1.3.2
       download_url: https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage
       size: 96.33 MB
-      bsum: 682b03f69728600812cab59b13fea9bb43fdb0e9176fd0ca18e3ff7ca8e568d3
-      shasum: 59562a5191e9aec18fde3e15d803bd01b909c3ffd763007e00c60f58de3794b0
-      build_date: 2024-09-27T10:23:39
+      bsum: b039b83a31c080d27a893f486bc3748a02b160f13f1a80a45852c800a78c9618
+      shasum: 999027bf1af436cf807eefe1250a95b4358798d9ecfbf08e4bec9dbe186e88cc
+      build_date: 2024-10-01T09:40:33
       src_url: https://gitlab.com/inkscape/inkscape
       web_url: https://inkscape.org
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
       build_log: https://pkg.ajam.dev/x86_64-Linux/inkscape.log
-      category: Graphics,multimedia
+      category: graphics,multimedia
       extra_bins: inkscape-dev.AppImage,inkscape.NixAppImage
+    - name: inkscape-dev.AppImage
+      bin_name: inkscape
+      description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
+      version: 54f25b8-dev
+      download_url: https://pkg.ajam.dev/x86_64-Linux/inkscape-dev.AppImage
+      size: 100.17 MB
+      bsum: a02d0020beda091511acdb6e34129906c0e5336b6c74defb63c4a30d07a66885
+      shasum: 60596728aaa10530bbd25d621e6b7a05019cfabce75983cc16477bf0a98c4ab5
+      build_date: 2024-10-01T09:40:26
+      src_url: https://gitlab.com/inkscape/inkscape
+      web_url: https://inkscape.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/inkscape.log
+      category: graphics,multimedia
+      extra_bins: inkscape.AppImage,inkscape.NixAppImage
     - name: inkscape.NixAppImage
       bin_name: inkscape
       description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
       note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
       version: 1.3.2
       download_url: https://pkg.ajam.dev/x86_64-Linux/inkscape.NixAppImage
-      size: 254.07 MB
-      bsum: 72d8884483215c6c82c611237ee8a2a65de7570ed4f2a14c9215e3d026d8b520
-      shasum: d1824d0883c894bca45bf7bcc4622db4c0e0069ee38be8ee1127e0a3fcf1bd10
-      build_date: 2024-09-27T10:26:17
+      size: 254.05 MB
+      bsum: 7e6012a9a51e5a823896740e6df9a9b36e038ef6f277f21453944ee535c90595
+      shasum: 9fae3fd8fb39b736f5989a25c9fdcffa5b609a1305a4d6a0932290e8ba95410e
+      build_date: 2024-10-01T09:40:24
       src_url: https://gitlab.com/inkscape/inkscape
       web_url: https://inkscape.org
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
       build_log: https://pkg.ajam.dev/x86_64-Linux/inkscape.log
-      category: Graphics,multimedia
+      category: graphics,multimedia
       extra_bins: inkscape.AppImage,inkscape-dev.AppImage
     - name: librewolf.AppImage
       bin_name: librewolf
@@ -88,10 +264,10 @@
       note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
       version: v130.0.1-1
       download_url: https://pkg.ajam.dev/x86_64-Linux/librewolf.AppImage
-      size: 93.68 MB
-      bsum: 1ca6ec33cf566e396dbfd8c8611c59cbe1994bd2510d9a674d62e8b2aba131c2
-      shasum: c48b030825134d051e4c218047d05a6448e43f1679451749a89dafdf2b10e75b
-      build_date: 2024-09-27T10:26:39
+      size: 93.67 MB
+      bsum: 24687ed6994d021bd7e4f9ffcede77c357de1fa000b719561af1b85dc250b37d
+      shasum: b99a68ebc8360527ab113df665056d5efdc8b8c01af051ed00cf96e62aa3f9cc
+      build_date: 2024-10-01T09:40:29
       src_url: https://gitlab.com/librewolf-community/browser
       web_url: https://librewolf.net
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -105,9 +281,9 @@
       version: 130.0-3
       download_url: https://pkg.ajam.dev/x86_64-Linux/librewolf.NixAppImage
       size: 344.45 MB
-      bsum: da5891d092a306ff72afafa936a70e0202ef94bae2d5e4af3e1ae69aeef43097
-      shasum: d55864615efb55965ad65efc43cd006f94b7a86ed25b54c6241f97a8cc9d0ccf
-      build_date: 2024-09-27T10:28:28
+      bsum: 54d9c96167cf4c424f5d28cd9c2a65f2d64828cfaeaa3888be47fb1118a7d594
+      shasum: a470e2cae59628aaa9265ffc03eae0f20b0470e20bfcb2635ad6c18d2d42b28e
+      build_date: 2024-10-01T09:40:29
       src_url: https://gitlab.com/librewolf-community/browser
       web_url: https://librewolf.net
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -121,9 +297,9 @@
       version: 13.5.3
       download_url: https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.NixAppImage
       size: 364 MB
-      bsum: 69301abfb161bd9e4a8e1e517285fb0be1a3cd0761c72594c8a43c133aba4813
-      shasum: 6213e10bef742c1af4ba8e82e65677573c85d5a5dba776f4e312ddd351c37354
-      build_date: 2024-09-27T10:30:22
+      bsum: c7a870feb946974b68a3d2250a0e562d655f3884a1974a96abb9b0b4c4b0c23b
+      shasum: 7ceb41e452aa7828d6ababe493764f6c48fab1dec4bed4b124b0dd92d12a11d9
+      build_date: 2024-10-01T09:40:32
       src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
       web_url: https://mullvad.net/en/browser
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
@@ -139,10 +315,90 @@
       size: 108.78 MB
       bsum: 6038bb7cb0e1262ac576e5ce03b4976795ff518bfd067cbbb048933539a9dc74
       shasum: 9c3d05eea103426ca850d2fe251e03f9fbbf23006bb1d2058772f0e00430f04a
-      build_date: 2024-09-27T10:28:38
+      build_date: 2024-10-01T09:40:22
       src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
       web_url: https://mullvad.net/en/browser
       build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
       build_log: https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.log
       category: anonymity,browser,privacy,tor
       extra_bins: mullvad-browser.NixAppImage
+    - name: obs-studio.AppImage
+      bin_name: obs-studio
+      description: FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/obsproject/obs-studio/actions)'
+      version: 30.2.1
+      download_url: https://pkg.ajam.dev/x86_64-Linux/obs-studio.AppImage
+      size: 184.93 MB
+      bsum: 657dd62b13b67e6791372673d63332adcbbb2a0fb99407af9aae1bcaae2b4c69
+      shasum: 9c1bc0d285d3dc0e4ab362c16f3a21020241ae03c3d30bdd54b33356f42da85f
+      build_date: 2024-10-01T09:40:18
+      src_url: https://github.com/obsproject/obs-studio
+      web_url: https://obsproject.com
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/obs-studio.log
+      category: multimedia,screenrecording,video
+      extra_bins: obs-studio.NixAppImage
+    - name: olive-editor.AppImage
+      bin_name: olive
+      description: Free open-source non-linear video editor (AppImage|NixAppImage)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/olive-editor/olive/actions)'
+      version: "2024-08-24T22:35:10Z"
+      download_url: https://pkg.ajam.dev/x86_64-Linux/olive-editor.AppImage
+      size: 120.54 MB
+      bsum: bd03317672d40c39cd8a4f35449ac34735ca13caaba252ccfa102a102a108d67
+      shasum: d0be4f44829988f379fefe528db45525ca100498b9108dd10f971cbcb52dc2e9
+      build_date: 2024-10-01T09:40:15
+      src_url: https://github.com/olive-editor/olive
+      web_url: https://www.olivevideoeditor.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/olive-editor.log
+      category: multimedia,video,video-editor
+      extra_bins: olive-editor.NixAppImage
+    - name: puddletag.NixAppImage
+      bin_name: puddletag
+      description: Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)
+      note: '(CI_VERIFIED: https://github.com/puddletag/puddletag/actions)'
+      version: 2.3.0
+      download_url: https://pkg.ajam.dev/x86_64-Linux/puddletag.NixAppImage
+      size: 210.37 MB
+      bsum: 6644f004e2b2d1e6c42b522ed620a264740aa8e618e8341b624c78ce7687a28e
+      shasum: 51720b6603d8d5048bc7bb33aafd115b61c7ea877c12dad71cf0acee0a490650
+      build_date: 2024-10-01T09:36:23
+      src_url: https://github.com/puddletag/puddletag
+      web_url: https://docs.puddletag.net
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/puddletag.log
+      category: audio,multimedia,music
+      extra_bins: ""
+    - name: qbittorrent-enhanced.AppImage
+      bin_name: qbittorrent-enhanced
+      description: A qBittorrent for with Enhanced Features (AppImage)
+      note: '(CI_VERIFIED: https://github.com/c0re100/qBittorrent-Enhanced-Edition/actions)'
+      version: release-4.6.7.10
+      download_url: https://pkg.ajam.dev/x86_64-Linux/qbittorrent-enhanced.AppImage
+      size: 24.91 MB
+      bsum: 5a07396972a9366ebaeab5b7d670c3149b9eb407767d3bed135acdfdeff257c8
+      shasum: 656b2b7a8b274229d4943fe33ebcf9f5a2df31016611ad53ae993fb8bd9c5a45
+      build_date: 2024-10-01T09:40:33
+      src_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
+      web_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/qbittorrent-enhanced.log
+      category: downloader,torrent
+      extra_bins: ""
+    - name: qbittorrent.AppImage
+      bin_name: qbittorrent
+      description: A qBittorrent for with Enhanced Features (AppImage)
+      note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
+      version: 4.6.7
+      download_url: https://pkg.ajam.dev/x86_64-Linux/qbittorrent.AppImage
+      size: 90.81 MB
+      bsum: ffa43cd54ee073c0657a9647174dd6f2568e72d4285c37c1efc0c15db46bd3a6
+      shasum: d5fdcc1bd67bc39016f596d1528514f01521ca8ca05966e1c305cea75c659850
+      build_date: 2024-10-01T09:40:30
+      src_url: https://github.com/qbittorrent/qBittorrent
+      web_url: https://www.qbittorrent.org
+      build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
+      build_log: https://pkg.ajam.dev/x86_64-Linux/qbittorrent.log
+      category: downloader,torrent
+      extra_bins: qbittorrent.NixAppImage
