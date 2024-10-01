@@ -52,7 +52,8 @@ jobs:
           git config --global "credential.helper" store
           git config --global "user.email" "AjamX101@gmail.com"
           git config --global "user.name" "Azathothas"
-          huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential >/dev/null 2>&1          
+          huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential
+          #huggingface-cli login --token "${HF_TOKEN}" --add-to-git-credential >/dev/null 2>&1     
           #-------------#
           ##Setup rClone
           mkdir -p "$HOME/.config/rclone"
@@ -160,8 +161,8 @@ jobs:
             jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "${SYSTMP}/aarch64-Linux-METADATA.json" "${SYSTMP}/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
             sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux|https://pkg.ajam.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux|https://pkg.ajam.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
            #Gen Yaml
-            cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.yaml"
-            cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
+            cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | jq . > "${GITHUB_WORKSPACE}/main/METADATA.yaml"
+            cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
           popd >/dev/null 2>&1
           ##Sync
            if jq --exit-status . "${GITHUB_WORKSPACE}/main/METADATA.json" >/dev/null 2>&1; then
