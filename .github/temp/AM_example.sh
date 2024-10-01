@@ -1,6 +1,6 @@
 #!/bin/sh
 set -u
-##This is an example/template on AM can use Toolpacks-Extras's METADATA (https://pkg.ajam.dev/x86_64/METADATA.min.json)
+##This is an example/template on how AM can use Toolpacks-Extras's METADATA (https://pkg.ajam.dev/x86_64/METADATA.min.json)
 #Fields Available:
 #name: "#Contains the Name of the $PKG itself, this is NOT what it will/should be Installed as"
 #bin_name: "#Contains the real name, the $PKG will be installed as"
@@ -27,7 +27,6 @@ SRC="https://pkg.ajam.dev/$(uname -m)"
 TYPE="NixAppImage"
 #This is to construct the .download_url from METADATA
 SITE="${SRC}/${APP}.${TYPE}"
-
 
 #COPIED VERBATIM from AM
 [ -n "${APP}" ] && mkdir -p "/opt/${APP}" "/opt/${APP}/icons" && cd "/opt/${APP}" || exit 1
