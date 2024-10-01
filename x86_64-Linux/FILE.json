@@ -153,7 +153,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "type": "ASCII text, with very long lines (490)"
+    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
   },
   {
     "filename": "./qbittorrent.AppImage",
@@ -170,5 +170,9 @@
   {
     "filename": "./qbittorrent.log",
     "type": "ASCII text, with very long lines (488), with CR, LF line terminators"
+  },
+  {
+    "filename": "./puddletag.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
   }
 ]

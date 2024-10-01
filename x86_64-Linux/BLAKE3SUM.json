@@ -1,19 +1,19 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "43da49d2f669e046c50b51b2ac5d703aba6bd9335b39ad31224026a8e0fcd4bf"
+    "sum": "c39616a9fc32c2211969c4fb4bf349772a1cb8dc8b1315886c2d91bf7ab947f4"
   },
   {
     "filename": "./FILE.json",
-    "sum": "c4248f9f991f55e55e8cd409c49110362d595dc183c82884bb52d5aeab66ba2e"
+    "sum": "a2fc5870078224e6334cb5a2bf0a854e90cc166bb1e436e96523d64d484b0388"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "e3fa2ca59d19599c53f47a7db2ad5bb29a250f7c8f7531a07e1b945cbd5f316c"
+    "sum": "c70a8b6be9f9db8d121166ccbc7fd465489d92dbe7b80a7e498d5d416094f422"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "71a22e1584b1d238e8187723fe13c07a456eba2e588b8b50027158c6fbe8d98e"
+    "sum": "2e67fdec41163a64b74dc807286b22fb191d3d8aed466d897df56365e5962018"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -73,7 +73,7 @@
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "f79d50b4e1606f6e05e42a3c002542efe283e417cf4f880f722741e9689c1932"
+    "sum": "ac7f461875083165fde37eb553619205a41b09b5e9c8d3b55fc4e6b7f703a868"
   },
   {
     "filename": "./86box.log",
@@ -153,7 +153,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "sum": "bb6b9ed1ff0511bd157cbca59e52a418c2d187901fc1cf698cdad7ce4cd147fc"
+    "sum": "e63aae28a7206313174f0c5c5b9f6d998a65b67d09cca10eb5b9c7cc975f0158"
   },
   {
     "filename": "./qbittorrent-enhanced.AppImage",
@@ -170,5 +170,9 @@
   {
     "filename": "./qbittorrent.log",
     "sum": "611f26727a99ecd28054c31530a3c428be4c611d797d5ccaad1f95c41211fadc"
+  },
+  {
+    "filename": "./puddletag.NixAppImage",
+    "sum": "6644f004e2b2d1e6c42b522ed620a264740aa8e618e8341b624c78ce7687a28e"
   }
 ]

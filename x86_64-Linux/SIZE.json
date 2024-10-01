@@ -405,7 +405,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "size": "37.13 kB"
+    "size": "31.27 kB"
   },
   {
     "filename": "./qbittorrent-enhanced.AppImage",
@@ -462,5 +462,21 @@
   {
     "filename": "./qbittorrent.log",
     "size": "15.35 kB"
+  },
+  {
+    "filename": "./puddletag.DirIcon",
+    "size": "18.08 kB"
+  },
+  {
+    "filename": "./puddletag.NixAppImage",
+    "size": "210.37 MB"
+  },
+  {
+    "filename": "./puddletag.NixAppImage.zsync",
+    "size": "359.74 kB"
+  },
+  {
+    "filename": "./puddletag.icon.png",
+    "size": "18.08 kB"
   }
 ]
