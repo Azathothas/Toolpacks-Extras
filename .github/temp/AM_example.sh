@@ -19,7 +19,7 @@ set -u
 #build_log: "#Contains the link to view the Actual CI BUILD LOG of the $PKG"
 #extra_bins: "#Contains names of related pkgs (Only if they belong to same $PKG_FAMILY) of the $PKG/$PKG_FAMILY [Otherwise EMPTY]
 ##But only some are used as AM doesn't support ALL
-#The value of APP, is same as .bin_name from 
+#The value of APP, is same as .bin_name from METADATA
 APP="puddletag"
 #The src is just the root url, the original is: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux
 SRC="https://pkg.ajam.dev/$(uname -m)"
