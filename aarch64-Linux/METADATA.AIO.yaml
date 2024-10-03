@@ -4020,7 +4020,7 @@ bin:
       bin_name: eza
       description: A modern replacement for ‘ls’. (Fork of exa)
       note: ""
-      version: v0.20.0
+      version: v0.20.1
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/eza
       size: 2.26 MB
       bsum: 3c894f41263146f3fef793be37fc8f22683a13f0d646faf754e5ac13c0c0ee6c
@@ -6495,6 +6495,22 @@ bin:
       build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/htmlq.sh
       build_log: https://bin.ajam.dev/aarch64/htmlq.log.txt
       category: utility
+      extra_bins: ""
+    - name: htop
+      bin_name: htop
+      description: An interactive Process Viewer
+      note: ""
+      version: 3.3.0
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/htop
+      size: 662.3 kB
+      bsum: 8d6cc64e69676c898873ba918b621b46bffd4a9f78941163534c39eef361c07d
+      shasum: 735d591ef019318779a0c41087098122f8c1fb4f852c6f97256f7ecb3b7d295d
+      build_date: 2024-10-03T05:51:58
+      src_url: https://github.com/htop-dev/htop
+      web_url: https://htop.dev
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/htop.sh
+      build_log: https://bin.ajam.dev/aarch64/htop.log.txt
+      category: bsd, c, console, hacktoberfest, linux, macos, process, terminal, viewer
       extra_bins: ""
     - name: httprobe
       bin_name: httprobe
@@ -10720,6 +10736,22 @@ bin:
       build_log: https://bin.ajam.dev/aarch64/puredns.log.txt
       category: bugbounty, dns, dns-bruteforcer, dns-lookup, dns-resolution, dns-resolver, hacking, massdns, recon, subdomain, subdomain-bruteforcing
       extra_bins: ""
+    - name: pv
+      bin_name: pv
+      description: Tool for monitoring the progress of data through a pipeline
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/pv
+      size: 330.5 kB
+      bsum: 3e6691ecdf785b58e0ca9af0ae1523062888c33e03cbeef7ba35a655b01fac5e
+      shasum: 6900371effeeec8204747b861a9eae83ddb596a3b68e5593598742c7e86b0fdd
+      build_date: 2024-10-03T05:37:27
+      src_url: ""
+      web_url: https://www.ivarch.com/programs/pv.shtml
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/pv.sh
+      build_log: https://bin.ajam.dev/aarch64/pv.log.txt
+      category: ""
+      extra_bins: ""
     - name: pwait
       bin_name: pwait
       description: Small utility to wait for a process to finish
@@ -13892,7 +13924,7 @@ bin:
       bin_name: tdl
       description: "\U0001F4E5 A Telegram downloader/tools written in Golang"
       note: ""
-      version: v0.17.4
+      version: v0.17.5
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/tdl
       size: 38.03 MB
       bsum: c7f8162ed6be70cf81fa2120b9c45f48fc9ec08b75692f20734f5558e8a7549f
@@ -22498,6 +22530,358 @@ base:
       build_log: https://bin.ajam.dev/aarch64/gdbserver.log.txt
       category: ""
       extra_bins: gcore,gdb,gdb-add-index
+    - name: autopoint
+      bin_name: autopoint
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/autopoint
+      size: 27.3 kB
+      bsum: 0baf8f33eefbd38af92fd4d940a8ed6587a2a598310448082af2d8b2beae9500
+      shasum: 0c6fc141470801f6a7631b8d51fd51219e3c2d11ad61b4be85170cb26f2fc98a
+      build_date: 2024-10-03T04:00:49
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/autopoint.log.txt
+      category: ""
+      extra_bins: envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: envsubst
+      bin_name: envsubst
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/envsubst
+      size: 263.83 kB
+      bsum: bcb071ef37fe6978476a6783771e286a204311e7cf3574ed756a6602f2efe82b
+      shasum: b03f054b1031d9a11d48cccd0004bad913a3516cea0c0eb995361453bc3eebf4
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/envsubst.log.txt
+      category: ""
+      extra_bins: autopoint,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: gettext
+      bin_name: gettext
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/gettext
+      size: 263.59 kB
+      bsum: 62563303af284997a19f98b881d6388ceb5368c2cc39887f009b0d13626c5399
+      shasum: 0cb3c086bb9708269e793821f75e7cbb7388fd6855a85f07c0560c1f1aebf5d6
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/gettext.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: gettext.sh
+      bin_name: gettext.sh
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/gettext.sh
+      size: 5279 B
+      bsum: bcf710c153ca31e27f55933b7a823d1a36ff7b325449c67b9830911706bf5f1a
+      shasum: 8a3aa5a06e446275264e5ef2bff217d415ac08dd2603f16af39313f49b310ccd
+      build_date: 2024-10-03T04:00:49
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/gettext.sh.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: gettextize
+      bin_name: gettextize
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/gettextize
+      size: 42.26 kB
+      bsum: 99f69edb22b739da40be9d43633912bbdbd0a6de19a109505e7d2c93218ca9be
+      shasum: e8b7ab6e17314921fb45a2879429484217f79a8e9ffabe31c167c469a06ed224
+      build_date: 2024-10-03T04:00:49
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/gettextize.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgattrib
+      bin_name: msgattrib
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgattrib
+      size: 1.71 MB
+      bsum: 8e769208dd7df4dd4263f26645a616587b8a0122f3839a66d310129550a45c8c
+      shasum: d68b09771d46454974acf733dbc7ffaae120e4bfa1f4995dcdef2fd5a21c7f8c
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgattrib.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgcat
+      bin_name: msgcat
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgcat
+      size: 1.71 MB
+      bsum: 5382685745fae8a67ff96809bf827496118e008877c9dc02c12c953879e55f11
+      shasum: 7832ce6ba5808fa28555c2641f28f4e82de6b5e51ec0dbe5f93783461576f9f9
+      build_date: 2024-10-03T04:03:05
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgcat.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgcmp
+      bin_name: msgcmp
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgcmp
+      size: 395.1 kB
+      bsum: 1f37e2c483e1f01891c597207acd472854e1776de29540f837dce953c3f76715
+      shasum: 3ddf9bf897888185a33313709f59f8d42fbd12941111bba134e520b09382719c
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgcmp.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgcomm
+      bin_name: msgcomm
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgcomm
+      size: 1.71 MB
+      bsum: 6e7cf63d9c1ac9e0ea0511a5facc628ebfccc5c9237f1b1298a5e293cb9bf62d
+      shasum: 7cfe72ab5ec734238f91079bf2a6e1d2db647c80917817da3899dc830caf98ab
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgcomm.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgconv
+      bin_name: msgconv
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgconv
+      size: 1.71 MB
+      bsum: cc7c81ffd6d26655d40f87bad5d6d48898a531aeb6ce6c489d2c1fc15c9074a2
+      shasum: fa65750d04c394b52977dc7439efed2e759fbdadcf889f2ea3161e17f36564f7
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgconv.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgen
+      bin_name: msgen
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgen
+      size: 1.71 MB
+      bsum: bfcf0548a0c623059b1bc80b9856b0aa7ffc36298a96a25e9cafd92ee6ada533
+      shasum: 7f5692b3c154d1b1894faf0117b9c7a4796f963afa6402e7b4a2db24c2fb6ed5
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgen.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgexec
+      bin_name: msgexec
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgexec
+      size: 395.18 kB
+      bsum: b17d589f20e20803bffbc92502d82fa2ffabf982a5ef0ecfc90ba9b12c07d843
+      shasum: 7069092e788ce2a1d760267ae642179c2dc664ea64a168c05f7719d96c05ef23
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgexec.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgfilter
+      bin_name: msgfilter
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgfilter
+      size: 1.78 MB
+      bsum: 45f75676c3d55b92b36ba39f41912d86930826352078e5cc3607bc5ca2bc43fb
+      shasum: 3953f83151d6df9ff7587ef266cbb65889bc02c325bc3fc67dd60146e601f2b5
+      build_date: 2024-10-03T04:03:05
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgfilter.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgfmt
+      bin_name: msgfmt
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgfmt
+      size: 1.32 MB
+      bsum: fc6301fe3357d04c4e86218e26951a04c4053542e3fd09cf1601d89746aa4ce9
+      shasum: c1c82db54685ef51232e4b61d25e5a097ff6a41e67d7ffb9253209c08ee3e77f
+      build_date: 2024-10-03T04:03:05
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgfmt.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msggrep
+      bin_name: msggrep
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msggrep
+      size: 1.84 MB
+      bsum: 1944992cc052717785c37712f43b2bfa221fc04e5396c2d8c57f352c82713069
+      shasum: ba3ac6ae48e932ce718c612bb796ebeec26c895d91ea318a2b7a759b0d6a8d41
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msggrep.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msginit
+      bin_name: msginit
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msginit
+      size: 1.78 MB
+      bsum: 47a2bbb2ba5a80f8e6c61b86a39f6bef73be47a139ec8da8a2e94aa955560979
+      shasum: 985efd4d43bb3232fbb3dfaa5c6c51c202959cc443a6cf11118d0adb0d0c05ba
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msginit.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgmerge
+      bin_name: msgmerge
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgmerge
+      size: 1.98 MB
+      bsum: 08c7d475383c808a6510b2009f44fd5d38be4c14da454c2a0095677421e6ed89
+      shasum: 312abe34c1f8e80ce0e850584fadb67faeb2d4f62c0bd9325df84e29de646bb7
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgmerge.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgunfmt,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msgunfmt
+      bin_name: msgunfmt
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msgunfmt
+      size: 1.78 MB
+      bsum: b152e4199667ea7d3ac38b8fa81f666f0cc2b025f930bbe03f5e497d7924ee92
+      shasum: c0eae2d7d171f390c47b9768f2c11759702f5e54679ad63c10d9d0333fc0ebe8
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msgunfmt.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msguniq,ngettext,recode-sr-latin,xgettext
+    - name: msguniq
+      bin_name: msguniq
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/msguniq
+      size: 1.71 MB
+      bsum: f5ead897eade5b40cc173246105aa262572b43a55a0948a4c3047cd879885c53
+      shasum: 66c4580aae6a9ffc962161969e1e576f995f61c08b4031c869d2a6cd0b84ad72
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/msguniq.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,ngettext,recode-sr-latin,xgettext
+    - name: ngettext
+      bin_name: ngettext
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/ngettext
+      size: 263.59 kB
+      bsum: 000648a1c52b82089bdbd95f0f21eb2533f2662397988875dac38d026b87dffe
+      shasum: 072bbfd3db5994c8f22288d35f12aa7eaf1bf6d25f551418ef45629bd734fdcf
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/ngettext.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,recode-sr-latin,xgettext
+    - name: recode-sr-latin
+      bin_name: recode-sr-latin
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/recode-sr-latin
+      size: 263.83 kB
+      bsum: 6c0bf9f95faac413f523a7cbf7b47a4d0e0e54b292e8a7f489c67442c2c70b18
+      shasum: 198efdb70012645ba4026b43cc17c075d737311e77489fccdb78fa5c0273c2e9
+      build_date: 2024-10-03T04:03:05
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/recode-sr-latin.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,xgettext
+    - name: xgettext
+      bin_name: xgettext
+      description: Well integrated set of Translation Tools
+      note: ""
+      version: ""
+      download_url: https://bin.ajam.dev/aarch64_arm64_Linux/Baseutils/gettext/xgettext
+      size: 2.83 MB
+      bsum: 61df7e0e56a3d12ac02859e263a8caf2b8df3ce995d23ace778ec7c0cc3fff57
+      shasum: d2da62c4a0a00a1b730b10d4e4ae952ad02e60e5989d99ac0458dfffec25893d
+      build_date: 2024-10-03T04:03:04
+      src_url: https://git.savannah.gnu.org/gitweb/?p=gettext.git
+      web_url: https://www.gnu.org/software/gettext
+      build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/gettext.sh
+      build_log: https://bin.ajam.dev/aarch64/xgettext.log.txt
+      category: ""
+      extra_bins: autopoint,envsubst,gettext,gettextize,gettext.sh,msgattrib,msgcat,msgcmp,msgcomm,msgconv,msgen,msgexec,msgfilter,msgfmt,msggrep,msginit,msgmerge,msgunfmt,msguniq,ngettext,recode-sr-latin
     - name: git
       bin_name: git
       description: Free and Open Source Distributed Version Control System (VCS)
