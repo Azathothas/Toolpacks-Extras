@@ -258,6 +258,17 @@
              export CONTINUE="NO" && exit 1
           else
              nix --version && nix-channel --list && nix-channel --update
+            #Setup NixPkgs Repo
+             sudo rm -rvf "/opt/nixpkgs" 2>/dev/null ; sudo mkdir -p "/opt" && pushd "/opt" >/dev/null 2>&1
+             sudo git clone --filter="blob:none" --depth="1" --quiet "https://github.com/NixOS/nixpkgs.git"
+             sudo chown -R "$(whoami):$(whoami)" "/opt/nixpkgs" && sudo chmod -R 755 "/opt/nixpkgs"
+             popd >/dev/null 2>&1
+             if [ -d "/opt/nixpkgs" ] && [ "$(find "/opt/nixpkgs" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+                ls "/opt/nixpkgs" -lah
+             else
+                echo -e "\n[-] nixpkgs REPO NOT Found: /opt/nixpkgs\n"
+                export CONTINUE="NO" && exit 1
+             fi
           fi
          #----------------------# 
          #rust & cargo
