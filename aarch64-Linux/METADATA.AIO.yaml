@@ -2996,7 +2996,7 @@ bin:
       bin_name: devbox
       description: Instant, easy, and predictable development environments
       note: ""
-      version: 0.13.2
+      version: 0.13.3
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/devbox
       size: 27 MB
       bsum: 6142817b17cbddb37cb39a5162dd4eb28d59a96de5877737fb7f0b36b7afa33c
@@ -4308,7 +4308,7 @@ bin:
       bin_name: filebrowser
       description: "\U0001F4C2 Web File Browser"
       note: ""
-      version: v2.31.1
+      version: v2.31.2
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/filebrowser
       size: 16.45 MB
       bsum: 0fbc77d91ba2f6cde192d9c776b409133c7d0ca225ce734b2048af030905ff74
@@ -5076,7 +5076,7 @@ bin:
       bin_name: gitleaks
       description: "Protect and discover secrets using Gitleaks \U0001F511"
       note: ""
-      version: v8.19.3
+      version: v8.20.0
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/gitleaks
       size: 6.69 MB
       bsum: 9061b62c119cb535db0d508ea710564b2c9e8e041005f904dd52f90c02517086
@@ -7396,7 +7396,7 @@ bin:
       bin_name: kalker
       description: calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals
       note: ""
-      version: v2.2.0
+      version: v2.2.1
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/kalker
       size: 3.17 MB
       bsum: 9945123083ad587efaf109a88b12c0bff698ee0c60775873cd208cc730c9a7d1
@@ -8836,7 +8836,7 @@ bin:
       bin_name: mise
       description: dev tools, env vars, task runner
       note: ""
-      version: v2024.9.13
+      version: v2024.10.0
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/mise
       size: 21.11 MB
       bsum: 4e4d66b3d4cc413645c0e49247e8d6064c4bead9901c45796a0d58f0c570672d
@@ -10388,7 +10388,7 @@ bin:
       bin_name: pixi
       description: Conda Package management made easy
       note: ""
-      version: v0.30.0
+      version: v0.31.0
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/pixi
       size: 25.73 MB
       bsum: 32c747300ed056b29024a8e5e1532f06bee898ba73bfa25fd56564fe5484f19a
@@ -12820,7 +12820,7 @@ bin:
       bin_name: sj
       description: A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
       note: ""
-      version: 1.8.5
+      version: 1.8.6
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/sj
       size: 8.54 MB
       bsum: f30727579e0996a9b44119c84f4d85ec9c39013a357961322a2571d38f38aa88
@@ -14884,7 +14884,7 @@ bin:
       bin_name: vtm
       description: virtual terminal multiplexer
       note: ""
-      version: v0.9.99.20
+      version: v0.9.99.21
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/vtm
       size: 5.43 MB
       bsum: 854b0795f658b1a835df0cd8425c5b9a0c9c72b716dff03c08a04245dbde7c11
@@ -15396,7 +15396,7 @@ bin:
       bin_name: wush
       description: Simplest & Fastest way to transfer files between computers via WireGuard
       note: ""
-      version: v0.2.1
+      version: v0.3.0
       download_url: https://bin.ajam.dev/aarch64_arm64_Linux/wush
       size: 46.38 MB
       bsum: cce7284b319ae79e114d3367bbd44717dca7394b924eb4adf8090e33584ba945
