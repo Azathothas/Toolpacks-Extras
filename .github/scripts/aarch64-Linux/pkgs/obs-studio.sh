@@ -89,7 +89,19 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        export APP="obs"
        export NIX_PKGNAME="obs-studio"
        export PKG_NAME="${NIX_PKGNAME}.NixAppImage"
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${NIX_PKGNAME}" --log-format bar-with-logs
+       #nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${NIX_PKGNAME}" --log-format bar-with-logs
+       pushd "/opt/nixpkgs" >/dev/null 2>&1 && git reset --hard "origin/master" && popd >/dev/null 2>&1
+       PKG_NIX_DIR="$(find "/opt/nixpkgs/pkgs" -type d -name "${NIX_PKGNAME}" -print -quit | xargs realpath)" && export PKG_NIX_DIR="${PKG_NIX_DIR}"
+       PKG_NIX_TMP="$(find "${PKG_NIX_DIR}" -maxdepth 1 -type f -name "*.nix" | head -n 1)" && export PKG_NIX_TMP="${PKG_NIX_TMP}"
+       pushd "${PKG_NIX_DIR}" >/dev/null 2>&1
+       curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/nix-flakes/numtide_nix-gl-host.nix" -o "${PKG_NIX_DIR}/flake.nix"
+       sed "s/PKG_NAME/${NIX_PKGNAME}/g" -i "${PKG_NIX_DIR}/flake.nix"
+       sed "s/PKG_ARCH/$(uname -m)/g" -i "${PKG_NIX_DIR}/flake.nix"
+       git add "${PKG_NIX_DIR}/"* >/dev/null 2>&1 && git commit -m "[+] NixAppImage ${NIX_PKGNAME}" >/dev/null 2>&1
+       git stash ; nix flake update ; popd >/dev/null 2>&1
+       nix bundle --bundler "github:ralismark/nix-appimage" "${PKG_NIX_DIR}" -o "${OWD}/${APP}.AppImage" --log-format bar-with-logs
+       pushd "/opt/nixpkgs" >/dev/null 2>&1 && git reset --hard "origin/master" && popd >/dev/null 2>&1
+       unset PKG_NIX_DIR PKG_NIX_TMP
       #Copy
        sudo rsync -achL "${OWD}/${APP}.AppImage" "${OWD}/${PKG_NAME}.tmp"
        sudo chown -R "$(whoami):$(whoami)" "${OWD}/${PKG_NAME}.tmp" && chmod -R 755 "${OWD}/${PKG_NAME}.tmp"

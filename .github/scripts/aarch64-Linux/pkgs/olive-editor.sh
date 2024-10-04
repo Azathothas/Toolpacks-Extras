@@ -82,7 +82,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES"
+    export BUILD_NIX_APPIMAGE="NO" #gl Issues
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
