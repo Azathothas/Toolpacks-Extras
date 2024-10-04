@@ -76,7 +76,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi  
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"

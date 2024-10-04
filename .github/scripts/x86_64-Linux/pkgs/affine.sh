@@ -76,7 +76,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="YES"
@@ -84,8 +84,19 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export PKG_NAME="${APP}.NixAppImage"
-       nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}" --log-format bar-with-logs
+       export APP="affine"
+       export NIX_PKGNAME="affine"
+       export PKG_NAME="${NIX_PKGNAME}.NixAppImage"
+       PKG_NIX_DIR="$(find "/opt/nixpkgs/pkgs/by-name" -type d -name "affine" -exec realpath "{}" \;)" && export PKG_NIX_DIR="${PKG_NIX_DIR}"
+       PKG_NIX_TMP="$(find "/opt/nixpkgs/pkgs/by-name" -type d -name "affine" -exec find "{}" -type f -name "package.nix" \;)" && export PKG_NIX_TMP="${PKG_NIX_TMP}"
+       pushd "${PKG_NIX_DIR}" >/dev/null 2>&1
+       curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/nix-flakes/numtide_nix-gl-host.nix" -o "${PKG_NIX_DIR}/flake.nix"
+       sed "s/PKG_NAME/${APP}/g" -i "${PKG_NIX_DIR}/flake.nix"
+       sed "s/PKG_ARCH/$(uname -m)/g" -i "${PKG_NIX_DIR}/flake.nix"
+       git add --all --verbose && git commit -m "[+] NixAppImage ${APP}"
+       git stash ; nix flake update ; popd >/dev/null 2>&1
+       nix bundle --bundler "github:ralismark/nix-appimage" "${PKG_NIX_DIR}" --log-format bar-with-logs
+       pushd "/opt/nixpkgs" >/dev/null 2>&1 && git reset --hard "origin/master" && popd >/dev/null 2>&1
       #Copy
        sudo rsync -achL "${OWD}/${APP}.AppImage" "${OWD}/${PKG_NAME}.tmp"
        sudo chown -R "$(whoami):$(whoami)" "${OWD}/${PKG_NAME}.tmp" && chmod -R 755 "${OWD}/${PKG_NAME}.tmp"
@@ -93,7 +104,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #HouseKeeping
        if [[ -f "${OWD}/${PKG_NAME}.tmp" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}.tmp") -gt 1024 ]]; then
        #Version
-         PKG_VERSION="$(nix derivation show "nixpkgs#${APP}" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
+         PKG_VERSION="$(nix derivation show "nixpkgs#${NIX_PKGNAME}" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
          echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
        #Extract
          APPIMAGE="${OWD}/${PKG_NAME}.tmp" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
@@ -160,7 +171,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
       #End
        popd >/dev/null 2>&1

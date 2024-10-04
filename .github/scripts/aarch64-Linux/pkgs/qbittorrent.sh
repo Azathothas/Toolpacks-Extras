@@ -76,16 +76,17 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="NO" #glx issues
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
-       export APP="qbittorrent"
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export PKG_NAME="${APP}.NixAppImage"
+       export APP="qbittorrent"
+       export NIX_PKGNAME="qbittorrent"
+       export PKG_NAME="${NIX_PKGNAME}.NixAppImage"
        nix bundle --bundler "github:ralismark/nix-appimage" "nixpkgs#${APP}" --log-format bar-with-logs
       #Copy
        sudo rsync -achL "${OWD}/${APP}.AppImage" "${OWD}/${PKG_NAME}.tmp"
@@ -94,7 +95,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       #HouseKeeping
        if [[ -f "${OWD}/${PKG_NAME}.tmp" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}.tmp") -gt 1024 ]]; then
        #Version
-         PKG_VERSION="$(nix derivation show "nixpkgs#${APP}" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
+         PKG_VERSION="$(nix derivation show "nixpkgs#${NIX_PKGNAME}" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export PKG_VERSION="${PKG_VERSION}"
          echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
        #Extract
          APPIMAGE="${OWD}/${PKG_NAME}.tmp" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
@@ -161,7 +162,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
       #End
        popd >/dev/null 2>&1

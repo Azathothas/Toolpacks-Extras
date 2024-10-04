@@ -1,3 +1,5 @@
+##AVOID!!! https://github.com/nix-community/nixGL/issues/25
+
 ##This uses https://github.com/nix-community/nixGL
 #This is an workaround for: https://github.com/NixOS/nixpkgs/issues/9415
 #More Details: https://github.com/Azathothas/Toolpacks-Extras/blob/main/Docs/NIXAPPIMAGES.md
@@ -19,7 +21,7 @@
       system = "PKG_ARCH-linux";
       pkgs = import nixpkgs {
         inherit system;
-        overlays = [ nixgl.overlays ];
+        overlays = [ nixgl.overlays.default ];
       };
     in {
       #PKG_NAME is auto replaced with ${APP}
