@@ -1,0 +1,12 @@
+name: "dunst"
+bin_name: "dunst"
+bins:
+  - "dunst.AppImage"
+category:
+ - "daemon"
+ - "notification"
+description: "Lightweight and customizable notification daemon (AppImage)"
+note: "This PKG was built from Source using go-appimagetool"
+web_url: "https://dunst-project.org"
+path: "/"
+src_url: "https://github.com/dunst-project/dunst"
