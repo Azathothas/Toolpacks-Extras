@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/android-tools.sh")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/deadbeef.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -22,17 +22,17 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#android-tools : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
-export BIN="android-tools"
-export SOURCE_URL="https://android.googlesource.com/platform/build/release"
+#deadbeef : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
+export BIN="deadbeef"
+export SOURCE_URL="https://github.com/DeaDBeeF-Player/deadbeef"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="android-tools"
-       export PKG_NAME="${APP}.AppImage"
+       export APP="deadbeef"
+       export PKG_NAME="${APP}-stable.AppImage"
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | grep "\." | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
        docker stop "holy-build-box" 2>/dev/null ; docker rm "holy-build-box" 2>/dev/null
@@ -60,48 +60,49 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           #Setup VARS
            mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
            export ARCH="$(uname -m)"
-           export APP="android-tools"
+           export APP="deadbeef"
            export APPDIR="${APP}.AppDir"
            export EXEC="${APP}"
            export OWD="$(realpath .)"
            mkdir -p "${OWD}/${APP}/${APP}.AppDir" && export APPDIR="${OWD}/${APP}/${APP}.AppDir"
           #Get Src & Build
            mkdir -p "${APPDIR}/usr/bin"
-           eget "https://dl.google.com/android/repository/platform-tools-latest-linux.zip" --all --to "${APPDIR}/usr/bin"
-           eget "https://bin.ajam.dev/$(uname -m)/Baseutils/bash/sh" --to "${APPDIR}/usr/bin/sh"
-           VERSION="$("${APPDIR}/usr/bin/adb" --version | tr -d "[:alpha:]" | sed "/[^0-9 .\\-]/d" | sed "s/^ *//;s/ *$//" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
-           cd "${OWD}/${APP}"
+           export VERSION="${RELEASE_TAG}" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
+           pushd "$(mktemp -d)" >/dev/null 2>&1
+           DL_LINK="$(curl -qfsSL "https://deadbeef.sourceforge.io/download.html" | grep -o "href=\"[^\"]*\"" | sed "s/href=\"//" | sed "s/\"$//" | grep "static.*\.tar\.bz2" | grep "x86_64" | sort | tail -n 1 | tr -d "[:space:]")" && export DL_LINK="${DL_LINK}"
+           curl -qfsSL "${DL_LINK}" -o "./deadbeef.tar.bz2"
+           [ ! -f "./deadbeef.tar.bz2" ] || [ $(stat -c%s "./deadbeef.tar.bz2") -le 10240 ] && exit 1
+           ouch decompress "./"* --yes
+           EXT_DIR="$(find "." -maxdepth 1 -type d ! -name "." ! -name ".." -print -quit | xargs realpath)"
+           [ ! -d "${EXT_DIR}" ] || [[ "${EXT_DIR}" == "/" ]] && exit 1
+           rsync -achLv --mkpath "${EXT_DIR}/." "${APPDIR}/usr/bin/"
+           #dirname "$(find "${EXT_DIR}" -type d -name "bin")" | xargs -I "{}" rsync -achLv --mkpath "{}/." "${APPDIR}/usr/"
+           #dirname "$(find "${EXT_DIR}" -type d -name "include")" | xargs -I "{}" rsync -achLv --mkpath "{}/." "${APPDIR}/usr/"
+           #dirname "$(find "${EXT_DIR}" -type d -name "lib")" | xargs -I "{}" rsync -achLv --mkpath "{}/." "${APPDIR}/usr/"
+           #dirname "$(find "${EXT_DIR}" -type d -name "share")" | xargs -I "{}" rsync -achLv --mkpath "{}/." "${APPDIR}/usr/"
+           #dirname "$(find "${EXT_DIR}" -type d -name "applications")" | xargs -I "{}" rsync -achLv --mkpath "{}/." "${APPDIR}/usr/share/"
+           popd "$(mktemp -d)" >/dev/null 2>&1 ; cd "${OWD}/${APP}"
           #Prep AppDir 
            if [ -d "${APPDIR}" ] && [ $(du -s "${APPDIR}" | cut -f1) -gt 100 ] && [ -n "${VERSION}" ]; then
             #Assets
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/android-tools.AppRun" -o "${APPDIR}/AppRun"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/android-tools.desktop" -o "${APPDIR}/${APP}.desktop"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/deadbeef-stable.AppRun" -o "${APPDIR}/AppRun"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/deadbeef-stable.desktop" -o "${APPDIR}/${APP}.desktop"
              sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
              rsync -achLv --mkpath "${APPDIR}/${APP}.desktop" "${APPDIR}/usr/share/applications/${APP}.desktop"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/android-tools.png" -o "${APPDIR}/${APP}.png"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/deadbeef-stable.png" -o "${APPDIR}/${APP}.png"
              rsync -achLv "${APPDIR}/${APP}.png" "${APPDIR}/.DirIcon"
             #Perms 
              find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} + ; ls -lah "${APPDIR}"
-            #Temp Move Shell scripts
+            #Fix Shell Scripts
              find "${APPDIR}/usr" -type f -exec grep -l "^#\\!.*sh" {} + | xargs dos2unix
-             rsync -achLv --remove-source-files "${APPDIR}/usr/bin/adb" "./adb.tmp"
-            #Deploy
-             #linuxdeploy --appdir="${APPDIR}" --executable="${APPDIR}/usr/bin/${EXEC}"
-             go-appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
-             LD_LIBRARY_PATH="" find "${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "${APPDIR}"
-            #Restore Shell Scripts
-             rsync -achLv --remove-source-files "./adb.tmp" "${APPDIR}/usr/bin/adb"
             #Create
-             if [ -z "${VERSION}" ]; then
-                export VERSION="latest"
-             fi
-             go-appimagetool --standalone --overwrite "${APPDIR}"
+             appimagetool --comp zstd "${APPDIR}" "./${APP}.AppImage"
            fi
           #Copy
              find "." -maxdepth 1 -type f -iregex ".*\.AppImage" | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/${APP}.AppImage"
              file "/build-bins/"* && du -sh "/build-bins/"*
-           popd >/dev/null 2>&1 ; ldd --version | head -n 1
          fi
+           popd >/dev/null 2>&1 ; ldd --version | head -n 1
        '
       #Copy & Meta
        docker cp "holy-build-box:/build-bins/." "$(pwd)/"

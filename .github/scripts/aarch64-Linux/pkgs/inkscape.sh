@@ -46,7 +46,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
          APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
        #Repack
-         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Fix Media & Copy
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
@@ -79,7 +79,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
      #-------------------------------------------------------#
       ##Fetch (Stable):https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inkscape
@@ -102,7 +102,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
          APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
        #Repack  
-         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
            find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
@@ -118,7 +118,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="YES"
@@ -144,7 +144,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
          APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
        #Repack
-         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Get Media
            cd "${APPIMAGE_EXTRACT}"
            mkdir -p "${APPIMAGE_EXTRACT}/usr/share/applications" && mkdir -p "${APPIMAGE_EXTRACT}/usr/share/metainfo"
@@ -204,7 +204,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
       #End
        popd >/dev/null 2>&1

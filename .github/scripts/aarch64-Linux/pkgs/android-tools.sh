@@ -36,24 +36,27 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
        docker stop "holy-build-box" 2>/dev/null ; docker rm "holy-build-box" 2>/dev/null
-       docker run --privileged --net="host" --name "holy-build-box" "ghcr.io/phusion/holy-build-box:edge-amd64" \
+       docker run --privileged --net="host" --name "holy-build-box" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" "ghcr.io/phusion/holy-build-box:edge-amd64" \
        bash -l -c '
         #Update & Setup Base
          USER="$(whoami)" && export USER="${USER}"
          HOME="$(getent passwd ${USER} | cut -d: -f6)" && export HOME="${HOME}"
          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
          yum clean all ; yum check-update
-         yum install --skip-broken -y coreutils curl dos2unix findutils git moreutils python3 python3-pip.noarch tar util-linux xz wget zip
+         yum install --skip-broken -y clang clang-devel clang-tools coreutils curl desktop-file-utils dos2unix findutils gettext gettext-devel git intltool moreutils python3 python3-pip.noarch tar util-linux xz wget zip
          curl -qfsSL "https://bootstrap.pypa.io/pip/$(python3 -c "import sys; print(f\"{sys.version_info.major}.{sys.version_info.minor}\")")/get-pip.py" -o "${SYSTMP}/get-pip.py" && python3 "${SYSTMP}/get-pip.py"
          pip install meson ninja --upgrade
         #Static Bins
          curl -qfsSL "https://bin.ajam.dev/$(uname -m)/eget" -o "/usr/local/bin/eget" && chmod +x "/usr/local/bin/eget"
-         eget "https://bin.ajam.dev/$(uname -m)/go-appimagetool.no_strip" --to "/usr/local/bin/appimagetool" && chmod +x "/usr/local/bin/appimagetool"
+         eget "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" --to "/usr/local/bin/appimagetool" && chmod +x "/usr/local/bin/appimagetool"
+         eget "https://bin.ajam.dev/$(uname -m)/go-appimagetool.no_strip" --to "/usr/local/bin/go-appimagetool" && chmod +x "/usr/local/bin/go-appimagetool"
+         eget "https://bin.ajam.dev/$(uname -m)/gdu" --to "/usr/local/bin/gdu" && chmod +x "/usr/local/bin/gdu"
          eget "https://bin.ajam.dev/$(uname -m)/jq" --to "/usr/local/bin/jq" && chmod +x "/usr/local/bin/jq"
          eget "https://bin.ajam.dev/$(uname -m)/linuxdeploy.no_strip" --to "/usr/local/bin/linuxdeploy" && chmod +x "/usr/local/bin/linuxdeploy"
+         eget "https://bin.ajam.dev/$(uname -m)/ouch" --to "/usr/local/bin/ouch" && chmod +x "/usr/local/bin/ouch"
          eget "https://bin.ajam.dev/$(uname -m)/rsync" --to "/usr/local/bin/rsync" && chmod +x "/usr/local/bin/rsync"
         #Build
-         if command -v appimagetool >/dev/null 2>&1 && command -v linuxdeploy >/dev/null 2>&1; then
+         if command -v appimagetool >/dev/null 2>&1 && command -v go-appimagetool >/dev/null 2>&1; then
           #Setup VARS
            mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
            export ARCH="$(uname -m)"
@@ -66,13 +69,14 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            mkdir -p "${APPDIR}/usr/bin"
            eget "https://github.com/lzhiyong/android-sdk-tools" --asset "aarch64.zip" --all --to "${APPDIR}/usr/bin"
            eget "https://bin.ajam.dev/$(uname -m)/Baseutils/bash/sh" --to "${APPDIR}/usr/bin/sh"
-           VERSION="$("${APPDIR}/usr/bin/adb" --version | tr -d "[:alpha:]" | sed "/[^0-9 .\\-]/d" | sed "s/^ *//;s/ *$//" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}"
+           VERSION="$("${APPDIR}/usr/bin/adb" --version | tr -d "[:alpha:]" | sed "/[^0-9 .\\-]/d" | sed "s/^ *//;s/ *$//" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
            cd "${OWD}/${APP}"
           #Prep AppDir 
-           if [ -d "${APPDIR}" ] && [ "$(find "${APPDIR}" -mindepth 1 -print -quit 2>/dev/null)" ] && [ -n "${VERSION}" ]; then
+           if [ -d "${APPDIR}" ] && [ $(du -s "${APPDIR}" | cut -f1) -gt 100 ] && [ -n "${VERSION}" ]; then
             #Assets
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/android-tools.AppRun" -o "${APPDIR}/${APP}.AppRun"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/android-tools.AppRun" -o "${APPDIR}/AppRun"
              curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/android-tools.desktop" -o "${APPDIR}/${APP}.desktop"
+             sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
              rsync -achLv --mkpath "${APPDIR}/${APP}.desktop" "${APPDIR}/usr/share/applications/${APP}.desktop"
              curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/android-tools.png" -o "${APPDIR}/${APP}.png"
              rsync -achLv "${APPDIR}/${APP}.png" "${APPDIR}/.DirIcon"
@@ -83,7 +87,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
              rsync -achLv --remove-source-files "${APPDIR}/usr/bin/adb" "./adb.tmp"
             #Deploy
              #linuxdeploy --appdir="${APPDIR}" --executable="${APPDIR}/usr/bin/${EXEC}"
-             appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
+             go-appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
              LD_LIBRARY_PATH="" find "${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "${APPDIR}"
             #Restore Shell Scripts
              rsync -achLv --remove-source-files "./adb.tmp" "${APPDIR}/usr/bin/adb"
@@ -91,7 +95,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
              if [ -z "${VERSION}" ]; then
                 export VERSION="latest"
              fi
-             appimagetool --standalone --overwrite "${APPDIR}"
+             go-appimagetool --standalone --overwrite "${APPDIR}"
            fi
           #Copy
              find "." -maxdepth 1 -type f -iregex ".*\.AppImage" | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/${APP}.AppImage"
@@ -113,7 +117,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
          APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
        #Repack  
-         if [ -d "${APPIMAGE_EXTRACT}" ] && [ "$(find "${APPIMAGE_EXTRACT}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+         if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Fix Media & Copy
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.png" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.png" \;
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
@@ -146,7 +150,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
        fi
        #End
        popd >/dev/null 2>&1

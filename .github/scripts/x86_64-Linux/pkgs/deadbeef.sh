@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#self: source 
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/deadbeef.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -20,34 +22,49 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#actual : A local-first personal finance app
-export BIN="actual"
-export SOURCE_URL="https://github.com/actualbudget/actual"
+#deadbeef : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
+export BIN="deadbeef"
+export SOURCE_URL="https://github.com/DeaDBeeF-Player/deadbeef"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="actual"
-       export PKG_NAME="${APP}.AppImage"
-       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "linux" --asset "AppImage" --asset "^aarch64" --asset "^arm" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
-      #HouseKeeping 
-       if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
+       export APP="deadbeef"
+       export PKG_NAME="${APP}-stable.AppImage"
+       export ARCH="$(uname -m)"
+       export EXEC="${APP}"
+       export APPIMAGE="${OWD}/${PKG_NAME}"
+       export APPIMAGE_EXTRACT="${OWD}/${APP}/${APP}.APPIMAGE_EXTRACT"
+       RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | grep "\." | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+      #Build APPIMAGE_EXTRACT
+       pushd "$(mktemp -d)" >/dev/null 2>&1
+         mkdir -p "${APPIMAGE_EXTRACT}"
+         DL_LINK="$(curl -qfsSL "https://deadbeef.sourceforge.io/download.html" | grep -o "href=\"[^\"]*\"" | sed "s/href=\"//" | sed "s/\"$//" | grep "static.*\.tar\.bz2" | grep "x86_64" | sort | tail -n 1 | tr -d "[:space:]")" && export DL_LINK="${DL_LINK}"
+         curl -qfsSL "${DL_LINK}" -o "./deadbeef.tar.bz2"
+         [ ! -f "./deadbeef.tar.bz2" ] || [ $(stat -c%s "./deadbeef.tar.bz2") -le 10240 ] && exit 1
+         ouch decompress "./"* --yes
+         EXT_DIR="$(find "." -maxdepth 1 -type d ! -name "." ! -name ".." -print -quit | xargs realpath)"
+         [ ! -d "${EXT_DIR}" ] || [[ "${EXT_DIR}" == "/" ]] && exit 1
+         rsync -achLv --mkpath "${EXT_DIR}/." "${APPIMAGE_EXTRACT}/usr/bin/"
+         ls "${APPIMAGE_EXTRACT}/usr/bin/" -lah ; unset DL_LINK EXT_DIR
+       popd "$(mktemp -d)" >/dev/null 2>&1 ; cd "${OWD}/${APP}"
        #Version
          PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
          echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
-       #Extract
-         APPIMAGE="${OWD}/${PKG_NAME}" && export APPIMAGE="${APPIMAGE}" && chmod +x "${APPIMAGE}"
-         "${APPIMAGE}" --appimage-extract >/dev/null && rm -f "${APPIMAGE}"
-         APPIMAGE_EXTRACT="$(realpath "${OWD}/squashfs-root")" && export APPIMAGE_EXTRACT="${APPIMAGE_EXTRACT}"
-       #Repack  
+       #Repack
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
+          #Get Assets
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/deadbeef-stable.AppRun" -o "${APPIMAGE_EXTRACT}/AppRun"
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/deadbeef-stable.desktop" -o "${APPIMAGE_EXTRACT}/${APP}.desktop"
+           rsync -achLv --mkpath "${APPIMAGE_EXTRACT}/${APP}.desktop" "${APPIMAGE_EXTRACT}/usr/share/applications/${APP}.desktop"
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/deadbeef-stable.png" -o "${APPIMAGE_EXTRACT}/${APP}.png"
+           rsync -achLv "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
           #Fix Media & Copy
-           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.png" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.png" \;
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
-             find "${APPIMAGE_EXTRACT}" -regex ".*\(128x128/apps\|256x256\)/.*${APP}.*\.\(png\|svg\)" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+             find "${APPIMAGE_EXTRACT}" \( -path "*/128x128/apps/*${APP%%-*}*.png" -o -path "*/256x256/*${APP%%-*}*.png" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} convert {} -resize "128x128" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            fi
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${BINDIR}/${BIN}.icon.png"
@@ -58,7 +75,10 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            fi
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
-           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
+          #Fix Shell Scripts
+           find "${APPIMAGE_EXTRACT}/usr" -type f -exec grep -l "^#\\!.*sh" {} + | xargs dos2unix
+          #Perms 
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec sudo chmod "u=rx,go=rx" {} +
            ls -lah "${APPIMAGE_EXTRACT}"
           #Pack
            find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
@@ -77,7 +97,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
-       fi
+       #End
+       popd >/dev/null 2>&1
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
