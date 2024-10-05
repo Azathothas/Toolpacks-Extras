@@ -64,38 +64,39 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            export APP="dunst"
            export APPDIR="${APP}.AppDir"
            export EXEC="${APP}"
-           mkdir -p "./${APP}/${APPDIR}" && export CURRENTDIR="$(realpath ${APP}/${APPDIR})"
+           export OWD="$(realpath .)"
+           mkdir -p "${OWD}/${APP}/${APP}.AppDir" && export APPDIR="${OWD}/${APP}/${APP}.AppDir"
           #Get Src & Build
-           cd "${CURRENTDIR}" && git clone --filter="blob:none" --depth="1" --quiet "https://github.com/dunst-project/dunst" && cd "./dunst"
+           cd "${APPDIR}" && git clone --filter="blob:none" --depth="1" --quiet "https://github.com/dunst-project/dunst" && cd "./dunst"
            #git checkout "$(git tag --sort=-creatordate | head -n 1)"
            export VERSION="$(git log --oneline --format="%h")"
-           COMPLETIONS=0 SYSTEMD=0 WAYLAND=0 make PREFIX="${CURRENTDIR}/usr" --jobs="$(($(nproc)+1))" --keep-going
-           make install PREFIX="${CURRENTDIR}/usr"
-           cd "$(dirname "${CURRENTDIR}")" && rm -rvf "./${APPDIR}/dunst" "./${APPDIR}/usr/share"
+           COMPLETIONS=0 SYSTEMD=0 WAYLAND=0 make PREFIX="${APPDIR}/usr" --jobs="$(($(nproc)+1))" --keep-going
+           make install PREFIX="${APPDIR}/usr"
+           cd "$(dirname "${APPDIR}")" && rm -rvf "${APPDIR}/dunst" "${APPDIR}/usr/share"
           #Prep AppDir 
-           if [ -d "./${APPDIR}" ] && [ "$(find "./${APPDIR}" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+           if [ -d "${APPDIR}" ] && [ "$(find "${APPDIR}" -mindepth 1 -print -quit 2>/dev/null)" ] && [ -n "${VERSION}" ]; then
             #Assets
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/dunst.apprun" -o "./${APPDIR}/${APP}.apprun"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/dunst.desktop" -o "./${APPDIR}/${APP}.desktop"
-             rsync -achLv --mkpath "./${APPDIR}/${APP}.desktop" "./${APPDIR}/usr/share/applications/${APP}.desktop"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/dunst.png" -o "./${APPDIR}/${APP}.png"
-             rsync -achLv "./${APPDIR}/${APP}.png" "./${APPDIR}/.DirIcon"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/dunst.AppRun" -o "${APPDIR}/${APP}.AppRun"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/dunst.desktop" -o "${APPDIR}/${APP}.desktop"
+             rsync -achLv --mkpath "${APPDIR}/${APP}.desktop" "${APPDIR}/usr/share/applications/${APP}.desktop"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/dunst.png" -o "${APPDIR}/${APP}.png"
+             rsync -achLv "${APPDIR}/${APP}.png" "${APPDIR}/.DirIcon"
             #Perms 
-             find "./${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} + ; ls -lah "./${APPDIR}"
+             find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} + ; ls -lah "${APPDIR}"
             #Temp Move Shell scripts
-             find "./${APPDIR}/usr" -type f -exec grep -l "^#\\!.*sh" {} +
-             rsync -achLv --remove-source-files "./${APPDIR}/usr/bin/dunstctl" "./dunstctl.tmp"
+             find "${APPDIR}/usr" -type f -exec grep -l "^#\\!.*sh" {} + | xargs dos2unix
+             rsync -achLv --remove-source-files "${APPDIR}/usr/bin/dunstctl" "./dunstctl.tmp"
             #Deploy
-             #linuxdeploy --appdir="./${APPDIR}" --executable="./${APPDIR}/usr/bin/${EXEC}"
-             appimagetool --standalone deploy "./${APPDIR}/usr/share/applications/${APP}.desktop"
-             LD_LIBRARY_PATH="" find "./${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "./${APPDIR}"
+             #linuxdeploy --appdir="${APPDIR}" --executable="${APPDIR}/usr/bin/${EXEC}"
+             appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
+             LD_LIBRARY_PATH="" find "${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "${APPDIR}"
             #Restore Shell Scripts
-             rsync -achLv --remove-source-files "./dunstctl.tmp" "./${APPDIR}/usr/bin/dunstctl"
+             rsync -achLv --remove-source-files "./dunstctl.tmp" "${APPDIR}/usr/bin/dunstctl"
             #Create
              if [ -z "${VERSION}" ]; then
                 export VERSION="latest"
              fi
-             appimagetool --standalone --overwrite "./${APPDIR}"
+             appimagetool --standalone --overwrite "${APPDIR}"
            fi
           #Copy
              find "." -maxdepth 1 -type f -iregex ".*\.AppImage" | xargs realpath | xargs -I {} rsync -achvL "{}" "/build-bins/${APP}.AppImage"

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/dunst.sh")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/android-tools.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -22,16 +22,16 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#dunst : Lightweight and customizable notification daemon
-export BIN="dunst"
-export SOURCE_URL="https://github.com/dunst-project/dunst"
+#android-tools : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
+export BIN="android-tools"
+export SOURCE_URL="https://github.com/lzhiyong/android-sdk-tools"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="dunst"
+       export APP="android-tools"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
@@ -52,46 +52,41 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          eget "https://bin.ajam.dev/$(uname -m)/jq" --to "/usr/local/bin/jq" && chmod +x "/usr/local/bin/jq"
          eget "https://bin.ajam.dev/$(uname -m)/linuxdeploy.no_strip" --to "/usr/local/bin/linuxdeploy" && chmod +x "/usr/local/bin/linuxdeploy"
          eget "https://bin.ajam.dev/$(uname -m)/rsync" --to "/usr/local/bin/rsync" && chmod +x "/usr/local/bin/rsync"
-        #Install PKG Releated Deps
-         yum install --skip-broken -y autoconf automake cairo cairo-devel dbus-devel fuse-libs gdk-pixbuf2-devel glib2-devel gtk3-devel libX11-devel libXinerama libXinerama-devel libnotify libnotify-devel libXrandr-devel libXScrnSaver libXScrnSaver-devel pango pango-devel wayland-devel
-        #Activate env
-         "/hbb_exe/activate-exec"
         #Build
          if command -v appimagetool >/dev/null 2>&1 && command -v linuxdeploy >/dev/null 2>&1; then
           #Setup VARS
            mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
            export ARCH="$(uname -m)"
-           export APP="dunst"
+           export APP="android-tools"
            export APPDIR="${APP}.AppDir"
            export EXEC="${APP}"
            export OWD="$(realpath .)"
            mkdir -p "${OWD}/${APP}/${APP}.AppDir" && export APPDIR="${OWD}/${APP}/${APP}.AppDir"
           #Get Src & Build
-           cd "${APPDIR}" && git clone --filter="blob:none" --depth="1" --quiet "https://github.com/dunst-project/dunst" && cd "./dunst"
-           #git checkout "$(git tag --sort=-creatordate | head -n 1)"
-           export VERSION="$(git log --oneline --format="%h")"
-           COMPLETIONS=0 SYSTEMD=0 WAYLAND=0 make PREFIX="${APPDIR}/usr" --jobs="$(($(nproc)+1))" --keep-going
-           make install PREFIX="${APPDIR}/usr"
-           cd "$(dirname "${APPDIR}")" && rm -rvf "${APPDIR}/dunst" "${APPDIR}/usr/share"
+           mkdir -p "${APPDIR}/usr/bin"
+           eget "https://github.com/lzhiyong/android-sdk-tools" --asset "aarch64.zip" --all --to "${APPDIR}/usr/bin"
+           eget "https://bin.ajam.dev/$(uname -m)/Baseutils/bash/sh" --to "${APPDIR}/usr/bin/sh"
+           VERSION="$("${APPDIR}/usr/bin/adb" --version | tr -d "[:alpha:]" | sed "/[^0-9 .\\-]/d" | sed "s/^ *//;s/ *$//" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}"
+           cd "${OWD}/${APP}"
           #Prep AppDir 
            if [ -d "${APPDIR}" ] && [ "$(find "${APPDIR}" -mindepth 1 -print -quit 2>/dev/null)" ] && [ -n "${VERSION}" ]; then
             #Assets
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/dunst.AppRun" -o "${APPDIR}/${APP}.AppRun"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/dunst.desktop" -o "${APPDIR}/${APP}.desktop"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/android-tools.AppRun" -o "${APPDIR}/${APP}.AppRun"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/android-tools.desktop" -o "${APPDIR}/${APP}.desktop"
              rsync -achLv --mkpath "${APPDIR}/${APP}.desktop" "${APPDIR}/usr/share/applications/${APP}.desktop"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/dunst.png" -o "${APPDIR}/${APP}.png"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/android-tools.png" -o "${APPDIR}/${APP}.png"
              rsync -achLv "${APPDIR}/${APP}.png" "${APPDIR}/.DirIcon"
             #Perms 
              find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} + ; ls -lah "${APPDIR}"
             #Temp Move Shell scripts
              find "${APPDIR}/usr" -type f -exec grep -l "^#\\!.*sh" {} + | xargs dos2unix
-             rsync -achLv --remove-source-files "${APPDIR}/usr/bin/dunstctl" "./dunstctl.tmp"
+             rsync -achLv --remove-source-files "${APPDIR}/usr/bin/adb" "./adb.tmp"
             #Deploy
              #linuxdeploy --appdir="${APPDIR}" --executable="${APPDIR}/usr/bin/${EXEC}"
              appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
              LD_LIBRARY_PATH="" find "${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "${APPDIR}"
             #Restore Shell Scripts
-             rsync -achLv --remove-source-files "./dunstctl.tmp" "${APPDIR}/usr/bin/dunstctl"
+             rsync -achLv --remove-source-files "./adb.tmp" "${APPDIR}/usr/bin/adb"
             #Create
              if [ -z "${VERSION}" ]; then
                 export VERSION="latest"
