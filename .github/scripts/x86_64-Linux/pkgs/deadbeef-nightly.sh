@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/deadbeef.sh")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/deadbeef-nightly.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -22,7 +22,7 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#deadbeef : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
+#deadbeef : A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats
 export BIN="deadbeef"
 export SOURCE_URL="https://github.com/DeaDBeeF-Player/deadbeef"
 if [ "${SKIP_BUILD}" == "NO" ]; then
@@ -32,23 +32,23 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
        export APP="deadbeef"
-       export PKG_NAME="${APP}-stable.AppImage"
+       export PKG_NAME="${APP}-nightly.AppImage"
        export ARCH="$(uname -m)"
        export EXEC="${APP}"
        export APPIMAGE="${OWD}/${PKG_NAME}"
        export APPIMAGE_EXTRACT="${OWD}/${APP}/${APP}.APPIMAGE_EXTRACT"
-       RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | grep "\." | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       RELEASE_TAG="$(curl -qfsSL "https://sourceforge.net/projects/deadbeef/rss?path=/travis/linux/master" | grep -oP '(?<=<pubDate>).*?(?=</pubDate>)' | xargs -I {} date -d "{}" +"%Y_%m_%d" | sort | uniq -d | head -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       #Build APPIMAGE_EXTRACT
        pushd "$(mktemp -d)" >/dev/null 2>&1
          mkdir -p "${APPIMAGE_EXTRACT}"
-         DL_LINK="$(curl -qfsSL "https://deadbeef.sourceforge.io/download.html" | grep -o "href=\"[^\"]*\"" | sed "s/href=\"//" | sed "s/\"$//" | grep "static.*\.tar\.bz2" | grep "x86_64" | sort | tail -n 1 | tr -d "[:space:]")" && export DL_LINK="${DL_LINK}"
+         DL_LINK="$(curl -qfsSL "https://sourceforge.net/projects/deadbeef/files/travis/linux/master/" | grep -o 'href="[^"]*"' | sed 's/href="//;s/"$//' | grep 'static.*\.tar\.bz2' | grep -E '^https.*x86_64' | sort | tail -n 1 | tr -d "[:space:]")" && export DL_LINK="${DL_LINK}"
          curl -qfsSL "${DL_LINK}" -o "./deadbeef.tar.bz2"
          [ ! -f "./deadbeef.tar.bz2" ] || [ $(stat -c%s "./deadbeef.tar.bz2") -le 10240 ] && exit 1
          ouch decompress "./"* --yes
          EXT_DIR="$(find "." -maxdepth 1 -type d ! -name "." ! -name ".." -print -quit | xargs realpath)"
          [ ! -d "${EXT_DIR}" ] || [[ "${EXT_DIR}" == "/" ]] && exit 1
          rsync -achLv --mkpath "${EXT_DIR}/." "${APPIMAGE_EXTRACT}/usr/bin/"
-         ls "${APPIMAGE_EXTRACT}/usr/bin/" -lah ; unset DL_LINK EXT_DIR
+         ls "${APPIMAGE_EXTRACT}/usr/bin/" -lah ; unset ARCH DL_LINK EXT_DIR
        popd "$(mktemp -d)" >/dev/null 2>&1 ; cd "${OWD}/${APP}"
        #Version
          PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
@@ -57,8 +57,10 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Get Assets
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/deadbeef-stable.AppRun" -o "${APPIMAGE_EXTRACT}/AppRun"
+           #https://raw.githubusercontent.com/DeaDBeeF-Player/deadbeef/master/deadbeef.desktop.in
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/deadbeef-stable.desktop" -o "${APPIMAGE_EXTRACT}/${APP}.desktop"
            rsync -achLv --mkpath "${APPIMAGE_EXTRACT}/${APP}.desktop" "${APPIMAGE_EXTRACT}/usr/share/applications/${APP}.desktop"
+           #https://raw.githubusercontent.com/DeaDBeeF-Player/deadbeef/master/icons/scalable/deadbeef.svg
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/deadbeef-stable.png" -o "${APPIMAGE_EXTRACT}/${APP}.png"
            rsync -achLv "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
           #Fix Media & Copy
