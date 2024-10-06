@@ -5,8 +5,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-  #  - cron: "45 03 * * *"  # 03:45 AM UTC --> 09:30 AM Morning NPT
-   - cron: "0 */7 * * *"  # Every 07 Hrs
+   - cron: "0 */1 * * *"  # Every 01 Hrs
 
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS_GHRO }}"
@@ -69,8 +68,8 @@ jobs:
           export RCLONE_STATS="120s" ; echo "RCLONE_STATS=$RCLONE_STATS" >> "${GITHUB_ENV}"
           #-------------#
           ##User-Agent
-          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="$USER_AGENT"
-          echo "USER_AGENT=$USER_AGENT" >> "${GITHUB_ENV}"
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
+          echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
         continue-on-error: true
 
       - name: Dos2Unix Everything
@@ -97,7 +96,7 @@ jobs:
           set +x ; set +e
           #--------------#
           cd "${GITHUB_WORKSPACE}/main"
-          find ".github" -type f -name '*.sh' -exec shellcheck --severity=error {} \; 2>/dev/null | tee "${GITHUB_WORKSPACE}/main/.github/shellcheck.txt"
+          find ".github" -type f -name '*.sh' -exec shellcheck --exclude="SC2261" --severity=error "{}" \; 2>/dev/null | tee "${GITHUB_WORKSPACE}/main/.github/shellcheck.txt"
         continue-on-error: true
 
       - name: YAMLint
@@ -195,13 +194,13 @@ jobs:
              cat "${SYSTMP}/METADATA.json.src" |\
              jq -r '
                .[] | 
-               "[[bin.aarch64-Linux]]\n" +
+               "[[bin]]\n" +
                "name = \"\(.name)\"\n" +
-               "bin_name = \"\(.name)\"\n" +
+               "bin_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
-               "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
+               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
+               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
                "size = \"\(.size)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
@@ -218,13 +217,13 @@ jobs:
              curl -qfsSL "https://bin.ajam.dev/aarch64/Baseutils/METADATA.json" |\
              jq -r '
                .[] | 
-               "[[base.aarch64-Linux]]\n" +
+               "[[base]]\n" +
                "name = \"\(.name)\"\n" +
-               "bin_name = \"\(.name)\"\n" +
+               "bin_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
-               "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
+               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
+               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
                "size = \"\(.size)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
@@ -241,13 +240,13 @@ jobs:
              curl -qfsSL "https://pkg.ajam.dev/aarch64/METADATA.min.json" |\
              jq -r '
                .[] | 
-               "[[pkg.aarch64-Linux]]\n" +
+               "[[pkg]]\n" +
                "name = \"\(.name)\"\n" +
                "bin_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
                "version = \"\(.version)\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
+               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
                "size = \"\(.size)\"\n" +
                "bsum = \"\(.bsum)\"\n" +
                "shasum = \"\(.shasum)\"\n" +
@@ -261,10 +260,10 @@ jobs:
              ' >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
              taplo check "${SYSTMP}/aarch64-Linux-METADATA.toml" && cp "${SYSTMP}/aarch64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml"
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -tj | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json"
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -tj | jq 'to_entries | sort_by(.key) | from_entries' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json"
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json"
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml"
-          fi             
+          fi
         continue-on-error: true
 
       - name: Sync Metadata (aarch64-Linux-TOML)
@@ -311,13 +310,13 @@ jobs:
              cat "${SYSTMP}/METADATA.json.src" |\
              jq -r '
                .[] | 
-               "[[bin.x86_64-Linux]]\n" +
+               "[[bin]]\n" +
                "name = \"\(.name)\"\n" +
-               "bin_name = \"\(.name)\"\n" +
+               "bin_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
-               "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
+               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
+               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.ajam.dev/x86_64/")) + "\"\n" +
                "size = \"\(.size)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
@@ -334,13 +333,13 @@ jobs:
              curl -qfsSL "https://bin.ajam.dev/x86_64/Baseutils/METADATA.json" |\
              jq -r '
                .[] | 
-               "[[base.x86_64-Linux]]\n" +
+               "[[base]]\n" +
                "name = \"\(.name)\"\n" +
-               "bin_name = \"\(.name)\"\n" +
+               "bin_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
-               "version = \"" + (if .repo_version == "" then "latest" else .repo_version end) + "\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
+               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
+               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.ajam.dev/x86_64/")) + "\"\n" +
                "size = \"\(.size)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
@@ -357,7 +356,7 @@ jobs:
              curl -qfsSL "https://pkg.ajam.dev/x86_64/METADATA.min.json" |\
              jq -r '
                .[] | 
-               "[[pkg.x86_64-Linux]]\n" +
+               "[[pkg]]\n" +
                "name = \"\(.name)\"\n" +
                "bin_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
@@ -376,7 +375,7 @@ jobs:
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
              taplo check "${SYSTMP}/x86_64-Linux-METADATA.toml" && cp "${SYSTMP}/x86_64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml"
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -tj | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json"
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -tj | jq 'to_entries | sort_by(.key) | from_entries' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json"
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json"
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml"
           fi
@@ -502,6 +501,16 @@ jobs:
           rm -rf "$(pwd)/.git"
           #Upload to Pub
           echo -e "[+] Syncing ${GITHUB_REPOSITORY} to pub.ajam.dev/repos/${GITHUB_REPOSITORY} \n"
-          rclone sync "." "r2:/pub/repos/${GITHUB_REPOSITORY}/" --user-agent="$USER_AGENT" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          rclone sync "." "r2:/pub/repos/${GITHUB_REPOSITORY}/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
+          #Upload AIO files (aarch64-Linux) ==> (https://bin.ajam.dev/aarch64_arm64_Linux/)
+          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml" --checksum --check-first --user-agent="${USER_AGENT}"
+          #Upload AIO files (x86_64-Linux) ==> (https://bin.ajam.dev/x86_64_Linux/)
+          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "r2:/bin/x86_64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" "r2:/bin/x86_64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}"
+          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml" --checksum --check-first --user-agent="${USER_AGENT}"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
