@@ -9870,7 +9870,7 @@
         "bin_name": "mlr",
         "description": "Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON",
         "note": "",
-        "version": "v6.12.0",
+        "version": "v6.13.0",
         "download_url": "https://bin.ajam.dev/aarch64_arm64_Linux/mlr",
         "size": "33.74 MB",
         "bsum": "",
