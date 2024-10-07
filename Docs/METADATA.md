@@ -54,12 +54,21 @@
 > > !#A number of things are undocumented/missing from the METADATA.AIO files, these are just examples
 > >
 > > ↣ $(.base | .bin)
-> > -> NeoFetch Style GH Fetch IMG #Binaries that have a Github URL set as .src_url, you can get a neofetch style img
+> >
+> >  #Binaries that have a Github URL set as .src_url, you can get a neofetch style img
+> > -> NeoFetch Style GH Fetch IMG 
 > > "$(.download_url).ghfetch.png" #Example: https://bin.ajam.dev/x86_64/curl.ghfetch.png
-> > -> NeoFetch Style GH Fetch TXT #Binaries that have a Github URL set as .src_url, you can get a neofetch style ascii txt
-> > "$(.download_url).ghfetch.txt" #Example: https://bin.ajam.dev/x86_64/curl.ghfetch.txt 
-> > -> Github Images/Previews #Binaries that have a Github URL set as .src_url, you can get a preview/thumnail PNG file
+> > 
+> > #Binaries that have a Github URL set as .src_url, you can get a neofetch style ascii txt
+> > -> NeoFetch Style GH Fetch TXT
+> > "$(.download_url).ghfetch.ascii" #Example: https://bin.ajam.dev/x86_64/curl.ghfetch
+> >
+> > #Binaries that have a Github URL set as .src_url, you can get a preview/thumnail PNG file 
+> > -> Github Images/Previews 
 > > "$(.download_url).preview.png" #Example: https://bin.ajam.dev/x86_64/curl.preview.png
+> >
+> > #Binaries that have a tldr page entry: https://tldr.sh/
+> >  "$(.bin.name).tldr.ascii" #Example: https://bin.ajam.dev/x86_64/curl.tldr.ascii
 > > ```
 > >
 > > ```bash
@@ -71,7 +80,7 @@
 > > -> Icons & .DirIcons
 > > "$(.bin.name).icon.png" #Example: https://pkg.ajam.dev/x86_64/qbittorrent.icon.png
 > > "$(.bin.name).DirIcon" #Example: https://pkg.ajam.dev/x86_64/qbittorrent.DirIcon (.DirIcon is a copy of .icon.png, downloading both isn't necessary)
-> >
+> > 
 > > -> .Version Files
 > > #This info is also in the metadata, but if for some reason it's not
 > > "$(.name).version" #Example: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.version
