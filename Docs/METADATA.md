@@ -80,7 +80,7 @@
 > > #Though, there now exists appimageupdatetool: https://github.com/AppImageCommunity/AppImageUpdate, you can still use zsync manually if you need it 
 > > "$(.name).zsync" #Example: https://pkg.ajam.dev/x86_64/qbittorrent.AppImage.zsync
 > > ```
-> - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`@xplshn/dbin`](https://github.com/xplshn/dbin) & [`@ivan-hc/AM`](https://github.com/ivan-hc/AM)
+> - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`@QaidVoid/soar`](https://github.com/QaidVoid/soar), [`@xplshn/dbin`](https://github.com/xplshn/dbin) & [`@ivan-hc/AM`](https://github.com/ivan-hc/AM)
 ---
 
 - #### Using [JQ](https://jqlang.github.io/jq/manual/) to Parse [METADATA.json](https://pkg.ajam.dev/METADATA.json)
@@ -92,7 +92,7 @@
 > #---------------------#
 > # Append `| jq -r '.$TYPE[].$PROPERTY'` to filter them, for example:
 > !# Simple example to: list all Pkgs in .bin
-> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.AIO.json" | jq -r '.bin[] | .name'
+> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.AIO.json" | jq -r '.pkg[] | .name'
 >
 > !#To pretty print anything that matches qbittorrent from .pkg
 > curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.AIO.json" | jq -r '.pkg[] | select(.name | test("qbittorrent"; "i")) | "---------------------------\n" + (. | to_entries | map("\(.key): \(.value)") | join("\n"))'
