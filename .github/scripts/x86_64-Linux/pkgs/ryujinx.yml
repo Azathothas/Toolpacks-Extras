@@ -1,0 +1,11 @@
+name: "ryujinx"
+bin_name: "ryujinx"
+bins:
+  - "ryujinx.AppImage"
+category:
+ - "emulator"
+description: "A simple, experimental Nintendo Switch emulator"
+note: "(CI_VERIFIED: https://github.com/simplex-chat/simplex-chat/actions)"
+web_url: "https://github.com/ryujinx-mirror/ryujinx"
+path: "/"
+src_url: "https://github.com/ryujinx-mirror/ryujinx"
