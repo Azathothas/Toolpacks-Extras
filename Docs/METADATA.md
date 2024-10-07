@@ -88,24 +88,17 @@
 > ```bash
 > #-----------------------------------------------------------------------------#
 > # Host Triplet
-> !# Linux
-> echo "$(uname -m)-$(uname -s)"
+> echo "$(uname -m)" #either x86_64 or aarch64
 > #---------------------#
-> ↣ !# (aarch64 | arm64)
-> # https://pkg.ajam.dev/aarch64-Linux/METADATA.json
-> # Append `| jq -r '.[].$PROPERTY'` to filter them
-> curl -qfsSL "https://pkg.ajam.dev/METADATA.json" | jq '.[] | select(.host == "aarch64-Linux") | .main'
-> 
-> 
-> #---------------------#
-> ↣ !# (amd64 | x86_64)
-> # https://pkg.ajam.dev/x86_64-Linux/METADATA.json
-> # Append `| jq -r '.[].$PROPERTY'` to filter them
-> curl -qfsSL "https://pkg.ajam.dev/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .main'
-> 
-> #-----------------------------------------------------------------------------#
-> 
+> # Append `| jq -r '.$TYPE[].$PROPERTY'` to filter them, for example:
+> !# Simple example to: list all Pkgs in .bin
+> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.AIO.json" | jq -r '.bin[] | .name'
+>
+> !#To pretty print anything that matches qbittorrent from .pkg
+> curl -qfsSL "https://bin.ajam.dev/$(uname -m)/METADATA.AIO.json" | jq -r '.pkg[] | select(.name | test("qbittorrent"; "i")) | "---------------------------\n" + (. | to_entries | map("\(.key): \(.value)") | join("\n"))'
 > ```
+> ![image](https://github.com/user-attachments/assets/79248a8b-1716-4fec-b021-cc04948f0639)
+>
 ---
 
 - #### URL Redirects
