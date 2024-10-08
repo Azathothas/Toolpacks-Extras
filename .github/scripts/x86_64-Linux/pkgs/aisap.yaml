@@ -7,7 +7,7 @@ category:
  - "cli"
  - "sandbox"
 description: "Tool to make sandboxing AppImages easy (AppImage | shImg)"
-note: "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)"
+note: "This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)"
 web_url: "https://github.com/mgord9518/aisap"
 path: "/"
 src_url: "https://github.com/mgord9518/aisap"
