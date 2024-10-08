@@ -57,11 +57,11 @@
 > >
 > > #Binaries that have a Github URL set as .src_url, you can get a preview/thumnail PNG file 
 > > -> Github Images/Previews 
-> > "$(.bin.name).preview.png" #Example: https://bin.ajam.dev/x86_64/curl.preview.png
+> > "$(.name).preview.png" #Example: https://bin.ajam.dev/x86_64/curl.preview.png
 > >
 > > #Binaries that have a tldr page entry: https://tldr.sh/
 > > -> TLDR Pages (!WARN: May not be Accurate)
-> >  "$(.bin.name).tldr.md" #Example: https://bin.ajam.dev/x86_64/curl.tldr.md
+> >  "$(.name).tldr.md" #Example: https://bin.ajam.dev/x86_64/curl.tldr.md
 > > ```
 > >
 > > ```bash
