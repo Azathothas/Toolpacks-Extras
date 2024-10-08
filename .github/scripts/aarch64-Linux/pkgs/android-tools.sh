@@ -36,7 +36,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
        docker stop "holy-build-box" 2>/dev/null ; docker rm "holy-build-box" 2>/dev/null
-       docker run --privileged --net="host" --name "holy-build-box" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" "ghcr.io/phusion/holy-build-box:edge-amd64" \
+       docker run --privileged --net="host" --name "holy-build-box" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" "ghcr.io/phusion/holy-build-box:edge-arm64" \
        bash -l -c '
         #Update & Setup Base
          USER="$(whoami)" && export USER="${USER}"
