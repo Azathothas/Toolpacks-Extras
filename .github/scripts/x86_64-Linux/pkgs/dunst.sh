@@ -71,8 +71,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            mkdir -p "${OWD}/${APP}/${APP}.AppDir" && export APPDIR="${OWD}/${APP}/${APP}.AppDir"
           #Get Src & Build
            cd "${APPDIR}" && git clone --filter="blob:none" --depth="1" --quiet "https://github.com/dunst-project/dunst" && cd "./dunst"
-           #git checkout "$(git tag --sort=-creatordate | head -n 1)"
-           export VERSION="$(git log --oneline --format="%h")" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
+           #git checkout "$(git tag --sort=-creatordate | grep -iv "continuous" | head -n 1)"
+           export VERSION="$(git log --oneline --format="%h" | head -n 1)" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
            COMPLETIONS=0 SYSTEMD=0 WAYLAND=0 make PREFIX="${APPDIR}/usr" --jobs="$(($(nproc)+1))" --keep-going
            make install PREFIX="${APPDIR}/usr"
            cd "$(dirname "${APPDIR}")" && rm -rvf "${APPDIR}/dunst" "${APPDIR}/usr/share"
