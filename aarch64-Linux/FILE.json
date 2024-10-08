@@ -13,7 +13,7 @@
   },
   {
     "filename": "./aisap.log",
-    "type": "ASCII text, with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
   },
   {
     "filename": "./BLAKE3SUM.json",
@@ -21,7 +21,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "type": "ASCII text, with very long lines (2554)"
+    "type": "ASCII text"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -78,5 +78,57 @@
   {
     "filename": "./SIZE.json",
     "type": "JSON text data"
+  },
+  {
+    "filename": "./aisap.AppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./android-tools.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./dunst.AppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./dunst.log",
+    "type": "ASCII text, with CR, LF line terminators"
+  },
+  {
+    "filename": "./FILE.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./floorp.log",
+    "type": "ASCII text, with very long lines (2554)"
+  },
+  {
+    "filename": "./floorp.NixAppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./METADATA.AIO.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.min.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./persepolis.log",
+    "type": "ASCII text, with very long lines (495), with CR, LF line terminators"
+  },
+  {
+    "filename": "./persepolis.NixAppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
   }
 ]
