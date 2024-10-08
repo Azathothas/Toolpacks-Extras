@@ -36,7 +36,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | grep -iv "continuous" | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
        docker stop "alpine-builder" 2>/dev/null ; docker rm "alpine-builder" 2>/dev/null
-       docker run --privileged --net="host" --name "alpine-builder" --pull="always" "azathothas/alpine-builder:latest" \
+       docker run --privileged --net="host" --name "alpine-builder" --pull="always" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" "azathothas/alpine-builder:latest" \
         bash -l -c '
         #Install Deps
          apk update --no-interactive 2>/dev/null
