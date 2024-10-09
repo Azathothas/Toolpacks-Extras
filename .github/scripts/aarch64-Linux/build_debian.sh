@@ -15,6 +15,7 @@
 ##ENV:$PATH
  HOST_TRIPLET="$(uname -m)-$(uname -s)" && export HOST_TRIPLET="${HOST_TRIPLET}"
  HF_REPO_DL="https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/${HOST_TRIPLET}" && export HF_REPO_DL="${HF_REPO_DL}"
+ #export NIX_SETUP_MODE="EXPENSIVE"
  source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/env.sh")
 #-------------------------------------------------------#
 

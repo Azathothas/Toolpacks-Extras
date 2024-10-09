@@ -259,19 +259,21 @@
              export CONTINUE="NO" && exit 1
           else
              nix --version && nix-channel --list && nix-channel --update
-            #Setup NixPkgs Repo [Latest Packages but EXPENSIVE]
-             sudo rm -rvf "/opt/nixpkgs" 2>/dev/null ; sudo mkdir -p "/opt" && pushd "/opt" >/dev/null 2>&1
-             sudo git clone --filter="blob:none" --depth="1" --quiet "https://github.com/NixOS/nixpkgs.git"
-             sudo chown -R "$(whoami):$(whoami)" "/opt/nixpkgs" && sudo chmod -R 755 "/opt/nixpkgs"
-             nix registry add "nixpkgs" "/opt/nixpkgs" ; nix registry list
-             nix derivation show "nixpkgs#hello"
-             popd >/dev/null 2>&1
-             if [ -d "/opt/nixpkgs" ] && [ "$(find "/opt/nixpkgs" -mindepth 1 -print -quit 2>/dev/null)" ]; then
-                ls "/opt/nixpkgs" -lah ; du -sh "/opt/nixpkgs"
-             else
-                echo -e "\n[-] nixpkgs REPO NOT Found: /opt/nixpkgs\n"
-                export CONTINUE="NO" && exit 1
-             fi
+            if [ "${NIX_SETUP_MODE}" == "EXPENSIVE" ]; then
+                #Setup NixPkgs Repo [Latest Packages but EXPENSIVE]
+                 sudo rm -rvf "/opt/nixpkgs" 2>/dev/null ; sudo mkdir -p "/opt" && pushd "/opt" >/dev/null 2>&1
+                 sudo git clone --filter="blob:none" --depth="1" --quiet "https://github.com/NixOS/nixpkgs.git"
+                 sudo chown -R "$(whoami):$(whoami)" "/opt/nixpkgs" && sudo chmod -R 755 "/opt/nixpkgs"
+                 nix registry add "nixpkgs" "/opt/nixpkgs" ; nix registry list
+                 nix derivation show "nixpkgs#hello"
+                 popd >/dev/null 2>&1
+                 if [ -d "/opt/nixpkgs" ] && [ "$(find "/opt/nixpkgs" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+                    ls "/opt/nixpkgs" -lah ; du -sh "/opt/nixpkgs"
+                 else
+                    echo -e "\n[-] nixpkgs REPO NOT Found: /opt/nixpkgs\n"
+                    export CONTINUE="NO" && exit 1
+                 fi
+            fi
           fi
          #----------------------# 
          ##Install rust & cargo
