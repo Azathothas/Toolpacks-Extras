@@ -214,6 +214,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"https://bin.ajam.dev/aarch64/\(.name).log.txt\"\n" +
                "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+               "icon = \"https://bin.ajam.dev/aarch64/" + (.build_script | split("/")[-1] | sub("\\.sh$"; ".preview.png")) + "\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' > "${SYSTMP}/aarch64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
@@ -237,6 +238,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"https://bin.ajam.dev/aarch64/\(.name).log.txt\"\n" +
                "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+               "icon = \"https://bin.ajam.dev/aarch64/" + (.build_script | split("/")[-1] | sub("\\.sh$"; ".preview.png")) + "\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
@@ -260,6 +262,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"\(.build_log)\"\n" +
                "category = \"\(.category)\"\n" +
+               "icon = \"https://pkg.ajam.dev/aarch64/\(.bin_name).icon.png\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
@@ -330,6 +333,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"https://bin.ajam.dev/x86_64/\(.name).log.txt\"\n" +
                "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+               "icon = \"https://bin.ajam.dev/x86_64/" + (.build_script | split("/")[-1] | sub("\\.sh$"; ".preview.png")) + "\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' > "${SYSTMP}/x86_64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
@@ -353,6 +357,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"https://bin.ajam.dev/x86_64/\(.name).log.txt\"\n" +
                "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
+               "icon = \"https://bin.ajam.dev/x86_64/" + (.build_script | split("/")[-1] | sub("\\.sh$"; ".preview.png")) + "\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
@@ -376,6 +381,7 @@ jobs:
                "build_script = \"\(.build_script)\"\n" +
                "build_log = \"\(.build_log)\"\n" +
                "category = \"\(.category)\"\n" +
+               "icon = \"https://pkg.ajam.dev/x86_64/\(.bin_name).icon.png\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
              taplo check "${SYSTMP}/x86_64-Linux-METADATA.toml" && cp "${SYSTMP}/x86_64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml"
