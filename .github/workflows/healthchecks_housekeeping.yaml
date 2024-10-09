@@ -15,9 +15,30 @@ env:
   R2_PUB_REPO: "https://pub.ajam.dev/repos/Azathothas/Toolpacks-Extras"
 jobs:
 #------------------------------------------------------------------------------------#
-  sync-metadata:
+  check_build_status:
     runs-on: ubuntu-latest
-    
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Check Build Packages workflow status
+        id: check
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          AARCH64_STATUS="$(curl -qfsSL -H "Authorization: bearer ${GITHUB_TOKEN}" "https://api.github.com/repos/Azathothas/Toolpacks-Extras/actions/workflows/build_aarch64_Linux.yaml/runs?status=in_progress" | jq '.total_count')" && export AARCH64_STATUS="${AARCH64_STATUS}"
+          X86_64_STATUS="$(curl -qfsSL -H "Authorization: bearer ${GITHUB_TOKEN}" "https://api.github.com/repos/Azathothas/Toolpacks-Extras/actions/workflows/build_x86_64_Linux.yaml/runs?status=in_progress" | jq '.total_count')" && export X86_64_STATUS="${X86_64_STATUS}"
+          if [ "${X86_64_STATUS}" -eq "0" ] && [ "${AARCH64_STATUS}" -eq "0" ]; then
+            echo "should_run=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "should_run=false" >> "${GITHUB_OUTPUT}"
+          fi
+        continue-on-error: true
+#------------------------------------------------------------------------------------#
+  sync-metadata:
+    needs: check_build_status
+    if: needs.check_build_status.outputs.should_run == 'true'  
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       
