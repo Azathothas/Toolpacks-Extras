@@ -1,31 +1,31 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "9b170b07c9782a39db828dcd878424d3737612a3d1e8e99a59d898e56eacc1a2"
+    "sum": "88fbca32b314d8b9eabdc604f32707c9d421b5eedfb3035ad18326cd12e2cb4a"
   },
   {
     "filename": "./FILE.json",
-    "sum": "d4119a958a4d2c7fb113fb75aef827b2fcb6bf08f0c5e1f3e3f4a7fe0d5bf527"
+    "sum": "971fee0ce1c71601698c4003ae7905778947e525300f2056035c8d4d7d8fcb77"
   },
   {
     "filename": "./METADATA.json",
-    "sum": "81df856f6f9937c58560694c2935fe6fcb6784a79a203e11af6996166c49b529"
+    "sum": "4431d3c0859f62592a097dbaa1c7f2cb29ea065da1bbb8f715625055e2d107e5"
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "d0acda4584c8d6e1a7e17c0faf6d38a0c9e4b3c14c3f6727742dc2ebf35b98b7"
+    "sum": "d83d6f6c8b771f9c9b96aa96b0f7bfc9c4ab919174b10e4bdc970b9ade4bf760"
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "ba1dd8ef806c1301a78ded81169f078cfe4837be5803191198a8fa0f8f0006fb"
+    "sum": "698a3ea894bf4a12e82b63b512192c65334da69458a6a0aae8522ac034d0dac9"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "aaff7379f756ca201a8ff3e5b0026ef027fd4fe06c00cc94ed9f821a30f7bd6b"
+    "sum": "e05076feaa14e619fdf6fbe6bad508e7b23554ab6dcf833b8ce2a6eed7b5f77b"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "7a44956a7b37985c3bdd3b6e10497de4bbefc5bd361dd0054ad0097154ce9ef5"
+    "sum": "040877d3bae8ee6db41620f63cc5691d6952945a7ec9c875cb76fcf4f23322ea"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -85,19 +85,19 @@
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "2be8436c2ae0053df7aa6e1d95ba0ebd58291cd64ff46e2bc41d6344a7f9d8bb"
+    "sum": "e3ff01c2809db21b9a0a2a46d0589772afa47bdf757cc9ea9262bf5de42173aa"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "3d8ed8e78bfa0e5e9a4c7452b51ffd68bda84d630f8776d0aea5381b5dc48942"
+    "sum": "cda3f8de149ebfc3e18743c69cf36cecfa6d9f40289596537ec2857c6132e5e7"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "c4d1b06e323bc60b12c1e34d0ceec6e0507049a99bfc62de1d98d29288d9c3ed"
+    "sum": "b88481f3b75c5bcb343b272e0b28d3e5532d70bbc706144789aa17ff14034a5e"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "5f90d79f891916794bd7428138e244a16796974237816538e619973ab2e8318e"
+    "sum": "0332f7931972ed04fc00eaedd8b50bd32451dd33e2d5c264cc5a692ebe8472db"
   },
   {
     "filename": "./aisap.AppImage",
@@ -142,5 +142,9 @@
   {
     "filename": "./ryujinx.log",
     "sum": "337f8ea3cd42202a2af78934500e8f8420f109f460dd5581ab053738c5edf394"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "sum": "e126181f85e49b20b19052cd8995dea4901730e3b96ee487d1a9f9226ad3a57a"
   }
 ]

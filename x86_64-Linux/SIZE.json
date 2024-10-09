@@ -481,11 +481,11 @@
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "size": "4.3 MB"
+    "size": "3.72 MB"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "size": "4.33 MB"
+    "size": "3.75 MB"
   },
   {
     "filename": "./aisap.AppImage.zsync",
@@ -710,5 +710,29 @@
   {
     "filename": "./simplex-chat-desktop.log",
     "size": "2943 B"
+  },
+  {
+    "filename": "./imagemagick.DirIcon",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./imagemagick.desktop",
+    "size": "202 B"
+  },
+  {
+    "filename": "./imagemagick.icon.png",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "size": "65.27 MB"
+  },
+  {
+    "filename": "./magick.AppImage.version",
+    "size": "9 B"
+  },
+  {
+    "filename": "./magick.AppImage.zsync",
+    "size": "223.3 KB"
   }
 ]

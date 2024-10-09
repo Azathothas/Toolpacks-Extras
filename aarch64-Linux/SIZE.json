@@ -145,11 +145,11 @@
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "size": "4.22 MB"
+    "size": "2.89 MB"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "size": "4.26 MB"
+    "size": "2.91 MB"
   },
   {
     "filename": "./aisap.AppImage",
@@ -314,5 +314,25 @@
   {
     "filename": "./ryujinx.log",
     "size": "12.39 KB"
+  },
+  {
+    "filename": "./imagemagick.DirIcon",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./imagemagick.desktop",
+    "size": "202 B"
+  },
+  {
+    "filename": "./imagemagick.icon.png",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "size": "63.04 MB"
+  },
+  {
+    "filename": "./magick.AppImage.zsync",
+    "size": "215.68 KB"
   }
 ]
