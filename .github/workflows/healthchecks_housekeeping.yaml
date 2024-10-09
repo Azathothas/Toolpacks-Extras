@@ -118,6 +118,8 @@ jobs:
           pushd "${GITHUB_WORKSPACE}/main" >/dev/null 2>&1
            mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BUILD.log.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.log.txt"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks-Extras/aarch64-Linux/BUILD.gh.log.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD.gh.log.txt"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks-Extras/aarch64-Linux/BUILD_FAILED.gh.log.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/BUILD_FAILED.gh.log.txt"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/BLAKE3SUM.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/BLAKE3SUM.json"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/FILE.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/FILE.json"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/METADATA.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json"
@@ -135,6 +137,8 @@ jobs:
           pushd "${GITHUB_WORKSPACE}/main" >/dev/null 2>&1
            mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BUILD.log.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.log.txt"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks-Extras/x86_64-Linux/BUILD.gh.log.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD.gh.log.txt"
+           curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Toolpacks-Extras/x86_64-Linux/BUILD_FAILED.gh.log.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/BUILD_FAILED.gh.log.txt"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/BLAKE3SUM.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/BLAKE3SUM.json"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/FILE.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/FILE.json"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/METADATA.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json"

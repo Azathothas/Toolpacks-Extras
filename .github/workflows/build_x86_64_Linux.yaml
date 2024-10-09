@@ -177,24 +177,26 @@ jobs:
           bash "${SYSTMP}/BUILD.sh" | tee "${SYSTMP}/BUILD.log" 2>&1
           ##Run without STDOUT/Logs
           #bash "${SYSTMP}/BUILD.sh" >/dev/null 2>&1
-          ##Purge Tokens (in case set -x & gh didn't redact)
-          cat "${SYSTMP}/BUILD.log" | ansi2txt > "${SYSTMP}/BUILD.log.txt"
-          sed -i '/.*github_pat.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*ghp_.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*access_key_id.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*secret_access_key.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          sed -i '/.*cloudflarestorage.*/Id' "${SYSTMP}/BUILD.log" 2>/dev/null
-          ##Fetch Only Relevant Logs
-          if grep -iq "completed" "${SYSTMP}/BUILD.log.txt"; then
-             mv "${SYSTMP}/BUILD.log.txt" "${SYSTMP}/BUILD.log"
-          elif grep -iq "initializing" "${SYSTMP}/BUILD.log.txt"; then
-             mv "${SYSTMP}/BUILD.log.txt" "${SYSTMP}/BUILD_FAILED.log"
+          if [[ -f "${SYSTMP}/BUILD.log" ]] && [[ $(stat -c%s "${SYSTMP}/BUILD.log") -gt 1024 ]]; then
+             ##Purge Tokens (in case set -x & gh didn't redact)
+             cat "${SYSTMP}/BUILD.log" | ansi2txt > "${SYSTMP}/BUILD.gh.log.txt"
+             sed -i '/.*github_pat.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*ghp_.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*access_key_id.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*secret_access_key.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*token.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             sed -i '/.*cloudflarestorage.*/Id' "${SYSTMP}/BUILD.gh.log.txt" 2>/dev/null
+             ##Fetch Only Relevant Logs
+             if grep -iq "completed" "${SYSTMP}/BUILD.gh.log.txt"; then
+                mv "${SYSTMP}/BUILD.gh.log.txt" "${SYSTMP}/BUILD.log"
+             elif grep -iq "initializing" "${SYSTMP}/BUILD.gh.log.txt"; then
+                mv "${SYSTMP}/BUILD.gh.log.txt" "${SYSTMP}/BUILD_FAILED.log"
+             fi
+             ##rClone Upload logs
+             rclone copyto "${SYSTMP}/BUILD.log" "r2:/pub/repos/Azathothas/Toolpacks-Extras/x86_64-Linux/BUILD.gh.log.txt" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
+             rclone copyto "${SYSTMP}/BUILD_FAILED.log" "r2:/pub/repos/Azathothas/Toolpacks-Extras/x86_64-Linux/BUILD_FAILED.gh.log.txt" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
           fi
-          ##rClone Upload logs
-          rclone copyto "${SYSTMP}/BUILD.log" "r2:/pub/repos/Azathothas/Toolpacks-Extras/x86_64-Linux/BUILD.log.txt" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
-          rclone copyto "${SYSTMP}/BUILD_FAILED.log" "r2:/pub/repos/Azathothas/Toolpacks-Extras/BUILD_FAILED.log.txt" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --retries="10" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
       #Logs & Artifacts  
