@@ -201,7 +201,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
                "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
@@ -224,7 +224,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
                "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
@@ -247,7 +247,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"\(.version)\"\n" +
                "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.ajam.dev/aarch64/")) + "\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.bsum)\"\n" +
                "shasum = \"\(.shasum)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
@@ -317,7 +317,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
                "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.ajam.dev/x86_64/")) + "\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
@@ -340,7 +340,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
                "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.ajam.dev/x86_64/")) + "\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.b3sum)\"\n" +
                "shasum = \"\(.sha256)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
@@ -363,7 +363,7 @@ jobs:
                "note = \"\(.note)\"\n" +
                "version = \"\(.version)\"\n" +
                "download_url = \"\(.download_url)\"\n" +
-               "size = \"\(.size)\"\n" +
+               "size = \"\(.size | ascii_upcase)\"\n" +
                "bsum = \"\(.bsum)\"\n" +
                "shasum = \"\(.shasum)\"\n" +
                "build_date = \"\(.build_date)\"\n" +
