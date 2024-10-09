@@ -100,7 +100,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   build-fetch-packages:
     #runs-on: ubuntu-latest
-    runs-on: amd64-linux-toolpacker
+    runs-on: arm64-linux-toolpacker
     needs: [presetup]
     timeout-minutes: 2400
     permissions:
