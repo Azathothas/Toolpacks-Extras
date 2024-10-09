@@ -1,4 +1,4 @@
-name: 🛍️ Build 📦 (toolpack_x86_64-Linux) Packages 📦📀
+name: 🛍️ Build 📀 (toolpack_x86_64-Linux) Packages 📦📀
 
 on:
   workflow_dispatch:
