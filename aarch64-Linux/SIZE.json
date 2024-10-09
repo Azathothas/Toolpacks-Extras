@@ -5,15 +5,15 @@
   },
   {
     "filename": "./librewolf.AppImage",
-    "size": "88.18 MB"
+    "size": "88.39 MB"
   },
   {
     "filename": "./librewolf.AppImage.version",
-    "size": "11 B"
+    "size": "9 B"
   },
   {
     "filename": "./librewolf.AppImage.zsync",
-    "size": "301.62 kB"
+    "size": "302.33 KB"
   },
   {
     "filename": "./librewolf.DirIcon",
@@ -29,7 +29,7 @@
   },
   {
     "filename": "./librewolf.NixAppImage.zsync",
-    "size": "1.14 MB"
+    "size": "571.51 KB"
   },
   {
     "filename": "./librewolf.desktop",
@@ -41,7 +41,7 @@
   },
   {
     "filename": "./librewolf.log",
-    "size": "76.41 kB"
+    "size": "76.24 KB"
   },
   {
     "filename": "./mullvad-browser.log",
@@ -57,7 +57,7 @@
   },
   {
     "filename": "./inkscape.DirIcon",
-    "size": "15.27 kB"
+    "size": "15.27 KB"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -69,23 +69,23 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "840.21 kB"
+    "size": "420.21 KB"
   },
   {
     "filename": "./inkscape.desktop",
-    "size": "19.49 kB"
+    "size": "19.49 KB"
   },
   {
     "filename": "./inkscape.icon.png",
-    "size": "15.27 kB"
+    "size": "15.27 KB"
   },
   {
     "filename": "./inkscape.log",
-    "size": "249.3 kB"
+    "size": "249.3 KB"
   },
   {
     "filename": "./olive-editor.log",
-    "size": "2941 B"
+    "size": "2945 B"
   },
   {
     "filename": "./86box.AppImage",
@@ -97,11 +97,11 @@
   },
   {
     "filename": "./86box.AppImage.zsync",
-    "size": "185.48 kB"
+    "size": "185.48 KB"
   },
   {
     "filename": "./86box.DirIcon",
-    "size": "15.89 kB"
+    "size": "15.89 KB"
   },
   {
     "filename": "./86box.desktop",
@@ -109,11 +109,11 @@
   },
   {
     "filename": "./86box.icon.png",
-    "size": "15.89 kB"
+    "size": "15.89 KB"
   },
   {
     "filename": "./86box.log",
-    "size": "12.65 kB"
+    "size": "12.33 KB"
   },
   {
     "filename": "./affine.log",
@@ -121,7 +121,7 @@
   },
   {
     "filename": "./aisap.log",
-    "size": "28.32 kB"
+    "size": "28.8 KB"
   },
   {
     "filename": "./obs-studio.log",
@@ -137,19 +137,19 @@
   },
   {
     "filename": "./puddletag.log",
-    "size": "35.31 kB"
+    "size": "35.32 KB"
   },
   {
     "filename": "./qbittorrent.log",
-    "size": "2895 B"
+    "size": "2899 B"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "size": "4.21 MB"
+    "size": "4.22 MB"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "size": "4.24 MB"
+    "size": "4.26 MB"
   },
   {
     "filename": "./aisap.AppImage",
@@ -161,11 +161,11 @@
   },
   {
     "filename": "./aisap.AppImage.zsync",
-    "size": "7526 B"
+    "size": "7524 B"
   },
   {
     "filename": "./aisap.DirIcon",
-    "size": "86.49 kB"
+    "size": "86.49 KB"
   },
   {
     "filename": "./aisap.desktop",
@@ -173,11 +173,11 @@
   },
   {
     "filename": "./aisap.icon.png",
-    "size": "86.49 kB"
+    "size": "86.49 KB"
   },
   {
     "filename": "./android-tools.log",
-    "size": "9109 B"
+    "size": "55.01 KB"
   },
   {
     "filename": "./dunst.AppImage",
@@ -189,7 +189,7 @@
   },
   {
     "filename": "./dunst.AppImage.zsync",
-    "size": "42.15 kB"
+    "size": "42.15 KB"
   },
   {
     "filename": "./dunst.DirIcon",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./dunst.log",
-    "size": "213.08 kB"
+    "size": "212.52 KB"
   },
   {
     "filename": "./floorp.DirIcon",
@@ -221,7 +221,7 @@
   },
   {
     "filename": "./floorp.NixAppImage.zsync",
-    "size": "1.22 MB"
+    "size": "607.61 KB"
   },
   {
     "filename": "./floorp.desktop",
@@ -233,11 +233,11 @@
   },
   {
     "filename": "./floorp.log",
-    "size": "171.43 kB"
+    "size": "171.63 KB"
   },
   {
     "filename": "./persepolis.DirIcon",
-    "size": "10.83 kB"
+    "size": "10.83 KB"
   },
   {
     "filename": "./persepolis.NixAppImage",
@@ -249,7 +249,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage.zsync",
-    "size": "732.93 kB"
+    "size": "366.58 KB"
   },
   {
     "filename": "./persepolis.desktop",
@@ -257,10 +257,62 @@
   },
   {
     "filename": "./persepolis.icon.png",
-    "size": "10.83 kB"
+    "size": "10.83 KB"
   },
   {
     "filename": "./persepolis.log",
-    "size": "44.96 kB"
+    "size": "44.97 KB"
+  },
+  {
+    "filename": "./android-tools.AppImage",
+    "size": "11.06 MB"
+  },
+  {
+    "filename": "./android-tools.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./android-tools.AppImage.zsync",
+    "size": "38.04 KB"
+  },
+  {
+    "filename": "./android-tools.DirIcon",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./android-tools.desktop",
+    "size": "186 B"
+  },
+  {
+    "filename": "./android-tools.icon.png",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage",
+    "size": "24.25 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.version",
+    "size": "10 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.zsync",
+    "size": "83.09 KB"
+  },
+  {
+    "filename": "./ryujinx.DirIcon",
+    "size": "7779 B"
+  },
+  {
+    "filename": "./ryujinx.desktop",
+    "size": "402 B"
+  },
+  {
+    "filename": "./ryujinx.icon.png",
+    "size": "7779 B"
+  },
+  {
+    "filename": "./ryujinx.log",
+    "size": "12.39 KB"
   }
 ]

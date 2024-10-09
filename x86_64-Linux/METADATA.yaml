@@ -5,9 +5,9 @@
   version: v4.2.1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.AppImage
   size: 57.98 MB
-  bsum: afcb415f2aa1e784f3e358a460889af67d4cc3d42298446bee78da786321b5d5
-  shasum: e18421f23af4229a221d7baa9da7ffe9a08b84dbebf53a001db20aa8bb28b17a
-  build_date: 2024-10-01T09:40:30
+  bsum: c74e70db214ef513427fd410a0bd5515f465582009bc68b478c550620f37c999
+  shasum: dc7a4657bcd0a711f853a3fa23e0c398e861cfbe41238079e037cb6e275bc086
+  build_date: 2024-10-09T14:01:42
   src_url: https://github.com/86Box/86Box
   web_url: https://86box.readthedocs.io
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
@@ -21,9 +21,9 @@
   version: v1.20.1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/acreom.AppImage
   size: 139.07 MB
-  bsum: 09004cf4bd96d986ce4bbce2ae0372d2b41ff544e7665144762b61a1468e4520
-  shasum: dc3353dc9babbd356fc59efe4ca2f82ddcc9a8681647f728637de4225caddd52
-  build_date: 2024-10-01T09:40:16
+  bsum: bf30d35cddba5e409f11b1a13ced5152e27d28bde8edd29c8efc4faf163ee2c6
+  shasum: 0cb2d7541d0bd788e50e386fecbe2911a77e9a1e513f89100742de7e62d37d6d
+  build_date: 2024-10-09T14:02:06
   src_url: https://github.com/Acreom/releases
   web_url: https://acreom.com
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.sh
@@ -34,12 +34,12 @@
   bin_name: actual
   description: A local-first personal finance app (AppImage)
   note: '(CI_VERIFIED: https://github.com/actualbudget/actual/actions)'
-  version: v24.9.0
+  version: v24.10.1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/actual.AppImage
-  size: 101.05 MB
-  bsum: d355ac735293b597614d6b529b4c0c35cc58892375b153b8f48f36a30a0310c5
-  shasum: 462676ef25ac0296ccc4d364b48aaee9280bcca37f5458bc68884f95401e2ead
-  build_date: 2024-10-01T09:40:23
+  size: 93.52 MB
+  bsum: c2bc18ab656013adf2ebc255a70f0cae9fd795303e00ff4a87138aea0fab99e4
+  shasum: 65d6f275e6ba8b7016a0125775f268b6023336abffa3f5f5cb86a038f0be033d
+  build_date: 2024-10-09T14:02:21
   src_url: https://github.com/actualbudget/actual
   web_url: https://actualbudget.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.sh
@@ -50,12 +50,12 @@
   bin_name: advanced-passgen
   description: Advanced Password Generator (AppImage)
   note: '(CI_VERIFIED: https://github.com/CodeDead/Advanced-PassGen/actions)'
-  version: v2.5.1
+  version: v2.5.2
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/advanced-passgen.AppImage
-  size: 100.69 MB
-  bsum: d3bf3d5992e84876c76391fc1175e2b43c7ef209959b4f2cbaec626742b0cb3f
-  shasum: f3d7afb9931a22e3163ebc416cf7b151bd039102c99a3f82ad5478ace12b297a
-  build_date: 2024-10-01T09:40:25
+  size: 101.12 MB
+  bsum: 897d41eb5b4b8dbcef3bc8671f4bae9371c3c50b6a4afc0907e50483d77f37cb
+  shasum: 1f0e8ca2a37c539157fdc89437ea76804626c8b0928316bb1718149104c184e6
+  build_date: 2024-10-09T14:02:37
   src_url: https://github.com/CodeDead/Advanced-PassGen
   web_url: https://advancedpassgen.codedead.com
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.sh
@@ -69,9 +69,9 @@
   version: v0.17.2
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/affine.AppImage
   size: 157.87 MB
-  bsum: fb5c1f0edfd316ff42b693d82a498520f0e3db50c95db54ef548b9c2d41db814
-  shasum: cca2d1d145d26d2838f7bfe033284d3c7c587ef1cb168a3de60cc8caebb2ceba
-  build_date: 2024-10-01T09:40:17
+  bsum: 34a4d8cb82a6bcfc9e9cdaeac3122d3ba76ecf154ed8dc76cbed605caa817a17
+  shasum: aef2f94c5a8ff4890761ff14f6a653f977fc27d78b7004ea0f21d49d524ceb2b
+  build_date: 2024-10-09T14:02:58
   src_url: https://github.com/toeverything/AFFiNE
   web_url: https://affine.pro
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.sh
@@ -81,13 +81,13 @@
 - name: aisap.AppImage
   bin_name: aisap
   description: Tool to make sandboxing AppImages easy (AppImage | shImg)
-  note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
-  version: continuous
+  note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
+  version: v0.10.2-alpha
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.AppImage
-  size: 2.71 MB
-  bsum: 86dd247ef59a8c6cccbf6a5f993bcf89b788bc0c02d1836fe46b943a223abfb5
-  shasum: 72fa582902fb6228be2909c85ceadef309cc0b9fc2df9a703133b0a8cad19f15
-  build_date: 2024-10-01T09:40:33
+  size: 2.66 MB
+  bsum: 4c1e3b1aac577cd4d718c076d54ee425a914af9856eb26ddf726c5f6b4493b22
+  shasum: ec28ff4bc413efd2326c30b0a48b41c2f50295e29bdb0a9fc9f668cdd0e656d0
+  build_date: 2024-10-09T14:11:09
   src_url: https://github.com/mgord9518/aisap
   web_url: https://github.com/mgord9518/aisap
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
@@ -97,19 +97,99 @@
 - name: aisap.shimg
   bin_name: aisap
   description: Tool to make sandboxing AppImages easy (AppImage | shImg)
-  note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
+  note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
   version: latest
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.shimg
   size: 5.44 MB
   bsum: 4264397461b74736dcefccbb326286dde41b24135a7e9fa949c6fa25a297aa1d
   shasum: f2460f95a37b59dbf6feda0f0cb4d5b22f650f67384b9bb401ede929047ff94f
-  build_date: 2024-10-01T09:40:32
+  build_date: 2024-10-09T14:33:12
   src_url: https://github.com/mgord9518/aisap
   web_url: https://github.com/mgord9518/aisap
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.log
   category: cli,sandbox
   extra_bins: aisap.AppImage
+- name: android-tools.AppImage
+  bin_name: android-tools
+  description: Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot (AppImage)
+  note: This PKG was built from Source using go-appimagetool
+  version: 35.0.2
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.AppImage
+  size: 7.21 MB
+  bsum: c5c8b88ddc52c662b343e0bee3b7fa605311fde18b529cffff6c75b27b4bf36e
+  shasum: d362d355c305183333d941c2d066717c24841f0654bf7c382b301422d52a7b27
+  build_date: 2024-10-09T14:17:11
+  src_url: https://android.googlesource.com/platform/tools/base
+  web_url: https://developer.android.com/tools/releases/platform-tools
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/android-tools.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.log
+  category: android,utility
+  extra_bins: ""
+- name: deadbeef-nightly.AppImage
+  bin_name: deadbeef
+  description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
+  note: 'This PKG was built from Portable Nightly Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
+  version: "2024_09_07"
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-nightly.AppImage
+  size: 8.15 MB
+  bsum: ef1988620ded51f6b082b901b38f28492fc12d4ca5d16b8525db29e5f7c0a10e
+  shasum: 4bd5e8e112c89dfc13937eada5068844f8dde9ba583954dd596b4c601308cd17
+  build_date: 2024-10-09T14:17:22
+  src_url: https://github.com/DeaDBeeF-Player/deadbeef
+  web_url: https://deadbeef.sourceforge.io
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-nightly.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-nightly.log
+  category: multimedia,music,music-player
+  extra_bins: ""
+- name: deadbeef-stable.AppImage
+  bin_name: deadbeef
+  description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
+  note: 'This PKG was built from Portable Stable Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
+  version: 1.9.6
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-stable.AppImage
+  size: 8.15 MB
+  bsum: 8041335d1718329558064ca3f8284eb375952611225f124ce66d2a00cf4ff7ce
+  shasum: 3bad03b2b91eef2f5949ad3ddf0e6a21981813aea05254c8e3e8d71a9878ba7b
+  build_date: 2024-10-09T14:17:30
+  src_url: https://github.com/DeaDBeeF-Player/deadbeef
+  web_url: https://deadbeef.sourceforge.io
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-stable.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-stable.log
+  category: multimedia,music,music-player
+  extra_bins: ""
+- name: dunst.AppImage
+  bin_name: dunst
+  description: Lightweight and customizable notification daemon (AppImage)
+  note: This PKG was built from Source using go-appimagetool
+  version: 1.11.0
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/dunst.AppImage
+  size: 12.92 MB
+  bsum: 8bd33c61dbca2f02554f09a155bf74e6a5d5282a4ab9127deb952dfb629234be
+  shasum: cb1104c0f8def84b921d40c557845271866221f0f2a9fc27bbab67d7acf3d8b3
+  build_date: 2024-10-09T14:19:14
+  src_url: https://github.com/dunst-project/dunst
+  web_url: https://dunst-project.org
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/dunst.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/dunst.log
+  category: daemon,notification
+  extra_bins: ""
+- name: floorp.NixAppImage
+  bin_name: floorp
+  description: A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
+  note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)'
+  version: 11.18.1
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/floorp.NixAppImage
+  size: 366.35 MB
+  bsum: 58aa58539be247b137a5838899f9036f8a9c67ec5ac21bbc4b09e893a6738b00
+  shasum: 0fe86c240a22dedbaf5b9d510afc0fec1b3deabfe36d6a521c17bcdde2bc673d
+  build_date: 2024-10-09T14:20:57
+  src_url: https://github.com/Floorp-Projects/Floorp
+  web_url: https://floorp.app
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/floorp.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/floorp.log
+  category: browser,firefox-fork
+  extra_bins: floorp.AppImage
 - name: i3.AppImage
   bin_name: i3
   description: A Tiling Window Manager (AppImage|NixAppImage)
@@ -117,9 +197,9 @@
   version: "4.23"
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.AppImage
   size: 3.6 MB
-  bsum: c74fd4ca1741b6c42983f39a4a90210996caa6eff0cbb2405d49dee6a84fbbec
-  shasum: dfd0ec5c407cd86d293695083420ef0644828d943ba591393cdace22e95588ba
-  build_date: 2024-10-01T09:40:32
+  bsum: 4a6f15cfa677b4c3d4484861ab188596e312611881717a83ccfb1e9064dcae14
+  shasum: f655e78162513250b771fbc1be7156f34a7668bbf8ce897e290843b042eba664
+  build_date: 2024-10-09T14:21:03
   src_url: https://github.com/i3/i3
   web_url: https://i3wm.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
@@ -133,9 +213,9 @@
   version: "4.23"
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.NixAppImage
   size: 40.21 MB
-  bsum: e4eaea1daeea655fdd84179aced4f63665281fa3f707afc57c1973c7f42ff8ed
-  shasum: 704b1f7c1e0cca9d3a4b284b6365be3fff7786cf51cdf4a2784bb3a90d113dc1
-  build_date: 2024-10-01T09:40:32
+  bsum: 4a6d36403eab8f39f3d3e929a5498b30ed1f4c18eaecfe21c1db7ae0af91b3b7
+  shasum: dc37052ec49c1da07764be6aa536591f931b571ea8d55497791c4e9662f02b2e
+  build_date: 2024-10-09T14:21:22
   src_url: https://github.com/i3/i3
   web_url: https://i3wm.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
@@ -151,7 +231,7 @@
   size: 96.33 MB
   bsum: b039b83a31c080d27a893f486bc3748a02b160f13f1a80a45852c800a78c9618
   shasum: 999027bf1af436cf807eefe1250a95b4358798d9ecfbf08e4bec9dbe186e88cc
-  build_date: 2024-10-01T09:40:33
+  build_date: 2024-10-09T14:33:15
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
@@ -162,12 +242,12 @@
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
-  version: 54f25b8-dev
+  version: 67344e5-dev
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape-dev.AppImage
-  size: 100.17 MB
-  bsum: a02d0020beda091511acdb6e34129906c0e5336b6c74defb63c4a30d07a66885
-  shasum: 60596728aaa10530bbd25d621e6b7a05019cfabce75983cc16477bf0a98c4ab5
-  build_date: 2024-10-01T09:40:26
+  size: 100.25 MB
+  bsum: 8d307dc6892bae792294e21987016d98f98e9b8b67eb7a3c6bf8af920a401f18
+  shasum: acbb37d3930e5b7693ff3f2e5621d5a6e9cf62013d5efa1ecc9a4505dc344bc7
+  build_date: 2024-10-09T14:21:44
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
@@ -180,10 +260,10 @@
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
   version: 1.3.2
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.NixAppImage
-  size: 254.05 MB
-  bsum: 7e6012a9a51e5a823896740e6df9a9b36e038ef6f277f21453944ee535c90595
-  shasum: 9fae3fd8fb39b736f5989a25c9fdcffa5b609a1305a4d6a0932290e8ba95410e
-  build_date: 2024-10-01T09:40:24
+  size: 253.96 MB
+  bsum: 7b2b8f1c08aeb182095f6402a0be3a7780d2925fd69869c68ff4e0978e4fbbb1
+  shasum: f4ef8374ee896dcddd83a4ae13e9eb8db8d185c258e31bb76e67d238ef6702c2
+  build_date: 2024-10-09T14:23:29
   src_url: https://gitlab.com/inkscape/inkscape
   web_url: https://inkscape.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
@@ -194,12 +274,12 @@
   bin_name: librewolf
   description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
-  version: v130.0.1-1
+  version: v131.0-1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.AppImage
-  size: 93.67 MB
-  bsum: 24687ed6994d021bd7e4f9ffcede77c357de1fa000b719561af1b85dc250b37d
-  shasum: b99a68ebc8360527ab113df665056d5efdc8b8c01af051ed00cf96e62aa3f9cc
-  build_date: 2024-10-01T09:40:29
+  size: 93.93 MB
+  bsum: 9cc6476db8cdd33d076ce5e2179a59363e1c11d9084d33c40b124f99b190ab75
+  shasum: 53e22d25a590f69214737a61c3a771ca0c271862b439ab72e24b89e8b2c469e4
+  build_date: 2024-10-09T14:23:48
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -212,10 +292,10 @@
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
   version: 130.0-3
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.NixAppImage
-  size: 344.45 MB
-  bsum: 54d9c96167cf4c424f5d28cd9c2a65f2d64828cfaeaa3888be47fb1118a7d594
-  shasum: a470e2cae59628aaa9265ffc03eae0f20b0470e20bfcb2635ad6c18d2d42b28e
-  build_date: 2024-10-01T09:40:29
+  size: 344.58 MB
+  bsum: 31eaf890cce1a968f5e34702ef77213a7be405ffb5025fb75c8a33c42b073f07
+  shasum: 0520d1a81c8b3f192fc5960496feb6b59fe1c023adf3736c68bfbf4ed252ac57
+  build_date: 2024-10-09T14:25:26
   src_url: https://gitlab.com/librewolf-community/browser
   web_url: https://librewolf.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
@@ -226,12 +306,12 @@
   bin_name: mullvad-browser
   description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
-  version: 13.5.3
+  version: 13.5.6
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/mullvad-browser.NixAppImage
-  size: 364 MB
-  bsum: c7a870feb946974b68a3d2250a0e562d655f3884a1974a96abb9b0b4c4b0c23b
-  shasum: 7ceb41e452aa7828d6ababe493764f6c48fab1dec4bed4b124b0dd92d12a11d9
-  build_date: 2024-10-01T09:40:32
+  size: 364.04 MB
+  bsum: 47cefb60b63e03d8390322d4c15881636198f375dcfdf37bd727c5369499c14f
+  shasum: 02713ca4c08b514a6cfa01f4bf2cfc5f26d34132e956d8f7c9bc3ae093e0e766
+  build_date: 2024-10-09T14:27:11
   src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
   web_url: https://mullvad.net/en/browser
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
@@ -242,12 +322,12 @@
   bin_name: mullvad-browser
   description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
-  version: 14.0a6
+  version: 13.5.6
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/mullvad-browser.tar.xz
-  size: 108.78 MB
-  bsum: 6038bb7cb0e1262ac576e5ce03b4976795ff518bfd067cbbb048933539a9dc74
-  shasum: 9c3d05eea103426ca850d2fe251e03f9fbbf23006bb1d2058772f0e00430f04a
-  build_date: 2024-10-01T09:40:22
+  size: 103.44 MB
+  bsum: ba7625379e99fb76abff48994196cb0325821edde8afd99f6ba971fc92e69fd8
+  shasum: 01ac865857ec7402bd2aee09e270e8949c67427d078467997847ffffd3aca560
+  build_date: 2024-10-09T14:25:31
   src_url: https://gitlab.torproject.org/tpo/applications/mullvad-browser/
   web_url: https://mullvad.net/en/browser
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
@@ -260,10 +340,10 @@
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/obsproject/obs-studio/actions)'
   version: 30.2.1
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/obs-studio.AppImage
-  size: 184.93 MB
-  bsum: 657dd62b13b67e6791372673d63332adcbbb2a0fb99407af9aae1bcaae2b4c69
-  shasum: 9c1bc0d285d3dc0e4ab362c16f3a21020241ae03c3d30bdd54b33356f42da85f
-  build_date: 2024-10-01T09:40:18
+  size: 178.81 MB
+  bsum: 189e09809e199d8fdf112eb1cc2d164898277adcf7dc835482c409d67dc08b3a
+  shasum: 35f399a854d65146035b4a57b5dd2b9e3d7bb457f8b5a5a89fe74370fc751f73
+  build_date: 2024-10-09T14:27:46
   src_url: https://github.com/obsproject/obs-studio
   web_url: https://obsproject.com
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.sh
@@ -277,15 +357,31 @@
   version: "2024-08-24T22:35:10Z"
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/olive-editor.AppImage
   size: 120.54 MB
-  bsum: bd03317672d40c39cd8a4f35449ac34735ca13caaba252ccfa102a102a108d67
-  shasum: d0be4f44829988f379fefe528db45525ca100498b9108dd10f971cbcb52dc2e9
-  build_date: 2024-10-01T09:40:15
+  bsum: 31946c732fcdd9d4713e9b96d25da2e2999a6f792f986f3ed3723f178c799cec
+  shasum: e75af6098b238238d85f4c7223bd874686c44c1c73d58bfb6911cf7fdf7c4843
+  build_date: 2024-10-09T14:28:21
   src_url: https://github.com/olive-editor/olive
   web_url: https://www.olivevideoeditor.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/olive-editor.log
   category: multimedia,video,video-editor
   extra_bins: olive-editor.NixAppImage
+- name: persepolis.NixAppImage
+  bin_name: persepolis
+  description: A Download Manager (GUI for aria2) written in Python (AppImage|NixAppImage)
+  note: '(CI_VERIFIED: NONE)'
+  version: 4.0.1
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/persepolis.NixAppImage
+  size: 222.3 MB
+  bsum: 63f47f0be74dc3365b7c0555d987a54a707b1e1b5dfc7664a28559eef52c0f18
+  shasum: bd587a1f5dab3ee866b49fc30b91400e3e59e25a41e1970378f57d378712df33
+  build_date: 2024-10-09T14:29:31
+  src_url: https://github.com/persepolisdm/persepolis
+  web_url: https://persepolisdm.github.io
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/persepolis.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/persepolis.log
+  category: downloader,multimedia
+  extra_bins: ""
 - name: puddletag.NixAppImage
   bin_name: puddletag
   description: Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)
@@ -293,9 +389,9 @@
   version: 2.3.0
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.NixAppImage
   size: 210.37 MB
-  bsum: 6644f004e2b2d1e6c42b522ed620a264740aa8e618e8341b624c78ce7687a28e
-  shasum: 51720b6603d8d5048bc7bb33aafd115b61c7ea877c12dad71cf0acee0a490650
-  build_date: 2024-10-01T09:36:23
+  bsum: 9c8a853aedc387817efabfab22cea63be56a65e0fecc2029a3a605c2b760c236
+  shasum: 399f8909c9a37aa0276d1238d299ea67ab366dfe1ce7f3d81c4b14ef37553de1
+  build_date: 2024-10-09T14:30:37
   src_url: https://github.com/puddletag/puddletag
   web_url: https://docs.puddletag.net
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh
@@ -311,7 +407,7 @@
   size: 24.91 MB
   bsum: 5a07396972a9366ebaeab5b7d670c3149b9eb407767d3bed135acdfdeff257c8
   shasum: 656b2b7a8b274229d4943fe33ebcf9f5a2df31016611ad53ae993fb8bd9c5a45
-  build_date: 2024-10-01T09:40:33
+  build_date: 2024-10-09T14:33:12
   src_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
   web_url: https://github.com/c0re100/qBittorrent-Enhanced-Edition
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.sh
@@ -322,15 +418,47 @@
   bin_name: qbittorrent
   description: A qBittorrent for with Enhanced Features (AppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
-  version: 4.6.7
+  version: 5.0.0
   download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.AppImage
-  size: 90.81 MB
-  bsum: ffa43cd54ee073c0657a9647174dd6f2568e72d4285c37c1efc0c15db46bd3a6
-  shasum: d5fdcc1bd67bc39016f596d1528514f01521ca8ca05966e1c305cea75c659850
-  build_date: 2024-10-01T09:40:30
+  size: 84.37 MB
+  bsum: aa6a9f6d0960fde933c041b1d217801e9408e4d8b470e047c8a784e5397f43d6
+  shasum: 0d76cd2943899ce651c05fc211124095edfd7796578020a544a7681698d2715f
+  build_date: 2024-10-09T14:31:51
   src_url: https://github.com/qbittorrent/qBittorrent
   web_url: https://www.qbittorrent.org
   build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
   build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.log
   category: downloader,torrent
   extra_bins: qbittorrent.NixAppImage
+- name: qbittorrent.NixAppImage
+  bin_name: qbittorrent
+  description: A qBittorrent for with Enhanced Features (AppImage)
+  note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
+  version: 5.0.0
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.NixAppImage
+  size: 171.25 MB
+  bsum: dd1bc3f373e67e0082a27f2276c62835d0ea7fdfc3e614d212b404b8fa17554b
+  shasum: 365d470816ccf3657e211ba828cfa723280eb7064239594353da43bb353e7fa2
+  build_date: 2024-10-09T14:32:49
+  src_url: https://github.com/qbittorrent/qBittorrent
+  web_url: https://www.qbittorrent.org
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.log
+  category: downloader,torrent
+  extra_bins: qbittorrent.AppImage
+- name: ryujinx.AppImage
+  bin_name: ryujinx
+  description: A simple, experimental Nintendo Switch emulator
+  note: '(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)'
+  version: r.b4cac89
+  download_url: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.AppImage
+  size: 25.24 MB
+  bsum: 14209892b072f41cb41644a88c364be454ced3206a6443a85dd1e9f2dbcfc7cc
+  shasum: 07cdeeb754eaa88fea83b4af9b681f0d442886948af27c2ac8b2913a90363a66
+  build_date: 2024-10-09T14:32:56
+  src_url: https://github.com/ryujinx-mirror/ryujinx
+  web_url: https://github.com/ryujinx-mirror/ryujinx
+  build_script: https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.sh
+  build_log: https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.log
+  category: emulator
+  extra_bins: ""
