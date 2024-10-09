@@ -55,20 +55,13 @@
 > >
 > > ↣ $(.base | .bin)
 > >
-> >  #Binaries that have a Github URL set as .src_url, you can get a neofetch style img
-> > -> NeoFetch Style GH Fetch IMG 
-> > "$(.download_url).ghfetch.png" #Example: https://bin.ajam.dev/x86_64/curl.ghfetch.png
-> > 
-> > #Binaries that have a Github URL set as .src_url, you can get a neofetch style ascii txt
-> > -> NeoFetch Style GH Fetch TXT
-> > "$(.download_url).ghfetch.ascii" #Example: https://bin.ajam.dev/x86_64/curl.ghfetch
-> >
 > > #Binaries that have a Github URL set as .src_url, you can get a preview/thumnail PNG file 
 > > -> Github Images/Previews 
-> > "$(.download_url).preview.png" #Example: https://bin.ajam.dev/x86_64/curl.preview.png
+> > "$(.name).preview.png" #Example: https://bin.ajam.dev/x86_64/curl.preview.png
 > >
 > > #Binaries that have a tldr page entry: https://tldr.sh/
-> >  "$(.bin.name).tldr.ascii" #Example: https://bin.ajam.dev/x86_64/curl.tldr.ascii
+> > -> TLDR Pages (!WARN: May not be Accurate)
+> >  "$(.name).tldr.md" #Example: https://bin.ajam.dev/x86_64/curl.tldr.md
 > > ```
 > >
 > > ```bash
