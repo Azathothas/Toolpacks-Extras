@@ -1,19 +1,19 @@
 [
   {
     "filename": ".",
-    "size": "4096 B"
+    "size": "12.29 KB"
   },
   {
     "filename": "./librewolf.AppImage",
-    "size": "93.67 MB"
+    "size": "93.93 MB"
   },
   {
     "filename": "./librewolf.AppImage.version",
-    "size": "11 B"
+    "size": "9 B"
   },
   {
     "filename": "./librewolf.AppImage.zsync",
-    "size": "320.38 kB"
+    "size": "321.28 KB"
   },
   {
     "filename": "./librewolf.DirIcon",
@@ -21,7 +21,7 @@
   },
   {
     "filename": "./librewolf.NixAppImage",
-    "size": "344.45 MB"
+    "size": "344.58 MB"
   },
   {
     "filename": "./librewolf.NixAppImage.version",
@@ -29,7 +29,7 @@
   },
   {
     "filename": "./librewolf.NixAppImage.zsync",
-    "size": "1.18 MB"
+    "size": "589.1 KB"
   },
   {
     "filename": "./librewolf.desktop",
@@ -41,15 +41,15 @@
   },
   {
     "filename": "./librewolf.log",
-    "size": "79.28 kB"
+    "size": "76.13 KB"
   },
   {
     "filename": "./mullvad-browser.DirIcon",
-    "size": "10.85 kB"
+    "size": "10.85 KB"
   },
   {
     "filename": "./mullvad-browser.NixAppImage",
-    "size": "364 MB"
+    "size": "364.04 MB"
   },
   {
     "filename": "./mullvad-browser.NixAppImage.version",
@@ -57,7 +57,7 @@
   },
   {
     "filename": "./mullvad-browser.NixAppImage.zsync",
-    "size": "1.24 MB"
+    "size": "622.38 KB"
   },
   {
     "filename": "./mullvad-browser.desktop",
@@ -65,11 +65,11 @@
   },
   {
     "filename": "./mullvad-browser.icon.png",
-    "size": "10.85 kB"
+    "size": "10.85 KB"
   },
   {
     "filename": "./mullvad-browser.log",
-    "size": "65.29 kB"
+    "size": "65.33 KB"
   },
   {
     "filename": "./mullvad-browser.tar.xz.version",
@@ -77,7 +77,7 @@
   },
   {
     "filename": "./mullvad-browser.tar.xz",
-    "size": "108.78 MB"
+    "size": "103.44 MB"
   },
   {
     "filename": "./mullvad-browser.AppImage",
@@ -101,15 +101,15 @@
   },
   {
     "filename": "./inkscape.AppImage.zsync",
-    "size": "329.48 kB"
+    "size": "329.48 KB"
   },
   {
     "filename": "./inkscape.DirIcon",
-    "size": "15.27 kB"
+    "size": "15.27 KB"
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "size": "254.05 MB"
+    "size": "253.96 MB"
   },
   {
     "filename": "./inkscape.NixAppImage.version",
@@ -117,23 +117,23 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "868.54 kB"
+    "size": "434.23 KB"
   },
   {
     "filename": "./inkscape.desktop",
-    "size": "19.49 kB"
+    "size": "19.49 KB"
   },
   {
     "filename": "./inkscape.icon.png",
-    "size": "15.27 kB"
+    "size": "15.27 KB"
   },
   {
     "filename": "./inkscape.log",
-    "size": "264.34 kB"
+    "size": "263.08 KB"
   },
   {
     "filename": "./olive-editor.log",
-    "size": "12.92 kB"
+    "size": "12.94 KB"
   },
   {
     "filename": "./86box.AppImage",
@@ -145,11 +145,11 @@
   },
   {
     "filename": "./86box.AppImage.zsync",
-    "size": "198.36 kB"
+    "size": "198.36 KB"
   },
   {
     "filename": "./86box.DirIcon",
-    "size": "15.89 kB"
+    "size": "15.89 KB"
   },
   {
     "filename": "./86box.desktop",
@@ -157,11 +157,11 @@
   },
   {
     "filename": "./86box.icon.png",
-    "size": "15.89 kB"
+    "size": "15.89 KB"
   },
   {
     "filename": "./86box.log",
-    "size": "12.07 kB"
+    "size": "12.44 KB"
   },
   {
     "filename": "./acreom.AppImage",
@@ -173,11 +173,11 @@
   },
   {
     "filename": "./acreom.AppImage.zsync",
-    "size": "475.54 kB"
+    "size": "237.87 KB"
   },
   {
     "filename": "./acreom.DirIcon",
-    "size": "13.15 kB"
+    "size": "13.15 KB"
   },
   {
     "filename": "./acreom.desktop",
@@ -185,43 +185,43 @@
   },
   {
     "filename": "./acreom.icon.png",
-    "size": "13.15 kB"
+    "size": "13.15 KB"
   },
   {
     "filename": "./acreom.log",
-    "size": "14.25 kB"
+    "size": "15.23 KB"
   },
   {
     "filename": "./actual.AppImage",
-    "size": "101.05 MB"
+    "size": "93.52 MB"
   },
   {
     "filename": "./actual.AppImage.version",
-    "size": "8 B"
+    "size": "9 B"
   },
   {
     "filename": "./actual.AppImage.zsync",
-    "size": "345.6 kB"
+    "size": "319.84 KB"
   },
   {
     "filename": "./actual.DirIcon",
-    "size": "16.69 kB"
+    "size": "16.69 KB"
   },
   {
     "filename": "./actual.desktop",
-    "size": "229 B"
+    "size": "230 B"
   },
   {
     "filename": "./actual.icon.png",
-    "size": "16.69 kB"
+    "size": "16.69 KB"
   },
   {
     "filename": "./actual.log",
-    "size": "13.99 kB"
+    "size": "14.32 KB"
   },
   {
     "filename": "./advanced-passgen.AppImage",
-    "size": "100.69 MB"
+    "size": "101.12 MB"
   },
   {
     "filename": "./advanced-passgen.AppImage.version",
@@ -229,7 +229,7 @@
   },
   {
     "filename": "./advanced-passgen.AppImage.zsync",
-    "size": "344.38 kB"
+    "size": "173.05 KB"
   },
   {
     "filename": "./advanced-passgen.DirIcon",
@@ -237,7 +237,7 @@
   },
   {
     "filename": "./advanced-passgen.desktop",
-    "size": "198 B"
+    "size": "171 B"
   },
   {
     "filename": "./advanced-passgen.icon.png",
@@ -245,7 +245,7 @@
   },
   {
     "filename": "./advanced-passgen.log",
-    "size": "13.49 kB"
+    "size": "14.13 KB"
   },
   {
     "filename": "./affine.AppImage",
@@ -257,11 +257,11 @@
   },
   {
     "filename": "./affine.AppImage.zsync",
-    "size": "539.8 kB"
+    "size": "270 KB"
   },
   {
     "filename": "./affine.DirIcon",
-    "size": "15.95 kB"
+    "size": "15.95 KB"
   },
   {
     "filename": "./affine.NixAppImage.version",
@@ -273,23 +273,23 @@
   },
   {
     "filename": "./affine.icon.png",
-    "size": "15.95 kB"
+    "size": "15.95 KB"
   },
   {
     "filename": "./affine.log",
-    "size": "185.3 kB"
+    "size": "186.65 KB"
   },
   {
     "filename": "./aisap.AppImage",
-    "size": "2.71 MB"
+    "size": "2.66 MB"
   },
   {
     "filename": "./aisap.AppImage.version",
-    "size": "11 B"
+    "size": "14 B"
   },
   {
     "filename": "./aisap.log",
-    "size": "5065 B"
+    "size": "29.79 KB"
   },
   {
     "filename": "./aisap.shimg",
@@ -305,7 +305,7 @@
   },
   {
     "filename": "./i3.AppImage.zsync",
-    "size": "10.76 kB"
+    "size": "10.76 KB"
   },
   {
     "filename": "./i3.DirIcon",
@@ -321,7 +321,7 @@
   },
   {
     "filename": "./i3.NixAppImage.zsync",
-    "size": "137.63 kB"
+    "size": "137.63 KB"
   },
   {
     "filename": "./i3.desktop",
@@ -333,19 +333,19 @@
   },
   {
     "filename": "./i3.log",
-    "size": "40.75 kB"
+    "size": "37.7 KB"
   },
   {
     "filename": "./inkscape-dev.AppImage",
-    "size": "100.17 MB"
+    "size": "100.25 MB"
   },
   {
     "filename": "./inkscape-dev.AppImage.zsync",
-    "size": "342.59 kB"
+    "size": "171.54 KB"
   },
   {
     "filename": "./obs-studio.AppImage",
-    "size": "184.93 MB"
+    "size": "178.81 MB"
   },
   {
     "filename": "./obs-studio.AppImage.version",
@@ -353,11 +353,11 @@
   },
   {
     "filename": "./obs-studio.AppImage.zsync",
-    "size": "632.32 kB"
+    "size": "305.8 KB"
   },
   {
     "filename": "./obs-studio.DirIcon",
-    "size": "130.09 kB"
+    "size": "130.09 KB"
   },
   {
     "filename": "./obs-studio.desktop",
@@ -365,11 +365,11 @@
   },
   {
     "filename": "./obs-studio.icon.png",
-    "size": "130.09 kB"
+    "size": "130.09 KB"
   },
   {
     "filename": "./obs-studio.log",
-    "size": "14.03 kB"
+    "size": "20.98 KB"
   },
   {
     "filename": "./olive-editor.AppImage",
@@ -381,11 +381,11 @@
   },
   {
     "filename": "./olive-editor.AppImage.zsync",
-    "size": "412.21 kB"
+    "size": "206.22 KB"
   },
   {
     "filename": "./olive-editor.DirIcon",
-    "size": "19.25 kB"
+    "size": "19.25 KB"
   },
   {
     "filename": "./olive-editor.desktop",
@@ -393,7 +393,7 @@
   },
   {
     "filename": "./olive-editor.icon.png",
-    "size": "19.25 kB"
+    "size": "19.25 KB"
   },
   {
     "filename": "./puddletag.NixAppImage.version",
@@ -405,7 +405,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "size": "31.27 kB"
+    "size": "37.72 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.AppImage",
@@ -417,27 +417,27 @@
   },
   {
     "filename": "./qbittorrent-enhanced.AppImage.zsync",
-    "size": "85.37 kB"
+    "size": "85.37 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.DirIcon",
-    "size": "14.68 kB"
+    "size": "14.68 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.desktop",
-    "size": "10.51 kB"
+    "size": "10.51 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.icon.png",
-    "size": "14.68 kB"
+    "size": "14.68 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.log",
-    "size": "13.31 kB"
+    "size": "14.35 KB"
   },
   {
     "filename": "./qbittorrent.AppImage",
-    "size": "90.81 MB"
+    "size": "84.37 MB"
   },
   {
     "filename": "./qbittorrent.AppImage.version",
@@ -445,27 +445,27 @@
   },
   {
     "filename": "./qbittorrent.AppImage.zsync",
-    "size": "310.6 kB"
+    "size": "288.59 KB"
   },
   {
     "filename": "./qbittorrent.DirIcon",
-    "size": "14.68 kB"
+    "size": "10.8 KB"
   },
   {
     "filename": "./qbittorrent.desktop",
-    "size": "10.51 kB"
+    "size": "10.51 KB"
   },
   {
     "filename": "./qbittorrent.icon.png",
-    "size": "14.68 kB"
+    "size": "10.8 KB"
   },
   {
     "filename": "./qbittorrent.log",
-    "size": "15.35 kB"
+    "size": "55.52 KB"
   },
   {
     "filename": "./puddletag.DirIcon",
-    "size": "18.08 kB"
+    "size": "18.08 KB"
   },
   {
     "filename": "./puddletag.NixAppImage",
@@ -473,10 +473,242 @@
   },
   {
     "filename": "./puddletag.NixAppImage.zsync",
-    "size": "359.74 kB"
+    "size": "359.74 KB"
   },
   {
     "filename": "./puddletag.icon.png",
-    "size": "18.08 kB"
+    "size": "18.08 KB"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "size": "4.3 MB"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "size": "4.33 MB"
+  },
+  {
+    "filename": "./aisap.AppImage.zsync",
+    "size": "8004 B"
+  },
+  {
+    "filename": "./aisap.DirIcon",
+    "size": "86.49 KB"
+  },
+  {
+    "filename": "./aisap.desktop",
+    "size": "280 B"
+  },
+  {
+    "filename": "./aisap.icon.png",
+    "size": "86.49 KB"
+  },
+  {
+    "filename": "./android-tools.AppImage",
+    "size": "7.21 MB"
+  },
+  {
+    "filename": "./android-tools.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./android-tools.AppImage.zsync",
+    "size": "21.34 KB"
+  },
+  {
+    "filename": "./android-tools.DirIcon",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./android-tools.desktop",
+    "size": "195 B"
+  },
+  {
+    "filename": "./android-tools.icon.png",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./android-tools.log",
+    "size": "59.29 KB"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage",
+    "size": "8.15 MB"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage.version",
+    "size": "11 B"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage.zsync",
+    "size": "24.11 KB"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage",
+    "size": "8.15 MB"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage.zsync",
+    "size": "24.1 KB"
+  },
+  {
+    "filename": "./deadbeef.DirIcon",
+    "size": "15.28 KB"
+  },
+  {
+    "filename": "./deadbeef.desktop",
+    "size": "945 B"
+  },
+  {
+    "filename": "./deadbeef.icon.png",
+    "size": "15.28 KB"
+  },
+  {
+    "filename": "./deadbeef.log",
+    "size": "54.16 KB"
+  },
+  {
+    "filename": "./dunst.AppImage",
+    "size": "12.92 MB"
+  },
+  {
+    "filename": "./dunst.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./dunst.AppImage.zsync",
+    "size": "44.35 KB"
+  },
+  {
+    "filename": "./dunst.DirIcon",
+    "size": "3703 B"
+  },
+  {
+    "filename": "./dunst.desktop",
+    "size": "123 B"
+  },
+  {
+    "filename": "./dunst.icon.png",
+    "size": "3703 B"
+  },
+  {
+    "filename": "./dunst.log",
+    "size": "215.82 KB"
+  },
+  {
+    "filename": "./floorp.DirIcon",
+    "size": "8073 B"
+  },
+  {
+    "filename": "./floorp.NixAppImage",
+    "size": "366.35 MB"
+  },
+  {
+    "filename": "./floorp.NixAppImage.version",
+    "size": "8 B"
+  },
+  {
+    "filename": "./floorp.NixAppImage.zsync",
+    "size": "626.29 KB"
+  },
+  {
+    "filename": "./floorp.desktop",
+    "size": "653 B"
+  },
+  {
+    "filename": "./floorp.icon.png",
+    "size": "8073 B"
+  },
+  {
+    "filename": "./floorp.log",
+    "size": "68.23 KB"
+  },
+  {
+    "filename": "./persepolis.DirIcon",
+    "size": "10.83 KB"
+  },
+  {
+    "filename": "./persepolis.NixAppImage",
+    "size": "222.3 MB"
+  },
+  {
+    "filename": "./persepolis.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./persepolis.NixAppImage.zsync",
+    "size": "380.13 KB"
+  },
+  {
+    "filename": "./persepolis.desktop",
+    "size": "715 B"
+  },
+  {
+    "filename": "./persepolis.icon.png",
+    "size": "10.83 KB"
+  },
+  {
+    "filename": "./persepolis.log",
+    "size": "43.69 KB"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.NixAppImage",
+    "size": "24.91 MB"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.NixAppImage.version",
+    "size": "17 B"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.NixAppImage.zsync",
+    "size": "85.38 KB"
+  },
+  {
+    "filename": "./qbittorrent.NixAppImage",
+    "size": "171.25 MB"
+  },
+  {
+    "filename": "./qbittorrent.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./qbittorrent.NixAppImage.zsync",
+    "size": "292.88 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage",
+    "size": "25.24 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.version",
+    "size": "10 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.zsync",
+    "size": "86.48 KB"
+  },
+  {
+    "filename": "./ryujinx.DirIcon",
+    "size": "7779 B"
+  },
+  {
+    "filename": "./ryujinx.desktop",
+    "size": "402 B"
+  },
+  {
+    "filename": "./ryujinx.icon.png",
+    "size": "7779 B"
+  },
+  {
+    "filename": "./ryujinx.log",
+    "size": "12.46 KB"
+  },
+  {
+    "filename": "./simplex-chat-desktop.log",
+    "size": "2943 B"
   }
 ]

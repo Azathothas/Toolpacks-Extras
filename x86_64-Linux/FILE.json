@@ -57,7 +57,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (490), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -113,11 +113,11 @@
   },
   {
     "filename": "./aisap.AppImage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
   },
   {
     "filename": "./aisap.log",
-    "type": "ASCII text, with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
   },
   {
     "filename": "./aisap.shimg",
@@ -165,14 +165,94 @@
   },
   {
     "filename": "./qbittorrent-enhanced.log",
-    "type": "ASCII text, with very long lines (506), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (512), with CR, LF line terminators"
   },
   {
     "filename": "./qbittorrent.log",
-    "type": "ASCII text, with very long lines (488), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (557), with CR, LF line terminators"
   },
   {
     "filename": "./puddletag.NixAppImage",
     "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./android-tools.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./android-tools.log",
+    "type": "data"
+  },
+  {
+    "filename": "./deadbeef.log",
+    "type": "ASCII text, with very long lines (517), with CR, LF line terminators"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./dunst.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./dunst.log",
+    "type": "ASCII text, with CR, LF line terminators"
+  },
+  {
+    "filename": "./floorp.log",
+    "type": "ASCII text, with very long lines (484), with CR, LF line terminators"
+  },
+  {
+    "filename": "./floorp.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./METADATA.AIO.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.min.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./persepolis.log",
+    "type": "ASCII text, with very long lines (492), with CR, LF line terminators"
+  },
+  {
+    "filename": "./persepolis.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./ryujinx.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./ryujinx.log",
+    "type": "ASCII text, with very long lines (480), with CR, LF line terminators"
+  },
+  {
+    "filename": "./simplex-chat-desktop.log",
+    "type": "ASCII text"
   }
 ]
