@@ -142,5 +142,9 @@
   {
     "filename": "./ryujinx.log",
     "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
   }
 ]
