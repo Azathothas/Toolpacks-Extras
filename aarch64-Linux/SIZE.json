@@ -41,7 +41,7 @@
   },
   {
     "filename": "./librewolf.log",
-    "size": "76.24 KB"
+    "size": "76.4 KB"
   },
   {
     "filename": "./mullvad-browser.log",
@@ -61,7 +61,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "size": "245.76 MB"
+    "size": "245.71 MB"
   },
   {
     "filename": "./inkscape.NixAppImage.version",
@@ -69,7 +69,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "420.21 KB"
+    "size": "420.13 KB"
   },
   {
     "filename": "./inkscape.desktop",
@@ -81,11 +81,11 @@
   },
   {
     "filename": "./inkscape.log",
-    "size": "249.3 KB"
+    "size": "249.37 KB"
   },
   {
     "filename": "./olive-editor.log",
-    "size": "2945 B"
+    "size": "2943 B"
   },
   {
     "filename": "./86box.AppImage",
@@ -121,7 +121,7 @@
   },
   {
     "filename": "./aisap.log",
-    "size": "28.8 KB"
+    "size": "28.74 KB"
   },
   {
     "filename": "./obs-studio.log",
@@ -141,7 +141,7 @@
   },
   {
     "filename": "./qbittorrent.log",
-    "size": "2899 B"
+    "size": "2897 B"
   },
   {
     "filename": "./METADATA.AIO.toml",
@@ -177,7 +177,7 @@
   },
   {
     "filename": "./android-tools.log",
-    "size": "55.01 KB"
+    "size": "55.14 KB"
   },
   {
     "filename": "./dunst.AppImage",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./dunst.log",
-    "size": "212.52 KB"
+    "size": "213.08 KB"
   },
   {
     "filename": "./floorp.DirIcon",
@@ -213,7 +213,7 @@
   },
   {
     "filename": "./floorp.NixAppImage",
-    "size": "355.41 MB"
+    "size": "355.52 MB"
   },
   {
     "filename": "./floorp.NixAppImage.version",
@@ -221,7 +221,7 @@
   },
   {
     "filename": "./floorp.NixAppImage.zsync",
-    "size": "607.61 KB"
+    "size": "607.79 KB"
   },
   {
     "filename": "./floorp.desktop",
@@ -233,7 +233,7 @@
   },
   {
     "filename": "./floorp.log",
-    "size": "171.63 KB"
+    "size": "171.47 KB"
   },
   {
     "filename": "./persepolis.DirIcon",
@@ -241,7 +241,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage",
-    "size": "214.37 MB"
+    "size": "214.39 MB"
   },
   {
     "filename": "./persepolis.NixAppImage.version",
@@ -249,7 +249,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage.zsync",
-    "size": "366.58 KB"
+    "size": "366.62 KB"
   },
   {
     "filename": "./persepolis.desktop",

@@ -41,7 +41,7 @@
   },
   {
     "filename": "./librewolf.log",
-    "size": "76.13 KB"
+    "size": "75.97 KB"
   },
   {
     "filename": "./mullvad-browser.DirIcon",
@@ -77,7 +77,7 @@
   },
   {
     "filename": "./mullvad-browser.tar.xz",
-    "size": "103.44 MB"
+    "size": "103.47 MB"
   },
   {
     "filename": "./mullvad-browser.AppImage",
@@ -109,7 +109,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "size": "253.96 MB"
+    "size": "253.93 MB"
   },
   {
     "filename": "./inkscape.NixAppImage.version",
@@ -117,7 +117,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "434.23 KB"
+    "size": "434.18 KB"
   },
   {
     "filename": "./inkscape.desktop",
@@ -129,7 +129,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "size": "263.08 KB"
+    "size": "263.16 KB"
   },
   {
     "filename": "./olive-editor.log",
@@ -161,7 +161,7 @@
   },
   {
     "filename": "./86box.log",
-    "size": "12.44 KB"
+    "size": "13.89 KB"
   },
   {
     "filename": "./acreom.AppImage",
@@ -189,7 +189,7 @@
   },
   {
     "filename": "./acreom.log",
-    "size": "15.23 KB"
+    "size": "22.15 KB"
   },
   {
     "filename": "./actual.AppImage",
@@ -217,7 +217,7 @@
   },
   {
     "filename": "./actual.log",
-    "size": "14.32 KB"
+    "size": "18.35 KB"
   },
   {
     "filename": "./advanced-passgen.AppImage",
@@ -245,7 +245,7 @@
   },
   {
     "filename": "./advanced-passgen.log",
-    "size": "14.13 KB"
+    "size": "18.15 KB"
   },
   {
     "filename": "./affine.AppImage",
@@ -277,7 +277,7 @@
   },
   {
     "filename": "./affine.log",
-    "size": "186.65 KB"
+    "size": "193.8 KB"
   },
   {
     "filename": "./aisap.AppImage",
@@ -289,7 +289,7 @@
   },
   {
     "filename": "./aisap.log",
-    "size": "29.79 KB"
+    "size": "29.87 KB"
   },
   {
     "filename": "./aisap.shimg",
@@ -345,7 +345,7 @@
   },
   {
     "filename": "./obs-studio.AppImage",
-    "size": "178.81 MB"
+    "size": "173.75 MB"
   },
   {
     "filename": "./obs-studio.AppImage.version",
@@ -353,7 +353,7 @@
   },
   {
     "filename": "./obs-studio.AppImage.zsync",
-    "size": "305.8 KB"
+    "size": "297.15 KB"
   },
   {
     "filename": "./obs-studio.DirIcon",
@@ -369,7 +369,7 @@
   },
   {
     "filename": "./obs-studio.log",
-    "size": "20.98 KB"
+    "size": "21.31 KB"
   },
   {
     "filename": "./olive-editor.AppImage",
@@ -405,7 +405,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "size": "37.72 KB"
+    "size": "37.8 KB"
   },
   {
     "filename": "./qbittorrent-enhanced.AppImage",
@@ -433,7 +433,7 @@
   },
   {
     "filename": "./qbittorrent-enhanced.log",
-    "size": "14.35 KB"
+    "size": "14.51 KB"
   },
   {
     "filename": "./qbittorrent.AppImage",
@@ -469,11 +469,11 @@
   },
   {
     "filename": "./puddletag.NixAppImage",
-    "size": "210.37 MB"
+    "size": "210.22 MB"
   },
   {
     "filename": "./puddletag.NixAppImage.zsync",
-    "size": "359.74 KB"
+    "size": "359.48 KB"
   },
   {
     "filename": "./puddletag.icon.png",
@@ -529,7 +529,7 @@
   },
   {
     "filename": "./android-tools.log",
-    "size": "59.29 KB"
+    "size": "57.19 KB"
   },
   {
     "filename": "./deadbeef-nightly.AppImage",
@@ -597,7 +597,7 @@
   },
   {
     "filename": "./dunst.log",
-    "size": "215.82 KB"
+    "size": "215.66 KB"
   },
   {
     "filename": "./floorp.DirIcon",
@@ -605,7 +605,7 @@
   },
   {
     "filename": "./floorp.NixAppImage",
-    "size": "366.35 MB"
+    "size": "366.34 MB"
   },
   {
     "filename": "./floorp.NixAppImage.version",
@@ -625,7 +625,7 @@
   },
   {
     "filename": "./floorp.log",
-    "size": "68.23 KB"
+    "size": "68.32 KB"
   },
   {
     "filename": "./persepolis.DirIcon",
@@ -633,7 +633,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage",
-    "size": "222.3 MB"
+    "size": "222.29 MB"
   },
   {
     "filename": "./persepolis.NixAppImage.version",
@@ -641,7 +641,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage.zsync",
-    "size": "380.13 KB"
+    "size": "380.12 KB"
   },
   {
     "filename": "./persepolis.desktop",
@@ -705,7 +705,7 @@
   },
   {
     "filename": "./ryujinx.log",
-    "size": "12.46 KB"
+    "size": "13.26 KB"
   },
   {
     "filename": "./simplex-chat-desktop.log",
