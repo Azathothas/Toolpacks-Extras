@@ -201,6 +201,583 @@ c6537ab2722971ce30b2224e518b807ba1c8b6877e61df029588a2fb13ffecae  /tmp/toolpack_
 -e 
 
 
+++ '[' YES '!=' YES ']'
+++ '[' -z /tmp/toolpack_aarch64 ']'
+++ '[' -z 0 ']'
+++ '[' -z /bin/echo ']'
+++ '[' -z https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux ']'
+++ '[' -z /tmp ']'
+++ '[' -z 'mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux' ']'
+++ export SKIP_BUILD=NO
+++ SKIP_BUILD=NO
+++ export BIN=imagemagick
+++ BIN=imagemagick
+++ export SOURCE_URL=https://github.com/ImageMagick/ImageMagick
+++ SOURCE_URL=https://github.com/ImageMagick/ImageMagick
+++ export BUILD_APPBUNDLE=YES
+++ BUILD_APPBUNDLE=YES
+++ '[' NO == NO ']'
++++ TZ=UTC
++++ date '+%A, %Y-%m-%d (%I:%M:%S %p)'
+++ echo -e '\n\n [+] (Building | Fetching) imagemagick :: https://github.com/ImageMagick/ImageMagick [Friday, 2024-10-11 (12:02:41 PM) UTC]\n'
+
+
+ [+] (Building | Fetching) imagemagick :: https://github.com/ImageMagick/ImageMagick [Friday, 2024-10-11 (12:02:41 PM) UTC]
+
++++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux
+++ pushd /tmp/toolpacks/EU6YU7I_aarch64_Linux
++++ realpath .
+++ OWD=/tmp/toolpacks/EU6YU7I_aarch64_Linux
+++ export OWD=/tmp/toolpacks/EU6YU7I_aarch64_Linux
+++ OWD=/tmp/toolpacks/EU6YU7I_aarch64_Linux
+++ export APP=magick
+++ APP=magick
+++ export PKG_NAME=magick.AppImage
+++ PKG_NAME=magick.AppImage
++++ git ls-remote --tags https://github.com/ImageMagick/ImageMagick
++++ awk -F/ '/tags/ && !/{}$/ {print $NF}'
++++ tr -d '[:alpha:]'
++++ sed 's/^[^0-9]*//; s/[^0-9]*$//'
++++ sort --version-sort
++++ tr -d '[:space:]'
++++ tail -n 1
+++ RELEASE_TAG=7.1.1-39
+++ export RELEASE_TAG=7.1.1-39
+++ RELEASE_TAG=7.1.1-39
+++ [[ -f /tmp/toolpacks/EU6YU7I_aarch64_Linux/magick.AppImage ]]
+++ '[' YES == YES ']'
++++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux
+++ pushd /tmp/toolpacks/7DvJxBI_aarch64_Linux
++++ realpath .
+++ OWD=/tmp/toolpacks/7DvJxBI_aarch64_Linux
+++ export OWD=/tmp/toolpacks/7DvJxBI_aarch64_Linux
+++ OWD=/tmp/toolpacks/7DvJxBI_aarch64_Linux
+++ export APP=magick
+++ APP=magick
+++ export PKG_NAME=magick.dwfs.AppBundle
+++ PKG_NAME=magick.dwfs.AppBundle
++++ realpath .
+++ APPDIR=/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir
+++ export APPDIR=/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir
+++ APPDIR=/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir
+++ export ROOTFS_DIR=/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
+++ ROOTFS_DIR=/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
+++ mkdir -p /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
++++ curl -qfsSL https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD
++++ sed -n 's/^pkgver=//p'
++++ tr -d '[:space:]'
+++ RELEASE_TAG=7.1.1.39
+++ export RELEASE_TAG=7.1.1.39
+++ RELEASE_TAG=7.1.1.39
++++ echo magick_7.1.1.39_magick.dwfs.AppBundle
++++ tr -d '[:space:]'
+++ APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ export APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ bash
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh
++ export -f setup_appbundles_alpine
++ '[' -z /tmp/toolpacks/7DvJxBI_aarch64_Linux ']'
++ '[' -z magick ']'
++ '[' -z /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir ']'
++ '[' -z /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs ']'
++ '[' -z /tmp ']'
++ '[' -z 'mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux' ']'
++ setup_appbundles_alpine
++ export APPRUN_URL=https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable
++ APPRUN_URL=https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable
++ '[' -f /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz ']'
+++ du -s /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz
+++ cut -f1
++ '[' 3856 -gt 100 ']'
++ mkdir -p /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
++ bsdtar -x -f /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz -p -C /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
++ '[' -d /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs ']'
+++ du -s /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
+++ cut -f1
++ '[' 9264 -gt 100 ']'
++ realpath /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
++ ls /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs -lah
+total 76K
+drwxr-xr-x 19 runner runner 4.0K Oct 11 12:02 .
+drwxr-xr-x  3 runner runner 4.0K Oct 11 12:02 ..
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 bin
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 dev
+drwxr-xr-x 17 runner runner 4.0K Sep  6 11:37 etc
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 home
+drwxr-xr-x  6 runner runner 4.0K Sep  6 11:37 lib
+drwxr-xr-x  5 runner runner 4.0K Sep  6 11:37 media
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 mnt
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 opt
+dr-xr-xr-x  2 runner runner 4.0K Sep  6 11:37 proc
+drwx------  2 runner runner 4.0K Sep  6 11:37 root
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 run
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 sbin
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 srv
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:37 sys
+drwxrwxrwt  2 runner runner 4.0K Sep  6 11:37 tmp
+drwxr-xr-x  7 runner runner 4.0K Sep  6 11:37 usr
+drwxr-xr-x 12 runner runner 4.0K Sep  6 11:37 var
++ du -sh /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
+9.1M	/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs
++ curl -qfsSL https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable -o /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun
++ chmod +x /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun
++ mkdir -p /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/usr/bin
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/bash -o /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/bash
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/bwrap -o /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/usr/bin/bwrap
++ echo bash
++ chmod +x /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/entrypoint
++ chmod +x /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/usr/bin/bwrap /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/bash
++ ln --symbolic --force ../../bin/bash /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bash
++ sudo chmod 755 /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/bbsuid
++ echo -e 'nameserver 8.8.8.8\nnameserver 2620:0:ccc::2'
++ echo -e 'nameserver 1.1.1.1\nnameserver 2606:4700:4700::1111'
++ unlink /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/etc/resolv.conf
++ echo LANG=en_US.UTF-8
++ echo LANG=en_US.UTF-8
++ echo LANGUAGE=en_US:en
++ echo LC_ALL=en_US.UTF-8
++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "../bin/busybox" "$1"' _ '{}' ';'
++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "../../bin/busybox" "$1"' _ '{}' ';'
++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin -type l -exec sh -c 'echo "{} -> $(readlink "{}")"' ';'
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mpstat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/iostat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/printenv -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ls -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/link -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/egrep -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/watch -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/fgrep -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/sed -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/chattr -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/stat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/makemime -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/fatattr -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ash -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ionice -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ln -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ping -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/lzop -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/stty -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ipcalc -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/kbd_mode -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/chmod -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/chown -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/df -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mknod -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/su -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/rev -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/uname -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/cp -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/true -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/sleep -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/dnsdomainname -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/tar -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/linux64 -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/arch -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/login -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/fsync -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/grep -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/kill -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/gzip -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/cat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/setserial -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/dumpkmap -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/usleep -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mkdir -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/rmdir -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/gunzip -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/dd -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/dmesg -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mv -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ping6 -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/chgrp -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mktemp -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mountpoint -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/umount -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/base64 -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/hostname -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/lsattr -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/false -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/netstat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/linux32 -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/ps -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/touch -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/date -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/getopt -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/run-parts -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/mount -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/zcat -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/reformime -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/sh -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/pwd -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/pidof -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/bbconfig -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/sync -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/more -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/nice -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/pipe_progress -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/setpriv -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/echo -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/fdflush -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/rm -> ../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/xzcat -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/comm -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/setkeycodes -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/uniq -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cmp -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/dos2unix -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sort -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/readlink -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/wget -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pwdx -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/ttysize -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cksum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tree -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/whoami -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/uptime -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unlink -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/microcom -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/basename -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/who -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unlzop -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/od -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/crontab -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tail -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/printf -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/uuencode -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/hostid -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/passwd -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/lzopcat -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/env -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/xxd -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cut -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/traceroute -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/expr -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/whois -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unshare -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sha1sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/fold -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/fallocate -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/diff -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/id -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/expand -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/[[ -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/md5sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sha3sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/find -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/eject -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tr -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/realpath -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sha512sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pkill -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bzip2 -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/split -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/lzma -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/uudecode -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/volname -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/shuf -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unxz -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/factor -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/logger -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nslookup -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cpio -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/install -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unexpand -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pmap -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nmeter -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/vi -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/blkdiscard -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nl -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unix2dos -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/timeout -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bash -> ../../bin/bash
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tee -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/setsid -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bunzip2 -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/test -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/lzcat -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/dc -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/less -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/resize -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/lsusb -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/truncate -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pstree -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/seq -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/wc -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/reset -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/shred -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/beep -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/awk -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cryptpw -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/groups -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/yes -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unlzma -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/dirname -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/fuser -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/killall -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/strings -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/[ -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/mkfifo -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/cal -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bc -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/hexdump -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/xargs -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/paste -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/which -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pgrep -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/traceroute6 -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nohup -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/flock -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nsenter -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/chvt -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tac -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/time -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/free -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/sha256sum -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/bzcat -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/deallocvt -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/clear -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/vlock -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/openvt -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/udhcpc6 -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nproc -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/renice -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/unzip -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/pscan -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/nc -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/ipcs -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/head -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/ipcrm -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/showkey -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/tty -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/lsof -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/du -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/hd -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/top -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/last -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/mkpasswd -> ../../bin/busybox
+/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin/mesg -> ../../bin/busybox
++ echo https://dl-cdn.alpinelinux.org/alpine/latest-stable/main
++ echo https://dl-cdn.alpinelinux.org/alpine/latest-stable/community
++ /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk -X https://dl-cdn.alpinelinux.org/alpine/latest-stable/main -U --allow-untrusted --initdb add alpine-base
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/aarch64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/aarch64/APKINDEX.tar.gz
+(1/10) Installing ifupdown-ng (0.12.1-r5)
+(2/10) Installing libcap2 (2.70-r0)
+(3/10) Installing openrc (0.54-r1)
+Executing openrc-0.54-r1.post-install
+(4/10) Installing mdev-conf (4.7-r0)
+(5/10) Installing busybox-mdev-openrc (1.36.1-r29)
+(6/10) Installing alpine-conf (3.18.1-r0)
+(7/10) Installing alpine-release (3.20.3-r0)
+(8/10) Installing busybox-openrc (1.36.1-r29)
+(9/10) Installing busybox-suid (1.36.1-r29)
+(10/10) Installing alpine-base (3.20.3-r0)
+Executing busybox-1.36.1-r29.trigger
+OK: 14 MiB in 24 packages
++ /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk update
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/aarch64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/aarch64/APKINDEX.tar.gz
+v3.20.3-159-g093e185483c [https://dl-cdn.alpinelinux.org/alpine/latest-stable/main]
+v3.20.3-163-g75b315f18d8 [https://dl-cdn.alpinelinux.org/alpine/latest-stable/community]
+OK: 24041 distinct packages available
++ apk upgrade --no-interactive
++ sudo mkdir -p /opt/STATIC_TOOLS
+++ whoami
+++ whoami
++ sudo chown -R runner:runner /opt/STATIC_TOOLS
++ sudo chmod -R 755 /opt/STATIC_TOOLS
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/bwrap -o /opt/STATIC_TOOLS/bwrap
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/dwarfs-tools -o /opt/STATIC_TOOLS/dwarfs
++ sudo rsync -achL /opt/STATIC_TOOLS/dwarfs /usr/bin/dwarfs
++ sudo chmod +x /usr/bin/dwarfs
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/Baseutils/fuse3/fusermount3 -o /opt/STATIC_TOOLS/fusermount
++ sudo rsync -achL /opt/STATIC_TOOLS/fusermount /usr/bin/fusermount
++ sudo chmod +x /usr/bin/fusermount
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/aarch64/dwarfs-tools -o /opt/STATIC_TOOLS/mkdwarfs
++ sudo rsync -achL /opt/STATIC_TOOLS/mkdwarfs /usr/bin/mkdwarfs
++ sudo chmod +x /usr/bin/mkdwarfs
++ curl -qfsSL https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/pelf-dwfs -o /opt/STATIC_TOOLS/pelf-dwfs
++ dos2unix --quiet /opt/STATIC_TOOLS/pelf-dwfs
++ chmod +x /opt/STATIC_TOOLS/pelf-dwfs
++ set +x
+++ '[' -d /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir ']'
++++ du -s /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir
++++ cut -f1
+++ '[' 18328 -gt 100 ']'
+++ /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk update
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/aarch64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/aarch64/APKINDEX.tar.gz
+v3.20.3-159-g093e185483c [https://dl-cdn.alpinelinux.org/alpine/latest-stable/main]
+v3.20.3-163-g75b315f18d8 [https://dl-cdn.alpinelinux.org/alpine/latest-stable/community]
+OK: 24041 distinct packages available
+++ apk upgrade --no-interactive
+++ /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk add imagemagick --no-interactive
+(1/22) Installing libxau (1.0.11-r4)
+(2/22) Installing libmd (1.1.0-r0)
+(3/22) Installing libbsd (0.12.2-r0)
+(4/22) Installing libxdmcp (1.1.5-r1)
+(5/22) Installing libxcb (1.16.1-r0)
+(6/22) Installing libx11 (1.8.9-r1)
+(7/22) Installing libxext (1.3.6-r2)
+(8/22) Installing libbz2 (1.0.8-r6)
+(9/22) Installing fftw-double-libs (3.3.10-r5)
+(10/22) Installing libexpat (2.6.3-r0)
+(11/22) Installing brotli-libs (1.1.0-r2)
+(12/22) Installing libpng (1.6.44-r0)
+(13/22) Installing freetype (2.13.2-r0)
+(14/22) Installing fontconfig (2.15.0-r1)
+(15/22) Installing libgcc (13.2.1_git20240309-r0)
+(16/22) Installing libgomp (13.2.1_git20240309-r0)
+(17/22) Installing lcms2 (2.16-r0)
+(18/22) Installing libltdl (2.4.7-r3)
+(19/22) Installing xz-libs (5.6.2-r0)
+(20/22) Installing libxml2 (2.12.7-r0)
+(21/22) Installing imagemagick-libs (7.1.1.32-r2)
+(22/22) Installing imagemagick (7.1.1.32-r2)
+Executing busybox-1.36.1-r29.trigger
+1 error; 40 MiB in 46 packages
+++ /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- magick --version
+Version: ImageMagick 7.1.1-32 Q16-HDRI aarch64 22207 https://imagemagick.org
+Copyright: (C) 1999 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules OpenMP(4.5) 
+Delegates (built-in): bzlib cairo fftw fontconfig freetype gslib heic jng jpeg jxl lcms ltdl lzma pangocairo png ps raw rsvg tiff webp x xml zlib zstd
+Compiler: gcc (13.2)
+++ echo magick
+++ chmod +x /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/entrypoint
+++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ '{}' ';'
+++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/usr/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ '{}' ';'
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop -o /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.desktop
+++ sed 's/Icon=[^ ]*/Icon=magick/' -i /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.desktop
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png -o /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.icon.png
+++ magick /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.icon.png -resize 256x256 -gravity center -background none -extent 256x256 -v /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.icon.png
+magick: unrecognized option `-v' at CLI arg 10 @ fatal/magick-cli.c/ProcessCommandOptions/657.
+++ rsync -achLv /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.icon.png /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.DirIcon
+sending incremental file list
+magick.icon.png
+
+sent 571.35K bytes  received 35 bytes  1.14M bytes/sec
+total size is 571.08K  speedup is 1.00
+++ '[' '!' -e /tmp/toolpack_aarch64/imagemagick.desktop ']'
+++ rsync -achLv /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.desktop /tmp/toolpack_aarch64/imagemagick.desktop
+sending incremental file list
+magick.desktop
+
+sent 297 bytes  received 35 bytes  664.00 bytes/sec
+total size is 164  speedup is 0.49
+++ '[' '!' -e /tmp/toolpack_aarch64/imagemagick.icon.png ']'
+++ rsync -achLv /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.icon.png /tmp/toolpack_aarch64/imagemagick.icon.png
+sending incremental file list
+magick.icon.png
+
+sent 571.35K bytes  received 35 bytes  1.14M bytes/sec
+total size is 571.08K  speedup is 1.00
+++ '[' '!' -e /tmp/toolpack_aarch64/imagemagick.DirIcon ']'
+++ rsync -achLv /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/magick.DirIcon /tmp/toolpack_aarch64/imagemagick.DirIcon
+sending incremental file list
+magick.DirIcon
+
+sent 571.35K bytes  received 35 bytes  1.14M bytes/sec
+total size is 571.08K  speedup is 1.00
++++ echo 7.1.1.39
+++ PKG_VERSION=7.1.1.39
+++ export PKG_VERSION=7.1.1.39
+++ PKG_VERSION=7.1.1.39
+++ echo 7.1.1.39
+++ find /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
+++ '[' -d /opt/STATIC_TOOLS ']'
++++ du -s /opt/STATIC_TOOLS
++++ cut -f1
+++ '[' 26252 -gt 100 ']'
+++ /opt/STATIC_TOOLS/pelf-dwfs --add-appdir /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir magick_7.1.1.39_magick.dwfs.AppBundle --output-to /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.dwfs.AppBundle --embed-static-tools --static-tools-dir /opt/STATIC_TOOLS --compression '--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8'
+cp: cannot open '/tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.AppDir/rootfs/bin/bbsuid' for reading: Permission denied
+- 12:03:01.645085 ==> 0% done, 0 blocks/0 B written
+I 12:03:01.645664 scanning "/tmp/pelf_17286481810301/blob"[K
+I 12:03:01.692756 assigning directory and link inodes...[K
+I 12:03:01.692967 waiting for background scanners...[K
+I 12:03:01.830143 scanning CPU time: 816ms[K
+I 12:03:01.830189 finalizing file inodes...[K
+I 12:03:01.830589 saved 575.3 KiB / 41.29 MiB in 45/816 duplicate files[K
+I 12:03:01.830646 assigning device inodes...[K
+I 12:03:01.830686 assigning pipe/socket inodes...[K
+I 12:03:01.830698 building metadata...[K
+I 12:03:01.830713 building blocks...[K
+I 12:03:01.830734 saving names and symlinks...[K
+I 12:03:01.831348 waiting for segmenting/blockifying to finish...[K
+I 12:03:01.831540 updating name and link indices...[K
+I 12:03:02.178856 total ordering CPU time: 1.868ms[K
+I 12:03:02.178914 total segmenting CPU time: 328.1ms[K
+I 12:03:02.180310 saving chunks...[K
+I 12:03:02.180624 saving directories...[K
+I 12:03:02.181101 saving shared files table...[K
+I 12:03:02.185251 saving names table... [4.097ms][K
+I 12:03:02.186252 saving symlinks table... [940us][K
+I 12:03:02.188087 waiting for compression to finish...[K
+- 12:03:03.645550 ==> 50% done, 0 blocks/0 B written
+I 12:03:12.231128 compressed 41.29 MiB to 11.47 MiB (ratio=0.277792)[K
+I 12:03:12.233377 compression CPU time: 15.71s[K
+I 12:03:12.233446 filesystem created without errors [10.59s][K
+- 12:03:12.261960 ==> 100% done, 2 blocks/11.47 MiB written
+198 dirs, 430/0 soft/hard links, 816/816 files, 0 other[K
+original size: 41.29 MiB, hashed: 16.18 MiB (516 files, 555.8 MiB/s)[K
+scanned: 40.72 MiB (771 files, 55.45 MiB/s), categorizing: 0 B/s[K
+saved by deduplication: 575.3 KiB (45 files), saved by segmenting: 13.12 MiB[K
+filesystem: 27.6 MiB in 2 blocks (2952 chunks, 770/770 fragments, 771 inodes)[K
+compressed filesystem: 2 blocks/11.47 MiB written[K
+++ rsync -achLv /tmp/toolpacks/7DvJxBI_aarch64_Linux/magick.dwfs.AppBundle /tmp/toolpack_aarch64/magick.dwfs.AppBundle
+sending incremental file list
+magick.dwfs.AppBundle
+
+sent 19.58M bytes  received 35 bytes  39.16M bytes/sec
+total size is 19.57M  speedup is 1.00
+++ popd
+++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+++ find /tmp/toolpack_aarch64 -type f -iname '*magick*' -print
+/tmp/toolpack_aarch64/imagemagick.icon.png: PNG image data, 1979 x 2049, 8-bit/color RGBA, non-interlaced
+e08aee4739046e1b4c902044ea5f86fb684eda29fd5dd5dd0bad4a61f44a2fc9  /tmp/toolpack_aarch64/imagemagick.icon.png
+dc87b7dc837db8dd1b8e798feab5add63346a3a76bdcc61a3c368732842dd7ef  /tmp/toolpack_aarch64/imagemagick.icon.png
+560K	/tmp/toolpack_aarch64/imagemagick.icon.png
+/tmp/toolpack_aarch64/imagemagick.desktop: ASCII text
+76056d3427d2444f1d2daa3ca0e46c0b9d3d3748d6fe8b7a9861a7ed8513b092  /tmp/toolpack_aarch64/imagemagick.desktop
+a3cb5272da262e3b0cc70d407560fe2dd00d974fe645ce38524349da555c958b  /tmp/toolpack_aarch64/imagemagick.desktop
+4.0K	/tmp/toolpack_aarch64/imagemagick.desktop
+/tmp/toolpack_aarch64/imagemagick.DirIcon: PNG image data, 1979 x 2049, 8-bit/color RGBA, non-interlaced
+e08aee4739046e1b4c902044ea5f86fb684eda29fd5dd5dd0bad4a61f44a2fc9  /tmp/toolpack_aarch64/imagemagick.DirIcon
+dc87b7dc837db8dd1b8e798feab5add63346a3a76bdcc61a3c368732842dd7ef  /tmp/toolpack_aarch64/imagemagick.DirIcon
+560K	/tmp/toolpack_aarch64/imagemagick.DirIcon
+/tmp/toolpack_aarch64/magick.dwfs.AppBundle: POSIX shell script, ASCII text executable
+cbafa9af838ef3899d060bafa70f5e3de958b4b4197de15722dfcbf1725fdbe7  /tmp/toolpack_aarch64/magick.dwfs.AppBundle
+9ceb41998f2c487ecfefd26bd9ee5d69e413d91b010e084f2f31bf3d07676c4c  /tmp/toolpack_aarch64/magick.dwfs.AppBundle
+19M	/tmp/toolpack_aarch64/magick.dwfs.AppBundle
+/tmp/toolpack_aarch64/magick.dwfs.AppBundle.version: ASCII text
+f3161bc8ae2baede10f9dd63ba81a00d4671412011c3e4b3fed23fa7c496fc2c  /tmp/toolpack_aarch64/magick.dwfs.AppBundle.version
+c91a13ddd5ca9b1d78a5cc73c99821e8c6a8e30978aed5e2302ce160accc58d4  /tmp/toolpack_aarch64/magick.dwfs.AppBundle.version
+4.0K	/tmp/toolpack_aarch64/magick.dwfs.AppBundle.version
+++ unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ LOG_PATH=/tmp/toolpack_aarch64/imagemagick.log
+++ export LOG_PATH=/tmp/toolpack_aarch64/imagemagick.log
+++ LOG_PATH=/tmp/toolpack_aarch64/imagemagick.log
+++ unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ unset SKIP_BUILD
+++ export BUILT=YES
+++ BUILT=YES
+++ unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
+++ unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
+++ unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+++ set +x
+-e 
+
+
 
 [+] Fetching : https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/aarch64-Linux/pkgs/olive-editor.sh (11/15)
 

@@ -258,5 +258,13 @@
   {
     "filename": "./magick.AppImage",
     "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "type": "ASCII text, with very long lines (367), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
   }
 ]
