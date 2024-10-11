@@ -98,28 +98,7 @@ Get:1 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 git-lfs 
 Get:2 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 tree arm64 2.1.1-2ubuntu3 [46.0 kB]
 Fetched 3,578 kB in 1s (3,305 kB/s)
 Selecting previously unselected package git-lfs.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 88733 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88733 files and directories currently installed.)
 Preparing to unpack .../git-lfs_3.4.1-1ubuntu0.1_arm64.deb ...
 Unpacking git-lfs (3.4.1-1ubuntu0.1) ...
 Selecting previously unselected package tree.
@@ -183,28 +162,7 @@ Get:20 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 scons all 4.5.2
 Get:21 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 byacc arm64 1:2.0.20221106-1 [82.2 kB]
 Fetched 68.5 MB in 3s (25.0 MB/s)
 Selecting previously unselected package flex.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 88790 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 88790 files and directories currently installed.)
 Preparing to unpack .../00-flex_2.6.4-8.2build1_arm64.deb ...
 Unpacking flex (2.6.4-8.2build1) ...
 Selecting previously unselected package autopoint.
@@ -351,28 +309,7 @@ Get:17 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 wdiff arm64 1.2.2-6
 Get:18 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 devscripts all 2.23.7 [1,069 kB]
 Fetched 1,452 kB in 1s (1,047 kB/s)
 Selecting previously unselected package libfile-dirlist-perl.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 89817 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 89817 files and directories currently installed.)
 Preparing to unpack .../00-libfile-dirlist-perl_0.05-3_all.deb ...
 Unpacking libfile-dirlist-perl (0.05-3) ...
 Selecting previously unselected package libfile-which-perl.
@@ -465,28 +402,7 @@ Get:5 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 cmake-data all 3.28.
 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 cmake arm64 3.28.3-1build7 [10.3 MB]
 Fetched 13.1 MB in 1s (10.5 MB/s)
 Selecting previously unselected package libuv1t64:arm64.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 90465 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 90465 files and directories currently installed.)
 Preparing to unpack .../0-libuv1t64_1.48.0-1.1build1_arm64.deb ...
 Unpacking libuv1t64:arm64 (1.48.0-1.1build1) ...
 Selecting previously unselected package libarchive13t64:arm64.
@@ -534,28 +450,7 @@ Get:4 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 python3-xmltodict al
 Get:5 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 jc all 1.25.1-1 [453 kB]
 Fetched 1,498 kB in 1s (1,384 kB/s)
 Selecting previously unselected package python3-pygments.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 93889 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 93889 files and directories currently installed.)
 Preparing to unpack .../python3-pygments_2.17.2+dfsg-1_all.deb ...
 Unpacking python3-pygments (2.17.2+dfsg-1) ...
 Selecting previously unselected package python3-ruamel.yaml.clib:arm64.
@@ -746,28 +641,7 @@ Get:41 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 gcc-arm-linux-gnuea
 Get:42 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 g++-arm-linux-gnueabihf arm64 4:13.2.0-7ubuntu1 [968 B]
 Fetched 112 MB in 6s (19.5 MB/s)
 Selecting previously unselected package gcc-13-arm-linux-gnueabi-base:arm64.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 94805 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 94805 files and directories currently installed.)
 Preparing to unpack .../00-gcc-13-arm-linux-gnueabi-base_13.2.0-23ubuntu4cross1_arm64.deb ...
 Unpacking gcc-13-arm-linux-gnueabi-base:arm64 (13.2.0-23ubuntu4cross1) ...
 Selecting previously unselected package cpp-13-arm-linux-gnueabi.
@@ -965,28 +839,7 @@ Get:10 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libpcap0.8-dev arm6
 Get:11 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libpcap-dev arm64 1.10.4-4.1ubuntu3 [3,324 B]
 Fetched 2,308 kB in 1s (2,265 kB/s)
 Selecting previously unselected package libnl-3-200:arm64.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 100241 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 100241 files and directories currently installed.)
 Preparing to unpack .../00-libnl-3-200_3.7.0-0.3build1_arm64.deb ...
 Unpacking libnl-3-200:arm64 (3.7.0-0.3build1) ...
 Selecting previously unselected package libnl-route-3-200:arm64.
@@ -1061,28 +914,7 @@ Get:8 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 lzma arm64 9.22-
 Get:9 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 lzma-dev all 9.22-2.2 [41.6 kB]
 Fetched 801 kB in 1s (879 kB/s)
 Selecting previously unselected package liblz1:arm64.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 100954 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 100954 files and directories currently installed.)
 Preparing to unpack .../0-liblz1_1.14-1_arm64.deb ...
 Unpacking liblz1:arm64 (1.14-1) ...
 Selecting previously unselected package liblz-dev:arm64.
@@ -3481,28 +3313,7 @@ Get:21 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 inetutils-trace
 Preconfiguring packages ...
 Fetched 2,483 kB in 2s (1,377 kB/s)
 Selecting previously unselected package inetutils-syslogd.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 101448 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101448 files and directories currently installed.)
 Preparing to unpack .../00-inetutils-syslogd_2%3a2.5-3ubuntu4_arm64.deb ...
 Unpacking inetutils-syslogd (2:2.5-3ubuntu4) ...
 Selecting previously unselected package tcpd.
@@ -3628,52 +3439,10 @@ Get:2 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 iputils-tracepath ar
 Get:3 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 iputils-arping arm64 3:20240117-1build1 [14.5 kB]
 Get:4 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 iputils-clockdiff arm64 3:20240117-1build1 [11.4 kB]
 Fetched 83.4 kB in 1s (118 kB/s)
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 101716 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101716 files and directories currently installed.)
 Removing inetutils-ping (2:2.5-3ubuntu4) ...
 Selecting previously unselected package iputils-ping.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 101705 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101705 files and directories currently installed.)
 Preparing to unpack .../iputils-ping_3%3a20240117-1build1_arm64.deb ...
 Unpacking iputils-ping (3:20240117-1build1) ...
 Selecting previously unselected package iputils-tracepath.
@@ -3745,28 +3514,7 @@ Get:9 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libxcb-xfixes0-dev a
 Get:10 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 xcb arm64 2.4-8build2 [21.1 kB]
 Fetched 809 kB in 1s (808 kB/s)
 Selecting previously unselected package libpthread-stubs0-dev:arm64.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 101729 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101729 files and directories currently installed.)
 Preparing to unpack .../0-libpthread-stubs0-dev_0.4-1build3_arm64.deb ...
 Unpacking libpthread-stubs0-dev:arm64 (0.4-1build3) ...
 Selecting previously unselected package xorg-sgml-doctools.
@@ -4004,28 +3752,7 @@ The following NEW packages will be installed:
 Need to get 80.2 kB of archives.
 After this operation, 302 kB of additional disk space will be used.
 Selecting previously unselected package zsync.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 102018 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 102018 files and directories currently installed.)
 Preparing to unpack .../zsync_0.6.2-5build1_arm64.deb ...
 Unpacking zsync (0.6.2-5build1) ...
 Setting up zsync (0.6.2-5build1) ...
@@ -4320,28 +4047,7 @@ After this operation, 1,012 kB of additional disk space will be used.
 Get:1 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 busybox arm64 1:1.36.1-6ubuntu3.1 [473 kB]
 Fetched 473 kB in 1s (622 kB/s)
 Selecting previously unselected package busybox.
-(Reading database ... 
-(Reading database ... 5%
-(Reading database ... 10%
-(Reading database ... 15%
-(Reading database ... 20%
-(Reading database ... 25%
-(Reading database ... 30%
-(Reading database ... 35%
-(Reading database ... 40%
-(Reading database ... 45%
-(Reading database ... 50%
-(Reading database ... 55%
-(Reading database ... 60%
-(Reading database ... 65%
-(Reading database ... 70%
-(Reading database ... 75%
-(Reading database ... 80%
-(Reading database ... 85%
-(Reading database ... 90%
-(Reading database ... 95%
-(Reading database ... 100%
-(Reading database ... 102027 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 102027 files and directories currently installed.)
 Preparing to unpack .../busybox_1%3a1.36.1-6ubuntu3.1_arm64.deb ...
 Unpacking busybox (1:1.36.1-6ubuntu3.1) ...
 Setting up busybox (1:1.36.1-6ubuntu3.1) ...
@@ -4535,7 +4241,7 @@ creating build/lib/staticx/hooks
 copying staticx/hooks/__init__.py -> build/lib/staticx/hooks
 copying staticx/hooks/pyinstaller.py -> build/lib/staticx/hooks
 copying staticx/hooks/glibc.py -> build/lib/staticx/hooks
-creunset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+creating build/lib/staticx/assets/debug
 copying staticx/assets/debug/libnssfix.so -> build/lib/staticx/assets/debug
 copying staticx/assets/debug/bootloader -> build/lib/staticx/assets/debug
 creating build/lib/staticx/assets/release
@@ -4566,7 +4272,7 @@ copying build/lib/staticx/constants.py -> build/bdist.linux-aarch64/wheel/./stat
 copying build/lib/staticx/utils.py -> build/bdist.linux-aarch64/wheel/./staticx
 copying build/lib/staticx/archive.py -> build/bdist.linux-aarch64/wheel/./staticx
 copying build/lib/staticx/__main__.py -> build/bdist.linux-aarch64/wheel/./staticx
-copunset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+copying build/lib/staticx/version.py -> build/bdist.linux-aarch64/wheel/./staticx
 copying build/lib/staticx/bcjfilter.py -> build/bdist.linux-aarch64/wheel/./staticx
 copying build/lib/staticx/api.py -> build/bdist.linux-aarch64/wheel/./staticx
 running install_egg_info
@@ -4685,22 +4391,7 @@ Login successful.
 ++ RELEASE_TAG=v4.2.1
 ++ timeout 1m eget https://github.com/86Box/86Box --tag v4.2.1 --asset Linux --asset arm64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage
 https://github.com/86Box/86Box/releases/download/v4.2.1/86Box-NDR-Linux-arm64-b6130.AppImage
-
-
-
-Downloading   1% [                         ] (527 kB/48 MB, 7.137 MB/s) [0s:6s]
-                                                                               
-
-Downloading  24% [=====>                      ] (12/48 MB, 81.191 MB/s) [0s:0s]
-                                                                               
-
-Downloading  43% [===========>                ] (21/48 MB, 98.248 MB/s) [0s:0s]
-                                                                               
-
-Downloading  66% [=================>          ] (32/48 MB, 92.784 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [===========================] (48/48 MB, 121.909 MB/s)
+Downloading   1% [                         ] (527 kB/48 MB, 7.137 MB/s) [0s:6s]                                                                               Downloading  24% [=====>                      ] (12/48 MB, 81.191 MB/s) [0s:0s]                                                                               Downloading  43% [===========>                ] (21/48 MB, 98.248 MB/s) [0s:0s]                                                                               Downloading  66% [=================>          ] (32/48 MB, 92.784 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (48/48 MB, 121.909 MB/s)
 Extracted `86Box-NDR-Linux-arm64-b6130.AppImage` to `/tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage`
 ++ [[ -f /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage ]]
 +++ stat -c%s /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage
@@ -4775,8 +4466,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/86box.AppImage, block size 1048576.
-
-[===============================================================|] 642/642 100%
+[===============================================================|] 642/642 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -5038,16 +4728,7 @@ v20240923-1438-g08c36d2a2ff [https://dl-cdn.alpinelinux.org/alpine/edge/communit
 OK: 24802 distinct packages available
 2 errors; 9299 MiB in 1712 packages
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-
-
-
-Downloading  55% [=============>            ] (4.8/8.5 MB, 69.023 MB/s) [0s:0s]
-                                                                               
-
-Downloading  96% [=======================>  ] (8.2/8.5 MB, 60.972 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (8.5/8.5 MB, 60.692 MB/s)
+Downloading  55% [=============>            ] (4.8/8.5 MB, 69.023 MB/s) [0s:0s]                                                                               Downloading  96% [=======================>  ] (8.2/8.5 MB, 60.972 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (8.5/8.5 MB, 60.692 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 go: creating new go.mod: module github.com/mgord9518/aisap/cmd/aisap
 go: to add module requirements and sums:
@@ -5170,7 +4851,7 @@ crypto/md5
 bufio
 github.com/rasky/go-lzo
 regexp/syntax
-cryunset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+crypto/internal/boring
 crypto/sha256
 github.com/therootcompany/xz
 regexp
@@ -5249,16 +4930,10 @@ github.com/mgord9518/aisap/cmd/aisap
 /tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/aisap: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 4.2M	/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/aisap
 https://bin.ajam.dev/aarch64/bwrap
-
-
-
-Downloading 100% [==========================] (194/194 kB, 34.404 MB/s)
+Downloading 100% [==========================] (194/194 kB, 34.404 MB/s)
 Extracted `bwrap` to `/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/bwrap`
 https://bin.ajam.dev/aarch64/squashfuse
-
-
-
-Downloading 100% [==========================] (642/642 kB, 76.324 MB/s)
+Downloading 100% [==========================] (642/642 kB, 76.324 MB/s)
 Extracted `squashfuse` to `/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/squashfuse`
 sending incremental file list
 aisap.desktop
@@ -5303,8 +4978,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on ./aisap.AppImage, block size 131072.
-
-[=================================================================|] 49/49 100%
+[=================================================================|] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 131072
 	compressed data, compressed metadata, compressed fragments,
@@ -5426,8 +5100,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/aisap.AppImage, block size 1048576.
-
-[=================================================================-] 14/14 100%
+[=================================================================-] 14/14 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -5945,88 +5618,28 @@ Installing collected packages: ninja, meson
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 Successfully installed meson-0.61.5 ninja-1.11.1.1
 https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-aarch64.AppImage
-
-
-
-Downloading  10% [=>                         ] (1.2/12 MB, 19.104 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [============================] (12/12 MB, 98.602 MB/s)
+Downloading  10% [=>                         ] (1.2/12 MB, 19.104 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (12/12 MB, 98.602 MB/s)
 Extracted `appimagetool-aarch64.AppImage` to `/usr/local/bin/appimagetool`
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-
-
-
-Downloading  70% [=================>        ] (6.0/8.5 MB, 83.425 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [=========================] (8.5/8.5 MB, 113.379 MB/s)
+Downloading  70% [=================>        ] (6.0/8.5 MB, 83.425 MB/s) [0s:0s]                                                                               Downloading 100% [=========================] (8.5/8.5 MB, 113.379 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 https://bin.ajam.dev/aarch64/gdu
-
-
-
-Downloading  28% [======>                    ] (3.6/13 MB, 54.466 MB/s) [0s:0s]
-                                                                               
-
-Downloading  49% [============>              ] (6.4/13 MB, 42.547 MB/s) [0s:0s]
-                                                                               
-
-Downloading  58% [==============>            ] (7.5/13 MB, 28.435 MB/s) [0s:0s]
-                                                                               
-
-Downloading  79% [=====================>      ] (10/13 MB, 31.234 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [============================] (13/13 MB, 34.855 MB/s)
+Downloading  28% [======>                    ] (3.6/13 MB, 54.466 MB/s) [0s:0s]                                                                               Downloading  49% [============>              ] (6.4/13 MB, 42.547 MB/s) [0s:0s]                                                                               Downloading  58% [==============>            ] (7.5/13 MB, 28.435 MB/s) [0s:0s]                                                                               Downloading  79% [=====================>      ] (10/13 MB, 31.234 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (13/13 MB, 34.855 MB/s)
 Extracted `gdu` to `/usr/local/bin/gdu`
 https://bin.ajam.dev/aarch64/jq
-
-
-
-Downloading 100% [=========================] (1.6/1.6 MB, 119.898 MB/s)
+Downloading 100% [=========================] (1.6/1.6 MB, 119.898 MB/s)
 Extracted `jq` to `/usr/local/bin/jq`
 https://bin.ajam.dev/aarch64/linuxdeploy.no_strip
-
-
-
-Downloading  40% [=========>                ] (4.0/9.9 MB, 60.647 MB/s) [0s:0s]
-                                                                               
-
-Downloading  95% [=======================>  ] (9.4/9.9 MB, 70.565 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (9.9/9.9 MB, 73.057 MB/s)
+Downloading  40% [=========>                ] (4.0/9.9 MB, 60.647 MB/s) [0s:0s]                                                                               Downloading  95% [=======================>  ] (9.4/9.9 MB, 70.565 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (9.9/9.9 MB, 73.057 MB/s)
 Extracted `linuxdeploy.no_strip` to `/usr/local/bin/linuxdeploy`
 https://bin.ajam.dev/aarch64/ouch
-
-
-
-Downloading  91% [======================>   ] (3.8/4.1 MB, 56.240 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (4.1/4.1 MB, 58.807 MB/s)
+Downloading  91% [======================>   ] (3.8/4.1 MB, 56.240 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.1/4.1 MB, 58.807 MB/s)
 Extracted `ouch` to `/usr/local/bin/ouch`
 https://bin.ajam.dev/aarch64/rsync
-
-
-
-Downloading  48% [===========>              ] (2.1/4.3 MB, 22.698 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (4.3/4.3 MB, 37.322 MB/s)
+Downloading  48% [===========>              ] (2.1/4.3 MB, 22.698 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.3/4.3 MB, 37.322 MB/s)
 Extracted `rsync` to `/usr/local/bin/rsync`
 https://github.com/lzhiyong/android-sdk-tools/releases/download/35.0.2/android-sdk-tools-aarch64.zip
-
-
-
-Downloading   5% [>                        ] (623 kB/11 MB, 9.196 MB/s) [0s:1s]
-                                                                               
-
-Downloading  77% [===================>       ] (8.5/11 MB, 63.399 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [============================] (11/11 MB, 78.034 MB/s)
+Downloading   5% [>                        ] (623 kB/11 MB, 9.196 MB/s) [0s:1s]                                                                               Downloading  77% [===================>       ] (8.5/11 MB, 63.399 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (11/11 MB, 78.034 MB/s)
 Extracted `build-tools/aapt` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aapt`
 Extracted `build-tools/aapt2` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aapt2`
 Extracted `build-tools/aidl` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aidl`
@@ -6045,10 +5658,7 @@ Extracted `platform-tools/make_f2fs` to `/tmp/tmp.9uU0Xu3LCD/android-tools/andro
 Extracted `platform-tools/make_f2fs_casefold` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/make_f2fs_casefold`
 Extracted `others/veridex` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/veridex`
 https://bin.ajam.dev/aarch64/Baseutils/bash/sh
-
-
-
-Downloading 100% [==========================] (1.1/1.1 MB, 30.055 MB/s)
+Downloading 100% [==========================] (1.1/1.1 MB, 30.055 MB/s)
 Extracted `sh` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/sh`
 bash: line 32: /tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/adb: No such file or directory
 sending incremental file list
@@ -6148,8 +5758,7 @@ Architecture from $ARCH: aarch64
 /tmp/.mount_go-appABBjKL/usr/bin/mksquashfs /tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir Android-platform-tools-35.0.2-aarch64.AppImage -offset 495792 -fstime 1728541091 -comp zstd -root-owned -noappend -b 1M
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on Android-platform-tools-35.0.2-aarch64.AppImage, block size 1048576.
-
-[=================================================================-] 49/49 100%
+[=================================================================-] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -6286,8 +5895,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/android-tools.AppImage, block size 1048576.
-
-[=================================================================/] 49/49 100%
+[=================================================================/] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -6795,82 +6403,25 @@ Installing collected packages: ninja, meson
 Successfully installed meson-0.61.5 ninja-1.11.1.1
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-aarch64.AppImage
-
-
-
-Downloading   4% [>                        ] (527 kB/12 MB, 7.886 MB/s) [0s:1s]
-                                                                               
-
-Downloading  61% [===============>           ] (7.1/12 MB, 54.754 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [============================] (12/12 MB, 79.351 MB/s)
+Downloading   4% [>                        ] (527 kB/12 MB, 7.886 MB/s) [0s:1s]                                                                               Downloading  61% [===============>           ] (7.1/12 MB, 54.754 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (12/12 MB, 79.351 MB/s)
 Extracted `appimagetool-aarch64.AppImage` to `/usr/local/bin/appimagetool`
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-
-
-
-Downloading  40% [=========>                ] (3.5/8.5 MB, 50.418 MB/s) [0s:0s]
-                                                                               
-
-Downloading  81% [====================>     ] (6.9/8.5 MB, 51.747 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (8.5/8.5 MB, 56.870 MB/s)
+Downloading  40% [=========>                ] (3.5/8.5 MB, 50.418 MB/s) [0s:0s]                                                                               Downloading  81% [====================>     ] (6.9/8.5 MB, 51.747 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (8.5/8.5 MB, 56.870 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 https://bin.ajam.dev/aarch64/gdu
-
-
-
-Downloading  18% [===>                       ] (2.3/13 MB, 33.054 MB/s) [0s:0s]
-                                                                               
-
-Downloading  56% [==============>            ] (7.3/13 MB, 53.392 MB/s) [0s:0s]
-                                                                               
-
-Downloading  71% [==================>        ] (9.3/13 MB, 42.176 MB/s) [0s:0s]
-                                                                               
-
-Downloading  87% [=======================>    ] (11/13 MB, 39.722 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [============================] (13/13 MB, 42.953 MB/s)
+Downloading  18% [===>                       ] (2.3/13 MB, 33.054 MB/s) [0s:0s]                                                                               Downloading  56% [==============>            ] (7.3/13 MB, 53.392 MB/s) [0s:0s]                                                                               Downloading  71% [==================>        ] (9.3/13 MB, 42.176 MB/s) [0s:0s]                                                                               Downloading  87% [=======================>    ] (11/13 MB, 39.722 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (13/13 MB, 42.953 MB/s)
 Extracted `gdu` to `/usr/local/bin/gdu`
 https://bin.ajam.dev/aarch64/jq
-
-
-
-Downloading 100% [=========================] (1.6/1.6 MB, 115.638 MB/s)
+Downloading 100% [=========================] (1.6/1.6 MB, 115.638 MB/s)
 Extracted `jq` to `/usr/local/bin/jq`
 https://bin.ajam.dev/aarch64/linuxdeploy.no_strip
-
-
-
-Downloading  40% [=========>                ] (4.0/9.9 MB, 58.077 MB/s) [0s:0s]
-                                                                               
-
-Downloading  67% [================>         ] (6.7/9.9 MB, 46.266 MB/s) [0s:0s]
-                                                                               
-
-Downloading  86% [=====================>    ] (8.6/9.9 MB, 40.157 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (9.9/9.9 MB, 38.617 MB/s)
+Downloading  40% [=========>                ] (4.0/9.9 MB, 58.077 MB/s) [0s:0s]                                                                               Downloading  67% [================>         ] (6.7/9.9 MB, 46.266 MB/s) [0s:0s]                                                                               Downloading  86% [=====================>    ] (8.6/9.9 MB, 40.157 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (9.9/9.9 MB, 38.617 MB/s)
 Extracted `linuxdeploy.no_strip` to `/usr/local/bin/linuxdeploy`
 https://bin.ajam.dev/aarch64/ouch
-
-
-
-Downloading  77% [===================>      ] (3.2/4.1 MB, 48.631 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [==========================] (4.1/4.1 MB, 49.012 MB/s)
+Downloading  77% [===================>      ] (3.2/4.1 MB, 48.631 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.1/4.1 MB, 49.012 MB/s)
 Extracted `ouch` to `/usr/local/bin/ouch`
 https://bin.ajam.dev/aarch64/rsync
-
-
-
-Downloading 100% [=========================] (4.3/4.3 MB, 137.117 MB/s)
+Downloading 100% [=========================] (4.3/4.3 MB, 137.117 MB/s)
 Extracted `rsync` to `/usr/local/bin/rsync`
 Last metadata expiration check: 0:00:43 ago on Thu Oct 10 06:18:40 2024.
 Package autoconf-2.69-29.el8.noarch is already installed.
@@ -8741,8 +8292,7 @@ Architecture from $ARCH: aarch64
 /tmp/.mount_go-appMgPGBj/usr/bin/mksquashfs /tmp/tmp.DB77DbUvil/dunst/dunst.AppDir dunst-4c977cc-aarch64.AppImage -offset 495792 -fstime 1728541193 -comp zstd -root-owned -noappend -b 1M
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on dunst-4c977cc-aarch64.AppImage, block size 1048576.
-
-[===============================================================|] 348/348 100%
+[===============================================================|] 348/348 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -8881,8 +8431,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/dunst.AppImage, block size 1048576.
-
-[===============================================================|] 348/348 100%
+[===============================================================|] 348/348 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -10474,10 +10023,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/floorp.NixAppImage, block size 1048576.
-
-[================================================-           ] 14500/17541  82%
-[=========================================================\  ] 17200/17541  98%
-[===========================================================-] 17541/17541 100%
+[================================================-           ] 14500/17541  82%[=========================================================\  ] 17200/17541  98%[===========================================================-] 17541/17541 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -14476,9 +14022,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/inkscape.NixAppImage, block size 1048576.
-
-[/                                                           ]     0/18041   0%
-[===========================================================-] 25473/25473 100%
+[/                                                           ]     0/18041   0%[===========================================================-] 25473/25473 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -14717,10 +14261,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/librewolf.AppImage, block size 1048576.
-
-[==================================|                             ] 200/366  54%
-[===================================================\            ] 300/366  81%
-[===============================================================-] 366/366 100%
+[==================================|                             ] 200/366  54%[===================================================\            ] 300/366  81%[===============================================================-] 366/366 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -15353,9 +14894,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/librewolf.NixAppImage, block size 1048576.
-
-[/                                                           ]     0/14351   0%
-[===========================================================\] 17513/17513 100%
+[/                                                           ]     0/14351   0%[===========================================================\] 17513/17513 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -16038,12 +15577,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/persepolis.NixAppImage, block size 1048576.
-
-[====================\                                       ]  7100/19956  35%
-[============================\                               ]  9600/19956  48%
-[================================================\           ] 16500/19956  82%
-[==========================================================- ] 19900/19956  99%
-[===========================================================/] 19956/19956 100%
+[====================\                                       ]  7100/19956  35%[============================\                               ]  9600/19956  48%[================================================\           ] 16500/19956  82%[==========================================================- ] 19900/19956  99%[===========================================================/] 19956/19956 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -16664,19 +16198,7 @@ curl: (22) The requested URL returned error: 404
 ++ RELEASE_TAG=r.b4cac89
 ++ timeout 1m eget https://github.com/ryujinx-mirror/ryujinx --tag r.b4cac89 --asset arm64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage
 https://github.com/ryujinx-mirror/ryujinx/releases/download/r.b4cac89/ryujinx-r.b4cac89-arm64.AppImage
-
-
-
-Downloading   2% [                         ] (559 kB/24 MB, 7.912 MB/s) [0s:3s]
-                                                                               
-
-Downloading  24% [=====>                     ] (6.0/24 MB, 41.791 MB/s) [0s:0s]
-                                                                               
-
-Downloading  98% [=========================> ] (24/24 MB, 110.271 MB/s) [0s:0s]
-                                                                               
-
-Downloading 100% [===========================] (24/24 MB, 110.462 MB/s)
+Downloading   2% [                         ] (559 kB/24 MB, 7.912 MB/s) [0s:3s]                                                                               Downloading  24% [=====>                     ] (6.0/24 MB, 41.791 MB/s) [0s:0s]                                                                               Downloading  98% [=========================> ] (24/24 MB, 110.271 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (24/24 MB, 110.462 MB/s)
 Extracted `ryujinx-r.b4cac89-arm64.AppImage` to `/tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage`
 ++ [[ -f /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage ]]
 +++ stat -c%s /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage
@@ -16746,8 +16268,7 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/ryujinx.AppImage, block size 1048576.
-
-[=================================================================/] 85/85 100%
+[=================================================================/] 85/85 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
