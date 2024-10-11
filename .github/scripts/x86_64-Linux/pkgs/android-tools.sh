@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #android-tools : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
 export BIN="android-tools"
 export SOURCE_URL="https://android.googlesource.com/platform/build/release"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
@@ -150,7 +151,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
        #End
        popd >/dev/null 2>&1

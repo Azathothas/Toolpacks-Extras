@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/android-tools.sh")
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/magick.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -21,76 +21,76 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO"
-#android-tools : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
-export BIN="android-tools"
-export SOURCE_URL="https://github.com/lzhiyong/android-sdk-tools"
+export SKIP_BUILD="YES"
+#imagemagick : FOSS suite for editing and manipulating Digital Images & Files
+export BIN="imagemagick"
+export SOURCE_URL="https://github.com/ImageMagick/ImageMagick"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="android-tools"
+       export APP="magick"
        export PKG_NAME="${APP}.AppImage"
        RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build
-       docker stop "holy-build-box" 2>/dev/null ; docker rm "holy-build-box" 2>/dev/null
-       docker run --privileged --net="host" --name "holy-build-box" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" "ghcr.io/phusion/holy-build-box:edge-arm64" \
-       bash -l -c '
-        #Update & Setup Base
-         USER="$(whoami)" && export USER="${USER}"
-         HOME="$(getent passwd ${USER} | cut -d: -f6)" && export HOME="${HOME}"
-         SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
-         yum clean all ; yum check-update
-         yum install --skip-broken -y clang clang-devel clang-tools coreutils curl desktop-file-utils dos2unix findutils gettext gettext-devel git intltool moreutils python3 python3-pip.noarch tar util-linux xz wget zip
-         curl -qfsSL "https://bootstrap.pypa.io/pip/$(python3 -c "import sys; print(f\"{sys.version_info.major}.{sys.version_info.minor}\")")/get-pip.py" -o "${SYSTMP}/get-pip.py" && python3 "${SYSTMP}/get-pip.py"
-         pip install meson ninja --upgrade
-        #Static Bins
-         curl -qfsSL "https://bin.ajam.dev/$(uname -m)/eget" -o "/usr/local/bin/eget" && chmod +x "/usr/local/bin/eget"
-         eget "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$(uname -m).AppImage" --to "/usr/local/bin/appimagetool" && chmod +x "/usr/local/bin/appimagetool"
-         eget "https://bin.ajam.dev/$(uname -m)/go-appimagetool.no_strip" --to "/usr/local/bin/go-appimagetool" && chmod +x "/usr/local/bin/go-appimagetool"
-         eget "https://bin.ajam.dev/$(uname -m)/gdu" --to "/usr/local/bin/gdu" && chmod +x "/usr/local/bin/gdu"
-         eget "https://bin.ajam.dev/$(uname -m)/jq" --to "/usr/local/bin/jq" && chmod +x "/usr/local/bin/jq"
-         eget "https://bin.ajam.dev/$(uname -m)/linuxdeploy.no_strip" --to "/usr/local/bin/linuxdeploy" && chmod +x "/usr/local/bin/linuxdeploy"
-         eget "https://bin.ajam.dev/$(uname -m)/ouch" --to "/usr/local/bin/ouch" && chmod +x "/usr/local/bin/ouch"
-         eget "https://bin.ajam.dev/$(uname -m)/rsync" --to "/usr/local/bin/rsync" && chmod +x "/usr/local/bin/rsync"
+       docker stop "ubuntu-builder" 2>/dev/null ; docker rm "ubuntu-builder" 2>/dev/null
+       docker run --privileged --net="host" --name "ubuntu-builder" -e GITHUB_TOKEN="${GITHUB_TOKEN}" -e RELEASE_TAG="${RELEASE_TAG}" \
+       --pull="always" "azathothas/ubuntu-builder:latest" bash -l -c '
         #Build
          if command -v appimagetool >/dev/null 2>&1 && command -v go-appimagetool >/dev/null 2>&1; then
           #Setup VARS
            mkdir -p "/build-bins" && pushd "$(mktemp -d)" >/dev/null 2>&1
            export ARCH="$(uname -m)"
-           export APP="android-tools"
+           export APP="magick"
            export APPDIR="${APP}.AppDir"
            export EXEC="${APP}"
            export OWD="$(realpath .)"
            mkdir -p "${OWD}/${APP}/${APP}.AppDir" && export APPDIR="${OWD}/${APP}/${APP}.AppDir"
-          #Get Src & Build
-           mkdir -p "${APPDIR}/usr/bin"
-           eget "https://github.com/lzhiyong/android-sdk-tools" --asset "aarch64.zip" --all --to "${APPDIR}/usr/bin"
-           eget "https://bin.ajam.dev/$(uname -m)/Baseutils/bash/sh" --to "${APPDIR}/usr/bin/sh"
-           VERSION="$("${APPDIR}/usr/bin/adb" --version | tr -d "[:alpha:]" | sed "/[^0-9 .\\-]/d" | sed "s/^ *//;s/ *$//" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}" ; [ -z "${VERSION}" ] && export VERSION="${RELEASE_TAG}"
-           cd "${OWD}/${APP}"
+          #Get Src & Build: https://github.com/ImageMagick/ImageMagick/blob/main/.github/workflows/release.yml
+           pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --filter "blob:none" --depth="1" "https://github.com/ImageMagick/ImageMagick" && cd "./ImageMagick"
+           #git checkout "$(git tag --sort=-creatordate | grep -iv "continuous" | head -n 1)"
+           export VERSION="$(curl -qfsSL "https://raw.githubusercontent.com/ImageMagick/ImageMagick/refs/heads/main/app-image/AppRun" | sed -n "s#.*/\(ImageMagick-[0-9]\+\.[0-9]\+\.[0-9]\+\).*#\1#p" | sort --version-sort | tail -n 1 | tr -d "[:space:]")" && export VERSION="${VERSION}"
+           [[ -n "${VERSION}" && "${VERSION}" =~ [Ii][Mm][Aa][Gg][Ee][Mm][Aa][Gg][Ii][Cc] ]] || exit 1
+           export 
+           #Install Deps
+           packages="imagemagick intltool libbz2-dev libdjvulibre-dev libdmr-dev libfftw3-dev libfontconfig-dev libfreetype6-dev libfribidi-dev libgraphviz-dev libharfbuzz-dev libheif-dev libjbig-dev libjpeg-dev libjxl-dev liblcms-dev liblcms2-dev liblqr-1-0-dev liblzma-dev libmagick++-dev libmagickcore-dev libopenexr-dev libopenjp2-7-dev libpng-dev liblqr-dev libraqm-dev libraw-dev librsvg2-dev libtiff-dev libturbojpeg0-dev libwebp-dev libwmf-dev libx11-dev libxml2-dev zlib1g-dev libzstd-dev libgs-dev libpstoedit-dev libzip-dev pstoedit"
+           sudo apt update -y -qq
+           for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y -qq --ignore-missing "$pkg"; done ; unset packages
+           sudo add-apt-repository "ppa:strukturag/libheif" -y
+           sudo add-apt-repository "ppa:strukturag/libde265" -y
+           sudo apt install libheif-dev -y -qq
+           make dest clean 2>/dev/null ; make clean 2>/dev/null
+           export CFLAGS="-O2 -flto=auto -w -pipe"
+           export CPPFLAGS="${CFLAGS}"
+           export CXXFLAGS="${CFLAGS}"
+           export LDFLAGS="-s -Wl,-S -Wl,--build-id=none"
+           "./configure" --enable-pipes --with-autotrace --with-dps --with-flif --with-fpx --with-fftw --with-gslib --with-gvc --with-rsvg --with-modules --with-perl --with-wmf --with-utilities --with-security-policy="open" --prefix="${APPDIR}/usr" 
+           make PREFIX="${APPDIR}/usr" --jobs="$(($(nproc)+1))" --keep-going install ; popd >/dev/null 2>&1
           #Prep AppDir 
            if [ -d "${APPDIR}" ] && [ $(du -s "${APPDIR}" | cut -f1) -gt 100 ] && [ -n "${VERSION}" ]; then
+             cd "$(dirname "${APPDIR}")"
             #Assets
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/android-tools.AppRun" -o "${APPDIR}/AppRun"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/android-tools.desktop" -o "${APPDIR}/${APP}.desktop"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/appruns/imagemagick.AppRun" -o "${APPDIR}/AppRun"
+             sed "s/PKG_VERSION/${VERSION}/g" -i "${APPDIR}/AppRun"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop" -o "${APPDIR}/${APP}.desktop"
              sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
              rsync -achLv --mkpath "${APPDIR}/${APP}.desktop" "${APPDIR}/usr/share/applications/${APP}.desktop"
-             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/android-tools.png" -o "${APPDIR}/${APP}.png"
+             curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${APPDIR}/${APP}.png"
              rsync -achLv "${APPDIR}/${APP}.png" "${APPDIR}/.DirIcon"
             #Perms 
              find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} + ; ls -lah "${APPDIR}"
             #Temp Move Shell scripts
              find "${APPDIR}/usr" -type f -exec grep -l "^#\\!.*sh" {} + | xargs dos2unix
-             rsync -achLv --remove-source-files "${APPDIR}/usr/bin/adb" "./adb.tmp"
+             rm -rf "/tmp/.tmp" 2>/dev/null ; mkdir -p "/tmp/.tmp"
+             find "${APPDIR}/usr/bin" -type f -exec grep -l "^#\\!.*sh" {} + | xargs -I{} rsync -achLv --remove-source-files --mkpath "{}" "/tmp/.tmp/bin"
             #Deploy
-             #linuxdeploy --appdir="${APPDIR}" --executable="${APPDIR}/usr/bin/${EXEC}"
+             https://raw.githubusercontent.com/Samueru-sama/deploy-linux.sh/refs/heads/main/deploy-linux.sh
              go-appimagetool --standalone deploy "${APPDIR}/usr/share/applications/${APP}.desktop"
              LD_LIBRARY_PATH="" find "${APPDIR}" -type f -exec ldd "{}" 2>&1 \; | grep "=>" | grep -v "${APPDIR}"
             #Restore Shell Scripts
-             rsync -achLv --remove-source-files "./adb.tmp" "${APPDIR}/usr/bin/adb"
+             rsync -achLv --remove-source-files "/tmp/.tmp/" "${APPDIR}/usr/bin"
             #Create
              if [ -z "${VERSION}" ]; then
                 export VERSION="latest"
@@ -104,8 +104,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        '
       #Copy & Meta
-       docker cp "holy-build-box:/build-bins/." "$(pwd)/"
-       docker stop "holy-build-box" 2>/dev/null ; docker rm "holy-build-box"
+       docker cp "ubuntu-builder:/build-bins/." "$(pwd)/"
+       docker stop "ubuntu-builder" 2>/dev/null ; docker rm "ubuntu-builder"
        find "." -maxdepth 1 -type f -iregex ".*\.AppImage" | xargs realpath | xargs -I {} rsync -achvL "{}" "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then

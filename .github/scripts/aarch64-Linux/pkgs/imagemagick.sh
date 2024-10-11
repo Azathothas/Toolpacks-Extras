@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#self: source 
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/imagemagick.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -20,9 +22,10 @@ fi
 #-------------------------------------------------------#
 ##Main
 export SKIP_BUILD="NO"
-#actual : A local-first personal finance app
-export BIN="actual"
-export SOURCE_URL="https://github.com/actualbudget/actual"
+#imagemagick : FOSS suite for editing and manipulating Digital Images & Files
+export BIN="imagemagick"
+export SOURCE_URL="https://github.com/ImageMagick/ImageMagick"
+export BUILD_APPBUNDLE="YES"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
@@ -30,10 +33,12 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="actual"
+       export APP="magick"
        export PKG_NAME="${APP}.AppImage"
-       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "linux" --asset "AppImage" --asset "^aarch64" --asset "^arm" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+       RELEASE_TAG="$(git ls-remote --tags "${SOURCE_URL}" | awk -F/ '/tags/ && !/{}$/ {print $NF}' | tr -d "[:alpha:]" | sed 's/^[^0-9]*//; s/[^0-9]*$//' | sort --version-sort | tail -n 1 | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       #https://github.com/ImageMagick/ImageMagick/issues/7689
+       #Official binary is gcc: https://imagemagick.org/archive/binaries/magick
+       #timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "gcc" --asset "aarch64" --asset ".AppImage" --asset "^x86_64" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
@@ -78,7 +83,54 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+       fi     
+     #-------------------------------------------------------#
+    if [ "${BUILD_APPBUNDLE}" == "YES" ]; then
+      ##Fetch
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="magick"
+       export PKG_NAME="${APP}.dwfs.AppBundle"
+      ##Build AppBundle
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="magick"
+       export PKG_NAME="${APP}.dwfs.AppBundle"
+       APPDIR="$(realpath .)/${APP}.AppDir" && export APPDIR="${APPDIR}"
+       export ROOTFS_DIR="${APPDIR}/rootfs" && mkdir -p "${ROOTFS_DIR}"
+       APP_ID="$(echo "${APP}_${RELEASE_TAG:-$(date +%Y_%m_%d)}_${PKG_NAME}" | tr -d '[:space:]')" && export APP_ID="${APP_ID}"
+      #Setup Bundle
+       curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh" | bash
+      #Prep AppDir 
+       if [ -d "${APPDIR}" ] && [ $(du -s "${APPDIR}" | cut -f1) -gt 100 ]; then
+         #Bootstrap
+           "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk update && apk upgrade --no-interactive 2>/dev/null
+         #Packages
+           "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk add imagemagick --no-interactive 2>/dev/null
+           "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- magick --version 2>/dev/null
+         #Entrypoint
+           echo "magick" > "${ROOTFS_DIR}/entrypoint" && chmod +x "${ROOTFS_DIR}/entrypoint"
+         #Fix Symlinks
+           find "${ROOTFS_DIR}/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
+           find "${ROOTFS_DIR}/usr/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
+         #Pack
+          if [ -d "/opt/STATIC_TOOLS" ] && [ $(du -s "/opt/STATIC_TOOLS" | cut -f1) -gt 100 ]; then
+              "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" "${APP_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS" \
+              --compression "--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8"
+          fi
+         #Media
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop" -o "${BINDIR}/${BIN}.desktop"
+           sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${BINDIR}/${BIN}.desktop"
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${BINDIR}/${BIN}.icon.png"
+           rsync -achLv "${BINDIR}/${BIN}.icon.png" "${BINDIR}/${BIN}.DirIcon"
+         #Copy
+           rsync -achLv "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
+           popd >/dev/null 2>&1
+       #Info
+         find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
+    fi
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#

@@ -1,0 +1,12 @@
+name: "imagemagick"
+bin_name: "magick"
+bins:
+  - "magick.AppImage"
+  - "dwfs.AppBundle"
+category:
+ - "graphics"
+description: "FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)"
+note: "This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)"
+web_url: "https://imagemagick.org"
+path: "/"
+src_url: "https://github.com/ImageMagick/ImageMagick"

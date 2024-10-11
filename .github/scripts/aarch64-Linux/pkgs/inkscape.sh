@@ -79,7 +79,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
       ##Fetch (Stable):https://github.com/ivan-hc/AM/blob/main/programs/x86_64/inkscape
@@ -118,7 +118,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
     export BUILD_NIX_APPIMAGE="YES"
@@ -204,7 +204,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
       #End
        popd >/dev/null 2>&1
