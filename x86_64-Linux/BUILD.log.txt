@@ -13511,6 +13511,581 @@ e618597ae17b7618c9ed24e4d197238bebea18fe45aa4ccfdda00411ea719b40  /tmp/toolpack_
 -e 
 
 
+++ '[' YES '!=' YES ']'
+++ '[' -z /tmp/toolpack_x86_64 ']'
+++ '[' -z 0 ']'
+++ '[' -z /bin/echo ']'
+++ '[' -z https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux ']'
+++ '[' -z /tmp ']'
+++ '[' -z 'mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux' ']'
+++ export SKIP_BUILD=NO
+++ SKIP_BUILD=NO
+++ export BIN=imagemagick
+++ BIN=imagemagick
+++ export SOURCE_URL=https://github.com/ImageMagick/ImageMagick
+++ SOURCE_URL=https://github.com/ImageMagick/ImageMagick
+++ export BUILD_APPBUNDLE=YES
+++ BUILD_APPBUNDLE=YES
+++ '[' NO == NO ']'
++++ TZ=UTC
++++ date '+%A, %Y-%m-%d (%I:%M:%S %p)'
+++ echo -e '\n\n [+] (Building | Fetching) imagemagick :: https://github.com/ImageMagick/ImageMagick [Friday, 2024-10-11 (12:06:09 PM) UTC]\n'
+
+
+ [+] (Building | Fetching) imagemagick :: https://github.com/ImageMagick/ImageMagick [Friday, 2024-10-11 (12:06:09 PM) UTC]
+
++++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux
+++ pushd /tmp/toolpacks/5CiGhlv_x86_64_Linux
++++ realpath .
+++ OWD=/tmp/toolpacks/5CiGhlv_x86_64_Linux
+++ export OWD=/tmp/toolpacks/5CiGhlv_x86_64_Linux
+++ OWD=/tmp/toolpacks/5CiGhlv_x86_64_Linux
+++ export APP=magick
+++ APP=magick
+++ export PKG_NAME=magick.AppImage
+++ PKG_NAME=magick.AppImage
++++ git ls-remote --tags https://github.com/ImageMagick/ImageMagick
++++ awk -F/ '/tags/ && !/{}$/ {print $NF}'
++++ tr -d '[:alpha:]'
++++ sort --version-sort
++++ sed 's/^[^0-9]*//; s/[^0-9]*$//'
++++ tr -d '[:space:]'
++++ tail -n 1
+++ RELEASE_TAG=7.1.1-39
+++ export RELEASE_TAG=7.1.1-39
+++ RELEASE_TAG=7.1.1-39
+++ [[ -f /tmp/toolpacks/5CiGhlv_x86_64_Linux/magick.AppImage ]]
+++ '[' YES == YES ']'
++++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux
+++ pushd /tmp/toolpacks/mHMsVRa_x86_64_Linux
++++ realpath .
+++ OWD=/tmp/toolpacks/mHMsVRa_x86_64_Linux
+++ export OWD=/tmp/toolpacks/mHMsVRa_x86_64_Linux
+++ OWD=/tmp/toolpacks/mHMsVRa_x86_64_Linux
+++ export APP=magick
+++ APP=magick
+++ export PKG_NAME=magick.dwfs.AppBundle
+++ PKG_NAME=magick.dwfs.AppBundle
++++ realpath .
+++ APPDIR=/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir
+++ export APPDIR=/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir
+++ APPDIR=/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir
+++ export ROOTFS_DIR=/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
+++ ROOTFS_DIR=/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
+++ mkdir -p /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++++ curl -qfsSL https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD
++++ sed -n 's/^pkgver=//p'
++++ tr -d '[:space:]'
+++ RELEASE_TAG=7.1.1.39
+++ export RELEASE_TAG=7.1.1.39
+++ RELEASE_TAG=7.1.1.39
++++ echo magick_7.1.1.39_magick.dwfs.AppBundle
++++ tr -d '[:space:]'
+++ APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ export APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ APP_ID=magick_7.1.1.39_magick.dwfs.AppBundle
+++ bash
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh
++ export -f setup_appbundles_alpine
++ '[' -z /tmp/toolpacks/mHMsVRa_x86_64_Linux ']'
++ '[' -z magick ']'
++ '[' -z /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir ']'
++ '[' -z /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs ']'
++ '[' -z /tmp ']'
++ '[' -z 'mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_x86_64_Linux' ']'
++ setup_appbundles_alpine
++ export APPRUN_URL=https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable
++ APPRUN_URL=https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable
++ '[' -f /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz ']'
+++ du -s /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz
+++ cut -f1
++ '[' 3412 -gt 100 ']'
++ mkdir -p /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++ bsdtar -x -f /opt/ROOTFS/alpine-mini.ROOTFS.tar.gz -p -C /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++ '[' -d /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs ']'
+++ cut -f1
+++ du -s /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++ '[' 8260 -gt 100 ']'
++ realpath /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++ ls /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs -lah
+total 76K
+drwxr-xr-x 19 runner runner 4.0K Oct 11 12:06 .
+drwxr-xr-x  3 runner runner 4.0K Oct 11 12:06 ..
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 bin
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 dev
+drwxr-xr-x 17 runner runner 4.0K Sep  6 11:34 etc
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 home
+drwxr-xr-x  6 runner runner 4.0K Sep  6 11:34 lib
+drwxr-xr-x  5 runner runner 4.0K Sep  6 11:34 media
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 mnt
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 opt
+dr-xr-xr-x  2 runner runner 4.0K Sep  6 11:34 proc
+drwx------  2 runner runner 4.0K Sep  6 11:34 root
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 run
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 sbin
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 srv
+drwxr-xr-x  2 runner runner 4.0K Sep  6 11:34 sys
+drwxrwxrwt  2 runner runner 4.0K Sep  6 11:34 tmp
+drwxr-xr-x  7 runner runner 4.0K Sep  6 11:34 usr
+drwxr-xr-x 12 runner runner 4.0K Sep  6 11:34 var
++ du -sh /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
+8.1M	/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs
++ curl -qfsSL https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable -o /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun
++ chmod +x /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun
++ mkdir -p /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/usr/bin
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/bash -o /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/bash
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/bwrap -o /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/usr/bin/bwrap
++ echo bash
++ chmod +x /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/entrypoint
++ chmod +x /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/usr/bin/bwrap /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/bash
++ ln --symbolic --force ../../bin/bash /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bash
++ sudo chmod 755 /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/bbsuid
++ echo -e 'nameserver 8.8.8.8\nnameserver 2620:0:ccc::2'
++ echo -e 'nameserver 1.1.1.1\nnameserver 2606:4700:4700::1111'
++ unlink /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/etc/resolv.conf
++ echo LANG=en_US.UTF-8
++ echo LANG=en_US.UTF-8
++ echo LANGUAGE=en_US:en
++ echo LC_ALL=en_US.UTF-8
++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "../bin/busybox" "$1"' _ '{}' ';'
++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "../../bin/busybox" "$1"' _ '{}' ';'
++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin -type l -exec sh -c 'echo "{} -> $(readlink "{}")"' ';'
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/sync -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/makemime -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/linux64 -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/zcat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/run-parts -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ipcalc -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/netstat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/cat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ash -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/stat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/dmesg -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/base64 -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/fsync -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ls -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/pidof -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/kbd_mode -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/touch -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/chown -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/fdflush -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/setserial -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mv -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/chattr -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/gzip -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/gunzip -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/true -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/umount -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ping6 -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/uname -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/kill -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mknod -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/setpriv -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/fgrep -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/usleep -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mktemp -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/date -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/df -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/dnsdomainname -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/bbconfig -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/dumpkmap -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ping -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/arch -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/more -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/rmdir -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/fatattr -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/tar -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/nice -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/lsattr -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/egrep -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/cp -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/watch -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/reformime -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mpstat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/lzop -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/pwd -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/rm -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ionice -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/hostname -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/stty -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/link -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/grep -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/echo -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/chgrp -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/chmod -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/login -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ps -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/getopt -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/dd -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/printenv -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/rev -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mount -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mkdir -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/mountpoint -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/sleep -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/su -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/sh -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/sed -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/iostat -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/ln -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/linux32 -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/pipe_progress -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/false -> ../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/renice -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/traceroute -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/printf -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/dirname -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/uniq -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cryptpw -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bzip2 -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/uptime -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/which -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tree -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tty -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/who -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/dos2unix -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/wget -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/ipcrm -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/deallocvt -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unlink -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/shuf -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sha1sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/diff -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nc -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/split -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unzip -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/eject -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/top -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/uudecode -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tac -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/microcom -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/whoami -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/paste -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/id -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/find -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/lzopcat -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/passwd -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/ipcs -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sort -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sha256sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unexpand -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/readlink -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pwdx -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/vlock -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/awk -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sha3sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/du -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/comm -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nmeter -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/lzma -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/install -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unxz -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unlzma -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/basename -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/mesg -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/env -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/traceroute6 -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nl -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/vi -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/expr -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/strings -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nslookup -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/fallocate -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/realpath -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/setsid -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/lsof -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/dc -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/mkpasswd -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bzcat -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cal -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/shred -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/fold -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/whois -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cmp -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/flock -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unlzop -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/[ -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tr -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/ttysize -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/fuser -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/hexdump -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/xzcat -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/crontab -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/free -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/udhcpc6 -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/clear -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/od -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/hd -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/logger -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/factor -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pmap -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/openvt -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tee -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bc -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unshare -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bash -> ../../bin/bash
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/sha512sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/md5sum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/reset -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/seq -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/expand -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/mkfifo -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/chvt -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/truncate -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/lzcat -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/showkey -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/less -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/setkeycodes -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/last -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/unix2dos -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nproc -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nsenter -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pscan -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cut -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/tail -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/wc -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pkill -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cksum -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pgrep -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/resize -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/volname -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/bunzip2 -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/time -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/killall -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/hostid -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/xxd -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/uuencode -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/groups -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/xargs -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/lsusb -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/nohup -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/pstree -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/head -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/[[ -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/yes -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/beep -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/blkdiscard -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/cpio -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/test -> ../../bin/busybox
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin/timeout -> ../../bin/busybox
++ echo https://dl-cdn.alpinelinux.org/alpine/latest-stable/main
++ echo https://dl-cdn.alpinelinux.org/alpine/latest-stable/community
++ /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk -X https://dl-cdn.alpinelinux.org/alpine/latest-stable/main -U --allow-untrusted --initdb add alpine-base
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/x86_64/APKINDEX.tar.gz
+(1/10) Installing ifupdown-ng (0.12.1-r5)
+(2/10) Installing libcap2 (2.70-r0)
+(3/10) Installing openrc (0.54-r1)
+Executing openrc-0.54-r1.post-install
+(4/10) Installing mdev-conf (4.7-r0)
+(5/10) Installing busybox-mdev-openrc (1.36.1-r29)
+(6/10) Installing alpine-conf (3.18.1-r0)
+(7/10) Installing alpine-release (3.20.3-r0)
+(8/10) Installing busybox-openrc (1.36.1-r29)
+(9/10) Installing busybox-suid (1.36.1-r29)
+(10/10) Installing alpine-base (3.20.3-r0)
+Executing busybox-1.36.1-r29.trigger
+OK: 10 MiB in 24 packages
++ /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk update
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/x86_64/APKINDEX.tar.gz
+v3.20.3-159-g093e185483c [https://dl-cdn.alpinelinux.org/alpine/latest-stable/main]
+v3.20.3-163-g75b315f18d8 [https://dl-cdn.alpinelinux.org/alpine/latest-stable/community]
+OK: 24163 distinct packages available
++ apk upgrade --no-interactive
++ sudo mkdir -p /opt/STATIC_TOOLS
+++ whoami
+++ whoami
++ sudo chown -R runner:runner /opt/STATIC_TOOLS
++ sudo chmod -R 755 /opt/STATIC_TOOLS
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/bwrap -o /opt/STATIC_TOOLS/bwrap
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/dwarfs-tools -o /opt/STATIC_TOOLS/dwarfs
++ sudo rsync -achL /opt/STATIC_TOOLS/dwarfs /usr/bin/dwarfs
++ sudo chmod +x /usr/bin/dwarfs
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/Baseutils/fuse3/fusermount3 -o /opt/STATIC_TOOLS/fusermount
++ sudo rsync -achL /opt/STATIC_TOOLS/fusermount /usr/bin/fusermount
++ sudo chmod +x /usr/bin/fusermount
+++ uname -m
++ curl -qfsSL https://bin.ajam.dev/x86_64/dwarfs-tools -o /opt/STATIC_TOOLS/mkdwarfs
++ sudo rsync -achL /opt/STATIC_TOOLS/mkdwarfs /usr/bin/mkdwarfs
++ sudo chmod +x /usr/bin/mkdwarfs
++ curl -qfsSL https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/pelf-dwfs -o /opt/STATIC_TOOLS/pelf-dwfs
++ dos2unix --quiet /opt/STATIC_TOOLS/pelf-dwfs
++ chmod +x /opt/STATIC_TOOLS/pelf-dwfs
++ set +x
+++ '[' -d /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir ']'
++++ du -s /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir
++++ cut -f1
+++ '[' 13916 -gt 100 ']'
+++ /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk update
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64/APKINDEX.tar.gz
+fetch https://dl-cdn.alpinelinux.org/alpine/latest-stable/community/x86_64/APKINDEX.tar.gz
+v3.20.3-159-g093e185483c [https://dl-cdn.alpinelinux.org/alpine/latest-stable/main]
+v3.20.3-163-g75b315f18d8 [https://dl-cdn.alpinelinux.org/alpine/latest-stable/community]
+OK: 24163 distinct packages available
+++ apk upgrade --no-interactive
+++ /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- apk add imagemagick --no-interactive
+(1/22) Installing libxau (1.0.11-r4)
+(2/22) Installing libmd (1.1.0-r0)
+(3/22) Installing libbsd (0.12.2-r0)
+(4/22) Installing libxdmcp (1.1.5-r1)
+(5/22) Installing libxcb (1.16.1-r0)
+(6/22) Installing libx11 (1.8.9-r1)
+(7/22) Installing libxext (1.3.6-r2)
+(8/22) Installing libbz2 (1.0.8-r6)
+(9/22) Installing fftw-double-libs (3.3.10-r5)
+(10/22) Installing libexpat (2.6.3-r0)
+(11/22) Installing brotli-libs (1.1.0-r2)
+(12/22) Installing libpng (1.6.44-r0)
+(13/22) Installing freetype (2.13.2-r0)
+(14/22) Installing fontconfig (2.15.0-r1)
+(15/22) Installing libgcc (13.2.1_git20240309-r0)
+(16/22) Installing libgomp (13.2.1_git20240309-r0)
+(17/22) Installing lcms2 (2.16-r0)
+(18/22) Installing libltdl (2.4.7-r3)
+(19/22) Installing xz-libs (5.6.2-r0)
+(20/22) Installing libxml2 (2.12.7-r0)
+(21/22) Installing imagemagick-libs (7.1.1.32-r2)
+(22/22) Installing imagemagick (7.1.1.32-r2)
+Executing busybox-1.36.1-r29.trigger
+1 error; 29 MiB in 46 packages
+++ /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/AppRun --Xbwrap --uid 0 --gid 0 -- magick --version
+Version: ImageMagick 7.1.1-32 Q16-HDRI x86_64 22207 https://imagemagick.org
+Copyright: (C) 1999 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules OpenMP(4.5) 
+Delegates (built-in): bzlib cairo fftw fontconfig freetype gslib heic jng jpeg jxl lcms ltdl lzma pangocairo png ps raw rsvg tiff webp x xml zlib zstd
+Compiler: gcc (13.2)
+++ echo magick
+++ chmod +x /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/entrypoint
+++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ '{}' ';'
+++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/usr/bin -type l -lname /bin/busybox -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ '{}' ';'
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop -o /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.desktop
+++ sed 's/Icon=[^ ]*/Icon=magick/' -i /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.desktop
+++ curl -qfsSL https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png -o /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.icon.png
+++ magick /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.icon.png -background none -density 1000 -resize 256x256 -gravity center -extent 256x256 -verbose /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.icon.png
+/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.icon.png PNG 1979x2049=>256x256 256x256+0+0 8-bit sRGB 571082B 0.010u 0:00.011
+++ rsync -achLv /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.icon.png /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/magick.DirIcon
+sending incremental file list
+magick.icon.png
+
+sent 43.10K bytes  received 35 bytes  86.28K bytes/sec
+total size is 42.97K  speedup is 1.00
+++ '[' '!' -e /tmp/toolpack_x86_64/imagemagick.desktop ']'
+++ '[' '!' -e /tmp/toolpack_x86_64/imagemagick.icon.png ']'
+++ '[' '!' -e /tmp/toolpack_x86_64/imagemagick.DirIcon ']'
++++ echo 7.1.1.39
+++ PKG_VERSION=7.1.1.39
+++ export PKG_VERSION=7.1.1.39
+++ PKG_VERSION=7.1.1.39
+++ echo 7.1.1.39
+++ find /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
+++ '[' -d /opt/STATIC_TOOLS ']'
++++ du -s /opt/STATIC_TOOLS
++++ cut -f1
+++ '[' 29016 -gt 100 ']'
+++ /opt/STATIC_TOOLS/pelf-dwfs --add-appdir /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir magick_7.1.1.39_magick.dwfs.AppBundle --output-to /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.dwfs.AppBundle --embed-static-tools --static-tools-dir /opt/STATIC_TOOLS --compression '--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8'
+cp: cannot open '/tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.AppDir/rootfs/bin/bbsuid' for reading: Permission denied
+- 12:06:26.500441 ==> 0% done, 0 blocks/0 B written
+I 12:06:26.501037 scanning "/tmp/pelf_17286483860626/blob"[K
+I 12:06:26.538759 assigning directory and link inodes...[K
+I 12:06:26.539016 waiting for background scanners...[K
+I 12:06:26.590845 scanning CPU time: 289.6ms[K
+I 12:06:26.590878 finalizing file inodes...[K
+I 12:06:26.591142 saved 59.23 KiB / 29.72 MiB in 45/816 duplicate files[K
+I 12:06:26.591173 assigning device inodes...[K
+I 12:06:26.591203 assigning pipe/socket inodes...[K
+I 12:06:26.591213 building metadata...[K
+I 12:06:26.591224 building blocks...[K
+I 12:06:26.591241 saving names and symlinks...[K
+I 12:06:26.591703 waiting for segmenting/blockifying to finish...[K
+I 12:06:26.592004 updating name and link indices...[K
+I 12:06:26.841566 total ordering CPU time: 1.786ms[K
+I 12:06:26.841615 total segmenting CPU time: 246.6ms[K
+I 12:06:26.845370 saving chunks...[K
+I 12:06:26.845581 saving directories...[K
+I 12:06:26.846052 saving shared files table...[K
+I 12:06:26.849062 saving names table... [2.919ms][K
+I 12:06:26.849639 saving symlinks table... [558.1us][K
+I 12:06:26.850994 waiting for compression to finish...[K
+- 12:06:28.500727 ==> 50% done, 0 blocks/0 B written
+I 12:06:35.815741 compressed 29.72 MiB to 11.06 MiB (ratio=0.372252)[K
+I 12:06:35.816334 compression CPU time: 13.86s[K
+I 12:06:35.816361 filesystem created without errors [9.316s][K
+- 12:06:35.855088 ==> 100% done, 2 blocks/11.06 MiB written
+198 dirs, 430/0 soft/hard links, 816/816 files, 0 other[K
+original size: 29.72 MiB, hashed: 3.634 MiB (486 files, 0 B/s)[K
+scanned: 29.66 MiB (771 files, 129.4 MiB/s), categorizing: 0 B/s[K
+saved by deduplication: 59.23 KiB (45 files), saved by segmenting: 932.9 KiB[K
+filesystem: 28.74 MiB in 2 blocks (918 chunks, 770/770 fragments, 771 inodes)[K
+compressed filesystem: 2 blocks/11.06 MiB written[K
+++ rsync -achLv /tmp/toolpacks/mHMsVRa_x86_64_Linux/magick.dwfs.AppBundle /tmp/toolpack_x86_64/magick.dwfs.AppBundle
+sending incremental file list
+magick.dwfs.AppBundle
+
+sent 19.84M bytes  received 35 bytes  39.67M bytes/sec
+total size is 19.83M  speedup is 1.00
+++ popd
+++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+++ find /tmp/toolpack_x86_64 -type f -iname '*magick*' -print
+/tmp/toolpack_x86_64/imagemagick.desktop: ASCII text
+75ac2ccbe40fd6a9060086399a81d6caacc2162b916fda36d5d202a2a25cfef1  /tmp/toolpack_x86_64/imagemagick.desktop
+b3ae045ac9f621aebfd7610fc14e42e948ad22e5e159b1b59afa2749f2a9b093  /tmp/toolpack_x86_64/imagemagick.desktop
+4.0K	/tmp/toolpack_x86_64/imagemagick.desktop
+/tmp/toolpack_x86_64/imagemagick.DirIcon: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+4416eb7dc55ee8d07b665d99b4f79cfc254424aebadaeebf1912dc96d00417ed  /tmp/toolpack_x86_64/imagemagick.DirIcon
+90b68dfaee77d5209ff3bae8dbcc206a7a51015d97f0cfee67d563cd1c7c8bdd  /tmp/toolpack_x86_64/imagemagick.DirIcon
+32K	/tmp/toolpack_x86_64/imagemagick.DirIcon
+/tmp/toolpack_x86_64/magick.dwfs.AppBundle.version: ASCII text
+f3161bc8ae2baede10f9dd63ba81a00d4671412011c3e4b3fed23fa7c496fc2c  /tmp/toolpack_x86_64/magick.dwfs.AppBundle.version
+c91a13ddd5ca9b1d78a5cc73c99821e8c6a8e30978aed5e2302ce160accc58d4  /tmp/toolpack_x86_64/magick.dwfs.AppBundle.version
+4.0K	/tmp/toolpack_x86_64/magick.dwfs.AppBundle.version
+/tmp/toolpack_x86_64/magick.dwfs.AppBundle: POSIX shell script, ASCII text executable
+7020fcfd368b2f1fd1e423597a24334874e772107cf96fa53b09076d86241e38  /tmp/toolpack_x86_64/magick.dwfs.AppBundle
+a4cb453c20577b6fb5b6bd2e4265b92006a77b3159221fccb7b28bbe364535e4  /tmp/toolpack_x86_64/magick.dwfs.AppBundle
+19M	/tmp/toolpack_x86_64/magick.dwfs.AppBundle
+/tmp/toolpack_x86_64/imagemagick.log: ASCII text, with very long lines (478), with CR, LF line terminators, with escape sequences
+577bbfcec897a576e5a440f67c7d5c9f399be8953dd67ab8dec133d00182ecdd  /tmp/toolpack_x86_64/imagemagick.log
+578961118238dccfae09240be30b9fc059440dfb0b89de98551630fe78d257ef  /tmp/toolpack_x86_64/imagemagick.log
+52K	/tmp/toolpack_x86_64/imagemagick.log
+/tmp/toolpack_x86_64/magick.AppImage.zsync: data
+95716695b2ee6b55222db2ffc26399f7dca6cc039d1ba06eb912c8915b77355c  /tmp/toolpack_x86_64/magick.AppImage.zsync
+8b9bc90fc40eb3c4942237244d70bf2b3302d9f9d36d3b3b60daf13c151d8b13  /tmp/toolpack_x86_64/magick.AppImage.zsync
+88K	/tmp/toolpack_x86_64/magick.AppImage.zsync
+/tmp/toolpack_x86_64/magick.AppImage.version: ASCII text
+fdb85f09f2395f6c763774d7714009f92c83e63ac4de373a3e3aeb104f370f06  /tmp/toolpack_x86_64/magick.AppImage.version
+a1607408fb9320808869f91de5c8b0f3ee0a2cfcf1d2e2e2e43c59d6d69eca8d  /tmp/toolpack_x86_64/magick.AppImage.version
+4.0K	/tmp/toolpack_x86_64/magick.AppImage.version
+/tmp/toolpack_x86_64/imagemagick.icon.png: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+4416eb7dc55ee8d07b665d99b4f79cfc254424aebadaeebf1912dc96d00417ed  /tmp/toolpack_x86_64/imagemagick.icon.png
+90b68dfaee77d5209ff3bae8dbcc206a7a51015d97f0cfee67d563cd1c7c8bdd  /tmp/toolpack_x86_64/imagemagick.icon.png
+32K	/tmp/toolpack_x86_64/imagemagick.icon.png
+/tmp/toolpack_x86_64/magick.AppImage: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped
+ee95c4b2a1a5aea07d13c73ed98c77394df5cff62155e0f96e90593c21fc4922  /tmp/toolpack_x86_64/magick.AppImage
+8d79cbd7dc460ba7724aaf2979f9e3a1c4821d6be6176331043d4ce72746581b  /tmp/toolpack_x86_64/magick.AppImage
+25M	/tmp/toolpack_x86_64/magick.AppImage
+++ unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ LOG_PATH=/tmp/toolpack_x86_64/imagemagick.log
+++ export LOG_PATH=/tmp/toolpack_x86_64/imagemagick.log
+++ LOG_PATH=/tmp/toolpack_x86_64/imagemagick.log
+++ unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ unset SKIP_BUILD
+++ export BUILT=YES
+++ BUILT=YES
+++ unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
+++ unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
+++ unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+++ set +x
+-e 
+
+
 
 [+] Fetching : https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.sh (16/23)
 

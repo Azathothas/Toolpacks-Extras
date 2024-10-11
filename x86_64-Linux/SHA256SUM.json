@@ -1,19 +1,19 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "a660ab13323104744f23191f7d5fa58ef795488d3341402a6d85d0b89a6ff420"
+    "sum": "7a02e9a54110cade651753bf74a3adb69c57047140c04187345451dd04769dd4"
   },
   {
     "filename": "./FILE.json",
-    "sum": "22e2c8e7d5dd15221d8ee47c84a3079e08d45e8c97e387593c4c6457fa6f6cba"
+    "sum": "98d418208be9eb28de176996db9307760d05a0a41f64076fef28ff505ff08046"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "8e3f013b3e5a13d9118f0b95849f0a8a610470d0fa2e704aa843ba4d10188a7e"
+    "sum": "f99af5c0e3be8a49c8ccb92bbd8b38cb9e776af49a1420cfc30c9007090c6c6c"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "c9f7e2d1cbee2b21ceac1e7c7da4c9a9a3df75bcde1c68610279542faaf95f38"
+    "sum": "38dff1563e35b84a199b11b067d55930d1e9baaf8a9aee54000426eb3a79e7c6"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -37,11 +37,11 @@
   },
   {
     "filename": "./METADATA.json",
-    "sum": "9c8058a37d664215a63ed6919786e421ca9a7297848e49e8d1c42cbed4fa0d8e"
+    "sum": "cbfcbfae42d0ab861dd42c9161a7cebd48e9bba227ec5c17891a473e9fb3ba0a"
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "9fe03aee71bf364978479dc6f9c661e0887cece8ad211605f8edfe687ab7f774"
+    "sum": "584d64f62e15f08a860b29b150484223edc3ac2d3fb58e3446dd889ca9dc724b"
   },
   {
     "filename": "./mullvad-browser.tar.xz",
@@ -177,19 +177,19 @@
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "73aa667f34709a71c088a9454af7aa5632a4fac8db57dfd9d3449f44df2e0536"
+    "sum": "8a35835c430546911beb9b04c1ea400d217c4292cec98811d415e604bd022cf4"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "547a770add29c71bbe55f878dfc10d0092ca6df0998594ad614b29779f38abac"
+    "sum": "f3d926eb39b14f5d9d6c1f439a0beadeb36844de4b3f6851473f74f3bbd197f4"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "9ea25c9601f798c3225ae27c6e81169b753aefde9060f91f61e127ff8b1d61bf"
+    "sum": "a1f28dcbcef1f9cab38f221b45d7d3ff4cef5001a4e5cebad0e18733ea404271"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "82680622a4df9a62676c5654da002912c94b08d90a6e9523920d95d52ad38509"
+    "sum": "e21aa6e1c71b9ff30f5bdd4474ae5d90f373eec25582b55302832b08504702d4"
   },
   {
     "filename": "./android-tools.AppImage",
@@ -257,6 +257,14 @@
   },
   {
     "filename": "./magick.AppImage",
-    "sum": "7a69477db54d8dbf9bfdfd6de8394632821a76aeef5887fc13a58d9549bb67cb"
+    "sum": "8d79cbd7dc460ba7724aaf2979f9e3a1c4821d6be6176331043d4ce72746581b"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "sum": "993d3052700c9f9aa3ad3ba294d313dd109a1d691f2c36698e7c910c1413e99f"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "sum": "a4cb453c20577b6fb5b6bd2e4265b92006a77b3159221fccb7b28bbe364535e4"
   }
 ]

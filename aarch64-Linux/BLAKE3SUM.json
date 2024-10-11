@@ -1,15 +1,15 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "4729253dc531c3d18fda8dde06d764bee34f4cbfe43ffeeb824cecf7b32ee3bd"
+    "sum": "f393c6269931ec9eb9f140cac9ec7bf50f64139590e1581ed727ead706f0f672"
   },
   {
     "filename": "./FILE.json",
-    "sum": "c54f3cdb3f613ed9abb2dc93cf74f22ddecb7aba2da400d657b5ddd8c364a419"
+    "sum": "7451820f61eaf2ff1148932c8b2f4ffacfc8f5589eb632555861dc19aced2509"
   },
   {
     "filename": "./METADATA.json",
-    "sum": "8dd180dbe98a41071d3f9bf0ab31de6d10d0a765e3c9863cb98214e1359290f1"
+    "sum": "1eb3b6fbb1cb3626f453b5c76edb4a7e63cfb03e04a391cf8e40334f175ca002"
   },
   {
     "filename": "./METADATA.json.tmp",
@@ -17,15 +17,15 @@
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "7fec07d0d36bfbdc0751e99d0046f52a00b3f96d3af6b6d3258d22b56671995b"
+    "sum": "4ce1dd5f5ed7b442da3bbe16ad5b432aef498aac50646f943128a5ca105f7f4c"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "2aa24eab86bc1631e87c2508b21f58fd5f2f19912a6065e7fe1b8fda9f0e5c3d"
+    "sum": "62fd727dfb8df5ca4a9608797e121606c69118353f0fcf0fcfeee10b7aea2254"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "8bc39f8e876dc069faee413eb7b745f851ceeaeb9684a4f037542abb44926a37"
+    "sum": "274c1b7fe38d3f59fb94e5cefe090a1d158cd7705812f018990be57170a6f230"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -85,19 +85,19 @@
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "4b810c1297be931beaafa361dd9ff98aad5ffc112a82a873baca935900d0462c"
+    "sum": "21f5c0332cdcaf9efdcf0f07503f853f048bc831c51b84c3e068af6713c7050c"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "46c3e542a9bd3c4409ba2f381d30dc1c96e4df3a4a9e58b5d26564785730d9e8"
+    "sum": "d2860845a0c30238e4b37718873ae069b20a207a921273c47c309e88db5bfe07"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "72173dc4463b69a8675f397b48970fdd6c00bfdecd0190056a7541b9561e102f"
+    "sum": "c020295a49db74adc78f1858f035d16d6e2cc86f5836c40886dd8dc0855d49b0"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "67d70c8a8fdf8b45019f583a602d039f2f57bd198bd46bbf890684391722ec11"
+    "sum": "3e83bfefd78604d07c9a9e411c32f5aed737d64c2da67befd935db7a7d622b3b"
   },
   {
     "filename": "./aisap.AppImage",
@@ -146,5 +146,13 @@
   {
     "filename": "./magick.AppImage",
     "sum": "00e61be4a548093f50d1ac722d9c30973c81928eaeb90eb70ccb2aa091f9abfc"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "sum": "0f0e5e0b4895e0b233324bec271750943395565f058befd10977db948e694a35"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "sum": "cbafa9af838ef3899d060bafa70f5e3de958b4b4197de15722dfcbf1725fdbe7"
   }
 ]

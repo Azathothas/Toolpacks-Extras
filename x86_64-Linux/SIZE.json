@@ -713,19 +713,19 @@
   },
   {
     "filename": "./imagemagick.DirIcon",
-    "size": "571.08 KB"
+    "size": "29.82 KB"
   },
   {
     "filename": "./imagemagick.desktop",
-    "size": "202 B"
+    "size": "196 B"
   },
   {
     "filename": "./imagemagick.icon.png",
-    "size": "571.08 KB"
+    "size": "29.82 KB"
   },
   {
     "filename": "./magick.AppImage",
-    "size": "65.27 MB"
+    "size": "25.51 MB"
   },
   {
     "filename": "./magick.AppImage.version",
@@ -733,6 +733,18 @@
   },
   {
     "filename": "./magick.AppImage.zsync",
-    "size": "223.3 KB"
+    "size": "87.4 KB"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "size": "40.49 KB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "size": "19.83 MB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle.version",
+    "size": "9 B"
   }
 ]

@@ -321,7 +321,7 @@
   },
   {
     "filename": "./imagemagick.desktop",
-    "size": "202 B"
+    "size": "164 B"
   },
   {
     "filename": "./imagemagick.icon.png",
@@ -334,5 +334,17 @@
   {
     "filename": "./magick.AppImage.zsync",
     "size": "215.68 KB"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "size": "40.12 KB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "size": "19.57 MB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle.version",
+    "size": "9 B"
   }
 ]
