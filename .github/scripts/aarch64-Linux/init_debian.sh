@@ -193,7 +193,7 @@
     if [ "$CONTINUE" == "YES" ]; then
          #----------------------#
          ##Setup RootFS
-          sudo mkdir -p "/opt/ROOTFS"
+          sudo rm -rvf "/opt/ROOTFS" 2>/dev/null ; sudo mkdir -p "/opt/ROOTFS"
           sudo chown -R "$(whoami):$(whoami)" "/opt/ROOTFS" && sudo chmod -R 755 "/opt/ROOTFS"
           #alpine-mini
            pushd "$(mktemp -d)" >/dev/null 2>&1

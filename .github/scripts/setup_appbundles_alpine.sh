@@ -12,15 +12,27 @@ setup_appbundles_alpine()
 {
  #https://github.com/xplshn/pelf/blob/pelf-ng/assets/AppRun.rootfs-based
   export APPRUN_URL="https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable"
-   if [ -f "/opt/rootfs/alpine-mini.ROOTFS.tar.gz" ] && [ $(du -s "/opt/rootfs/alpine-mini.ROOTFS.tar.gz" | cut -f1) -gt 100 ]; then
+   if [ -f "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ] && [ $(du -s "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" | cut -f1) -gt 100 ]; then
    #Extract
-     bsdtar -x -f "/opt/rootfs/alpine-mini.ROOTFS.tar.gz" -p -C "${ROOTFS_DIR}" 2>/dev/null
+     mkdir -p "${ROOTFS_DIR}"
+     bsdtar -x -f "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" -p -C "${ROOTFS_DIR}" 2>/dev/null
+     if [ -d "${ROOTFS_DIR}" ] && [ $(du -s "${ROOTFS_DIR}" | cut -f1) -gt 100 ]; then
+       realpath "${ROOTFS_DIR}" && ls "${ROOTFS_DIR}" -lah && du -sh "${ROOTFS_DIR}"
+     else
+       echo -e "\n[+] AppBundle ROOTFS Setup Failed\n"
+       exit 1
+     fi
    #AppRun
      curl -qfsSL "${APPRUN_URL}" -o "${APPDIR}/AppRun" && chmod +x "${APPDIR}/AppRun"
    #Deps for ROOTFS
-     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bash" -o "${ROOTFS_DIR}/usr/bin/bash" && chmod +x "${ROOTFS_DIR}/usr/bin/bash"
+     mkdir -p "${APPDIR}/usr/bin"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bash" -o "${ROOTFS_DIR}/bin/bash"
      curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "${APPDIR}/usr/bin/bwrap"
-     sudo chmod u+s "${APPDIR}/usr/bin/bwrap"
+     echo "bash" > "${ROOTFS_DIR}/entrypoint" && chmod +x "${ROOTFS_DIR}/entrypoint"
+     chmod +x "${APPDIR}/usr/bin/bwrap" "${ROOTFS_DIR}/bin/bash"
+     ln --symbolic --force "../../bin/bash" "${ROOTFS_DIR}/usr/bin/bash"
+    ##DO NOT DO THIS 
+     #sudo chmod u+s "${APPDIR}/usr/bin/bwrap"
    #fix /bin/bbsuid ---s--x--x
      sudo chmod 755 "${ROOTFS_DIR}/bin/bbsuid" 2>/dev/null
    #Fix NameServers
@@ -33,8 +45,9 @@ setup_appbundles_alpine()
      echo "LANGUAGE=en_US:en" >> "${ROOTFS_DIR}/etc/locale.conf"
      echo "LC_ALL=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/locale.conf"
    #Fix Symlinks
-     find "${ROOTFS_DIR}/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
-     find "${ROOTFS_DIR}/usr/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
+     find "${ROOTFS_DIR}/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "../bin/busybox" "$1"' _ {} \;
+     find "${ROOTFS_DIR}/usr/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "../../bin/busybox" "$1"' _ {} \;
+     find "${ROOTFS_DIR}/bin" "${ROOTFS_DIR}/usr/bin" -type l -exec sh -c 'echo "{} -> $(readlink "{}")"' \;
    #Add Repos
      echo "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" > "${ROOTFS_DIR}/etc/apk/repositories"
      echo "https://dl-cdn.alpinelinux.org/alpine/latest-stable/community" >> "${ROOTFS_DIR}/etc/apk/repositories"
@@ -46,8 +59,8 @@ setup_appbundles_alpine()
    #Static Tools (embed + host)
      sudo mkdir -p "/opt/STATIC_TOOLS" && sudo chown -R "$(whoami):$(whoami)" "/opt/STATIC_TOOLS" && sudo chmod -R 755 "/opt/STATIC_TOOLS"
      curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "/opt/STATIC_TOOLS/bwrap"
-     sudo rsync -achL "/opt/STATIC_TOOLS/bwrap" "/usr/bin/bwrap" && sudo chmod +x "/usr/bin/bwrap"
-     sudo chmod u+s "/usr/bin/bwrap"
+     #sudo rsync -achL "/opt/STATIC_TOOLS/bwrap" "/usr/bin/bwrap" && sudo chmod +x "/usr/bin/bwrap"
+     #sudo chmod u+s "/usr/bin/bwrap"
      curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dwarfs-tools" -o "/opt/STATIC_TOOLS/dwarfs"
      sudo rsync -achL "/opt/STATIC_TOOLS/dwarfs" "/usr/bin/dwarfs" && sudo chmod +x "/usr/bin/dwarfs"
      curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/fuse3/fusermount3" -o "/opt/STATIC_TOOLS/fusermount"
