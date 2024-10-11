@@ -114,6 +114,10 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${APPDIR}/${APP}.icon.png"
            rsync -achLv "${APPDIR}/${APP}.icon.png" "${APPDIR}/${APP}.DirIcon"
+         #Copy Media
+           [ ! -e "${BINDIR}/${BIN}.desktop" ] && rsync -achLv "${APPDIR}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
+           [ ! -e "${BINDIR}/${BIN}.icon.png" ] && rsync -achLv "${APPDIR}/${APP}.icon.png" "${BINDIR}/${BIN}.icon.png"
+           [ ! -e "${BINDIR}/${BIN}.DirIcon" ] && rsync -achLv "${APPDIR}/${APP}.DirIcon" "${BINDIR}/${BIN}.DirIcon"
          #Version
            PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
            echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
