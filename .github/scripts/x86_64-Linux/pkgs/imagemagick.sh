@@ -112,7 +112,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop" -o "${APPDIR}/${APP}.desktop"
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
            curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${APPDIR}/${APP}.icon.png"
-           magick "${APPDIR}/${APP}.icon.png" -resize "256x256" -gravity "center" -background "none" -extent "256x256" -v "${APPDIR}/${APP}.icon.png"
+           magick "${APPDIR}/${APP}.icon.png" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPDIR}/${APP}.icon.png"
            rsync -achLv "${APPDIR}/${APP}.icon.png" "${APPDIR}/${APP}.DirIcon"
          #Copy Media 
            [ ! -e "${BINDIR}/${BIN}.desktop" ] && rsync -achLv "${APPDIR}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"

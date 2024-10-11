@@ -2,7 +2,7 @@ name: "imagemagick"
 bin_name: "magick"
 bins:
   - "magick.AppImage"
-  - "dwfs.AppBundle"
+  - "magick.dwfs.AppBundle"
 category:
  - "graphics"
 description: "FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)"
