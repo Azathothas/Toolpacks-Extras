@@ -91,6 +91,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        OWD="$(realpath .)" && export OWD="${OWD}"
        export APP="magick"
        export PKG_NAME="${APP}.dwfs.AppBundle"
+       RELEASE_TAG="$(curl -qfsSL "https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build AppBundle
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"

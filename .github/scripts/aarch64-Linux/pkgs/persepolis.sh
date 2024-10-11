@@ -25,10 +25,11 @@ export SKIP_BUILD="NO"
 #persepolis : A Download Manager (GUI for aria2) written in Python
 export BIN="persepolis"
 export SOURCE_URL="https://github.com/persepolisdm/persepolis"
+export BUILD_NIX_APPIMAGE="YES"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES"
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1

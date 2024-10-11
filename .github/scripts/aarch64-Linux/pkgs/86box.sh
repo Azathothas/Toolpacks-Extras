@@ -23,6 +23,7 @@ export SKIP_BUILD="NO"
 #86box : Emulator of x86-based machines. and freedom
 export BIN="86box"
 export SOURCE_URL="https://github.com/86Box/86Box"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#

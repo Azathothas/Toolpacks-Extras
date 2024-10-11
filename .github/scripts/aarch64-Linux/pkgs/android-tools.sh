@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #android-tools : Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot.
 export BIN="android-tools"
 export SOURCE_URL="https://github.com/lzhiyong/android-sdk-tools"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#

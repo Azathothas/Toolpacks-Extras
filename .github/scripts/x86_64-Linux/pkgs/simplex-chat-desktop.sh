@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #simplex-chat-desktop : Powerful, simple, audio tag editor for GNU/Linux
 export BIN="simplex-chat-desktop"
 export SOURCE_URL="https://github.com/simplex-chat/simplex-chat-desktop"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#

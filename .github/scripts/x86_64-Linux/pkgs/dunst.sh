@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #dunst : Lightweight and customizable notification daemon
 export BIN="dunst"
 export SOURCE_URL="https://github.com/dunst-project/dunst"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#

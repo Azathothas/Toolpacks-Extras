@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #aisap : Tool to make sandboxing AppImages easy
 export BIN="aisap"
 export SOURCE_URL="https://github.com/mgord9518/aisap"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#

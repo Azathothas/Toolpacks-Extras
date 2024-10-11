@@ -23,6 +23,7 @@ export SKIP_BUILD="NO"
 #ryujinx : A simple, experimental Nintendo Switch emulator
 export BIN="ryujinx"
 export SOURCE_URL="https://github.com/ryujinx-mirror/ryujinx"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#

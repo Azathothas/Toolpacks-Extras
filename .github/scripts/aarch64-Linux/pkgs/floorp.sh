@@ -25,6 +25,7 @@ export SKIP_BUILD="NO"
 #floorp : A FireFox Fork with Advanced Features & More Customization
 export BIN="floorp"
 export SOURCE_URL="https://github.com/Floorp-Projects/Floorp"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#

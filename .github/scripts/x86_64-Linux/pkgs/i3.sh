@@ -25,6 +25,8 @@ export SKIP_BUILD="NO"
 #i3 : Powerful, simple, audio tag editor for GNU/Linux
 export BIN="i3"
 export SOURCE_URL="https://github.com/i3/i3"
+export BUILD_NIX_APPIMAGE="YES" #This needs export PATH
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
@@ -80,7 +82,6 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES" #This needs export PATH
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1

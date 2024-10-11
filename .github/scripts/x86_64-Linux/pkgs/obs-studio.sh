@@ -25,6 +25,8 @@ export SKIP_BUILD="NO"
 #obs-studio : FOSS cross-platform screencasting and streaming app
 export BIN="obs-studio"
 export SOURCE_URL="https://github.com/obsproject/obs-studio"
+export BUILD_NIX_APPIMAGE="NO" #egl issues
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
@@ -81,7 +83,6 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="NO" #egl issues
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1

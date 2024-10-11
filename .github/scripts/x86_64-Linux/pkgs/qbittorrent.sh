@@ -23,6 +23,8 @@ export SKIP_BUILD="NO"
 #qbittorrent : qBittorrent BitTorrent client
 export BIN="qbittorrent"
 export SOURCE_URL="https://github.com/qbittorrent/qBittorrent"
+export BUILD_NIX_APPIMAGE="YES"
+#-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
      #-------------------------------------------------------#
@@ -79,7 +81,6 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES"
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
