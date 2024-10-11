@@ -192,13 +192,23 @@
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
          #----------------------#
-         ##Setup AppBundles
-          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/scripts/setup_appbundles_alpine.sh")
-          #Test
-          if [ ! -d "/opt/rootfs/AppBundles" ] || [ $(du -s "/opt/rootfs/AppBundles" | cut -f1) -le 100 ]; then
-             echo -e "\n[-] AppBundle Setup Failed\n"
-             export CONTINUE="NO" && exit 1
-          fi 
+         ##Setup RootFS
+          sudo mkdir -p "/opt/ROOTFS"
+          sudo chown -R "$(whoami):$(whoami)" "/opt/ROOTFS" && sudo chmod -R 755 "/opt/ROOTFS"
+          #alpine-mini
+           pushd "$(mktemp -d)" >/dev/null 2>&1
+           aria2c "https://pub.ajam.dev/utils/alpine-mini-$(uname -m)/rootfs.tar.gz" \
+           --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+           --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+           --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
+           rsync -achLv "./ROOTFS.tar.gz" "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ; popd >/dev/null 2>&1
+           #Test
+             if [ ! -f "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ] || [ $(du -s "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" | cut -f1) -le 100 ]; then
+                echo -e "\n[-] RootFS (alpine-mini) Setup Failed\n"
+                export CONTINUE="NO" && exit 1
+             else
+                find "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" -exec sh -c 'file "{}" && du -sh "{}"' \;
+             fi
          #----------------------#
          #Docker
          install_docker ()

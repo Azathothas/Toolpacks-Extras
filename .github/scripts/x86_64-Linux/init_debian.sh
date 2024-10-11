@@ -176,12 +176,39 @@
           #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsync2" --asset "$(uname -m)" --asset "^zsyncmake" --asset "^.zsync" --to "/usr/local/bin/zsync"
           #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsyncmake2" --asset "$(uname -m)" --asset "^.zsync" --to "/usr/local/bin/zsyncmake"
           #sudo chattr +i "/usr/local/bin/appimagetool" "/usr/local/bin/zsync" "/usr/local/bin/zsyncmake"
+         ##ImageMagick
+          #sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/magick.no_strip" -o "/usr/local/bin/magick" && sudo chmod +x "/usr/local/bin/magick"
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_imagemagick.sh")
+          if ! command -v magick &> /dev/null; then
+             echo -e "\n[-] ImageMagick NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             magick --version
+          fi
     fi
     #-------------------------------------------------------#
     
     #-------------------------------------------------------#
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
+         #----------------------#
+         ##Setup RootFS
+          sudo mkdir -p "/opt/ROOTFS"
+          sudo chown -R "$(whoami):$(whoami)" "/opt/ROOTFS" && sudo chmod -R 755 "/opt/ROOTFS"
+          #alpine-mini
+           pushd "$(mktemp -d)" >/dev/null 2>&1
+           aria2c "https://pub.ajam.dev/utils/alpine-mini-$(uname -m)/rootfs.tar.gz" \
+           --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+           --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+           --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
+           rsync -achLv "./ROOTFS.tar.gz" "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ; popd >/dev/null 2>&1
+           #Test
+             if [ ! -f "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ] || [ $(du -s "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" | cut -f1) -le 100 ]; then
+                echo -e "\n[-] AppBundle (alpine-mini) Setup Failed\n"
+                export CONTINUE="NO" && exit 1
+             else
+                find "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" -exec sh -c 'file "{}" && du -sh "{}"' \;
+             fi
          #----------------------#
          #Docker
          install_docker ()
