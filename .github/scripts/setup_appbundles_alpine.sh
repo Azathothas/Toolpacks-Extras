@@ -58,7 +58,7 @@ USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/
    echo "https://dl-cdn.alpinelinux.org/alpine/latest-stable/community" >> "${ROOTFS_DIR}/etc/apk/repositories"
  #Install Base
    #"${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" -U --allow-untrusted -p "${ROOTFS_DIR}" --initdb add "alpine-base"
-   "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" -U --allow-untrusted "${ROOTFS_DIR}" --initdb add "alpine-base"
+   "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" -U --allow-untrusted --initdb add "alpine-base"
  #Upgrade
    "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk update && apk upgrade --no-interactive 2>/dev/null
  #Static Tools (embed + host)
