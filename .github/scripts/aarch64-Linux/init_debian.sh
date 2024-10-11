@@ -176,12 +176,29 @@
           #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsync2" --asset "$(uname -m)" --asset "^zsyncmake" --asset "^.zsync" --to "/usr/local/bin/zsync"
           #sudo eget "https://github.com/AppImageCommunity/zsync2" --pre-release --tag "continuous" --asset "zsyncmake2" --asset "$(uname -m)" --asset "^.zsync" --to "/usr/local/bin/zsyncmake"
           #sudo chattr +i "/usr/local/bin/appimagetool" "/usr/local/bin/zsync" "/usr/local/bin/zsyncmake"
+         ##ImageMagick
+          #sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/magick.no_strip" -o "/usr/local/bin/magick" && sudo chmod +x "/usr/local/bin/magick"
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_imagemagick.sh")
+          if ! command -v magick &> /dev/null; then
+             echo -e "\n[-] ImageMagick NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             magick --version
+          fi
     fi
     #-------------------------------------------------------#
     
     #-------------------------------------------------------#
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
+         #----------------------#
+         ##Setup AppBundles
+          bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/scripts/setup_appbundles_alpine.sh")
+          #Test
+          if [ ! -d "/opt/rootfs/AppBundles" ] || [ $(du -s "/opt/rootfs/AppBundles" | cut -f1) -le 100 ]; then
+             echo -e "\n[-] AppBundle Setup Failed\n"
+             export CONTINUE="NO" && exit 1
+          fi 
          #----------------------#
          #Docker
          install_docker ()

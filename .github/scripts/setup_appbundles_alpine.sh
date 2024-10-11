@@ -3,7 +3,7 @@
 #Needs: bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
 #And more
 #self:
-# bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh")
+# bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/scripts/setup_appbundles_alpine.sh")
 set -x
 #https://github.com/xplshn/pelf/blob/pelf-ng/assets/AppRun.rootfs-based
 export APPRUN_URL="https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable"
@@ -58,6 +58,7 @@ USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/
    echo "https://dl-cdn.alpinelinux.org/alpine/latest-stable/community" >> "${ROOTFS_DIR}/etc/apk/repositories"
  #Install Base
    #"${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" -U --allow-untrusted -p "${ROOTFS_DIR}" --initdb add "alpine-base"
+   "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.alpinelinux.org/alpine/latest-stable/main" -U --allow-untrusted -p "${ROOTFS_DIR}" --initdb add "alpine-base"
  #Upgrade
    "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk update && apk upgrade --no-interactive 2>/dev/null
  #Static Tools (embed + host)
