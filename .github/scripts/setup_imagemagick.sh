@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #self: source 
-# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/setup_imagemagick.sh")
+# bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_imagemagick.sh")
 set -x
 #-------------------------------------------------------#
 
@@ -28,7 +28,7 @@ USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/
  export CXXFLAGS="${CFLAGS}"
  export LDFLAGS="-s -Wl,-S -Wl,--build-id=none"
  "./configure" --enable-pipes --with-autotrace --with-dps --with-flif --with-fpx --with-fftw --with-gslib --with-gvc --with-rsvg --with-modules --with-perl --with-wmf --with-utilities --with-security-policy="open"
- make --jobs="$(($(nproc)+1))" --keep-going install
+ sudo make --jobs="$(($(nproc)+1))" --keep-going install
  unset CFLAGS CPPFLAGS CXXFLAGS LDFLAGS packages
  set +x ; rm -rf "$(realpath .)" 2>/dev/null ; popd >/dev/null 2>&1
 #-------------------------------------------------------#
