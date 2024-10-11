@@ -304,7 +304,7 @@ jobs:
              git lfs install
              huggingface-cli lfs-enable-largefiles "."
              git sparse-checkout disable
-             git sparse-checkout set --no-cone --sparse-index "aarch64-Linux/*.json" "aarch64-Linux/*.log" "aarch64-Linux/*.temp" "aarch64-Linux/*.toml" "aarch64-Linux/*.tmp" "aarch64-Linux/*.txt" "aarch64-Linux/*.yaml" "aarch64-Linux/*.yml"
+             git sparse-checkout set --no-cone --sparse-index "aarch64-Linux/*.json" "aarch64-Linux/*.log" "aarch64-Linux/*.png" "aarch64-Linux/*.temp" "aarch64-Linux/*.toml" "aarch64-Linux/*.tmp" "aarch64-Linux/*.txt" "aarch64-Linux/*.yaml" "aarch64-Linux/*.yml"
              git checkout ; ls -lah "." "./aarch64-Linux"
              git sparse-checkout list
              #copy TOML
@@ -321,6 +321,10 @@ jobs:
              if yq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
                cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "./aarch64-Linux/METADATA.AIO.yaml"
              fi
+             #copy icon
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./aarch64-Linux/base.default.png"
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./aarch64-Linux/bin.default.png"
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./aarch64-Linux/pkg.default.png"
              find "." -type f -size -3c -delete
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
              git pull origin main ; git push origin main
@@ -422,7 +426,7 @@ jobs:
              git lfs install
              huggingface-cli lfs-enable-largefiles "."
              git sparse-checkout disable
-             git sparse-checkout set --no-cone --sparse-index "x86_64-Linux/*.json" "x86_64-Linux/*.log" "x86_64-Linux/*.temp" "x86_64-Linux/*.toml" "x86_64-Linux/*.tmp" "x86_64-Linux/*.txt" "x86_64-Linux/*.yaml" "x86_64-Linux/*.yml"
+             git sparse-checkout set --no-cone --sparse-index "x86_64-Linux/*.json" "x86_64-Linux/*.log" "x86_64-Linux/*.png" "x86_64-Linux/*.temp" "x86_64-Linux/*.toml" "x86_64-Linux/*.tmp" "x86_64-Linux/*.txt" "x86_64-Linux/*.yaml" "x86_64-Linux/*.yml"
              git checkout ; ls -lah "." "./x86_64-Linux"
              git sparse-checkout list
              #copy TOML
@@ -439,6 +443,10 @@ jobs:
              if yq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
                cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "./x86_64-Linux/METADATA.AIO.yaml"
              fi
+             #copy icon
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./x86_64-Linux/base.default.png"
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./x86_64-Linux/bin.default.png"
+             cp "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./x86_64-Linux/pkg.default.png"
              find "." -type f -size -3c -delete
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
              git pull origin main ; git push origin main
