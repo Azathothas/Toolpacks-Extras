@@ -43,7 +43,22 @@
 ++ RELEASE_TAG=v4.2.1
 ++ timeout 1m eget https://github.com/86Box/86Box --tag v4.2.1 --asset Linux --asset arm64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage
 https://github.com/86Box/86Box/releases/download/v4.2.1/86Box-NDR-Linux-arm64-b6130.AppImage
-Downloading   1% [                         ] (527 kB/48 MB, 7.137 MB/s) [0s:6s]                                                                               Downloading  24% [=====>                      ] (12/48 MB, 81.191 MB/s) [0s:0s]                                                                               Downloading  43% [===========>                ] (21/48 MB, 98.248 MB/s) [0s:0s]                                                                               Downloading  66% [=================>          ] (32/48 MB, 92.784 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (48/48 MB, 121.909 MB/s)
+
+
+
+Downloading   1% [                         ] (527 kB/48 MB, 7.137 MB/s) [0s:6s]
+                                                                               
+
+Downloading  24% [=====>                      ] (12/48 MB, 81.191 MB/s) [0s:0s]
+                                                                               
+
+Downloading  43% [===========>                ] (21/48 MB, 98.248 MB/s) [0s:0s]
+                                                                               
+
+Downloading  66% [=================>          ] (32/48 MB, 92.784 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [===========================] (48/48 MB, 121.909 MB/s)
 Extracted `86Box-NDR-Linux-arm64-b6130.AppImage` to `/tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage`
 ++ [[ -f /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage ]]
 +++ stat -c%s /tmp/toolpacks/pnTPBd6_aarch64_Linux/86box.AppImage
@@ -118,7 +133,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/86box.AppImage, block size 1048576.
-[===============================================================|] 642/642 100%
+
+[===============================================================|] 642/642 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -171,7 +187,7 @@ e07a58056326e82d78ae4ea1b6bed3c1b4e7d151dd38d07bc56e26f020ae8d30  /tmp/toolpack_
 115e5c22842c94284a87426811455afe16722ff1a284926676a1436536f8e70b  /tmp/toolpack_aarch64/86box.icon.png
 17ffbcb1ac052bca6dfb98e32611b2ccbf9d0a67eeba1fc5a15bb300e6764ef7  /tmp/toolpack_aarch64/86box.icon.png
 16K	/tmp/toolpack_aarch64/86box.icon.png
-/tmp/toolpack_aarch64/86box.DirIcon: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
+/tmunset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 115e5c22842c94284a87426811455afe16722ff1a284926676a1436536f8e70b  /tmp/toolpack_aarch64/86box.DirIcon
 17ffbcb1ac052bca6dfb98e32611b2ccbf9d0a67eeba1fc5a15bb300e6764ef7  /tmp/toolpack_aarch64/86box.DirIcon
 16K	/tmp/toolpack_aarch64/86box.DirIcon
@@ -242,7 +258,7 @@ c6537ab2722971ce30b2224e518b807ba1c8b6877e61df029588a2fb13ffecae  /tmp/toolpack_
 ++ DOWNLOAD_URL=
 ++ export DOWNLOAD_URL=
 ++ DOWNLOAD_URL=
-+++ jq -r --arg url '' '.artifacts[] | select(.archive_download_url == $url) | .created_at'
++++unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 ++ RELEASE_TAG=
 ++ export RELEASE_TAG=
 ++ RELEASE_TAG=
@@ -422,7 +438,10 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/librewolf.AppImage, block size 1048576.
-[==================================|                             ] 200/366  54%[===================================================\            ] 300/366  81%[===============================================================-] 366/366 100%
+
+[==================================|                             ] 200/366  54%
+[===================================================\            ] 300/366  81%
+[===============================================================-] 366/366 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -1055,7 +1074,9 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/librewolf.NixAppImage, block size 1048576.
-[/                                                           ]     0/14351   0%[===========================================================\] 17513/17513 100%
+
+[/                                                           ]     0/14351   0%
+[===========================================================\] 17513/17513 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -1125,7 +1146,7 @@ sh: 0: getcwd() failed: No such file or directory
 /tmp/toolpack_aarch64/librewolf.icon.png: PNG image data, 128 x 128, 8-bit/color RGBA, non-interlaced
 7a4e44b4e540ff788afdea069c46c8ef71303927809a201b8f32b823f531c1af  /tmp/toolpack_aarch64/librewolf.icon.png
 04c619938d34946b733ef0e0f14f9e00c0f048c0eb95a12fd68f87217f1187f1  /tmp/toolpack_aarch64/librewolf.icon.png
-8.0K	/tmp/toolpack_aarch64/librewolf.icon.png
+8.0unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 sh: 0: getcwd() failed: No such file or directory
 /tmp/toolpack_aarch64/librewolf.NixAppImage: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped
 0e430eeee0c703112e56f37489cdef5dd378fdba04fdfad684fd0f8b44690c87  /tmp/toolpack_aarch64/librewolf.NixAppImage
@@ -1311,7 +1332,16 @@ v20240923-1438-g08c36d2a2ff [https://dl-cdn.alpinelinux.org/alpine/edge/communit
 OK: 24802 distinct packages available
 2 errors; 9299 MiB in 1712 packages
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-Downloading  55% [=============>            ] (4.8/8.5 MB, 69.023 MB/s) [0s:0s]                                                                               Downloading  96% [=======================>  ] (8.2/8.5 MB, 60.972 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (8.5/8.5 MB, 60.692 MB/s)
+
+
+
+Downloading  55% [=============>            ] (4.8/8.5 MB, 69.023 MB/s) [0s:0s]
+                                                                               
+
+Downloading  96% [=======================>  ] (8.2/8.5 MB, 60.972 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (8.5/8.5 MB, 60.692 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 go: creating new go.mod: module github.com/mgord9518/aisap/cmd/aisap
 go: to add module requirements and sums:
@@ -1513,10 +1543,16 @@ github.com/mgord9518/aisap/cmd/aisap
 /tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/aisap: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), static-pie linked, stripped
 4.2M	/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/aisap
 https://bin.ajam.dev/aarch64/bwrap
-Downloading 100% [==========================] (194/194 kB, 34.404 MB/s)
+
+
+
+Downloading 100% [==========================] (194/194 kB, 34.404 MB/s)
 Extracted `bwrap` to `/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/bwrap`
 https://bin.ajam.dev/aarch64/squashfuse
-Downloading 100% [==========================] (642/642 kB, 76.324 MB/s)
+
+
+
+Downloading 100% [==========================] (642/642 kB, 76.324 MB/s)
 Extracted `squashfuse` to `/tmp/tmp.XQC6ZcqmS2/aisap/aisap.AppDir/usr/bin/squashfuse`
 sending incremental file list
 aisap.desktop
@@ -1561,7 +1597,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on ./aisap.AppImage, block size 131072.
-[=================================================================|] 49/49 100%
+
+[=================================================================|] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 131072
 	compressed data, compressed metadata, compressed fragments,
@@ -1683,7 +1720,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/aisap.AppImage, block size 1048576.
-[=================================================================-] 14/14 100%
+
+[=================================================================-] 14/14 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -1715,7 +1753,7 @@ Marking the AppImage as executable...
 Embedding MD5 digest
 zsyncmake is available and updateinformation is provided, hence generating zsync file
 Success
-
+unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 Please consider submitting your AppImage to AppImageHub, the crowd-sourced
 central directory of available AppImages, by opening a pull request
 at https://github.com/AppImage/appimage.github.io
@@ -1785,7 +1823,7 @@ e379bfe93410ace766a9f7990e844ec84173ec48fc286f034caaad64eb574037  /tmp/toolpack_
 ++ SOURCE_URL=https://github.com/qbittorrent/qBittorrent
 ++ '[' NO == NO ']'
 +++ TZ=UTC
-+++ date '+%A, %Y-%m-%d (%I:%M:%S %p)'
++++unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 ++ echo -e '\n\n [+] (Building | Fetching) qbittorrent :: https://github.com/qbittorrent/qBittorrent [Thursday, 2024-10-10 (06:29:09 AM) UTC]\n'
 
 
@@ -5755,7 +5793,9 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/inkscape.NixAppImage, block size 1048576.
-[/                                                           ]     0/18041   0%[===========================================================-] 25473/25473 100%
+
+[/                                                           ]     0/18041   0%
+[===========================================================-] 25473/25473 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -5793,7 +5833,7 @@ central directory of available AppImages, by opening a pull request
 at https://github.com/AppImage/appimage.github.io
 ++ find /tmp/toolpacks/KKZJ3fT_aarch64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_aarch64 ';'
 ++ rm -rf /tmp/toolpacks/KKZJ3fT_aarch64_Linux
-++ popd
+++ unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 ++ find /tmp/toolpack_aarch64 -type f -iname '*inkscape*' -print
 ++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
 /tmp/toolpack_aarch64/inkscape.NixAppImage.zsync: data
@@ -6274,25 +6314,82 @@ Installing collected packages: ninja, meson
 Successfully installed meson-0.61.5 ninja-1.11.1.1
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-aarch64.AppImage
-Downloading   4% [>                        ] (527 kB/12 MB, 7.886 MB/s) [0s:1s]                                                                               Downloading  61% [===============>           ] (7.1/12 MB, 54.754 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (12/12 MB, 79.351 MB/s)
+
+
+
+Downloading   4% [>                        ] (527 kB/12 MB, 7.886 MB/s) [0s:1s]
+                                                                               
+
+Downloading  61% [===============>           ] (7.1/12 MB, 54.754 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [============================] (12/12 MB, 79.351 MB/s)
 Extracted `appimagetool-aarch64.AppImage` to `/usr/local/bin/appimagetool`
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-Downloading  40% [=========>                ] (3.5/8.5 MB, 50.418 MB/s) [0s:0s]                                                                               Downloading  81% [====================>     ] (6.9/8.5 MB, 51.747 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (8.5/8.5 MB, 56.870 MB/s)
+
+
+
+Downloading  40% [=========>                ] (3.5/8.5 MB, 50.418 MB/s) [0s:0s]
+                                                                               
+
+Downloading  81% [====================>     ] (6.9/8.5 MB, 51.747 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (8.5/8.5 MB, 56.870 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 https://bin.ajam.dev/aarch64/gdu
-Downloading  18% [===>                       ] (2.3/13 MB, 33.054 MB/s) [0s:0s]                                                                               Downloading  56% [==============>            ] (7.3/13 MB, 53.392 MB/s) [0s:0s]                                                                               Downloading  71% [==================>        ] (9.3/13 MB, 42.176 MB/s) [0s:0s]                                                                               Downloading  87% [=======================>    ] (11/13 MB, 39.722 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (13/13 MB, 42.953 MB/s)
+
+
+
+Downloading  18% [===>                       ] (2.3/13 MB, 33.054 MB/s) [0s:0s]
+                                                                               
+
+Downloading  56% [==============>            ] (7.3/13 MB, 53.392 MB/s) [0s:0s]
+                                                                               
+
+Downloading  71% [==================>        ] (9.3/13 MB, 42.176 MB/s) [0s:0s]
+                                                                               
+
+Downloading  87% [=======================>    ] (11/13 MB, 39.722 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [============================] (13/13 MB, 42.953 MB/s)
 Extracted `gdu` to `/usr/local/bin/gdu`
 https://bin.ajam.dev/aarch64/jq
-Downloading 100% [=========================] (1.6/1.6 MB, 115.638 MB/s)
+
+
+
+Downloading 100% [=========================] (1.6/1.6 MB, 115.638 MB/s)
 Extracted `jq` to `/usr/local/bin/jq`
 https://bin.ajam.dev/aarch64/linuxdeploy.no_strip
-Downloading  40% [=========>                ] (4.0/9.9 MB, 58.077 MB/s) [0s:0s]                                                                               Downloading  67% [================>         ] (6.7/9.9 MB, 46.266 MB/s) [0s:0s]                                                                               Downloading  86% [=====================>    ] (8.6/9.9 MB, 40.157 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (9.9/9.9 MB, 38.617 MB/s)
+
+
+
+Downloading  40% [=========>                ] (4.0/9.9 MB, 58.077 MB/s) [0s:0s]
+                                                                               
+
+Downloading  67% [================>         ] (6.7/9.9 MB, 46.266 MB/s) [0s:0s]
+                                                                               
+
+Downloading  86% [=====================>    ] (8.6/9.9 MB, 40.157 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (9.9/9.9 MB, 38.617 MB/s)
 Extracted `linuxdeploy.no_strip` to `/usr/local/bin/linuxdeploy`
 https://bin.ajam.dev/aarch64/ouch
-Downloading  77% [===================>      ] (3.2/4.1 MB, 48.631 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.1/4.1 MB, 49.012 MB/s)
+
+
+
+Downloading  77% [===================>      ] (3.2/4.1 MB, 48.631 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (4.1/4.1 MB, 49.012 MB/s)
 Extracted `ouch` to `/usr/local/bin/ouch`
 https://bin.ajam.dev/aarch64/rsync
-Downloading 100% [=========================] (4.3/4.3 MB, 137.117 MB/s)
+
+
+
+Downloading 100% [=========================] (4.3/4.3 MB, 137.117 MB/s)
 Extracted `rsync` to `/usr/local/bin/rsync`
 Last metadata expiration check: 0:00:43 ago on Thu Oct 10 06:18:40 2024.
 Package autoconf-2.69-29.el8.noarch is already installed.
@@ -8163,7 +8260,8 @@ Architecture from $ARCH: aarch64
 /tmp/.mount_go-appMgPGBj/usr/bin/mksquashfs /tmp/tmp.DB77DbUvil/dunst/dunst.AppDir dunst-4c977cc-aarch64.AppImage -offset 495792 -fstime 1728541193 -comp zstd -root-owned -noappend -b 1M
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on dunst-4c977cc-aarch64.AppImage, block size 1048576.
-[===============================================================|] 348/348 100%
+
+[===============================================================|] 348/348 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -8302,7 +8400,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/dunst.AppImage, block size 1048576.
-[===============================================================|] 348/348 100%
+
+[===============================================================|] 348/348 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -8823,28 +8922,88 @@ Installing collected packages: ninja, meson
 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
 Successfully installed meson-0.61.5 ninja-1.11.1.1
 https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-aarch64.AppImage
-Downloading  10% [=>                         ] (1.2/12 MB, 19.104 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (12/12 MB, 98.602 MB/s)
+
+
+
+Downloading  10% [=>                         ] (1.2/12 MB, 19.104 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [============================] (12/12 MB, 98.602 MB/s)
 Extracted `appimagetool-aarch64.AppImage` to `/usr/local/bin/appimagetool`
 https://bin.ajam.dev/aarch64/go-appimagetool.no_strip
-Downloading  70% [=================>        ] (6.0/8.5 MB, 83.425 MB/s) [0s:0s]                                                                               Downloading 100% [=========================] (8.5/8.5 MB, 113.379 MB/s)
+
+
+
+Downloading  70% [=================>        ] (6.0/8.5 MB, 83.425 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [=========================] (8.5/8.5 MB, 113.379 MB/s)
 Extracted `go-appimagetool.no_strip` to `/usr/local/bin/go-appimagetool`
 https://bin.ajam.dev/aarch64/gdu
-Downloading  28% [======>                    ] (3.6/13 MB, 54.466 MB/s) [0s:0s]                                                                               Downloading  49% [============>              ] (6.4/13 MB, 42.547 MB/s) [0s:0s]                                                                               Downloading  58% [==============>            ] (7.5/13 MB, 28.435 MB/s) [0s:0s]                                                                               Downloading  79% [=====================>      ] (10/13 MB, 31.234 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (13/13 MB, 34.855 MB/s)
+
+
+
+Downloading  28% [======>                    ] (3.6/13 MB, 54.466 MB/s) [0s:0s]
+                                                                               
+
+Downloading  49% [============>              ] (6.4/13 MB, 42.547 MB/s) [0s:0s]
+                                                                               
+
+Downloading  58% [==============>            ] (7.5/13 MB, 28.435 MB/s) [0s:0s]
+                                                                               
+
+Downloading  79% [=====================>      ] (10/13 MB, 31.234 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [============================] (13/13 MB, 34.855 MB/s)
 Extracted `gdu` to `/usr/local/bin/gdu`
 https://bin.ajam.dev/aarch64/jq
-Downloading 100% [=========================] (1.6/1.6 MB, 119.898 MB/s)
+
+
+
+Downloading 100% [=========================] (1.6/1.6 MB, 119.898 MB/s)
 Extracted `jq` to `/usr/local/bin/jq`
 https://bin.ajam.dev/aarch64/linuxdeploy.no_strip
-Downloading  40% [=========>                ] (4.0/9.9 MB, 60.647 MB/s) [0s:0s]                                                                               Downloading  95% [=======================>  ] (9.4/9.9 MB, 70.565 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (9.9/9.9 MB, 73.057 MB/s)
+
+
+
+Downloading  40% [=========>                ] (4.0/9.9 MB, 60.647 MB/s) [0s:0s]
+                                                                               
+
+Downloading  95% [=======================>  ] (9.4/9.9 MB, 70.565 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (9.9/9.9 MB, 73.057 MB/s)
 Extracted `linuxdeploy.no_strip` to `/usr/local/bin/linuxdeploy`
 https://bin.ajam.dev/aarch64/ouch
-Downloading  91% [======================>   ] (3.8/4.1 MB, 56.240 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.1/4.1 MB, 58.807 MB/s)
+
+
+
+Downloading  91% [======================>   ] (3.8/4.1 MB, 56.240 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (4.1/4.1 MB, 58.807 MB/s)
 Extracted `ouch` to `/usr/local/bin/ouch`
 https://bin.ajam.dev/aarch64/rsync
-Downloading  48% [===========>              ] (2.1/4.3 MB, 22.698 MB/s) [0s:0s]                                                                               Downloading 100% [==========================] (4.3/4.3 MB, 37.322 MB/s)
+
+
+
+Downloading  48% [===========>              ] (2.1/4.3 MB, 22.698 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [==========================] (4.3/4.3 MB, 37.322 MB/s)
 Extracted `rsync` to `/usr/local/bin/rsync`
 https://github.com/lzhiyong/android-sdk-tools/releases/download/35.0.2/android-sdk-tools-aarch64.zip
-Downloading   5% [>                        ] (623 kB/11 MB, 9.196 MB/s) [0s:1s]                                                                               Downloading  77% [===================>       ] (8.5/11 MB, 63.399 MB/s) [0s:0s]                                                                               Downloading 100% [============================] (11/11 MB, 78.034 MB/s)
+
+
+
+Downloading   5% [>                        ] (623 kB/11 MB, 9.196 MB/s) [0s:1s]
+                                                                               
+
+Downloading  77% [===================>       ] (8.5/11 MB, 63.399 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [============================] (11/11 MB, 78.034 MB/s)
 Extracted `build-tools/aapt` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aapt`
 Extracted `build-tools/aapt2` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aapt2`
 Extracted `build-tools/aidl` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/aidl`
@@ -8863,7 +9022,10 @@ Extracted `platform-tools/make_f2fs` to `/tmp/tmp.9uU0Xu3LCD/android-tools/andro
 Extracted `platform-tools/make_f2fs_casefold` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/make_f2fs_casefold`
 Extracted `others/veridex` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/veridex`
 https://bin.ajam.dev/aarch64/Baseutils/bash/sh
-Downloading 100% [==========================] (1.1/1.1 MB, 30.055 MB/s)
+
+
+
+Downloading 100% [==========================] (1.1/1.1 MB, 30.055 MB/s)
 Extracted `sh` to `/tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/sh`
 bash: line 32: /tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir/usr/bin/adb: No such file or directory
 sending incremental file list
@@ -8963,7 +9125,8 @@ Architecture from $ARCH: aarch64
 /tmp/.mount_go-appABBjKL/usr/bin/mksquashfs /tmp/tmp.9uU0Xu3LCD/android-tools/android-tools.AppDir Android-platform-tools-35.0.2-aarch64.AppImage -offset 495792 -fstime 1728541091 -comp zstd -root-owned -noappend -b 1M
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on Android-platform-tools-35.0.2-aarch64.AppImage, block size 1048576.
-[=================================================================-] 49/49 100%
+
+[=================================================================-] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -9100,7 +9263,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/android-tools.AppImage, block size 1048576.
-[=================================================================/] 49/49 100%
+
+[=================================================================/] 49/49 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -9226,7 +9390,19 @@ a87746bb34ea2cd8bb97de80de22ab7b880f005463d67ccb17d8b351ac157dfc  /tmp/toolpack_
 ++ RELEASE_TAG=r.b4cac89
 ++ timeout 1m eget https://github.com/ryujinx-mirror/ryujinx --tag r.b4cac89 --asset arm64 --asset AppImage --asset '^.zsync' --to /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage
 https://github.com/ryujinx-mirror/ryujinx/releases/download/r.b4cac89/ryujinx-r.b4cac89-arm64.AppImage
-Downloading   2% [                         ] (559 kB/24 MB, 7.912 MB/s) [0s:3s]                                                                               Downloading  24% [=====>                     ] (6.0/24 MB, 41.791 MB/s) [0s:0s]                                                                               Downloading  98% [=========================> ] (24/24 MB, 110.271 MB/s) [0s:0s]                                                                               Downloading 100% [===========================] (24/24 MB, 110.462 MB/s)
+
+
+
+Downloading   2% [                         ] (559 kB/24 MB, 7.912 MB/s) [0s:3s]
+                                                                               
+
+Downloading  24% [=====>                     ] (6.0/24 MB, 41.791 MB/s) [0s:0s]
+                                                                               
+
+Downloading  98% [=========================> ] (24/24 MB, 110.271 MB/s) [0s:0s]
+                                                                               
+
+Downloading 100% [===========================] (24/24 MB, 110.462 MB/s)
 Extracted `ryujinx-r.b4cac89-arm64.AppImage` to `/tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage`
 ++ [[ -f /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage ]]
 +++ stat -c%s /tmp/toolpacks/4x5RWAO_aarch64_Linux/ryujinx.AppImage
@@ -9296,7 +9472,8 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/ryujinx.AppImage, block size 1048576.
-[=================================================================/] 85/85 100%
+
+[=================================================================/] 85/85 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -10964,7 +11141,10 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/floorp.NixAppImage, block size 1048576.
-[================================================-           ] 14500/17541  82%[=========================================================\  ] 17200/17541  98%[===========================================================-] 17541/17541 100%
+
+[================================================-           ] 14500/17541  82%
+[=========================================================\  ] 17200/17541  98%
+[===========================================================-] 17541/17541 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,
@@ -11533,7 +11713,12 @@ Downloading runtime file from https://github.com/AppImage/type2-runtime/releases
 Downloaded runtime binary of size 668008
 Parallel mksquashfs: Using 14 processors
 Creating 4.0 filesystem on /tmp/toolpack_aarch64/persepolis.NixAppImage, block size 1048576.
-[====================\                                       ]  7100/19956  35%[============================\                               ]  9600/19956  48%[================================================\           ] 16500/19956  82%[==========================================================- ] 19900/19956  99%[===========================================================/] 19956/19956 100%
+
+[====================\                                       ]  7100/19956  35%
+[============================\                               ]  9600/19956  48%
+[================================================\           ] 16500/19956  82%
+[==========================================================- ] 19900/19956  99%
+[===========================================================/] 19956/19956 100%
 
 Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
 	compressed data, compressed metadata, compressed fragments,

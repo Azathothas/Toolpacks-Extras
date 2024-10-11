@@ -83,15 +83,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
-       fi     
+       fi
      #-------------------------------------------------------#
     if [ "${BUILD_APPBUNDLE}" == "YES" ]; then
-      ##Fetch
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="magick"
-       export PKG_NAME="${APP}.dwfs.AppBundle"
-       RELEASE_TAG="$(curl -qfsSL "https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       ##Build AppBundle
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
@@ -99,6 +93,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        export PKG_NAME="${APP}.dwfs.AppBundle"
        APPDIR="$(realpath .)/${APP}.AppDir" && export APPDIR="${APPDIR}"
        export ROOTFS_DIR="${APPDIR}/rootfs" && mkdir -p "${ROOTFS_DIR}"
+       RELEASE_TAG="$(curl -qfsSL "https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
        APP_ID="$(echo "${APP}_${RELEASE_TAG:-$(date +%Y_%m_%d)}_${PKG_NAME}" | tr -d '[:space:]')" && export APP_ID="${APP_ID}"
       #Setup Bundle
        curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh" | bash
@@ -114,16 +109,21 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          #Fix Symlinks
            find "${ROOTFS_DIR}/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
            find "${ROOTFS_DIR}/usr/bin" -type l -lname '/bin/busybox' -exec sh -c 'ln -sf "${ROOTFS_DIR}/bin/busybox" "$(dirname "$1")/$(basename "$1")"' _ {} \;
+         #Media
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop" -o "${APPDIR}/${APP}.desktop"
+           sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPDIR}/${APP}.desktop"
+           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${APPDIR}/${APP}.icon.png"
+           rsync -achLv "${APPDIR}/${APP}.icon.png" "${APPDIR}/${APP}.DirIcon"
+         #Version
+           PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+           echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+         #Perms
+           find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
          #Pack
           if [ -d "/opt/STATIC_TOOLS" ] && [ $(du -s "/opt/STATIC_TOOLS" | cut -f1) -gt 100 ]; then
               "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" "${APP_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS" \
               --compression "--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8"
           fi
-         #Media
-           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/desktops/imagemagick.desktop" -o "${BINDIR}/${BIN}.desktop"
-           sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${BINDIR}/${BIN}.desktop"
-           curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/assets/icons/imagemagick.png" -o "${BINDIR}/${BIN}.icon.png"
-           rsync -achLv "${BINDIR}/${BIN}.icon.png" "${BINDIR}/${BIN}.DirIcon"
          #Copy
            rsync -achLv "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
            popd >/dev/null 2>&1
@@ -138,7 +138,7 @@ LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 
 #-------------------------------------------------------#
 ##Cleanup
-unset APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL OFFSET OWD PKG_NAME RELEASE_TAG SHARE_DIR
+unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
 unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
