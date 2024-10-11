@@ -1,90 +1,125 @@
 #!/usr/bin/env bash
-## DO NOT SOURCE or RUN DIRECTLY
-#Needs: bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
-#And more
-#self:
-# bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/refs/heads/main/.github/scripts/setup_appbundles_archlinux.sh")
+
+##THIS IS BROKEN
+
+
+## DO NOT RUN STANDALONE (DIRECTLY)
+#
+# bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh")
+##
 set -x
-#https://github.com/xplshn/pelf/blob/pelf-ng/assets/AppRun.rootfs-based
-export APPRUN_URL="https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable"
-#export APPRUN_URL="https://raw.githubusercontent.com/xplshn/pelf/ec1b6f05fca47ef93b67eda606fa249296b24f56/assets/AppRun.rootfs-based"
-export ENTRYPOINT="bash"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
-##ENV
-USER="$(whoami)" && export USER="${USER}"
-HOME="$(getent passwd ${USER} | cut -d: -f6)" && export HOME="${HOME}"
-SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
-USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
+##setup_appbundles_alpine
+setup_appbundles_alpine()
+{
+ #https://github.com/xplshn/pelf/blob/pelf-ng/assets/AppRun.rootfs-based
+  export APPRUN_URL="https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/assets/AppRun.rootfs-based.stable"
+   if [ -f "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" ] && [ $(du -s "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" | cut -f1) -gt 100 ]; then
+   #Extract
+     pushd "$(mktemp -d)" >/dev/null 2>&1
+     bsdtar -x -f "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" -p -C "./" 2>/dev/null
+     ROOTFS_TMPEXT="$(find . -maxdepth 1 -type d -exec basename {} \; | grep -Ev '^\.$' | xargs -I {} realpath {})" && export ROOTFS_TMPEXT="${ROOTFS_TMPEXT}" ; mkdir -p "${ROOTFS_DIR}"
+     [ -n "${ROOTFS_TMPEXT+x}" ] && [[ "${ROOTFS_TMPEXT}" == "/tmp"* ]] && rsync -achLq --delete "${ROOTFS_TMPEXT}/." "${ROOTFS_DIR}" ; popd >/dev/null 2>&1
+     if [ -d "${ROOTFS_DIR}" ] && [ $(du -s "${ROOTFS_DIR}" | cut -f1) -gt 100 ]; then
+       realpath "${ROOTFS_DIR}" && ls "${ROOTFS_DIR}" -lah && du -sh "${ROOTFS_DIR}"
+     else
+       echo -e "\n[+] AppBundle ROOTFS Setup Failed\n"
+       exit 1
+     fi
+   #AppRun
+     curl -qfsSL "${APPRUN_URL}" -o "${APPDIR}/AppRun" && chmod +x "${APPDIR}/AppRun"
+   #Deps for ROOTFS
+     mkdir -p "${APPDIR}/usr/bin"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bash" -o "${ROOTFS_DIR}/bin/bash"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "${APPDIR}/usr/bin/bwrap"
+     echo "bash" > "${ROOTFS_DIR}/entrypoint" && chmod +x "${ROOTFS_DIR}/entrypoint"
+     chmod +x "${APPDIR}/usr/bin/bwrap" "${ROOTFS_DIR}/bin/bash"
+     ln --symbolic --force "../../bin/bash" "${ROOTFS_DIR}/usr/bin/bash"
+    ##DO NOT DO THIS 
+     #sudo chmod u+s "${APPDIR}/usr/bin/bwrap"
+   #Fix ID
+     unlink "${ROOTFS_DIR}/var/lib/dbus/machine-id" 2>/dev/null
+     rm -rvf "${ROOTFS_DIR}/etc/machine-id"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- systemd-machine-id-setup
+     ln --symbolic --force --relative "${ROOTFS_DIR}/var/lib/dbus/machine-id" "${ROOTFS_DIR}/etc/machine-id"
+     touch "${ROOTFS_DIR}/var/lib/dbus/machine-id"
+   #Fix NameServers
+     echo -e "nameserver 8.8.8.8\nnameserver 2620:0:ccc::2" > "${ROOTFS_DIR}/etc/resolv.conf"
+     echo -e "nameserver 1.1.1.1\nnameserver 2606:4700:4700::1111" >> "${ROOTFS_DIR}/etc/resolv.conf"
+     unlink "${ROOTFS_DIR}/etc/resolv.conf" 2>/dev/null
+   #Fix locale
+     echo "LANG=en_US.UTF-8" > "${ROOTFS_DIR}/etc/locale.conf"
+     echo "LANG=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/locale.conf"
+     echo "LANGUAGE=en_US:en" >> "${ROOTFS_DIR}/etc/locale.conf"
+     echo "LC_ALL=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/locale.conf"
+     echo "en_US.UTF-8 UTF-8" >> "${ROOTFS_DIR}/etc/locale.gen"
+     echo "LC_ALL=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/environment"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- locale-gen
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- locale-gen "en_US.UTF-8"
+   #Fix os-release
+     ln --symbolic --force --relative "${ROOTFS_DIR}/usr/lib/os-release" "${ROOTFS_DIR}/etc/os-release"
+   #SysUpdate
+     rm -rvf "${ROOTFS_DIR}/var/lib/pacman/sync/"*
+     rm -rvf "${ROOTFS_DIR}/etc/pacman.d/gnupg/"*
+     sed 's/^.*Architecture\s*=.*$/Architecture = auto/' -i "${ROOTFS_DIR}/etc/pacman.conf"
+     sed 's/^.*SigLevel\s*=.*$/SigLevel = Never/' -i "${ROOTFS_DIR}/etc/pacman.conf"
+     echo "Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch" >> "${ROOTFS_DIR}/etc/pacman.d/mirrorlist"
+     #curl -qfsSL "https://archlinux.org/mirrorlist/all/https/" | sed '/\(pkgbuild\.com\|rackspace\.com\)/s/^#//' > "${ROOTFS_DIR}/etc/pacman.d/mirrorlist"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman-key --init
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman-key --populate "archlinux"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman -Syyu --debug
+
+     touch "${ROOTFS_DIR}/var/lib/pacman/sync/extra.db"
+     touch "${ROOTFS_DIR}/var/lib/pacman/sync/core.db"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman -Sy archlinux-keyring pacutils --noconfirm
+
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- reflector
+
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman -Syy
+     
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman -Scc --noconfirm
+    #"${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman-key --refresh-keys 2>/dev/null
+     sed 's/^.*SigLevel\s*=.*$/SigLevel = Never/' -i "${ROOTFS_DIR}/etc/pacman.conf"
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- pacman -Syu --noconfirm 2>/dev/null
+   #Upgrade
+     "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk update && apk upgrade --no-interactive 2>/dev/null
+   #Static Tools (embed + host)
+     sudo mkdir -p "/opt/STATIC_TOOLS" && sudo chown -R "$(whoami):$(whoami)" "/opt/STATIC_TOOLS" && sudo chmod -R 755 "/opt/STATIC_TOOLS"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "/opt/STATIC_TOOLS/bwrap"
+     #sudo rsync -achL "/opt/STATIC_TOOLS/bwrap" "/usr/bin/bwrap" && sudo chmod +x "/usr/bin/bwrap"
+     #sudo chmod u+s "/usr/bin/bwrap"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dwarfs-tools" -o "/opt/STATIC_TOOLS/dwarfs"
+     sudo rsync -achL "/opt/STATIC_TOOLS/dwarfs" "/usr/bin/dwarfs" && sudo chmod +x "/usr/bin/dwarfs"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/fuse3/fusermount3" -o "/opt/STATIC_TOOLS/fusermount"
+     sudo rsync -achL "/opt/STATIC_TOOLS/fusermount" "/usr/bin/fusermount" && sudo chmod +x "/usr/bin/fusermount"
+     curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dwarfs-tools" -o "/opt/STATIC_TOOLS/mkdwarfs"
+     sudo rsync -achL "/opt/STATIC_TOOLS/mkdwarfs" "/usr/bin/mkdwarfs" && sudo chmod +x "/usr/bin/mkdwarfs"
+   #Packer
+     curl -qfsSL "https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/pelf-dwfs" -o "/opt/STATIC_TOOLS/pelf-dwfs"
+     dos2unix --quiet "/opt/STATIC_TOOLS/pelf-dwfs" ; chmod +x "/opt/STATIC_TOOLS/pelf-dwfs"
+   fi
+  ##END
+  set +x
+}
+export -f setup_appbundles_alpine
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
-##ArchLinux ROOTFS
- pushd "$(mktemp -d)" >/dev/null 2>&1
- APPDIR="/opt/rootfs/AppBundles/archlinux.AppDir" && export APPDIR="${APPDIR}" ; sudo mkdir -p "${APPDIR}/usr/bin"
- export ROOTFS_DIR="${APPDIR}/rootfs" ; sudo rm -rvf "${ROOTFS_DIR}" ; sudo mkdir -p "${ROOTFS_DIR}"
- sudo chown -R "$(whoami):$(whoami)" "/opt/rootfs" && sudo chmod -R 755 "/opt/rootfs"
-##Get RootFS
- if [ "$(uname  -m)" == "aarch64" ]; then
-   aria2c "https://pub.ajam.dev/utils/archlinuxarm-$(uname -m)/rootfs.tar.gz" \
-       --split="16" --max-connection-per-server="16" --min-split-size="1M" \
-       --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
-       --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
-   bsdtar -x -f "./ROOTFS.tar.gz" -p -C "${ROOTFS_DIR}" 2>/dev/null
-   ls "${ROOTFS_DIR}" -lah ; popd >/dev/null 2>&1
- elif [ "$(uname  -m)" == "x86_64" ]; then
-   aria2c "https://pub.ajam.dev/utils/archlinux-$(uname -m)/rootfs.tar.gz" \
-       --split="16" --max-connection-per-server="16" --min-split-size="1M" \
-       --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
-       --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
-   bsdtar -x -f "./ROOTFS.tar.gz" -p -C "${ROOTFS_DIR}" 2>/dev/null
-   ls "${ROOTFS_DIR}" -lah ; popd >/dev/null 2>&1
- fi
-##Bootstrap
- if [ -d "${ROOTFS_DIR}" ] && [ $(du -s "${ROOTFS_DIR}" | cut -f1) -gt 100 ]; then
- #AppRun
-   curl -qfsSL "${APPRUN_URL}" -o "${APPDIR}/AppRun" && chmod +x "${APPDIR}/AppRun"
- #Deps for ROOTFS
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bash" -o "${ROOTFS_DIR}/usr/bin/bash" && chmod +x "${ROOTFS_DIR}/usr/bin/bash"
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "${APPDIR}/usr/bin/bwrap"
-   sudo chmod u+s "${APPDIR}/usr/bin/bwrap"
- #Entrypoint
-   echo "${ENTRYPOINT}" > "${ROOTFS_DIR}/entrypoint" && chmod +x "${ROOTFS_DIR}/entrypoint"
- #fix /bin/bbsuid ---s--x--x
-   sudo chmod 755 "${ROOTFS_DIR}/bin/bbsuid" 2>/dev/null
- #Fix NameServers
-   echo -e "nameserver 8.8.8.8\nnameserver 2620:0:ccc::2" > "${ROOTFS_DIR}/etc/resolv.conf"
-   echo -e "nameserver 1.1.1.1\nnameserver 2606:4700:4700::1111" >> "${ROOTFS_DIR}/etc/resolv.conf"
-   unlink "${ROOTFS_DIR}/etc/resolv.conf" 2>/dev/null
- #Fix locale
-   echo "LANG=en_US.UTF-8" > "${ROOTFS_DIR}/etc/locale.conf"
-   echo "LANG=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/locale.conf"
-   echo "LANGUAGE=en_US:en" >> "${ROOTFS_DIR}/etc/locale.conf"
-   echo "LC_ALL=en_US.UTF-8" >> "${ROOTFS_DIR}/etc/locale.conf"
- #Add Repos
-   echo "https://dl-cdn.archlinuxlinux.org/archlinux/latest-stable/main" > "${ROOTFS_DIR}/etc/apk/repositories"
-   echo "https://dl-cdn.archlinuxlinux.org/archlinux/latest-stable/community" >> "${ROOTFS_DIR}/etc/apk/repositories"
- #Install Base
-   #"${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.archlinuxlinux.org/archlinux/latest-stable/main" -U --allow-untrusted -p "${ROOTFS_DIR}" --initdb add "archlinux-base"
-   "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk -X "https://dl-cdn.archlinuxlinux.org/archlinux/latest-stable/main" -U --allow-untrusted --initdb add "archlinux-base"
- #Upgrade
-   "${APPDIR}/AppRun" --Xbwrap --uid "0" --gid "0" -- apk update && apk upgrade --no-interactive 2>/dev/null
- #Static Tools (embed + host)
-   sudo mkdir -p "/opt/STATIC_TOOLS" && sudo chown -R "$(whoami):$(whoami)" "/opt/STATIC_TOOLS" && sudo chmod -R 755 "/opt/STATIC_TOOLS"
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/bwrap" -o "/opt/STATIC_TOOLS/bwrap"
-   sudo rsync -achL "/opt/STATIC_TOOLS/bwrap" "/usr/bin/bwrap" && sudo chmod +x "/usr/bin/bwrap"
-   sudo chmod u+s "/usr/bin/bwrap"
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dwarfs-tools" -o "/opt/STATIC_TOOLS/dwarfs"
-   sudo rsync -achL "/opt/STATIC_TOOLS/dwarfs" "/usr/bin/dwarfs" && sudo chmod +x "/usr/bin/dwarfs"
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/fuse3/fusermount3" -o "/opt/STATIC_TOOLS/fusermount"
-   sudo rsync -achL "/opt/STATIC_TOOLS/fusermount" "/usr/bin/fusermount" && sudo chmod +x "/usr/bin/fusermount"
-   curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dwarfs-tools" -o "/opt/STATIC_TOOLS/mkdwarfs"
-   sudo rsync -achL "/opt/STATIC_TOOLS/mkdwarfs" "/usr/bin/mkdwarfs" && sudo chmod +x "/usr/bin/mkdwarfs"
- #Packer
-   curl -qfsSL "https://raw.githubusercontent.com/xplshn/pelf/refs/heads/pelf-ng/pelf-dwfs" -o "/opt/STATIC_TOOLS/pelf-dwfs"
-   dos2unix --quiet "/opt/STATIC_TOOLS/pelf-dwfs" ; chmod +x "/opt/STATIC_TOOLS/pelf-dwfs"
- fi
-##END
-set +x ; unset APPDIR APPRUN_URL ROOTFS_DIR
-##-------------------------------------------------------#
+##Sanity Checks
+#ENV:VARS
+if [ -z "${OWD}" ] || \
+   [ -z "${APP}" ] || \
+   [ -z "${APPDIR}" ] || \
+   [ -z "${ROOTFS_DIR}" ] || \
+   [ -z "${SYSTMP}" ] || \
+   [ -z "${TMPDIRS}" ]; then
+ #exit
+  echo -e "\n[+]Required ENV:VARS are NOT Set...\n"
+  exit 1
+else
+  #call
+  setup_appbundles_alpine
+fi
+#-------------------------------------------------------#

@@ -200,6 +200,7 @@
            aria2c "https://pub.ajam.dev/utils/alpine-mini-$(uname -m)/rootfs.tar.gz" \
            --split="16" --max-connection-per-server="16" --min-split-size="1M" \
            --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+           --max-tries="10" --retry-wait="5" --connect-timeout="60" --timeout="600" \
            --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
            rsync -achLv "./ROOTFS.tar.gz" "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" ; popd >/dev/null 2>&1
            #Test
@@ -208,6 +209,21 @@
                 export CONTINUE="NO" && exit 1
              else
                 find "/opt/ROOTFS/alpine-mini.ROOTFS.tar.gz" -exec sh -c 'file "{}" && du -sh "{}"' \;
+             fi
+          #archlinuxarm
+           pushd "$(mktemp -d)" >/dev/null 2>&1
+           aria2c "https://pub.ajam.dev/utils/archlinuxarm-$(uname -m)/rootfs.tar.gz" \
+           --split="16" --max-connection-per-server="16" --min-split-size="1M" \
+           --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
+           --max-tries="10" --retry-wait="5" --connect-timeout="60" --timeout="600" \
+           --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
+           rsync -achLv "./ROOTFS.tar.gz" "/opt/ROOTFS/archlinuxarm.ROOTFS.tar.gz" ; popd >/dev/null 2>&1
+           #Test
+             if [ ! -f "/opt/ROOTFS/archlinuxarm.ROOTFS.tar.gz" ] || [ $(du -s "/opt/ROOTFS/archlinuxarm.ROOTFS.tar.gz" | cut -f1) -le 100 ]; then
+                echo -e "\n[-] AppBundle (archlinuxarm) Setup Failed\n"
+                export CONTINUE="NO" && exit 1
+             else
+                find "/opt/ROOTFS/archlinuxarm.ROOTFS.tar.gz" -exec sh -c 'file "{}" && du -sh "{}"' \;
              fi
          #----------------------#
          #Docker
