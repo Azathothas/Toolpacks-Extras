@@ -224,7 +224,7 @@ bin:
     bin_name: alist
     description: A file list/WebDAV program that supports multiple storages
     note: ""
-    version: v3.37.4
+    version: v3.38.0
     download_url: https://bin.ajam.dev/x86_64/alist
     size: 81.37 MB
     bsum: 7ec9173b56b57d49c13439c4bc37b3416f2325ba718d1df84227ad3f3ffa8f7b
@@ -496,7 +496,7 @@ bin:
     bin_name: apkeep
     description: command-line tool for downloading APK files from various sources
     note: ""
-    version: 0.16.0
+    version: 0.17.0
     download_url: https://bin.ajam.dev/x86_64/apkeep
     size: 13.04 MB
     bsum: ad78395e6e088311e503a5e110dbd768c89de5c24e45b44cc0221616c6593d9d
@@ -2043,7 +2043,7 @@ bin:
     bin_name: cloak-client
     description: A censorship circumvention tool to evade detection by authoritarian state adversaries
     note: ""
-    version: v2.9.0
+    version: v2.10.0
     download_url: https://bin.ajam.dev/x86_64/cloak-client
     size: 7.09 MB
     bsum: 107537229c046833d92dcb9795f53b5f3c4a095b3b76d0cd3942eea5c648feb4
@@ -2060,7 +2060,7 @@ bin:
     bin_name: cloak-server
     description: A censorship circumvention tool to evade detection by authoritarian state adversaries
     note: ""
-    version: v2.9.0
+    version: v2.10.0
     download_url: https://bin.ajam.dev/x86_64/cloak-server
     size: 6.56 MB
     bsum: ec32c5d31d1dfb2cf38a8e5d429a6dc30fcc8880dc779a57cd5f596a4c5bf019
@@ -9880,7 +9880,7 @@ bin:
     bin_name: minify
     description: Tool to minify web formats like HTML5, CSS3, JS, JSON, SVG, XML & More
     note: ""
-    version: v2.20.37
+    version: v2.21.0
     download_url: https://bin.ajam.dev/x86_64/minify
     size: 4.4 MB
     bsum: 3fa36261c72bd4d3dd2d2c6187ba3eb8f3de1ae36bc5c0e468029456b4e80340
