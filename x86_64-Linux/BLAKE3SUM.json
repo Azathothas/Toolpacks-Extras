@@ -1,19 +1,19 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "d45d703f8937653aab61d08ec0e2a125001fcbb5531c999dfdc51c86133b6bf9"
+    "sum": "9180526d2b6eee2318895e4bba7a58a2a1b7907646f95166974d15d3dbc4de19"
   },
   {
     "filename": "./FILE.json",
-    "sum": "ac62af499fa682e8cc82a059064a88e719ec7b34a605f96ee90b71579340fd1e"
+    "sum": "5501c9b089168c0734338cf97803d69ab7ef064a132d27321ca383c7a0267899"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "40666f5dde63c42d19222f87c85947b0bf5fa28f7dd9effdad3a71edc371a77b"
+    "sum": "b819a385718cc263657698b4435ffecb467cb090230bd52dea493545f026ec83"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "8bc71e03e3ea5e40267ab6f1e49b9d1c1b8519bf5ec1864a943a1fb2476e6316"
+    "sum": "edb0fa71616fc0a9a319b8c3e8da80214383ca544db8aaad45dd10505b432900"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -73,7 +73,7 @@
   },
   {
     "filename": "./METADATA.json.tmp",
-    "sum": "e3fd48603b747d608e59b5ef7d05b2e9acb6c6e72989e2dc12050c8332f8dedf"
+    "sum": "fa05b8c505cb6740e71a61675545fb98a01869ab286218ed65a78425dec4850b"
   },
   {
     "filename": "./86box.log",
@@ -177,19 +177,19 @@
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "990ffb20439c3339bb05e4cec76da07d0820231b36eec1debf1d7d1b2e07f43c"
+    "sum": "8b5e201bd3bbc0012edd471024cb30961e57c5aea9375b7ba1b6bbfbe30b316f"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "83bc2dc940c1377c645ea01150d15d4601a4f16293e3391b89e7aeb44edd481c"
+    "sum": "79f6f49a5b0fd4e0af82a68c378f6906d970811429c536585821657d0e7f7c04"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "a6ca4ad650b9ceed026d5dc78f6a5373fac8e41cd4717f95a0dae353ab64a8a0"
+    "sum": "408c86c31948489744ccb3f7e6db496ea5726e93c521e3dde92025915c8ab578"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "472953dd140f502079bbb7a7498f7281f32b6bb3357c2ccca56dd45f64257a58"
+    "sum": "b8db889187b97ddddd07deb44b412cff97a60fad78ab0f8972cb748aba2deb24"
   },
   {
     "filename": "./android-tools.AppImage",
@@ -266,5 +266,13 @@
   {
     "filename": "./magick.dwfs.AppBundle",
     "sum": "7020fcfd368b2f1fd1e423597a24334874e772107cf96fa53b09076d86241e38"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage",
+    "sum": "28ba85229d2377657837542e5ef46f795cbfe24159ac16e0b7c2aa6218dc79aa"
+  },
+  {
+    "filename": "./signal-desktop.log",
+    "sum": "61aa2107e45eb2205f53e8cc4afb1ebf1e47b8e7279e5f0fbb98c19ab5555695"
   }
 ]
