@@ -131,6 +131,19 @@ jobs:
           find "." -name '*.yaml' -exec sh -c 'for file; do bins=$(yq .bins[] "$file"); if [ "$(echo "$bins" | wc -l)" -eq 1 ] && [ "$(echo "$bins" | wc -w)" -gt 1 ]; then echo "$file --> $file.invalid";  mv "$file" "$file.invalid" ; fi; done' sh {} +
         continue-on-error: true
 
+      - name: Gen Metadata (aarch64-Linux)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           export HOST_TRIPLET="aarch64-Linux"
+           #source <(curl -qfsSL "https://l.ajam.dev/hf-gen-meta-main")
+           source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/hf_gen_meta_main.sh")
+           hf_gen_meta_main
+          popd "$(mktemp -d)" >/dev/null 2>&1
+        continue-on-error: true
+
       - name: Sync Metadata (aarch64-Linux)
         run: |
           #Presets
@@ -148,6 +161,19 @@ jobs:
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SHA256SUM.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/SHA256SUM.json"
            curl -qfsSL "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/SIZE.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/SIZE.json"
           popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: Gen Metadata (x86_64-Linux)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           export HOST_TRIPLET="x86_64-Linux"
+           #source <(curl -qfsSL "https://l.ajam.dev/hf-gen-meta-main")
+           source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/hf_gen_meta_main.sh")
+           hf_gen_meta_main
+          popd "$(mktemp -d)" >/dev/null 2>&1
         continue-on-error: true
 
       - name: Sync Metadata (x86_64-Linux)

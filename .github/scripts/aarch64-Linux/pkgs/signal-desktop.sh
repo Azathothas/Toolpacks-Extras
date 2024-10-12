@@ -25,11 +25,11 @@ export SKIP_BUILD="NO"
 #signal-desktop : A private messenger for Windows, macOS, and Linux.
 export BIN="signal-desktop"
 export SOURCE_URL="https://github.com/signalapp/Signal-Desktop"
+export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
-    export BUILD_NIX_APPIMAGE="YES"
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
       ##Create NixAppImage   
        pushd "$($TMPDIRS)" >/dev/null 2>&1
