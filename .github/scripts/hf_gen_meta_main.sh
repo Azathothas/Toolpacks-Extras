@@ -10,7 +10,9 @@ hf_gen_meta_main()
 {
 SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
 TMPDIR="$(mktemp -d)" && export TMPDIR="${TMPDIR}" ; echo -e "\n[+] Using TEMP: ${TMPDIR}\n"
-HOST_TRIPLET="$(uname -m)-$(uname -s)" && export HOST_TRIPLET="${HOST_TRIPLET}"
+if [ -z "${HOST_TRIPLET+x}" ] || [ -z "${HOST_TRIPLET}" ]; then
+ HOST_TRIPLET="$(uname -m)-$(uname -s)" && export HOST_TRIPLET="${HOST_TRIPLET}"
+fi
 BUILDYAML="$(mktemp --tmpdir=${TMPDIR} XXXXX.yaml)" && export BUILDYAML="${BUILDYAML}"
 HF_REPO="https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main" && export HF_REPO="${HF_REPO}"
 HF_REPO_DL="${HF_REPO}/${HOST_TRIPLET}" && export HF_REPO_DL="${HF_REPO_DL}"
