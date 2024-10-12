@@ -11625,6 +11625,604 @@ b8dc74c3f79f9ee2f5cde3d5bc763dbfbe75dc99e9b15f6861151e0027a0f9a7  /tmp/toolpack_
 -e 
 
 
+++ '[' YES '!=' YES ']'
+++ '[' -z /tmp/toolpack_aarch64 ']'
+++ '[' -z 0 ']'
+++ '[' -z /bin/echo ']'
+++ '[' -z https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux ']'
+++ '[' -z /tmp ']'
+++ '[' -z 'mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux' ']'
+++ export SKIP_BUILD=NO
+++ SKIP_BUILD=NO
+++ export BIN=signal-desktop
+++ BIN=signal-desktop
+++ export SOURCE_URL=https://github.com/signalapp/Signal-Desktop
+++ SOURCE_URL=https://github.com/signalapp/Signal-Desktop
+++ '[' NO == NO ']'
+++ echo -e '\n\n [+] (Building | Fetching) signal-desktop :: https://github.com/signalapp/Signal-Desktop\n'
+
+
+ [+] (Building | Fetching) signal-desktop :: https://github.com/signalapp/Signal-Desktop
+
+++ export BUILD_NIX_APPIMAGE=YES
+++ BUILD_NIX_APPIMAGE=YES
+++ '[' YES == YES ']'
++++ mktemp -d --tmpdir=/tmp/toolpacks XXXXXXX_aarch64_Linux
+++ pushd /tmp/toolpacks/vljzqax_aarch64_Linux
++++ realpath .
+++ OWD=/tmp/toolpacks/vljzqax_aarch64_Linux
+++ export OWD=/tmp/toolpacks/vljzqax_aarch64_Linux
+++ OWD=/tmp/toolpacks/vljzqax_aarch64_Linux
+++ export APP=signal-desktop
+++ APP=signal-desktop
+++ export NIX_PKGNAME=signal-desktop
+++ NIX_PKGNAME=signal-desktop
+++ export PKG_NAME=signal-desktop.NixAppImage
+++ PKG_NAME=signal-desktop.NixAppImage
+++ nix bundle --bundler github:ralismark/nix-appimage nixpkgs#signal-desktop --log-format bar-with-logs
+++ sudo rsync -achL /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.AppImage /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
++++ whoami
++++ whoami
+++ sudo chown -R runner:runner /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ chmod -R 755 /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ du -sh /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+626M	/tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ file /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+/tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, not stripped
+++ [[ -f /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp ]]
++++ stat -c%s /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ [[ 655954608 -gt 1024 ]]
++++ nix derivation show nixpkgs#signal-desktop
++++ awk '-F: ' '{print $2}'
++++ tr -d '"'
++++ grep --color=auto '"version"'
+++ PKG_VERSION=7.23.0
+++ export PKG_VERSION=7.23.0
+++ PKG_VERSION=7.23.0
+++ echo 7.23.0
+++ APPIMAGE=/tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ export APPIMAGE=/tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ APPIMAGE=/tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ chmod +x /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
+++ /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp --appimage-extract
+++ rm -f /tmp/toolpacks/vljzqax_aarch64_Linux/signal-desktop.NixAppImage.tmp
++++ realpath /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
+++ export APPIMAGE_EXTRACT=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
+++ APPIMAGE_EXTRACT=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
+++ '[' -d /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root ']'
++++ du -s /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
++++ cut -f1
+++ '[' 2086556 -gt 100 ']'
+++ cd /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
+++ mkdir -p /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/usr/share/applications
+++ mkdir -p /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/usr/share/metainfo
++++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -path '*share/*applications*signal*' -print -quit
++++ sed 's|/share/applications.*||'
+++ SHARE_DIR=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4q4jfxlvay5y9fw9h0p8k562f2298am-signal-desktop-7.23.0/share
+++ export SHARE_DIR=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4q4jfxlvay5y9fw9h0p8k562f2298am-signal-desktop-7.23.0/share
+++ SHARE_DIR=/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4q4jfxlvay5y9fw9h0p8k562f2298am-signal-desktop-7.23.0/share
+++ rsync -av --copy-links '--include=*/' '--include=*.desktop' '--include=*.png' '--include=*.svg' '--include=*.xml' '--exclude=*' /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4q4jfxlvay5y9fw9h0p8k562f2298am-signal-desktop-7.23.0/share/ ./usr/share/
+sending incremental file list
+./
+applications/
+applications/signal-desktop.desktop
+doc/
+doc/signal-desktop/
+icons/
+icons/hicolor/
+icons/hicolor/1024x1024/
+icons/hicolor/1024x1024/apps/
+icons/hicolor/1024x1024/apps/signal-desktop.png
+icons/hicolor/128x128/
+icons/hicolor/128x128/apps/
+icons/hicolor/128x128/apps/signal-desktop.png
+icons/hicolor/16x16/
+icons/hicolor/16x16/apps/
+icons/hicolor/16x16/apps/signal-desktop.png
+icons/hicolor/24x24/
+icons/hicolor/24x24/apps/
+icons/hicolor/24x24/apps/signal-desktop.png
+icons/hicolor/256x256/
+icons/hicolor/256x256/apps/
+icons/hicolor/256x256/apps/signal-desktop.png
+icons/hicolor/32x32/
+icons/hicolor/32x32/apps/
+icons/hicolor/32x32/apps/signal-desktop.png
+icons/hicolor/48x48/
+icons/hicolor/48x48/apps/
+icons/hicolor/48x48/apps/signal-desktop.png
+icons/hicolor/512x512/
+icons/hicolor/512x512/apps/
+icons/hicolor/512x512/apps/signal-desktop.png
+icons/hicolor/64x64/
+icons/hicolor/64x64/apps/
+icons/hicolor/64x64/apps/signal-desktop.png
+
+sent 281,950 bytes  received 317 bytes  564,534.00 bytes/sec
+total size is 280,296  speedup is 0.99
+++ ls -lh --color=auto ./usr/share/
+total 16K
+drwxr-xr-x 2 runner runner 4.0K Oct 12 10:16 applications
+drwxr-xr-x 3 runner runner 4.0K Oct 12 10:16 doc
+drwxr-xr-x 3 runner runner 4.0K Oct 12 10:16 icons
+drwxr-xr-x 2 runner runner 4.0K Oct 12 10:16 metainfo
+++ sort -n
+++ awk 'NR==1 {print $2}'
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -maxdepth 1 -type f,l '(' -iname '*.[pP][nN][gG]' -o -iname '*.[sS][vV][gG]' ')' -printf '%s %p\n' -quit
+++ xargs -I '{}' magick '{}' -background none -density 1000 -resize 256x256 -gravity center -extent 256x256 -verbose /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png
+++ [[ ! -f /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png ]]
+++ sort -n
+++ awk 'NR==1 {print $2}'
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -regex '.*\(128x128/apps\|256x256\)/.*signal-desktop.*\.\(png\|svg\)' -printf '%s %p\n' -quit
+++ xargs -I '{}' magick '{}' -background none -density 1000 -resize 256x256 -gravity center -extent 256x256 -verbose /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/usr/share/icons/hicolor/256x256/apps/signal-desktop.png=>/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png PNG 256x256 256x256+0+0 8-bit sRGB 23753B 0.050u 0:00.051
+++ rsync -achL /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/.DirIcon
+++ sort -n
+++ awk 'NR==1 {print $2}'
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -path '*signal*.desktop' -printf '%s %p\n' -quit
+++ xargs -I '{}' sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
+++ sed 's/Icon=[^ ]*/Icon=signal-desktop/' -i /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.desktop
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -maxdepth 1 -type f -exec chmod u=rx,go=rx '{}' +
+++ echo -e '\n[+] Purging Bloatware...\n'
+
+[+] Purging Bloatware...
+
++++ du -sh /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
++++ awk '{print $1}'
+++ O_SIZE=2.0G
+++ export O_SIZE=2.0G
+++ O_SIZE=2.0G
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type d -path '*/include*' -print -exec rm -rf '{}' ';'
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/bpr9aa1fvn6fjw3q4c5khc00p6kfjc94-libssh-0.10.6/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/p1643yypxcyhlj040sph95kcgwlc2ccx-dbus-1.14.10-lib/lib/dbus-1.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mgi0bxgd3bjp5z95d1k6gg9dcyxh1pwn-libapparmor-4.0.1/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/2282mnxqra8hp791c2fcj2da4jdf14n9-linux-headers-6.9/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/05b2lwj2zyxlpfr0fd8ga92xdyc06qxh-libnetfilter_conntrack-1.0.9/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/970mrbrvg7gnbhgm59smc2vmc5wv91s3-glibc-2.39-52-dev/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/m42l0bdx41dyaakskspqmfrkpmrmgdv2-srt-1.5.3/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/js0b2ka96ifckryrgzr9h3kc2zdd3921-graphene-1.10.8/lib/graphene-1.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gj6s1diiq8xpcwxcj5317h802dn490hp-libxml++-3.0.1/lib/libxml++-3.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/18rvpgkxganhhx6s4rp7g2h2zvmyy1nq-gsettings-desktop-schemas-46.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q1gq2fi9w1xd9lbnjrpk85d89025zdiw-libargon2-20190702/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q3rf6hikhbjn7r9nk4sblsa8iqkl175d-pixman-0.43.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lppmmmibk192x6kpzzmqpcg1qkwz2d7h-libXtst-1.2.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/jsi4jr5v4mmx6d169xcn2jafxyln0dg4-libmnl-1.0.5/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/2wrrdpzchlwknr5i2p6hnlsn0dkn1f8h-glib-2.80.4/lib/glib-2.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/8aipxlywcy3g1mi1dccqxs1c6ibxscwl-libraw1394-2.1.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7l55j9l41sxcgs3kfsh8gmgfkdfya5dc-xvidcore-1.3.7/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/32ma1pqka25836jdjijvik97la6x06mg-zix-0.4.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/qw5s1fcpwgcy17dbiv9iw4yxpkvvr7ag-glibmm-2.66.7/lib/glibmm-2.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/qw5s1fcpwgcy17dbiv9iw4yxpkvvr7ag-glibmm-2.66.7/lib/giomm-2.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/387fphlnz54cky43y43gj5lav3pbfvpn-gst-plugins-base-1.24.3/lib/gstreamer-1.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/include-fixed
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/plugin/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mpygwr5rj1fhhxlhqi25vs9nvjy4cwps-npth-1.7/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/k2wm5kkdfgk2938xjbk64ffrbcg96yd7-kbd-2.6.4/share/keymaps/i386/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/k2wm5kkdfgk2938xjbk64ffrbcg96yd7-kbd-2.6.4/share/keymaps/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/k2wm5kkdfgk2938xjbk64ffrbcg96yd7-kbd-2.6.4/share/keymaps/mac/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7mw1516d2q28yy98gvbqxcznlkprx99f-libdbusmenu-glib-16.04.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/694s3lcipyg2ypmccp1zpyrwzmi5qml4-libbpf-1.4.5/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/kjbsvw430dszfzvlwq7xhxr7b89nqy16-lm-sensors-3.6.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/0wlv1bcjfjgncikkh68llwgg2ali8xf1-gawk-5.2.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q7ya280wwl9gm7vh4l910xv1kdsxyzqf-libpciaccess-0.18.1/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/9vrv5ydcnyflb3b035b5v0jz5021p6vl-libconfig-1.7.3/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4z1z3g6dafljkd9baxdwhpmlm9nz4nh-cracklib-2.10.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/v8h9jjccncahmv140vgybcyv7m61x4kn-libavc1394-0.5.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/35hzyphhxk4kqkssahjyqwpvhsili239-libmpc-1.3.1/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/05vjgxax336nv9fbdcja8iaka1jmrbck-libwebp-1.4.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/z50i62qdg6d8l234n1pfsbajq6ig3jih-libpcap-1.10.4/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lpd4wa3jy8abzwnfcc07s9bplsy0ng1b-cdparanoia-III-10.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mk320p5n684fips7k0lidlwzz3500y2b-libxcrypt-4.4.36/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7hdgvsl8n1waalmwjysmkpnqjam6bpc5-libsigc++-2.12.1/lib/sigc++-2.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/n8jvjy9iy4c016l41ixysybds45r2pxi-linux-pam-1.6.1/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6iq3nhgdyp8a5wzwf097zf2mn4zyqxr6-python3-3.12.5/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/3dyd3y6f8b72pbpbi0lszbmnx96v04gd-libnftnl-1.2.7/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mk8zk4q6vilbincnzbzarxbvhhsj43aw-giflib-5.2.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/xqzb10dazrncdpwakj3nnxfc4z8gb6wm-procps-3.3.17/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/jbf4cy0g0zcxgs5hmm68mfxwvw7mcyv0-libdeflate-1.20/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/62mzarqi3jmmcfmqllmpkghx21c7c4ci-libnfnetlink-1.0.2/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/w8q6zzbnyhkghdlavf4zv5s2kay0ic44-libiec61883-1.2.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/v4s6iirpl51scrrj7vqzhyzbn0yz400i-libwebp-1.4.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/jsdpss5r9bgmsdl7dh0n5jjlifmdhzbz-libdbusmenu-gtk3-16.04.0/include
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/8829gj16nchcysl2nk5y7yzasq4c8bv5-isl-0.20/include
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type d -path '*doc/share*' '!' -name '*signal*' -print -exec rm -rf '{}' ';'
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/3scw7wdaz3mnigbqpir7yd81lfx4vb4a-jq-1.7.1-doc/share
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type d -path '*/share/docs*' '!' -name '*signal*' -print -exec rm -rf '{}' ';'
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type d -path '*/share/man*' '!' -name '*signal*' -print -exec rm -rf '{}' ';'
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mgi0bxgd3bjp5z95d1k6gg9dcyxh1pwn-libapparmor-4.0.1/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/grh30dxf5nckv5n1p9d47gwgvrd36kz1-xdg-utils-1.2.1/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6dijyk860kpfbsipk147sz177aa2qjwc-which-2.21/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/qjja9ni2iwha1ymylm9qvj2r35hjpgix-libxkbcommon-1.7.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/pblb6y7z6lwhbcdiamvmwq4h58rgpskg-glib-2.80.4-bin/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/bin6jagcpf3qn5xa47gd8j7rigkblb4y-libXfixes-6.0.1/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lppmmmibk192x6kpzzmqpcg1qkwz2d7h-libXtst-1.2.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/vlmywgdfw7h3bx3az91lljqzpc4l9bxh-perl5.38.2-libwww-perl-6.72/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/bal3v88qf3y9d1zv8s3fk7p6zsbmjys5-xkeyboard-config-2.42/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/x9ni6161p67b0d0017zm5a2jjla2ga6r-kmod-31/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/r9ynyk7cqslm2s8cs1m4x7kiacz67m91-xdg-user-dirs-0.18/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/pa5rwa7jpmdi13152nmc3jzi0swfjwma-procmail-3.24/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/8aipxlywcy3g1mi1dccqxs1c6ibxscwl-libraw1394-2.1.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gi84vpjf8ssgdy5f541ndklf7d1lvs01-libXcursor-1.2.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/387fphlnz54cky43y43gj5lav3pbfvpn-gst-plugins-base-1.24.3/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/k2wm5kkdfgk2938xjbk64ffrbcg96yd7-kbd-2.6.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/a2wdr217q0xk9yp6jgymlcp7v00ixbyn-zlib-1.3.1/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/s1fgi1pdrs6qvlzajlyk4jdgi4m1chn9-libXinerama-1.1.5/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/sjnjdc837fjddfh047gfcydcbs739jb6-tracker-3.7.3/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/kjbsvw430dszfzvlwq7xhxr7b89nqy16-lm-sensors-3.6.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/jr0dq64jp1fkji0vbffx8swfnr7z9fw9-gnutar-1.35/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lwswphknj1l6z8fzib13nl7cq4ra6qcc-net-tools-2.10/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/fvn361ym218bcjyd30v75r96y32bmraw-roc-toolkit-0.4.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/d8pcbad8w3ykn6jvxy2xzjj04796r56k-libXrandr-1.5.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q4z1z3g6dafljkd9baxdwhpmlm9nz4nh-cracklib-2.10.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7bilfbam7znzsn5l7wknk3nn4gs9iwzd-shared-mime-info-2.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/v8h9jjccncahmv140vgybcyv7m61x4kn-libavc1394-0.5.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/w6n17xmmcd6jxf3q10y9k7wnwb76asv9-kexec-tools-2.0.28/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/05vjgxax336nv9fbdcja8iaka1jmrbck-libwebp-1.4.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/db6hb0clji7dd9mj6jwvrirhm9188fzp-gnum4-1.4.19/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/z50i62qdg6d8l234n1pfsbajq6ig3jih-libpcap-1.10.4/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lpd4wa3jy8abzwnfcc07s9bplsy0ng1b-cdparanoia-III-10.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q58qfqllsf5p5rpzxf78l8mdnmcphpvn-mailcap-2.1.54/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6jxly7l6m7wjz9bh4zmh09xcyhphs6l2-mpdecimal-4.0.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6iq3nhgdyp8a5wzwf097zf2mn4zyqxr6-python3-3.12.5/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/fxf2s99x6hiaihxij4rah74x16d9svfl-gnugrep-3.11/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mk8zk4q6vilbincnzbzarxbvhhsj43aw-giflib-5.2.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/xskvfjsgqklqg2g20sskzlkcw9fgrv2p-libXau-1.0.11/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/1chzkpkka2c8ff6w0wi0axvi9hc8qlv6-krb5-1.21.3-lib/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/xqzb10dazrncdpwakj3nnxfc4z8gb6wm-procps-3.3.17/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7480j9bdcyqrzc7gdd0qar21snp8rp1w-librsvg-2.58.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/rd8h731s2fgdpqjj8jp9v2q09khyk5b3-bluez-5.76/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/scx5i2bmxm8hr38cx4l06r93jakp6qsn-perl5.38.2-File-MimeInfo-0.33/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7wmv424m7z2d4x6x6p5lbiycfim7gdh1-freetype-2.13.2/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/w8q6zzbnyhkghdlavf4zv5s2kay0ic44-libiec61883-1.2.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/v4s6iirpl51scrrj7vqzhyzbn0yz400i-libwebp-1.4.0/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/m2q5jyh2ifvyy71054kvdq12bq1kny0q-jq-1.7.1-man/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/478pkl1pkh6jswyhr7vnrv36xc06g0l1-libXft-2.3.8/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/5ri0v39300yv8b17ywn1vab716cwj2wx-gnused-4.9/share/man
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7lxps49n8zd75hh3z9qkxp8dz9v5y480-libXcomposite-0.4.6/share/man
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type f -name '*.a' -print -exec rm -f '{}' ';'
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lmk3ivhpkfizjbwn3gl1jv468g7z71al-libvmaf-3.0.0/lib/libvmaf.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mgi0bxgd3bjp5z95d1k6gg9dcyxh1pwn-libapparmor-4.0.1/lib/libapparmor.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mvsq4z2g9l05vfwdkr9nihbxyxm18nak-glibc-2.39-52/lib/libc_nonshared.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/m42l0bdx41dyaakskspqmfrkpmrmgdv2-srt-1.5.3/lib/libsrt.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/q1gq2fi9w1xd9lbnjrpk85d89025zdiw-libargon2-20190702/lib/libargon2.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/al3s5f02v5v7z9s8v860y4hm10w991kl-openjpeg-2.5.2/lib/libopenjp2.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/fj8z9n7rgqcaa3csf3amdapn639fbws2-json-c-0.17/lib/libjson-c.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libitm.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libhwasan.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/liblsan.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libstdc++exp.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libubsan.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libatomic.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libssp.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/libgcc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/libgcov.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/gcc/aarch64-unknown-linux-gnu/13.3.0/libgcc_eh.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libtsan.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libasan.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libstdc++fs.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libstdc++.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libsupc++.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libgomp.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/gvs1z5fzx12xp787ays1ncqlfgv3j1c8-gcc-13.3.0/lib/libssp_nonshared.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/v4z7ylajwmrd1a28c1pa6ag1s119g46b-keyutils-1.6.3-lib/lib/libkeyutils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/694s3lcipyg2ypmccp1zpyrwzmi5qml4-libbpf-1.4.5/lib/libbpf.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/kjbsvw430dszfzvlwq7xhxr7b89nqy16-lm-sensors-3.6.0/lib/libsensors.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6rzjlp651ai6k01zbxga1q4vlhc8bv99-libselinux-3.6/lib/libselinux.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyUtils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMObjectYAML.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMOrcShared.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64CodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBinaryFormat.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWindowsManifest.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExtensions.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMProfileData.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDWARFLinkerClassic.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64AsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMObjCARCOpts.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLoongArchCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoBTF.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMInstrumentation.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBPFAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLoongArchDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMXCoreDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoCodeView.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFileCheck.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoMSF.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libPollyISL.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSystemZDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHexagonCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64Desc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLinker.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTransformUtils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMObjCopy.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMSP430AsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMIRPrinter.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSparcInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExegesisX86.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTableGenGlobalISel.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVEAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMipsDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDemangle.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86CodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHexagonDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAsmPrinter.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86TargetMCA.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVTargetMCA.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86Disassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoLogicalView.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMCJIT.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMGlobalISel.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSystemZDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExegesis.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMOrcJIT.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMSP430Info.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPasses.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFrontendOpenACC.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSparcDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMNVPTXDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAVRDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSystemZAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUUtils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86AsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPowerPCDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMInstCombine.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMCA.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBitWriter.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAggressiveInstCombine.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMObject.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBitstreamReader.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBPFDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMIRReader.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSymbolize.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCoroutines.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMOption.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExegesisPowerPC.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLoongArchAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMCDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBPFCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSparcCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHexagonDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFrontendHLSL.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBPFInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFuzzMutate.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSparcAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMNVPTXInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVEInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHexagonAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMJITLink.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFrontendOpenMP.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExecutionEngine.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSparcDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCFGuard.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86Desc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLineEditor.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMCParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMSP430CodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRemarks.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoPDB.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTargetParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMXRay.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64Info.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMXCoreInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoDWARF.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSystemZCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMInterfaceStub.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVEDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSupport.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMOrcDebugging.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFuzzerCLI.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDiff.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMOrcTargetProcess.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVECodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCodeGenTypes.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPowerPCDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSystemZInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMIRParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64Utils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLTO.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAVRCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBPFDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVectorize.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAnalysis.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLoongArchDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebuginfod.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMUtils.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMSelectionDAG.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTextAPI.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAVRDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMipsAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFrontendDriver.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLoongArchInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPowerPCInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCFIVerify.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLibDriver.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHipStdPar.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libPolly.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMFrontendOffloading.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMHexagonInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMipsCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMipsDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDebugInfoGSYM.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMARMAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMipsInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWindowsDriver.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTarget.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAVRInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMSP430Disassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMSP430Desc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUTargetMCA.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMMC.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCore.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLanaiAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTextAPIBinaryReader.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLanaiCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExegesisMips.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDlltoolDriver.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMX86Info.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMCoverage.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMBitReader.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPowerPCCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAArch64Disassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDWARFLinker.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDWP.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLanaiDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMScalarOpts.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLanaiDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMExegesisAArch64.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMDWARFLinkerParallel.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMipo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMXCoreDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMXCoreCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMWebAssemblyDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTableGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMTableGenCommon.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMInterpreter.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAVRAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMVEDesc.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRISCVAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMRuntimeDyld.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMPowerPCAsmParser.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMLanaiInfo.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMNVPTXCodeGen.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/isb7n0l7az376p52ckdavxrf31ksjypg-llvm-18.1.8-lib/lib/libLLVMAMDGPUDisassembler.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libicalss_cxx.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libical-glib.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libicalss.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libicalvcal.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libical_cxx.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/10ahyd0k8r7l4nlkdw88srl690xms1d3-libical-3.0.18/lib/libical.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/z50i62qdg6d8l234n1pfsbajq6ig3jih-libpcap-1.10.4/lib/libpcap.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/j32kn6ycn2fhj0i287s85hlbg0qya02c-libvpx-1.14.1/lib/libvpx.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lpd4wa3jy8abzwnfcc07s9bplsy0ng1b-cdparanoia-III-10.2/lib/libcdda_paranoia.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/lpd4wa3jy8abzwnfcc07s9bplsy0ng1b-cdparanoia-III-10.2/lib/libcdda_interface.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/z6kps0i0h69cbb5af5s7ggfdv822gkyq-libmysofa-1.3.2/lib/libmysofa.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/6iq3nhgdyp8a5wzwf097zf2mn4zyqxr6-python3-3.12.5/lib/python3.12/config-3.12-aarch64-linux-gnu/libpython3.12.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/sia2dmkg7v05fmicxbqjvw8llfayal7l-elfutils-0.191/lib/libdw.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/sia2dmkg7v05fmicxbqjvw8llfayal7l-elfutils-0.191/lib/libelf.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/sia2dmkg7v05fmicxbqjvw8llfayal7l-elfutils-0.191/lib/libasm.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/mk8zk4q6vilbincnzbzarxbvhhsj43aw-giflib-5.2.2/lib/libgif.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/jbf4cy0g0zcxgs5hmm68mfxwvw7mcyv0-libdeflate-1.20/lib/libdeflate.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/wc8zpqj983pcad0iy9x4fl9p9xshyf7s-libfido2-1.15.0/lib/libfido2.a
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/nix/store/7wmv424m7z2d4x6x6p5lbiycfim7gdh1-freetype-2.13.2/lib/libfreetype.a
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root -type d -name '*systemd*' -exec find '{}' -type f '!' -name '*.so*' -delete ';'
++++ du -sh /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root
++++ awk '{print $1}'
+++ P_SIZE=1.6G
+++ export P_SIZE=1.6G
+++ P_SIZE=1.6G
+++ echo -e '\n[+] Shaved off 2.0G --> 1.6G\n'
+
+[+] Shaved off 2.0G --> 1.6G
+
+++ rsync -achL /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.png /tmp/toolpack_aarch64/signal-desktop.icon.png
+++ rsync -achL /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/.DirIcon /tmp/toolpack_aarch64/signal-desktop.DirIcon
+++ rsync -achL /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root/signal-desktop.desktop /tmp/toolpack_aarch64/signal-desktop.desktop
+++ cd /tmp/toolpacks/vljzqax_aarch64_Linux
++++ uname -m
+++ ARCH=aarch64
+++ appimagetool --comp zstd --mksquashfs-opt -root-owned --mksquashfs-opt -no-xattrs --mksquashfs-opt -noappend --mksquashfs-opt -b --mksquashfs-opt 1M --mksquashfs-opt -mkfs-time --mksquashfs-opt 0 --mksquashfs-opt -Xcompression-level --mksquashfs-opt 22 --updateinformation 'zsync|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.NixAppImage.zsync' --no-appstream /tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root /tmp/toolpack_aarch64/signal-desktop.NixAppImage
+appimagetool, continuous build (git version 81ee1db), build 172 built on 2024-08-08 00:22:09 UTC
+Using architecture aarch64
+/tmp/toolpacks/vljzqax_aarch64_Linux/squashfs-root should be packaged as /tmp/toolpack_aarch64/signal-desktop.NixAppImage
+Generating squashfs...
+Downloading runtime file from https://github.com/AppImage/type2-runtime/releases/download/continuous/runtime-aarch64
+Downloaded runtime binary of size 668008
+Parallel mksquashfs: Using 6 processors
+Creating 4.0 filesystem on /tmp/toolpack_aarch64/signal-desktop.NixAppImage, block size 1048576.
+[/                                                           ]     0/15481   0%[================================\                           ]  9300/17137  54%[=================================|                          ]  9700/17137  56%[=============================================|              ] 13200/17137  77%[===========================================================/] 17137/17137 100%
+
+Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 1048576
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 404581.31 Kbytes (395.10 Mbytes)
+	26.35% of uncompressed filesystem size (1535210.90 Kbytes)
+Inode table size 210588 bytes (205.65 Kbytes)
+	23.80% of uncompressed inode table size (884991 bytes)
+Directory table size 231971 bytes (226.53 Kbytes)
+	35.63% of uncompressed directory table size (650990 bytes)
+Number of duplicate files found 13
+Number of inodes 26138
+Number of files 16157
+Number of fragments 527
+Number of symbolic links 3020
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 6961
+Number of hard-links 1367
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+zsyncmake is available and updateinformation is provided, hence generating zsync file
+ERROR: zsyncmake returned abnormal exit code: Child process exited with code 127
+++ find /tmp/toolpacks/vljzqax_aarch64_Linux -maxdepth 1 -name '*.zsync' -exec rsync -achL '{}' /tmp/toolpack_aarch64 ';'
+++ rm -rf /tmp/toolpacks/vljzqax_aarch64_Linux
+++ popd
+++ xargs -I '{}' sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+++ find /tmp/toolpack_aarch64 -type f -iname '*signal*' -print
+/tmp/toolpack_aarch64/signal-desktop.NixAppImage: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped
+1b6d6ec5e8fde1fe4e6c056ba9fae39d85b28cbe94d1af6de348aa6c04d69bb7  /tmp/toolpack_aarch64/signal-desktop.NixAppImage
+ed0ad92cd041affc87d30e4fc72ead7dd012bd4669bbd01d9fa654e5d3272a4c  /tmp/toolpack_aarch64/signal-desktop.NixAppImage
+396M	/tmp/toolpack_aarch64/signal-desktop.NixAppImage
+/tmp/toolpack_aarch64/signal-desktop.NixAppImage.version: ASCII text
+785f1bfa26d79bd0ea3b7466bd880bae2d044d5fbd16e282265d2e31b892f27f  /tmp/toolpack_aarch64/signal-desktop.NixAppImage.version
+85d0203a1387c78b35ddf27e8f4034ea862833dadd11f0ded11cc7a1e00a5f1a  /tmp/toolpack_aarch64/signal-desktop.NixAppImage.version
+4.0K	/tmp/toolpack_aarch64/signal-desktop.NixAppImage.version
+/tmp/toolpack_aarch64/signal-desktop.desktop: ASCII text
+46b7c1f11cd25bca8995f681af05c4605159af7466ad2e17e5f8a41d771b4a0e  /tmp/toolpack_aarch64/signal-desktop.desktop
+b1ac96de5ddd06bd3f004739e8c1d1b03a774255565013d66a4ebe71a00fd415  /tmp/toolpack_aarch64/signal-desktop.desktop
+4.0K	/tmp/toolpack_aarch64/signal-desktop.desktop
+/tmp/toolpack_aarch64/signal-desktop.icon.png: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+b0a5bc406f469c786f54c2bac2472f7b30fcef71d5fbb65c675d02e7f96666a2  /tmp/toolpack_aarch64/signal-desktop.icon.png
+72bc1da6653e384baa84e2ab1c3eea6e447c4d5a07d892d886441f42c553065f  /tmp/toolpack_aarch64/signal-desktop.icon.png
+36K	/tmp/toolpack_aarch64/signal-desktop.icon.png
+/tmp/toolpack_aarch64/signal-desktop.DirIcon: PNG image data, 256 x 256, 8-bit/color RGBA, non-interlaced
+b0a5bc406f469c786f54c2bac2472f7b30fcef71d5fbb65c675d02e7f96666a2  /tmp/toolpack_aarch64/signal-desktop.DirIcon
+72bc1da6653e384baa84e2ab1c3eea6e447c4d5a07d892d886441f42c553065f  /tmp/toolpack_aarch64/signal-desktop.DirIcon
+36K	/tmp/toolpack_aarch64/signal-desktop.DirIcon
+++ unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ popd
+++ LOG_PATH=/tmp/toolpack_aarch64/signal-desktop.log
+++ export LOG_PATH=/tmp/toolpack_aarch64/signal-desktop.log
+++ LOG_PATH=/tmp/toolpack_aarch64/signal-desktop.log
+++ unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+++ unset SKIP_BUILD
+++ export BUILT=YES
+++ BUILT=YES
+++ unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
+++ unset GOARCH GOOS CGO_ENABLED CGO_CFLAGS
+++ unset PKG_CONFIG_PATH PKG_CONFIG_LIBDIR PKG_CONFIG_SYSROOT_DIR PKG_CONFIG_SYSTEM_INCLUDE_PATH PKG_CONFIG_SYSTEM_LIBRARY_PATH
+++ set +x
+-e 
+
+
 
 [+] Fetching : https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/aarch64-Linux/pkgs/affine.sh (2/15)
 

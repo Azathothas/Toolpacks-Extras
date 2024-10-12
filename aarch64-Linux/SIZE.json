@@ -145,11 +145,11 @@
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "size": "2.89 MB"
+    "size": "2.9 MB"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "size": "2.91 MB"
+    "size": "2.92 MB"
   },
   {
     "filename": "./aisap.AppImage",
@@ -346,5 +346,41 @@
   {
     "filename": "./magick.dwfs.AppBundle.version",
     "size": "9 B"
+  },
+  {
+    "filename": "./base.default.png",
+    "size": "38.1 KB"
+  },
+  {
+    "filename": "./bin.default.png",
+    "size": "19.73 KB"
+  },
+  {
+    "filename": "./pkg.default.png",
+    "size": "40.22 KB"
+  },
+  {
+    "filename": "./signal-desktop.DirIcon",
+    "size": "36.09 KB"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage",
+    "size": "414.96 MB"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./signal-desktop.desktop",
+    "size": "357 B"
+  },
+  {
+    "filename": "./signal-desktop.icon.png",
+    "size": "36.09 KB"
+  },
+  {
+    "filename": "./signal-desktop.log",
+    "size": "59.96 KB"
   }
 ]
