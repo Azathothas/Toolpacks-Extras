@@ -165,7 +165,7 @@ if jq --exit-status . "${TMPDIR}/METADATA.json.bak" >/dev/null 2>&1; then
      pushd "${HF_REPO_LOCAL}" >/dev/null 2>&1
        git fetch origin main ; git sparse-checkout add "./${HOST_TRIPLET}"
        find "${HF_REPO_LOCAL}" -type f -size -3c -delete
-       rm "./${HOST_TRIPLET}/METADATA.json.tmp"
+       rm "./${HOST_TRIPLET}/METADATA.json.tmp" 2>/dev/null
        cp "${TMPDIR}/METADATA.json" "./${HOST_TRIPLET}/METADATA.json"
        #jq -r tostring "${TMPDIR}/METADATA.json" > "./${HOST_TRIPLET}/METADATA.min.json"
        sed "s|https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/$(uname -m)-$(uname -s)|https://pkg.ajam.dev/$(uname -m)|g" \
