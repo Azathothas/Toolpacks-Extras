@@ -5,7 +5,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-   - cron: "0 */1 * * *"  # Every 01 Hrs
+   - cron: "0 */4 * * *"  # Every 04 Hrs
 
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS_GHRO }}"
