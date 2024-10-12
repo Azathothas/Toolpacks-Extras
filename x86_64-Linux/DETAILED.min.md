@@ -264,22 +264,41 @@
 
 ---
 
-### [`inkscape.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage)
-- **PKG_Name 📦:** inkscape
-- **Version 🧬:** `1.3.2`
-- **Description ℹ️:** FOSS Vector Graphics Editor (AppImage|NixAppImage)
-- **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)
-- **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
-- **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
-- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage
-- **Size 💾:** `96.33 MB`
-- **SHA256SUM 🔐:** `999027bf1af436cf807eefe1250a95b4358798d9ecfbf08e4bec9dbe186e88cc`
-- **B3SUM 🔐:** `b039b83a31c080d27a893f486bc3748a02b160f13f1a80a45852c800a78c9618`
-- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
-- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/inkscape.log
-- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.icon.png
-- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.desktop
-- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.zsync
+### [`magick.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/magick.AppImage)
+- **PKG_Name 📦:** magick
+- **Version 🧬:** `7.1.1-39`
+- **Description ℹ️:** FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
+- **Note ⚠️:** This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)
+- **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
+- **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/magick.AppImage
+- **Size 💾:** `25.51 MB`
+- **SHA256SUM 🔐:** `8d79cbd7dc460ba7724aaf2979f9e3a1c4821d6be6176331043d4ce72746581b`
+- **B3SUM 🔐:** `ee95c4b2a1a5aea07d13c73ed98c77394df5cff62155e0f96e90593c21fc4922`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.zsync
+
+---
+
+### [`magick.dwfs.AppBundle` 📀](https://pkg.ajam.dev/x86_64-Linux/magick.dwfs.AppBundle)
+- **PKG_Name 📦:** magick
+- **Version 🧬:** `7.1.1.39`
+- **Description ℹ️:** FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
+- **Note ⚠️:** This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)
+- **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
+- **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/magick.dwfs.AppBundle
+- **Size 💾:** `19.83 MB`
+- **SHA256SUM 🔐:** `a4cb453c20577b6fb5b6bd2e4265b92006a77b3159221fccb7b28bbe364535e4`
+- **B3SUM 🔐:** `7020fcfd368b2f1fd1e423597a24334874e772107cf96fa53b09076d86241e38`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.zsync
 
 ---
 
@@ -294,6 +313,25 @@
 - **Size 💾:** `100.25 MB`
 - **SHA256SUM 🔐:** `79823f277d607028de14ee9c432a11de6348276ade75551dc481ef74b9e751d0`
 - **B3SUM 🔐:** `ebd27431d9f011dd25362bc4a7a0c8652b2fe49c5db655e12067755af826643a`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/inkscape.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.zsync
+
+---
+
+### [`inkscape.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage)
+- **PKG_Name 📦:** inkscape
+- **Version 🧬:** `1.3.2`
+- **Description ℹ️:** FOSS Vector Graphics Editor (AppImage|NixAppImage)
+- **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)
+- **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
+- **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.AppImage
+- **Size 💾:** `96.33 MB`
+- **SHA256SUM 🔐:** `999027bf1af436cf807eefe1250a95b4358798d9ecfbf08e4bec9dbe186e88cc`
+- **B3SUM 🔐:** `b039b83a31c080d27a893f486bc3748a02b160f13f1a80a45852c800a78c9618`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/inkscape.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.icon.png
@@ -546,6 +584,25 @@
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.icon.png
 - **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.desktop
 - **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.zsync
+
+---
+
+### [`signal-desktop.NixAppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/signal-desktop.NixAppImage)
+- **PKG_Name 📦:** signal-desktop
+- **Version 🧬:** `7.27.0`
+- **Description ℹ️:** A private messenger for Windows, macOS, and Linux (NixAppImage)
+- **Note ⚠️:** Requires --no-sandbox to run<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
+- **Homepage 🌐:** [https://signal.org](https://signal.org)
+- **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/signal-desktop.NixAppImage
+- **Size 💾:** `429.46 MB`
+- **SHA256SUM 🔐:** `aae5b5378ac430f49c59d5e6c573e59f65fd3d581ad7b110a6d6f71d61819a2c`
+- **B3SUM 🔐:** `28ba85229d2377657837542e5ef46f795cbfe24159ac16e0b7c2aa6218dc79aa`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/signal-desktop.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/signal-desktop.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/signal-desktop.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/signal-desktop.zsync
 
 ---
 
