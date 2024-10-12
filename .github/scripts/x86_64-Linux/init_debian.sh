@@ -302,6 +302,8 @@
              export CONTINUE="NO" && exit 1
           else
              nix --version && nix-channel --list && nix-channel --update
+             nix registry add "nixpkgs" "github:NixOS/nixpkgs/nixpkgs-unstable" ; nix registry list
+             nix derivation show "nixpkgs#hello"
             if [ "${NIX_SETUP_MODE}" == "EXPENSIVE" ]; then
                 #Setup NixPkgs Repo [Latest Packages but EXPENSIVE]
                  sudo rm -rvf "/opt/nixpkgs" 2>/dev/null ; sudo mkdir -p "/opt" && pushd "/opt" >/dev/null 2>&1

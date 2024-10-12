@@ -64,7 +64,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
            ls -lah "${APPIMAGE_EXTRACT}"
           #Pack
-           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
+           #find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -73,7 +73,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
            --updateinformation "zsync|${HF_REPO_DL}/${PKG_NAME}.zsync" \
-           "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
+           --no-appstream "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
            find "${OWD}" -maxdepth 1 -name "*.zsync" -exec rsync -achL "{}" "${BINDIR}" \;
            rm -rf "${OWD}" && popd >/dev/null 2>&1
          fi
@@ -152,7 +152,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
           #Create (+Zsync)
-           find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
+           #find "${APPIMAGE_EXTRACT}" -type f -iname "*${APP%%-*}*appdata.xml" -delete
            cd "${OWD}" && ARCH="$(uname -m)" appimagetool --comp "zstd" \
            --mksquashfs-opt -root-owned \
            --mksquashfs-opt -no-xattrs \
@@ -161,7 +161,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            --mksquashfs-opt -mkfs-time --mksquashfs-opt "0" \
            --mksquashfs-opt -Xcompression-level --mksquashfs-opt "22" \
            --updateinformation "zsync|${HF_REPO_DL}/${PKG_NAME}.zsync" \
-           "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
+           --no-appstream "${APPIMAGE_EXTRACT}" "${BINDIR}/${PKG_NAME}"
            find "${OWD}" -maxdepth 1 -name "*.zsync" -exec rsync -achL "{}" "${BINDIR}" \;
            rm -rf "${OWD}" && popd >/dev/null 2>&1
          fi
