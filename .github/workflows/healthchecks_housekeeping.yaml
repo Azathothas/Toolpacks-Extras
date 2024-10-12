@@ -479,11 +479,16 @@ jobs:
            popd >/dev/null 2>&1
         continue-on-error: true
 
-      - name: Update TOTAL_PACKAGES
+      - name: Git Pull
         run: |
           #Presets
           set +x ; set +e
           #--------------#
+          cd "${GITHUB_WORKSPACE}/main" && git pull origin main
+        continue-on-error: true
+
+      - name: Update TOTAL_PACKAGES
+        run: |
           #Presets
           set +x ; set +e
           #--------------#          
