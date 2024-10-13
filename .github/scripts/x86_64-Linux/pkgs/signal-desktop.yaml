@@ -6,7 +6,7 @@ category:
  - "messenger"
  - "privacy"
 description: "A private messenger for Windows, macOS, and Linux (NixAppImage)"
-note: "Requires --no-sandbox to run<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)"
+note: "Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)"
 web_url: "https://signal.org"
 path: "/"
 src_url: "https://github.com/signalapp/Signal-Desktop"
