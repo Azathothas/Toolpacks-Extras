@@ -93,6 +93,44 @@
 
 ---
 
+### [`magick.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/magick.AppImage)
+- **PKG_Name 📦:** magick
+- **Version 🧬:** `latest`
+- **Description ℹ️:** FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
+- **Note ⚠️:** This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)
+- **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
+- **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
+- **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/magick.AppImage
+- **Size 💾:** `63.04 MB`
+- **SHA256SUM 🔐:** `e126181f85e49b20b19052cd8995dea4901730e3b96ee487d1a9f9226ad3a57a`
+- **B3SUM 🔐:** `00e61be4a548093f50d1ac722d9c30973c81928eaeb90eb70ccb2aa091f9abfc`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh
+- **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.zsync
+
+---
+
+### [`magick.dwfs.AppBundle` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/magick.dwfs.AppBundle)
+- **PKG_Name 📦:** magick
+- **Version 🧬:** `7.1.1.39`
+- **Description ℹ️:** FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
+- **Note ⚠️:** This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)
+- **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
+- **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
+- **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/magick.dwfs.AppBundle
+- **Size 💾:** `19.57 MB`
+- **SHA256SUM 🔐:** `9ceb41998f2c487ecfefd26bd9ee5d69e413d91b010e084f2f31bf3d07676c4c`
+- **B3SUM 🔐:** `cbafa9af838ef3899d060bafa70f5e3de958b4b4197de15722dfcbf1725fdbe7`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh
+- **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/imagemagick.zsync
+
+---
+
 ### [`inkscape.NixAppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/inkscape.NixAppImage)
 - **PKG_Name 📦:** inkscape
 - **Version 🧬:** `1.3.2`
@@ -185,6 +223,25 @@
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/ryujinx.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/ryujinx.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/ryujinx.zsync
+
+---
+
+### [`signal-desktop.NixAppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.NixAppImage)
+- **PKG_Name 📦:** signal-desktop
+- **Version 🧬:** `7.23.0`
+- **Description ℹ️:** A private messenger for Windows, macOS, and Linux (NixAppImage)
+- **Note ⚠️:** Requires --no-sandbox to run<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
+- **Homepage 🌐:** [https://signal.org](https://signal.org)
+- **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
+- **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.NixAppImage
+- **Size 💾:** `414.96 MB`
+- **SHA256SUM 🔐:** `ed0ad92cd041affc87d30e4fc72ead7dd012bd4669bbd01d9fa654e5d3272a4c`
+- **B3SUM 🔐:** `1b6d6ec5e8fde1fe4e6c056ba9fae39d85b28cbe94d1af6de348aa6c04d69bb7`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/signal-desktop.sh
+- **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/aarch64-Linux/signal-desktop.zsync
 
 ---
 
