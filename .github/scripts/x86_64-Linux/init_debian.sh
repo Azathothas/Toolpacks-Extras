@@ -212,18 +212,18 @@
              fi
           #archlinux
            pushd "$(mktemp -d)" >/dev/null 2>&1
-           aria2c "https://pub.ajam.dev/utils/archlinux-$(uname -m)/rootfs.tar.gz" \
+           aria2c "https://pub.ajam.dev/utils/archlinux-$(uname -m)/rootfs.tar.zst" \
            --split="16" --max-connection-per-server="16" --min-split-size="1M" \
            --check-certificate="false" --console-log-level="error" --user-agent="${USER_AGENT}" \
            --max-tries="10" --retry-wait="5" --connect-timeout="60" --timeout="600" \
-           --download-result="default" --allow-overwrite --out="./ROOTFS.tar.gz" 2>/dev/null
-           rsync -achLv "./ROOTFS.tar.gz" "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" ; popd >/dev/null 2>&1
+           --download-result="default" --allow-overwrite --out="./ROOTFS.tar.zst" 2>/dev/null
+           rsync -achLv "./ROOTFS.tar.zst" "/opt/ROOTFS/archlinux.ROOTFS.tar.zst" ; popd >/dev/null 2>&1
            #Test
-             if [ ! -f "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" ] || [ $(du -s "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" | cut -f1) -le 100 ]; then
+             if [ ! -f "/opt/ROOTFS/archlinux.ROOTFS.tar.zst" ] || [ $(du -s "/opt/ROOTFS/archlinux.ROOTFS.tar.zst" | cut -f1) -le 100 ]; then
                 echo -e "\n[-] AppBundle (archlinux) Setup Failed\n"
                 export CONTINUE="NO" && exit 1
              else
-                find "/opt/ROOTFS/archlinux.ROOTFS.tar.gz" -exec sh -c 'file "{}" && du -sh "{}"' \;
+                find "/opt/ROOTFS/archlinux.ROOTFS.tar.zst" -exec sh -c 'file "{}" && du -sh "{}"' \;
              fi
          #----------------------#
          #Docker
