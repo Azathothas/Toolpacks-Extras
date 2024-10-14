@@ -25,7 +25,7 @@ export SKIP_BUILD="NO"
 #imagemagick : FOSS suite for editing and manipulating Digital Images & Files
 export BIN="imagemagick"
 export SOURCE_URL="https://github.com/ImageMagick/ImageMagick"
-export BUILD_APPBUNDLE="YES"
+export BUILD_APPBUNDLE="NO" #Keep stable
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"

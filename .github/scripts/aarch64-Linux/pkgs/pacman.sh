@@ -21,7 +21,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="YES"
+export SKIP_BUILD="NO"
 #pacman : ArchLinux's package manager combining a simple binary package format with an easy-to-use build system
 export BIN="pacman"
 export SOURCE_URL="https://gitlab.archlinux.org/pacman/pacman"
