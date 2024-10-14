@@ -2,22 +2,29 @@
 
 #Get the AppDir Path
 SELF_PATH="$(dirname "$(realpath "$0")")"
+#Get the AppDir name
+SELF_NAME="$(basename "$0")"
 #Set path
 export PATH="${SELF_PATH}/bin:${PATH}"
-#In case a provided AppRun already exists
-APP_RUN_DEFAULT="${SELF_PATH}/AppRun.default"
-DEFAULT_CMD=""
-#If AppRun.default exists use it
-if [ -x "${APP_RUN_DEFAULT}" ] && [ -f "${APP_RUN_DEFAULT}" ]; then
-    DEFAULT_CMD="${APP_RUN_DEFAULT}"
+# Check if SELF_NAME exists in the bin directory
+if [ -x "${SELF_PATH}/bin/${SELF_NAME}" ] && [ -f "${SELF_PATH}/bin/${SELF_NAME}" ]; then
+   DEFAULT_CMD="${SELF_PATH}/bin/${SELF_NAME}"
 else
-    #Find first executable bin in AppDir/bin & use that
-    for exec_bin in "${SELF_PATH}/bin/"*; do
-        if [ -x "${exec_bin}" ] && [ -f "${exec_bin}" ]; then
-            DEFAULT_CMD="${exec_bin}"
-            break
-        fi
-    done
+   #In case a provided AppRun already exists
+   APP_RUN_DEFAULT="${SELF_PATH}/AppRun.default"
+   DEFAULT_CMD=""
+   #If AppRun.default exists use it
+   if [ -x "${APP_RUN_DEFAULT}" ] && [ -f "${APP_RUN_DEFAULT}" ]; then
+       DEFAULT_CMD="${APP_RUN_DEFAULT}"
+   else
+       #Find first executable bin in AppDir/bin & use that
+       for exec_bin in "${SELF_PATH}/bin/"*; do
+           if [ -x "${exec_bin}" ] && [ -f "${exec_bin}" ]; then
+               DEFAULT_CMD="${exec_bin}"
+               break
+           fi
+       done
+   fi
 fi
 #Run Found AppRun|Executable if default cmd wasn't specified
 if [ $# -eq 0 ]; then
