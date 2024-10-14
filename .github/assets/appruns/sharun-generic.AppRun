@@ -2,8 +2,8 @@
 
 #Get the AppDir Path
 SELF_PATH="$(dirname "$(realpath "$0")")"
-#Get the AppDir name
-SELF_NAME="$(basename "$0")"
+#Get the ${ARGV0}
+SELF_NAME="${ARGV0}"
 #Set path
 export PATH="${SELF_PATH}/bin:${PATH}"
 # Check if SELF_NAME exists in the bin directory
