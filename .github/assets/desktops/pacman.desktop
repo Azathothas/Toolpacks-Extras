@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PacMan
+Type=Application
+Exec=pacman
+Icon=pacman
+Comment=ArchLinux Pacman Package Manager
+Categories=Package-Manager;Utility;
+Terminal=true
