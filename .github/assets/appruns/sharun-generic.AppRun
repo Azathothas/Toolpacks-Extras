@@ -10,7 +10,7 @@ SELF_PATH="$(dirname "$(realpath "$0")")"
 #Get the ${ARGV0}
 SELF_NAME="${ARGV0}"
 #Set path
-export PATH="${SELF_PATH}/bin:${PATH}"
+export PATH="${SELF_PATH}/bin:${SELF_PATH}/usr/bin:${PATH}"
 # Check if SELF_NAME exists in the bin directory
 if [ -x "${SELF_PATH}/bin/${SELF_NAME}" ] && [ -f "${SELF_PATH}/bin/${SELF_NAME}" ]; then
    DEFAULT_CMD="${SELF_PATH}/bin/${SELF_NAME}"
@@ -38,7 +38,8 @@ if [ $# -eq 0 ]; then
 else
     #Check if the first argument is an executable in the bin directory
     if [ -x "${SELF_PATH}/bin/$1" ] && [ -f "${SELF_PATH}/bin/$1" ]; then
-        exec "${SELF_PATH}/bin/$1" "${@:2}"
+        shift
+        exec "${SELF_PATH}/bin/$1" "$@"
     else
         #If not, run the default command with all arguments
         exec "${DEFAULT_CMD}" "$@"
