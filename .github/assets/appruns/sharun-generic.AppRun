@@ -1,5 +1,10 @@
 #!/bin/sh
-
+#-------------------------------------------------------#
+#Can be run with DEBUG=1
+if [ "${DEBUG}" = "1" ]; then
+    set -x
+fi
+#-------------------------------------------------------#
 #Get the AppDir Path
 SELF_PATH="$(dirname "$(realpath "$0")")"
 #Get the ${ARGV0}
@@ -26,6 +31,7 @@ else
        done
    fi
 fi
+#-------------------------------------------------------#
 #Run Found AppRun|Executable if default cmd wasn't specified
 if [ $# -eq 0 ]; then
     exec "${DEFAULT_CMD}"
@@ -38,4 +44,11 @@ else
         exec "${DEFAULT_CMD}" "$@"
     fi
 fi
+#-------------------------------------------------------#
+#Reset set -x
+if [ "${DEBUG}" = "1" ]; then
+    set +x
+fi
+#-------------------------------------------------------#
 #END
+#-------------------------------------------------------#
