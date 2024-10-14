@@ -6,6 +6,7 @@ SELF_PATH="$(dirname "$(realpath "$0")")"
 export PATH="${SELF_PATH}/bin:${PATH}"
 #In case a provided AppRun already exists
 APP_RUN_DEFAULT="${SELF_PATH}/AppRun.default"
+DEFAULT_CMD=""
 #If AppRun.default exists use it
 if [ -x "${APP_RUN_DEFAULT}" ] && [ -f "${APP_RUN_DEFAULT}" ]; then
     DEFAULT_CMD="${APP_RUN_DEFAULT}"
@@ -19,9 +20,15 @@ else
     done
 fi
 #Run Found AppRun|Executable if default cmd wasn't specified
-if [ $# -eq 0 ] || [ -z "$1" ]; then
+if [ $# -eq 0 ]; then
     exec "${DEFAULT_CMD}"
 else
-    exec "$@"
+    #Check if the first argument is an executable in the bin directory
+    if [ -x "${SELF_PATH}/bin/$1" ] && [ -f "${SELF_PATH}/bin/$1" ]; then
+        exec "${SELF_PATH}/bin/$1" "${@:2}"
+    else
+        #If not, run the default command with all arguments
+        exec "${DEFAULT_CMD}" "$@"
+    fi
 fi
 #END

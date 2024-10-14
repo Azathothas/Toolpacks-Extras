@@ -4,5 +4,6 @@ Type=Application
 Exec=pacman
 Icon=pacman
 Comment=ArchLinux Pacman Package Manager
-Categories=Package-Manager;Utility;
+Categories=Utility;
+X-Categories=Package-Manager;Utility;
 Terminal=true
