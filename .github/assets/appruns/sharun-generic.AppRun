@@ -1,0 +1,4 @@
+#!/bin/sh
+SELF_PATH="$(dirname "$(realpath "$0")")"
+export PATH="${SELF_PATH}/bin:${PATH}"
+exec "$@"
