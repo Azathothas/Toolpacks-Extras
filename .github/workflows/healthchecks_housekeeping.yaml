@@ -435,10 +435,26 @@ jobs:
                "icon = \"https://pkg.ajam.dev/x86_64/\(.bin_name).icon.png\"\n" +
                "extra_bins = \"\(.extra_bins)\"\n"
              ' >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
+             #TOML
              taplo check "${SYSTMP}/x86_64-Linux-METADATA.toml" && cp "${SYSTMP}/x86_64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml"
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.bsum"
+             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" 2>/dev/null
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz.bsum"
+             #JSON
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -tj | jq 'to_entries | sort_by(.key) | from_entries' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json"
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.bsum"
+             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" 2>/dev/null
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz.bsum"
+             #JSON (MIN)
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json"
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.bsum"
+             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" 2>/dev/null
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz.bsum"
+             #YAML
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml"
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.bsum"
+             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" 2>/dev/null
+             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz.bsum"
           fi
         continue-on-error: true
 
