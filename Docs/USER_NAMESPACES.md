@@ -4,7 +4,7 @@
 > - In a user namespace, a process can think it's running as the root user (with all the usual admin powers), but in reality, it's still a regular user outside of that namespace. 
 > - This allows AppImages (& Variants) think they have full control, but in fact, they are limited to what the outer system allows.
 > - Some distros like [Ubuntu](https://ubuntu.com/blog/ubuntu-23-10-restricted-unprivileged-user-namespaces) disable it using AppArmor for security: https://ubuntu.com/blog/ubuntu-23-10-restricted-unprivileged-user-namespaces
-> - But you can disable that, and just use modern Sandboxing Tools like [BubbleWrap](https://github.com/containers/bubblewrap) & [firejail](https://github.com/netblue30/firejail). Or Wrappers like [AISAP]( https://github.com/mgord9518/aisap) & 
+> - But you can disable that, and just use modern Sandboxing Tools like [BubbleWrap](https://github.com/containers/bubblewrap) & [firejail](https://github.com/netblue30/firejail). Or Wrappers like [AISAP]( https://github.com/mgord9518/aisap) & [Chains](https://github.com/xplshn/chains)
 
 ---
 - #### [Check]()
