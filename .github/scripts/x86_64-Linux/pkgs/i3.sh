@@ -59,6 +59,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            rsync -achL "${APPIMAGE_EXTRACT}/.DirIcon" "${BINDIR}/${BIN}.DirIcon"
            sudo chmod +xwr "${APPIMAGE_EXTRACT}/${APP}.desktop"
            echo -e "[Desktop Entry]\nType=Application\nName=i3\nIcon=i3\nNoDisplay=true\nGenericName=A dynamic tiling window manager\nComment=improved dynamic tiling window manager\nExec=i3\nX-GNOME-WMName=i3\nX-GNOME-Autostart-Phase=WindowManager\nX-GNOME-Provides=windowmanager\nX-GNOME-Autostart-Notify=false\nCategories=System" > "${APPIMAGE_EXTRACT}/${APP}.desktop"
+           sed -E 's/\s+setup\s+/ /Ig' -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.desktop" "${BINDIR}/${BIN}.desktop"
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
@@ -129,6 +130,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            find "${APPIMAGE_EXTRACT}" -path "*${APP%%-*}*.desktop" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I {} sh -c 'rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.desktop"'
            sudo chmod +xwr "${APPIMAGE_EXTRACT}/${APP}.desktop"
            echo -e "[Desktop Entry]\nType=Application\nName=i3\nIcon=i3\nNoDisplay=true\nGenericName=A dynamic tiling window manager\nComment=improved dynamic tiling window manager\nExec=i3\nX-GNOME-WMName=i3\nX-GNOME-Autostart-Phase=WindowManager\nX-GNOME-Provides=windowmanager\nX-GNOME-Autostart-Notify=false\nCategories=System" > "${APPIMAGE_EXTRACT}/${APP}.desktop"
+           sed -E 's/\s+setup\s+/ /Ig' -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
            sed "s/Icon=[^ ]*/Icon=${APP}/" -i "${APPIMAGE_EXTRACT}/${APP}.desktop"
           #Perms
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
