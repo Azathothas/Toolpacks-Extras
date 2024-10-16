@@ -82,7 +82,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
      #-------------------------------------------------------#
     if [ "${BUILD_NIX_APPIMAGE}" == "YES" ]; then
@@ -125,18 +125,20 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Repack
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Get Media
-           cd "${APPIMAGE_EXTRACT}"
+           pushd "${APPIMAGE_EXTRACT}" >/dev/null 2>&1
            mkdir -p "${APPIMAGE_EXTRACT}/usr/share/applications" && mkdir -p "${APPIMAGE_EXTRACT}/usr/share/metainfo"
-           SHARE_DIR="$(find "${APPIMAGE_EXTRACT}" -path "*share/*applications*${APP%%-*}*" -print -quit | sed 's|/share/applications.*||')/share" && export SHARE_DIR="${SHARE_DIR}"
+           ENTRYPOINT_DIR="$(readlink -f entrypoint | sed -E 's|^(/nix/store/[^/]+).*|\1|' | tr -d '[:space:]')"
+           ENTRYPOINT_DIR="$(echo "${APPIMAGE_EXTRACT}/${ENTRYPOINT_DIR}" | sed 's|//|/|g')" && export ENTRYPOINT_DIR="${ENTRYPOINT_DIR}"
+           [ -d "${ENTRYPOINT_DIR}" ] && [[ "${ENTRYPOINT_DIR}" == "/tmp/"*"/nix/store/"* ]] || exit 1
            #usr/{applications,bash-completion,icons,metainfo,zsh}
-            rsync -av --copy-links \
+            rsync -achLv --mkpath \
                       --include="*/" \
                       --include="*.desktop" \
                       --include="*.png" \
                       --include="*.svg" \
                       --include="*.xml" \
                       --exclude="*" \
-                     "${SHARE_DIR}/" "./usr/share/" && ls "./usr/share/"
+                     "${ENTRYPOINT_DIR}/share/." "./usr/share/" && ls "./usr/share/"
           #Icon
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
@@ -152,14 +154,21 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
           #Purge Bloatware
            echo -e "\n[+] Purging Bloatware...\n"
             O_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "O_SIZE=${O_SIZE}"
+            #Locale
+            find "${APPIMAGE_EXTRACT}" -type d -regex '.*share/locale*' | xargs -I {} sh -c 'rm -rvf "{}" && ln -s "/usr/share/locale" "{}"'
+            rm -rvf "${APPIMAGE_EXTRACT}/usr/share/locale" 2>/dev/null
+            mkdir -p "${APPIMAGE_EXTRACT}/usr/share" && ln -s "/usr/share/locale" "${APPIMAGE_EXTRACT}/usr/share/locale"
             #Headers
             find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #docs & manpages
             find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            #static libs
-            find "${APPIMAGE_EXTRACT}" -type f -name "*.a" -print -exec rm -f {} 2>/dev/null \; 2>/dev/null
+            #Static Files
+            find "${APPIMAGE_EXTRACT}" -type f -regex ".*\.\(a\|gz\|md\|rar\|tar\|xz\|zip\)$" -print -exec rm -rvf "{}" 2>/dev/null \;
+            find "${APPIMAGE_EXTRACT}" -type f -regex '.*\(LICENSE\|LICENSE\.md\)' -print -exec rm -rvf "{}" 2>/dev/null \;
+            #Static Dirs
+            find "${APPIMAGE_EXTRACT}" -type d -regex '.*/\(ensurepip\|example\|examples\|i18n\|__pycache__\|__pyinstaller\|test\|tests\|translation\|translations\|unit_test\|unit_tests\)' -print -exec rm -rvf "{}" 2>/dev/null \;
             #systemd (need .so)
             find "${APPIMAGE_EXTRACT}" -type d -name "*systemd*" -exec find {} -type f ! -name "*.so*" -delete \;
             P_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "P_SIZE=${P_SIZE}"
@@ -184,7 +193,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          fi
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
        fi
       #End
        popd >/dev/null 2>&1

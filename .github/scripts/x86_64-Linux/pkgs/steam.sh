@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#self: source 
+# source <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/${HOST_TRIPLET}/pkgs/steam.sh")
 set -x
 #-------------------------------------------------------#
 #Sanity Checks
@@ -19,21 +21,52 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO"
-#86box : Emulator of x86-based machines. and freedom
-export BIN="86box"
-export SOURCE_URL="https://github.com/86Box/86Box"
+export SKIP_BUILD="YES" #no aarch64 builds
+#steam : FOSS cross-platform screencasting and streaming app
+export BIN="steam"
+export SOURCE_URL="https://gitlab.com/steam/steam"
+export BUILD_NIX_APPIMAGE="NO" #egl issues
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
-     echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+     echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
      #-------------------------------------------------------#
       ##Fetch
        pushd "$($TMPDIRS)" >/dev/null 2>&1
        OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="86box"
-       export PKG_NAME="${APP}.AppImage"
-       RELEASE_TAG="$(gh release list --repo "${SOURCE_URL}" --order "desc" --exclude-drafts --exclude-pre-releases --json "tagName" | jq -r '.[0].tagName | gsub("\\s+"; "")' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       timeout 1m eget "${SOURCE_URL}" --tag "${RELEASE_TAG}" --asset "Linux" --asset "arm64" --asset "AppImage" --asset "^.zsync" --to "${OWD}/${PKG_NAME}"
+       export APP="steam"
+       export PKG_NAME="${APP}.FlatImage"
+       RELEASE_TAG="$(curl -qfsSL "https://gitlab.archlinux.org/archlinux/packaging/packages/steam/-/raw/main/PKGBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+      #Arch FlatImage: https://github.com/ruanformigoni/flatimage/blob/master/examples/steam.sh
+
+     ## https://github.com/ruanformigoni/flatimage/blob/9ac497a5f46095a60cc4e14f5b711317362ebdde/README.md
+
+       rsync -achLv "/opt/FLATIMAGE/archlinux" "${OWD}/archlinux"
+       export FIMG_BASE="${OWD}/archlinux"
+       if [[ -f "${FIMG_BASE}" ]] && [[ $(stat -c%s "${FIMG_BASE}") -gt 1024 ]]; then
+       pushd "$(mktemp -d)" >/dev/null 2>&1
+       #Bootstrap
+         "${FIMG_BASE}" fim-perms add "audio,dbus_user,dbus_system,gpu,home,input,media,network,udev,usb,xorg,wayland"
+         "${FIMG_BASE}" fim-perms list
+         "${FIMG_BASE}" fim-env add 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"'
+         "${FIMG_BASE}" fim-root pacman -Syu --noconfirm
+       #Install Dependencies
+         "${FIMG_BASE}" fim-root pacman freetype2 gcc-libs glxinfo lib32-freetype2 lib32-mesa lib32-gcc-libs mesa pcre xorg-server -Sy --noconfirm
+         "${FIMG_BASE}" fim-root pacman xf86-video-amdgpu xf86-video-intel vulkan-intel vulkan-radeon lib32-vulkan-intel lib32-vulkan-radeon vulkan-tools -Sy --noconfirm
+       #Install steam
+         "${FIMG_BASE}" fim-root pacman steam -Sy --noconfirm
+       #Cleanup
+         "${FIMG_BASE}" fim-root pacman -Scc --noconfirm
+       #ENV
+         "${FIMG_BASE}" fim-exec mkdir -p "/home/steam"
+         "${FIMG_BASE}" fim-env add 'USER=steam' 'HOME=/home/steam' 'XDG_CONFIG_HOME=/home/steam/.config' 'XDG_DATA_HOME=/home/steam/.local/share'
+         "${FIMG_BASE}" fim-env list
+         "${FIMG_BASE}" fim-boot "/usr/bin/steam"
+       #Create
+         rm -rvf "${OWD}/.${FIMG_BASE}_config" 2>/dev/null
+         "${FIMG_BASE}" fim-commit
+       #Copy
+         rsync -achLv "${FIMG_BASE}" "${OWD}/${PKG_NAME}"
+       fi
       #HouseKeeping 
        if [[ -f "${OWD}/${PKG_NAME}" ]] && [[ $(stat -c%s "${OWD}/${PKG_NAME}") -gt 1024 ]]; then
        #Version
@@ -46,9 +79,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Repack  
          if [ -d "${APPIMAGE_EXTRACT}" ] && [ $(du -s "${APPIMAGE_EXTRACT}" | cut -f1) -gt 100 ]; then
           #Fix Media & Copy
-           find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+           find "${APPIMAGE_EXTRACT}" -maxdepth 1 \( -type f -o -type l \) -iname "*.png" -exec rsync -achL "{}" "${APPIMAGE_EXTRACT}/${APP}.png" \;
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
-             find "${APPIMAGE_EXTRACT}" -regex ".*\(128x128/apps\|256x256\)/.*${APP}.*\.\(png\|svg\)" -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
+             find "${APPIMAGE_EXTRACT}" \( -path "*/128x128/apps/*${APP%%-*}*.png" -o -path "*/256x256/*${APP%%-*}*.png" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" pacman "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            fi
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${APPIMAGE_EXTRACT}/.DirIcon"
            rsync -achL "${APPIMAGE_EXTRACT}/${APP}.png" "${BINDIR}/${BIN}.icon.png"
@@ -79,7 +112,9 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Info
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
-       fi  
+       fi
+       #End
+       popd >/dev/null 2>&1
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
