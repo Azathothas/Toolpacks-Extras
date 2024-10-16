@@ -113,13 +113,12 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            [ -d "${ENTRYPOINT_DIR}" ] && [[ "${ENTRYPOINT_DIR}" == "/tmp/"*"/nix/store/"* ]] || exit 1
            #usr/{applications,bash-completion,icons,metainfo,zsh}
             rsync -achLv --mkpath \
-                      --include="*/" \
-                      --include="*.desktop" \
-                      --include="*.png" \
-                      --include="*.svg" \
-                      --include="*.xml" \
-                      --exclude="*" \
-                     "${ENTRYPOINT_DIR}/share/." "./usr/share/" && ls "./usr/share/"
+                --include="*/" \
+                --include="*/applications/*.{desktop,png,svg,xml}" \
+                --include="*/icons/*.{desktop,png,svg,xml}" \
+                --include="*/metainfo/*.{desktop,png,svg,xml}" \
+                --exclude="*" \
+                "${ENTRYPOINT_DIR}/share/." "./usr/share/" && ls "./usr/share/"
           #Icon
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
@@ -139,17 +138,12 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
             find "${APPIMAGE_EXTRACT}" -type d -regex '.*share/locale*' | xargs -I {} sh -c 'rm -rvf "{}" && ln -s "/usr/share/locale" "{}"'
             rm -rvf "${APPIMAGE_EXTRACT}/usr/share/locale" 2>/dev/null
             mkdir -p "${APPIMAGE_EXTRACT}/usr/share" && ln -s "/usr/share/locale" "${APPIMAGE_EXTRACT}/usr/share/locale"
-            #Headers
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/include*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            #docs & manpages
-            find "${APPIMAGE_EXTRACT}" -type d -path "*doc/share*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/docs*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
-            find "${APPIMAGE_EXTRACT}" -type d -path "*/share/man*" ! -name "*${APP%%-*}*" -print -exec rm -rf {} 2>/dev/null \; 2>/dev/null
             #Static Files
-            find "${APPIMAGE_EXTRACT}" -type f -regex ".*\.\(a\|gz\|md\|rar\|tar\|xz\|zip\)$" -print -exec rm -rvf "{}" 2>/dev/null \;
-            find "${APPIMAGE_EXTRACT}" -type f -regex '.*\(LICENSE\|LICENSE\.md\)' -print -exec rm -rvf "{}" 2>/dev/null \;
+            find "${APPIMAGE_EXTRACT}" -type f -regex ".*\.\(a\|cmake\|jmod\|gz\|md\|mk\|prf\|rar\|tar\|xz\|zip\)$" -print -exec rm -rvf "{}" 2>/dev/null \;
+            find "${APPIMAGE_EXTRACT}" -type f -regex '.*\(LICENSE\|LICENSE\.md\|Makefile\)' -print -exec rm -rvf "{}" 2>/dev/null \;
             #Static Dirs
-            find "${APPIMAGE_EXTRACT}" -type d -regex '.*/\(ensurepip\|example\|examples\|i18n\|__pycache__\|__pyinstaller\|test\|tests\|translation\|translations\|unit_test\|unit_tests\)' -print -exec rm -rvf "{}" 2>/dev/null \;
+            find "${APPIMAGE_EXTRACT}" -type d -regex ".*\(doc/share\|/include\|llvm\|share/docs\|share/man\).*" ! -name "*${APP%%-*}*" -print -exec rm -rvf {} + 2>/dev/null
+            find "${APPIMAGE_EXTRACT}" -type d -regex '.*/\(ensurepip\|example\|examples\|gcc\|i18n\|mkspecs\|__pycache__\|__pyinstaller\|test\|tests\|translation\|translations\|unit_test\|unit_tests\)' -print -exec rm -rvf "{}" 2>/dev/null \;
             #systemd (need .so)
             find "${APPIMAGE_EXTRACT}" -type d -name "*systemd*" -exec find {} -type f ! -name "*.so*" -delete \;
             P_SIZE="$(du -sh "${APPIMAGE_EXTRACT}" 2>/dev/null | awk '{print $1}' 2>/dev/null)" && export "P_SIZE=${P_SIZE}"

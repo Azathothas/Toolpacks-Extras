@@ -61,13 +61,12 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            [ -d "${ENTRYPOINT_DIR}" ] && [[ "${ENTRYPOINT_DIR}" == "/tmp/"*"/nix/store/"* ]] || exit 1
            #usr/{applications,bash-completion,icons,metainfo,zsh}
             rsync -achLv --mkpath \
-                      --include="*/" \
-                      --include="*.desktop" \
-                      --include="*.png" \
-                      --include="*.svg" \
-                      --include="*.xml" \
-                      --exclude="*" \
-                     "${ENTRYPOINT_DIR}/share/." "./usr/share/" && ls "./usr/share/"
+                --include="*/" \
+                --include="*/applications/*.{desktop,png,svg,xml}" \
+                --include="*/icons/*.{desktop,png,svg,xml}" \
+                --include="*/metainfo/*.{desktop,png,svg,xml}" \
+                --exclude="*" \
+                "${ENTRYPOINT_DIR}/share/." "./usr/share/" && ls "./usr/share/"
           #Icon
            find "${APPIMAGE_EXTRACT}" -maxdepth 1 -type f,l \( -iname "*.[pP][nN][gG]" -o -iname "*.[sS][vV][gG]" \) -printf "%s %p\n" -quit | sort -n | awk 'NR==1 {print $2}' | xargs -I "{}" magick "{}" -background "none" -density "1000" -resize "256x256" -gravity "center" -extent "256x256" -verbose "${APPIMAGE_EXTRACT}/${APP}.png"
            if [[ ! -f "${APPIMAGE_EXTRACT}/${APP}.png" || $(stat -c%s "${APPIMAGE_EXTRACT}/${APP}.png") -le 3 ]]; then
