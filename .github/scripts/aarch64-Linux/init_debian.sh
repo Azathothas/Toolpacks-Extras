@@ -257,7 +257,7 @@
          #----------------------# 
          #Dockerc
           sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/local/bin/dockerc" && sudo chmod +x "/usr/local/bin/dockerc"
-         ##Setup FlatImage
+         ##Setup FlatImage:: https://github.com/ruanformigoni/flatimage/issues/16
          # sudo rm -rvf "/opt/FLATIMAGE" 2>/dev/null ; sudo mkdir -p "/opt/FLATIMAGE"
          # sudo chown -R "$(whoami):$(whoami)" "/opt/FLATIMAGE" && sudo chmod -R 755 "/opt/FLATIMAGE"
          # curl -qfsSL "https://bin.ajam.dev/$(uname -m)/alpine-flatimage.no_strip" -o "/opt/FLATIMAGE/alpine"
