@@ -257,6 +257,19 @@
          #----------------------# 
          #Dockerc
           sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/dockerc" -o "/usr/local/bin/dockerc" && sudo chmod +x "/usr/local/bin/dockerc"
+         ##Setup FlatImage
+         # sudo rm -rvf "/opt/FLATIMAGE" 2>/dev/null ; sudo mkdir -p "/opt/FLATIMAGE"
+         # sudo chown -R "$(whoami):$(whoami)" "/opt/FLATIMAGE" && sudo chmod -R 755 "/opt/FLATIMAGE"
+         # curl -qfsSL "https://bin.ajam.dev/$(uname -m)/alpine-flatimage.no_strip" -o "/opt/FLATIMAGE/alpine"
+         # curl -qfsSL "https://bin.ajam.dev/$(uname -m)/archlinux-flatimage.no_strip" -o "/opt/FLATIMAGE/archlinux"
+         # curl -qfsSL "https://bin.ajam.dev/$(uname -m)/blueprint-flatimage.no_strip" -o "/opt/FLATIMAGE/blueprint"
+         # if [ -d "/opt/FLATIMAGE" ] && [ "$(find "/opt/FLATIMAGE" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+         #    find "/opt/FLATIMAGE" -maxdepth 1 -type f -exec chmod +x "{}" \;
+         #    ls "/opt/FLATIMAGE" -lah ; du -sh "/opt/FLATIMAGE"
+         # else
+         #    echo -e "\n[-] FlatImage Base Images NOT Found: /opt/FLATIMAGE\n"
+         #    export CONTINUE="NO" && exit 1
+         # fi
          #----------------------# 
          ##Install golang 
           pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -318,6 +331,19 @@
                     export CONTINUE="NO" && exit 1
                  fi
             fi
+          fi
+         ##Nix-Auxs
+          sudo rm -rvf "/opt/nix/nix-bundle" 2>/dev/null ; sudo mkdir -p "/opt/nix"
+          sudo chown -R "$(whoami):$(whoami)" "/opt/nix" && sudo chmod -R 755 "/opt/nix"
+          pushd "/opt/nix" >/dev/null 2>&1 && \
+          git clone --filter="blob:none" --depth="1" --quiet "https://github.com/nix-community/nix-bundle"
+          find "/opt/nix/nix-bundle" -maxdepth 1 -type f -exec chmod +x "{}" \; 2>/dev/null
+          popd >/dev/null 2>&1
+          if [ -d "/opt/nix/nix-bundle" ] && [ "$(find "/opt/nix/nix-bundle" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+             ls "/opt/nix/nix-bundle" -lah ; du -sh "/opt/nix/nix-bundle"
+          else
+             echo -e "\n[-] nix-bundle REPO NOT Found: /opt/nix/nix-bundle\n"
+             export CONTINUE="NO" && exit 1
           fi
          #----------------------# 
          ##Install rust & cargo
