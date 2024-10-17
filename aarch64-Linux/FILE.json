@@ -5,7 +5,7 @@
   },
   {
     "filename": "./86box.log",
-    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (494), with CR, LF line terminators"
   },
   {
     "filename": "./affine.log",
@@ -13,7 +13,7 @@
   },
   {
     "filename": "./aisap.log",
-    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (494), with CR, LF line terminators"
   },
   {
     "filename": "./BLAKE3SUM.json",
@@ -21,7 +21,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "type": "ASCII text"
+    "type": "ASCII text, with very long lines (341)"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -33,7 +33,7 @@
   },
   {
     "filename": "./librewolf.log",
-    "type": "ASCII text, with very long lines (487), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
   },
   {
     "filename": "./librewolf.NixAppImage",
@@ -65,7 +65,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "type": "ASCII text, with very long lines (493)"
+    "type": "ASCII text, with very long lines (326)"
   },
   {
     "filename": "./qbittorrent.log",
@@ -125,7 +125,7 @@
   },
   {
     "filename": "./persepolis.log",
-    "type": "ASCII text, with very long lines (495), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (327)"
   },
   {
     "filename": "./persepolis.NixAppImage",
@@ -141,7 +141,7 @@
   },
   {
     "filename": "./ryujinx.log",
-    "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (498), with CR, LF line terminators"
   },
   {
     "filename": "./magick.AppImage",
@@ -149,7 +149,7 @@
   },
   {
     "filename": "./imagemagick.log",
-    "type": "ASCII text, with very long lines (369), with CR, LF line terminators, with escape sequences"
+    "type": "ASCII text"
   },
   {
     "filename": "./magick.dwfs.AppBundle",
@@ -157,10 +157,14 @@
   },
   {
     "filename": "./signal-desktop.log",
-    "type": "ASCII text, with very long lines (518), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (332)"
   },
   {
     "filename": "./signal-desktop.NixAppImage",
     "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./pacman.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
   }
 ]

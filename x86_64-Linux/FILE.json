@@ -5,7 +5,7 @@
   },
   {
     "filename": "./librewolf.log",
-    "type": "ASCII text, with very long lines (484), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (499), with CR, LF line terminators"
   },
   {
     "filename": "./librewolf.NixAppImage",
@@ -13,7 +13,7 @@
   },
   {
     "filename": "./mullvad-browser.log",
-    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (332)"
   },
   {
     "filename": "./mullvad-browser.NixAppImage",
@@ -57,7 +57,7 @@
   },
   {
     "filename": "./inkscape.log",
-    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (505), with CR, LF line terminators"
   },
   {
     "filename": "./inkscape.NixAppImage",
@@ -65,7 +65,7 @@
   },
   {
     "filename": "./olive-editor.log",
-    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (505)"
   },
   {
     "filename": "./86box.AppImage",
@@ -77,7 +77,7 @@
   },
   {
     "filename": "./86box.log",
-    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
   },
   {
     "filename": "./acreom.AppImage",
@@ -85,7 +85,7 @@
   },
   {
     "filename": "./acreom.log",
-    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./actual.AppImage",
@@ -93,7 +93,7 @@
   },
   {
     "filename": "./actual.log",
-    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./advanced-passgen.AppImage",
@@ -101,7 +101,7 @@
   },
   {
     "filename": "./advanced-passgen.log",
-    "type": "ASCII text, with very long lines (498), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (513), with CR, LF line terminators"
   },
   {
     "filename": "./affine.AppImage",
@@ -109,7 +109,7 @@
   },
   {
     "filename": "./affine.log",
-    "type": "ASCII text, with very long lines (478), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./aisap.AppImage",
@@ -117,7 +117,7 @@
   },
   {
     "filename": "./aisap.log",
-    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
   },
   {
     "filename": "./aisap.shimg",
@@ -129,7 +129,7 @@
   },
   {
     "filename": "./i3.log",
-    "type": "ASCII text, with very long lines (476), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
   },
   {
     "filename": "./i3.NixAppImage",
@@ -145,7 +145,7 @@
   },
   {
     "filename": "./obs-studio.log",
-    "type": "ASCII text, with very long lines (486), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (501), with CR, LF line terminators"
   },
   {
     "filename": "./olive-editor.AppImage",
@@ -153,7 +153,7 @@
   },
   {
     "filename": "./puddletag.log",
-    "type": "ASCII text, with very long lines (490), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (325)"
   },
   {
     "filename": "./qbittorrent.AppImage",
@@ -165,11 +165,11 @@
   },
   {
     "filename": "./qbittorrent-enhanced.log",
-    "type": "ASCII text, with very long lines (512), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (527), with CR, LF line terminators"
   },
   {
     "filename": "./qbittorrent.log",
-    "type": "ASCII text, with very long lines (557), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (503), with CR, LF line terminators"
   },
   {
     "filename": "./puddletag.NixAppImage",
@@ -185,7 +185,7 @@
   },
   {
     "filename": "./deadbeef.log",
-    "type": "ASCII text, with very long lines (517), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (532), with CR, LF line terminators"
   },
   {
     "filename": "./deadbeef-nightly.AppImage",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./floorp.log",
-    "type": "ASCII text, with very long lines (484), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (324)"
   },
   {
     "filename": "./floorp.NixAppImage",
@@ -229,7 +229,7 @@
   },
   {
     "filename": "./persepolis.log",
-    "type": "ASCII text, with very long lines (492), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (326)"
   },
   {
     "filename": "./persepolis.NixAppImage",
@@ -249,7 +249,7 @@
   },
   {
     "filename": "./ryujinx.log",
-    "type": "ASCII text, with very long lines (480), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (495), with CR, LF line terminators"
   },
   {
     "filename": "./simplex-chat-desktop.log",
@@ -261,7 +261,7 @@
   },
   {
     "filename": "./imagemagick.log",
-    "type": "ASCII text, with very long lines (367), with CR, LF line terminators, with escape sequences"
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./magick.dwfs.AppBundle",
@@ -269,10 +269,22 @@
   },
   {
     "filename": "./signal-desktop.log",
-    "type": "ASCII text, with very long lines (515), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (331)"
   },
   {
     "filename": "./signal-desktop.NixAppImage",
     "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./pacman.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./runimage-archlinux.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./steam.log",
+    "type": "ASCII text"
   }
 ]

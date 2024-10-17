@@ -6,9 +6,9 @@
 - **Homepage 🌐:** [https://86box.readthedocs.io](https://86box.readthedocs.io)
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/86box.AppImage
-- **Size 💾:** `54.21 MB`
-- **SHA256SUM 🔐:** `3ba06cb597b7626a3773cf955476df8dc237f2deb39f124e87dcce81e0516df8`
-- **B3SUM 🔐:** `80406afb0bc90f436d85fe24f086e7bcd6a31fe79e6c70ed7518a08deec8342e`
+- **Size 💾:** `54.19 MB`
+- **SHA256SUM 🔐:** `f418b5e876074134e19465da7a4ce1f99f74615c2887b3936dacde0dfe4d3f24`
+- **B3SUM 🔐:** `9746cf5a1cb541848b976de93c05b1b55472d21ce0e3c93d9a5e2cb682247389`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/86box.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/86box.icon.png
@@ -25,9 +25,9 @@
 - **Homepage 🌐:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Source 📡:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/aisap.AppImage
-- **Size 💾:** `2.5 MB`
-- **SHA256SUM 🔐:** `e379bfe93410ace766a9f7990e844ec84173ec48fc286f034caaad64eb574037`
-- **B3SUM 🔐:** `cc3b3b5508d5c0ab3421d0059f3d19874cda45e4b5646503bfff4e0c5db5bf5a`
+- **Size 💾:** `2.52 MB`
+- **SHA256SUM 🔐:** `e1b28e919f7ac0d884b727567146450a5679d0ce60f12b28e16b7092cb630446`
+- **B3SUM 🔐:** `9d1d6cb861bd57e7ad22d6c6651e337f46ee286d0ae215b313ac38b0c157be89`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/aisap.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/aisap.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/aisap.icon.png
@@ -45,8 +45,8 @@
 - **Source 📡:** [https://github.com/lzhiyong/android-sdk-tools](https://github.com/lzhiyong/android-sdk-tools)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/android-tools.AppImage
 - **Size 💾:** `11.06 MB`
-- **SHA256SUM 🔐:** `c9b95554386d65b639c1ae43d07e90e10eae5e60f159741ddea4ad7895e0614e`
-- **B3SUM 🔐:** `caab700ed9fcf73265d9c5a63c6b8017527a664e83c23608a3ab851e34762f8f`
+- **SHA256SUM 🔐:** `c614a3fb64a6fb26da7930e1457c062733228610ea9c82de228dce29fe20bdce`
+- **B3SUM 🔐:** `8cd6114464d3a8dbf4a65e87da9a3522abcf4950dec5dd881248e3450b467f89`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/android-tools.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/android-tools.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/android-tools.icon.png
@@ -64,8 +64,8 @@
 - **Source 📡:** [https://github.com/dunst-project/dunst](https://github.com/dunst-project/dunst)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/dunst.AppImage
 - **Size 💾:** `12.27 MB`
-- **SHA256SUM 🔐:** `05bd28dc1af41e2fcb070eeb142472c9884d15884925716b2bcfbf9c305b45e3`
-- **B3SUM 🔐:** `3fe46046fc556ac9a8cf69a3c026413d700ab9a8f4fad3f61cec33b6326cfe9c`
+- **SHA256SUM 🔐:** `99dd24caefa213015d4acbcbc2d9978aa56ae800f8f4af6a687e2d15465e7509`
+- **B3SUM 🔐:** `4961eba998eea859664e597cfade87992e6988e96d1610e7c4b9106888095b69`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/dunst.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/dunst.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/dunst.icon.png
@@ -76,7 +76,7 @@
 
 ### [`floorp.NixAppImage` 📀](https://pkg.ajam.dev/aarch64-Linux/floorp.NixAppImage)
 - **PKG_Name 📦:** floorp
-- **Version 🧬:** `11.19.0`
+- **Version 🧬:** `11.19.1`
 - **Description ℹ️:** A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)
 - **Homepage 🌐:** [https://floorp.app](https://floorp.app)
@@ -152,15 +152,15 @@
 
 ### [`librewolf.AppImage` 📀](https://pkg.ajam.dev/aarch64-Linux/librewolf.AppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `v131.0-1`
+- **Version 🧬:** `v131.0.2-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://gitlab.com/librewolf-community/browser](https://gitlab.com/librewolf-community/browser)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/librewolf.AppImage
-- **Size 💾:** `88.39 MB`
-- **SHA256SUM 🔐:** `e62be95947b099d0b4a3a906625fb2ea0c4449965e8c293dbd0b66cae985e1b2`
-- **B3SUM 🔐:** `4dfe4474a7062d897bae26fec0531f6f54e2ebd90d009be64370f51f57c234f5`
+- **Size 💾:** `88.4 MB`
+- **SHA256SUM 🔐:** `629828bcc26012391dbc597450ec80dcd156b952de4de011ec5a7ba7e81fa995`
+- **B3SUM 🔐:** `9df86474e2754dfa2d77e7eabea7cf5167ba9aca6b85c2c97939d83ec3fcbe26`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/librewolf.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/librewolf.icon.png
@@ -171,7 +171,7 @@
 
 ### [`librewolf.NixAppImage` 📀](https://pkg.ajam.dev/aarch64-Linux/librewolf.NixAppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `130.0-3`
+- **Version 🧬:** `131.0.2-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
@@ -196,9 +196,9 @@
 - **Homepage 🌐:** [https://persepolisdm.github.io](https://persepolisdm.github.io)
 - **Source 📡:** [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/persepolis.NixAppImage
-- **Size 💾:** `214.39 MB`
-- **SHA256SUM 🔐:** `1696d2110177ffb13bd7d852a85371c3a1a47c381508eb06349cda8f2468fb39`
-- **B3SUM 🔐:** `fd3c7d54a3e5fec3c1c07de606a95739bd205e0b38915a65d0646c0dac730251`
+- **Size 💾:** `175.03 MB`
+- **SHA256SUM 🔐:** `464e4ada2f4436768bafa166fed36e4f624b9f7b121951bdc323ec3f18984402`
+- **B3SUM 🔐:** `7d1132a16e7d120c3db0a7386dcaca7a6886541378e1146d39e4d92f67b14371`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/persepolis.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/persepolis.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/persepolis.icon.png
@@ -215,9 +215,9 @@
 - **Homepage 🌐:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Download ⬇️:** https://pkg.ajam.dev/aarch64-Linux/ryujinx.AppImage
-- **Size 💾:** `24.25 MB`
-- **SHA256SUM 🔐:** `bccab55187c0c38c44988525268db9bc8e4cb5d64f87ebde5df2b1553723b3ad`
-- **B3SUM 🔐:** `cd1af79d4e3226ba4355f893a8f4936681439a018d74e699e6c98e32486d0a72`
+- **Size 💾:** `24.24 MB`
+- **SHA256SUM 🔐:** `82b7a86928b2fb78c79f9002ef243d97f6abb477566d6e127f3a4aafbef7c89c`
+- **B3SUM 🔐:** `12bb627827d82353e4a9976cf48bb12064b6e02a5011a608efec693527dbe439`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.sh
 - **Log 🧾:** https://pkg.ajam.dev/aarch64-Linux/ryujinx.log
 - **Icon 🖼️:** https://pkg.ajam.dev/aarch64-Linux/ryujinx.icon.png

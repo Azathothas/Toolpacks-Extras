@@ -6,9 +6,9 @@
 - **Homepage 🌐:** [https://86box.readthedocs.io](https://86box.readthedocs.io)
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/86box.AppImage
-- **Size 💾:** `57.98 MB`
-- **SHA256SUM 🔐:** `2bedf15bf85c5b212753146a47f86568aa2dda746037321fb9c8fe5c4a408a24`
-- **B3SUM 🔐:** `828e27d4b03bdc112232f4fcbb9af08bcc34c1f8dde1b221e3b639e5e16aab6d`
+- **Size 💾:** `57.85 MB`
+- **SHA256SUM 🔐:** `8b197dcca7ba2ebcd34daab60dcb84c20326b03a974cd54c88eaf014f621fb4c`
+- **B3SUM 🔐:** `d256478610c01b20530f230fc3a71d526e7f9d486cee7e1fe001798fcca00b86`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/86box.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/86box.icon.png
@@ -25,9 +25,9 @@
 - **Homepage 🌐:** [https://acreom.com](https://acreom.com)
 - **Source 📡:** [https://github.com/Acreom/releases](https://github.com/Acreom/releases)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/acreom.AppImage
-- **Size 💾:** `139.07 MB`
-- **SHA256SUM 🔐:** `0ca4f125f2db5edf2cd6aa4df809fb7184784ac0fd01bc968bac7213c3f7634d`
-- **B3SUM 🔐:** `5eb61fd3b3ddd8693c1beb3f6b1c59f796103e75734888f1b68ca7411b07eb51`
+- **Size 💾:** `139.27 MB`
+- **SHA256SUM 🔐:** `3c7b320b0697a5648663c4a2870ad09cc0e1cc1d4307e17f9dfaa1f90b5aa981`
+- **B3SUM 🔐:** `a0155cecfe53bd46b0958235612a12c7863f05294f4da970c3b8acf8c25931f7`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/acreom.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/acreom.icon.png
@@ -44,9 +44,9 @@
 - **Homepage 🌐:** [https://actualbudget.org](https://actualbudget.org)
 - **Source 📡:** [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/actual.AppImage
-- **Size 💾:** `93.52 MB`
-- **SHA256SUM 🔐:** `5a4f3bbe02bb82d63b2676c36ba5d5b3e4b4897b07811f447611e5770c19c318`
-- **B3SUM 🔐:** `b2820d313ca792ff5b06d1dc59e135e6be4caba9277cda5e8e5a75e84828c10c`
+- **Size 💾:** `93.5 MB`
+- **SHA256SUM 🔐:** `ed733debaa915b0ad5eb735917dd6cf7ed752ec625b9c570433c62cd201aa73a`
+- **B3SUM 🔐:** `323eac1814d8c672972ddd321e8796d7d3c7f1f7d96509156a1d0f4307ee36e8`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/actual.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/actual.icon.png
@@ -63,9 +63,9 @@
 - **Homepage 🌐:** [https://advancedpassgen.codedead.com](https://advancedpassgen.codedead.com)
 - **Source 📡:** [https://github.com/CodeDead/Advanced-PassGen](https://github.com/CodeDead/Advanced-PassGen)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/advanced-passgen.AppImage
-- **Size 💾:** `101.12 MB`
-- **SHA256SUM 🔐:** `94a74063943fbaaec2331d078b7c51db92b0fadb251f7f7b5b30de26dc65b442`
-- **B3SUM 🔐:** `7e957a22ce37f69929e0829b634c72d66c805ed1e69597347e9c7177007292ec`
+- **Size 💾:** `101.13 MB`
+- **SHA256SUM 🔐:** `9e3677e1f03766c5960dc1ab4a0dce926ed857d60ec4faf48b8b3966b885128f`
+- **B3SUM 🔐:** `1ce648f0fb441ca2b098b4a4e57c90dd02d3196b5d95679b2485c4cff0082570`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/advanced-passgen.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/advanced-passgen.icon.png
@@ -76,7 +76,7 @@
 
 ### [`affine.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/affine.AppImage)
 - **PKG_Name 📦:** affine
-- **Version 🧬:** `v0.17.2`
+- **Version 🧬:** `v0.17.4`
 - **Description ℹ️:** Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)
 - **Homepage 🌐:** [https://affine.pro](https://affine.pro)
@@ -101,9 +101,9 @@
 - **Homepage 🌐:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Source 📡:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/aisap.AppImage
-- **Size 💾:** `2.66 MB`
-- **SHA256SUM 🔐:** `f6488728e60887a08780cb6857e0e8986629305c53028c23d1e038525ca0576b`
-- **B3SUM 🔐:** `6efd3ff0f6e7a7fa07c99fddbab4e17f5d1e7726c1d459561291353be1d67543`
+- **Size 💾:** `2.68 MB`
+- **SHA256SUM 🔐:** `8710d372980ce9ba2497cf0a5634f4fa1d3eb25d3c17fdd2b73fd4f556696187`
+- **B3SUM 🔐:** `ac62b891030131f0ca7a0ff1a53dbe700ccf3ffeac1e2009dd41775b3b4fb29c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/aisap.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/aisap.icon.png
@@ -140,8 +140,8 @@
 - **Source 📡:** [https://android.googlesource.com/platform/tools/base](https://android.googlesource.com/platform/tools/base)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/android-tools.AppImage
 - **Size 💾:** `7.21 MB`
-- **SHA256SUM 🔐:** `4fcdcb53a606246fe56dc121fd2f4230551713b9f584026839019a0d9788b0a1`
-- **B3SUM 🔐:** `21af58cceb12b66fc9faa5f1393cfdaf5d61efda642b7b8ae7c71dbdc04283aa`
+- **SHA256SUM 🔐:** `9ba699d0a061751a7eb3789f41cb0928729c95bea79977e58848054cf67d7c14`
+- **B3SUM 🔐:** `f006f54d200a5b2f847d5b1af15c08b4f9d68fb82c33f69ee83677950bf1d8e8`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/android-tools.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/android-tools.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/android-tools.icon.png
@@ -152,15 +152,15 @@
 
 ### [`deadbeef-nightly.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/deadbeef-nightly.AppImage)
 - **PKG_Name 📦:** deadbeef
-- **Version 🧬:** `2024_09_07`
+- **Version 🧬:** `2024_10_12`
 - **Description ℹ️:** A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
 - **Note ⚠️:** This PKG was built from Portable Nightly Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)
 - **Homepage 🌐:** [https://deadbeef.sourceforge.io](https://deadbeef.sourceforge.io)
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-nightly.AppImage
 - **Size 💾:** `8.15 MB`
-- **SHA256SUM 🔐:** `8b5c373e6ab69a52c68d6394c353fec816ceeeee11e805127e8aa6e9a793b635`
-- **B3SUM 🔐:** `7162478c4b2ab350ee35ce725b5019495b2dd8e2ead2f08fbd53eb369a8b4e86`
+- **SHA256SUM 🔐:** `8fa2a1bf8bb17187195607587f6b216ec517a3033423e70d660066ceb859a3ff`
+- **B3SUM 🔐:** `c7de7a80152a4bcd8a51eea1a240041a71f6d5b091f1222bc6432e63b792cd8f`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-nightly.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-nightly.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-nightly.icon.png
@@ -178,8 +178,8 @@
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-stable.AppImage
 - **Size 💾:** `8.15 MB`
-- **SHA256SUM 🔐:** `616b1b84357d39d59fd65c1a2ff7d48b6f6e6f570fd047f1f4449a839670ecb6`
-- **B3SUM 🔐:** `d85199871aa91876d153e56006aba7d570db881ab88a30d0edf662e10469349a`
+- **SHA256SUM 🔐:** `10785a45bae428379559edf703f8466513e2d09eeeead05522ac9988075e5dc1`
+- **B3SUM 🔐:** `9c505a8cc14d624f1abd7371b4f06ea54e0586027ff59c6a66f6cfe0f9aa2908`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-stable.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-stable.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/deadbeef-stable.icon.png
@@ -197,8 +197,8 @@
 - **Source 📡:** [https://github.com/dunst-project/dunst](https://github.com/dunst-project/dunst)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/dunst.AppImage
 - **Size 💾:** `12.92 MB`
-- **SHA256SUM 🔐:** `6f8e4c5317d8c11a8c64b28291f93bf84bc2d93fc4e698854cf36c95643ec655`
-- **B3SUM 🔐:** `300b40a5ed5bb178e67ee61dabfea65457e8f80dd9718c4b040edf060a72dd3f`
+- **SHA256SUM 🔐:** `5d90b1f4b994d05e6d3376dbef31caa4f5e4e966fc9c5c2f643804d8bb645487`
+- **B3SUM 🔐:** `2e28e58a6b6244497e454ed085817f56eb65b66e7871d4e59e4e0ff9885ce3f2`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/dunst.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/dunst.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/dunst.icon.png
@@ -209,7 +209,7 @@
 
 ### [`floorp.NixAppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/floorp.NixAppImage)
 - **PKG_Name 📦:** floorp
-- **Version 🧬:** `11.19.0`
+- **Version 🧬:** `11.19.1`
 - **Description ℹ️:** A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)
 - **Homepage 🌐:** [https://floorp.app](https://floorp.app)
@@ -235,8 +235,8 @@
 - **Source 📡:** [https://github.com/i3/i3](https://github.com/i3/i3)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/i3.AppImage
 - **Size 💾:** `3.6 MB`
-- **SHA256SUM 🔐:** `dbcc2b8ce0bf0bd2b17243837e55eb214d4a036a3a26ad629b041eda711a818d`
-- **B3SUM 🔐:** `262da89d17c1564d8b24d74ad31364eb0f2f0f791999cd9a22a79212d1961392`
+- **SHA256SUM 🔐:** `03708fab8e9611c1b08cae079012786bc9e4acaffb8e46b50d7f9a7040535783`
+- **B3SUM 🔐:** `d0d2ba8c91ce304380598435f9fd58cd2ab441d3f9c4033583a88fade2302fae`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/i3.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/i3.icon.png
@@ -253,9 +253,9 @@
 - **Homepage 🌐:** [https://i3wm.org](https://i3wm.org)
 - **Source 📡:** [https://github.com/i3/i3](https://github.com/i3/i3)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/i3.NixAppImage
-- **Size 💾:** `40.21 MB`
-- **SHA256SUM 🔐:** `60da816dc26a1e71d16fb915c10819ef352e7a391d7ceea45f114a11fc02d317`
-- **B3SUM 🔐:** `eab0f98980fa17eeaadc40cc0251d243e2f4fd489bc69fab015560ce7123a0c5`
+- **Size 💾:** `33.98 MB`
+- **SHA256SUM 🔐:** `6c1a78668c10e755d35bd4dd522fb42b9afcdf9aecf6cab72d3104c48c8af7a6`
+- **B3SUM 🔐:** `173d75dc8b16fffd39a8795720a68a8bbbba15682e625c8011e76d27bc3e9bcb`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/i3.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/i3.icon.png
@@ -272,9 +272,9 @@
 - **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
 - **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/magick.AppImage
-- **Size 💾:** `25.51 MB`
-- **SHA256SUM 🔐:** `8d79cbd7dc460ba7724aaf2979f9e3a1c4821d6be6176331043d4ce72746581b`
-- **B3SUM 🔐:** `ee95c4b2a1a5aea07d13c73ed98c77394df5cff62155e0f96e90593c21fc4922`
+- **Size 💾:** `25.48 MB`
+- **SHA256SUM 🔐:** `8860ef7f35a46665ab35c45b918560b941a30bf52f81d42e4983f5d3b952b884`
+- **B3SUM 🔐:** `0eafa16c9a0311fc1fcc8833577227d6f84ef5f9b8bd69135c600c81a87af2aa`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/imagemagick.icon.png
@@ -304,15 +304,15 @@
 
 ### [`inkscape-dev.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/inkscape-dev.AppImage)
 - **PKG_Name 📦:** inkscape
-- **Version 🧬:** `96d3f15-dev`
+- **Version 🧬:** `2ceb609-dev`
 - **Description ℹ️:** FOSS Vector Graphics Editor (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)
 - **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/inkscape-dev.AppImage
-- **Size 💾:** `100.25 MB`
-- **SHA256SUM 🔐:** `79823f277d607028de14ee9c432a11de6348276ade75551dc481ef74b9e751d0`
-- **B3SUM 🔐:** `ebd27431d9f011dd25362bc4a7a0c8652b2fe49c5db655e12067755af826643a`
+- **Size 💾:** `100.27 MB`
+- **SHA256SUM 🔐:** `a673b10e54aa6adc23f86bf9d64465b1ecbfc7fa36d2864239ac3a81f0b4870b`
+- **B3SUM 🔐:** `3e380b8f8434f97e239669878033e85e4442b11e5e84b79a9dff9379188668ee`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/inkscape.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.icon.png
@@ -348,9 +348,9 @@
 - **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.NixAppImage
-- **Size 💾:** `253.93 MB`
-- **SHA256SUM 🔐:** `7a568a7902725cbef44a714fa5d9d78162881996c1c764a2b6b05ac48a49e439`
-- **B3SUM 🔐:** `da8c3cdc85ebc1169e7d9c578bdc2bd2d29ea9edb1d7a0ccc2665e4fb643da41`
+- **Size 💾:** `96.35 MB`
+- **SHA256SUM 🔐:** `a7cc3e2af6b5c12ea842f216d5ada372f2b1a86564d730cc6bfcb3cea53394b8`
+- **B3SUM 🔐:** `d07d2c7d5333ec375bdab20bc0c84fd4ea3a7d60b4497ce2029ea1776bd2f009`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/inkscape.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/inkscape.icon.png
@@ -361,15 +361,15 @@
 
 ### [`librewolf.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/librewolf.AppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `v131.0-1`
+- **Version 🧬:** `v131.0.2-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://gitlab.com/librewolf-community/browser](https://gitlab.com/librewolf-community/browser)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/librewolf.AppImage
-- **Size 💾:** `93.93 MB`
-- **SHA256SUM 🔐:** `89d0c6ed2358a8aa50fb8f5b3434e3074fad2cb4584cf7b48e3246e931038cff`
-- **B3SUM 🔐:** `431e4aeee406fc32fcbff5f2054af04db60b96301ba86ea8a6ec5cd4382ef3c7`
+- **Size 💾:** `93.97 MB`
+- **SHA256SUM 🔐:** `74e4cb5dfde856c2e8b15e1b2bd11f227fad412fdf8725e3283a12fade362829`
+- **B3SUM 🔐:** `3f40ec2a48c1b0a55cc3d6a59120d29817279324df3546b9a711fbc365bdabca`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/librewolf.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/librewolf.icon.png
@@ -380,7 +380,7 @@
 
 ### [`librewolf.NixAppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/librewolf.NixAppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `130.0-3`
+- **Version 🧬:** `131.0.2-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
@@ -399,7 +399,7 @@
 
 ### [`mullvad-browser.NixAppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.NixAppImage)
 - **PKG_Name 📦:** mullvad-browser
-- **Version 🧬:** `13.5.6`
+- **Version 🧬:** `13.5.7`
 - **Description ℹ️:** Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)
 - **Homepage 🌐:** [https://mullvad.net/en/browser](https://mullvad.net/en/browser)
@@ -418,15 +418,15 @@
 
 ### [`mullvad-browser.tar.xz` 📀](https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.tar.xz)
 - **PKG_Name 📦:** mullvad-browser
-- **Version 🧬:** `13.5.7`
+- **Version 🧬:** `14.0a9`
 - **Description ℹ️:** Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)
 - **Homepage 🌐:** [https://mullvad.net/en/browser](https://mullvad.net/en/browser)
 - **Source 📡:** [https://gitlab.torproject.org/tpo/applications/mullvad-browser/](https://gitlab.torproject.org/tpo/applications/mullvad-browser/)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.tar.xz
-- **Size 💾:** `103.47 MB`
-- **SHA256SUM 🔐:** `4dee82c377d4b385c6cf4ee52f9e1b29453d1d80b9b2868a1656d61ae8ddfe85`
-- **B3SUM 🔐:** `297f8f0ab4b24872f1d29ac8d4954d5426f6aedfd0104b61caeb26a833df249b`
+- **Size 💾:** `108.89 MB`
+- **SHA256SUM 🔐:** `620672005cc536afc96b5fffaa48cf663baad861c0011ab877fe6d2cb83a8ebd`
+- **B3SUM 🔐:** `5e9a2613f87c3c983e3e4785ff1d41220004cf2f616e55b9f1b96594aa87b5ff`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/mullvad-browser.icon.png
@@ -443,9 +443,9 @@
 - **Homepage 🌐:** [https://obsproject.com](https://obsproject.com)
 - **Source 📡:** [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/obs-studio.AppImage
-- **Size 💾:** `173.75 MB`
-- **SHA256SUM 🔐:** `4c262fb184ba5a36f1abd9a1fb0a90a65e8812d1d2af48fa4067eda8ee505fdf`
-- **B3SUM 🔐:** `66b686e79e13cd53b4d4b3509ecfcd97862688f42dd36292fd0ad48aec4b4b3d`
+- **Size 💾:** `174.12 MB`
+- **SHA256SUM 🔐:** `b80c6172d9dda6c69ce42f0a5b7a05881211b6156f2a16fb7f467ee7b9f8e67c`
+- **B3SUM 🔐:** `69dbba638941f911491fe7227441d9d227a4068dc2fa9937d9e719e339ee6f49`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/obs-studio.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/obs-studio.icon.png
@@ -481,9 +481,9 @@
 - **Homepage 🌐:** [https://persepolisdm.github.io](https://persepolisdm.github.io)
 - **Source 📡:** [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/persepolis.NixAppImage
-- **Size 💾:** `222.29 MB`
-- **SHA256SUM 🔐:** `d81912ab5596deca70067280b0bd8895c0fcdf5c99e79cae676bf01694217290`
-- **B3SUM 🔐:** `e3d0d98413d1f7f24ba1c69ef355fe02703c3c5e3fa3151e0feaa8e69cb09781`
+- **Size 💾:** `182.18 MB`
+- **SHA256SUM 🔐:** `f433fa8dc8e2dc5552b4303661548498535fac9fadccdfd8217a4cb03cf4b959`
+- **B3SUM 🔐:** `b3a8511cc3c42a1a9f899c4a8414175ab93e92f66cc659e184172d50382c2604`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/persepolis.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/persepolis.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/persepolis.icon.png
@@ -500,9 +500,9 @@
 - **Homepage 🌐:** [https://docs.puddletag.net](https://docs.puddletag.net)
 - **Source 📡:** [https://github.com/puddletag/puddletag](https://github.com/puddletag/puddletag)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.NixAppImage
-- **Size 💾:** `210.22 MB`
-- **SHA256SUM 🔐:** `ceb82cfa383d070de3741884a545edb121b2eb32368f41a02cb530cf917e27f2`
-- **B3SUM 🔐:** `abe941b10f1463eef80a65423ec6974bbb37bd73ffa0381ca50c9938c467a3e9`
+- **Size 💾:** `176.82 MB`
+- **SHA256SUM 🔐:** `b98749991dbfb53a241b164f8c570a1326663ac2ddf47740495a1281ffa47f94`
+- **B3SUM 🔐:** `bf51b65d81c4b09d0ddda68c81e350c723bde77c863796c3532faac7ebc79179`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/puddletag.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/puddletag.icon.png
@@ -538,9 +538,9 @@
 - **Homepage 🌐:** [https://www.qbittorrent.org](https://www.qbittorrent.org)
 - **Source 📡:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/qbittorrent.AppImage
-- **Size 💾:** `84.37 MB`
-- **SHA256SUM 🔐:** `f4ed3c7909e324f2cf5f9b60b3a06b31106c57f769260820d173cb9e3eff3aab`
-- **B3SUM 🔐:** `4f2b7e71d1fc3b5a4f604156a2db5057343297e6b4d66b921a654bfab96244fb`
+- **Size 💾:** `84.35 MB`
+- **SHA256SUM 🔐:** `e0b30d1125b33f5cfacd2c55906f1b2cb83ae6a159c304c5ee53b0ef1aa79330`
+- **B3SUM 🔐:** `d7e5374a4709b188afe8a86c07988895637234f262a92cc3c06ed96780878da8`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/qbittorrent.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/qbittorrent.icon.png
@@ -576,9 +576,9 @@
 - **Homepage 🌐:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.AppImage
-- **Size 💾:** `25.24 MB`
-- **SHA256SUM 🔐:** `b63825ea053e45fb35f6000513419768e9113701e5c3c49dea7fb07883248c4e`
-- **B3SUM 🔐:** `6478f33e2fadea35dda8442518a4bea10a50442d722304e1755b5bd8fddcd651`
+- **Size 💾:** `25.23 MB`
+- **SHA256SUM 🔐:** `4ba4ca933063961968bdd1923ffcc5f9e21af5ddb4108c309a6911172a42f6c4`
+- **B3SUM 🔐:** `eb32548a8fe847be25efb89854e1a415df2379c33d0b80c28859433dc8f94f66`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.sh
 - **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.log
 - **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/ryujinx.icon.png
