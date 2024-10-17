@@ -21,7 +21,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="YES" #no aarch64 builds
+export SKIP_BUILD="NO"
 #steam : A video game digital distribution service and storefront from Valve
 export BIN="steam"
 export SOURCE_URL="https://github.com/ivan-hc/Steam-appimage"
