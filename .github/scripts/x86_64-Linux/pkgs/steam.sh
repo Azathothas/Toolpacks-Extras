@@ -119,6 +119,12 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          "${FIMG_BASE}" fim-commit
        #Copy
          rsync -achLv "${FIMG_BASE}" "${BINDIR}/${PKG_NAME}"
+       #Version
+         if [[ -f "${BINDIR}/${PKG_NAME}" ]] && [[ $(stat -c%s "${BINDIR}/${PKG_NAME}") -gt 1024 ]]; then
+           PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+           echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+         fi
+       #End           
          rm -rf "$(realpath .)" && popd >/dev/null 2>&1
        fi
        #Info
