@@ -1,0 +1,12 @@
+name: "steam"
+bin_name: "steam"
+bins:
+  - "steam.AppImage"
+  - "steam.FlatImage"  
+category:
+ - "gaming"
+description: "A steam for with Enhanced Features (AppImage | FlatImage)"
+note: "AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)"
+web_url: "https://store.steampowered.com/about/"
+path: "/"
+src_url: "https://github.com/ivan-hc/Steam-appimage"
