@@ -118,7 +118,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #Create
          "${FIMG_BASE}" fim-commit
        #Copy
-         rsync -achLv "${FIMG_BASE}" "${OWD}/${PKG_NAME}"
+         rsync -achLv "${FIMG_BASE}" "${BINDIR}/${PKG_NAME}"
          rm -rf "$(realpath .)" && popd >/dev/null 2>&1
        fi
        #Info
