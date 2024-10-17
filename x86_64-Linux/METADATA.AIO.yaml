@@ -1312,7 +1312,7 @@ bin:
     bin_name: broot
     description: A new way to see and navigate directory trees
     note: ""
-    version: v1.44.0
+    version: v1.44.1
     download_url: https://bin.ajam.dev/x86_64/broot
     size: 11.81 MB
     bsum: 4e92147118234a90b0fc921610dcf488a860323ec3188bc93f728d9608683287
@@ -1366,8 +1366,8 @@ bin:
     version: v0.10.0
     download_url: https://bin.ajam.dev/x86_64/bubblewrap
     size: 165.71 KB
-    bsum: 0efee19d7f202047253c5312ae7e81bdfb6239e5e138eb11e5b784db4865625a
-    shasum: 92f54db52d1457df68e658195b42da06413e786c9c97c1f8b8e675921fa3009d
+    bsum: ""
+    shasum: 606dad2f94548b1b0b7bb64af4facb2bff5da5949a48740decfbd43e685e67b9
     build_date: 2024-09-20T20:31:17
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
@@ -1383,8 +1383,8 @@ bin:
     version: v0.10.0
     download_url: https://bin.ajam.dev/x86_64/bwrap
     size: 165.71 KB
-    bsum: 0efee19d7f202047253c5312ae7e81bdfb6239e5e138eb11e5b784db4865625a
-    shasum: 92f54db52d1457df68e658195b42da06413e786c9c97c1f8b8e675921fa3009d
+    bsum: ""
+    shasum: 606dad2f94548b1b0b7bb64af4facb2bff5da5949a48740decfbd43e685e67b9
     build_date: 2024-09-20T20:31:17
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
@@ -3335,7 +3335,7 @@ bin:
     bin_name: devbox
     description: Instant, easy, and predictable development environments
     note: ""
-    version: 0.13.4
+    version: 0.13.5
     download_url: https://bin.ajam.dev/x86_64/devbox
     size: 28.61 MB
     bsum: 1e7d5a9a2d7207298c21ed762c8876c0e8347e813280fdf49258475ceb519677
@@ -4916,7 +4916,7 @@ bin:
     bin_name: alpine-flatimage
     description: A hybrid of Flatpak sandboxing with AppImage portability
     note: This are the default runtimes for FlatImage
-    version: v1.0.1
+    version: v1.0.2
     download_url: https://bin.ajam.dev/x86_64/alpine-flatimage.no_strip
     size: 49.12 MB
     bsum: 5d7e6b5617e5d439270538a885e7ae778aa2ac2e52b2493e66d52f1d04276c06
@@ -4933,7 +4933,7 @@ bin:
     bin_name: archlinux-flatimage
     description: A hybrid of Flatpak sandboxing with AppImage portability
     note: This are the default runtimes for FlatImage
-    version: v1.0.1
+    version: v1.0.2
     download_url: https://bin.ajam.dev/x86_64/archlinux-flatimage.no_strip
     size: 398.18 MB
     bsum: 34f646f9607cbd123aefeae05c152bc79b8809364ed0b1642c59838ecc8186bd
@@ -4950,7 +4950,7 @@ bin:
     bin_name: blueprint-flatimage
     description: A hybrid of Flatpak sandboxing with AppImage portability
     note: This are the default runtimes for FlatImage
-    version: v1.0.1
+    version: v1.0.2
     download_url: https://bin.ajam.dev/x86_64/blueprint-flatimage.no_strip
     size: 28.3 MB
     bsum: 3cbe8263d465e63348b879db93f0d50fcff0be69324b84f24bf95a5a0be8c14d
@@ -7381,7 +7381,7 @@ bin:
     bin_name: hugo
     description: The world’s fastest framework for building websites.
     note: ""
-    version: v0.136.0
+    version: v0.136.1
     download_url: https://bin.ajam.dev/x86_64/hugo
     size: 76.38 MB
     bsum: 523ca00e23173df3d2e2cbe3818c33f78426dc929b084cc4e47452951313827c
@@ -8503,7 +8503,7 @@ bin:
     bin_name: ipfs
     description: Official IPFS implementation in Go
     note: ""
-    version: v0.30.0
+    version: v0.31.0
     download_url: https://bin.ajam.dev/x86_64/ipfs
     size: 64.44 MB
     bsum: 1aeb5f8a7dbc8fc7c4191e4b0744137a503b5fab712eceaf727de79375063a29
@@ -8520,7 +8520,7 @@ bin:
     bin_name: ipfswatch
     description: Official IPFS implementation in Go
     note: ""
-    version: v0.30.0
+    version: v0.31.0
     download_url: https://bin.ajam.dev/x86_64/ipfswatch
     size: 62.5 MB
     bsum: 37b4133571302ac51ad59b8ee1491e36f9eadf3c3a7c6659550f5d558c107373
@@ -10407,7 +10407,7 @@ bin:
     bin_name: netbird
     description: Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls
     note: ""
-    version: v0.30.1
+    version: v0.30.2
     download_url: https://bin.ajam.dev/x86_64/netbird
     size: 28.93 MB
     bsum: 752d8dbf2d8083fa163ee37212d7f97a4d006a080aa6ee3ad968abef3c5ab20a
@@ -11206,7 +11206,7 @@ bin:
     bin_name: ockam
     description: Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
     note: ""
-    version: ockam_v0.135.0
+    version: ockam_v0.136.0
     download_url: https://bin.ajam.dev/x86_64/ockam
     size: 73 MB
     bsum: 500db0c270c870dc30df9435e2960bd726d47c098777161dcb4757576df06988
@@ -14759,7 +14759,7 @@ bin:
     bin_name: sj
     description: A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
     note: ""
-    version: 1.9.1
+    version: 1.9.2
     download_url: https://bin.ajam.dev/x86_64/sj
     size: 8.96 MB
     bsum: 398e5a4cf48e0359643b8226ae48baa6e9c9ae1c7beb8802e75a4fd0b412cca3
@@ -15422,7 +15422,7 @@ bin:
     bin_name: step
     description: "\U0001F9F0 A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc."
     note: ""
-    version: v0.27.4
+    version: v0.27.5
     download_url: https://bin.ajam.dev/x86_64/step
     size: 35.71 MB
     bsum: 6904b7c5768c847c5afc68b5b4d03381408c652e9753334baf093fddb6316408
@@ -15932,7 +15932,7 @@ bin:
     bin_name: tailscale
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/x86_64/tailscale
     size: 13.95 MB
     bsum: cc352664eafb49c74f2df6531269f09b8f8dfd0da089fac1f0daa3a0ac965a54
@@ -15949,7 +15949,7 @@ bin:
     bin_name: tailscale_bb
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/x86_64/tailscale_bb
     size: 28.75 MB
     bsum: 1852c2d6f59e99361c3a19d3285c72142291deca0f38fd6a4b682a10b79d9a26
@@ -15966,7 +15966,7 @@ bin:
     bin_name: tailscale_combined
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/x86_64/tailscale_combined
     size: 27.51 MB
     bsum: 04ff5bd0f0855de51c63e1154e615a893b6fe8088b7226bbd1dc0be117695f2f
@@ -15983,7 +15983,7 @@ bin:
     bin_name: tailscaled
     description: The easiest, most secure way to use WireGuard and 2FA
     note: ""
-    version: v1.76.0
+    version: v1.76.1
     download_url: https://bin.ajam.dev/x86_64/tailscaled
     size: 27.15 MB
     bsum: 424cdd9cb8d452427f148292eba4382a60b6a675c478bfc158a238aa790a5883
@@ -17173,7 +17173,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.22
+    version: v0.9.99.23
     download_url: https://bin.ajam.dev/x86_64/vtm
     size: 6.24 MB
     bsum: 9f2396082caeacb9cbc00d9491a72eb20661c51a38064df0ccbae04c2c4097b6
