@@ -797,6 +797,38 @@
   },
   {
     "filename": "./steam.log",
-    "size": "1436 B"
+    "size": "47.02 KB"
+  },
+  {
+    "filename": "./steam.AppImage",
+    "size": "446.5 MB"
+  },
+  {
+    "filename": "./steam.AppImage.version",
+    "size": "9 B"
+  },
+  {
+    "filename": "./steam.AppImage.zsync",
+    "size": "872.28 KB"
+  },
+  {
+    "filename": "./steam.DirIcon",
+    "size": "36.69 KB"
+  },
+  {
+    "filename": "./steam.desktop",
+    "size": "7506 B"
+  },
+  {
+    "filename": "./steam.icon.png",
+    "size": "36.69 KB"
+  },
+  {
+    "filename": "./steam.FlatImage",
+    "size": "616.97 MB"
+  },
+  {
+    "filename": "./steam.FlatImage.version",
+    "size": "9 B"
   }
 ]
