@@ -606,3 +606,41 @@
 
 ---
 
+### [`steam.AppImage` 📀](https://pkg.ajam.dev/x86_64-Linux/steam.AppImage)
+- **PKG_Name 📦:** steam
+- **Version 🧬:** `1.0.0.81`
+- **Description ℹ️:** A steam for with Enhanced Features (AppImage | FlatImage)
+- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
+- **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
+- **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/steam.AppImage
+- **Size 💾:** `446.5 MB`
+- **SHA256SUM 🔐:** `40c2c0cb4ec755ed43e208267f08dfeb28369a2ea5e0b1400660c9a43c7b0549`
+- **B3SUM 🔐:** `a26ef241aaac3a9064408cf97f763ffdaf24b0790c80d96d900dd02c5d049718`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/steam.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/steam.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/steam.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/steam.zsync
+
+---
+
+### [`steam.FlatImage` 📀](https://pkg.ajam.dev/x86_64-Linux/steam.FlatImage)
+- **PKG_Name 📦:** steam
+- **Version 🧬:** `1.0.0.81`
+- **Description ℹ️:** A steam for with Enhanced Features (AppImage | FlatImage)
+- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
+- **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
+- **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
+- **Download ⬇️:** https://pkg.ajam.dev/x86_64-Linux/steam.FlatImage
+- **Size 💾:** `616.97 MB`
+- **SHA256SUM 🔐:** `f8c57ffc2d026cc7bacaf4ccf29d1f8748edab522cdfd4d68d313432624a8295`
+- **B3SUM 🔐:** `f80f1b78646956dcf16d8b84e5a13a15d4979f4bcd98cbb0866b01ea876c40e9`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
+- **Log 🧾:** https://pkg.ajam.dev/x86_64-Linux/steam.log
+- **Icon 🖼️:** https://pkg.ajam.dev/x86_64-Linux/steam.icon.png
+- **Desktop 🖥️:** https://pkg.ajam.dev/x86_64-Linux/steam.desktop
+- **Zsync ♻️:** https://pkg.ajam.dev/x86_64-Linux/steam.zsync
+
+---
+

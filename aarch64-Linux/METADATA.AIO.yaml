@@ -475,6 +475,23 @@ bin:
     category: anime, cli, fzf, linux, mac, posix, rofi, shell, steamdeck, syncplay, terminal, termux, webscraping, windows
     icon: https://bin.ajam.dev/aarch64/ani-cli.preview.png
     extra_bins: ""
+  - name: apk-static
+    bin_name: apk-static
+    description: Alpine Package Keeper (apk)
+    note: ""
+    version: latest
+    download_url: https://bin.ajam.dev/aarch64/apk-static
+    size: 4.42 MB
+    bsum: 899e658c3821bd28e9db6af93173d5c37c2fe6c75d43bf50abfbdf80b421250d
+    shasum: 2d8c0e1cf49fa6892d400e9b5cf24b3a9f74ac30917fc5c0e4db3cdb6c9bc9f4
+    build_date: 2024-10-17T03:52:16
+    src_url: ""
+    web_url: https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/apk-static.sh
+    build_log: https://bin.ajam.dev/aarch64/apk-static.log.txt
+    category: ""
+    icon: https://bin.ajam.dev/aarch64/apk-static.preview.png
+    extra_bins: ""
   - name: apk.sh
     bin_name: apk.sh
     description: apk.sh makes reverse engineering Android apps easier
@@ -955,7 +972,7 @@ bin:
     bin_name: berty
     description: Secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network
     note: ""
-    version: v2.470.3
+    version: v2.470.5
     download_url: https://bin.ajam.dev/aarch64/berty
     size: 80.81 MB
     bsum: ee06d16f29f6b0e9015e82a517190b63ba7b979b9e2680dfe7cfa8213acfb8aa
@@ -1345,37 +1362,54 @@ bin:
   - name: bubblewrap
     bin_name: bubblewrap
     description: Unprivileged sandboxing tool
-    note: ""
+    note: The bwrap-patched binary is patched to allow nested bubblewraps with capabilities (INSECURE)
     version: v0.10.0
     download_url: https://bin.ajam.dev/aarch64/bubblewrap
-    size: 198.46 KB
-    bsum: 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
-    shasum: ""
-    build_date: 2024-09-20T21:26:14
+    size: 198.31 KB
+    bsum: 2287c4e0b379dadbcbc7d3022dcee7269f8758ef223e1e81c1e48ad18a0cc5c2
+    shasum: 50744a46c80dbf1fb5e90b22abca43a29ce2daa137d33ba2c4ec8846fd75f532
+    build_date: 2024-10-17T01:20:10
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bubblewrap.sh
     build_log: https://bin.ajam.dev/aarch64/bubblewrap.log.txt
     category: linux-containers, user-namespaces
     icon: https://bin.ajam.dev/aarch64/bubblewrap.preview.png
-    extra_bins: bwrap
+    extra_bins: bwrap,bwrap-patched
   - name: bwrap
     bin_name: bwrap
     description: Unprivileged sandboxing tool
-    note: ""
+    note: The bwrap-patched binary is patched to allow nested bubblewraps with capabilities (INSECURE)
     version: v0.10.0
     download_url: https://bin.ajam.dev/aarch64/bwrap
-    size: 198.46 KB
-    bsum: 4272eca5dfdb281dd94952f13a9b30954c25c768cf137e8780db4596d8f6d449
-    shasum: ""
-    build_date: 2024-09-20T21:26:14
+    size: 198.31 KB
+    bsum: 2287c4e0b379dadbcbc7d3022dcee7269f8758ef223e1e81c1e48ad18a0cc5c2
+    shasum: 50744a46c80dbf1fb5e90b22abca43a29ce2daa137d33ba2c4ec8846fd75f532
+    build_date: 2024-10-17T01:20:11
     src_url: https://github.com/containers/bubblewrap
     web_url: https://github.com/containers/bubblewrap
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bubblewrap.sh
     build_log: https://bin.ajam.dev/aarch64/bwrap.log.txt
     category: linux-containers, user-namespaces
     icon: https://bin.ajam.dev/aarch64/bubblewrap.preview.png
-    extra_bins: bubblewrap
+    extra_bins: bubblewrap,bwrap-patched
+  - name: bwrap-patched
+    bin_name: bwrap-patched
+    description: Unprivileged sandboxing tool
+    note: The bwrap-patched binary is patched to allow nested bubblewraps with capabilities (INSECURE)
+    version: v0.10.0
+    download_url: https://bin.ajam.dev/aarch64/bwrap-patched
+    size: 198.31 KB
+    bsum: 98ec86ab07bf541e1c2d0f9010c8c70604894c0c5133cd4d89d8c3aed96c8e65
+    shasum: 6cd0b45e809ddd1a12e0d4d560542eb741bb5755eadaabfa7677bbf45c6dffcf
+    build_date: 2024-10-17T01:20:12
+    src_url: https://github.com/containers/bubblewrap
+    web_url: https://github.com/containers/bubblewrap
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/bubblewrap.sh
+    build_log: https://bin.ajam.dev/aarch64/bwrap-patched.log.txt
+    category: linux-containers, user-namespaces
+    icon: https://bin.ajam.dev/aarch64/bubblewrap.preview.png
+    extra_bins: bubblewrap,bwrap
   - name: bucketloot
     bin_name: bucketloot
     description: Automated S3-compatible bucket inspector
@@ -1903,6 +1937,23 @@ bin:
     category: cidr, cli, cobra, go, homebrew, ipv4, ipv6
     icon: https://bin.ajam.dev/aarch64/cidr.preview.png
     extra_bins: ""
+  - name: ciopfs
+    bin_name: ciopfs
+    description: A fuse file system that mounts a directory on a regular file system in case insensitive fashion
+    note: ""
+    version: v0.4
+    download_url: https://bin.ajam.dev/aarch64/ciopfs
+    size: 1.31 MB
+    bsum: ce07a4c99651ff1164c2b59c20b1c3e2c1e653b2cb9a2dcd239233ea1ff5d11a
+    shasum: 3c7a0c56ad65551a25b5537b33f52a926bac424e84756490806faeb7567db65e
+    build_date: 2024-10-17T03:13:51
+    src_url: https://github.com/martanne/ciopfs
+    web_url: https://www.brain-dump.org/projects/ciopfs/
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/ciopfs.sh
+    build_log: https://bin.ajam.dev/aarch64/ciopfs.log.txt
+    category: utility
+    icon: https://bin.ajam.dev/aarch64/ciopfs.preview.png
+    extra_bins: ""
   - name: circumflex
     bin_name: circumflex
     description: "\U0001F33F Its Hacker News in your terminal"
@@ -2060,7 +2111,7 @@ bin:
     bin_name: cloudfox
     description: Automating situational awareness for cloud penetration tests
     note: ""
-    version: v1.14.2
+    version: v1.15.0
     download_url: https://bin.ajam.dev/aarch64/cloudfox
     size: 145.89 MB
     bsum: bb1ba3f8143bd16f239c61ec487ea4f3ba0b35ecf5afe0d26de747305fe6bef2
@@ -3080,7 +3131,7 @@ bin:
     bin_name: ddns-go
     description: Simple and easy to use DDNS.
     note: ""
-    version: v6.7.1
+    version: v6.7.2
     download_url: https://bin.ajam.dev/aarch64/ddns-go
     size: 8.89 MB
     bsum: d310ca38f1d5472cb5e4a27c695daec18aa2ed88e77a6479910724472148a5b8
@@ -4355,7 +4406,7 @@ bin:
     bin_name: eza
     description: A modern replacement for ‘ls’. (Fork of exa)
     note: ""
-    version: v0.20.2
+    version: v0.20.4
     download_url: https://bin.ajam.dev/aarch64/eza
     size: 2.28 MB
     bsum: c4282ef063411997e12e2477eb728992d4c6b1ad15d50cfa51a8b965618228a8
@@ -5511,7 +5562,7 @@ bin:
     bin_name: gitleaks
     description: "Protect and discover secrets using Gitleaks \U0001F511"
     note: ""
-    version: v8.21.0
+    version: v8.21.1
     download_url: https://bin.ajam.dev/aarch64/gitleaks
     size: 7.16 MB
     bsum: 0404bc53783aa9125fb94caed519d81769077ac84876d075c1d9cf821c4af872
@@ -7160,7 +7211,7 @@ bin:
     bin_name: hf-cli
     description: The official Python client for the Huggingface Hub
     note: ""
-    version: v0.25.2
+    version: v0.26.0
     download_url: https://bin.ajam.dev/aarch64/hf-cli
     size: 20.25 MB
     bsum: ccc2132f2c09b0071be4e4be26ca5949d96906d11b413c2f7b68858e6d169f87
@@ -7177,7 +7228,7 @@ bin:
     bin_name: huggingface-cli
     description: The official Python client for the Huggingface Hub
     note: ""
-    version: v0.25.2
+    version: v0.26.0
     download_url: https://bin.ajam.dev/aarch64/huggingface-cli
     size: 20.25 MB
     bsum: ccc2132f2c09b0071be4e4be26ca5949d96906d11b413c2f7b68858e6d169f87
@@ -7194,7 +7245,7 @@ bin:
     bin_name: hugo
     description: The world’s fastest framework for building websites.
     note: ""
-    version: v0.136.1
+    version: v0.136.2
     download_url: https://bin.ajam.dev/aarch64/hugo
     size: 72.97 MB
     bsum: b415a32ad135377b16cf11819359fa846dfcae9287f6c0ec8dcd74628b8dd357
@@ -9047,7 +9098,7 @@ bin:
     bin_name: logcli
     description: Like Prometheus, but for logs.
     note: ""
-    version: v3.2.0
+    version: v3.2.1
     download_url: https://bin.ajam.dev/aarch64/logcli
     size: 80.8 MB
     bsum: 3b75c9cdd92ebd3f1c9aae44c66a3b375af6a6b4a95e59f4b75f95675eacc3d7
@@ -9064,7 +9115,7 @@ bin:
     bin_name: loki
     description: Like Prometheus, but for logs.
     note: ""
-    version: v3.2.0
+    version: v3.2.1
     download_url: https://bin.ajam.dev/aarch64/loki
     size: 64.59 MB
     bsum: c796a901346034c248077a74d185b2fd8a4109bb1d37961f1278fe32b98af48c
@@ -9081,7 +9132,7 @@ bin:
     bin_name: loki-canary
     description: Like Prometheus, but for logs.
     note: ""
-    version: v3.2.0
+    version: v3.2.1
     download_url: https://bin.ajam.dev/aarch64/loki-canary
     size: 35.03 MB
     bsum: 360d310a935106739ea4616fa36a34c40d71265543a87504c03d6a966074613c
@@ -9098,7 +9149,7 @@ bin:
     bin_name: promtail
     description: Like Prometheus, but for logs.
     note: ""
-    version: v3.2.0
+    version: v3.2.1
     download_url: https://bin.ajam.dev/aarch64/promtail
     size: 102.29 MB
     bsum: b487d5cc9c3edf0cc366e9f063aa74596468c4ea2259c82149e3ac74b1f8af5e
@@ -10271,7 +10322,7 @@ bin:
     bin_name: nezha-agent
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.19.20
+    version: v0.20.2
     download_url: https://bin.ajam.dev/aarch64/nezha-agent
     size: 21.78 MB
     bsum: 63e0cf07dcfcc842aafa1f8ce02dcc7ddff5016a9133aee8f46b20fc6ce8f83d
@@ -10288,7 +10339,7 @@ bin:
     bin_name: nezha-dashboard
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.19.20
+    version: v0.20.2
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard
     size: 37.04 MB
     bsum: d9e96978a604370540d6492b0ac0dc7594baad845defe89967dad679c1b26606
@@ -10305,7 +10356,7 @@ bin:
     bin_name: nezha-dashboard.openrc
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.19.20
+    version: v0.20.2
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard.openrc
     size: 376 B
     bsum: 5c1d7d58d6b4c7940968773c09a415b8da56ded17d9713b0d1fc1d6142edb01c
@@ -10322,7 +10373,7 @@ bin:
     bin_name: nezha-dashboard.service
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.19.20
+    version: v0.20.2
     download_url: https://bin.ajam.dev/aarch64/nezha-dashboard.service
     size: 798 B
     bsum: bd71a8149d962451109a1fca429318b363ea5c2e62d6763838ecd94f402559e6
@@ -10339,7 +10390,7 @@ bin:
     bin_name: nezha-install.sh
     description: Self-hosted, lightweight server and website monitoring and O&M tool
     note: ""
-    version: v0.19.20
+    version: v0.20.2
     download_url: https://bin.ajam.dev/aarch64/nezha-install.sh
     size: 31.28 KB
     bsum: fe7b62044773e463748fcaee646f54b1095f07ac72f9f04afaeca1e009b9c6c2
@@ -11189,7 +11240,7 @@ bin:
     bin_name: ox
     description: An independent Rust text editor that runs in your terminal
     note: ""
-    version: 0.6.6
+    version: 0.6.7
     download_url: https://bin.ajam.dev/aarch64/ox
     size: 3.51 MB
     bsum: 05a1cf665b84c0b1058d215768c0cb8a92eeecaaf8a9fca1566ad0a2ac24214e
@@ -11444,7 +11495,7 @@ bin:
     bin_name: php
     description: Standalone PHP binary
     note: ""
-    version: 2.3.5
+    version: 2.3.6
     download_url: https://bin.ajam.dev/aarch64/php
     size: 26.02 MB
     bsum: 0e8345a55d4793f4a8433cef01dad52e13d75ad17b5fc76293a7765343c98323
@@ -11461,7 +11512,7 @@ bin:
     bin_name: php-fpm
     description: Standalone PHP binary
     note: ""
-    version: 2.3.5
+    version: 2.3.6
     download_url: https://bin.ajam.dev/aarch64/php-fpm
     size: 26.04 MB
     bsum: afcdeca701b554cc2a585c155c3af82cd25200eea0cfc423ad615735cacb207c
@@ -13348,7 +13399,7 @@ bin:
     bin_name: rospo
     description: "\U0001F438 Simple, reliable, persistent ssh tunnels with embedded ssh server"
     note: ""
-    version: v0.12.1
+    version: v0.13.0
     download_url: https://bin.ajam.dev/aarch64/rospo
     size: 8.82 MB
     bsum: 5853b89fbb5d8f9473a5af7b80153a101881cdc6fe27fb11734c4b9be3bacf73
@@ -13433,7 +13484,7 @@ bin:
     bin_name: ruff
     description: An extremely fast Python linter and code formatter, written in Rust.
     note: ""
-    version: 0.6.9
+    version: 0.7.0
     download_url: https://bin.ajam.dev/aarch64/ruff
     size: 21.28 MB
     bsum: 0205ba8d35c7067bf1824a83a6987a9b334efe9947a9bc4958aacf1b4f615328
@@ -14266,7 +14317,7 @@ bin:
     bin_name: sing-box
     description: The universal proxy platform
     note: ""
-    version: v1.10.0
+    version: v1.10.1
     download_url: https://bin.ajam.dev/aarch64/sing-box
     size: 29.69 MB
     bsum: 82fef33188fd321663e2966e424d0c5e5d8c920243738b8e1fbffb3a58afa619
@@ -15898,7 +15949,7 @@ bin:
     bin_name: trufflehog
     description: Find and verify credentials
     note: ""
-    version: v3.82.9
+    version: v3.82.11
     download_url: https://bin.ajam.dev/aarch64/trufflehog
     size: 119.47 MB
     bsum: 5db1ed386a3df79818a762f3ac20b2d1e1b866ae2633c9a362fa9c5411ef8ce2
@@ -16561,7 +16612,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.23
+    version: v0.9.99.24
     download_url: https://bin.ajam.dev/aarch64/vtm
     size: 5.71 MB
     bsum: bbc0e2be00d21797035f0701514c6e3e37238c761135b0454e37f451997b5f50
@@ -16697,7 +16748,7 @@ bin:
     bin_name: warp
     description: S3 benchmarking tool
     note: ""
-    version: v1.0.2
+    version: v1.0.3
     download_url: https://bin.ajam.dev/aarch64/warp
     size: 16.72 MB
     bsum: c7af66783d339cef903f8cfdfdf657d42ad67e225f884f544a9e107653cc2883
