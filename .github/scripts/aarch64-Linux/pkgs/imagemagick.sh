@@ -127,8 +127,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
          #Pack
           if [ -d "/opt/STATIC_TOOLS" ] && [ $(du -s "/opt/STATIC_TOOLS" | cut -f1) -gt 100 ]; then
-              "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" "${APP_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS" \
-              --compression "--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8"
+              "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" --appbundle-id "${APP_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS"
           fi
          #Copy
            rsync -achLv "${OWD}/${PKG_NAME}" "${BINDIR}/${PKG_NAME}"
