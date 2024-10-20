@@ -95,8 +95,8 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        export PKG_NAME="${APP}.FlatImage"
        RELEASE_TAG="$(curl -qfsSL "https://gitlab.archlinux.org/archlinux/packaging/packages/steam/-/raw/main/PKGBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
       #Arch FlatImage: https://github.com/ruanformigoni/flatimage/blob/master/examples/steam.sh
-       rsync -achLv "/opt/FLATIMAGE/archlinux" "${OWD}/archlinux"
-       export FIMG_BASE="${OWD}/archlinux"
+       rsync -achLv "/opt/FLATIMAGE/cachyos" "${OWD}/cachyos"
+       export FIMG_BASE="${OWD}/cachyos"
        if [[ -f "${FIMG_BASE}" ]] && [[ $(stat -c%s "${FIMG_BASE}") -gt 1024 ]]; then
        pushd "$(mktemp -d)" >/dev/null 2>&1
        #Bootstrap

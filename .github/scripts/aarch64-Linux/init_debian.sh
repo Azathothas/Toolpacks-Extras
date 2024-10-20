@@ -270,7 +270,28 @@
          #    echo -e "\n[-] FlatImage Base Images NOT Found: /opt/FLATIMAGE\n"
          #    export CONTINUE="NO" && exit 1
          # fi
-         #----------------------# 
+         #----------------------#
+         ##Setup FlatImage
+          sudo rm -rvf "/opt/FLATIMAGE" 2>/dev/null ; sudo mkdir -p "/opt/FLATIMAGE"
+          sudo chown -R "$(whoami):$(whoami)" "/opt/FLATIMAGE" && sudo chmod -R 755 "/opt/FLATIMAGE"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/alpine.flatimage" -o "/opt/FLATIMAGE/alpine"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/archlinux.flatimage" -o "/opt/FLATIMAGE/archlinux"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/artix.flatimage" -o "/opt/FLATIMAGE/artix"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/blueprint.flatimage" -o "/opt/FLATIMAGE/blueprint"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/cachyos.flatimage" -o "/opt/FLATIMAGE/cachyos"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/debian.flatimage" -o "/opt/FLATIMAGE/debian"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/ubuntu.flatimage" -o "/opt/FLATIMAGE/ubuntu"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/void-glibc.flatimage" -o "/opt/FLATIMAGE/void-glibc"
+          curl -qfsSL "https://github.com/Azathothas/flatimage-base/releases/download/$(uname -m)/void-musl.flatimage" -o "/opt/FLATIMAGE/void-musl"
+          find "/opt/FLATIMAGE" -type f -exec chmod +x "{}" \; 2>/dev/null
+          if [ -d "/opt/FLATIMAGE" ] && [ "$(find "/opt/FLATIMAGE" -mindepth 1 -print -quit 2>/dev/null)" ]; then
+             find "/opt/FLATIMAGE" -maxdepth 1 -type f -exec chmod +x "{}" \;
+             ls "/opt/FLATIMAGE" -lah ; du -sh "/opt/FLATIMAGE"
+          else
+             echo -e "\n[-] FlatImage Base Images NOT Found: /opt/FLATIMAGE\n"
+             export CONTINUE="NO" && exit 1
+          fi
+         #----------------------#
          ##Install golang 
           pushd "$($TMPDIRS)" >/dev/null 2>&1
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")

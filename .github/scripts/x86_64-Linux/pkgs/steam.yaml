@@ -5,8 +5,8 @@ bins:
   - "steam.FlatImage"  
 category:
  - "gaming"
-description: "A steam for with Enhanced Features (AppImage | FlatImage)"
-note: "AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)"
+description: "A video game digital distribution service and storefront from Valve (AppImage | FlatImage)"
+note: "AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)"
 web_url: "https://store.steampowered.com/about/"
 path: "/"
 src_url: "https://github.com/ivan-hc/Steam-appimage"
