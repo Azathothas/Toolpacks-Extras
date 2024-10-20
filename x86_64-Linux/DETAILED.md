@@ -609,14 +609,14 @@
 ### [`steam.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.AppImage)
 - **PKG_Name 📦:** steam
 - **Version 🧬:** `1.0.0.81`
-- **Description ℹ️:** A steam for with Enhanced Features (AppImage | FlatImage)
-- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
+- **Description ℹ️:** A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
+- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.AppImage
-- **Size 💾:** `446.5 MB`
-- **SHA256SUM 🔐:** `40c2c0cb4ec755ed43e208267f08dfeb28369a2ea5e0b1400660c9a43c7b0549`
-- **B3SUM 🔐:** `a26ef241aaac3a9064408cf97f763ffdaf24b0790c80d96d900dd02c5d049718`
+- **Size 💾:** `359.13 MB`
+- **SHA256SUM 🔐:** `a4cc91195e902b8e86003f4674a3f36f7b59ef2a186667cfdc0b71e4298d8ff4`
+- **B3SUM 🔐:** `85e2f4723cb9a9770ac19743d801e2338c1865eb8672dd87ba5159e8e7abd25b`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.icon.png
@@ -628,14 +628,14 @@
 ### [`steam.FlatImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.FlatImage)
 - **PKG_Name 📦:** steam
 - **Version 🧬:** `1.0.0.81`
-- **Description ℹ️:** A steam for with Enhanced Features (AppImage | FlatImage)
-- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on ArchLinux<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
+- **Description ℹ️:** A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
+- **Note ⚠️:** AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.FlatImage
-- **Size 💾:** `616.97 MB`
-- **SHA256SUM 🔐:** `f8c57ffc2d026cc7bacaf4ccf29d1f8748edab522cdfd4d68d313432624a8295`
-- **B3SUM 🔐:** `f80f1b78646956dcf16d8b84e5a13a15d4979f4bcd98cbb0866b01ea876c40e9`
+- **Size 💾:** `539.78 MB`
+- **SHA256SUM 🔐:** `d1595443b579f76c7b38e5ad174cf10cc6e69e3d48e73b9a3332a2396659b33c`
+- **B3SUM 🔐:** `60f643c7addebb4ef89a1fc843ffddd0d80ab1de7d029a5a01f4920f49bc49fa`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.icon.png

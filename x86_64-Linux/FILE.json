@@ -285,7 +285,7 @@
   },
   {
     "filename": "./steam.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (1497), with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with very long lines (491), with CR, LF line terminators"
   },
   {
     "filename": "./steam.AppImage",
@@ -293,6 +293,6 @@
   },
   {
     "filename": "./steam.FlatImage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9ea91db2bd2f4abce2b82cd890d2983d8f676959, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=a7311cbb49c3982ec557313a9a49fd7ac1c089a3, stripped"
   }
 ]

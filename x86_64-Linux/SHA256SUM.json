@@ -1,19 +1,19 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "1163d604804d7fd3307eb3e358e29dd2427a26d624941587ccc3cfaab3fb8a6f"
+    "sum": "40851595dc34083e0c5ffce24cb6ce49c2c6490d54a749b274377fe3551aac3e"
   },
   {
     "filename": "./FILE.json",
-    "sum": "7f2ed06423da60e136ca4334a5e42fe6fd823466b20fb6b4943f280315f2335e"
+    "sum": "73def232e71ba1418b583edbcd321e665b64532f2e834d12c67af5fb3f5fdb58"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "cb2c00170bbc44a9f8b2e5ba17953e8a7fcd09eeeba07c509902c64b542c22c9"
+    "sum": "3aa0fc2ed2ff5be8389a145dcfda5a669b0ecd0032e78f95308b3a6b92cd718e"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "8ad41c9fe4c3f1d2b144b0fef871d8c1536f341fb87520ba242b0cdb707062ac"
+    "sum": "13d78655f4acec88483ee5c22ff12399d2314934bd432451583487d232ad2eca"
   },
   {
     "filename": "./librewolf.AppImage",
@@ -37,11 +37,11 @@
   },
   {
     "filename": "./METADATA.json",
-    "sum": "25ff2e1b377b0116e68f2cdc6226eec200bcb39fd11d0f4991f06af2dd73cddc"
+    "sum": "7535b9c8b11d3ca16fbf3241b7295e4e7da326a08ff74ea7cdbfdcb700b04a9e"
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "5217d86166c17c81da05c546b94587848edfc9032fcd83ccf7116da1f62695d0"
+    "sum": "499be8eb585d647e5713a00bbe0c28d3509243515c888e5174bca84be012a023"
   },
   {
     "filename": "./mullvad-browser.tar.xz",
@@ -177,19 +177,19 @@
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "a270305510f86cfe37047d6bb4b13caddbff4bb53b99e60fe1fa318698c78829"
+    "sum": "94d58c3dc7b6239a53522576d61c4c4326811b8d3c56a98536f5775ddfb892c6"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "ad22f78f58959187a4b8925853cced69c01b890d99061f515151f730579445f1"
+    "sum": "74d16d83fc031cdc1f6a10094dd6b7afdcba294c310ee50b5f633218fc994709"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "5d74754f1d5d2c8ad79de754f27e61f9264e3a175264ac9372e901316702125e"
+    "sum": "053c460ef3f82af40cd421a221c045f96888c41f53ccf0dff486216f5599d076"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "fe52e65c7af7fab0c2755b92c6bfa03f12eb7d4d74f643567384dc9ad6c4feba"
+    "sum": "cfe016e7f329165fa26312ecb5fe2fb4c0eaa2fcf492bec8f4902951decf8a3e"
   },
   {
     "filename": "./android-tools.AppImage",
@@ -285,14 +285,14 @@
   },
   {
     "filename": "./steam.log",
-    "sum": "33bcc41a77e17a4767a11fd14a0f94c8296583306e3ac413b71f7e8a0fb68798"
+    "sum": "fb45f9a4e7281aa09e81bc3260b9ade352314b403a64745cda505da529431730"
   },
   {
     "filename": "./steam.AppImage",
-    "sum": "40c2c0cb4ec755ed43e208267f08dfeb28369a2ea5e0b1400660c9a43c7b0549"
+    "sum": "a4cc91195e902b8e86003f4674a3f36f7b59ef2a186667cfdc0b71e4298d8ff4"
   },
   {
     "filename": "./steam.FlatImage",
-    "sum": "f8c57ffc2d026cc7bacaf4ccf29d1f8748edab522cdfd4d68d313432624a8295"
+    "sum": "d1595443b579f76c7b38e5ad174cf10cc6e69e3d48e73b9a3332a2396659b33c"
   }
 ]
