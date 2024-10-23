@@ -21,7 +21,7 @@ fi
 
 #-------------------------------------------------------#
 ##Main
-export SKIP_BUILD="NO"
+export SKIP_BUILD="YES" #Keep Stable
 #imagemagick : FOSS suite for editing and manipulating Digital Images & Files
 export BIN="imagemagick"
 export BIN_ID=""
