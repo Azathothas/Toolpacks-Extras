@@ -526,6 +526,23 @@ bin:
     category: utility
     icon: https://bin.ajam.dev/x86_64/apkeep.preview.png
     extra_bins: ""
+  - name: appstreamcli
+    bin_name: appstreamcli
+    description: Tool to work with AppStream metadata
+    note: ""
+    version: continuous
+    download_url: https://bin.ajam.dev/x86_64/appstreamcli
+    size: 4.77 MB
+    bsum: 4f107fe293d1460596cb2eac7dedb2ed84611aa5386d23d6f2119d77e808b121
+    shasum: b11bfacce0ae80c5c4037cb415f1115825b82073783439c875f833104b6d4507
+    build_date: 2024-10-23T05:57:09
+    src_url: https://github.com/probonopd/static-tools
+    web_url: https://github.com/ximion/appstream
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/appstreamcli.sh
+    build_log: https://bin.ajam.dev/x86_64/appstreamcli.log.txt
+    category: utility
+    icon: https://bin.ajam.dev/x86_64/appstreamcli.preview.png
+    extra_bins: ""
   - name: aptly
     bin_name: aptly
     description: Debian repository management tool
@@ -1210,7 +1227,7 @@ bin:
     bin_name: botsay
     description: "\U0001F916 Output text together with randomly generated ASCII robots in colors inspired by synthwave/rainbows"
     note: ""
-    version: v1.4.0
+    version: v1.4.1
     download_url: https://bin.ajam.dev/x86_64/botsay
     size: 1.69 MB
     bsum: cacf393669684fff29e96d52017f63052e658b142d2a21fccabf786cd7763575
@@ -4559,7 +4576,7 @@ bin:
     bin_name: fastfetch
     description: Like neofetch, but much faster because written in C.
     note: ""
-    version: 2.27.1
+    version: 2.28.0
     download_url: https://bin.ajam.dev/x86_64/fastfetch
     size: 1.88 MB
     bsum: 892626eecbfa8e7b818f119d4e13bf247a601c4c31220ab2bed02de26e2d2517
@@ -4576,7 +4593,7 @@ bin:
     bin_name: fastfetch-staticx
     description: Like neofetch, but much faster because written in C.
     note: ""
-    version: 2.27.1
+    version: 2.28.0
     download_url: https://bin.ajam.dev/x86_64/fastfetch-staticx
     size: 1.62 MB
     bsum: c95b11e8dffcc94c87353fed72f2236857e33602c836680d2e8ab59018072bfe
@@ -4593,7 +4610,7 @@ bin:
     bin_name: flashfetch
     description: Like neofetch, but much faster because written in C.
     note: ""
-    version: 2.27.1
+    version: 2.28.0
     download_url: https://bin.ajam.dev/x86_64/flashfetch
     size: 1.67 MB
     bsum: 32a2a6cbcccc6b58bdab06e9fe0ee24cfa0fef240ea20d56d31b1fdf5f17e2e2
@@ -9982,7 +9999,7 @@ bin:
     bin_name: melange
     description: build APKs from source code
     note: ""
-    version: v0.14.4
+    version: v0.14.6
     download_url: https://bin.ajam.dev/x86_64/melange
     size: 47.25 MB
     bsum: 4296621fc39f3760af86407578a85965a0534e6cbab1435906cab99b82527cd0
@@ -10638,7 +10655,7 @@ bin:
     web_url: https://github.com/gravitl/netmaker
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netmaker.sh
     build_log: https://bin.ajam.dev/x86_64/netmaker.log.txt
-    category: cloud, devsecops, k8s, kubernetes, mesh, network, networking, security, self-hosted, virtual-network, virtual-networking, vpn, vpn-server, wg-quick, wireguard, wireguard-ui, wireguard-vpn, zero-trust
+    category: cloud, devsecops, k8s, kubernetes, mesh, mesh-network, network, networking, overlay-network, security, self-hosted, virtual-network, virtual-networking, vpn, vpn-server, wg-quick, wireguard, wireguard-ui, wireguard-vpn, zero-trust
     icon: https://bin.ajam.dev/x86_64/netmaker.preview.png
     extra_bins: nmctl
   - name: nmctl
@@ -10655,7 +10672,7 @@ bin:
     web_url: https://github.com/gravitl/netmaker
     build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/netmaker.sh
     build_log: https://bin.ajam.dev/x86_64/nmctl.log.txt
-    category: cloud, devsecops, k8s, kubernetes, mesh, network, networking, security, self-hosted, virtual-network, virtual-networking, vpn, vpn-server, wg-quick, wireguard, wireguard-ui, wireguard-vpn, zero-trust
+    category: cloud, devsecops, k8s, kubernetes, mesh, mesh-network, network, networking, overlay-network, security, self-hosted, virtual-network, virtual-networking, vpn, vpn-server, wg-quick, wireguard, wireguard-ui, wireguard-vpn, zero-trust
     icon: https://bin.ajam.dev/x86_64/netmaker.preview.png
     extra_bins: netmaker
   - name: netscanner
@@ -11359,7 +11376,7 @@ bin:
     bin_name: ockam
     description: Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale.
     note: ""
-    version: ockam_v0.137.0
+    version: ockam_v0.138.0
     download_url: https://bin.ajam.dev/x86_64/ockam
     size: 73.14 MB
     bsum: dbdfc91e1d0b354e7e22bfbb821fea903e32625f51aa42599154798b06d9385a
@@ -11699,7 +11716,7 @@ bin:
     bin_name: ox
     description: An independent Rust text editor that runs in your terminal
     note: ""
-    version: 0.6.7
+    version: 0.6.8
     download_url: https://bin.ajam.dev/x86_64/ox
     size: 4.38 MB
     bsum: e456502c79ac26f14eef10e8320c2c3b797743b5962b54f4eeb2bd44c52e7245
@@ -12328,7 +12345,7 @@ bin:
     bin_name: procs
     description: A modern replacement for ps written in Rust
     note: ""
-    version: v0.14.7
+    version: v0.14.8
     download_url: https://bin.ajam.dev/x86_64/procs
     size: 5.89 MB
     bsum: c66dc3f8f3e914330708204f424bf8033e59c9034fa935ff42c4b7e8a3724bbe
@@ -16952,7 +16969,7 @@ bin:
     bin_name: ulexec
     description: A tool for loading and executing PE/ELF from memory
     note: ""
-    version: v0.0.9
+    version: v0.1.1
     download_url: https://bin.ajam.dev/x86_64/ulexec
     size: 6.37 MB
     bsum: 29cdf24ca1f9d6620d3d17096d425d01ac33c15ae430cac9ce7cd53d86987517
@@ -17343,7 +17360,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.27
+    version: v0.9.99.28
     download_url: https://bin.ajam.dev/x86_64/vtm
     size: 6.25 MB
     bsum: 816be2058f0e050f66cc983b82d1a14718e3fb60ac4ce2795f3dec165253ddf1
@@ -17951,278 +17968,6 @@ bin:
     category: cli, csv, rust
     icon: https://bin.ajam.dev/x86_64/xan.preview.png
     extra_bins: ""
-  - name: xbps-alternatives
-    bin_name: xbps-alternatives
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-alternatives
-    size: 5.64 MB
-    bsum: 5f780cd7adf7116705287a70e5b0da32e054625e5aae9bbf5ad00571e27f3a9f
-    shasum: 8e3f81f2a1cfd7c0c3e4cc9fb5d12d20ebbafda4a466186c9eba80437482612c
-    build_date: 2024-03-16T02:29:22
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-alternatives.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-checkvers
-    bin_name: xbps-checkvers
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-checkvers
-    size: 5.64 MB
-    bsum: bcf771c49c99f14c047471d6eb22090a62c97afa2aa7044b1089ea4fd1d54060
-    shasum: d3aab4faa900cd4c8570c3179255256929c88fa7fe98369b1412717b9dbf8362
-    build_date: 2024-03-16T02:29:45
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-checkvers.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-create
-    bin_name: xbps-create
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-create
-    size: 6.4 MB
-    bsum: 6f7b38f977183ffb663a94f12a9c5e7e9d7a5fbc1fe5e02e6744eee21b492702
-    shasum: c7a91393dc773321f206c2c64f06c350703f52e084617fe70c0c626d68de4466
-    build_date: 2024-03-16T02:29:47
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-create.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-dgraph
-    bin_name: xbps-dgraph
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-dgraph
-    size: 5.64 MB
-    bsum: 0f18193001ab53f84c150a9aa33bf13d30c1ee60df874a1fb6b49f4e9ac3c564
-    shasum: caeb07806576d9cf5061bc54b1a00557baaf350fbcac9475652f9a496805bc69
-    build_date: 2024-03-16T02:29:47
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-dgraph.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-digest
-    bin_name: xbps-digest
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-digest
-    size: 5.62 MB
-    bsum: b6c1882c7212e40d9f80b1e4bd06ff0591c24b1c18256a0838ad89b0d5df0428
-    shasum: c89ca2b2c53f0c810c06771c478f4b49ded0cf6338f8242139c07d31ce3944dc
-    build_date: 2024-03-16T02:29:14
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-digest.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-fbulk
-    bin_name: xbps-fbulk
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-fbulk
-    size: 5.63 MB
-    bsum: a661195fc6f99486ba86ac1a8db835068b5c835c0fab90634fcc368cce71c257
-    shasum: 5a3549478f1c3f9664c4fabd5c239de3a6a875e98eb809cea31a6564d58c6517
-    build_date: 2024-03-16T02:29:13
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-fbulk.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-fetch
-    bin_name: xbps-fetch
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-fetch
-    size: 5.64 MB
-    bsum: 2b30bb26759c741831a7879cc81a3545f01b762c0dbe7e5aee0101d092d7327e
-    shasum: 48a07d20db0126eef84f545f75abcc1b51d6c78f40536e637103f8ebaa1479e2
-    build_date: 2024-03-16T02:29:40
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-fetch.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-install
-    bin_name: xbps-install
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-install
-    size: 5.79 MB
-    bsum: 52046113cde83b5dd3224e8bec5da774e16df5a1920bcd9a21e307f27bd16da6
-    shasum: 8bc60b48eea432ce81b95cc2f2afae2e335f5071439cc7d7f4a2372fb527b808
-    build_date: 2024-03-16T02:29:12
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-install.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-pkgdb
-    bin_name: xbps-pkgdb
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-pkgdb
-    size: 5.64 MB
-    bsum: 74f863edc0d2293cb114b72be74d4350465553d20943ac8254a6524ad7c44e95
-    shasum: d69ab1b835f6ad9633a2e155c5747db119cd4bacd8b2e1886d6bb4a682c28bc2
-    build_date: 2024-03-16T02:29:45
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-pkgdb.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-query
-    bin_name: xbps-query
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-query
-    size: 5.69 MB
-    bsum: 525ea5039937f345cd4f8fa7227265f63a45f704cc7a98e12e4bee3be0f4f20b
-    shasum: 21858c4fceec84371d7723edb0dd6f573e5baa0866b48898359cd5e185be14c7
-    build_date: 2024-03-16T02:29:23
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-query.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-reconfigure
-    bin_name: xbps-reconfigure
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-reconfigure
-    size: 5.64 MB
-    bsum: 3bffb879d4fcbf5ba7369e0ef242fcbb9bd1290483e3d023eec0df512672574f
-    shasum: 0175fd16e1295684ef023179b79913d81319381c11cdd4749d9b19ec4a355a5b
-    build_date: 2024-03-16T02:29:15
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-reconfigure.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-remove
-    bin_name: xbps-remove
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-remove
-    size: 5.78 MB
-    bsum: f36c539e225fb5f6a9be42fd129fbea2ce0063b8afd3aacacc15cb2107a3a561
-    shasum: 8063ec78af687c755534f59b8542a9907256d4d33ffbf7e246aca5660d3d408e
-    build_date: 2024-03-16T02:29:16
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-remove.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-rindex,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-rindex
-    bin_name: xbps-rindex
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-rindex
-    size: 6.41 MB
-    bsum: d9fdfdb295eb0f6729351abaa41b168e09c8d6294ee607bc2b8af854a99cebd9
-    shasum: ddbc127a64f608c18aa4af86dbab8d731452026c44ee7d87435be70f2c65d02a
-    build_date: 2024-03-16T02:29:16
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-rindex.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-uchroot,xbps-uhelper,xbps-uunshare
-  - name: xbps-uchroot
-    bin_name: xbps-uchroot
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-uchroot
-    size: 5.63 MB
-    bsum: 5d078cced455c98cb9f7b745b420e9b9b005807e83c7972fa58e47cf95881ca2
-    shasum: 73de99ed167f2e03fcd5a11f6efc5f1d6e0651aa1c3c5ae6471dd20f2a2511a5
-    build_date: 2024-03-16T02:29:32
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-uchroot.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uhelper,xbps-uunshare
-  - name: xbps-uhelper
-    bin_name: xbps-uhelper
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-uhelper
-    size: 5.64 MB
-    bsum: 127023c3e25a6987578887793c0bbf2261ee471fafe62c55a7d586a66b04bb9c
-    shasum: 805768112cb93741cd9b183b56c7993fd4bef04caaa0c14e2e9e7b39d96cf4d1
-    build_date: 2024-03-16T02:29:31
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-uhelper.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uunshare
-  - name: xbps-uunshare
-    bin_name: xbps-uunshare
-    description: Void Package Builder|Installer
-    note: ""
-    version: 0.59.2
-    download_url: https://bin.ajam.dev/x86_64/xbps-uunshare
-    size: 5.62 MB
-    bsum: 0643bedb9729df58a3dd880663c26d0701c0abb6e9e482aabad0fbd3e4d77bed
-    shasum: b9ce48f17030afa16fd24b3c2740a4183641b2ba33776a32a849deee939e2614
-    build_date: 2024-03-16T02:29:48
-    src_url: https://github.com/void-linux/xbps
-    web_url: https://github.com/void-linux/xbps
-    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/x86_64_Linux/bins/xbps-void.sh
-    build_log: https://bin.ajam.dev/x86_64/xbps-uunshare.log.txt
-    category: hacktoberfest, voidlinux
-    icon: https://bin.ajam.dev/x86_64/xbps-void.preview.png
-    extra_bins: xbps-alternatives,xbps-checkvers,xbps-create,xbps-dgraph,xbps-digest,xbps-fbulk,xbps-fetch,xbps-install,xbps-pkgdb,xbps-query,xbps-reconfigure,xbps-remove,xbps-rindex,xbps-uchroot,xbps-uhelper
   - name: xcp
     bin_name: xcp
     description: An extended cp
@@ -18312,7 +18057,7 @@ bin:
     bin_name: xmrig
     description: Monero (XMR) CPU miner
     note: ""
-    version: v6.22.0
+    version: v6.22.1
     download_url: https://bin.ajam.dev/x86_64/xmrig
     size: 8.29 MB
     bsum: 109bafeb8754ad0154d7a97dc9d24537f82b8aeb8d61d279aa3b1bcc8fe75890
@@ -41278,6 +41023,7 @@ base:
     extra_bins: cpfromfs,cptofs,fs2tar,lkl-hijack.sh,mount.fuse.lklfuse
 pkg:
   - name: 86box.AppImage
+    bin_id: net._86box._86Box
     bin_name: 86box
     description: Emulator of x86-based machines (AppImage)
     note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
@@ -41295,6 +41041,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/86box.icon.png
     extra_bins: ""
   - name: acreom.AppImage
+    bin_id: ""
     bin_name: acreom
     description: An IDE based Knowledge Base using Markdown (AppImage)
     note: 'Closed Source<br>(CI_VERIFIED: NONE)'
@@ -41312,6 +41059,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/acreom.icon.png
     extra_bins: ""
   - name: actual.AppImage
+    bin_id: ""
     bin_name: actual
     description: A local-first personal finance app (AppImage)
     note: '(CI_VERIFIED: https://github.com/actualbudget/actual/actions)'
@@ -41329,6 +41077,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/actual.icon.png
     extra_bins: ""
   - name: advanced-passgen.AppImage
+    bin_id: ""
     bin_name: advanced-passgen
     description: Advanced Password Generator (AppImage)
     note: '(CI_VERIFIED: https://github.com/CodeDead/Advanced-PassGen/actions)'
@@ -41346,6 +41095,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/advanced-passgen.icon.png
     extra_bins: ""
   - name: affine.AppImage
+    bin_id: ""
     bin_name: affine
     description: Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)'
@@ -41363,6 +41113,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/affine.icon.png
     extra_bins: affine.NixAppImage
   - name: aisap.AppImage
+    bin_id: ""
     bin_name: aisap
     description: Tool to make sandboxing AppImages easy (AppImage | shImg)
     note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
@@ -41380,6 +41131,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/aisap.icon.png
     extra_bins: aisap.shimg
   - name: aisap.shimg
+    bin_id: ""
     bin_name: aisap
     description: Tool to make sandboxing AppImages easy (AppImage | shImg)
     note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
@@ -41397,6 +41149,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/aisap.icon.png
     extra_bins: aisap.AppImage
   - name: android-tools.AppImage
+    bin_id: ""
     bin_name: android-tools
     description: Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot (AppImage)
     note: This PKG was built from Source using go-appimagetool
@@ -41414,6 +41167,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/android-tools.icon.png
     extra_bins: ""
   - name: deadbeef-nightly.AppImage
+    bin_id: ""
     bin_name: deadbeef
     description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
     note: 'This PKG was built from Portable Nightly Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
@@ -41431,6 +41185,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/deadbeef.icon.png
     extra_bins: ""
   - name: deadbeef-stable.AppImage
+    bin_id: ""
     bin_name: deadbeef
     description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
     note: 'This PKG was built from Portable Stable Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
@@ -41448,6 +41203,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/deadbeef.icon.png
     extra_bins: ""
   - name: dunst.AppImage
+    bin_id: ""
     bin_name: dunst
     description: Lightweight and customizable notification daemon (AppImage)
     note: This PKG was built from Source using go-appimagetool
@@ -41465,6 +41221,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/dunst.icon.png
     extra_bins: ""
   - name: floorp.NixAppImage
+    bin_id: one.ablaze.floorp
     bin_name: floorp
     description: A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)'
@@ -41482,6 +41239,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/floorp.icon.png
     extra_bins: floorp.AppImage
   - name: i3.AppImage
+    bin_id: ""
     bin_name: i3
     description: A Tiling Window Manager (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
@@ -41499,6 +41257,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/i3.icon.png
     extra_bins: i3.NixAppImage
   - name: i3.NixAppImage
+    bin_id: ""
     bin_name: i3
     description: A Tiling Window Manager (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
@@ -41516,6 +41275,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/i3.icon.png
     extra_bins: i3.AppImage
   - name: magick.AppImage
+    bin_id: ""
     bin_name: magick
     description: FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
     note: 'This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)'
@@ -41533,6 +41293,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/magick.icon.png
     extra_bins: magick.dwfs.AppBundle
   - name: magick.dwfs.AppBundle
+    bin_id: ""
     bin_name: magick
     description: FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
     note: 'This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)'
@@ -41550,6 +41311,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/magick.icon.png
     extra_bins: magick.AppImage
   - name: inkscape-dev.AppImage
+    bin_id: org.inkscape.Inkscape
     bin_name: inkscape
     description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -41567,6 +41329,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
     extra_bins: inkscape.AppImage,inkscape.NixAppImage
   - name: inkscape.AppImage
+    bin_id: org.inkscape.Inkscape
     bin_name: inkscape
     description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -41584,6 +41347,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
     extra_bins: inkscape-dev.AppImage,inkscape.NixAppImage
   - name: inkscape.NixAppImage
+    bin_id: org.inkscape.Inkscape
     bin_name: inkscape
     description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -41601,6 +41365,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/inkscape.icon.png
     extra_bins: inkscape-dev.AppImage,inkscape.AppImage
   - name: librewolf.AppImage
+    bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
     description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
@@ -41618,6 +41383,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
     extra_bins: librewolf.NixAppImage
   - name: librewolf.NixAppImage
+    bin_id: io.gitlab.librewolf-community
     bin_name: librewolf
     description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
@@ -41635,6 +41401,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/librewolf.icon.png
     extra_bins: librewolf.AppImage
   - name: mullvad-browser.NixAppImage
+    bin_id: net.mullvad.MullvadBrowser
     bin_name: mullvad-browser
     description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
@@ -41652,6 +41419,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/mullvad-browser.icon.png
     extra_bins: mullvad-browser.tar.xz
   - name: mullvad-browser.tar.xz
+    bin_id: net.mullvad.MullvadBrowser
     bin_name: mullvad-browser
     description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
@@ -41669,6 +41437,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/mullvad-browser.icon.png
     extra_bins: mullvad-browser.NixAppImage
   - name: obs-studio.AppImage
+    bin_id: com.obsproject.Studio
     bin_name: obs-studio
     description: FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/obsproject/obs-studio/actions)'
@@ -41686,6 +41455,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/obs-studio.icon.png
     extra_bins: obs-studio.NixAppImage
   - name: olive-editor.AppImage
+    bin_id: org.olivevideoeditor.Olive
     bin_name: olive
     description: Free open-source non-linear video editor (AppImage|NixAppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/olive-editor/olive/actions)'
@@ -41703,6 +41473,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/olive.icon.png
     extra_bins: olive-editor.NixAppImage
   - name: persepolis.NixAppImage
+    bin_id: ""
     bin_name: persepolis
     description: A Download Manager (GUI for aria2) written in Python (AppImage|NixAppImage)
     note: '(CI_VERIFIED: NONE)'
@@ -41720,6 +41491,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/persepolis.icon.png
     extra_bins: ""
   - name: puddletag.NixAppImage
+    bin_id: net.puddletag.puddletag
     bin_name: puddletag
     description: Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)
     note: '(CI_VERIFIED: https://github.com/puddletag/puddletag/actions)'
@@ -41737,6 +41509,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/puddletag.icon.png
     extra_bins: ""
   - name: qbittorrent-enhanced.AppImage
+    bin_id: ""
     bin_name: qbittorrent-enhanced
     description: A qBittorrent for with Enhanced Features (AppImage)
     note: '(CI_VERIFIED: https://github.com/c0re100/qBittorrent-Enhanced-Edition/actions)'
@@ -41754,6 +41527,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/qbittorrent-enhanced.icon.png
     extra_bins: ""
   - name: qbittorrent.AppImage
+    bin_id: org.qbittorrent.qBittorrent
     bin_name: qbittorrent
     description: A qBittorrent for with Enhanced Features (AppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
@@ -41771,6 +41545,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/qbittorrent.icon.png
     extra_bins: qbittorrent.NixAppImage
   - name: qbittorrent.NixAppImage
+    bin_id: org.qbittorrent.qBittorrent
     bin_name: qbittorrent
     description: A qBittorrent for with Enhanced Features (AppImage)
     note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
@@ -41788,6 +41563,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/qbittorrent.icon.png
     extra_bins: qbittorrent.AppImage
   - name: ryujinx.AppImage
+    bin_id: org.ryujinx.Ryujinx
     bin_name: ryujinx
     description: A simple, experimental Nintendo Switch emulator
     note: '(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)'
@@ -41805,6 +41581,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/ryujinx.icon.png
     extra_bins: ""
   - name: signal-desktop.NixAppImage
+    bin_id: org.signal.Signal
     bin_name: signal-desktop
     description: A private messenger for Windows, macOS, and Linux (NixAppImage)
     note: 'signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
@@ -41822,6 +41599,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/signal-desktop.icon.png
     extra_bins: signal-desktop.FlatImage
   - name: steam.AppImage
+    bin_id: com.valvesoftware.Steam
     bin_name: steam
     description: A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
     note: 'AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)'
@@ -41839,6 +41617,7 @@ pkg:
     icon: https://pkg.ajam.dev/x86_64/steam.icon.png
     extra_bins: steam.FlatImage
   - name: steam.FlatImage
+    bin_id: com.valvesoftware.Steam
     bin_name: steam
     description: A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
     note: 'AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)'

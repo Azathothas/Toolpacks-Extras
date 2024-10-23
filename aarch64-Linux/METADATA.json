@@ -1,6 +1,7 @@
 [
   {
     "name": "86box.AppImage",
+    "bin_id": "net._86box._86Box",
     "bin_name": "86box",
     "description": "Emulator of x86-based machines (AppImage)",
     "note": "You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)",
@@ -19,6 +20,7 @@
   },
   {
     "name": "aisap.AppImage",
+    "bin_id": "",
     "bin_name": "aisap",
     "description": "Tool to make sandboxing AppImages easy (AppImage | shImg)",
     "note": "This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)",
@@ -37,6 +39,7 @@
   },
   {
     "name": "android-tools.AppImage",
+    "bin_id": "",
     "bin_name": "android-tools",
     "description": "Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot (AppImage)",
     "note": "This PKG was built from Source using go-appimagetool, BUT the src has no CI (CI_VERIFIED: NONE)",
@@ -55,6 +58,7 @@
   },
   {
     "name": "dunst.AppImage",
+    "bin_id": "",
     "bin_name": "dunst",
     "description": "Lightweight and customizable notification daemon (AppImage)",
     "note": "This PKG was built from Source using go-appimagetool",
@@ -73,6 +77,7 @@
   },
   {
     "name": "floorp.NixAppImage",
+    "bin_id": "one.ablaze.floorp",
     "bin_name": "floorp",
     "description": "A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)",
@@ -91,6 +96,7 @@
   },
   {
     "name": "magick.AppImage",
+    "bin_id": "",
     "bin_name": "magick",
     "description": "FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)",
     "note": "This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)",
@@ -109,6 +115,7 @@
   },
   {
     "name": "magick.dwfs.AppBundle",
+    "bin_id": "",
     "bin_name": "magick",
     "description": "FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)",
     "note": "This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)",
@@ -127,6 +134,7 @@
   },
   {
     "name": "inkscape.NixAppImage",
+    "bin_id": "org.inkscape.Inkscape",
     "bin_name": "inkscape",
     "description": "FOSS Vector Graphics Editor (AppImage|NixAppImage)",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
@@ -145,6 +153,7 @@
   },
   {
     "name": "librewolf.AppImage",
+    "bin_id": "io.gitlab.librewolf-community",
     "bin_name": "librewolf",
     "description": "LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)",
@@ -163,6 +172,7 @@
   },
   {
     "name": "librewolf.NixAppImage",
+    "bin_id": "io.gitlab.librewolf-community",
     "bin_name": "librewolf",
     "description": "LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)",
@@ -181,6 +191,7 @@
   },
   {
     "name": "persepolis.NixAppImage",
+    "bin_id": "",
     "bin_name": "persepolis",
     "description": "A Download Manager (GUI for aria2) written in Python (AppImage|NixAppImage)",
     "note": "(CI_VERIFIED: NONE)",
@@ -199,6 +210,7 @@
   },
   {
     "name": "ryujinx.AppImage",
+    "bin_id": "org.ryujinx.Ryujinx",
     "bin_name": "ryujinx",
     "description": "A simple, experimental Nintendo Switch emulator",
     "note": "(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)",
@@ -217,6 +229,7 @@
   },
   {
     "name": "signal-desktop.NixAppImage",
+    "bin_id": "org.signal.Signal",
     "bin_name": "signal-desktop",
     "description": "A private messenger for Windows, macOS, and Linux (NixAppImage)",
     "note": "Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",

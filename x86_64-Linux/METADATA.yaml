@@ -1,4 +1,5 @@
 - name: 86box.AppImage
+  bin_id: net._86box._86Box
   bin_name: 86box
   description: Emulator of x86-based machines (AppImage)
   note: 'You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)<br>(CI_VERIFIED: https://github.com/86Box/86Box/actions)'
@@ -15,6 +16,7 @@
   category: emulator,hypervisor
   extra_bins: ""
 - name: acreom.AppImage
+  bin_id: ""
   bin_name: acreom
   description: An IDE based Knowledge Base using Markdown (AppImage)
   note: 'Closed Source<br>(CI_VERIFIED: NONE)'
@@ -31,6 +33,7 @@
   category: ide,knowledge-base,wiki
   extra_bins: ""
 - name: actual.AppImage
+  bin_id: ""
   bin_name: actual
   description: A local-first personal finance app (AppImage)
   note: '(CI_VERIFIED: https://github.com/actualbudget/actual/actions)'
@@ -47,6 +50,7 @@
   category: finance
   extra_bins: ""
 - name: advanced-passgen.AppImage
+  bin_id: ""
   bin_name: advanced-passgen
   description: Advanced Password Generator (AppImage)
   note: '(CI_VERIFIED: https://github.com/CodeDead/Advanced-PassGen/actions)'
@@ -63,6 +67,7 @@
   category: passgen,password-manager
   extra_bins: ""
 - name: affine.AppImage
+  bin_id: ""
   bin_name: affine
   description: Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)'
@@ -79,6 +84,7 @@
   category: knowledge-base,wiki
   extra_bins: affine.NixAppImage
 - name: aisap.AppImage
+  bin_id: ""
   bin_name: aisap
   description: Tool to make sandboxing AppImages easy (AppImage | shImg)
   note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
@@ -95,6 +101,7 @@
   category: cli,sandbox
   extra_bins: aisap.shimg
 - name: aisap.shimg
+  bin_id: ""
   bin_name: aisap
   description: Tool to make sandboxing AppImages easy (AppImage | shImg)
   note: 'This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)'
@@ -111,6 +118,7 @@
   category: cli,sandbox
   extra_bins: aisap.AppImage
 - name: android-tools.AppImage
+  bin_id: ""
   bin_name: android-tools
   description: Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot (AppImage)
   note: This PKG was built from Source using go-appimagetool
@@ -127,6 +135,7 @@
   category: android,utility
   extra_bins: ""
 - name: deadbeef-nightly.AppImage
+  bin_id: ""
   bin_name: deadbeef
   description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
   note: 'This PKG was built from Portable Nightly Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
@@ -143,6 +152,7 @@
   category: multimedia,music,music-player
   extra_bins: ""
 - name: deadbeef-stable.AppImage
+  bin_id: ""
   bin_name: deadbeef
   description: A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)
   note: 'This PKG was built from Portable Stable Releases using AppImageTool<br>(CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)'
@@ -159,6 +169,7 @@
   category: multimedia,music,music-player
   extra_bins: ""
 - name: dunst.AppImage
+  bin_id: ""
   bin_name: dunst
   description: Lightweight and customizable notification daemon (AppImage)
   note: This PKG was built from Source using go-appimagetool
@@ -175,6 +186,7 @@
   category: daemon,notification
   extra_bins: ""
 - name: floorp.NixAppImage
+  bin_id: one.ablaze.floorp
   bin_name: floorp
   description: A FireFox Fork with Advanced Features & More Customization (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)'
@@ -191,6 +203,7 @@
   category: browser,firefox-fork
   extra_bins: floorp.AppImage
 - name: i3.AppImage
+  bin_id: ""
   bin_name: i3
   description: A Tiling Window Manager (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
@@ -207,6 +220,7 @@
   category: window,window-manager,wm
   extra_bins: i3.NixAppImage
 - name: i3.NixAppImage
+  bin_id: ""
   bin_name: i3
   description: A Tiling Window Manager (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats<br>(CI_VERIFIED: https://github.com/i3/i3/actions)'
@@ -223,6 +237,7 @@
   category: window,window-manager,wm
   extra_bins: i3.AppImage
 - name: magick.AppImage
+  bin_id: ""
   bin_name: magick
   description: FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
   note: 'This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)'
@@ -239,6 +254,7 @@
   category: graphics
   extra_bins: magick.dwfs.AppBundle
 - name: magick.dwfs.AppBundle
+  bin_id: ""
   bin_name: magick
   description: FOSS suite for editing and manipulating Digital Images & Files (AppImage | AppBundle)
   note: 'This PKG has Multiple Formats <br>(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)'
@@ -255,6 +271,7 @@
   category: graphics
   extra_bins: magick.AppImage
 - name: inkscape-dev.AppImage
+  bin_id: org.inkscape.Inkscape
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -271,6 +288,7 @@
   category: graphics,multimedia
   extra_bins: inkscape.AppImage,inkscape.NixAppImage
 - name: inkscape.AppImage
+  bin_id: org.inkscape.Inkscape
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -287,6 +305,7 @@
   category: graphics,multimedia
   extra_bins: inkscape-dev.AppImage,inkscape.NixAppImage
 - name: inkscape.NixAppImage
+  bin_id: org.inkscape.Inkscape
   bin_name: inkscape
   description: FOSS Vector Graphics Editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)'
@@ -303,6 +322,7 @@
   category: graphics,multimedia
   extra_bins: inkscape-dev.AppImage,inkscape.AppImage
 - name: librewolf.AppImage
+  bin_id: io.gitlab.librewolf-community
   bin_name: librewolf
   description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
@@ -319,6 +339,7 @@
   category: browser,privacy
   extra_bins: librewolf.NixAppImage
 - name: librewolf.NixAppImage
+  bin_id: io.gitlab.librewolf-community
   bin_name: librewolf
   description: LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)'
@@ -335,6 +356,7 @@
   category: browser,privacy
   extra_bins: librewolf.AppImage
 - name: mullvad-browser.NixAppImage
+  bin_id: net.mullvad.MullvadBrowser
   bin_name: mullvad-browser
   description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
@@ -351,6 +373,7 @@
   category: anonymity,browser,privacy,tor
   extra_bins: mullvad-browser.tar.xz
 - name: mullvad-browser.tar.xz
+  bin_id: net.mullvad.MullvadBrowser
   bin_name: mullvad-browser
   description: Privacy-focused browser for Linux, macOS and Windows (Archive|AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.torproject.org/tpo/applications/mullvad-browser/-/pipelines)'
@@ -367,6 +390,7 @@
   category: anonymity,browser,privacy,tor
   extra_bins: mullvad-browser.NixAppImage
 - name: obs-studio.AppImage
+  bin_id: com.obsproject.Studio
   bin_name: obs-studio
   description: FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/obsproject/obs-studio/actions)'
@@ -383,6 +407,7 @@
   category: multimedia,screenrecording,video
   extra_bins: obs-studio.NixAppImage
 - name: olive-editor.AppImage
+  bin_id: org.olivevideoeditor.Olive
   bin_name: olive
   description: Free open-source non-linear video editor (AppImage|NixAppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/olive-editor/olive/actions)'
@@ -399,6 +424,7 @@
   category: multimedia,video,video-editor
   extra_bins: olive-editor.NixAppImage
 - name: persepolis.NixAppImage
+  bin_id: ""
   bin_name: persepolis
   description: A Download Manager (GUI for aria2) written in Python (AppImage|NixAppImage)
   note: '(CI_VERIFIED: NONE)'
@@ -415,6 +441,7 @@
   category: downloader,multimedia
   extra_bins: ""
 - name: puddletag.NixAppImage
+  bin_id: net.puddletag.puddletag
   bin_name: puddletag
   description: Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)
   note: '(CI_VERIFIED: https://github.com/puddletag/puddletag/actions)'
@@ -431,6 +458,7 @@
   category: audio,multimedia,music
   extra_bins: ""
 - name: qbittorrent-enhanced.AppImage
+  bin_id: ""
   bin_name: qbittorrent-enhanced
   description: A qBittorrent for with Enhanced Features (AppImage)
   note: '(CI_VERIFIED: https://github.com/c0re100/qBittorrent-Enhanced-Edition/actions)'
@@ -447,6 +475,7 @@
   category: downloader,torrent
   extra_bins: ""
 - name: qbittorrent.AppImage
+  bin_id: org.qbittorrent.qBittorrent
   bin_name: qbittorrent
   description: A qBittorrent for with Enhanced Features (AppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
@@ -463,6 +492,7 @@
   category: downloader,torrent
   extra_bins: qbittorrent.NixAppImage
 - name: qbittorrent.NixAppImage
+  bin_id: org.qbittorrent.qBittorrent
   bin_name: qbittorrent
   description: A qBittorrent for with Enhanced Features (AppImage)
   note: 'This PKG has Multiple Formats (CI_VERIFIED: https://github.com/qbittorrent/qBittorrent/actions)'
@@ -479,6 +509,7 @@
   category: downloader,torrent
   extra_bins: qbittorrent.AppImage
 - name: ryujinx.AppImage
+  bin_id: org.ryujinx.Ryujinx
   bin_name: ryujinx
   description: A simple, experimental Nintendo Switch emulator
   note: '(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)'
@@ -495,6 +526,7 @@
   category: emulator
   extra_bins: ""
 - name: signal-desktop.NixAppImage
+  bin_id: org.signal.Signal
   bin_name: signal-desktop
   description: A private messenger for Windows, macOS, and Linux (NixAppImage)
   note: 'signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
@@ -511,6 +543,7 @@
   category: messenger,privacy
   extra_bins: signal-desktop.FlatImage
 - name: steam.AppImage
+  bin_id: com.valvesoftware.Steam
   bin_name: steam
   description: A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
   note: 'AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)'
@@ -527,6 +560,7 @@
   category: gaming
   extra_bins: steam.FlatImage
 - name: steam.FlatImage
+  bin_id: com.valvesoftware.Steam
   bin_name: steam
   description: A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
   note: 'AppImage is based on Conty (ArchLinux)<br>FlatImage is based on CachyOS<br>(CI_VERIFIED: https://github.com/ivan-hc/Steam-appimage)'
