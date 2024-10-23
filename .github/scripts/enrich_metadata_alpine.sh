@@ -33,7 +33,7 @@ fi
  #Fetch
    pushd "$($TMPDIRS)" >/dev/null 2>&1
    apk-static fetch "${ALPINE_PKG}" --allow-untrusted --no-cache --no-interactive --verbose --output="$(realpath .)"
-   unset APK_PKG ; APK_PKG="$(find "." -maxdepth 1 -type d -name "*.apk" 2>/dev/null \;)" && export APK_PKG="${APK_PKG}"
+   unset APK_PKG ; APK_PKG="$(find "." -maxdepth 1 -type f -name "*.apk" 2>/dev/null)" && export APK_PKG="${APK_PKG}"
    if [[ -f "${APK_PKG}" ]] && [[ $(stat -c%s "${APK_PKG}") -gt 1024 ]]; then
     #Extract
      find "." -name "*.apk" -exec tar -xvf "{}" "usr/share" 2>/dev/null \;
@@ -44,6 +44,6 @@ fi
      find "." -type f -regex ".*\.svg$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.alpine.icon.svg" 2>/dev/null
     #Cleanup
      unset ALPINE_PKG APK_PKG
-     rm -rf "$(realpath .)" && popd >/dev/null 2>&1
    fi
+   rm -rf "$(realpath .)" && popd >/dev/null 2>&1
 #-------------------------------------------------------#
