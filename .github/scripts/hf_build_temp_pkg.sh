@@ -81,6 +81,7 @@ hf_build_temp_pkg()
         -e '/.*secret_access_key.*/Id' \
         -e '/.*cloudflarestorage.*/Id' "${TEMP_LOG}" | tee "${LOG_PATH}"
         echo -e "\n[+] LOG: $(realpath ${LOG_PATH})\n"
+        echo -e "\n[+] BINS: $(ls "${BINDIR}" -lah)\n"
      else
         cat "${TEMP_LOG}" ; realpath "${TEMP_LOG}"
      fi

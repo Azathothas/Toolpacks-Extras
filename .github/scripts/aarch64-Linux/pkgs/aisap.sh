@@ -172,7 +172,18 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        #End
        popd >/dev/null 2>&1
 fi
-LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
+#Enrichments
+pushd "$($TMPDIRS)" >/dev/null 2>&1
+#alpine enrichment: https://pkgs.alpinelinux.org/packages --> apk search ${ALPINE_PKG}
+ ALPINE_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_alpine.sh") || true &
+#arch enrichment: https://archlinux.org/packages/ --> pacman -Ss ${ARCHLINUX_PKG}
+ ARCHLINUX_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_arch.sh") || true &
+#debian enrichment: https://packages.debian.org/ --> apt search ${DEBIAN_PKG}
+ DEBIAN_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_debian.sh") || true &
+#Log
+ wait ; LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
+rm -rvf "$(realpath .)" 2>/dev/null && popd >/dev/null 2>&1
+#-------------------------------------------------------#
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
