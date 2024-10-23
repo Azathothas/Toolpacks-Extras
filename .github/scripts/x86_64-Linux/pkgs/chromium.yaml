@@ -1,0 +1,12 @@
+name: "chromium"
+bin_name: "chromium"
+bins:
+  - "chromium-alpine.FlatImage"
+  - "chromium.NixAppImage"
+category:
+ - "browser"
+description: "Open source web browser from Google (FlatImage | NixAppImage)"
+note: "chromium.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>chromium-alpine.FlatImage is based on Alpine & has Sandbox Support"
+web_url: "https://www.chromium.org"
+path: "/"
+src_url: "https://github.com/chromium/chromium"

@@ -25,7 +25,8 @@ export SKIP_BUILD="NO"
 #signal-desktop : A private messenger for Windows, macOS, and Linux.
 export BIN="signal-desktop"
 export SOURCE_URL="https://github.com/signalapp/Signal-Desktop"
-export BUILD_NIX_APPIMAGE="YES"
+export BUILD_NIX_APPIMAGE="YES" #requires --no-sandbox, but includes all deps
+export BUILD_FIMG="YES"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) $BIN :: $SOURCE_URL\n"
@@ -122,14 +123,67 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        fi
       #End
        popd >/dev/null 2>&1
-    fi       
+    fi
+     #-------------------------------------------------------#
+    if [ "${BUILD_FIMG}" == "YES" ]; then
+      ##Build (FlatImage)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="signal-desktop"
+       export PKG_NAME="${APP}.FlatImage"
+       RELEASE_TAG="$(curl -qfsSL "https://gitlab.archlinux.org/archlinux/packaging/packages/signal-desktop/-/raw/main/PKGBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
+       rsync -achLv "/opt/FLATIMAGE/cachyos" "${OWD}/cachyos"
+       export FIMG_BASE="${OWD}/cachyos"
+       if [[ -f "${FIMG_BASE}" ]] && [[ $(stat -c%s "${FIMG_BASE}") -gt 1024 ]]; then
+       pushd "$(mktemp -d)" >/dev/null 2>&1
+       #Bootstrap
+         "${FIMG_BASE}" fim-perms add "audio,dbus_user,dbus_system,gpu,home,input,media,network,udev,usb,xorg,wayland"
+         "${FIMG_BASE}" fim-perms list
+         "${FIMG_BASE}" fim-root pacman -Syu --noconfirm
+       #Build
+         "${FIMG_BASE}" fim-root bash -c '
+         #Sync
+         pacman -Syu --noconfirm
+         #Install Deps
+         packages=""
+         for pkg in $packages; do pacman -Sy "$pkg" --needed --noconfirm ; done
+         #Install
+         pacman signal-desktop -Sy --noconfirm
+         pacman -Ql signal-desktop
+         #Cleanup
+         pacman -Rsn base-devel --noconfirm
+         pacman -Rsn perl --noconfirm
+         pacman -Rsn python --noconfirm
+         pacman -Scc --noconfirm
+         '
+       #ENV
+         "${FIMG_BASE}" fim-exec mkdir -p "/home/root"
+         "${FIMG_BASE}" fim-env add 'USER=root' 'HOME=/home/root' 'XDG_CONFIG_HOME=/home/root/.config' 'XDG_DATA_HOME=/home/root/.local/share'
+         "${FIMG_BASE}" fim-env list
+         "${FIMG_BASE}" fim-boot "/usr/bin/signal-desktop"
+       #Create
+         "${FIMG_BASE}" fim-commit
+       #Copy
+         rsync -achLv "${FIMG_BASE}" "${BINDIR}/${PKG_NAME}"
+       #Version
+         if [[ -f "${BINDIR}/${PKG_NAME}" ]] && [[ $(stat -c%s "${BINDIR}/${PKG_NAME}") -gt 1024 ]]; then
+           PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+           echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+         fi
+       #End           
+         rm -rf "$(realpath .)" && popd >/dev/null 2>&1
+       fi
+       #Info
+         find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
+         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC FIMG_BASE NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+    fi
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
 ##Cleanup
-unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
 unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB

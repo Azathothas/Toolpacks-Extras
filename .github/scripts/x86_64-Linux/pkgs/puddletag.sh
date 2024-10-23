@@ -128,14 +128,14 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        fi
       #End
        popd >/dev/null 2>&1
-    fi       
+    fi
 fi
 LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 #-------------------------------------------------------#
 
 #-------------------------------------------------------#
 ##Cleanup
-unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
 unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB
