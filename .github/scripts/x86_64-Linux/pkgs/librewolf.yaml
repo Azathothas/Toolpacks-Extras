@@ -1,4 +1,5 @@
 name: "librewolf"
+bin_id: "io.gitlab.librewolf-community"
 bin_name: "librewolf"
 bins:
   - "librewolf.AppImage"

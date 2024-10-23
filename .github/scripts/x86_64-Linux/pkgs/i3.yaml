@@ -1,4 +1,5 @@
 name: "i3"
+bin_id: ""
 bin_name: "i3"
 bins:
   - "i3.AppImage"

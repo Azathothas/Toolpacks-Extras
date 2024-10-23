@@ -1,4 +1,5 @@
 name: "dunst"
+bin_id: ""
 bin_name: "dunst"
 bins:
   - "dunst.AppImage"

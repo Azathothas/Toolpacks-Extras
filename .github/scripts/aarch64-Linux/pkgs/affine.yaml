@@ -1,4 +1,5 @@
 name: "affine"
+bin_id: ""
 bin_name: "affine"
 bins:
   - "affine.AppImage"

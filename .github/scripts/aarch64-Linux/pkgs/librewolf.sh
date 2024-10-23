@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #librewolf : LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom
 export BIN="librewolf"
+export BIN_ID="io.gitlab.librewolf-community"
 export SOURCE_URL="https://gitlab.com/librewolf-community/browser"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

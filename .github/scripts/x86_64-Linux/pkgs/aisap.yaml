@@ -1,4 +1,5 @@
 name: "aisap"
+bin_id: ""
 bin_name: "aisap"
 bins:
   - "aisap.AppImage"

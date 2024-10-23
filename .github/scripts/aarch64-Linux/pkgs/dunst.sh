@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #dunst : Lightweight and customizable notification daemon
 export BIN="dunst"
+export BIN_ID=""
 export SOURCE_URL="https://github.com/dunst-project/dunst"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then

@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #olive-editor : Free open-source non-linear video editor
 export BIN="olive-editor"
+export BIN_ID="org.olivevideoeditor.Olive"
 export SOURCE_URL="https://github.com/olive-editor/olive"
 export BUILD_NIX_APPIMAGE="NO" #gl issues
 #-------------------------------------------------------#

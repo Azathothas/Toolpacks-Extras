@@ -1,4 +1,5 @@
 name: "floorp"
+bin_id: "one.ablaze.floorp"
 bin_name: "floorp"
 bins:
   - "floorp.AppImage"

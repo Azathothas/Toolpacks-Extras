@@ -1,4 +1,5 @@
 name: "qbittorrent-enhanced"
+bin_id: ""
 bin_name: "qbittorrent-enhanced"
 bins:
   - "qbittorrent-enhanced.AppImage"

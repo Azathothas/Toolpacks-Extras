@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #imagemagick : FOSS suite for editing and manipulating Digital Images & Files
 export BIN="imagemagick"
+export BIN_ID=""
 export SOURCE_URL="https://github.com/ImageMagick/ImageMagick"
 export BUILD_APPBUNDLE="NO" #Keep stable
 #-------------------------------------------------------#

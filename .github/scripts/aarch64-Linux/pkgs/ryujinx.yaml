@@ -1,4 +1,5 @@
 name: "ryujinx"
+bin_id: "org.ryujinx.Ryujinx"
 bin_name: "ryujinx"
 bins:
   - "ryujinx.AppImage"

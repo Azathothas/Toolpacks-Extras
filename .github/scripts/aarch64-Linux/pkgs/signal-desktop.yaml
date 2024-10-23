@@ -1,4 +1,5 @@
 name: "signal-desktop"
+bin_id: "org.signal.Signal"
 bin_name: "signal-desktop"
 bins:
   - "signal-desktop.NixAppImage"

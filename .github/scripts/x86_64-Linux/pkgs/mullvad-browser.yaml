@@ -1,4 +1,5 @@
 name: "mullvad-browser"
+bin_id: "net.mullvad.MullvadBrowser"
 bin_name: "mullvad-browser"
 bins:
   - "mullvad-browser.NixAppImage"

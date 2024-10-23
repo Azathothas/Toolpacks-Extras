@@ -67,11 +67,11 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
          #export Name
           NAME="$(yq -r '.name' ${BUILDYAML})" && export NAME="${NAME}"
          #export Notes (Note)
-          NOTE="$(yq -r '.note' ${BUILDYAML})" && export NOTE="$NOTE"
+          NOTE="$(yq -r '.note' ${BUILDYAML})" && export NOTE="${NOTE}"
          #export REPO_URL 
-          REPO_URL="$(yq -r '.src_url' ${BUILDYAML})" && export REPO_URL="$REPO_URL" 
+          REPO_URL="$(yq -r '.src_url' ${BUILDYAML})" && export REPO_URL="${REPO_URL}" 
          #export WEB_URL (WebURL)
-          WEB_URL="$(yq -r '.web_url' ${BUILDYAML})" && export WEB_URL="$WEB_URL"
+          WEB_URL="$(yq -r '.web_url' ${BUILDYAML})" && export WEB_URL="${WEB_URL}"
          #export Build Script
           #BUILD_SCRIPT="$(echo "${BUILD_URL}" | sed 's|\.yaml$|.sh|')" && export BUILD_SCRIPT="${BUILD_SCRIPT}"
           BUILD_SCRIPT="https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/${HOST_TRIPLET}/pkgs/${NAME}.sh" && export BUILD_SCRIPT="${BUILD_SCRIPT}"
@@ -79,6 +79,9 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
           yq -r '.bins[]' "${BUILDYAML}" | sort -u -o "${TMPDIR}/BINS.txt"
          #Merge with json
           for BIN in $(cat "${TMPDIR}/BINS.txt" | sed 's/"//g'); do
+           #Bin ID
+             BIN_ID="$(yq -r '.bin_id' ${BUILDYAML})" && export BIN_ID="${BIN_ID}"
+             jq --arg BIN "$BIN" --arg BIN_ID "${BIN_ID}" '.[] |= if .name == $BIN then . + {bin_id: $BIN_ID} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
            #Bin Name
              BIN_NAME="$(yq -r '.bin_name' ${BUILDYAML})" && export BIN_NAME="${BIN_NAME}"
              jq --arg BIN "$BIN" --arg BIN_NAME "${BIN_NAME}" '.[] |= if .name == $BIN then . + {bin_name: $BIN_NAME} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
@@ -117,6 +120,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
             #Sort & Map
               jq 'map({
                      name: (.name // "" | if . == null or . == "" then "" else . end),
+                     bin_id: (.bin_id // "" | if . == null or . == "" then "" else . end),
                      bin_name: (.bin_name // "" | if . == null or . == "" then "" else . end),
                      description: (.description // "" | if . == null or . == "" then "" else . end),
                      note: (.note // "" | if . == null or . == "" then "" else . end),

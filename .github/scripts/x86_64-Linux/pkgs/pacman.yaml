@@ -1,4 +1,5 @@
 name: "pacman"
+bin_id: ""
 bin_name: "pacman"
 bins:
   - "pacman.AppImage"

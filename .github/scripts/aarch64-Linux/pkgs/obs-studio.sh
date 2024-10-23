@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="YES" #no aarch64 builds
 #obs-studio : FOSS cross-platform screencasting and streaming app
 export BIN="obs-studio"
+export BIN_ID="com.obsproject.Studio"
 export SOURCE_URL="https://gitlab.com/obs-studio/obs-studio"
 export BUILD_NIX_APPIMAGE="NO" #egl issues
 #-------------------------------------------------------#

@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #86box : Emulator of x86-based machines. and freedom
 export BIN="86box"
+export BIN_ID="net._86box._86Box"
 export SOURCE_URL="https://github.com/86Box/86Box"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then

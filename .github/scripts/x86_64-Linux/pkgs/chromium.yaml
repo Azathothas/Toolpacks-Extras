@@ -1,4 +1,5 @@
 name: "chromium"
+bin_id: "org.chromium.Chromium"
 bin_name: "chromium"
 bins:
   - "chromium-alpine.FlatImage"

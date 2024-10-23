@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="YES" #no aarch64 support yet
 #mullvad-browser : Privacy-focused browser for Linux, macOS and Windows
 export BIN="mullvad-browser"
+export BIN_ID="net.mullvad.MullvadBrowser"
 export SOURCE_URL="https://github.com/mullvad/mullvad-browser"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

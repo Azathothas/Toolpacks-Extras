@@ -1,4 +1,5 @@
 name: "olive-editor"
+bin_id: "org.olivevideoeditor.Olive"
 bin_name: "olive"
 bins:
   - "olive-editor.AppImage"  

@@ -1,4 +1,5 @@
 name: "android-tools"
+bin_id: ""
 bin_name: "android-tools"
 bins:
   - "android-tools.AppImage"

@@ -1,4 +1,5 @@
 name: "browservice"
+bin_id: ""
 bin_name: "browservice"
 bins:
   - "browservice.AppImage"

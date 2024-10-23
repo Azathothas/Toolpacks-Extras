@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #puddletag : Powerful, simple, audio tag editor for GNU/Linux
 export BIN="puddletag"
+export BIN_ID="net.puddletag.puddletag"
 export SOURCE_URL="https://github.com/puddletag/puddletag"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

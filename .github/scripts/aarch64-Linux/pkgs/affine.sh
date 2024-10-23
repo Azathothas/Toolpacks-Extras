@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="YES" #https://github.com/toeverything/AFFiNE/issues/5247
 #affine : FOSS Knowledge Base with fully merged docs, whiteboards and databases
 export BIN="affine"
+export BIN_ID=""
 export SOURCE_URL="https://github.com/toeverything/AFFiNE"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

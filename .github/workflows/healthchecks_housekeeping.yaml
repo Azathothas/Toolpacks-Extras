@@ -295,6 +295,7 @@ jobs:
                .[] | 
                "[[pkg]]\n" +
                "name = \"\(.name)\"\n" +
+               "bin_id = \"\(.bin_id)\"\n" +
                "bin_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -442,6 +443,7 @@ jobs:
                .[] | 
                "[[pkg]]\n" +
                "name = \"\(.name)\"\n" +
+               "bin_id = \"\(.bin_id)\"\n" +
                "bin_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +

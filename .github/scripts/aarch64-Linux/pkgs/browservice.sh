@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="No"
 #browservice : Browse the modern web on historical browsers
 export BIN="browservice"
+export BIN_ID=""
 export SOURCE_URL="https://github.com/ttalvitie/browservice"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

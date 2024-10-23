@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #persepolis : A Download Manager (GUI for aria2) written in Python
 export BIN="persepolis"
+export BIN_ID=""
 export SOURCE_URL="https://github.com/persepolisdm/persepolis"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

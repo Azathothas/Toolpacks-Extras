@@ -1,0 +1,14 @@
+name: "firefox"
+bin_id: "org.mozilla.firefox"
+bin_name: "firefox"
+bins:
+  - "firefox.AppImage"
+  - "firefox.FlatImage"
+  - "firefox.NixAppImage"
+category:
+ - "browser"
+description: "A web browser built from Firefox source tree (AppImage|FlatImage|NixAppImage)"
+note: ""
+web_url: "http://www.mozilla.com"
+path: "/"
+src_url: "https://hg.mozilla.org/mozilla-central"

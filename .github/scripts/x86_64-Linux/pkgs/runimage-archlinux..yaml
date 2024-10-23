@@ -1,4 +1,5 @@
 name: "runimage-archlinux"
+bin_id: ""
 bin_name: "runimage"
 bins:
   - "runimage-archlinux.RunImage"

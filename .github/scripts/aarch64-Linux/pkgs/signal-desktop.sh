@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #signal-desktop : A private messenger for Windows, macOS, and Linux.
 export BIN="signal-desktop"
+export BIN_ID="org.signal.Signal"
 export SOURCE_URL="https://github.com/signalapp/Signal-Desktop"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #qbittorrent : qBittorrent BitTorrent client
 export BIN="qbittorrent"
+export BIN_ID="org.qbittorrent.qBittorrent"
 export SOURCE_URL="https://github.com/qbittorrent/qBittorrent"
 export BUILD_NIX_APPIMAGE="NO" #glissues
 #-------------------------------------------------------#

@@ -1,4 +1,5 @@
 name: "inkscape"
+bin_id: "org.inkscape.Inkscape"
 bin_name: "inkscape"
 bins:
   - "inkscape.AppImage"

@@ -29,9 +29,10 @@ pushd "${HF_REPO_PKGDIR}" >/dev/null && curl -qfsSL "https://pub.ajam.dev/utils/
  rclone lsjson --fast-list "." | jq -r \
    --arg HOST_TRIPLET "${HOST_TRIPLET}" \
    'include "./sizer"; 
-    .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(jq|json|md|tmp|txt)$") | not)) | 
+    .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(jq|json|md|png|svg|tmp|txt|xml|yaml|yml)$") | not)) | 
     {
       name: (.Name),
+      bin_id,
       bin_name,
       description,
       note,
@@ -39,9 +40,9 @@ pushd "${HF_REPO_PKGDIR}" >/dev/null && curl -qfsSL "https://pub.ajam.dev/utils/
       download_url: "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/\($HOST_TRIPLET)/\(.Path)", 
       size: (.Size | tonumber | bytes), 
       bsum,
-      shasum, 
+      shasum,
       build_date: (.ModTime | split(".")[0]),
-      src_url, 
+      src_url,
       web_url,
       build_script,
       build_log,

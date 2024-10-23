@@ -1,4 +1,5 @@
 name: "deadbeef-nightly"
+bin_id: ""
 bin_name: "deadbeef"
 bins:
   - "deadbeef-nightly.AppImage"

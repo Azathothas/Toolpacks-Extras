@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #pacman : ArchLinux's package manager combining a simple binary package format with an easy-to-use build system
 export BIN="pacman"
+export BIN_ID=""
 export SOURCE_URL="https://gitlab.archlinux.org/pacman/pacman"
 if [ "${SKIP_BUILD}" == "NO" ]; then
      echo -e "\n\n [+] (Building | Fetching) ${BIN} :: ${SOURCE_URL} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"

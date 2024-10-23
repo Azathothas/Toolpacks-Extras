@@ -1,4 +1,5 @@
 name: "puddletag"
+bin_id: "net.puddletag.puddletag"
 bin_name: "puddletag"
 bins:
   - "puddletag.NixAppImage"

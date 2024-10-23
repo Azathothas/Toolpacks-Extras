@@ -1,4 +1,5 @@
 name: "actual"
+bin_id: ""
 bin_name: "actual"
 bins:
   - "actual.AppImage"

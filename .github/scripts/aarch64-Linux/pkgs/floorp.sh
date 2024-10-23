@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #floorp : A FireFox Fork with Advanced Features & More Customization
 export BIN="floorp"
+export BIN_ID="one.ablaze.floorp"
 export SOURCE_URL="https://github.com/Floorp-Projects/Floorp"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

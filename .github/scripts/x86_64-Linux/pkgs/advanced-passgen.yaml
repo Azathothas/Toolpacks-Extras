@@ -1,4 +1,5 @@
 name: "advanced-passgen"
+bin_id: ""
 bin_name: "advanced-passgen"
 bins:
   - "advanced-passgen.AppImage"

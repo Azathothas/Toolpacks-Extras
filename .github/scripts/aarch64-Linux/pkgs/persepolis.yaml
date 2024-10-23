@@ -1,4 +1,5 @@
 name: "persepolis"
+bin_id: ""
 bin_name: "persepolis"
 bins:
   - "persepolis.NixAppImage"

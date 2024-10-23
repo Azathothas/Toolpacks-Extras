@@ -1,4 +1,5 @@
 name: "simplex-chat-desktop"
+bin_id: "chat.simplex.simplex"
 bin_name: "simplex-chat-desktop"
 bins:
   - "simplex-chat-desktop.AppImage"

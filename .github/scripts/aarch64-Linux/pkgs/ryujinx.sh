@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #ryujinx : A simple, experimental Nintendo Switch emulator
 export BIN="ryujinx"
+export BIN_ID="org.ryujinx.Ryujinx"
 export SOURCE_URL="https://github.com/ryujinx-mirror/ryujinx"
 #-------------------------------------------------------#
 if [ "${SKIP_BUILD}" == "NO" ]; then

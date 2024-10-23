@@ -1,4 +1,5 @@
 name: "steam"
+bin_id: "com.valvesoftware.Steam"
 bin_name: "steam"
 bins:
   - "steam.AppImage"

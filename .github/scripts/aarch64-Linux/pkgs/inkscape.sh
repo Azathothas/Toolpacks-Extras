@@ -22,6 +22,7 @@ fi
 export SKIP_BUILD="NO"
 #inkscape : FOSS Vector Graphics Editor
 export BIN="inkscape"
+export BIN_ID="org.inkscape.Inkscape"
 export SOURCE_URL="https://gitlab.com/inkscape/inkscape"
 export BUILD_NIX_APPIMAGE="YES"
 #-------------------------------------------------------#

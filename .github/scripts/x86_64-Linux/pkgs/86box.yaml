@@ -1,4 +1,5 @@
 name: "86box"
+bin_id: "net._86box._86Box"
 bin_name: "86box"
 bins:
   - "86box.AppImage"

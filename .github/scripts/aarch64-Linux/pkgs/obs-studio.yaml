@@ -1,4 +1,5 @@
 name: "obs-studio"
+bin_id: "com.obsproject.Studio"
 bin_name: "obs-studio"
 bins:
   - "obs-studio.AppImage"

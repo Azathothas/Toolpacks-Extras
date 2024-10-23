@@ -1,4 +1,5 @@
 name: "acreom"
+bin_id: ""
 bin_name: "acreom"
 bins:
   - "acreom.AppImage"

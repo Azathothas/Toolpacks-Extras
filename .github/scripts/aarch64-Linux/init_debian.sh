@@ -298,6 +298,7 @@
          ##Install Flatpak
           sudo apt install flatpak -y
           sudo flatpak remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo"
+          flatpak --user remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo"
           #Test
           if ! command -v flatpak &> /dev/null; then
              echo -e "\n[-] flatpak NOT Found\n"

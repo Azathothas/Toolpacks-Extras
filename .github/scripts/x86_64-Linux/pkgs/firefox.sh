@@ -178,59 +178,6 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
          find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
          unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC FIMG_BASE NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
     fi
-     #-------------------------------------------------------#
-    if [ "${BUILD_FIMG}" == "YES" ]; then
-      ##Build (CachyOS FlatImage)
-       pushd "$($TMPDIRS)" >/dev/null 2>&1
-       OWD="$(realpath .)" && export OWD="${OWD}"
-       export APP="firefox-alpine"
-       export PKG_NAME="${APP}.FlatImage"
-       RELEASE_TAG="$(curl -qfsSL "https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/firefox/APKBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       rsync -achLv "/opt/FLATIMAGE/alpine" "${OWD}/alpine"
-       export FIMG_BASE="${OWD}/alpine"
-       if [[ -f "${FIMG_BASE}" ]] && [[ $(stat -c%s "${FIMG_BASE}") -gt 1024 ]]; then
-       pushd "$(mktemp -d)" >/dev/null 2>&1
-       #Bootstrap
-         "${FIMG_BASE}" fim-perms add "audio,dbus_user,dbus_system,gpu,home,input,media,network,udev,usb,xorg,wayland"
-         "${FIMG_BASE}" fim-perms list
-       #Build
-         "${FIMG_BASE}" fim-root bash -c '
-         #Sync
-         apk update --no-interactive
-         apk upgrade --no-interactive
-         #Install Deps
-         packages="fontconfig font-awesome font-inconsolata font-noto font-terminus font-unifont"
-         for pkg in $packages; do apk add "$pkg" --latest --upgrade --no-interactive ; done
-         #Install
-         apk add firefox --latest --upgrade --no-interactive
-         apk info -L firefox
-         #Cleanup
-         chmod 755 "/bin/bbsuid"
-         apk cache clean
-         rm -rfv "/var/cache/apk/"* 2>/dev/null
-         apk stats
-         '
-       #ENV
-         "${FIMG_BASE}" fim-exec mkdir -p "/home/root"
-         "${FIMG_BASE}" fim-env add 'USER=root' 'HOME=/home/root' 'XDG_CONFIG_HOME=/home/root/.config' 'XDG_DATA_HOME=/home/root/.local/share'
-         "${FIMG_BASE}" fim-env list
-         "${FIMG_BASE}" fim-boot "/usr/bin/firefox"
-       #Create
-         "${FIMG_BASE}" fim-commit
-       #Copy
-         rsync -achLv "${FIMG_BASE}" "${BINDIR}/${PKG_NAME}"
-       #Version
-         if [[ -f "${BINDIR}/${PKG_NAME}" ]] && [[ $(stat -c%s "${BINDIR}/${PKG_NAME}") -gt 1024 ]]; then
-           PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
-           echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
-         fi
-       #End
-         rm -rf "$(realpath .)" && popd >/dev/null 2>&1
-       fi
-       #Info
-         find "${BINDIR}" -type f -iname "*${APP%%-*}*" -print | xargs -I {} sh -c 'file {}; b3sum {}; sha256sum {}; du -sh {}'
-         unset APPBUNLE_ROOTFS APPIMAGE APPIMAGE_EXTRACT ENTRYPOINT_DIR EXEC FIMG_BASE NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
-    fi    
 fi
 #Enrichments
 pushd "$($TMPDIRS)" >/dev/null 2>&1
@@ -240,6 +187,13 @@ pushd "$($TMPDIRS)" >/dev/null 2>&1
  ARCHLINUX_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_arch.sh") || true &
 #debian enrichment: https://packages.debian.org/ --> apt search ${DEBIAN_PKG}
  DEBIAN_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_debian.sh") || true &
+#flatpack enrichment
+if [ -n "${BIN_ID+x}" ] && [ -n "${BIN_ID}" ]; then
+ curl -qfsSL "https://flathub.org/api/v2/appstream/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.appstream.json" &
+ curl -qfsSL "https://flathub.org/api/v2/stats/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.stats.json" &
+ curl -qfsSL "https://flathub.org/api/v2/summary/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.info.json" &
+ flatpak --user remote-info flathub "${BIN_ID}" | tee "${BINDIR}/${BIN}.flatpak.txt" &
+fi
 #Log
  wait ; LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 rm -rvf "$(realpath .)" 2>/dev/null && popd >/dev/null 2>&1

@@ -1,4 +1,5 @@
 name: "qbittorrent"
+bin_id: "org.qbittorrent.qBittorrent"
 bin_name: "qbittorrent"
 bins:
   - "qbittorrent.AppImage"

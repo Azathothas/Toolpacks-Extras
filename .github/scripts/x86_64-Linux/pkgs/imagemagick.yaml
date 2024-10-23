@@ -1,4 +1,5 @@
 name: "imagemagick"
+bin_id: ""
 bin_name: "magick"
 bins:
   - "magick.AppImage"
