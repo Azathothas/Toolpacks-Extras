@@ -192,6 +192,9 @@
     ##Langs
     if [ "$CONTINUE" == "YES" ]; then
          #----------------------#
+         ##Setup alpine (apk)
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/apk-static" -o "/usr/local/bin/apk-static" && sudo chmod +x "/usr/local/bin/apk-static"
+         #----------------------#
          ##Setup RootFS
           sudo rm -rvf "/opt/ROOTFS" 2>/dev/null ; sudo mkdir -p "/opt/ROOTFS"
           sudo chown -R "$(whoami):$(whoami)" "/opt/ROOTFS" && sudo chmod -R 755 "/opt/ROOTFS"
@@ -381,7 +384,24 @@
           find "dist/" -name "*.whl" | xargs pip install --break-system-packages --upgrade --force
           staticx --version || pip install staticx --break-system-packages --force-reinstall --upgrade ; unset BOOTLOADER_CC
           popd >/dev/null 2>&1
-         #----------------------# 
+         #----------------------#
+         ##Setup Void (xbps)
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-alternatives" -o "/usr/local/bin/xbps-alternatives" && sudo chmod +x "/usr/local/bin/xbps-alternatives"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-checkvers" -o "/usr/local/bin/xbps-checkvers" && sudo chmod +x "/usr/local/bin/xbps-checkvers"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-create" -o "/usr/local/bin/xbps-create" && sudo chmod +x "/usr/local/bin/xbps-create"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-dgraph" -o "/usr/local/bin/xbps-dgraph" && sudo chmod +x "/usr/local/bin/xbps-dgraph"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-digest" -o "/usr/local/bin/xbps-digest" && sudo chmod +x "/usr/local/bin/xbps-digest"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-fbulk" -o "/usr/local/bin/xbps-fbulk" && sudo chmod +x "/usr/local/bin/xbps-fbulk"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-fetch" -o "/usr/local/bin/xbps-fetch" && sudo chmod +x "/usr/local/bin/xbps-fetch"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-install" -o "/usr/local/bin/xbps-install" && sudo chmod +x "/usr/local/bin/xbps-install"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-pkgdb" -o "/usr/local/bin/xbps-pkgdb" && sudo chmod +x "/usr/local/bin/xbps-pkgdb"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-query" -o "/usr/local/bin/xbps-query" && sudo chmod +x "/usr/local/bin/xbps-query"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-reconfigure" -o "/usr/local/bin/xbps-reconfigure" && sudo chmod +x "/usr/local/bin/xbps-reconfigure"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-remove" -o "/usr/local/bin/xbps-remove" && sudo chmod +x "/usr/local/bin/xbps-remove"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-rindex" -o "/usr/local/bin/xbps-rindex" && sudo chmod +x "/usr/local/bin/xbps-rindex"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-uchroot" -o "/usr/local/bin/xbps-uchroot" && sudo chmod +x "/usr/local/bin/xbps-uchroot"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-uhelper" -o "/usr/local/bin/xbps-uhelper" && sudo chmod +x "/usr/local/bin/xbps-uhelper"
+          sudo curl -qfsSL "https://bin.ajam.dev/$(uname -m)/Baseutils/xbps/xbps-uunshare" -o "/usr/local/bin/xbps-uunshare" && sudo chmod +x "/usr/local/bin/xbps-uunshare"
     fi
    #-------------------------------------------------------#
 
