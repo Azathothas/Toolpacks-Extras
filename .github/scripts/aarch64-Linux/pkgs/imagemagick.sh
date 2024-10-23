@@ -95,7 +95,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        APPDIR="$(realpath .)/${APP}.AppDir" && export APPDIR="${APPDIR}"
        export ROOTFS_DIR="${APPDIR}/rootfs" && mkdir -p "${ROOTFS_DIR}"
        RELEASE_TAG="$(curl -qfsSL "https://gitlab.alpinelinux.org/alpine/aports/-/raw/master/community/imagemagick/APKBUILD" | sed -n 's/^pkgver=//p' | tr -d '[:space:]')" && export RELEASE_TAG="${RELEASE_TAG}"
-       APP_ID="$(echo "${APP}_${RELEASE_TAG:-$(date +%Y_%m_%d)}_${PKG_NAME}" | tr -d '[:space:]')" && export APP_ID="${APP_ID}"
+       BIN_ID="$(echo "${APP}_${RELEASE_TAG:-$(date +%Y_%m_%d)}_${PKG_NAME}" | tr -d '[:space:]')" && export BIN_ID="${BIN_ID}"
       #Setup Bundle
        curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/setup_appbundles_alpine.sh" | bash
       #Prep AppDir 
@@ -127,7 +127,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
            find "${APPDIR}" -maxdepth 1 -type f -exec chmod "u=rx,go=rx" {} +
          #Pack
           if [ -d "/opt/STATIC_TOOLS" ] && [ $(du -s "/opt/STATIC_TOOLS" | cut -f1) -gt 100 ]; then
-              "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" "${APP_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS" \
+              "/opt/STATIC_TOOLS/pelf-dwfs" --add-appdir "${APPDIR}" "${BIN_ID}" --output-to "${OWD}/${PKG_NAME}" --embed-static-tools --static-tools-dir "/opt/STATIC_TOOLS" \
               --compression "--max-lookback-blocks=5 --categorize=pcmaudio --compression pcmaudio/waveform::flac:level=8"
           fi
          #Copy
@@ -147,6 +147,13 @@ pushd "$($TMPDIRS)" >/dev/null 2>&1
  ARCHLINUX_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_arch.sh") || true &
 #debian enrichment: https://packages.debian.org/ --> apt search ${DEBIAN_PKG}
  DEBIAN_PKG="${BIN}" bash <(curl -qfsSL "https://raw.githubusercontent.com/Azathothas/Toolpacks-Extras/main/.github/scripts/enrich_metadata_debian.sh") || true &
+#flatpack enrichment
+if [ -n "${BIN_ID+x}" ] && [ -n "${BIN_ID}" ]; then
+ curl -qfsSL "https://flathub.org/api/v2/appstream/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.appstream.json" &
+ curl -qfsSL "https://flathub.org/api/v2/stats/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.stats.json" &
+ curl -qfsSL "https://flathub.org/api/v2/summary/${BIN_ID}" | jq . > "${BINDIR}/${BIN}.flatpak.info.json" &
+ flatpak --user remote-info flathub "${BIN_ID}" | tee "${BINDIR}/${BIN}.flatpak.txt" &
+fi
 #Log
  wait ; LOG_PATH="${BINDIR}/${BIN}.log" && export LOG_PATH="${LOG_PATH}"
 rm -rvf "$(realpath .)" 2>/dev/null && popd >/dev/null 2>&1
@@ -155,7 +162,7 @@ rm -rvf "$(realpath .)" 2>/dev/null && popd >/dev/null 2>&1
 
 #-------------------------------------------------------#
 ##Cleanup
-unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+unset APPBUNLE_ROOTFS APP BIN_ID APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
 unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB

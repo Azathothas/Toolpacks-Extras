@@ -24,6 +24,7 @@ fi
 export SKIP_BUILD="NO"
 #firefox : Open source web browser from Google
 export BIN="firefox"
+export BIN_ID="org.mozilla.firefox"
 export SOURCE_URL="https://www.firefox.org"
 export BUILD_NIX_APPIMAGE="NO" #requires --no-sandbox & just broken in general
 export BUILD_FIMG="YES"
@@ -247,7 +248,7 @@ rm -rvf "$(realpath .)" 2>/dev/null && popd >/dev/null 2>&1
 
 #-------------------------------------------------------#
 ##Cleanup
-unset APPBUNLE_ROOTFS APP APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
+unset APPBUNLE_ROOTFS APP BIN_ID APPIMAGE APPIMAGE_EXTRACT BUILD_FIMG BUILD_NIX_APPIMAGE DOWNLOAD_URL EXEC NIX_PKGNAME OFFSET OWD PKG_NAME RELEASE_TAG ROOTFS_DIR SHARE_DIR
 unset SKIP_BUILD ; export BUILT="YES"
 #In case of zig polluted env
 unset AR CC CFLAGS CXX CPPFLAGS CXXFLAGS DLLTOOL HOST_CC HOST_CXX LDFLAGS LIBS OBJCOPY RANLIB

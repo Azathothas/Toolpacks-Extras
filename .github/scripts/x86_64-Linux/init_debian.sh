@@ -281,7 +281,20 @@
              echo -e "\n[-] FlatImage Base Images NOT Found: /opt/FLATIMAGE\n"
              export CONTINUE="NO" && exit 1
           fi
-         #----------------------#          
+         #----------------------#
+         ##Install Flatpak
+          sudo apt install flatpak -y
+          sudo flatpak remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo"
+          flatpak --user remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo"
+          #Test
+          if ! command -v flatpak &> /dev/null; then
+             echo -e "\n[-] flatpak NOT Found\n"
+             export CONTINUE="NO" && exit 1
+          else
+             flatpak remotes
+             flatpak --version
+          fi
+         #----------------------#
          ##Install golang 
           pushd "$($TMPDIRS)" >/dev/null 2>&1
           echo "yes" | bash <(curl -qfsSL "https://git.io/go-installer")
