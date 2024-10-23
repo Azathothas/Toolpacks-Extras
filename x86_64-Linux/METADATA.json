@@ -561,7 +561,7 @@
     "name": "signal-desktop.NixAppImage",
     "bin_name": "signal-desktop",
     "description": "A private messenger for Windows, macOS, and Linux (NixAppImage)",
-    "note": "Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
+    "note": "signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
     "version": "7.27.0",
     "download_url": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.NixAppImage",
     "size": "429.46 MB",
@@ -573,7 +573,7 @@
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.sh",
     "build_log": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.log",
     "category": "messenger,privacy",
-    "extra_bins": ""
+    "extra_bins": "signal-desktop.FlatImage"
   },
   {
     "name": "steam.AppImage",
