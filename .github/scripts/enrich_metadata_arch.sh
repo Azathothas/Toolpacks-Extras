@@ -48,9 +48,9 @@ fi
      find "." -name "*.zst" -exec 7z x -mmt="$(($(nproc)+1))" -bd -y -o"./data" "{}" 2>/dev/null \;
      find "./data" -type f -exec tar -xvf "{}" 2>/dev/null \;
     #Copy
-     find "." -type f -regex ".*\.appdata\.xml$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.appdata.xml" \; 2>/dev/null
-     find "." -type f -regex ".*\.metainfo\.xml$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.metainfo.xml" \; 2>/dev/null
-     find "." -type f -regex ".*\.desktop$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.desktop" \; 2>/dev/null
+     find "." -type f -regex ".*\.appdata\.xml$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.appdata.xml" 2>/dev/null
+     find "." -type f -regex ".*\.metainfo\.xml$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.metainfo.xml" 2>/dev/null
+     find "." -type f -regex ".*\.desktop$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.desktop" 2>/dev/null
      find "." -type f -regex ".*\.png$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.icon.png" 2>/dev/null
      find "." -type f -regex ".*\.svg$" -print | sort -V | tail -n 1 | xargs -I "{}" rsync -achLv "{}" "${BINDIR}/${BIN}.arch.icon.svg" 2>/dev/null
     #Cleanup
