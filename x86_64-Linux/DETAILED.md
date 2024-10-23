@@ -591,7 +591,7 @@
 - **PKG_Name 📦:** signal-desktop
 - **Version 🧬:** `7.27.0`
 - **Description ℹ️:** A private messenger for Windows, macOS, and Linux (NixAppImage)
-- **Note ⚠️:** Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
+- **Note ⚠️:** signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
 - **Homepage 🌐:** [https://signal.org](https://signal.org)
 - **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.NixAppImage

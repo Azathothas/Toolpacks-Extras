@@ -41807,7 +41807,7 @@ pkg:
   - name: signal-desktop.NixAppImage
     bin_name: signal-desktop
     description: A private messenger for Windows, macOS, and Linux (NixAppImage)
-    note: 'Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
+    note: 'signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)'
     version: 7.27.0
     download_url: https://pkg.ajam.dev/x86_64/signal-desktop.NixAppImage
     size: 429.46 MB
@@ -41820,7 +41820,7 @@ pkg:
     build_log: https://pkg.ajam.dev/x86_64/signal-desktop.log
     category: messenger,privacy
     icon: https://pkg.ajam.dev/x86_64/signal-desktop.icon.png
-    extra_bins: ""
+    extra_bins: signal-desktop.FlatImage
   - name: steam.AppImage
     bin_name: steam
     description: A video game digital distribution service and storefront from Valve (AppImage | FlatImage)
