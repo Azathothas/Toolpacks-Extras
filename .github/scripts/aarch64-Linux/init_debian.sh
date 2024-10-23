@@ -108,16 +108,15 @@
     if [ "$CONTINUE" == "YES" ]; then
          #Install CoreUtils & Deps
           sudo apt-get update -y 2>/dev/null
-          sudo apt-get install apt-transport-https apt-utils ca-certificates coreutils gnupg2 moreutils software-properties-common util-linux -y 2>/dev/null ; sudo apt-get update -y 2>/dev/null
+          packages="apt-transport-https apt-utils ca-certificates coreutils gnupg2 moreutils software-properties-common util-linux"
+          for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y --ignore-missing "$pkg"; done
           #Install Build Des
-          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk git-lfs imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo tree wget -y 2>/dev/null
-          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons wget 2>/dev/null
-          sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
-          sudo apt-get install cmake -y
-          sudo apt-get install jc git-lfs -y
-          #Re
-          sudo apt-get install aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk git-lfs imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo tree wget -y 2>/dev/null
-          sudo apt-get install -y --no-install-recommends autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons wget 2>/dev/null
+          packages="aria2 automake bc binutils b3sum build-essential ca-certificates ccache diffutils dos2unix gawk git-lfs imagemagick lzip jq libtool libtool-bin make musl musl-dev musl-tools p7zip-full rsync texinfo tree wget"
+          for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y --ignore-missing "$pkg"; done
+          for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y --ignore-missing "$pkg"; done
+          packages="autoconf automake autopoint binutils bison build-essential byacc ca-certificates clang flex file jq libtool libtool-bin patch patchelf pkg-config qemu-user-static scons wget"
+          for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y --ignore-missing "$pkg"; done
+          for pkg in $packages; do DEBIAN_FRONTEND="noninteractive" sudo apt install -y --ignore-missing "$pkg"; done
           sudo apt-get install devscripts -y --no-install-recommends 2>/dev/null
           sudo apt-get install cmake -y
           sudo apt-get install jc git-lfs -y
