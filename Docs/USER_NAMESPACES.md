@@ -90,3 +90,24 @@ sudo dmesg | grep -E '(selinux|apparmor|security)'
 > > #Reboot
 > > ```
 >
+---
+- #### Examples
+> - Chrome/Chromium
+> > ```bash
+> > #In Address Bar
+> > chrome://sandbox
+> > ```
+> > ![image](https://github.com/user-attachments/assets/033c8210-e16c-43ee-900f-7180a015e680)
+> > 
+> - Firefox (& Other APP in general)
+> > ```bash
+> > #APP_NAME == bin_name or the actual binary, & remember to keep the APP RUNNING
+> > lsns -t user -t pid -t net | grep -i "${APP_NAME}"
+> > #Example: lsns -t user -t pid -t net | grep -i "firefox"
+> >
+> > #If you get no output, it means it's not enabled/working/supported
+> > Otherwise You will get something like:
+> > ```
+> > ![image](https://github.com/user-attachments/assets/9e8a0bc0-a98b-4097-8358-65b863edfbb1)
+> >
+---
