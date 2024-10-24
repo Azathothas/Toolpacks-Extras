@@ -6,9 +6,9 @@
 - **Homepage 🌐:** [https://86box.readthedocs.io](https://86box.readthedocs.io)
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.AppImage
-- **Size 💾:** `57.85 MB`
-- **SHA256SUM 🔐:** `8b197dcca7ba2ebcd34daab60dcb84c20326b03a974cd54c88eaf014f621fb4c`
-- **B3SUM 🔐:** `d256478610c01b20530f230fc3a71d526e7f9d486cee7e1fe001798fcca00b86`
+- **Size 💾:** `57.96 MB`
+- **SHA256SUM 🔐:** `4c5ef58b14d8d4d30e393749213486c3486a093f4640520cd479771bb2c5a819`
+- **B3SUM 🔐:** `cbea0d506238e77eb7679a5c04a9a5ae945e47ab3e1b2e6fd8f0cdceaa5a233c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/86box.icon.png
@@ -19,15 +19,15 @@
 
 ### [`acreom.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/acreom.AppImage)
 - **PKG_Name 📦:** acreom
-- **Version 🧬:** `v1.20.1`
+- **Version 🧬:** `v1.20.2`
 - **Description ℹ️:** An IDE based Knowledge Base using Markdown (AppImage)
 - **Note ⚠️:** Closed Source<br>(CI_VERIFIED: NONE)
 - **Homepage 🌐:** [https://acreom.com](https://acreom.com)
 - **Source 📡:** [https://github.com/Acreom/releases](https://github.com/Acreom/releases)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/acreom.AppImage
-- **Size 💾:** `139.27 MB`
-- **SHA256SUM 🔐:** `3c7b320b0697a5648663c4a2870ad09cc0e1cc1d4307e17f9dfaa1f90b5aa981`
-- **B3SUM 🔐:** `a0155cecfe53bd46b0958235612a12c7863f05294f4da970c3b8acf8c25931f7`
+- **Size 💾:** `139.12 MB`
+- **SHA256SUM 🔐:** `d9a7a54fdb9075df7dba5828903e9f111a75d6b05f413b43d06862fa12ee6eb1`
+- **B3SUM 🔐:** `b860483945d5eec4129ddb95f4298790315f38ad0fdb2199ce9fc7b98259819b`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/acreom.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/acreom.icon.png
@@ -44,9 +44,9 @@
 - **Homepage 🌐:** [https://actualbudget.org](https://actualbudget.org)
 - **Source 📡:** [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/actual.AppImage
-- **Size 💾:** `93.5 MB`
-- **SHA256SUM 🔐:** `ed733debaa915b0ad5eb735917dd6cf7ed752ec625b9c570433c62cd201aa73a`
-- **B3SUM 🔐:** `323eac1814d8c672972ddd321e8796d7d3c7f1f7d96509156a1d0f4307ee36e8`
+- **Size 💾:** `93.54 MB`
+- **SHA256SUM 🔐:** `bd6f65ca5e1ab2674ce01810ca5f40e05be78d72883e39d2e01f138fd9f7d595`
+- **B3SUM 🔐:** `f97faf866c71c59b63fe97fb60e372c758dc14ae712cf924850debb7cdbf7319`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/actual.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/actual.icon.png
@@ -64,8 +64,8 @@
 - **Source 📡:** [https://github.com/CodeDead/Advanced-PassGen](https://github.com/CodeDead/Advanced-PassGen)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/advanced-passgen.AppImage
 - **Size 💾:** `101.13 MB`
-- **SHA256SUM 🔐:** `9e3677e1f03766c5960dc1ab4a0dce926ed857d60ec4faf48b8b3966b885128f`
-- **B3SUM 🔐:** `1ce648f0fb441ca2b098b4a4e57c90dd02d3196b5d95679b2485c4cff0082570`
+- **SHA256SUM 🔐:** `a3942d04c48081616bf27f293f463481cd5f24e83252eeb8637a95ea2a87af94`
+- **B3SUM 🔐:** `74b0c8b156373a5b95da466d1cfd4dfa2976a453137ef66e435686485e71452c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/advanced-passgen.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/advanced-passgen.icon.png
@@ -76,15 +76,15 @@
 
 ### [`affine.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/affine.AppImage)
 - **PKG_Name 📦:** affine
-- **Version 🧬:** `v0.17.4`
+- **Version 🧬:** `v0.17.5`
 - **Description ℹ️:** Privacy-focused browser for Linux, macOS and Windows (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://github.com/toeverything/AFFiNE/actions)
 - **Homepage 🌐:** [https://affine.pro](https://affine.pro)
 - **Source 📡:** [https://github.com/toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/affine.AppImage
-- **Size 💾:** `157.87 MB`
-- **SHA256SUM 🔐:** `0eef9b643a38d7558f9bca1ddd1c920514dd1096f4b47fe0d78d905262b9bdf6`
-- **B3SUM 🔐:** `14b06feb9e6e3661387e731bddbdfd30be1cf93785e427c76b3f934cc6b5e67b`
+- **Size 💾:** `156.97 MB`
+- **SHA256SUM 🔐:** `7480c5d5d97fcef4a17e91a8b9a9a83fce0759c26cee10ed14cf787d336bdc43`
+- **B3SUM 🔐:** `380abc8263526f9f4c40e0f4b0e512a2a058e3d6262c9cbf1591140490b254cd`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/affine.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/affine.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/affine.icon.png
@@ -101,9 +101,9 @@
 - **Homepage 🌐:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Source 📡:** [https://github.com/mgord9518/aisap](https://github.com/mgord9518/aisap)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.AppImage
-- **Size 💾:** `2.68 MB`
-- **SHA256SUM 🔐:** `8710d372980ce9ba2497cf0a5634f4fa1d3eb25d3c17fdd2b73fd4f556696187`
-- **B3SUM 🔐:** `ac62b891030131f0ca7a0ff1a53dbe700ccf3ffeac1e2009dd41775b3b4fb29c`
+- **Size 💾:** `2.67 MB`
+- **SHA256SUM 🔐:** `385dd48e6c764be98d606f472091e5e1d432953ffa4d3a22eaa7db790a69d4f3`
+- **B3SUM 🔐:** `8d44298fe61c06335715bd3084b0035013b659786d097abd5c79e1530be6ae15`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/aisap.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/aisap.icon.png
@@ -139,14 +139,33 @@
 - **Homepage 🌐:** [https://developer.android.com/tools/releases/platform-tools](https://developer.android.com/tools/releases/platform-tools)
 - **Source 📡:** [https://android.googlesource.com/platform/tools/base](https://android.googlesource.com/platform/tools/base)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.AppImage
-- **Size 💾:** `7.21 MB`
-- **SHA256SUM 🔐:** `9ba699d0a061751a7eb3789f41cb0928729c95bea79977e58848054cf67d7c14`
-- **B3SUM 🔐:** `f006f54d200a5b2f847d5b1af15c08b4f9d68fb82c33f69ee83677950bf1d8e8`
+- **Size 💾:** `7.22 MB`
+- **SHA256SUM 🔐:** `ea3bc574cba08853bb6aaa79f88d6707a7ef2899586346c23d1254bf23430a39`
+- **B3SUM 🔐:** `b37cd13af6f7c8a69bad48aadb6806b4dba28cc1f8a058c84871dc28c835e9dc`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/android-tools.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/android-tools.zsync
+
+---
+
+### [`chromium-alpine.FlatImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium-alpine.FlatImage)
+- **PKG_Name 📦:** chromium
+- **Version 🧬:** `130.0.6723.58`
+- **Description ℹ️:** Open source web browser from Google (FlatImage | NixAppImage)
+- **Note ⚠️:** chromium.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>chromium-alpine.FlatImage is based on Alpine & has Sandbox Support
+- **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
+- **Source 📡:** [https://github.com/chromium/chromium](https://github.com/chromium/chromium)
+- **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium-alpine.FlatImage
+- **Size 💾:** `249.77 MB`
+- **SHA256SUM 🔐:** `c5366e2461f44cb6343167a73ec2527e824d98881dbe0f6120f262472917ed15`
+- **B3SUM 🔐:** `0cdc14f48401e9088d6e36eade0fb4addc3321efc3997b05b0ac6b8179c2c5c5`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.sh
+- **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/chromium.zsync
 
 ---
 
@@ -159,8 +178,8 @@
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-nightly.AppImage
 - **Size 💾:** `8.15 MB`
-- **SHA256SUM 🔐:** `8fa2a1bf8bb17187195607587f6b216ec517a3033423e70d660066ceb859a3ff`
-- **B3SUM 🔐:** `c7de7a80152a4bcd8a51eea1a240041a71f6d5b091f1222bc6432e63b792cd8f`
+- **SHA256SUM 🔐:** `6307e3d07eba0de379c2da2c0b52b1d1b70da43306c3a6eccded88efc362c65f`
+- **B3SUM 🔐:** `4b76191c26bdbd3254e166bf7a0b88351fe7358b34b03c16c30a3800c3465ad2`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-nightly.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-nightly.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-nightly.icon.png
@@ -178,8 +197,8 @@
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-stable.AppImage
 - **Size 💾:** `8.15 MB`
-- **SHA256SUM 🔐:** `10785a45bae428379559edf703f8466513e2d09eeeead05522ac9988075e5dc1`
-- **B3SUM 🔐:** `9c505a8cc14d624f1abd7371b4f06ea54e0586027ff59c6a66f6cfe0f9aa2908`
+- **SHA256SUM 🔐:** `72d7e4c3de41a4f454d5792555094bd08a7b83292f31daa33e43149fade54ce8`
+- **B3SUM 🔐:** `54c04a4e222c7b456818f1629ceb85294baa7c3aa27d36473ac83c2f284a6cc4`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-stable.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-stable.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/deadbeef-stable.icon.png
@@ -197,8 +216,8 @@
 - **Source 📡:** [https://github.com/dunst-project/dunst](https://github.com/dunst-project/dunst)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/dunst.AppImage
 - **Size 💾:** `12.92 MB`
-- **SHA256SUM 🔐:** `5d90b1f4b994d05e6d3376dbef31caa4f5e4e966fc9c5c2f643804d8bb645487`
-- **B3SUM 🔐:** `2e28e58a6b6244497e454ed085817f56eb65b66e7871d4e59e4e0ff9885ce3f2`
+- **SHA256SUM 🔐:** `f8b3311bc312fed9a885db996dcb67ee242c7487bf535850f63269bca58131d8`
+- **B3SUM 🔐:** `78569c5e7547c969debd9f30c5632d24e28804bd17aaa153f5136743ff374544`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/dunst.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/dunst.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/dunst.icon.png
@@ -215,9 +234,9 @@
 - **Homepage 🌐:** [https://floorp.app](https://floorp.app)
 - **Source 📡:** [https://github.com/Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/floorp.NixAppImage
-- **Size 💾:** `366.34 MB`
-- **SHA256SUM 🔐:** `c76c92063d10ffa396a16f204410fefc186fceb363e28565d5e1ac34eb899f56`
-- **B3SUM 🔐:** `d8ad3ecc4b1e210a3ad022d59fe54e3a21304892241d0e703090d73868d399ea`
+- **Size 💾:** `291.12 MB`
+- **SHA256SUM 🔐:** `69056e8232bda662b8272faf05cb6059eadd0fe165e9fbf341ff08a39daff497`
+- **B3SUM 🔐:** `814950e7fe41be8d00639005b3bf4a4acb05ae0479415055a51e0cf94594638c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/floorp.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/floorp.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/floorp.icon.png
@@ -234,9 +253,9 @@
 - **Homepage 🌐:** [https://i3wm.org](https://i3wm.org)
 - **Source 📡:** [https://github.com/i3/i3](https://github.com/i3/i3)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.AppImage
-- **Size 💾:** `3.6 MB`
-- **SHA256SUM 🔐:** `03708fab8e9611c1b08cae079012786bc9e4acaffb8e46b50d7f9a7040535783`
-- **B3SUM 🔐:** `d0d2ba8c91ce304380598435f9fd58cd2ab441d3f9c4033583a88fade2302fae`
+- **Size 💾:** `3.86 MB`
+- **SHA256SUM 🔐:** `6c9722706a264dc8a05527084452c6207c9eb3ece6f17226212adad1105745ef`
+- **B3SUM 🔐:** `bf7da00df1002ae0e725cf49dc239a9899610becbf2dc1c620d8585db6c49bce`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.icon.png
@@ -253,9 +272,9 @@
 - **Homepage 🌐:** [https://i3wm.org](https://i3wm.org)
 - **Source 📡:** [https://github.com/i3/i3](https://github.com/i3/i3)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.NixAppImage
-- **Size 💾:** `33.98 MB`
-- **SHA256SUM 🔐:** `6c1a78668c10e755d35bd4dd522fb42b9afcdf9aecf6cab72d3104c48c8af7a6`
-- **B3SUM 🔐:** `173d75dc8b16fffd39a8795720a68a8bbbba15682e625c8011e76d27bc3e9bcb`
+- **Size 💾:** `34.2 MB`
+- **SHA256SUM 🔐:** `e9ebd8579058a89277d1cc128e38ac124265c1d5587a0e66cce0071a00074921`
+- **B3SUM 🔐:** `af30390fce7374617c6ffcde4fa1af7145926384e916b53dc866eb3c56d7dca8`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/i3.icon.png
@@ -304,15 +323,15 @@
 
 ### [`inkscape-dev.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape-dev.AppImage)
 - **PKG_Name 📦:** inkscape
-- **Version 🧬:** `2ceb609-dev`
+- **Version 🧬:** `984026c-dev`
 - **Description ℹ️:** FOSS Vector Graphics Editor (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)
 - **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape-dev.AppImage
-- **Size 💾:** `100.27 MB`
-- **SHA256SUM 🔐:** `a673b10e54aa6adc23f86bf9d64465b1ecbfc7fa36d2864239ac3a81f0b4870b`
-- **B3SUM 🔐:** `3e380b8f8434f97e239669878033e85e4442b11e5e84b79a9dff9379188668ee`
+- **Size 💾:** `100.28 MB`
+- **SHA256SUM 🔐:** `cbab183ba8011ea0d2ac33b20e8aab021621b698a211728a5424341a7ff6c313`
+- **B3SUM 🔐:** `8c44c637eda5d0c17fa253c2d9ca99eeb01fd9f795bfd905805cd8cb0378c4e1`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.icon.png
@@ -348,9 +367,9 @@
 - **Homepage 🌐:** [https://inkscape.org](https://inkscape.org)
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.NixAppImage
-- **Size 💾:** `96.35 MB`
-- **SHA256SUM 🔐:** `a7cc3e2af6b5c12ea842f216d5ada372f2b1a86564d730cc6bfcb3cea53394b8`
-- **B3SUM 🔐:** `d07d2c7d5333ec375bdab20bc0c84fd4ea3a7d60b4497ce2029ea1776bd2f009`
+- **Size 💾:** `203.51 MB`
+- **SHA256SUM 🔐:** `f6a2cbd14ac2be4137c2ec12b443decfc167dcf36f9ee1f8aae3771c242001f2`
+- **B3SUM 🔐:** `a91ccd1d42c7769b0b01e2a9c1290f343bac7f72fc0b6ec3a92656885f74c78c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.icon.png
@@ -361,15 +380,15 @@
 
 ### [`librewolf.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.AppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `v131.0.2-1`
+- **Version 🧬:** `v131.0.3-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://gitlab.com/librewolf-community/browser](https://gitlab.com/librewolf-community/browser)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.AppImage
-- **Size 💾:** `93.97 MB`
-- **SHA256SUM 🔐:** `74e4cb5dfde856c2e8b15e1b2bd11f227fad412fdf8725e3283a12fade362829`
-- **B3SUM 🔐:** `3f40ec2a48c1b0a55cc3d6a59120d29817279324df3546b9a711fbc365bdabca`
+- **Size 💾:** `93.92 MB`
+- **SHA256SUM 🔐:** `cd7b76d333c683f5ab7b6902b82ac1a238f29adf6b3a96ac8043fb35a408ba97`
+- **B3SUM 🔐:** `24eab40a203edd9cffbee4872cc9b2f89fd1220d6b847a38d5564376f6e9d2d6`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.icon.png
@@ -380,15 +399,15 @@
 
 ### [`librewolf.NixAppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.NixAppImage)
 - **PKG_Name 📦:** librewolf
-- **Version 🧬:** `131.0.2-1`
+- **Version 🧬:** `131.0.3-1`
 - **Description ℹ️:** LibreWolf Web Browser is a fork of Firefox, focused on privacy, security and freedom (AppImage|NixAppImage)
 - **Note ⚠️:** This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://gitlab.com/librewolf-community/browser](https://gitlab.com/librewolf-community/browser)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.NixAppImage
-- **Size 💾:** `344.58 MB`
-- **SHA256SUM 🔐:** `7615fe90e31e972041ca48334e3b860c6ae1234ba6cf9ec8d19e372268b75607`
-- **B3SUM 🔐:** `953a03dcf6c2c6ff22ec41f97379ff141427b74c3af8476c614da69685196729`
+- **Size 💾:** `269.35 MB`
+- **SHA256SUM 🔐:** `d97e434e3c3e7d5706396fb77169da78ecd8467f9448fc4c498559ce5dd21479`
+- **B3SUM 🔐:** `7dc06ecf1a0ca610ee539b2d10f93395bf675c4c62e920cd577bf76d7b769796`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/librewolf.icon.png
@@ -405,9 +424,9 @@
 - **Homepage 🌐:** [https://mullvad.net/en/browser](https://mullvad.net/en/browser)
 - **Source 📡:** [https://gitlab.torproject.org/tpo/applications/mullvad-browser/](https://gitlab.torproject.org/tpo/applications/mullvad-browser/)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/mullvad-browser.NixAppImage
-- **Size 💾:** `364.04 MB`
-- **SHA256SUM 🔐:** `36fc8fb6a202a889580f4a888e3cce0a26c482a20b9b151a4dd4c8a3a83d91d4`
-- **B3SUM 🔐:** `a4f3c89f3f75ad778ba57a3f23d2d05042af4e0357a9aafa48019e5830dab644`
+- **Size 💾:** `289.64 MB`
+- **SHA256SUM 🔐:** `6bf4b0b89f274d9ea316f6b28e135ac632902181efaeb14b1bde52847040ac3f`
+- **B3SUM 🔐:** `6714be789a0a92d3f98ba9c1eb75a5b0858a0d77a700d9ec4ee22c25493529a7`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/mullvad-browser.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/mullvad-browser.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/mullvad-browser.icon.png
@@ -443,9 +462,9 @@
 - **Homepage 🌐:** [https://obsproject.com](https://obsproject.com)
 - **Source 📡:** [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/obs-studio.AppImage
-- **Size 💾:** `174.12 MB`
-- **SHA256SUM 🔐:** `b80c6172d9dda6c69ce42f0a5b7a05881211b6156f2a16fb7f467ee7b9f8e67c`
-- **B3SUM 🔐:** `69dbba638941f911491fe7227441d9d227a4068dc2fa9937d9e719e339ee6f49`
+- **Size 💾:** `174.13 MB`
+- **SHA256SUM 🔐:** `5435b7ddd03522a95ebe8a580efb7805ac4e34b66e962887cb3c8970841d517b`
+- **B3SUM 🔐:** `46db032d20affdfef406b13e16e3b467b16d92961a46a2603eb2f3ba62c2c9a2`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/obs-studio.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/obs-studio.icon.png
@@ -462,9 +481,9 @@
 - **Homepage 🌐:** [https://www.olivevideoeditor.org](https://www.olivevideoeditor.org)
 - **Source 📡:** [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/olive-editor.AppImage
-- **Size 💾:** `120.54 MB`
-- **SHA256SUM 🔐:** `6b5d4c0039b795a0675b6a40084668de7979137da04646bf20022a9de8a5f09c`
-- **B3SUM 🔐:** `6f90912af962cb42e019eaa5bb4be6d04ae69328ffe4f01f49afab00f8fbbc45`
+- **Size 💾:** `120.57 MB`
+- **SHA256SUM 🔐:** `8dbe2ff8875d43a9334be7f003b4be31c7a2cf1c313a8277bfa90c3e9d3789d3`
+- **B3SUM 🔐:** `385aabb6b09f6b581ad9dcba169b692c3e7e30568e9d25ccb1fcd6713b292854`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/olive-editor.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/olive-editor.icon.png
@@ -481,9 +500,9 @@
 - **Homepage 🌐:** [https://persepolisdm.github.io](https://persepolisdm.github.io)
 - **Source 📡:** [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/persepolis.NixAppImage
-- **Size 💾:** `182.18 MB`
-- **SHA256SUM 🔐:** `f433fa8dc8e2dc5552b4303661548498535fac9fadccdfd8217a4cb03cf4b959`
-- **B3SUM 🔐:** `b3a8511cc3c42a1a9f899c4a8414175ab93e92f66cc659e184172d50382c2604`
+- **Size 💾:** `182.2 MB`
+- **SHA256SUM 🔐:** `14ec872664efbbc6354ebaeb54cff7b442d4b11abc23f89400d02563137d0528`
+- **B3SUM 🔐:** `5810b0d031179bca3f2610db20c98eeb88c9a12f70eeca1d62542023b3e5da9c`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/persepolis.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/persepolis.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/persepolis.icon.png
@@ -500,9 +519,9 @@
 - **Homepage 🌐:** [https://docs.puddletag.net](https://docs.puddletag.net)
 - **Source 📡:** [https://github.com/puddletag/puddletag](https://github.com/puddletag/puddletag)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.NixAppImage
-- **Size 💾:** `176.82 MB`
-- **SHA256SUM 🔐:** `b98749991dbfb53a241b164f8c570a1326663ac2ddf47740495a1281ffa47f94`
-- **B3SUM 🔐:** `bf51b65d81c4b09d0ddda68c81e350c723bde77c863796c3532faac7ebc79179`
+- **Size 💾:** `176.88 MB`
+- **SHA256SUM 🔐:** `fd4f466a70d031a4637d18864676008fca5e6dccafc425693efdee21069a7452`
+- **B3SUM 🔐:** `4b2979431c79277af10dfa53e85f63f86602de2dd0d776493ae28a5aa1ed96f2`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/puddletag.icon.png
@@ -538,9 +557,9 @@
 - **Homepage 🌐:** [https://www.qbittorrent.org](https://www.qbittorrent.org)
 - **Source 📡:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.AppImage
-- **Size 💾:** `84.35 MB`
-- **SHA256SUM 🔐:** `e0b30d1125b33f5cfacd2c55906f1b2cb83ae6a159c304c5ee53b0ef1aa79330`
-- **B3SUM 🔐:** `d7e5374a4709b188afe8a86c07988895637234f262a92cc3c06ed96780878da8`
+- **Size 💾:** `84.53 MB`
+- **SHA256SUM 🔐:** `f437d9be32358890b9cd8399796a5da5efff15806edc96663e536feeada2ac36`
+- **B3SUM 🔐:** `b996dc98fcf2f4f2c84722c3ec9f6bac4890a80ffc50e21209d289ade3066915`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.icon.png
@@ -557,9 +576,9 @@
 - **Homepage 🌐:** [https://www.qbittorrent.org](https://www.qbittorrent.org)
 - **Source 📡:** [https://github.com/qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.NixAppImage
-- **Size 💾:** `171.25 MB`
-- **SHA256SUM 🔐:** `a136b52a9a6854c26b9f0a82939f741bde0855866bb9e7a405df7469388f2c95`
-- **B3SUM 🔐:** `d5d9a4236552abacf3e8394255872e2ad3d85ef23ad091f88ccc0da7e71b54c8`
+- **Size 💾:** `142.97 MB`
+- **SHA256SUM 🔐:** `bea8f7ba25bb7753ca915e76e4e476ba5b09c7c7e1a41139b028601264c3f5be`
+- **B3SUM 🔐:** `9047be24814ce0fa4bc5460f9d68dc06a1b3b7b598187580d43e97edce833a53`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/qbittorrent.icon.png
@@ -570,15 +589,15 @@
 
 ### [`ryujinx.AppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.AppImage)
 - **PKG_Name 📦:** ryujinx
-- **Version 🧬:** `r.b4cac89`
+- **Version 🧬:** `r.49574a9`
 - **Description ℹ️:** A simple, experimental Nintendo Switch emulator
 - **Note ⚠️:** (CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)
 - **Homepage 🌐:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.AppImage
 - **Size 💾:** `25.23 MB`
-- **SHA256SUM 🔐:** `4ba4ca933063961968bdd1923ffcc5f9e21af5ddb4108c309a6911172a42f6c4`
-- **B3SUM 🔐:** `eb32548a8fe847be25efb89854e1a415df2379c33d0b80c28859433dc8f94f66`
+- **SHA256SUM 🔐:** `e391946b654fad3c82278417866c8dd7b37877924b34b0683e437117b230d7ec`
+- **B3SUM 🔐:** `9ca4241f0d46b4295436fcbf19484e3c578419de1514c1405c6968c8b56c91e2`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/ryujinx.icon.png
@@ -587,17 +606,36 @@
 
 ---
 
+### [`signal-desktop.FlatImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.FlatImage)
+- **PKG_Name 📦:** signal-desktop
+- **Version 🧬:** `7.29.0`
+- **Description ℹ️:** A private messenger for Windows, macOS, and Linux (NixAppImage)
+- **Note ⚠️:** signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
+- **Homepage 🌐:** [https://signal.org](https://signal.org)
+- **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
+- **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.FlatImage
+- **Size 💾:** `415.41 MB`
+- **SHA256SUM 🔐:** `202f2b5dd7d78517a01e7a12a7b93f8281d4d0b63ae4a6c6e20771b138f86033`
+- **B3SUM 🔐:** `ee2a9cb735337e88dbe70a74685abbec5b0569f69a2b184e0822b5c3d6a8e58c`
+- **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.sh
+- **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.log
+- **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.zsync
+
+---
+
 ### [`signal-desktop.NixAppImage` 📀](https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.NixAppImage)
 - **PKG_Name 📦:** signal-desktop
-- **Version 🧬:** `7.27.0`
+- **Version 🧬:** `7.29.0`
 - **Description ℹ️:** A private messenger for Windows, macOS, and Linux (NixAppImage)
 - **Note ⚠️:** signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher & relogin<br>signal-desktop.FlatImage is based on CachyOS & has Sandbox+Keyring Support<br>(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)
 - **Homepage 🌐:** [https://signal.org](https://signal.org)
 - **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.NixAppImage
-- **Size 💾:** `429.46 MB`
-- **SHA256SUM 🔐:** `aae5b5378ac430f49c59d5e6c573e59f65fd3d581ad7b110a6d6f71d61819a2c`
-- **B3SUM 🔐:** `28ba85229d2377657837542e5ef46f795cbfe24159ac16e0b7c2aa6218dc79aa`
+- **Size 💾:** `408.52 MB`
+- **SHA256SUM 🔐:** `44a3e495d61af7080c9e3acd2eddee896a603055c47760842b6fea54bfbc43da`
+- **B3SUM 🔐:** `c70a7fcd7fca8d4e273b6a5aaa08989f50d905af8080e46bf40c20f50dccf0ff`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/signal-desktop.icon.png
@@ -614,9 +652,9 @@
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.AppImage
-- **Size 💾:** `359.13 MB`
-- **SHA256SUM 🔐:** `a4cc91195e902b8e86003f4674a3f36f7b59ef2a186667cfdc0b71e4298d8ff4`
-- **B3SUM 🔐:** `85e2f4723cb9a9770ac19743d801e2338c1865eb8672dd87ba5159e8e7abd25b`
+- **Size 💾:** `348 MB`
+- **SHA256SUM 🔐:** `f547ccab7f1a7b0d2b0b7959e118f58fb7f3030665970196e72d1a2dcc14a5f9`
+- **B3SUM 🔐:** `c4f77c55a89e11312a87a5047d255ed3eada348f237a1c69c731e0fda9ae5b82`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.icon.png
@@ -633,9 +671,9 @@
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.FlatImage
-- **Size 💾:** `539.78 MB`
-- **SHA256SUM 🔐:** `d1595443b579f76c7b38e5ad174cf10cc6e69e3d48e73b9a3332a2396659b33c`
-- **B3SUM 🔐:** `60f643c7addebb4ef89a1fc843ffddd0d80ab1de7d029a5a01f4920f49bc49fa`
+- **Size 💾:** `554.33 MB`
+- **SHA256SUM 🔐:** `5256c088f3f583031c7c7748173290a74e2e5a9a6fe3cf1d58467acbddd0d1da`
+- **B3SUM 🔐:** `3a9a8f5a73dc23c8a5127f99d4e80a082d94850b6b7f6a0316d352ac7615cf82`
 - **Script ⚙️:** https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.sh
 - **Log 🧾:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.log
 - **Icon 🖼️:** https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/steam.icon.png

@@ -5,7 +5,7 @@
   },
   {
     "filename": "./86box.log",
-    "type": "ASCII text, with very long lines (494), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (494), with CR, LF line terminators"
   },
   {
     "filename": "./affine.log",
@@ -61,7 +61,7 @@
   },
   {
     "filename": "./olive-editor.log",
-    "type": "ASCII text"
+    "type": "Unicode text, UTF-8 text"
   },
   {
     "filename": "./puddletag.log",
@@ -69,7 +69,7 @@
   },
   {
     "filename": "./qbittorrent.log",
-    "type": "ASCII text"
+    "type": "Unicode text, UTF-8 text"
   },
   {
     "filename": "./SHA256SUM.json",
@@ -141,7 +141,7 @@
   },
   {
     "filename": "./ryujinx.log",
-    "type": "ASCII text, with very long lines (498), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (498), with CR, LF line terminators"
   },
   {
     "filename": "./magick.AppImage",
@@ -157,7 +157,7 @@
   },
   {
     "filename": "./signal-desktop.log",
-    "type": "ASCII text, with very long lines (332)"
+    "type": "ASCII text, with very long lines (2038)"
   },
   {
     "filename": "./signal-desktop.NixAppImage",
@@ -166,5 +166,141 @@
   {
     "filename": "./pacman.log",
     "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./86box.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./browservice.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./floorp.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./floorp.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./floorp.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.stats.json",
+    "type": "JSON text data"
   }
 ]
