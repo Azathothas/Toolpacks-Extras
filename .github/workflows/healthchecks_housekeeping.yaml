@@ -658,13 +658,15 @@ jobs:
           fi
         continue-on-error: true
 
-      - name: Get DateTime
+      - name: Get DateTime & Purge files (=> 95 MB)
         run: |
           #Presets
           set +x ; set +e
           #--------------#
           UTC_TIME="$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')"
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
+          #Purge
+          find "${GITHUB_WORKSPACE}/main" -path "${GITHUB_WORKSPACE}/main/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
         continue-on-error: true
 
       - uses: stefanzweifel/git-auto-commit-action@v5
