@@ -1007,7 +1007,7 @@ APP_ID: com.github.Rosalie241.RMG
 Descr: Play Nintendo 64 games easily
 -----------------------------
 NAME: Abuse
-APP_ID: com.github.Xenoveritas.abuse.desktop
+APP_ID: com.github.Xenoveritas.abuse
 Descr: Dark 2D side-scrolling platform game
 -----------------------------
 NAME: Viper
