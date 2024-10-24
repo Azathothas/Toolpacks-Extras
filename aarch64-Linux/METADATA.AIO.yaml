@@ -88,7 +88,7 @@ bin:
     bin_name: agg
     description: asciinema gif generator
     note: ""
-    version: v1.4.3
+    version: v1.5.0
     download_url: https://bin.ajam.dev/aarch64/agg
     size: 4.84 MB
     bsum: 762f26573ea7119f70a2e9203c0174db289aa1502db4b2926e65398a37b2450a
@@ -2213,7 +2213,7 @@ bin:
     bin_name: cobalt-cli
     description: Command-line interface wrapper for https://cobalt.tools
     note: ""
-    version: v2.0.0
+    version: v1.1.1
     download_url: https://bin.ajam.dev/aarch64/cobalt-cli
     size: 6.51 MB
     bsum: 3c0ace4ddc13f224808e9e60cedb9bcb182414a83c0eceb9ed1b9a914e24aa75
@@ -9672,6 +9672,23 @@ bin:
     category: aws, aws-s3, coreutils, filesystem, go, golang, s3, s3-bucket, storage, tools
     icon: https://bin.ajam.dev/aarch64/mc.preview.png
     extra_bins: ""
+  - name: mcfly
+    bin_name: mcfly
+    description: Fly through your shell history.
+    note: ""
+    version: v0.9.2
+    download_url: https://bin.ajam.dev/aarch64/mcfly
+    size: 4.5 MB
+    bsum: a1615bf00f08a011c6e9f8fb533120a42ea8217924cef45423207a83bbbaf384
+    shasum: ba7611934f1f08e6c799b0e1aaa0bd0bc9489bed17e423b62c3a94b9d0e4491a
+    build_date: 2024-08-14T05:30:54
+    src_url: https://github.com/cantino/mcfly
+    web_url: https://github.com/cantino/mcfly
+    build_script: https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/aarch64_Linux/bins/mcfly.sh
+    build_log: https://bin.ajam.dev/aarch64/mcfly.log.txt
+    category: history, rust, search, shell
+    icon: https://bin.ajam.dev/aarch64/mcfly.preview.png
+    extra_bins: ""
   - name: mdcat
     bin_name: mdcat
     description: cat for markdown
@@ -9727,7 +9744,7 @@ bin:
     bin_name: melange
     description: build APKs from source code
     note: ""
-    version: v0.14.6
+    version: v0.14.7
     download_url: https://bin.ajam.dev/aarch64/melange
     size: 45.62 MB
     bsum: 64d547aa50854e50dccbedae2162bcf7c8cb163c733b00d532a0810878200c9e
@@ -9914,7 +9931,7 @@ bin:
     bin_name: mise
     description: dev tools, env vars, task runner
     note: ""
-    version: v2024.10.8
+    version: v2024.10.9
     download_url: https://bin.ajam.dev/aarch64/mise
     size: 21.56 MB
     bsum: 5acb73afd50803f2a719d757a9ca7269cbccf60a30619131b9ad0144d5dc1535
@@ -10288,7 +10305,7 @@ bin:
     bin_name: neofetch
     description: Updated Fork
     note: ""
-    version: 1.4.11
+    version: 1.99.0
     download_url: https://bin.ajam.dev/aarch64/neofetch
     size: 565.24 KB
     bsum: 4ca253d60d61dd01dd44c1456c3cb7307ed9e573f8a3800c6048cc8a47727162
@@ -11427,7 +11444,7 @@ bin:
     bin_name: pdfcpu
     description: A PDF processor written in Go.
     note: ""
-    version: v0.8.1
+    version: v0.9.0
     download_url: https://bin.ajam.dev/aarch64/pdfcpu
     size: 11.12 MB
     bsum: 31da30c4d240279fdc91180a43633b54fd776000d9f04b43a16033df2c1c035e
@@ -11835,7 +11852,7 @@ bin:
     bin_name: podman
     description: A tool for managing OCI containers and pods.
     note: ""
-    version: v5.2.4
+    version: v5.2.5
     download_url: https://bin.ajam.dev/aarch64/podman
     size: 29.95 MB
     bsum: 685521aeb994b5b9f039fcd41e50d1ddcb8714429e5f6422978f8635d9ff9f42
@@ -16765,7 +16782,7 @@ bin:
     bin_name: vtm
     description: virtual terminal multiplexer
     note: ""
-    version: v0.9.99.28
+    version: v0.9.99.29
     download_url: https://bin.ajam.dev/aarch64/vtm
     size: 5.44 MB
     bsum: 6e1cc0a061c56898d6b4e585aa86276eee79058d0ef0740d186fc8ccd5d67e7d
