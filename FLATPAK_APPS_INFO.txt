@@ -2648,7 +2648,7 @@ Descr: Apply SteamGridDB assets to Steam
 -----------------------------
 NAME: Steam ROM Manager
 APP_ID: com.steamgriddb.steam-rom-manager
-Descr: Bulk game importer and artwork manager for Steam!
+Descr: An app for managing ROMs in Steam
 -----------------------------
 NAME: StepMania
 APP_ID: com.stepmania.StepMania
