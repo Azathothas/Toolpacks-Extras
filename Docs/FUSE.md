@@ -17,6 +17,7 @@
 > >
 > - [`Debian`](https://packages.debian.org/search?keywords=fuse3) & [`Derivatives`](https://en.wikipedia.org/wiki/Category:Debian-based_distributions)
 > > ```bash
+> > !#Use doas/sudo wherever applicable
 > > sudo apt update -y -qq
 > > sudo apt install fuse3 -y
 > > ```
