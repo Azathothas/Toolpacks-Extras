@@ -157,7 +157,7 @@
   },
   {
     "filename": "./signal-desktop.log",
-    "type": "ASCII text, with very long lines (2038)"
+    "type": "ASCII text, with very long lines (332)"
   },
   {
     "filename": "./signal-desktop.NixAppImage",

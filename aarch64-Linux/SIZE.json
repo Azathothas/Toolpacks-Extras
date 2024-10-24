@@ -13,7 +13,7 @@
   },
   {
     "filename": "./librewolf.AppImage.zsync",
-    "size": "302.35 KB"
+    "size": "302.24 KB"
   },
   {
     "filename": "./librewolf.DirIcon",
@@ -29,7 +29,7 @@
   },
   {
     "filename": "./librewolf.NixAppImage.zsync",
-    "size": "571.51 KB"
+    "size": "446.73 KB"
   },
   {
     "filename": "./librewolf.desktop",
@@ -69,7 +69,7 @@
   },
   {
     "filename": "./inkscape.NixAppImage.zsync",
-    "size": "420.13 KB"
+    "size": "335.65 KB"
   },
   {
     "filename": "./inkscape.desktop",
@@ -85,7 +85,7 @@
   },
   {
     "filename": "./olive-editor.log",
-    "size": "6433 B"
+    "size": "6431 B"
   },
   {
     "filename": "./86box.AppImage",
@@ -97,7 +97,7 @@
   },
   {
     "filename": "./86box.AppImage.zsync",
-    "size": "185.44 KB"
+    "size": "185.57 KB"
   },
   {
     "filename": "./86box.DirIcon",
@@ -113,7 +113,7 @@
   },
   {
     "filename": "./86box.log",
-    "size": "15.85 KB"
+    "size": "15.48 KB"
   },
   {
     "filename": "./affine.log",
@@ -121,7 +121,7 @@
   },
   {
     "filename": "./aisap.log",
-    "size": "30.35 KB"
+    "size": "31.52 KB"
   },
   {
     "filename": "./obs-studio.log",
@@ -141,7 +141,7 @@
   },
   {
     "filename": "./qbittorrent.log",
-    "size": "17.98 KB"
+    "size": "17.99 KB"
   },
   {
     "filename": "./METADATA.AIO.toml",
@@ -161,7 +161,7 @@
   },
   {
     "filename": "./aisap.AppImage.zsync",
-    "size": "7584 B"
+    "size": "7560 B"
   },
   {
     "filename": "./aisap.DirIcon",
@@ -177,7 +177,7 @@
   },
   {
     "filename": "./android-tools.log",
-    "size": "60.17 KB"
+    "size": "62.06 KB"
   },
   {
     "filename": "./dunst.AppImage",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./dunst.log",
-    "size": "221.83 KB"
+    "size": "220.11 KB"
   },
   {
     "filename": "./floorp.DirIcon",
@@ -221,7 +221,7 @@
   },
   {
     "filename": "./floorp.NixAppImage.zsync",
-    "size": "607.79 KB"
+    "size": "483.1 KB"
   },
   {
     "filename": "./floorp.desktop",
@@ -249,7 +249,7 @@
   },
   {
     "filename": "./persepolis.NixAppImage.zsync",
-    "size": "299.35 KB"
+    "size": "299.61 KB"
   },
   {
     "filename": "./persepolis.desktop",
@@ -273,7 +273,7 @@
   },
   {
     "filename": "./android-tools.AppImage.zsync",
-    "size": "38.04 KB"
+    "size": "38.06 KB"
   },
   {
     "filename": "./android-tools.DirIcon",
@@ -297,7 +297,7 @@
   },
   {
     "filename": "./ryujinx.AppImage.zsync",
-    "size": "83.06 KB"
+    "size": "83.09 KB"
   },
   {
     "filename": "./ryujinx.DirIcon",
@@ -313,7 +313,7 @@
   },
   {
     "filename": "./ryujinx.log",
-    "size": "15.04 KB"
+    "size": "15.53 KB"
   },
   {
     "filename": "./imagemagick.DirIcon",
@@ -381,11 +381,11 @@
   },
   {
     "filename": "./signal-desktop.log",
-    "size": "1.28 MB"
+    "size": "1.22 MB"
   },
   {
     "filename": "./pacman.log",
-    "size": "66.15 KB"
+    "size": "68.16 KB"
   },
   {
     "filename": "./browservice.log",
@@ -514,5 +514,9 @@
   {
     "filename": "./qbittorrent.debian.icon.svg",
     "size": "1462 B"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage.zsync",
+    "size": "675.92 KB"
   }
 ]

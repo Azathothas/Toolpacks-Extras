@@ -1,15 +1,15 @@
 [
   {
     "filename": "./BLAKE3SUM.json",
-    "sum": "f9197ae3b0d48d4ec1bc3a4d5e77c4a05437f15bf3f779e17a832ec899cd5407"
+    "sum": "e0070b6da0df0abc1869ad42ec2692cbeece061eb78365b46fdc9ac127f694ed"
   },
   {
     "filename": "./FILE.json",
-    "sum": "45100c53b78208c0038e17d386695ad8af70a34ccaa5092ca0dc6cede036d317"
+    "sum": "59a5547d912fd361b65f3f7b5d815c0f7b73c2413022cdf73fada66366af4498"
   },
   {
     "filename": "./METADATA.json",
-    "sum": "084a29fdf3338049a9f098c0d0e9a093b08b8417f1bd9ff86e35423ffc3f4d4e"
+    "sum": "ef948975d4f75c0ef58178d175f24d84fa05a71045102459487490766ed069ed"
   },
   {
     "filename": "./METADATA.json.tmp",
@@ -17,131 +17,131 @@
   },
   {
     "filename": "./METADATA.min.json",
-    "sum": "47a825277688edea514dd8d10c480cd396348e9422b9fbf1323e61d903f557d8"
+    "sum": "7d640ecba5ee69bfc82ab30f3d2477bafbbc1d4bfb9229be5cbaffe3230a987c"
   },
   {
     "filename": "./SHA256SUM.json",
-    "sum": "d15f4bb66285da21e66ffe1016600f66751edca6182a35f83ddd142fc8a478da"
+    "sum": "d16ee20d7fc71c0c7c5e623f86ccb5547dce22feeea880dba99de6dcada9d289"
   },
   {
     "filename": "./SIZE.json",
-    "sum": "2f87131fb790cedc518b77f13256d1d744a6fff9c6b9919ff05bf847a6c9afb3"
+    "sum": "225fdcaa414a37ee9e840d344d484400826dd66f538a87c4217e9a95360138cc"
   },
   {
     "filename": "./librewolf.AppImage",
-    "sum": "a2bc4cad9624d267ea41dc52312fdf4bf4e212739dbc6fa105b3dda53d42f429"
+    "sum": "a8b89355c84ae11229453a3aaec9f1d253ab9c2bbd9a8982265a787613e64f65"
   },
   {
     "filename": "./librewolf.NixAppImage",
-    "sum": "daa452dc926c4476144c238e069dec94d8e4c898f3bfab9ea2070c6af8c05f3e"
+    "sum": "d27bf2127577accefbac767e2187cf0e514c0d04e245fad0edbad654ed51d37f"
   },
   {
     "filename": "./librewolf.log",
-    "sum": "b45b0f107415d7771dbc9a633f7dcd4f82a75e5092bff40da979778ad89087da"
+    "sum": "c7a59ab2e05252c47d19b6025cb6ecead51887e71f2270e015f89cbcab790885"
   },
   {
     "filename": "./mullvad-browser.log",
-    "sum": "5e62d52c2e005435d0403acf280dcebb8c4db9f279e3dd1466f9f35eb470f007"
+    "sum": "586ff243309cb95d6d8d043fc667fd8cd4848c1045d954ff92445f69dd6aef30"
   },
   {
     "filename": "./inkscape.NixAppImage",
-    "sum": "665a67ac372450e5bc3dbdf98fe96618eb1c863c74907460b281295527b32fe1"
+    "sum": "e797dff9d6e9dc4f3168ffe14b95926fa70303634ea48d075fd2840f42e36002"
   },
   {
     "filename": "./inkscape.log",
-    "sum": "f0fd0d6876e2d1f5ea872cb5515351d7181120c298de65307e91dc67016f9846"
+    "sum": "4c0b2728388c20de346c34aa8e153fa340cc8a966b30e2946d113c167d8633f5"
   },
   {
     "filename": "./olive-editor.log",
-    "sum": "9f5d8a10c1d9aac18982ec6f63a66704de1468febc37cb568b8b81acda0ed78b"
+    "sum": "3315966d199954c907830e6bc45eb6fe4c5194fd260467b1e6d983f6ad12549a"
   },
   {
     "filename": "./86box.AppImage",
-    "sum": "ad11c4e699ecb480bc4e8ed4e012b3ca4919f8b0c17c39bb442327f100624cd6"
+    "sum": "6f44232899c7a6ca58c91165b8fc627f681bd0991eae1d2efb92dffcc0559c3c"
   },
   {
     "filename": "./86box.log",
-    "sum": "a2f24c342191a759b69c3e2e972ec6765a8ce1cb5c4a4665eed591b37b65e319"
+    "sum": "d1be39b521871fb3c03eae3f74ee80785d93bc5f7689eab1fc5ba827602de5a7"
   },
   {
     "filename": "./affine.log",
-    "sum": "5be4c6bc7b04ee53f9610a8d45faa489c99be34a66a6ac8362aabfe8f0f75049"
+    "sum": "f07aee14a74377a15a477edf07c64aa9c3e672c0a9e154998a612a448f590a12"
   },
   {
     "filename": "./aisap.log",
-    "sum": "036d31b498f53ec2da101c6a2d9ba031854e98889aa146215166cb7af07d0622"
+    "sum": "9f5c1437515f60e6f761d33df832b5c55be188cc3ae9a8857985c24aaa486567"
   },
   {
     "filename": "./obs-studio.log",
-    "sum": "06c3a7f47fc09b0f90ac27455c5dbb08c1e03679a734c3dab001adeeae3ac5a2"
+    "sum": "6b476e1b66b2aef781cdb15cd2e961b7781bc89ba7c54519c165749cd91b6a48"
   },
   {
     "filename": "./puddletag.log",
-    "sum": "02278a9519d17804f51e6898a1b9a3ae331b8017da66be73fe3f110f42bca680"
+    "sum": "5c034ff7de54fe46fc3fa65df7d39816ec129c5ffb6519758519e1c0f235c993"
   },
   {
     "filename": "./qbittorrent.log",
-    "sum": "7be5e2c4297d2f94216999985d582dc68577fa60e552fa0564c2e3c4c6834a77"
+    "sum": "5415d8079d1a1ecb02c22f3c091e9712e295559454dac830f9a6acddf35b0b40"
   },
   {
     "filename": "./METADATA.AIO.json",
-    "sum": "1dd146970181cd563f17840829a79d16778e05e838c417adcf46f7e0290a02f1"
+    "sum": "516d714a24a3ee679a50f3056db265bf0293173c86fbe1f033201a51d585d587"
   },
   {
     "filename": "./METADATA.AIO.min.json",
-    "sum": "a92238ea1f508a0804069747aff1bf6f35762aeb89dfc5a48833f5a1ff1a1219"
+    "sum": "b8c9c58a3e00b0a3f582493a377737ee3ac31a948bf93a8a7d800682e77fa9a1"
   },
   {
     "filename": "./METADATA.AIO.toml",
-    "sum": "fe0ef324d2aeafd04ace16aa5e0d8d8cb115d9d151f6dc8065c8b3c5214a54da"
+    "sum": "ce8c1c38ef69d1cceacc2105b51ee2b164896536c9ca7627271f4a10ebe45832"
   },
   {
     "filename": "./METADATA.AIO.yaml",
-    "sum": "5fee28eab828a29da48917ea5d2c96e0290e5e82d4d15d25d54b3a4f772bd373"
+    "sum": "1478f976bb71c3ca0be6dda46d9555152e8f9828a432f7fd585a8449a3fe2810"
   },
   {
     "filename": "./aisap.AppImage",
-    "sum": "50b7332ac1e0db9445c6ff08ea45eecace69f16460e67fcc8a063a1f49397bb8"
+    "sum": "9a278df01aa3d80c0ce52fbbeb17eaece25c03a6f98250f22fb24071c663334e"
   },
   {
     "filename": "./android-tools.log",
-    "sum": "0759337887d6f3fb9825d92d3c1e55bffdc3be32f74760bea49dc805aec7c0b1"
+    "sum": "48ed4623a480d6b8835ec308a720a1dd3c267348f2f02de43e90e367dc3363e2"
   },
   {
     "filename": "./dunst.AppImage",
-    "sum": "4369d71ffe1c7012800fff30562f3e1080fd14514be710f81ad6591f16bbda17"
+    "sum": "cad4bc3de2c0f171591e34c6b9b33fd02689ee64e5eced9c515e7b37b6e25a2c"
   },
   {
     "filename": "./dunst.log",
-    "sum": "9abd3588bd568df765f5b5e09864a306679fca9bde47fc10f5cae6708e1bf3fc"
+    "sum": "9f690d0560fdf4c6cd45b78c6150ded080bb8ab02be4bf16182430aaa31ca859"
   },
   {
     "filename": "./floorp.NixAppImage",
-    "sum": "183579881b3e26727467ceb6f37726b118bde4514423cd85b03691391a0e6d1a"
+    "sum": "ec5136c4f73a5ce9427794830e0fb3bbfa71637d610296a92e5436c65dbc2c88"
   },
   {
     "filename": "./floorp.log",
-    "sum": "f3a8350a0acba2b3c47d6b3ac926d48941f63694ad5702d295b246768c92b4d2"
+    "sum": "04b4cf18ef85c9fd49b678d2553347c6838bdb35236c6eb2ae6bcfd14a7eab26"
   },
   {
     "filename": "./persepolis.NixAppImage",
-    "sum": "75447952ef491609da55d26dd07c69c3696f534247cc25edffda4ce3dc61547a"
+    "sum": "a3e4e0ec8c304b78bdf9cb97acc7a04e0bf3f6bcd79c56b642e473db89d42ee4"
   },
   {
     "filename": "./persepolis.log",
-    "sum": "9ced27f8feb4b8f0e800808d53e60f8a8fd7f1c19cb906f59f92224beab684f8"
+    "sum": "cd0f12283567d2a8eeb7b8e80a89383db2cc7175f56bbdc56c58f9354019ac04"
   },
   {
     "filename": "./android-tools.AppImage",
-    "sum": "1c7518b3bcac5a1250cf1beede9500fff0f5d09b61e60b8bd053fd8f2e26f4b5"
+    "sum": "b317b113ccb9ae22b2b216c94db6204f7897df7769eb48425e9b822b06c0ccae"
   },
   {
     "filename": "./ryujinx.AppImage",
-    "sum": "88eaff6a3f17db74e40764dc53fb34b7f3fa729a776be30333ad9d1e18d30da2"
+    "sum": "7392f9a20b96a55837293bb5e4e673c90af6e41c7a8da194194e7cc7aa45089c"
   },
   {
     "filename": "./ryujinx.log",
-    "sum": "e640283c933a2fb636dfc244266269728ae3ea334943ee5297cf2b2e6391b857"
+    "sum": "09790ee6349685a7bda18bf32c1194552eaa8969690b071fc24776644924f3bc"
   },
   {
     "filename": "./magick.AppImage",
@@ -149,7 +149,7 @@
   },
   {
     "filename": "./imagemagick.log",
-    "sum": "97790cb0581636a4dcb4cdd2665b9fccc84fabbc2ebb17638f83a5f78fdf2aed"
+    "sum": "9b07da5e446d3c1e0004d2ae6ea1d27178d1fff3c82403416e0f76092945a631"
   },
   {
     "filename": "./magick.dwfs.AppBundle",
@@ -157,15 +157,15 @@
   },
   {
     "filename": "./signal-desktop.NixAppImage",
-    "sum": "922910665617548291904b0711e82efc0065f0f2652272ac58d481b2188edeb9"
+    "sum": "fe77ae7df8fda51b3599ad18acde661613e501ce60d487c9d612d5f1b953b466"
   },
   {
     "filename": "./signal-desktop.log",
-    "sum": "7615cf4ea8731ccd0eecb5a139c951a60bc613d9f1ab082d5f16b9e6aa014924"
+    "sum": "fcb120fa5e11c96e1029f246800c91ebfe7c48b3c81724a6deb52af637b0faa8"
   },
   {
     "filename": "./pacman.log",
-    "sum": "26925a2cfebddb05fe292c3c1d3adc235911d5656836bcd6b9ed2e0ddcc8f8f9"
+    "sum": "d562a15dc181b0f822d423170bc89219028f9869e0654d3bd8491655db9e71b1"
   },
   {
     "filename": "./86box.flatpak.appstream.json",
@@ -177,11 +177,11 @@
   },
   {
     "filename": "./86box.flatpak.stats.json",
-    "sum": "6dcbe68ee70d4a9d892eb7fe9aca91c7d860f87326b5f7b984bec6c7c035c837"
+    "sum": "4c785abbf9d0d552f3f5e02a5303181a0d4f45aa7f337a79ca0658616286723c"
   },
   {
     "filename": "./browservice.log",
-    "sum": "a3f9c387b5916fd791e2abde6bb7beae1fa45d718f73b8fb520b5c6f6633407f"
+    "sum": "7ccb9de4504bc0a15bc58649d548f1aff595aba55e01848dd551af0768923c58"
   },
   {
     "filename": "./floorp.flatpak.appstream.json",
@@ -193,7 +193,7 @@
   },
   {
     "filename": "./floorp.flatpak.stats.json",
-    "sum": "864c39a3be2335be91003091703693d682cf41d62c7fe14f539e5487ed9a9ed0"
+    "sum": "dcead4b544495bae9a398fef8975b9c6b64de9636db087fa7e2d6fa81b2fe8d9"
   },
   {
     "filename": "./inkscape.flatpak.appstream.json",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./inkscape.flatpak.stats.json",
-    "sum": "2d71ac934ff8343cca7c1b19e57430e47f75c509f8cb9f6fee47ffa369794f77"
+    "sum": "fbf58131e53b805ba1b42ee895ddb8aa22342a614c0bb40fd7a557cbef6f371a"
   },
   {
     "filename": "./librewolf.flatpak.appstream.json",
@@ -217,7 +217,7 @@
   },
   {
     "filename": "./librewolf.flatpak.stats.json",
-    "sum": "14b9f7a353097f51f0affbb8f8e0bffc5020aca9823b01fcca65c9c5c85e627c"
+    "sum": "6ca73412536a1a2362f95306ab9faa82cb8cf39ba9d05d4fc6d902622aef2047"
   },
   {
     "filename": "./mullvad-browser.flatpak.appstream.json",
@@ -229,7 +229,7 @@
   },
   {
     "filename": "./mullvad-browser.flatpak.stats.json",
-    "sum": "7d38b7ebb3e41d1a805a4211c1823e09fdd168bd1588240e5c81cc77498ec44f"
+    "sum": "63c916aa7aeb281ab21269587e69dc1b39c1a46f5d8bc97913ae74d601cc4a89"
   },
   {
     "filename": "./obs-studio.flatpak.appstream.json",
@@ -241,7 +241,7 @@
   },
   {
     "filename": "./obs-studio.flatpak.stats.json",
-    "sum": "1839caddb4eed7daedccf3be6efddb212085ddfe4b80e22b8d9d3e6117e34bbf"
+    "sum": "299cb512402f6a6f947f0f433294cec80a9b5cebda9fbf9f15cb8aa3182d624f"
   },
   {
     "filename": "./olive-editor.flatpak.appstream.json",
@@ -253,7 +253,7 @@
   },
   {
     "filename": "./olive-editor.flatpak.stats.json",
-    "sum": "ba0775e5ff4444650d936c119ce3bb944914440a52229293b5c516dd5db32bff"
+    "sum": "daebd2558ce5d3af6341cb7bda50079e453c563c479611191c60127d583869aa"
   },
   {
     "filename": "./puddletag.flatpak.appstream.json",
@@ -265,7 +265,7 @@
   },
   {
     "filename": "./puddletag.flatpak.stats.json",
-    "sum": "b5d9bd925fac0200dde6bb5a8077d4f34ee2aabe63aa069c0eddaf2ea38894fa"
+    "sum": "8eb4d52cba4d417eb4bb2d19603f7417ea9640ba6ac0e63c08d66fca616c2818"
   },
   {
     "filename": "./qbittorrent.flatpak.appstream.json",
@@ -277,7 +277,7 @@
   },
   {
     "filename": "./qbittorrent.flatpak.stats.json",
-    "sum": "2aafbb31c28227bae969bd0b3146f8dc16137a7ead2b158231e6334c1872c396"
+    "sum": "9ab9537ed6d261dcb265ef7d79f23026279a769b3738715b49fc925a727412be"
   },
   {
     "filename": "./ryujinx.flatpak.appstream.json",
@@ -289,7 +289,7 @@
   },
   {
     "filename": "./ryujinx.flatpak.stats.json",
-    "sum": "1c2ba6535828cdd3c749bf61a5cf77c115d4673781c13861cb1a675121fefefa"
+    "sum": "6ef9df0c076c1bf75aaecaec21796ec889d233c2858d1c6838bc470509e9bce6"
   },
   {
     "filename": "./signal-desktop.flatpak.appstream.json",
@@ -301,6 +301,6 @@
   },
   {
     "filename": "./signal-desktop.flatpak.stats.json",
-    "sum": "0bbbed2f15da6a1fd605f243d4a98b9ffe3eec581fb1c2f73b32e131fd7923a5"
+    "sum": "72d76d97dd8f843efbc28ab9e713f2c314505b396b3db414e2cd0e5e40b5e557"
   }
 ]
