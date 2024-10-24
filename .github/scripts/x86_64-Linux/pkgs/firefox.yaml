@@ -3,7 +3,7 @@ bin_id: "org.mozilla.firefox"
 bin_name: "firefox"
 bins:
   - "firefox.AppImage"
-  - "firefox.FlatImage"
+  - "firefox-alpine.FlatImage"
   - "firefox.NixAppImage"
 category:
  - "browser"
