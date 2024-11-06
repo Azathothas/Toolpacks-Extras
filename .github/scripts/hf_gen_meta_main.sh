@@ -135,7 +135,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
              jq --arg BIN "$BIN" --arg NOTE "$NOTE" '.[] |= if .name == $BIN then . + {note: $NOTE} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Extras (All Bins)
              PROVIDES="$(cat ${TMPDIR}/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export PROVIDES="${PROVIDES}"
-             jq --arg BIN "$BIN" --arg PROVIDES "$PROVIDES" '.[] |= if .name == $BIN then . + {provides: $provides} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
+             jq --arg BIN "$BIN" --arg PROVIDES "$PROVIDES" '.[] |= if .name == $BIN then . + {provides: $PROVIDES} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Repology
              if [ "$(curl -sL -w "%{http_code}" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" -o '/dev/null')" != "404" ]; then
                jq --arg BIN "$BIN" --arg REPOLOGY "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" '.[] |= if .name == $BIN then . + {repology: $REPOLOGY} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
