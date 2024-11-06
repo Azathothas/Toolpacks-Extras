@@ -1,0 +1,12 @@
+name: "engrampa.appbundle"
+bin_id: "org.mate.engrampa"
+bin_name: "engrampa"
+bins:
+  - "engrampa.dwfs.appbundle"
+category:
+ - "WebBrowser"
+description: "A file archiver for MATE"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/"
+path: "/"
+src_url: "https://github.com/mate-desktop/engrampa"

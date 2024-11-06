@@ -1,0 +1,13 @@
+name: "signal-desktop.appimage"
+bin_id: "org.signal.Signal"
+bin_name: "signal-desktop"
+bins:
+  - "signal-desktop.appimage"
+category:
+ - "Chat"
+ - "Security"
+description: "A private messenger for Windows, macOS, and Linux"
+note: "Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage"
+web_url: "https://signal.org"
+path: "/"
+src_url: "https://github.com/signalapp/Signal-Desktop"

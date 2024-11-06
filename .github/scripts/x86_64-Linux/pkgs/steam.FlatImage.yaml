@@ -1,0 +1,12 @@
+name: "steam.flatimage"
+bin_id: "com.valvesoftware.Steam"
+bin_name: "steam"
+bins:
+  - "steam-cachyos.flatimage"
+category:
+ - "Game"
+description: "A video game digital distribution service and storefront from Valve"
+note: "FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages"
+web_url: "https://store.steampowered.com/about/"
+path: "/"
+src_url: "https://github.com/ValveSoftware/steam-for-linux"

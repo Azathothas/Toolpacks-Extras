@@ -1,0 +1,13 @@
+name: "krita.appimage"
+bin_id: "org.kde.krita"
+bin_name: "krita"
+bins:
+  - "krita.appimage"
+category:
+ - "Graphics"
+ - "ImageProcessing"
+description: "A free and open source painting application"
+note: "Officially Created AppImage. Check/Report @ https://github.com/krita/krita"
+web_url: "https://krita.org"
+path: "/"
+src_url: "https://invent.kde.org/graphics/krita"

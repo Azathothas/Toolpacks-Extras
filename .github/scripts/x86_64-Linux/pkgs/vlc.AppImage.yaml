@@ -1,0 +1,14 @@
+name: "vlc.appimage"
+bin_id: "org.videolan.VLC"
+bin_name: "vlc"
+bins:
+  - "vlc.appimage"
+category:
+ - "Music"
+ - "Player"
+ - "TV"
+description: "Cross-platform media player and streaming server"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/VLC-appimage"
+web_url: "https://www.videolan.org/vlc/"
+path: "/"
+src_url: "https://github.com/videolan/vlc"

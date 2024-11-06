@@ -1,0 +1,12 @@
+name: "chromium.flatimage"
+bin_id: "org.chromium.Chromium"
+bin_name: "chromium"
+bins:
+  - "chromium-alpine.flatimage"
+category:
+ - "WebBrowser"
+description: "Open source web browser from Google"
+note: "FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages"
+web_url: "https://www.chromium.org"
+path: "/"
+src_url: "https://chromium.googlesource.com/chromium/src.git"

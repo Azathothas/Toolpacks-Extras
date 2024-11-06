@@ -1,0 +1,13 @@
+name: "deadbeef-stable"
+bin_id: ""
+bin_name: "deadbeef"
+bins:
+  - "deadbeef-stable.appimage"
+category:
+ - "Music"
+ - "Player"
+description: "A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (AppImage)"
+note: "This PKG was built from Portable Stable Releases using AppImageTool. (CI_VERIFIED: https://github.com/DeaDBeeF-Player/deadbeef/actions)"
+web_url: "https://deadbeef.sourceforge.io"
+path: "/"
+src_url: "https://github.com/DeaDBeeF-Player/deadbeef"

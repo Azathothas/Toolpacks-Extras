@@ -1,0 +1,14 @@
+name: "persepolis"
+bin_id: ""
+bin_name: "persepolis"
+bins:
+  - "persepolis.nixappimage"
+  - "persepolis.nixappimage"
+category:
+ - "Network"
+ - "P2P"
+description: "A Download Manager (GUI for aria2) written in Python (AppImage|NixAppImage)"
+note: "(CI_VERIFIED: NONE)"
+web_url: "https://persepolisdm.github.io"
+path: "/"
+src_url: "https://github.com/persepolisdm/persepolis"

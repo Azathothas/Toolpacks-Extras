@@ -1,0 +1,13 @@
+name: "librewolf.appimage"
+bin_id: "io.gitlab.librewolf-community"
+bin_name: "librewolf"
+bins:
+  - "librewolf.appimage"
+category:
+ - "WebBrowser"
+ - "Security"
+description: "A fork of Firefox, focused on privacy, security and freedom"
+note: "Officially Created AppImage. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
+web_url: "https://librewolf.net"
+path: "/"
+src_url: "https://gitlab.com/librewolf-community/browser"

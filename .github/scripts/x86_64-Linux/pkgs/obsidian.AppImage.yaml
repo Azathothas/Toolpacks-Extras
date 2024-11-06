@@ -1,0 +1,15 @@
+name: "obsidian.appimage"
+bin_id: "md.obsidian.Obsidian"
+bin_name: "obsidian"
+bins:
+  - "obsidian.appimage"
+category:
+ - "Database"
+ - "Education"
+ - "Office"
+ - "TextEditor"
+description: "A powerful knowledge base that works on top of a local folder of plain text Markdown files"
+note: "Officially Created AppImage. Check/Report @ https://github.com/obsidianmd/obsidian-releases"
+web_url: "https://obsidian.md"
+path: "/"
+src_url: "https://github.com/obsidianmd/obsidian-releases"

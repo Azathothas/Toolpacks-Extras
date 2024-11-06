@@ -1,0 +1,13 @@
+name: "inkscape.appbundle"
+bin_id: "org.inkscape.Inkscape"
+bin_name: "inkscape"
+bins:
+  - "inkscape.dwfs.appbundle"
+category:
+ - "Graphics"
+ - "Office"
+description: "FOSS Vector Graphics Editor"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://inkscape.org"
+path: "/"
+src_url: "https://gitlab.com/inkscape/inkscape"

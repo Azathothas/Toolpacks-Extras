@@ -1,0 +1,13 @@
+name: "discord.appimage"
+bin_id: "com.discordapp.Discord"
+bin_name: "discord"
+bins:
+  - "discord.appimage"
+category:
+ - "Chat"
+ - "InstantMessaging"
+description: "All-in-one cross-platform voice and text chat for gamers"
+note: "Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
+web_url: "https://discordapp.com"
+path: "/"
+src_url: "https://github.com/srevinsaju/discord-appimage"

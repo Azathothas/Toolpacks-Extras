@@ -1,0 +1,12 @@
+name: "firedragon.appimage"
+bin_id: "org.garudalinux.firedragon"
+bin_name: "firedragon"
+bins:
+  - "firedragon.appimage"
+category:
+ - "WebBrowser"
+description: "A browser based on Floorp browser"
+note: "Officially Created AppImage. Check/Report @ https://gitlab.com/garuda-linux/firedragon/builder"
+web_url: "https://firedragon.garudalinux.org"
+path: "/"
+src_url: "https://gitlab.com/garuda-linux/firedragon"

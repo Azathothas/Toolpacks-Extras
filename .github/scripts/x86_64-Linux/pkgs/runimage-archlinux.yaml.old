@@ -1,0 +1,12 @@
+name: "runimage-archlinux"
+bin_id: ""
+bin_name: "runimage"
+bins:
+  - "runimage-archlinux.RunImage"
+category:
+ - "bundler"
+description: "Portable single-file linux container built on ArchLinux ROOTFS (RunImage)"
+note: "This PKG has Multiple Formats . (CI_VERIFIED: https://github.com/VHSgunzo/runimage/actions)"
+web_url: "https://github.com/VHSgunzo/runimage"
+path: "/"
+src_url: "https://github.com/VHSgunzo/runimage"

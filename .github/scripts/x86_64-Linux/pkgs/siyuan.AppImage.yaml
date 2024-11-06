@@ -1,0 +1,15 @@
+name: "siyuan.appimage"
+bin_id: "org.b3log.siyuan"
+bin_name: "siyuan"
+bins:
+  - "siyuan.appimage"
+category:
+ - "Database"
+ - "Education"
+ - "Office"
+ - "TextEditor"
+description: "A privacy-first personal knowledge management system that supports complete offline usage"
+note: "Officially Created AppImage. Check/Report @ https://github.com/siyuan-note/siyuan"
+web_url: "https://b3log.org/siyuan"
+path: "/"
+src_url: "https://github.com/siyuan-note/siyuan"

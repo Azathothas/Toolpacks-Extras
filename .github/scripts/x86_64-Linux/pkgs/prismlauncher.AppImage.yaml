@@ -1,0 +1,12 @@
+name: "prismlauncher.appimage"
+bin_id: "org.prismlauncher.PrismLauncher"
+bin_name: "prismlauncher"
+bins:
+  - "prismlauncher.appimage"
+category:
+ - "Game"
+description: "Free, open source launcher for Minecraft"
+note: "Officially Created AppImage. Check/Report @ https://github.com/PrismLauncher/PrismLauncher"
+web_url: "https://prismlauncher.org"
+path: "/"
+src_url: "https://github.com/PrismLauncher/PrismLauncher"

@@ -1,0 +1,14 @@
+name: "desktopeditors.appimage"
+bin_id: "org.onlyoffice.desktopeditors"
+bin_name: "desktopeditors"
+bins:
+  - "desktopeditors.appimage"
+category:
+ - "Education"
+ - "Office"
+ - "TextEditor"
+description: "Office suite with text, spreadsheet and presentation editors"
+note: "Officially Created AppImage. Check/Report @ https://github.com/ONLYOFFICE/DesktopEditors"
+web_url: "https://www.onlyoffice.com"
+path: "/"
+src_url: "https://github.com/ONLYOFFICE/DesktopEditors"

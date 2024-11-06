@@ -1,0 +1,13 @@
+name: "rofi.appimage"
+bin_id: "xxx.io.github.davatorium.rofi"
+bin_name: "rofi"
+bins:
+  - "rofi.appimage"
+category:
+ - "System"
+ - "Utility"
+description: "A window switcher, application launcher and dmenu replacement"
+note: "Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/rofi-AppImage"
+web_url: "https://davatorium.github.io/rofi"
+path: "/"
+src_url: "https://github.com/davatorium/rofi"

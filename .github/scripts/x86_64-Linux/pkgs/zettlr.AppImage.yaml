@@ -1,0 +1,15 @@
+name: "zettlr.appimage"
+bin_id: "com.zettlr.Zettlr"
+bin_name: "zettlr"
+bins:
+  - "zettlr.appimage"
+category:
+ - "Database"
+ - "Education"
+ - "Office"
+ - "TextEditor"
+description: "A markdown editor for writing academic texts and taking notes"
+note: "Officially Created AppImage. Check/Report @ https://github.com/Zettlr/Zettlr"
+web_url: "https://www.zettlr.com"
+path: "/"
+src_url: "https://github.com/Zettlr/Zettlr"

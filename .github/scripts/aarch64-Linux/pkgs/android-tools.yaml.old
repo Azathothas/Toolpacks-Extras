@@ -1,0 +1,13 @@
+name: "android-tools"
+bin_id: ""
+bin_name: "android-tools"
+bins:
+  - "android-tools.appimage"
+category:
+ - "ConsoleOnly"
+ - "Utility"
+description: "Android SDK Platform-Tools that interface with the Android platform, primarily adb and fastboot (AppImage)"
+note: "This PKG was built from Source using go-appimagetool, BUT the src has no CI (CI_VERIFIED: NONE)"
+web_url: "https://developer.android.com/tools/releases/platform-tools"
+path: "/"
+src_url: "https://github.com/lzhiyong/android-sdk-tools"

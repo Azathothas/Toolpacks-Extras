@@ -1,0 +1,13 @@
+name: "vscodium.appimage"
+bin_id: "com.vscodium.codium"
+bin_name: "vscodium"
+bins:
+  - "vscodium.appimage"
+category:
+ - "Development"
+ - "IDE"
+description: "Binary Releases of VS Code without MS branding/telemetry/licensing"
+note: "Officially Created AppImage. Check/Report @ https://github.com/VSCodium/vscodium"
+web_url: "https://vscodium.com"
+path: "/"
+src_url: "https://github.com/VSCodium/vscodium"

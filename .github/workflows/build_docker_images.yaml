@@ -1,0 +1,77 @@
+name: 🐬 Builds Docker Images (Extras) DockerHub 🐬
+#REF: https://docs.docker.com/build/ci/github-actions/multi-platform/
+#SECRETS: DOCKERHUB_USERNAME || DOCKERHUB_TOKEN
+#URL: https://hub.docker.com/r/azathothas/
+#For: https://github.com/pkgforge/pkgcache
+#------------------------------------------------------------------------------------#
+on:
+  #push:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *" #06:00 AM everyday
+defaults:
+  run:
+    shell: bash
+    working-directory: /tmp
+#------------------------------------------------------------------------------------#  
+jobs:
+  build-push-appbundler-alpine:
+    name: Push (AppBundler-Alpine) --> Docker Hub
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none"
+
+      #- name: Debloat Runner
+      #  run: |
+      #    #Presets
+      #    set +x ; set +e
+      #    #--------------#
+      #    bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Github/Runners/Ubuntu/debloat.sh")
+      #  continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Docker Tags
+          DOCKER_TAG="v$(date +'%Y.%m.%d')" && export DOCKER_TAG="${DOCKER_TAG}"
+          echo "DOCKER_TAG=${DOCKER_TAG}" >> "${GITHUB_ENV}"
+          #Copy dockerfiles
+          mkdir -pv "/tmp/DOCKERFILES" && cd "/tmp/DOCKERFILES"
+          cp -fv "${GITHUB_WORKSPACE}/main/.github/scripts/appbundles_alpine.Dockerfile" "/tmp/DOCKERFILES/appbundler-alpine.dockerfile"
+        continue-on-error: true
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+        continue-on-error: true
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+        continue-on-error: true
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: "${{ secrets.DOCKERHUB_USERNAME }}"
+          password: "${{ secrets.DOCKERHUB_TOKEN }}"
+        continue-on-error: true
+
+    #https://hub.docker.com/r/azathothas/appbundler-alpine
+      - name: Docker Build and Push (appbundler-alpine)
+        uses: docker/build-push-action@v6
+        with:
+          context: /tmp/DOCKERFILES/
+          file: "/tmp/DOCKERFILES/appbundler-alpine.dockerfile"
+          platforms: "linux/amd64,linux/arm64"
+          tags: |
+            azathothas/appbundler-alpine:latest
+            azathothas/appbundler-alpine:${{ env.DOCKER_TAG }}
+          push: true
+        continue-on-error: true
+#------------------------------------------------------------------------------------#

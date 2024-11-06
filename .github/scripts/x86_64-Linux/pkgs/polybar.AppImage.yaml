@@ -1,0 +1,13 @@
+name: "polybar.appimage"
+bin_id: "xxx.io.github.polybar"
+bin_name: "polybar"
+bins:
+  - "polybar.appimage"
+category:
+ - "Core"
+ - "System"
+description: "A fast and easy-to-use tool for creating status bars"
+note: "Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/polybar-AppImage"
+web_url: "https://polybar.github.io"
+path: "/"
+src_url: "https://github.com/polybar/polybar"

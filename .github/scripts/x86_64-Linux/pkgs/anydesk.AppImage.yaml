@@ -1,0 +1,13 @@
+name: "anydesk.appimage"
+bin_id: "com.anydesk.Anydesk"
+bin_name: "anydesk"
+bins:
+  - "anydesk.appimage"
+category:
+ - "RemoteAccess"
+ - "VideoConference"
+description: "Desktop sharing application, providing remote support and online meetings"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Anydesk-appimage"
+web_url: "https://www.anydesk.com"
+path: "/"
+src_url: "https://github.com/ivan-hc/Anydesk-appimage"

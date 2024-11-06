@@ -1,0 +1,12 @@
+name: "ladybird.flatimage"
+bin_id: "xxx.org.ladybird"
+bin_name: "ladybird"
+bins:
+  - "ladybird-cachyos.flatimage"
+category:
+ - "WebBrowser"
+description: "Web browser built from scratch using the SerenityOS LibWeb engine"
+note: "FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages"
+web_url: "https://ladybird.org"
+path: "/"
+src_url: "https://github.com/LadybirdBrowser/ladybird"

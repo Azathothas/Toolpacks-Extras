@@ -1,0 +1,13 @@
+name: "spotify.appimage"
+bin_id: "com.spotify.Client"
+bin_name: "spotify"
+bins:
+  - "spotify.appimage"
+category:
+ - "Music"
+ - "Player"
+description: "Play music from the Spotify music service"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Spotify-appimage"
+web_url: "https://www.spotify.com"
+path: "/"
+src_url: "https://github.com/ivan-hc/Spotify-appimage"

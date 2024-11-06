@@ -1,0 +1,13 @@
+name: "heroic.appimage"
+bin_id: "com.heroicgameslauncher.hgl"
+bin_name: "heroic"
+bins:
+  - "heroic.appimage"
+category:
+ - "Game"
+ - "Utility"
+description: "A Native GOG, Epic, and Amazon Games Launcher"
+note: "Officially Created AppImage. Check/Report @ https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
+web_url: "https://heroicgameslauncher.com"
+path: "/"
+src_url: "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"

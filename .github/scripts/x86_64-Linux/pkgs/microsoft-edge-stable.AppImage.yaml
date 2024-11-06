@@ -1,0 +1,12 @@
+name: "microsoft-edge-stable.appimage"
+bin_id: "com.microsoft.Edge"
+bin_name: "microsoft-edge-stable"
+bins:
+  - "microsoft-edge-stable.appimage"
+category:
+ - "WebBrowser"
+description: "The web browser from Microsoft (Stable)"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/MS-Edge-appimage"
+web_url: "https://www.microsoft.com/edge"
+path: "/"
+src_url: "https://packages.microsoft.com/repos/edge/pool/main/m/"

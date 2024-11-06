@@ -1,0 +1,12 @@
+name: "xemu.appimage"
+bin_id: "app.xemu.xemu"
+bin_name: "xemu"
+bins:
+  - "xemu.appimage"
+category:
+ - "Emulator"
+description: "Original Xbox emulator"
+note: "Officially Created AppImage. Check/Report @ https://github.com/xemu-project/xemu"
+web_url: "https://xemu.app"
+path: "/"
+src_url: "https://github.com/xemu-project/xemu"

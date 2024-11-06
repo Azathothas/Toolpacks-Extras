@@ -1,0 +1,12 @@
+name: "browservice.appimage"
+bin_id: "org.browservice.browservice"
+bin_name: "browservice"
+bins:
+  - "browservice.appimage"
+category:
+ - "WebBrowser"
+description: "Browse the modern web on historical browsers"
+note: "Officially Created AppImage. Check/Report @ https://github.com/ttalvitie/browservice"
+web_url: "https://github.com/ttalvitie/browservice"
+path: "/"
+src_url: "https://github.com/ttalvitie/browservice"

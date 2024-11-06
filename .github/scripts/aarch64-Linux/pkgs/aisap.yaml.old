@@ -1,0 +1,14 @@
+name: "aisap"
+bin_id: ""
+bin_name: "aisap"
+bins:
+  - "aisap.appimage"
+  - "aisap.shimg"
+category:
+ - "Security"
+ - "Utility"
+description: "Tool to make sandboxing AppImages easy (AppImage | shImg)"
+note: "This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)"
+web_url: "https://github.com/mgord9518/aisap"
+path: "/"
+src_url: "https://github.com/mgord9518/aisap"

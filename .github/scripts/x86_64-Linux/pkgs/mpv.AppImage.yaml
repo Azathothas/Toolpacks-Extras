@@ -1,0 +1,14 @@
+name: "mpv.appimage"
+bin_id: "io.mpv.Mpv"
+bin_name: "mpv"
+bins:
+  - "mpv.appimage"
+category:
+ - "Music"
+ - "Player"
+ - "TV"
+description: "🎥 Command line video player"
+note: "Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/mpv-AppImage"
+web_url: "https://mpv.io"
+path: "/"
+src_url: "https://github.com/mpv-player/mpv"

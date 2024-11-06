@@ -1,0 +1,13 @@
+name: "cpu-x.appimage"
+bin_id: "io.github.thetumultuousunicornofdarkness.cpu-x"
+bin_name: "cpu-x"
+bins:
+  - "cpu-x.appimage"
+category:
+ - "Monitor"
+ - "Utility"
+description: "A FOSS tool to gather information on CPU, motherboard and more"
+note: "Officially Created AppImage. Check/Report @ https://github.com/TheTumultuousUnicornOfDarkness/CPU-X"
+web_url: "https://thetumultuousunicornofdarkness.github.io/CPU-X/"
+path: "/"
+src_url: "https://github.com/TheTumultuousUnicornOfDarkness/CPU-X"

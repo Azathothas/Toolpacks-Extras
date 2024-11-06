@@ -1,0 +1,12 @@
+name: "firefox.appbundle"
+bin_id: "org.mozilla.firefox"
+bin_name: "firefox"
+bins:
+  - "firefox.dwfs.appbundle"
+category:
+ - "WebBrowser"
+description: "A web browser built from Firefox source tree"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "http://www.mozilla.com"
+path: "/"
+src_url: "https://hg.mozilla.org/mozilla-central"

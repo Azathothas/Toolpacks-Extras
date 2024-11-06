@@ -1,0 +1,13 @@
+name: "affine.appimage"
+bin_id: "xxx.affine.affine"
+bin_name: "affine"
+bins:
+  - "affine.appimage"
+category:
+ - "Database"
+ - "Education"
+description: "A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro"
+note: "Officially Created AppImage. Check/Report @ https://github.com/toeverything/AFFiNE"
+web_url: "https://affine.pro"
+path: "/"
+src_url: "https://github.com/toeverything/AFFiNE"

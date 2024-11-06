@@ -1,0 +1,12 @@
+name: "kdenlive.appimage"
+bin_id: "org.kde.kdenlive"
+bin_name: "kdenlive"
+bins:
+  - "kdenlive.appimage"
+category:
+ - "AudioVideoEditing"
+description: "FOSS video editor, based on MLT Framework and KDE Frameworks"
+note: "Officially Created AppImage. Check/Report @ https://invent.kde.org/multimedia/kdenlive"
+web_url: "https://kdenlive.org"
+path: "/"
+src_url: "https://invent.kde.org/multimedia/kdenlive"

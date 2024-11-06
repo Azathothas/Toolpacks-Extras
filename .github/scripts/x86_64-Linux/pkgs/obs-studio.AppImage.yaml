@@ -1,0 +1,13 @@
+name: "obs-studio.appimage"
+bin_id: "com.obsproject.Studio"
+bin_name: "obs-studio"
+bins:
+  - "obs-studio.appimage"
+category:
+ - "AudioVideoEditing"
+ - "Recorder"
+description: "FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/OBS-Studio-appimage"
+web_url: "https://obsproject.com"
+path: "/"
+src_url: "https://github.com/obsproject/obs-studio"

@@ -1,0 +1,12 @@
+name: "dolphin-emu.appimage"
+bin_id: "org.DolphinEmu.dolphin-emu"
+bin_name: "dolphin-emu"
+bins:
+  - "dolphin-emu.appimage"
+category:
+ - "Emulator"
+description: "A GameCube / Wii emulator"
+note: "Community Created AppImage. Check/Report @ https://github.com/lucasmz1/Dolphin_emu_Appimage"
+web_url: "https://dolphin-emu.org"
+path: "/"
+src_url: "https://github.com/dolphin-emu/dolphin"

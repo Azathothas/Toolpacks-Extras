@@ -1,0 +1,15 @@
+name: "imagemagick.appimage"
+bin_id: "org.imagemagick"
+bin_name: "magick"
+bins:
+  - "imagemagick.appimage"
+category:
+ - "ConsoleOnly"
+ - "Graphics"
+ - "ImageProcessing"
+ - "Utility"
+description: "FOSS suite for editing and manipulating Digital Images & Files"
+note: "Officially Created AppImage. Check/Report @ https://github.com/ImageMagick/ImageMagick"
+web_url: "https://imagemagick.org"
+path: "/"
+src_url: "https://github.com/ImageMagick/ImageMagick"

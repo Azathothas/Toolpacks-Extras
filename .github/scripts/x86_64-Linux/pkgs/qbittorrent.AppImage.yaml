@@ -1,0 +1,13 @@
+name: "qbittorrent.appimage"
+bin_id: "org.qbittorrent.qBittorrent"
+bin_name: "qbittorrent"
+bins:
+  - "qbittorrent.appimage"
+category:
+ - "Network"
+ - "P2P"
+description: "A Bittorrent Client"
+note: "Officially Created AppImage. Check/Report @ https://github.com/qbittorrent/qBittorrent"
+web_url: "https://www.qbittorrent.org"
+path: "/"
+src_url: "https://github.com/qbittorrent/qBittorrent"

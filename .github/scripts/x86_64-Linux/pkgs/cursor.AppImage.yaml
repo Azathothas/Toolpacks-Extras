@@ -1,0 +1,13 @@
+name: "cursor.appimage"
+bin_id: "xxx.com.cursor"
+bin_name: "cursor"
+bins:
+  - "cursor.appimage"
+category:
+ - "IDE"
+ - "TextEditor"
+description: "The AI Code Editor"
+note: "Officially Created AppImage. Check/Report @ https://github.com/getcursor/cursor"
+web_url: "https://cursor.com"
+path: "/"
+src_url: "https://github.com/getcursor/cursor"

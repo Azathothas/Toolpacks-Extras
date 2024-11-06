@@ -1,0 +1,50 @@
+      ##Build (Alpine FlatImage)
+       pushd "$($TMPDIRS)" >/dev/null 2>&1
+       OWD="$(realpath .)" && export OWD="${OWD}"
+       export APP="librewolf-alpine-nix"
+       export PKG_NAME="${APP}.FlatImage"
+       RELEASE_TAG="$(nix derivation show "nixpkgs#librewolf" 2>&1 | grep '"version"' | awk -F': ' '{print $2}' | tr -d '"')" && export RELEASE_TAG="${RELEASE_TAG}"
+       rsync -achLv "/opt/FLATIMAGE/alpine" "${OWD}/alpine"
+       export FIMG_BASE="${OWD}/alpine"
+       if [[ -f "${FIMG_BASE}" ]] && [[ $(stat -c%s "${FIMG_BASE}") -gt 1024 ]]; then
+       pushd "$(mktemp -d)" >/dev/null 2>&1
+       #Bootstrap
+         "${FIMG_BASE}" fim-perms add "audio,dbus_user,dbus_system,gpu,home,input,media,network,udev,usb,xorg,wayland"
+         "${FIMG_BASE}" fim-perms list
+       #Build
+         "${FIMG_BASE}" fim-root bash -c '
+         #Sync
+         apk update --no-interactive
+         apk upgrade --no-interactive
+         #Install Deps
+         packages="fontconfig font-awesome font-inconsolata font-noto font-terminus font-unifont"
+         for pkg in $packages; do apk add "$pkg" --latest --upgrade --no-interactive ; done
+         #Install
+         apk add git --latest --upgrade --no-interactive
+         wget "https://github.com/DavHau/nix-portable/releases/latest/download/nix-portable-$(uname -m)" -O "/usr/bin/nix-portable"
+         chmod +x "/usr/bin/nix-portable"
+         #NP_GIT="/usr/bin/git" "/usr/bin/nix-portable" nix-shell -p "librewolf" --run "timeout 10 librewolf"
+         echo '\''#!/bin/bash'\'' > "/usr/bin/librewolf-nix"
+         echo "NP_GIT=/usr/bin/git" >> "/usr/bin/librewolf-nix"
+         echo "/usr/bin/nix-portable nix-shell -p librewolf --run \"librewolf\"" >> "/usr/bin/librewolf-nix"
+         chmod +x "/usr/bin/librewolf-nix"
+         #Cleanup
+         chmod 755 "/bin/bbsuid"
+         apk cache clean
+         rm -rfv "/var/cache/apk/"* 2>/dev/null
+         '
+       #ENV
+         "${FIMG_BASE}" fim-exec mkdir -p "/home/root"
+         "${FIMG_BASE}" fim-env add 'USER=root' 'HOME=/home/root' 'XDG_CONFIG_HOME=/home/root/.config' 'XDG_DATA_HOME=/home/root/.local/share' 'NP_GIT=/usr/bin/git'
+         "${FIMG_BASE}" fim-env list
+         "${FIMG_BASE}" fim-boot "/usr/bin/librewolf-nix"
+       #Create
+         sudo chown -R "$(whoami):$(whoami)" "${FIMG_BASE%/*}/.${FIMG_BASE##*/}.config" && chmod -R 755 "${FIMG_BASE%/*}/.${FIMG_BASE##*/}.config"
+         "${FIMG_BASE}" fim-commit
+       #Copy
+         rsync -achLv "${FIMG_BASE}" "${BINDIR}/${PKG_NAME}"
+       #Version
+         if [[ -f "${BINDIR}/${PKG_NAME}" ]] && [[ $(stat -c%s "${BINDIR}/${PKG_NAME}") -gt 1024 ]]; then
+           PKG_VERSION="$(echo ${RELEASE_TAG})" && export PKG_VERSION="${PKG_VERSION}"
+           echo "${PKG_VERSION}" > "${BINDIR}/${PKG_NAME}.version"
+         fi

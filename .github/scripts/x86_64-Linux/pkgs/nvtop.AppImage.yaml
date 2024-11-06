@@ -1,0 +1,13 @@
+name: "nvtop.appimage"
+bin_id: "xxx.nvtop"
+bin_name: "nvtop"
+bins:
+  - "nvtop.appimage"
+category:
+ - "Monitor"
+ - "Utility"
+description: "GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm"
+note: "Officially Created AppImage. Check/Report @ https://github.com/Syllo/nvtop"
+web_url: "https://github.com/Syllo/nvtop"
+path: "/"
+src_url: "https://github.com/Syllo/nvtop"

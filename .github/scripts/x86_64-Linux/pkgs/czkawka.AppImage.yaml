@@ -1,0 +1,12 @@
+name: "czkawka.appimage"
+bin_id: "com.github.qarmin.czkawka"
+bin_name: "czkawka"
+bins:
+  - "czkawka.appimage"
+category:
+ - "Utility"
+description: "Multi functional app to find duplicates, empty folders, similar images, broken files etc."
+note: "Officially Created AppImage. Check/Report @ https://github.com/qarmin/czkawka"
+web_url: "https://github.com/qarmin/czkawka"
+path: "/"
+src_url: "https://github.com/qarmin/czkawka"

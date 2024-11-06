@@ -1,0 +1,13 @@
+name: "protonup-qt.appimage"
+bin_id: "net.davidotek.pupgui2"
+bin_name: "protonup-qt"
+bins:
+  - "protonup-qt.appimage"
+category:
+ - "Game"
+ - "Utility"
+description: "Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris"
+note: "Officially Created AppImage. Check/Report @ https://github.com/DavidoTek/ProtonUp-Qt"
+web_url: "https://davidotek.github.io/protonup-qt"
+path: "/"
+src_url: "https://github.com/DavidoTek/ProtonUp-Qt"

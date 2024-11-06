@@ -1,0 +1,12 @@
+name: "bottles.appimage"
+bin_id: "com.usebottles.bottles"
+bin_name: "bottles"
+bins:
+  - "bottles.appimage"
+category:
+ - "Emulator"
+description: "An easy-to-use wineprefix manager to Run Windows software and games on Linux"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Bottles-appimage"
+web_url: "https://usebottles.com"
+path: "/"
+src_url: "https://github.com/bottlesdevs/Bottles"

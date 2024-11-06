@@ -1,0 +1,13 @@
+name: "lite-xl.appbundle"
+bin_id: "com.lite_xl.LiteXL"
+bin_name: "lite-xl"
+bins:
+  - "lite-xl.dwfs.appbundle"
+category:
+ - "IDE"
+ - "TextEditor"
+description: "A lightweight, simple, fast, feature-filled, and extremely extensible text editor written in C, and Lua, adapted from lite"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://lite-xl.com"
+path: "/"
+src_url: "https://github.com/lite-xl/lite-xl"

@@ -1,0 +1,12 @@
+name: "86box.appimage"
+bin_id: "net._86box._86Box"
+bin_name: "86box"
+bins:
+  - "86box.appimage"
+category:
+ - "Emulator"
+description: "Emulator of x86-based machines"
+note: "Officially Created AppImage. Check/Report @ https://github.com/86Box/86Box. You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)"
+web_url: "https://86box.readthedocs.io"
+path: "/"
+src_url: "https://github.com/86Box/86Box"

@@ -1,0 +1,13 @@
+name: "inkscape.appimage"
+bin_id: "org.inkscape.Inkscape"
+bin_name: "inkscape"
+bins:
+  - "inkscape.appimage"
+category:
+ - "Graphics"
+ - "Office"
+description: "FOSS Vector Graphics Editor"
+note: "Officially Created AppImage. Check/Report @ https://gitlab.com/inkscape/inkscape"
+web_url: "https://inkscape.org"
+path: "/"
+src_url: "https://gitlab.com/inkscape/inkscape"

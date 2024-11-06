@@ -1,0 +1,12 @@
+name: "ryujinx.appimage"
+bin_id: "org.ryujinx.Ryujinx"
+bin_name: "ryujinx"
+bins:
+  - "ryujinx.appimage"
+category:
+ - "Emulator"
+description: "A simple, experimental Nintendo Switch emulator"
+note: "Officially Created AppImage. Check/Report @ https://github.com/ryujinx-mirror/ryujinx"
+web_url: "https://github.com/ryujinx-mirror/ryujinx"
+path: "/"
+src_url: "https://github.com/ryujinx-mirror/ryujinx"

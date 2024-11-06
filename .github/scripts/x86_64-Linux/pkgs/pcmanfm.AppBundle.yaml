@@ -1,0 +1,13 @@
+name: "pcmanfm.appbundle"
+bin_id: "org.lxqt-project.pcmanfm"
+bin_name: "pcmanfm"
+bins:
+  - "pcmanfm.dwfs.appbundle"
+category:
+ - "Core"
+ - "FileManager"
+description: "Extremely fast and lightweight file manager"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://github.com/lxde/pcmanfm"
+path: "/"
+src_url: "https://github.com/lxde/pcmanfm"

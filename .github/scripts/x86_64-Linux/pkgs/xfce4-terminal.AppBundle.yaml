@@ -1,0 +1,13 @@
+name: "xfce4-terminal.appbundle"
+bin_id: "org.xfce.terminal"
+bin_name: "xfce4-terminal"
+bins:
+  - "xfce4-terminal.dwfs.appbundle"
+category:
+ - "Core"
+ - "TerminalEmulator"
+description: "A lightweight and easy to use Terminal Emulator"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://docs.xfce.org/apps/xfce4-terminal/start"
+path: "/"
+src_url: "https://gitlab.xfce.org/apps/xfce4-terminal"

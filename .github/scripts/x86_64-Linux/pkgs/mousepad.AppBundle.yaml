@@ -1,0 +1,12 @@
+name: "mousepad.appbundle"
+bin_id: "org.xfce.mousepad"
+bin_name: "mousepad"
+bins:
+  - "mousepad.dwfs.appbundle"
+category:
+ - "TextEditor"
+description: "An easy-to-use, Fast & Simple Editor"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://docs.xfce.org/apps/mousepad/start"
+path: "/"
+src_url: "https://gitlab.xfce.org/apps/mousepad"

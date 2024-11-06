@@ -1,0 +1,12 @@
+name: "duckstation.appimage"
+bin_id: "org.duckstation.DuckStation"
+bin_name: "duckstation"
+bins:
+  - "duckstation.appimage"
+category:
+ - "Emulator"
+description: "A fast Simulator/Emulator of the Sony PlayStation(TM) Console"
+note: "Officially Created AppImage. Check/Report @ https://github.com/stenzek/duckstation"
+web_url: "https://github.com/stenzek/duckstation"
+path: "/"
+src_url: "https://github.com/stenzek/duckstation"

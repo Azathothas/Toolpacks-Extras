@@ -1,0 +1,13 @@
+name: "pacman"
+bin_id: ""
+bin_name: "pacman"
+bins:
+  - "pacman.appimage"
+category:
+ - "package-manager"
+ - "utility"
+description: "ArchLinux's package manager combining a simple binary package format with an easy-to-use build system (AppImage)"
+note: "This PKG is a multicall binary rename/symlink or use as arg directly. (makepkg | makepkg-template | pacman | pacman-conf | pacman-db-upgrade | pacman-key | repo-add | repo-elephant | repo-remove | testpkg | vercmp)"
+web_url: "https://wiki.archlinux.org/title/Pacman"
+path: "/"
+src_url: "https://gitlab.archlinux.org/pacman/pacman"

@@ -1,0 +1,13 @@
+name: "librewolf.flatimage"
+bin_id: "io.gitlab.librewolf-community"
+bin_name: "librewolf"
+bins:
+  - "librewolf-cachyos.flatimage"
+category:
+ - "WebBrowser"
+ - "Security"
+description: "A custom version of Firefox, focused on privacy, security and freedom"
+note: "FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages"
+web_url: "https://librewolf.net"
+path: "/"
+src_url: "https://codeberg.org/librewolf/source"

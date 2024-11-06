@@ -1,0 +1,13 @@
+name: "zoom-us.appimage"
+bin_id: "us.zoom.Zoom"
+bin_name: "zoom"
+bins:
+  - "zoom-us.appimage"
+category:
+ - "RemoteAccess"
+ - "VideoConference"
+description: "zoom.us video conferencing application"
+note: "Community Created AppImage. Check/Report @ https://github.com/probonopd/Zoom.appimage"
+web_url: "https://zoom.us"
+path: "/"
+src_url: "https://github.com/probonopd/Zoom.appimage"

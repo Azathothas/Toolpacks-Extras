@@ -1,0 +1,13 @@
+name: "gimp.appimage"
+bin_id: "org.gimp.GIMP"
+bin_name: "gimp"
+bins:
+  - "gimp.appimage"
+category:
+ - "Graphics"
+ - "ImageProcessing"
+description: "The GNU Image Manipulation Program"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/GIMP-appimage"
+web_url: "https://www.gimp.org"
+path: "/"
+src_url: "https://gitlab.gnome.org/GNOME/gimp"

@@ -1,0 +1,13 @@
+name: "deadbeef-stable.appimage"
+bin_id: "io.sourceforge.deadbeefStable"
+bin_name: "deadbeef"
+bins:
+  - "deadbeef-stable.appimage"
+category:
+ - "Music"
+ - "Player"
+description: "A Modular (Extensible with Plugins) Audio Player that can play & convert almost all Audio Formats (Stable)"
+note: "Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/DeaDBeeF-AppImage"
+web_url: "https://deadbeef.sourceforge.io"
+path: "/"
+src_url: "https://github.com/DeaDBeeF-Player/deadbeef"

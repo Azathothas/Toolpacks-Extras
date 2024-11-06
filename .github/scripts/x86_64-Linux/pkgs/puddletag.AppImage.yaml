@@ -1,0 +1,13 @@
+name: "puddletag.appimage"
+bin_id: "net.puddletag.puddletag"
+bin_name: "puddletag"
+bins:
+  - "puddletag.appimage"
+category:
+ - "AudioVideoEditing"
+ - "Music"
+description: "Powerful, simple, audio tag editor for GNU/Linux"
+note: "Community Created AppImage. Check/Report @ https://github.com/Samueru-sama/puddletag-AppImage"
+web_url: "https://docs.puddletag.net"
+path: "/"
+src_url: "https://github.com/puddletag/puddletag"

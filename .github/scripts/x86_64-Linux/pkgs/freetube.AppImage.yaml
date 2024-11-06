@@ -1,0 +1,13 @@
+name: "freetube.appimage"
+bin_id: "io.freetubeapp.FreeTube"
+bin_name: "freetube"
+bins:
+  - "freetube.appimage"
+category:
+ - "Player"
+ - "TV"
+description: "An Open Source YouTube app for privacy"
+note: "Officially Created AppImage. Check/Report @ https://github.com/FreeTubeApp/FreeTube"
+web_url: "https://freetubeapp.io"
+path: "/"
+src_url: "https://github.com/FreeTubeApp/FreeTube"

@@ -1,0 +1,15 @@
+name: "imagemagick.appbundle"
+bin_id: "org.imagemagick"
+bin_name: "magick"
+bins:
+  - "imagemagick.dwfs.appbundle"
+category:
+ - "ConsoleOnly"
+ - "Graphics"
+ - "ImageProcessing"
+ - "Utility"
+description: "FOSS suite for editing and manipulating Digital Images & Files"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://imagemagick.org"
+path: "/"
+src_url: "https://github.com/ImageMagick/ImageMagick"

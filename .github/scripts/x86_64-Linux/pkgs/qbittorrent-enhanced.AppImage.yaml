@@ -1,0 +1,13 @@
+name: "qbittorrent-enhanced.appimage"
+bin_id: "org.qbittorrent.qBittorrent"
+bin_name: "qbittorrent-enhanced"
+bins:
+  - "qbittorrent-enhanced.appimage"
+category:
+ - "Network"
+ - "P2P"
+description: "A qBittorrent for with Enhanced Features"
+note: "Officially Created AppImage. Check/Report @ https://github.com/c0re100/qBittorrent-Enhanced-Edition"
+web_url: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
+path: "/"
+src_url: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"

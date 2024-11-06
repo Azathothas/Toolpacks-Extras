@@ -1,0 +1,14 @@
+name: "acreom.appimage"
+bin_id: "xxx.acreom.acreom"
+bin_name: "acreom"
+bins:
+  - "acreom.appimage"
+category:
+ - "Database"
+ - "Education"
+ - "IDE" 
+description: "An IDE based Knowledge Base using Markdown (AppImage)"
+note: "Officially Created AppImage. Check/Report @ https://github.com/Acreom/releases"
+web_url: "https://acreom.com"
+path: "/"
+src_url: "https://github.com/Acreom/releases"

@@ -1,0 +1,14 @@
+name: "ristretto.appbundle"
+bin_id: "org.xfce.ristretto"
+bin_name: "ristretto"
+bins:
+  - "ristretto.dwfs.appbundle"
+category:
+ - "ImageProcessing"
+ - "Photography"
+ - "Viewer"
+description: "An Image Viewer"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://docs.xfce.org/apps/ristretto/start"
+path: "/"
+src_url: "https://gitlab.xfce.org/apps/ristretto"

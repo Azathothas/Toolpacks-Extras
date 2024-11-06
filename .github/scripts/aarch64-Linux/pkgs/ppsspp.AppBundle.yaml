@@ -1,0 +1,13 @@
+name: "ppsspp.appbundle"
+bin_id: "org.ppsspp.PPSSPP"
+bin_name: "ppsspp"
+bins:
+  - "ppsspp.dwfs.appbundle"
+category:
+ - "Emulator"
+ - "Game"
+description: "A Fast and Portable PSP emulator"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://www.ppsspp.org"
+path: "/"
+src_url: "https://github.com/hrydgard/ppsspp"

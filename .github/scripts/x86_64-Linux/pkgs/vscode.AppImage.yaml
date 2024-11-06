@@ -1,0 +1,13 @@
+name: "vscode.appimage"
+bin_id: "com.visualstudio.code"
+bin_name: "vscode"
+bins:
+  - "vscode.appimage"
+category:
+ - "Development"
+ - "IDE"
+description: "Open source source code editor developed by Microsoft"
+note: "Community Created AppImage. Check/Report @ https://github.com/valicm/VSCode-AppImage"
+web_url: "https://code.visualstudio.com"
+path: "/"
+src_url: "https://github.com/microsoft/vscode"

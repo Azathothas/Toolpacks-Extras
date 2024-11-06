@@ -1,0 +1,12 @@
+name: "chromium.appbundle"
+bin_id: "org.chromium.Chromium"
+bin_name: "chromium"
+bins:
+  - "chromium.dwfs.appbundle"
+category:
+ - "WebBrowser"
+description: "Open source web browser from Google"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://www.chromium.org"
+path: "/"
+src_url: "https://chromium.googlesource.com/chromium/src.git"

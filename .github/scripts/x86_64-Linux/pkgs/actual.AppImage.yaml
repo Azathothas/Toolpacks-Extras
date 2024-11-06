@@ -1,0 +1,12 @@
+name: "actual.appimage"
+bin_id: "xxx.actual.actual"
+bin_name: "actual"
+bins:
+  - "actual.appimage"
+category:
+ - "Finance"
+description: "A local-first personal finance app"
+note: "Officially Created AppImage. Check/Report @ https://github.com/actualbudget/actual"
+web_url: "https://actualbudget.org"
+path: "/"
+src_url: "https://github.com/actualbudget/actual"

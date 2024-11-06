@@ -1,0 +1,12 @@
+name: "falkon.appbundle"
+bin_id: "org.kde.falkon.desktop"
+bin_name: "falkon"
+bins:
+  - "falkon.dwfs.appbundle"
+category:
+ - "WebBrowser"
+description: "A KDE web browser with the QtWebEngine Rendering Engine"
+note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
+web_url: "https://www.falkon.org"
+path: "/"
+src_url: "https://invent.kde.org/network/falkon"

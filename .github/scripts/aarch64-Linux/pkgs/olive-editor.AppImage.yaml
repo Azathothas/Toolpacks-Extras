@@ -1,0 +1,12 @@
+name: "olive-editor.appimage"
+bin_id: "org.olivevideoeditor.Olive"
+bin_name: "olive"
+bins:
+  - "olive-editor.appimage"  
+category:
+ - "AudioVideoEditing"
+description: "Free open-source non-linear video editor"
+note: "Officially Created AppImage. Check/Report @ https://github.com/olive-editor/olive"
+web_url: "https://www.olivevideoeditor.org"
+path: "/"
+src_url: "https://github.com/olive-editor/olive"

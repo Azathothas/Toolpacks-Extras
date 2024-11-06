@@ -1,0 +1,13 @@
+name: "puddletag"
+bin_id: "net.puddletag.puddletag"
+bin_name: "puddletag"
+bins:
+  - "puddletag.nixappimage"
+category:
+ - "AudioVideoEditing"
+ - "Music"
+description: "Powerful, simple, audio tag editor for GNU/Linux (NixAppImage)"
+note: "(CI_VERIFIED: https://github.com/puddletag/puddletag/actions)"
+web_url: "https://docs.puddletag.net"
+path: "/"
+src_url: "https://github.com/puddletag/puddletag"

@@ -1,0 +1,14 @@
+name: "libreoffice.appimage"
+bin_id: "org.libreoffice.LibreOffice"
+bin_name: "libreoffice"
+bins:
+  - "libreoffice.appimage"
+category:
+ - "Education"
+ - "Office"
+ - "TextEditor"
+description: "Comprehensive, professional-quality productivity suite, a variant of openoffice.org (Standard)"
+note: "Officially Created AppImage. Check/Report @ https://gerrit.libreoffice.org"
+web_url: "https://www.libreoffice.org"
+path: "/"
+src_url: "https://github.com/LibreOffice/core"

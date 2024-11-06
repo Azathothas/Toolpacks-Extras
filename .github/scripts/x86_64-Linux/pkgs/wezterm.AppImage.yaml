@@ -1,0 +1,12 @@
+name: "wezterm.appimage"
+bin_id: "org.wezfurlong.wezterm"
+bin_name: "wezterm"
+bins:
+  - "wezterm.appimage"
+category:
+ - "TerminalEmulator"
+description: "A GPU-accelerated cross-platform Terminal Emulator and Multiplexer"
+note: "Officially Created AppImage. Check/Report @ https://github.com/wez/wezterm"
+web_url: "https://wezfurlong.org/wezterm"
+path: "/"
+src_url: "https://github.com/wez/wezterm"

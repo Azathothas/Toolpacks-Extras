@@ -1,0 +1,1782 @@
+[
+  {
+    "filename": ".",
+    "size": "36.86 KB"
+  },
+  {
+    "filename": "./librewolf.AppImage",
+    "size": "89.11 MB"
+  },
+  {
+    "filename": "./librewolf.AppImage.version",
+    "size": "9 B"
+  },
+  {
+    "filename": "./librewolf.AppImage.zsync",
+    "size": "304.8 KB"
+  },
+  {
+    "filename": "./librewolf.DirIcon",
+    "size": "25.16 KB"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "size": "261.27 MB"
+  },
+  {
+    "filename": "./librewolf.NixAppImage.version",
+    "size": "10 B"
+  },
+  {
+    "filename": "./librewolf.NixAppImage.zsync",
+    "size": "446.73 KB"
+  },
+  {
+    "filename": "./librewolf.desktop",
+    "size": "677 B"
+  },
+  {
+    "filename": "./librewolf.icon.png",
+    "size": "25.16 KB"
+  },
+  {
+    "filename": "./librewolf.log",
+    "size": "2.39 MB"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "size": "4581 B"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage.version",
+    "size": "12 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.version",
+    "size": "4 B"
+  },
+  {
+    "filename": "./inkscape.DirIcon",
+    "size": "39.29 KB"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "size": "196.28 MB"
+  },
+  {
+    "filename": "./inkscape.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./inkscape.NixAppImage.zsync",
+    "size": "335.65 KB"
+  },
+  {
+    "filename": "./inkscape.desktop",
+    "size": "19.49 KB"
+  },
+  {
+    "filename": "./inkscape.icon.png",
+    "size": "39.29 KB"
+  },
+  {
+    "filename": "./inkscape.log",
+    "size": "4 MB"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "size": "6431 B"
+  },
+  {
+    "filename": "./86box.AppImage",
+    "size": "54.23 MB"
+  },
+  {
+    "filename": "./86box.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./86box.AppImage.zsync",
+    "size": "185.57 KB"
+  },
+  {
+    "filename": "./86box.DirIcon",
+    "size": "39.33 KB"
+  },
+  {
+    "filename": "./86box.desktop",
+    "size": "264 B"
+  },
+  {
+    "filename": "./86box.icon.png",
+    "size": "39.33 KB"
+  },
+  {
+    "filename": "./86box.log",
+    "size": "15.48 KB"
+  },
+  {
+    "filename": "./affine.log",
+    "size": "3854 B"
+  },
+  {
+    "filename": "./aisap.log",
+    "size": "31.52 KB"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "size": "75.41 KB"
+  },
+  {
+    "filename": "./puddletag.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./puddletag.desktop",
+    "size": "172 B"
+  },
+  {
+    "filename": "./puddletag.log",
+    "size": "2.55 MB"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "size": "17.99 KB"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "size": "4.53 MB"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "size": "4.56 MB"
+  },
+  {
+    "filename": "./aisap.AppImage",
+    "size": "2.51 MB"
+  },
+  {
+    "filename": "./aisap.AppImage.version",
+    "size": "14 B"
+  },
+  {
+    "filename": "./aisap.AppImage.zsync",
+    "size": "7560 B"
+  },
+  {
+    "filename": "./aisap.DirIcon",
+    "size": "86.49 KB"
+  },
+  {
+    "filename": "./aisap.desktop",
+    "size": "281 B"
+  },
+  {
+    "filename": "./aisap.icon.png",
+    "size": "86.49 KB"
+  },
+  {
+    "filename": "./android-tools.log",
+    "size": "62.06 KB"
+  },
+  {
+    "filename": "./dunst.AppImage",
+    "size": "12.27 MB"
+  },
+  {
+    "filename": "./dunst.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./dunst.AppImage.zsync",
+    "size": "42.15 KB"
+  },
+  {
+    "filename": "./dunst.DirIcon",
+    "size": "3703 B"
+  },
+  {
+    "filename": "./dunst.desktop",
+    "size": "123 B"
+  },
+  {
+    "filename": "./dunst.icon.png",
+    "size": "3703 B"
+  },
+  {
+    "filename": "./dunst.log",
+    "size": "220.11 KB"
+  },
+  {
+    "filename": "./floorp.DirIcon",
+    "size": "26.81 KB"
+  },
+  {
+    "filename": "./floorp.NixAppImage",
+    "size": "282.56 MB"
+  },
+  {
+    "filename": "./floorp.NixAppImage.version",
+    "size": "8 B"
+  },
+  {
+    "filename": "./floorp.NixAppImage.zsync",
+    "size": "483.1 KB"
+  },
+  {
+    "filename": "./floorp.desktop",
+    "size": "653 B"
+  },
+  {
+    "filename": "./floorp.icon.png",
+    "size": "26.81 KB"
+  },
+  {
+    "filename": "./floorp.log",
+    "size": "2.49 MB"
+  },
+  {
+    "filename": "./persepolis.DirIcon",
+    "size": "31.65 KB"
+  },
+  {
+    "filename": "./persepolis.NixAppImage",
+    "size": "175.18 MB"
+  },
+  {
+    "filename": "./persepolis.NixAppImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./persepolis.NixAppImage.zsync",
+    "size": "299.61 KB"
+  },
+  {
+    "filename": "./persepolis.desktop",
+    "size": "715 B"
+  },
+  {
+    "filename": "./persepolis.icon.png",
+    "size": "31.65 KB"
+  },
+  {
+    "filename": "./persepolis.log",
+    "size": "3.35 MB"
+  },
+  {
+    "filename": "./android-tools.AppImage",
+    "size": "11.07 MB"
+  },
+  {
+    "filename": "./android-tools.AppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./android-tools.AppImage.zsync",
+    "size": "38.06 KB"
+  },
+  {
+    "filename": "./android-tools.DirIcon",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./android-tools.desktop",
+    "size": "186 B"
+  },
+  {
+    "filename": "./android-tools.icon.png",
+    "size": "19.6 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage",
+    "size": "24.25 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.version",
+    "size": "10 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.zsync",
+    "size": "83.09 KB"
+  },
+  {
+    "filename": "./ryujinx.DirIcon",
+    "size": "4869 B"
+  },
+  {
+    "filename": "./ryujinx.desktop",
+    "size": "402 B"
+  },
+  {
+    "filename": "./ryujinx.icon.png",
+    "size": "4869 B"
+  },
+  {
+    "filename": "./ryujinx.log",
+    "size": "15.53 KB"
+  },
+  {
+    "filename": "./imagemagick.DirIcon",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./imagemagick.desktop",
+    "size": "164 B"
+  },
+  {
+    "filename": "./imagemagick.icon.png",
+    "size": "571.08 KB"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "size": "63.04 MB"
+  },
+  {
+    "filename": "./magick.AppImage.zsync",
+    "size": "215.68 KB"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "size": "51.13 KB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "size": "19.57 MB"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle.version",
+    "size": "9 B"
+  },
+  {
+    "filename": "./base.default.png",
+    "size": "38.1 KB"
+  },
+  {
+    "filename": "./bin.default.png",
+    "size": "19.73 KB"
+  },
+  {
+    "filename": "./pkg.default.png",
+    "size": "40.22 KB"
+  },
+  {
+    "filename": "./signal-desktop.DirIcon",
+    "size": "36.09 KB"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage",
+    "size": "395.37 MB"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./signal-desktop.desktop",
+    "size": "357 B"
+  },
+  {
+    "filename": "./signal-desktop.icon.png",
+    "size": "36.09 KB"
+  },
+  {
+    "filename": "./signal-desktop.log",
+    "size": "1.22 MB"
+  },
+  {
+    "filename": "./pacman.log",
+    "size": "68.16 KB"
+  },
+  {
+    "filename": "./browservice.log",
+    "size": "3924 B"
+  },
+  {
+    "filename": "./imagemagick.arch.icon.png",
+    "size": "494 B"
+  },
+  {
+    "filename": "./imagemagick.arch.icon.svg",
+    "size": "2772 B"
+  },
+  {
+    "filename": "./inkscape.arch.appdata.xml",
+    "size": "53.95 KB"
+  },
+  {
+    "filename": "./inkscape.arch.desktop",
+    "size": "18.24 KB"
+  },
+  {
+    "filename": "./inkscape.arch.icon.png",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.arch.icon.svg",
+    "size": "1408 B"
+  },
+  {
+    "filename": "./inkscape.debian.appdata.xml",
+    "size": "49.63 KB"
+  },
+  {
+    "filename": "./inkscape.debian.desktop",
+    "size": "19.2 KB"
+  },
+  {
+    "filename": "./inkscape.debian.icon.png",
+    "size": "353 B"
+  },
+  {
+    "filename": "./inkscape.debian.icon.svg",
+    "size": "10.71 KB"
+  },
+  {
+    "filename": "./obs-studio.debian.appdata.xml",
+    "size": "3061 B"
+  },
+  {
+    "filename": "./obs-studio.debian.desktop",
+    "size": "6414 B"
+  },
+  {
+    "filename": "./obs-studio.debian.icon.png",
+    "size": "86 B"
+  },
+  {
+    "filename": "./obs-studio.debian.icon.svg",
+    "size": "426 B"
+  },
+  {
+    "filename": "./pacman.debian.desktop",
+    "size": "273 B"
+  },
+  {
+    "filename": "./persepolis.arch.appdata.xml",
+    "size": "2021 B"
+  },
+  {
+    "filename": "./persepolis.arch.desktop",
+    "size": "1319 B"
+  },
+  {
+    "filename": "./persepolis.arch.icon.svg",
+    "size": "2182 B"
+  },
+  {
+    "filename": "./persepolis.debian.desktop",
+    "size": "594 B"
+  },
+  {
+    "filename": "./persepolis.debian.icon.svg",
+    "size": "2182 B"
+  },
+  {
+    "filename": "./puddletag.debian.desktop",
+    "size": "172 B"
+  },
+  {
+    "filename": "./puddletag.debian.icon.png",
+    "size": "32.48 KB"
+  },
+  {
+    "filename": "./puddletag.debian.icon.svg",
+    "size": "108.74 KB"
+  },
+  {
+    "filename": "./qbittorrent.arch.desktop",
+    "size": "10.51 KB"
+  },
+  {
+    "filename": "./qbittorrent.arch.icon.png",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.arch.icon.svg",
+    "size": "1462 B"
+  },
+  {
+    "filename": "./qbittorrent.arch.metainfo.xml",
+    "size": "3534 B"
+  },
+  {
+    "filename": "./qbittorrent.debian.appdata.xml",
+    "size": "3560 B"
+  },
+  {
+    "filename": "./qbittorrent.debian.desktop",
+    "size": "10.26 KB"
+  },
+  {
+    "filename": "./qbittorrent.debian.icon.png",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.debian.icon.svg",
+    "size": "1462 B"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage.zsync",
+    "size": "675.92 KB"
+  },
+  {
+    "filename": "./86box.AppImage.DirIcon",
+    "size": "39.33 KB"
+  },
+  {
+    "filename": "./86box.AppImage.desktop",
+    "size": "264 B"
+  },
+  {
+    "filename": "./86box.AppImage.icon.png",
+    "size": "39.33 KB"
+  },
+  {
+    "filename": "./86box.AppImage.log",
+    "size": "28.11 KB"
+  },
+  {
+    "filename": "./affine.AppImage.log",
+    "size": "11.72 KB"
+  },
+  {
+    "filename": "./browservice.AppImage",
+    "size": "242.63 MB"
+  },
+  {
+    "filename": "./browservice.AppImage.DirIcon",
+    "size": "11.68 KB"
+  },
+  {
+    "filename": "./browservice.AppImage.desktop",
+    "size": "168 B"
+  },
+  {
+    "filename": "./browservice.AppImage.icon.png",
+    "size": "11.68 KB"
+  },
+  {
+    "filename": "./browservice.AppImage.log",
+    "size": "27 KB"
+  },
+  {
+    "filename": "./browservice.AppImage.version",
+    "size": "10 B"
+  },
+  {
+    "filename": "./chromium-alpine.FlatImage",
+    "size": "227.34 MB"
+  },
+  {
+    "filename": "./chromium-alpine.FlatImage.version",
+    "size": "14 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.arch.appdata.xml",
+    "size": "1097 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.arch.desktop",
+    "size": "8469 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.arch.icon.png",
+    "size": "9614 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.log",
+    "size": "50.61 KB"
+  },
+  {
+    "filename": "./chromium.FlatImage.log",
+    "size": "63.2 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage",
+    "size": "425.35 MB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.DirIcon",
+    "size": "19.75 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.arch.appdata.xml",
+    "size": "1097 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.arch.desktop",
+    "size": "8469 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.arch.icon.png",
+    "size": "9614 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.desktop",
+    "size": "8569 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.icon.png",
+    "size": "19.75 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.log",
+    "size": "5.39 MB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.version",
+    "size": "14 B"
+  },
+  {
+    "filename": "./chromium.dwfs.AppBundle",
+    "size": "231.18 MB"
+  },
+  {
+    "filename": "./chromium.dwfs.AppBundle.version",
+    "size": "14 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.arch.appdata.xml",
+    "size": "76.93 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.arch.desktop",
+    "size": "16.18 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.arch.icon.png",
+    "size": "1878 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.arch.icon.svg",
+    "size": "34.94 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.debian.desktop",
+    "size": "16.07 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.log",
+    "size": "260.5 KB"
+  },
+  {
+    "filename": "./engrampa.dwfs.AppBundle",
+    "size": "16.92 MB"
+  },
+  {
+    "filename": "./engrampa.dwfs.AppBundle.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.arch.appdata.xml",
+    "size": "38.74 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.arch.desktop",
+    "size": "4020 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.arch.icon.png",
+    "size": "56.71 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.arch.icon.svg",
+    "size": "4887 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.debian.appdata.xml",
+    "size": "35.44 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.debian.desktop",
+    "size": "3709 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.debian.icon.png",
+    "size": "37.08 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.debian.icon.svg",
+    "size": "4887 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.log",
+    "size": "317.17 KB"
+  },
+  {
+    "filename": "./falkon.dwfs.AppBundle",
+    "size": "283.22 MB"
+  },
+  {
+    "filename": "./falkon.dwfs.AppBundle.version",
+    "size": "8 B"
+  },
+  {
+    "filename": "./firefox.AppBundle.arch.desktop",
+    "size": "33.44 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.arch.icon.png",
+    "size": "53.45 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.arch.icon.svg",
+    "size": "1149 B"
+  },
+  {
+    "filename": "./firefox.AppBundle.arch.metainfo.xml",
+    "size": "2312 B"
+  },
+  {
+    "filename": "./firefox.AppBundle.debian.icon.png",
+    "size": "32.44 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.debian.icon.svg",
+    "size": "2273 B"
+  },
+  {
+    "filename": "./firefox.AppBundle.log",
+    "size": "65.37 KB"
+  },
+  {
+    "filename": "./firefox.dwfs.AppBundle",
+    "size": "189.1 MB"
+  },
+  {
+    "filename": "./firefox.dwfs.AppBundle.version",
+    "size": "8 B"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.arch.icon.png",
+    "size": "494 B"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.arch.icon.svg",
+    "size": "2772 B"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.log",
+    "size": "80.74 KB"
+  },
+  {
+    "filename": "./imagemagick.dwfs.AppBundle",
+    "size": "12.35 MB"
+  },
+  {
+    "filename": "./imagemagick.dwfs.AppBundle.version",
+    "size": "9 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.arch.appdata.xml",
+    "size": "53.95 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.arch.desktop",
+    "size": "18.24 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.arch.icon.png",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.arch.icon.svg",
+    "size": "1408 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.debian.appdata.xml",
+    "size": "49.63 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.debian.desktop",
+    "size": "19.2 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.debian.icon.png",
+    "size": "353 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.debian.icon.svg",
+    "size": "10.71 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.log",
+    "size": "1.02 MB"
+  },
+  {
+    "filename": "./inkscape.AppImage.arch.appdata.xml",
+    "size": "53.95 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.arch.desktop",
+    "size": "18.24 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.arch.icon.png",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.arch.icon.svg",
+    "size": "1408 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.debian.appdata.xml",
+    "size": "49.63 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.debian.desktop",
+    "size": "19.2 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.debian.icon.png",
+    "size": "353 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.debian.icon.svg",
+    "size": "10.71 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.log",
+    "size": "727.11 KB"
+  },
+  {
+    "filename": "./librewolf-arch.FlatImage",
+    "size": "576.56 MB"
+  },
+  {
+    "filename": "./librewolf-arch.FlatImage.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./librewolf.AppImage.DirIcon",
+    "size": "13.02 KB"
+  },
+  {
+    "filename": "./librewolf.AppImage.desktop",
+    "size": "714 B"
+  },
+  {
+    "filename": "./librewolf.AppImage.icon.png",
+    "size": "13.02 KB"
+  },
+  {
+    "filename": "./librewolf.AppImage.log",
+    "size": "39.91 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.log",
+    "size": "107.41 KB"
+  },
+  {
+    "filename": "./mousepad.AppBundle.arch.appdata.xml",
+    "size": "33.28 KB"
+  },
+  {
+    "filename": "./mousepad.AppBundle.arch.desktop",
+    "size": "5660 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.arch.icon.png",
+    "size": "4584 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.arch.icon.svg",
+    "size": "13.7 KB"
+  },
+  {
+    "filename": "./mousepad.AppBundle.debian.appdata.xml",
+    "size": "30.82 KB"
+  },
+  {
+    "filename": "./mousepad.AppBundle.debian.desktop",
+    "size": "4001 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.debian.icon.png",
+    "size": "3111 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.debian.icon.svg",
+    "size": "98.09 KB"
+  },
+  {
+    "filename": "./mousepad.AppBundle.log",
+    "size": "122.26 KB"
+  },
+  {
+    "filename": "./mousepad.dwfs.AppBundle",
+    "size": "17.52 MB"
+  },
+  {
+    "filename": "./mousepad.dwfs.AppBundle.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.debian.appdata.xml",
+    "size": "3061 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.debian.desktop",
+    "size": "6414 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.debian.icon.png",
+    "size": "86 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.debian.icon.svg",
+    "size": "426 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.log",
+    "size": "115.94 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.log",
+    "size": "49.43 KB"
+  },
+  {
+    "filename": "./pcmanfm.AppBundle.arch.desktop",
+    "size": "6533 B"
+  },
+  {
+    "filename": "./pcmanfm.AppBundle.debian.desktop",
+    "size": "6533 B"
+  },
+  {
+    "filename": "./pcmanfm.AppBundle.log",
+    "size": "74.93 KB"
+  },
+  {
+    "filename": "./pcmanfm.dwfs.AppBundle",
+    "size": "17.13 MB"
+  },
+  {
+    "filename": "./pcmanfm.dwfs.AppBundle.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.log",
+    "size": "66.47 KB"
+  },
+  {
+    "filename": "./ppsspp.dwfs.AppBundle",
+    "size": "157.72 MB"
+  },
+  {
+    "filename": "./ppsspp.dwfs.AppBundle.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.arch.desktop",
+    "size": "10.54 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.arch.icon.png",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.arch.icon.svg",
+    "size": "1462 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.arch.metainfo.xml",
+    "size": "3534 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.debian.appdata.xml",
+    "size": "3560 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.debian.desktop",
+    "size": "10.26 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.debian.icon.png",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.debian.icon.svg",
+    "size": "1462 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.log",
+    "size": "116.89 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.arch.appdata.xml",
+    "size": "27.52 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.arch.desktop",
+    "size": "7367 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.arch.icon.png",
+    "size": "9149 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.arch.icon.svg",
+    "size": "13.45 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.debian.appdata.xml",
+    "size": "26.91 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.debian.desktop",
+    "size": "7367 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.debian.icon.png",
+    "size": "8795 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.debian.icon.svg",
+    "size": "30.22 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.log",
+    "size": "114.83 KB"
+  },
+  {
+    "filename": "./ristretto.dwfs.AppBundle",
+    "size": "17.04 MB"
+  },
+  {
+    "filename": "./ristretto.dwfs.AppBundle.version",
+    "size": "7 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.DirIcon",
+    "size": "4869 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.desktop",
+    "size": "402 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.icon.png",
+    "size": "4869 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.log",
+    "size": "82.85 KB"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.arch.desktop",
+    "size": "6489 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.arch.icon.png",
+    "size": "4435 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.arch.icon.svg",
+    "size": "6942 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.debian.desktop",
+    "size": "6489 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.debian.icon.png",
+    "size": "3000 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.debian.icon.svg",
+    "size": "6942 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.log",
+    "size": "96.44 KB"
+  },
+  {
+    "filename": "./xfce4-terminal.dwfs.AppBundle",
+    "size": "20.92 MB"
+  },
+  {
+    "filename": "./xfce4-terminal.dwfs.AppBundle.version",
+    "size": "6 B"
+  },
+  {
+    "filename": "./chromium.dwfs.AppBundle.icon.png",
+    "size": "4393 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.DirIcon",
+    "size": "1878 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.icon.png",
+    "size": "1878 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.icon.svg",
+    "size": "34.94 KB"
+  },
+  {
+    "filename": "./engrampa.dwfs.AppBundle.icon.png",
+    "size": "856 B"
+  },
+  {
+    "filename": "./falkon.AppBundle.DirIcon",
+    "size": "56.71 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.icon.png",
+    "size": "56.71 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.icon.svg",
+    "size": "4887 B"
+  },
+  {
+    "filename": "./falkon.dwfs.AppBundle.icon.png",
+    "size": "3465 B"
+  },
+  {
+    "filename": "./firefox.AppBundle.DirIcon",
+    "size": "32.44 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.icon.png",
+    "size": "32.44 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.icon.svg",
+    "size": "2273 B"
+  },
+  {
+    "filename": "./firefox.dwfs.AppBundle.icon.png",
+    "size": "21.84 KB"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.DirIcon",
+    "size": "494 B"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.icon.png",
+    "size": "494 B"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.icon.svg",
+    "size": "2772 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.DirIcon",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.icon.png",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppBundle.icon.svg",
+    "size": "10.71 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.DirIcon",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.icon.png",
+    "size": "1898 B"
+  },
+  {
+    "filename": "./inkscape.AppImage.icon.svg",
+    "size": "1408 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.DirIcon",
+    "size": "4584 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.icon.png",
+    "size": "4584 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.icon.svg",
+    "size": "13.7 KB"
+  },
+  {
+    "filename": "./mousepad.dwfs.AppBundle.icon.png",
+    "size": "4584 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.DirIcon",
+    "size": "86 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.icon.png",
+    "size": "86 B"
+  },
+  {
+    "filename": "./obs-studio.AppImage.icon.svg",
+    "size": "426 B"
+  },
+  {
+    "filename": "./ppsspp.dwfs.AppBundle.icon.png",
+    "size": "7428 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.DirIcon",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.icon.png",
+    "size": "11.13 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.icon.svg",
+    "size": "1462 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.DirIcon",
+    "size": "9149 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.icon.png",
+    "size": "9149 B"
+  },
+  {
+    "filename": "./ristretto.AppBundle.icon.svg",
+    "size": "13.45 KB"
+  },
+  {
+    "filename": "./ristretto.dwfs.AppBundle.icon.png",
+    "size": "9149 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.DirIcon",
+    "size": "4435 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.icon.png",
+    "size": "4435 B"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.icon.svg",
+    "size": "6942 B"
+  },
+  {
+    "filename": "./xfce4-terminal.dwfs.AppBundle.icon.png",
+    "size": "1746 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.DirIcon",
+    "size": "9614 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.icon.png",
+    "size": "9614 B"
+  },
+  {
+    "filename": "./86box.AppImage.appdata.xml",
+    "size": "1445 B"
+  },
+  {
+    "filename": "./librewolf.AppImage.appdata.xml",
+    "size": "2740 B"
+  },
+  {
+    "filename": "./browservice.AppImage.zsync",
+    "size": "829.52 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.zsync",
+    "size": "1.45 MB"
+  },
+  {
+    "filename": "./librewolf.AppImage.arch.desktop",
+    "size": "14.95 KB"
+  },
+  {
+    "filename": "./librewolf.AppImage.arch.icon.png",
+    "size": "9394 B"
+  },
+  {
+    "filename": "./86box.AppImage.screen_1.png",
+    "size": "14.34 KB"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_1.png",
+    "size": "61.83 KB"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_2.png",
+    "size": "54.34 KB"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_3.png",
+    "size": "25.5 KB"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_4.png",
+    "size": "18.62 KB"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_5.png",
+    "size": "4025 B"
+  },
+  {
+    "filename": "./chromium.AppBundle.screen_6.png",
+    "size": "2584 B"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_1.png",
+    "size": "61.83 KB"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_2.png",
+    "size": "54.34 KB"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_3.png",
+    "size": "25.5 KB"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_4.png",
+    "size": "18.62 KB"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_5.png",
+    "size": "4025 B"
+  },
+  {
+    "filename": "./chromium.FlatImage.screen_6.png",
+    "size": "2584 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_1.png",
+    "size": "61.83 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_2.png",
+    "size": "54.34 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_3.png",
+    "size": "25.5 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_4.png",
+    "size": "18.62 KB"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_5.png",
+    "size": "4025 B"
+  },
+  {
+    "filename": "./chromium.NixAppImage.screen_6.png",
+    "size": "2584 B"
+  },
+  {
+    "filename": "./engrampa.AppBundle.screen_1.png",
+    "size": "123.16 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.screen_2.png",
+    "size": "122.75 KB"
+  },
+  {
+    "filename": "./engrampa.AppBundle.screen_3.png",
+    "size": "81.88 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_1.png",
+    "size": "227.85 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_2.png",
+    "size": "168.96 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_3.png",
+    "size": "129.78 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_4.png",
+    "size": "28.15 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_5.png",
+    "size": "21.03 KB"
+  },
+  {
+    "filename": "./falkon.AppBundle.screen_6.png",
+    "size": "12.99 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.screen_1.png",
+    "size": "841.93 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.screen_2.png",
+    "size": "743.61 KB"
+  },
+  {
+    "filename": "./firefox.AppBundle.screen_3.png",
+    "size": "246.98 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_1.png",
+    "size": "382.4 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_2.png",
+    "size": "265.24 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_3.png",
+    "size": "181.57 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_4.png",
+    "size": "138.46 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_5.png",
+    "size": "41.59 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_6.png",
+    "size": "30.33 KB"
+  },
+  {
+    "filename": "./inkscape.AppBundle.screen_7.png",
+    "size": "13.71 KB"
+  },
+  {
+    "filename": "./inkscape.AppImage.screen_1.png",
+    "size": "324.78 KB"
+  },
+  {
+    "filename": "./librewolf.AppImage.screen_1.png",
+    "size": "29.13 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.DirIcon",
+    "size": "9394 B"
+  },
+  {
+    "filename": "./librewolf.FlatImage.arch.desktop",
+    "size": "14.95 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.arch.icon.png",
+    "size": "9394 B"
+  },
+  {
+    "filename": "./librewolf.FlatImage.icon.png",
+    "size": "9394 B"
+  },
+  {
+    "filename": "./librewolf.FlatImage.screen_1.png",
+    "size": "19.97 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.screen_2.png",
+    "size": "14.78 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.screen_3.png",
+    "size": "10.73 KB"
+  },
+  {
+    "filename": "./librewolf.FlatImage.screen_4.png",
+    "size": "4539 B"
+  },
+  {
+    "filename": "./librewolf.FlatImage.screen_5.png",
+    "size": "2328 B"
+  },
+  {
+    "filename": "./mousepad.AppBundle.screen_1.png",
+    "size": "154.57 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_1.png",
+    "size": "446.65 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_2.png",
+    "size": "240.48 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_3.png",
+    "size": "104.71 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_4.png",
+    "size": "78.24 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_5.png",
+    "size": "15.57 KB"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_6.png",
+    "size": "13.38 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_1.png",
+    "size": "171.81 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_10.png",
+    "size": "88.56 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_11.png",
+    "size": "69.75 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_12.png",
+    "size": "42.39 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_13.png",
+    "size": "24.71 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_14.png",
+    "size": "22.91 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_15.png",
+    "size": "20.36 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_16.png",
+    "size": "20.1 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_17.png",
+    "size": "14.71 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_18.png",
+    "size": "7582 B"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_19.png",
+    "size": "10.43 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_2.png",
+    "size": "154.84 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_20.png",
+    "size": "8295 B"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_3.png",
+    "size": "144.59 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_4.png",
+    "size": "138.92 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_5.png",
+    "size": "133.72 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_6.png",
+    "size": "128.9 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_7.png",
+    "size": "120.02 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_8.png",
+    "size": "112.98 KB"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.screen_9.png",
+    "size": "99.7 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_1.png",
+    "size": "230.67 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_1.webp",
+    "size": "88.57 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_10.png",
+    "size": "81.22 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_11.png",
+    "size": "77.56 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_12.png",
+    "size": "57.26 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_13.png",
+    "size": "24.37 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_14.png",
+    "size": "19.49 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_15.png",
+    "size": "16.48 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_16.png",
+    "size": "15.57 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_17.png",
+    "size": "11.56 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_18.png",
+    "size": "7730 B"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_2.png",
+    "size": "175.3 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_2.webp",
+    "size": "58.06 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_3.png",
+    "size": "165.35 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_3.webp",
+    "size": "55.68 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_4.png",
+    "size": "130.84 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_4.webp",
+    "size": "49.71 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_5.png",
+    "size": "127.78 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_6.png",
+    "size": "105.6 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_7.png",
+    "size": "101.4 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_8.png",
+    "size": "96.53 KB"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_9.png",
+    "size": "95.68 KB"
+  },
+  {
+    "filename": "./ristretto.AppBundle.screen_1.png",
+    "size": "321.62 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_1.png",
+    "size": "25.36 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_10.png",
+    "size": "466.79 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_11.png",
+    "size": "332.22 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_12.png",
+    "size": "324.02 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_13.png",
+    "size": "307.42 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_14.png",
+    "size": "280.36 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_15.png",
+    "size": "219.73 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_16.png",
+    "size": "203.88 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_17.png",
+    "size": "64.63 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_18.png",
+    "size": "49.21 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_19.png",
+    "size": "35.97 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_2.png",
+    "size": "14.94 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_20.png",
+    "size": "35.75 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_21.png",
+    "size": "4385 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_22.png",
+    "size": "1994 B"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_3.png",
+    "size": "5.81 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_4.png",
+    "size": "1.74 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_5.png",
+    "size": "1.16 MB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_6.png",
+    "size": "757.85 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_7.png",
+    "size": "674.39 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_8.png",
+    "size": "658.17 KB"
+  },
+  {
+    "filename": "./ryujinx.AppImage.screen_9.png",
+    "size": "472.48 KB"
+  }
+]

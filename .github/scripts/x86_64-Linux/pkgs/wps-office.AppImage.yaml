@@ -1,0 +1,12 @@
+name: "wps-office.appimage"
+bin_id: "com.wps.Office"
+bin_name: "wps-office"
+bins:
+  - "wps-office.appimage"
+category:
+ - "Office"
+description: "Office suite, formerly Kingsoft Office"
+note: "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/WPS-Office-appimage"
+web_url: "https://www.wps.com"
+path: "/"
+src_url: "https://github.com/ivan-hc/WPS-Office-appimage"

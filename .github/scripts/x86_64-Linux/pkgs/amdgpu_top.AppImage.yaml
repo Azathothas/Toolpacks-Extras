@@ -1,0 +1,13 @@
+name: "amdgpu_top.appimage"
+bin_id: "xxx.amdgpu_top"
+bin_name: "amdgpu_top"
+bins:
+  - "amdgpu_top.appimage"
+category:
+ - "Monitor"
+ - "Utility"
+description: "Tool to display AMDGPU usage"
+note: "Officially Created AppImage. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top"
+web_url: "https://github.com/Umio-Yasuno/amdgpu_top"
+path: "/"
+src_url: "https://github.com/Umio-Yasuno/amdgpu_top"

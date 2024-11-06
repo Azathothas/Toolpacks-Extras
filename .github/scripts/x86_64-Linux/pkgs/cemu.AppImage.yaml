@@ -1,0 +1,13 @@
+name: "cemu.appimage"
+bin_id: "info.cemu.Cemu"
+bin_name: "cemu"
+bins:
+  - "cemu.appimage"
+category:
+ - "Emulator"
+ - "Game"
+description: "Wii U emulator"
+note: "Officially Created AppImage. Check/Report @ https://github.com/cemu-project/Cemu"
+web_url: "https://cemu.info"
+path: "/"
+src_url: "https://github.com/cemu-project/Cemu"

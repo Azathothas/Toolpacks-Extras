@@ -1,0 +1,1214 @@
+[
+  {
+    "filename": "./librewolf.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./librewolf.log",
+    "type": "ASCII text, with very long lines (499), with CR, LF line terminators"
+  },
+  {
+    "filename": "./librewolf.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./mullvad-browser.log",
+    "type": "ASCII text, with very long lines (332)"
+  },
+  {
+    "filename": "./mullvad-browser.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./BLAKE3SUM.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./FILE.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./SHA256SUM.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./SIZE.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.min.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.tar.xz",
+    "type": "XZ compressed data, checksum CRC64"
+  },
+  {
+    "filename": "./mullvad-browser.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape.log",
+    "type": "ASCII text, with very long lines (505), with CR, LF line terminators"
+  },
+  {
+    "filename": "./inkscape.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./olive-editor.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (505), with CR, LF line terminators"
+  },
+  {
+    "filename": "./86box.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./acreom.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./acreom.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./actual.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./actual.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./advanced-passgen.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./advanced-passgen.log",
+    "type": "ASCII text, with very long lines (513), with CR, LF line terminators"
+  },
+  {
+    "filename": "./affine.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./affine.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./aisap.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./aisap.log",
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./aisap.shimg",
+    "type": "POSIX shell script executable (binary data)"
+  },
+  {
+    "filename": "./i3.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./i3.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./i3.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./obs-studio.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./obs-studio.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (501), with CR, LF line terminators"
+  },
+  {
+    "filename": "./olive-editor.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./puddletag.log",
+    "type": "ASCII text, with very long lines (325)"
+  },
+  {
+    "filename": "./qbittorrent.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.log",
+    "type": "ASCII text, with very long lines (527), with CR, LF line terminators"
+  },
+  {
+    "filename": "./qbittorrent.log",
+    "type": "ASCII text, with very long lines (503), with CR, LF line terminators"
+  },
+  {
+    "filename": "./puddletag.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./android-tools.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./android-tools.log",
+    "type": "data"
+  },
+  {
+    "filename": "./deadbeef.log",
+    "type": "ASCII text, with very long lines (532), with CR, LF line terminators"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./dunst.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./dunst.log",
+    "type": "ASCII text, with CR, LF line terminators"
+  },
+  {
+    "filename": "./floorp.log",
+    "type": "ASCII text, with very long lines (324)"
+  },
+  {
+    "filename": "./floorp.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./METADATA.AIO.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.min.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./persepolis.log",
+    "type": "ASCII text, with very long lines (326)"
+  },
+  {
+    "filename": "./persepolis.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./qbittorrent.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./ryujinx.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./ryujinx.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (495), with CR, LF line terminators"
+  },
+  {
+    "filename": "./simplex-chat-desktop.log",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./magick.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./imagemagick.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./magick.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./signal-desktop.log",
+    "type": "ASCII text, with very long lines (331)"
+  },
+  {
+    "filename": "./signal-desktop.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./pacman.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./runimage-archlinux.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./steam.log",
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./steam.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./steam.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ae6c3f1bfe0be0f50b3df725b49f99e76d1f189f, stripped"
+  },
+  {
+    "filename": "./86box.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./browservice.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./chromium-alpine.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+  },
+  {
+    "filename": "./chromium.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.log",
+    "type": "Unicode text, UTF-8 text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./firefox-alpine.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ae6c3f1bfe0be0f50b3df725b49f99e76d1f189f, stripped"
+  },
+  {
+    "filename": "./firefox.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.log",
+    "type": "Unicode text, UTF-8 text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./floorp.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./floorp.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./floorp.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./librewolf.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mullvad-browser.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./obs-studio.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ryujinx.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=ae6c3f1bfe0be0f50b3df725b49f99e76d1f189f, stripped"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./signal-desktop.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./simplex-chat-desktop.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./simplex-chat-desktop.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./simplex-chat-desktop.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./steam.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./steam.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./steam.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.AppImage.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.AppImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./86box.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./acreom.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./actual.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./advanced-passgen.AppImage.log",
+    "type": "ASCII text, with very long lines (503), with CR, LF line terminators"
+  },
+  {
+    "filename": "./affine.AppImage.log",
+    "type": "ASCII text, with very long lines (502)"
+  },
+  {
+    "filename": "./browservice.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./browservice.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./chromium.AppBundle.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.AppBundle.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.AppBundle.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.AppBundle.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./chromium.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./chromium.FlatImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.FlatImage.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./chromium.FlatImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./chromium.NixAppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./chromium.NixAppImage.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./engrampa.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./engrampa.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./falkon.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./falkon.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./firefox.AppBundle.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.AppBundle.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.AppBundle.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./firefox.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./firefox.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./i3.AppImage.log",
+    "type": "ASCII text, with very long lines (475), with CR, LF line terminators"
+  },
+  {
+    "filename": "./imagemagick.AppBundle.log",
+    "type": "ASCII text, with very long lines (343), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./imagemagick.AppImage.log",
+    "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./imagemagick.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./inkscape.AppBundle.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./inkscape.AppBundle.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./inkscape.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (487), with CR, LF line terminators"
+  },
+  {
+    "filename": "./inkscape-dev.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (495), with CR, LF line terminators"
+  },
+  {
+    "filename": "./librewolf.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./librewolf-cachyos.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+  },
+  {
+    "filename": "./librewolf.FlatImage.log",
+    "type": "ASCII text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./mousepad.AppBundle.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mousepad.AppBundle.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./mousepad.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./mousepad.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./obs-studio.AppImage.log",
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./olive-editor.AppImage.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.AppImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.AppImage.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./olive-editor.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (495), with CR, LF line terminators"
+  },
+  {
+    "filename": "./pcmanfm.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./pcmanfm.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./ppsspp.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./ppsspp.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./puddletag.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./puddletag.AppImage.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./puddletag.AppImage.log",
+    "type": "ASCII text, with very long lines (489), with CR, LF line terminators"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (511), with CR, LF line terminators"
+  },
+  {
+    "filename": "./ristretto.AppBundle.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./ristretto.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./ristretto.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./ryujinx.AppImage.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./signal-desktop.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./signal-desktop.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (499), with CR, LF line terminators"
+  },
+  {
+    "filename": "./simplex-chat-desktop.AppImage.flatpak.stats.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./simplex-chat-desktop.AppImage.log",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./steam.AppImage.flatpak.appstream.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./steam.AppImage.flatpak.info.json",
+    "type": "JSON text data"
+  },
+  {
+    "filename": "./steam.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (481), with CR, LF line terminators"
+  },
+  {
+    "filename": "./steam-cachyos.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+  },
+  {
+    "filename": "./steam.FlatImage.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./xfce4-terminal.AppBundle.log",
+    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./xfce4-terminal.dwfs.AppBundle",
+    "type": "POSIX shell script, ASCII text executable"
+  },
+  {
+    "filename": "./olive-editor.AppImage.screen_1.jpg",
+    "type": "HTML document, ASCII text"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.screen_1.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.screen_2.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.screen_3.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent-enhanced.AppImage.screen_4.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_1.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_2.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_3.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./qbittorrent.AppImage.screen_4.webp",
+    "type": "RIFF (little-endian) data, Web/P image"
+  },
+  {
+    "filename": "./amdgpu_top.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./android-platform-tools.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./android-platform-tools.AppImage.log",
+    "type": "ASCII text, with very long lines (515), with CR, LF line terminators"
+  },
+  {
+    "filename": "./anydesk.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./anydesk.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./bottles.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./bottles.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./brave.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./brave.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./cemu.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./cemu.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./cpu-x.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./cpu-x.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./cursor.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./cursor.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./czkawka.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./czkawka.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./deadbeef-nightly.AppImage.log",
+    "type": "ASCII text, with very long lines (503), with CR, LF line terminators"
+  },
+  {
+    "filename": "./deadbeef-stable.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./desktopeditors.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./desktopeditors.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./discord.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./discord.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./dolphin-emu.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./dolphin-emu.AppImage.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./duckstation.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./duckstation.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./dunst.AppImage.log",
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
+  },
+  {
+    "filename": "./firedragon.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./firedragon.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./freetube.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./freetube.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (487), with CR, LF line terminators"
+  },
+  {
+    "filename": "./gimp.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./gimp.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (479), with CR, LF line terminators"
+  },
+  {
+    "filename": "./gimp.AppImage.screen_1.jpg:                  JPEG image data, JFIF standard 1.01, resolution (DPCM), density 28x28, segment length 16, Exif Standard",
+    "type": "[TIFF image data, little-endian, direntries=5, xresolution=74, yresolution=82, resolutionunit=3, software=GIMP 2.9.5, datetime=2017:05:22 23:26:42], progressive, precision 8, 1504x846, components 3"
+  },
+  {
+    "filename": "./gimp.AppImage.screen_2.jpg:                  JPEG image data, JFIF standard 1.01, resolution (DPCM), density 37x37, segment length 16, Exif Standard",
+    "type": "[TIFF image data, little-endian, direntries=5, xresolution=74, yresolution=82, resolutionunit=3, software=GIMP 2.9.5, datetime=2017:05:22 14:43:17], progressive, precision 8, 1504x846, components 3"
+  },
+  {
+    "filename": "./gnome-boxes.AppImage.log",
+    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./heroic.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./heroic.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./kdenlive.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./kdenlive.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (487), with CR, LF line terminators"
+  },
+  {
+    "filename": "./krita.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./krita.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (481), with CR, LF line terminators"
+  },
+  {
+    "filename": "./libreoffice.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./libreoffice.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./microsoft-edge-dev.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./microsoft-edge-dev.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (507), with CR, LF line terminators"
+  },
+  {
+    "filename": "./microsoft-edge-stable.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./microsoft-edge-stable.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (513), with CR, LF line terminators"
+  },
+  {
+    "filename": "./mpv.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./mpv.AppImage.log",
+    "type": "ASCII text, with very long lines (477), with CR, LF line terminators"
+  },
+  {
+    "filename": "./obsidian.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./obsidian.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (487), with CR, LF line terminators"
+  },
+  {
+    "filename": "./opera.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./opera.AppImage.log",
+    "type": "ASCII text, with very long lines (481), with CR, LF line terminators"
+  },
+  {
+    "filename": "./polybar.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./polybar.AppImage.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./prismlauncher.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./prismlauncher.AppImage.log",
+    "type": "ASCII text, with very long lines (497), with CR, LF line terminators"
+  },
+  {
+    "filename": "./protonup-qt.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./protonup-qt.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./siyuan.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./siyuan.AppImage.log",
+    "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./spotify.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./spotify.AppImage.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./vlc.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./vlc.AppImage.log",
+    "type": "ASCII text, with very long lines (477), with CR, LF line terminators"
+  },
+  {
+    "filename": "./vscode.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./vscode.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./vscodium.AppImage.log",
+    "type": "ASCII text"
+  },
+  {
+    "filename": "./wps-office.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./wps-office.AppImage.log",
+    "type": "ASCII text, with very long lines (491), with CR, LF line terminators"
+  },
+  {
+    "filename": "./xemu.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./xemu.AppImage.log",
+    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
+  },
+  {
+    "filename": "./zettlr.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./zettlr.AppImage.log",
+    "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+  },
+  {
+    "filename": "./zoom-us.AppImage.log",
+    "type": "ASCII text, with very long lines (502)"
+  },
+  {
+    "filename": "./firefox-dev.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./firefox-dev.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (562), with CR, LF line terminators"
+  },
+  {
+    "filename": "./firefox-esr.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./firefox-esr.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (493), with CR, LF line terminators"
+  },
+  {
+    "filename": "./firefox-nightly.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./firefox-nightly.AppImage.log",
+    "type": "Unicode text, UTF-8 text, with very long lines (501), with CR, LF line terminators"
+  },
+  {
+    "filename": "./ladybird-cachyos.FlatImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+  },
+  {
+    "filename": "./ladybird.FlatImage.log",
+    "type": "ASCII text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+  },
+  {
+    "filename": "./lite-xl.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./lite-xl.AppImage.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  },
+  {
+    "filename": "./nvtop.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./nvtop.AppImage.log",
+    "type": "ASCII text, with very long lines (481), with CR, LF line terminators"
+  },
+  {
+    "filename": "./rofi.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./rofi.AppImage.log",
+    "type": "ASCII text, with very long lines (479), with CR, LF line terminators"
+  },
+  {
+    "filename": "./wezterm.AppImage",
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9d7e67802fffc45391e9a993c33120227d1b7c78, stripped"
+  },
+  {
+    "filename": "./wezterm.AppImage.log",
+    "type": "ASCII text, with very long lines (485), with CR, LF line terminators"
+  }
+]

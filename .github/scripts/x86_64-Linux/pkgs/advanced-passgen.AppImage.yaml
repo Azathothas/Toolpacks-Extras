@@ -1,0 +1,13 @@
+name: "advanced-passgen.appimage"
+bin_id: "xxx.advanced-passgen.advanced-passgen"
+bin_name: "advanced-passgen"
+bins:
+  - "advanced-passgen.appimage"
+category:
+ - "Security"
+ - "Utility"
+description: "Advanced Password Generator"
+note: "Officially Created AppImage. Check/Report @ https://github.com/CodeDead/Advanced-PassGen"
+web_url: "https://advancedpassgen.codedead.com"
+path: "/"
+src_url: "https://github.com/CodeDead/Advanced-PassGen"
