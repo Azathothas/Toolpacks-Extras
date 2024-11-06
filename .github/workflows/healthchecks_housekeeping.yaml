@@ -403,7 +403,7 @@ jobs:
                "screenshots = [" +
                  ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n" +
-               "provides = \"\(.extra_bins)\"\n" +
+               "provides = \"\(.provides)\"\n" +
                "snapshots = [" +
                  ( .snapshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n"
@@ -621,7 +621,7 @@ jobs:
                "screenshots = [" +
                  ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n" +
-               "provides = \"\(.extra_bins)\"\n" +
+               "provides = \"\(.provides)\"\n" +
                "snapshots = [" +
                  ( .snapshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n"

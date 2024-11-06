@@ -52,7 +52,7 @@ pushd "${HF_REPO_PKGDIR}" >/dev/null && curl -qfsSL "https://pub.ajam.dev/utils/
       desktop,
       icon,
       screenshots,
-      extra_bins
+      provides
     }' | jq -s 'sort_by(.name)' | jq '.[]' > "${SYSTMP}/${HOST_TRIPLET}-metadata.json.tmp"
  echo "[" $(cat "${SYSTMP}/${HOST_TRIPLET}-metadata.json.tmp" | tr '\n' ' ' | sed 's/}/},/g' | sed '$ s/,$//') "]" | sed '$s/,[[:space:]]*\]/\]/' | jq . | tee "${HF_REPO_PKGDIR}/METADATA.json.tmp"
  rm "./sizer.jq"
