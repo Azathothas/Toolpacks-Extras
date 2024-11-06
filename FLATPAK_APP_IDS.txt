@@ -900,6 +900,7 @@ dev.paullee.scraterpreter.Scrape
 dev.paullee.scraterpreter.Scrapec
 dev.pulsar_edit.Pulsar
 dev.qwery.AddWater
+dev.restfox.Restfox
 dev.rzia.minesector
 dev.salaniLeo.forecast
 dev.schlaubi.Tonbrett
@@ -1063,6 +1064,7 @@ io.github.NickKarpowicz.LightwaveExplorer
 io.github.OpenToonz
 io.github.Pithos
 io.github.Predidit.Kazumi
+io.github.Q1CHENL.fig
 io.github.Qalculate
 io.github.Qalculate.qalculate-qt
 io.github.Rangi42.polished-map
@@ -1386,6 +1388,7 @@ io.github.ripose_jp.Memento
 io.github.rocket.editor
 io.github.ronniedroid.concessio
 io.github.roseblume.rosary
+io.github.roseblume.rosemusic
 io.github.sameboy.SameBoy
 io.github.santiagocezar.maniatic-launcher
 io.github.seadve.Breathing
@@ -1613,6 +1616,7 @@ me.ppvan.psequel
 me.proton.Mail
 me.proton.Pass
 me.sanchezrodriguez.passes
+me.sergiotarxz.Exd
 me.sergiotarxz.JapaChar
 me.simakis.dropboxignore
 me.timschneeberger.GalaxyBudsClient
@@ -2623,9 +2627,9 @@ org.torproject.torbrowser-launcher
 org.trelby.Trelby
 org.tribler.Tribler
 org.tropy.Tropy
-org.tryton.Tryton-68
 org.tryton.Tryton-70
 org.tryton.Tryton-72
+org.tryton.Tryton-74
 org.tug.texworks
 org.turbowarp.TurboWarp
 org.tuxemon.Tuxemon

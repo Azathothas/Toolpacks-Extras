@@ -3506,6 +3506,10 @@ NAME: Add Water
 APP_ID: dev.qwery.AddWater
 Descr: Keep Firefox in fashion
 -----------------------------
+NAME: Restfox
+APP_ID: dev.restfox.Restfox
+Descr: A powerful minimalistic HTTP client
+-----------------------------
 NAME: MineSector
 APP_ID: dev.rzia.minesector
 Descr: Snazzy Minesweeper-based game
@@ -4161,6 +4165,10 @@ Descr: Pandora radio client
 NAME: Kazumi
 APP_ID: io.github.Predidit.Kazumi
 Descr: Watch Animes online with danmaku support
+-----------------------------
+NAME: Fig
+APP_ID: io.github.Q1CHENL.fig
+Descr: Sleek GIF editor
 -----------------------------
 NAME: Polished Map++
 APP_ID: io.github.Rangi42.polished-map-plusplus
@@ -5394,6 +5402,10 @@ NAME: Rosary
 APP_ID: io.github.roseblume.rosary
 Descr: Study Christianity
 -----------------------------
+NAME: Rosary
+APP_ID: io.github.roseblume.rosemusic
+Descr: Listen To Online Radio
+-----------------------------
 NAME: SameBoy
 APP_ID: io.github.sameboy.SameBoy
 Descr: Game Boy and Game Boy Color emulator
@@ -6326,6 +6338,10 @@ NAME: Proton Pass
 APP_ID: me.proton.Pass
 Descr: Encrypted password manager to keep your login credentials safe
 -----------------------------
+NAME: Hiperthermia
+APP_ID: me.sergiotarxz.Exd
+Descr: Program your thermal printer!
+-----------------------------
 NAME: Japachar
 APP_ID: me.sergiotarxz.JapaChar
 Descr: Learn Japanese characters
@@ -6640,7 +6656,7 @@ Descr: Bandcamp.com Wishlist Manager
 -----------------------------
 NAME: Freeciv21
 APP_ID: net.longturn.freeciv21
-Descr: Freeciv21 - Develop Your Civilization from Humble Roots to a Global Empire
+Descr: Develop Your Civilization from Humble Roots to a Global Empire
 -----------------------------
 NAME: Bible
 APP_ID: net.lugsole.bible_gui.desktop
@@ -9322,16 +9338,16 @@ NAME: Tropy
 APP_ID: org.tropy.Tropy
 Descr: Explore your research photos
 -----------------------------
-NAME: Tryton 6.8
-APP_ID: org.tryton.Tryton-68
-Descr: Connect to Tryton
------------------------------
 NAME: Tryton 7.0
 APP_ID: org.tryton.Tryton-70
 Descr: Connect to Tryton
 -----------------------------
 NAME: Tryton 7.2
 APP_ID: org.tryton.Tryton-72
+Descr: Connect to Tryton
+-----------------------------
+NAME: Tryton 7.4
+APP_ID: org.tryton.Tryton-74
 Descr: Connect to Tryton
 -----------------------------
 NAME: TeXworks

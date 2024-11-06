@@ -132,7 +132,7 @@
       "summary": "Fast Internet, AI, Adblock",
       "description": "Brave is on a mission to fix the web by giving users a safer, faster and better browsing\n      experience while growing support for content creators through a new attention-based ecosystem\n      of rewards.\n      Browse faster by blocking ads and trackers that violate your privacy and cost you time and\n      money.\n    ",
       "id": "com_brave_Browser",
-      "updated_at": 1730306986,
+      "updated_at": 1730917852,
       "arches": [
         "x86_64",
         "aarch64"
@@ -142,7 +142,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "com.brave.Browser",
-      "icon": "https://dl.flathub.org/media/com/brave/Browser/b5697683601fd7dc2f047f7461e0492d/icons/128x128/com.brave.Browser.png",
+      "icon": "https://dl.flathub.org/media/com/brave/Browser/50b77bbe86f3e7e10678fcbdd2d2d8c1/icons/128x128/com.brave.Browser.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -2087,7 +2087,7 @@
       "summary": "Office productivity suite",
       "description": "ONLYOFFICE Desktop Editors is a free and open-source office suite pack that comprises editors for text documents, spreadsheets, presentations, PDFs and PDF forms. It allows you to create, view and edit office docs stored on your Windows/Linux PC or Mac without an Internet connection. The suite is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.\n      Thanks to the tab-based user interface, you can deal with multiple files within one and the same window. Multiple plugins allow adding any extra functionality you might need. Password protection and digital signatures ensure a higher level of security while working with files.\n      Switch between various interface themes to comfortably work in any environment. Extend your editing capabilities by using plugins: work faster with the AI helper, translate, recognize text from pictures, convert your docs to Markdown, etc.\n      Along with offline work, it’s possible to connect the application to the cloud for online document collaboration. Available options include ONLYOFFICE cloud, Moodle, Nextcloud, Seafile, ownCloud, kDrive, and Liferay.\n    ",
       "id": "org_onlyoffice_desktopeditors",
-      "updated_at": 1730887938,
+      "updated_at": 1730901306,
       "arches": [
         "x86_64"
       ],
@@ -2283,7 +2283,7 @@
       "summary": "A tool to create a live USB drive with an edition of Fedora",
       "description": "A tool to create a bootable live USB drive with an edition of Fedora. Not only can Fedora Media Writer write an image to your flash drive, it can also download it for you. It offers official editions (Server, Workstation), Fedora spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and Fedora Labs (Design Suite, Security Lab,...). It provides basic information about each of them to help you make the right choice.\n      Fedora Media Writer can also write other bootable ISOs loaded from your local disk, but keep in mind that it's only tested with Fedora images.\n    ",
       "id": "org_fedoraproject_MediaWriter",
-      "updated_at": 1730835800,
+      "updated_at": 1730896503,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6401,7 +6401,7 @@
       "summary": "Share files to nearby devices",
       "description": "This app allows you to send files and messages over the local LAN network.\n      In contrast to most alternatives, no external servers are needed.\n      Everything happens locally in the wifi network.\n    ",
       "id": "org_localsend_localsend_app",
-      "updated_at": 1727211117,
+      "updated_at": 1730896389,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6411,7 +6411,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "org.localsend.localsend_app",
-      "icon": "https://dl.flathub.org/media/org/localsend/localsend_app/24ac1b5ed743e86ab760ff641976a541/icons/128x128/org.localsend.localsend_app.png",
+      "icon": "https://dl.flathub.org/media/org/localsend/localsend_app/1a9db3543dba901fb0eac0354e953eed/icons/128x128/org.localsend.localsend_app.png",
       "categories": [
         "Utility"
       ],
@@ -8073,7 +8073,7 @@
       "summary": "Universal Database Manager",
       "description": "Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.\n      This is the official build of DBeaver, packaged into a Flatpak. This repackaging is not supported by DBeaver Community Edition.\n    ",
       "id": "io_dbeaver_DBeaverCommunity",
-      "updated_at": 1729518745,
+      "updated_at": 1730895169,
       "arches": [
         "x86_64",
         "aarch64"
@@ -8083,7 +8083,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "io.dbeaver.DBeaverCommunity",
-      "icon": "https://dl.flathub.org/media/io/dbeaver/DBeaverCommunity/34edf50d3e9117c8dfd4c95ca0d4329e/icons/128x128/io.dbeaver.DBeaverCommunity.png",
+      "icon": "https://dl.flathub.org/media/io/dbeaver/DBeaverCommunity/e84a7d7d005fa01e4923ac87d38a7651/icons/128x128/io.dbeaver.DBeaverCommunity.png",
       "categories": [
         "IDE",
         "Development"
@@ -10420,7 +10420,7 @@
       "summary": "Plex client for desktop computers",
       "description": "Plex for Linux is your client for playback on the Linux desktop. It features the point and\n    click interface you see in your browser but uses a more powerful playback engine as well as\n    some other advanced features.\n    ",
       "id": "tv_plex_PlexDesktop",
-      "updated_at": 1728660115,
+      "updated_at": 1730898900,
       "arches": [
         "x86_64"
       ],
@@ -10429,7 +10429,7 @@
       "project_license": "LicenseRef-proprietary=https://www.plex.tv/en-gb/about/privacy-legal/plex-terms-of-service/",
       "is_free_license": false,
       "app_id": "tv.plex.PlexDesktop",
-      "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/dd67d0e7b06f03d299cdb769b4d08b09/icons/128x128/tv.plex.PlexDesktop.png",
+      "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/4912c6e455b8f93d3c1bc8e2d2c8cbda/icons/128x128/tv.plex.PlexDesktop.png",
       "categories": [
         "AudioVideo",
         "Player"

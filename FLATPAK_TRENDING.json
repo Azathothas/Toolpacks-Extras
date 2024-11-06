@@ -18115,7 +18115,7 @@
       "summary": "Scalable Vector Graphics editor",
       "description": "Boxy SVG project goal is to create the best tool for editing SVG files. For beginners as well as for\nprofessional designers and developers. On any device and operating system.\n      \n        === Core features: ===\n      \n      \n        Clean and intuitive UI heavily inspired by Inkscape, Sketch and Adobe Illustrator\n        Extensive support for on-canvas editing of object geometry, transform, paint and other properties\n        Save to SVG and SVGZ formats, export to PNG, JPG, WebP, PDF and HTML5\n        Integration with Pixabay and other libraries with millions of free stock photos and vector assets\n        Google Fonts integration with hundreds of free fonts\n        Configurable keyboard shortcuts for over 100 commands\n        Manual guides, smart guides and grid\n        Path operations (unite, intersect, subtract, exclude, close, reverse, etc.)\n        Arrangement operations (align to, rotate, flip, order, group, etc.)\n      \n      \n        === For web developers: ===\n      \n      \n        Chromium-based rendering engine\n        SVG and CSS code inspector similar to Chrome Dev Tools\n        Clean SVG output that preserves IDs, classes, titles and other metadata\n        SVG sprites editing support\n      \n      This package is officially published, maintained and supported by Boxy SVG developer.\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    ",
       "id": "com_boxy_svg_BoxySVG",
-      "updated_at": 1730840762,
+      "updated_at": 1730895627,
       "arches": [
         "x86_64",
         "aarch64"
@@ -18150,7 +18150,7 @@
       "project_license": "LicenseRef-proprietary=https://boxy-svg.com/legal",
       "is_free_license": false,
       "app_id": "com.boxy_svg.BoxySVG",
-      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/42c48adbc77b5614c0e8b6f227446745/icons/128x128/com.boxy_svg.BoxySVG.png",
+      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/92482494b4430be5a0c5c8b19f077abc/icons/128x128/com.boxy_svg.BoxySVG.png",
       "categories": [
         "Graphics",
         "Development"
@@ -20050,7 +20050,7 @@
       "summary": "Track and sync time, local-first",
       "description": "A simple time-tracker program for GNOME. Instead of using online-first options like Toggl and Clockify, use a lightning-fast local-first option that is still able to sync with multiple computers via cloud or network storage.\n      Time Tracker allows you to track different projects, see how much time you've spent on each project, and sync with a local file or a file in your own cloud storage. You can also open your sync file in spreadsheet software (since it's a CSV file).\n    ",
       "id": "com_lynnmichaelmartin_TimeTracker",
-      "updated_at": 1725733884,
+      "updated_at": 1730908709,
       "arches": [
         "x86_64",
         "aarch64"
@@ -20060,7 +20060,7 @@
       "project_license": "MIT-0",
       "is_free_license": true,
       "app_id": "com.lynnmichaelmartin.TimeTracker",
-      "icon": "https://dl.flathub.org/media/com/lynnmichaelmartin/TimeTracker/4557bf982d57832442c169aee2ca38c9/icons/128x128/com.lynnmichaelmartin.TimeTracker.png",
+      "icon": "https://dl.flathub.org/media/com/lynnmichaelmartin/TimeTracker/7a135aff60f657b042faa00ee4dd45f0/icons/128x128/com.lynnmichaelmartin.TimeTracker.png",
       "categories": [
         "Office",
         "Calendar"
@@ -24804,7 +24804,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
