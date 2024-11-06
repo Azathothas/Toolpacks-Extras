@@ -29,7 +29,7 @@ pushd "${HF_REPO_PKGDIR}" >/dev/null && curl -qfsSL "https://pub.ajam.dev/utils/
  rclone lsjson --fast-list "." | jq -r \
    --arg HOST_TRIPLET "${HOST_TRIPLET}" \
    'include "./sizer"; 
-    .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(jq|json|jpg|jpeg|md|png|svg|tmp|txt|webp|xml|yaml|yml)$") | not)) | 
+    .[] | select(.Size != 0 and .Size != -1 and (.Name | test("\\.(desktop|diricon|DirIcon|jq|json|jpg|jpeg|md|png|svg|tmp|txt|webp|xml|yaml|yml)$") | not)) | 
     {
       name: (.Name),
       bin_id,
