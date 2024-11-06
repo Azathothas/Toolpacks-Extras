@@ -3528,7 +3528,7 @@ Descr: A simple Kubernetes IDE for GNOME
 -----------------------------
 NAME: SlimeVR
 APP_ID: dev.slimevr.SlimeVR
-Descr: An app for facilitating full-body tracking in virtual reality
+Descr: Accessible full-body tracking in VR
 -----------------------------
 NAME: Porta War
 APP_ID: dev.stewlab.PortaWar
@@ -6655,12 +6655,8 @@ APP_ID: net.mancubus.SLADE
 Descr: It&apos;s a Doom editor
 -----------------------------
 NAME: AVI MetaEdit
-APP_ID: net.mediaarea.AVIMetaEdit.desktop
+APP_ID: net.mediaarea.AVIMetaEdit
 Descr: Embed, validate, and export AVI files metadata
------------------------------
-NAME: BWF MetaEdit
-APP_ID: avimetaedit-gui.desktop
-Descr: Embed, validate, and export BWF files metadata
 -----------------------------
 NAME: BWF MetaEdit
 APP_ID: net.mediaarea.BWFMetaEdit
