@@ -346,7 +346,7 @@ NAME: Tandem
 APP_ID: chat.tandem.Client
 Descr: Virtual office for remote teams
 -----------------------------
-NAME: apipost
+NAME: Apipost
 APP_ID: cn.apipost.apipost
 Descr: Apipost = Postman + Swagger + Mock + Jmeter, Backend, frontend, testing, and online collaboration with real-time content synchronization
 -----------------------------
@@ -1304,7 +1304,7 @@ Descr: Sleek and powerful Git GUI
 -----------------------------
 NAME: NetEase Cloud Music Gtk4
 APP_ID: com.github.gmg137.netease-cloud-music-gtk
-Descr: Linux muisc player for NetEase Cloud Music
+Descr: Linux music player for NetEase Cloud Music
 -----------------------------
 NAME: gpuvis
 APP_ID: com.github.gpuvis.Gpuvis

@@ -1,323 +1,304 @@
-### [`86box.AppImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.AppImage)
+### [`86box.appimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `v4.2.1`
 - **Description ℹ️:** Emulator of x86-based machines
 - **Note ⚠️:** Officially Created AppImage. Check/Report @ https://github.com/86Box/86Box. You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)
 - **Homepage 🌐:** [https://86box.readthedocs.io](https://86box.readthedocs.io)
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.AppImage
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage
 - **Size 💾:** `54.23 MB`
-- **SHA256SUM 🔐:** `d0188de67869fab69952acb977c78664751a2305f8be4ff1d3d57c4cfb46d61c`
-- **B3SUM 🔐:** `7a42847f8202abb552aea50759c5f694979f574c29adb203294221931a418b4a`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.AppImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.AppImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/86box.AppImage.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.AppImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.AppImage.zsync
+- **SHA256SUM 🔐:** `b39f794aec44d5807c79bfbe83c92b72959981e29024a5f51b9a8bb049156b6d`
+- **B3SUM 🔐:** `44f2b9dd22380b4d2e2b55f1610fc153ff3a44580b98d062544fc91361943ee7`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.appimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/86box.appimage.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.zsync
 
 ---
 
-### [`browservice.AppImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.AppImage)
+### [`browservice.appimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `v0.9.10.0`
 - **Description ℹ️:** Browse the modern web on historical browsers
 - **Note ⚠️:** Officially Created AppImage. Check/Report @ https://github.com/ttalvitie/browservice
 - **Homepage 🌐:** [https://github.com/ttalvitie/browservice](https://github.com/ttalvitie/browservice)
 - **Source 📡:** [https://github.com/ttalvitie/browservice](https://github.com/ttalvitie/browservice)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.AppImage
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage
 - **Size 💾:** `242.63 MB`
-- **SHA256SUM 🔐:** `38fe13c379a05bc3b3979503db1c225de928177d13f30b6b75b26c7e3f3499a1`
-- **B3SUM 🔐:** `3a50c8b27292031afe825ad498634c167a15e761cce3d6fc27fd8df1b6405518`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/browservice.AppImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.AppImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/browservice.AppImage.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.AppImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.AppImage.zsync
+- **SHA256SUM 🔐:** `d8c01e85c1e7d6d970f0b84b1779e3a17e6a0e5d186d9c17f83980c4b397a78e`
+- **B3SUM 🔐:** `c69937d564001473980e3ed9cd1fa746be21d74d0ad0231a879ae398d82d51a7`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/browservice.appimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/browservice.appimage.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.zsync
 
 ---
 
-### [`chromium.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.dwfs.AppBundle)
+### [`chromium.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `130.0.6723.91`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.dwfs.AppBundle
-- **Size 💾:** `231.18 MB`
-- **SHA256SUM 🔐:** `ac8415286150584aa69705092be428757e22287a6b466cfd7b1683ea5a80920b`
-- **B3SUM 🔐:** `b545ca345473c3897b3f4e5678ce27285d9a2a72ef1eace6aa913ebd1ed6400c`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.dwfs.appbundle
+- **Size 💾:** `231.09 MB`
+- **SHA256SUM 🔐:** `78d45b52d2e2e1bb28a3262e4d4f371be13bf711919062a855b88acc10159349`
+- **B3SUM 🔐:** `1c861a1259d373e55fd58a384452225a895ed12552a7fece36300e5d5fa16687`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.zsync
 
 ---
 
-### [`chromium-alpine.FlatImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.FlatImage)
+### [`chromium-alpine.flatimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.flatimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `130.0.6723.91`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.FlatImage
-- **Size 💾:** `227.34 MB`
-- **SHA256SUM 🔐:** `8f93e0fcec4671d39a9364d165f3f34689ec55a4e03312e2cb06a49ee84bff7a`
-- **B3SUM 🔐:** `164bae9c7da5e61c8b7a10668b66bdade56bdbf707e52339851dd8af0952434f`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.FlatImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.FlatImage.log
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.flatimage
+- **Size 💾:** `226.8 MB`
+- **SHA256SUM 🔐:** `377701e83cff0ed3d501b9cbe21c5602aaf35c4a08d13f61ab825efeb004ae63`
+- **B3SUM 🔐:** `bb36765e0c00097a9301139399e820fe3c9f47c6d5ac045d06c524fc00830bb1`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.flatimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.flatimage.log
 - **Icon 🖼️:** 
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.FlatImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.FlatImage.zsync
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.flatimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.flatimage.zsync
 
 ---
 
-### [`chromium.NixAppImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.NixAppImage)
+### [`chromium.nixappimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `130.0.6723.91`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** NixAppImages: https://l.ajam.dev/nix-appimage
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.NixAppImage
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage
 - **Size 💾:** `425.35 MB`
-- **SHA256SUM 🔐:** `9212039f1a6577e5b1f7907f26dc42b62cbe7af11bb6d467b604733bc9ebddfc`
-- **B3SUM 🔐:** `eca34b1baf63ccda30d8764ecfaaa77ccef74909ffeb7b863989a821f542b8df`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.NixAppImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.NixAppImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.NixAppImage.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.NixAppImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.NixAppImage.zsync
+- **SHA256SUM 🔐:** `7393adae0b073f6f820df697710c10a671f4fb314ae7bc737874e2e65dc0b7e3`
+- **B3SUM 🔐:** `c35d19e94ec43c0a096afa4ca59ae71ecaf053a1e5a570daf80aac6160ce8574`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.nixappimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.nixappimage.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.zsync
 
 ---
 
-### [`engrampa.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.dwfs.AppBundle)
+### [`engrampa.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `1.28.1`
 - **Description ℹ️:** A file archiver for MATE
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/](https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/)
 - **Source 📡:** [https://github.com/mate-desktop/engrampa](https://github.com/mate-desktop/engrampa)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.dwfs.AppBundle
-- **Size 💾:** `16.92 MB`
-- **SHA256SUM 🔐:** `33abb0a7cfa5780a9170720f940601ab267513e33541fce2b9654cacfeeec4af`
-- **B3SUM 🔐:** `e1a1aca7c4a98c4135d078790e102c037518a10149066ad15816c0eccf3cbc22`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/engrampa.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/engrampa.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.dwfs.appbundle
+- **Size 💾:** `16.94 MB`
+- **SHA256SUM 🔐:** `48fda3f49778a9a64e4068d6723df5779eb38d4d3860f26e783953571601a12c`
+- **B3SUM 🔐:** `dd791a2a95a315ac1c4274e979ebe79886e91f251cfa7aabad83346faf9aa4f4`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/engrampa.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/engrampa.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.zsync
 
 ---
 
-### [`falkon.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.AppBundle)
+### [`falkon.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `24.08.2`
 - **Description ℹ️:** A KDE web browser with the QtWebEngine Rendering Engine
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://www.falkon.org](https://www.falkon.org)
 - **Source 📡:** [https://invent.kde.org/network/falkon](https://invent.kde.org/network/falkon)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.AppBundle
-- **Size 💾:** `283.22 MB`
-- **SHA256SUM 🔐:** `2c6d3b844412c65c44ebdd1ad3983b57264199de86bb8d89a326f6f1b4a3944e`
-- **B3SUM 🔐:** `c7657f5a51156b3c199f3471c0b0356a01a89266fd31b3457fc32adf8facefdc`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/falkon.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/falkon.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.appbundle
+- **Size 💾:** `283.17 MB`
+- **SHA256SUM 🔐:** `be85126d6397b046bdb52ca90b5e46a443d36a9379ccc6a34cdb37dd7417ce91`
+- **B3SUM 🔐:** `5ef8a038369af3a09cec8505e0cb3bb0759128079e144d318ffdc8bb2c82150c`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/falkon.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/falkon.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.zsync
 
 ---
 
-### [`firefox.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.dwfs.AppBundle)
+### [`firefox.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `132.0.1`
 - **Description ℹ️:** A web browser built from Firefox source tree
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [http://www.mozilla.com](http://www.mozilla.com)
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.dwfs.AppBundle
-- **Size 💾:** `189.1 MB`
-- **SHA256SUM 🔐:** `7444ffa6064894960cfb0a1a42527418ce07bde999f1cd4d0da322d4eeb9e327`
-- **B3SUM 🔐:** `d4ade824c60496e5da24372d75ae3e945e599f0491697cbca0ef442c6a0d2b93`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/firefox.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/firefox.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.dwfs.appbundle
+- **Size 💾:** `189.06 MB`
+- **SHA256SUM 🔐:** `c705c7471561a386552c14f31cb774be28ad5ae452b1ce1da4a0c5003a3fe904`
+- **B3SUM 🔐:** `6fd2a0dc501344437380f840704e46c8c6ab541f3e4567e157368d19af08aea8`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/firefox.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/firefox.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.zsync
 
 ---
 
-### [`imagemagick.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.AppBundle)
+### [`imagemagick.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `7.1.1.39`
 - **Description ℹ️:** FOSS suite for editing and manipulating Digital Images & Files
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://imagemagick.org](https://imagemagick.org)
 - **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.AppBundle
-- **Size 💾:** `12.35 MB`
-- **SHA256SUM 🔐:** `16f107e4960a3a1105d2649dd841ce7497866cf38ffaa3356ff527521b0c5e04`
-- **B3SUM 🔐:** `6693767b798df37ac99cd4631d534ded2103d1846d0ec9e6fcc3992ec571ca3d`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/imagemagick.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.appbundle
+- **Size 💾:** `12.37 MB`
+- **SHA256SUM 🔐:** `ea1d98e73cdccd243b8109e753c698be28836cae4f1164aef50e7d3732f4a86a`
+- **B3SUM 🔐:** `b8683da769a9e59927446ff39d4bf16ca83166993c704742aeb77d7bc18d2fda`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/imagemagick.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.zsync
 
 ---
 
-### [`librewolf.AppImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.AppImage)
-- **PKG_Name 📦:** 
-- **Version 🧬:** `v132.0-1`
-- **Description ℹ️:** A fork of Firefox, focused on privacy, security and freedom
-- **Note ⚠️:** Officially Created AppImage. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-- **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
-- **Source 📡:** [https://gitlab.com/librewolf-community/browser](https://gitlab.com/librewolf-community/browser)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.AppImage
-- **Size 💾:** `89.11 MB`
-- **SHA256SUM 🔐:** `aa865242459870e447c3370f6df1fecbbf7e42b7d0b8faa782acffc2925659cd`
-- **B3SUM 🔐:** `3078700ac73585de9ae4124490c5f3ad21d68e4f32fcccac3e72842830ef406d`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.AppImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.AppImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/librewolf.AppImage.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.AppImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.AppImage.zsync
-
----
-
-### [`librewolf-arch.FlatImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf-arch.FlatImage)
+### [`librewolf-arch.flatimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf-arch.flatimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `132.0`
 - **Description ℹ️:** A custom version of Firefox, focused on privacy, security and freedom
 - **Note ⚠️:** FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://codeberg.org/librewolf/source](https://codeberg.org/librewolf/source)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf-arch.FlatImage
-- **Size 💾:** `576.56 MB`
-- **SHA256SUM 🔐:** `01931687239aeb8ad46c503478179e170da54bbd9fd0c03609504d20100064b0`
-- **B3SUM 🔐:** `d4a1f9be59a2bb725a16173fb1610fb29e7c4f078867b45a335e88b4a1bfe4a5`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.FlatImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.FlatImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/librewolf.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.FlatImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.FlatImage.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf-arch.flatimage
+- **Size 💾:** `577.15 MB`
+- **SHA256SUM 🔐:** `310a596c59f2313d7a8480f8a7de6af586296846154cd1f909192c14a5d1b82a`
+- **B3SUM 🔐:** `3eec3430cf63a9c3010bbc61bc1afedbb42a6da1ff519122e24710d64ab3ad05`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.flatimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/librewolf.flatimage.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.zsync
 
 ---
 
-### [`mousepad.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.AppBundle)
+### [`mousepad.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `0.6.3`
 - **Description ℹ️:** An easy-to-use, Fast & Simple Editor
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://docs.xfce.org/apps/mousepad/start](https://docs.xfce.org/apps/mousepad/start)
 - **Source 📡:** [https://gitlab.xfce.org/apps/mousepad](https://gitlab.xfce.org/apps/mousepad)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.AppBundle
-- **Size 💾:** `17.52 MB`
-- **SHA256SUM 🔐:** `2697b6afb4ee42ba3fe4bbab7b88c0d7a4f63fe8453de98cbb04dee14206b19f`
-- **B3SUM 🔐:** `004cabd137cfb74c69d02af70cf9b12866d3ce11d073b81d4751791f23f435bf`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/mousepad.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/mousepad.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.appbundle
+- **Size 💾:** `17.54 MB`
+- **SHA256SUM 🔐:** `7d6d6a0fedb741bbf8fc018f76868b553f0a2955048a66db60bafb3d224161c5`
+- **B3SUM 🔐:** `1fdc5f1ac62629345c167f6b219ad0bce9e91b8c651581ca81a3b1f32f8b3e50`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/mousepad.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/mousepad.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.zsync
 
 ---
 
-### [`pcmanfm.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.AppBundle)
+### [`pcmanfm.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `1.3.2`
 - **Description ℹ️:** Extremely fast and lightweight file manager
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://github.com/lxde/pcmanfm](https://github.com/lxde/pcmanfm)
 - **Source 📡:** [https://github.com/lxde/pcmanfm](https://github.com/lxde/pcmanfm)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.AppBundle
-- **Size 💾:** `17.13 MB`
-- **SHA256SUM 🔐:** `753772e983e767680b737aba0aebc82b65ac10eb85ecb1dd2fdb83704b011b48`
-- **B3SUM 🔐:** `3b312c798feeeed65cccf267c52bb72133a266979c03ee4bf52b85b321424630`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/pcmanfm.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.AppBundle.log
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.appbundle
+- **Size 💾:** `17.16 MB`
+- **SHA256SUM 🔐:** `a63e9319329a7a43154ffb0929c023899a18ba4b32673cac8b503262c69f4e51`
+- **B3SUM 🔐:** `37f9d9d356232f95a11b2acc5e32a35217b6cd3bc04e26048e4310c68fe3bb97`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/pcmanfm.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.appbundle.log
 - **Icon 🖼️:** 
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.AppBundle.zsync
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.appbundle.zsync
 
 ---
 
-### [`ppsspp.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.AppBundle)
+### [`ppsspp.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `1.17.1`
 - **Description ℹ️:** A Fast and Portable PSP emulator
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://www.ppsspp.org](https://www.ppsspp.org)
 - **Source 📡:** [https://github.com/hrydgard/ppsspp](https://github.com/hrydgard/ppsspp)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.AppBundle
-- **Size 💾:** `157.72 MB`
-- **SHA256SUM 🔐:** `7f807efe6bc069a4f9416ee23c8cb4f632cddd1aeae72f11cd73133a8f5cbc83`
-- **B3SUM 🔐:** `83e9dce0bf2c03ff8c3d6ac83bbff2c6f90737f179f743d41cfb9edcfb80da41`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ppsspp.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ppsspp.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.appbundle
+- **Size 💾:** `157.71 MB`
+- **SHA256SUM 🔐:** `d52c319bbfb4cf4874e75a1db4ee1089954f9a00e04c99fa9b7a032813269905`
+- **B3SUM 🔐:** `bbf8e75359a3ab2bae7573210b9f04b072842a3568bce4537ea538cde29737c6`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ppsspp.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ppsspp.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.zsync
 
 ---
 
-### [`ristretto.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.AppBundle)
+### [`ristretto.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `0.13.2`
 - **Description ℹ️:** An Image Viewer
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://docs.xfce.org/apps/ristretto/start](https://docs.xfce.org/apps/ristretto/start)
 - **Source 📡:** [https://gitlab.xfce.org/apps/ristretto](https://gitlab.xfce.org/apps/ristretto)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.AppBundle
-- **Size 💾:** `17.04 MB`
-- **SHA256SUM 🔐:** `bd417ee4a4a208bc5866e7245aaadd6cf272f00d66ff91bd1c10188060eb1027`
-- **B3SUM 🔐:** `f41bb919637840497b1b249422e809fb2dbab132e07588fd5b4c953b89f267fa`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ristretto.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ristretto.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.appbundle
+- **Size 💾:** `17.06 MB`
+- **SHA256SUM 🔐:** `e8a9094acf89a2cda5d12510d226ece6e32c651a66f061f2e797c6c4a0ae7906`
+- **B3SUM 🔐:** `a484b60d6e297201da026804b9e114e1233fbc4cbedf6da34c2adc33eb8ce93a`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ristretto.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ristretto.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.zsync
 
 ---
 
-### [`ryujinx.AppImage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.AppImage)
+### [`ryujinx.appimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `r.49574a9`
 - **Description ℹ️:** A simple, experimental Nintendo Switch emulator
 - **Note ⚠️:** Officially Created AppImage. Check/Report @ https://github.com/ryujinx-mirror/ryujinx
 - **Homepage 🌐:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.AppImage
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage
 - **Size 💾:** `24.25 MB`
-- **SHA256SUM 🔐:** `a40bdcb41975fba3595ac2022414da627d53fd7ac678a30cc6868780d8621327`
-- **B3SUM 🔐:** `e59661a7e92c97ec31a4492852e5500fbed43ccee75036e1ee49c061514c1e6d`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.AppImage.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.AppImage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ryujinx.AppImage.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.AppImage.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.AppImage.zsync
+- **SHA256SUM 🔐:** `96bb4b417c2441892ebbfc219b63f52dde263192a61986d61093e94d9d1adcda`
+- **B3SUM 🔐:** `0c196a34c381ae8a32cd1ad7183a0448693a3709fddec4cd45a2b4133b0d7aab`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.appimage.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ryujinx.appimage.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.zsync
 
 ---
 
-### [`xfce4-terminal.dwfs.AppBundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.AppBundle)
+### [`xfce4-terminal.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.appbundle)
 - **PKG_Name 📦:** 
 - **Version 🧬:** `1.1.3`
 - **Description ℹ️:** A lightweight and easy to use Terminal Emulator
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://docs.xfce.org/apps/xfce4-terminal/start](https://docs.xfce.org/apps/xfce4-terminal/start)
 - **Source 📡:** [https://gitlab.xfce.org/apps/xfce4-terminal](https://gitlab.xfce.org/apps/xfce4-terminal)
-- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.AppBundle
-- **Size 💾:** `20.92 MB`
-- **SHA256SUM 🔐:** `c102decbc2ae3556da6e79340bb2c1b7a28b943c65e95167f1e500ea122fd1d3`
-- **B3SUM 🔐:** `c8118078ea35408ac33235e12ea0c03b0d97e5fc6371fe2e058c144e20541230`
-- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/xfce4-terminal.AppBundle.sh
-- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.AppBundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/xfce4-terminal.dwfs.AppBundle.icon.png
-- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.AppBundle.desktop
-- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.AppBundle.zsync
+- **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.appbundle
+- **Size 💾:** `20.94 MB`
+- **SHA256SUM 🔐:** `edf999eb5dbf3fb21a70fef75d294f603a4472fadf18b49c38399b95d82de470`
+- **B3SUM 🔐:** `873a832c54368831331ee736eaf46df610ffbcaacac0c9066ff8302926d00d95`
+- **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/xfce4-terminal.appbundle.sh
+- **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.log
+- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/xfce4-terminal.dwfs.appbundle.icon.png
+- **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.desktop
+- **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.zsync
 
 ---
 
