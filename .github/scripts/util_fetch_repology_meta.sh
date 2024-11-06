@@ -35,4 +35,5 @@ util_fetch_repology_meta()
    fi
   }
 export -f util_fetch_repology_meta
+alias repology-fetch="util_fetch_repology_meta"
 #-------------------------------------------------------#
