@@ -28,7 +28,7 @@ hf_gen_meta_src()
  find "${HF_REPO_PKGDIR}" -maxdepth 1 -type f -exec chmod +xwr {} \; 2>/dev/null
  #File 
  cd "${HF_REPO_PKGDIR}" && find "./" -maxdepth 1 -type f |\
-    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.xml$|\.zsync$' |\
+    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.jpeg$|\.jpg$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.webp$|\.xml$|\.zsync$' |\
     sort | xargs file | jc --monochrome --pretty --file | jq . > "${SYSTMP}/${HOST_TRIPLET}_FILE"
     if [[ -f "${HF_REPO_PKGDIR}/FILE.json" ]] && [[ $(stat -c%s "${HF_REPO_PKGDIR}/FILE.json") -gt 100 ]]; then
        jq -s '.[0]as$a|.[1]|($a|map({key:.filename,value:.})|
@@ -58,7 +58,7 @@ hf_gen_meta_src()
     rm "./sizer.jq"
 #BLAKE3SUM
  cd "${HF_REPO_PKGDIR}" && find "./" -maxdepth 1 -type f |\
-    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.xml$|\.zsync$' | sort | xargs b3sum |\
+    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.jpeg$|\.jpg$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.webp$|\.xml$|\.zsync$' | sort | xargs b3sum |\
     jq -R -s 'split("\n") | map(select(length > 0) | split(" +"; "g") | {filename: .[1], sum: .[0]}) | sort_by(.filename)' |\
     jq . > "${SYSTMP}/${HOST_TRIPLET}_BLAKE3SUM"
     if [[ -f "${HF_REPO_PKGDIR}/BLAKE3SUM.json" ]] && [[ $(stat -c%s "${HF_REPO_PKGDIR}/BLAKE3SUM.json") -gt 100 ]]; then
@@ -73,7 +73,7 @@ hf_gen_meta_src()
     fi
 #SHA256SUM
  cd "${HF_REPO_PKGDIR}" && find "./" -maxdepth 1 -type f |\
-    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.xml$|\.zsync$' | sort | xargs sha256sum |\
+    grep -v -E '\.desktop$|\.DirIcon$|\.jq$|\.json$|\.jpeg$|\.jpg$|\.png$|\.svg$|\.txt$|\.upx$|\.version$|\.webp$|\.xml$|\.zsync$' | sort | xargs sha256sum |\
     jq -R -s 'split("\n") | map(select(length > 0) | split(" +"; "g") |{filename: .[1],sum: .[0]}) | sort_by(.filename)' |\
     jq . > "${SYSTMP}/${HOST_TRIPLET}_SHA256SUM"
     if [[ -f "${HF_REPO_PKGDIR}/SHA256SUM.json" ]] && [[ $(stat -c%s "${HF_REPO_PKGDIR}/SHA256SUM.json") -gt 100 ]]; then

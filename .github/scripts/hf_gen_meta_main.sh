@@ -122,9 +122,6 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
                  fi
              done
              jq --arg BIN "${BIN}" '.[] |= if .name == $BIN then . + {desktop: (if (.desktop == null or .desktop == "") then "" else .desktop end)} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
-            #Extras (All Bins)
-             PROVIDES="$(cat ${TMPDIR}/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export PROVIDES="${PROVIDES}"  
-             jq --arg BIN "$BIN" --arg PROVIDES "$PROVIDES" '.[] |= if .name == $BIN then . + {provides: $provides} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Icon
              ICON_URLS=("https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.icon.png")
                 for ICON_TURLS in "${ICON_URLS[@]}"; do
@@ -136,6 +133,9 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
                 done
             #Note
              jq --arg BIN "$BIN" --arg NOTE "$NOTE" '.[] |= if .name == $BIN then . + {note: $NOTE} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
+            #Extras (All Bins)
+             PROVIDES="$(cat ${TMPDIR}/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export PROVIDES="${PROVIDES}"
+             jq --arg BIN "$BIN" --arg PROVIDES "$PROVIDES" '.[] |= if .name == $BIN then . + {provides: $provides} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Repology
              if [ "$(curl -sL -w "%{http_code}" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" -o '/dev/null')" != "404" ]; then
                jq --arg BIN "$BIN" --arg REPOLOGY "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" '.[] |= if .name == $BIN then . + {repology: $REPOLOGY} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
