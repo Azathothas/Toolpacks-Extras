@@ -31,7 +31,7 @@ util_fetch_repology_meta()
      #tag
       jq -r '.[] | select(.categories != null) | .categories[]' "${TMP_JSON}" | sed -e 's/["'\''`|]//g' -e 's/^[ \t]*//;s/[ \t]*$//' | sort -u | grep -viE 'app:gui|misc|unspecified' | awk 'BEGIN {print "tag:"} {print "  - \"" $1 "\""}' ; echo
      #Print Weburl
-      echo -e "\n[+] https://repology.org/project/${REPOLOGY_PKG}/information\n" 
+      echo -e "\n[+] https://repology.org/project/${REPOLOGY_PKG}/information\n"
    fi
   }
 export -f util_fetch_repology_meta
