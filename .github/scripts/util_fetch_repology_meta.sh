@@ -22,7 +22,6 @@ util_fetch_repology_meta()
    echo -e "\n[+] Package: ${REPOLOGY_PKG} (${TMP_JSON})"
    curl -A "${USER_AGENT}" -qfsSL "https://repology.org/api/v1/project/${REPOLOGY_PKG}" -o "${TMP_JSON}"
    if [[ -f "${TMP_JSON}" ]] && [[ $(stat -c%s "${TMP_JSON}") -gt 1024 ]]; then
-    echo -e "\n[+] https://repology.org/project/${REPOLOGY_PKG}/information\n"
      #Description
       jq -r '.[] | select(.summary != null and .summary != "") | .summary' "${TMP_JSON}" | sed -e 's/["'\''`|]//g' -e 's/^[ \t]*//;s/[ \t]*$//' | sort -u | grep -viE 'l10n|ICU data|language pack' | awk '{print "description: \"" $0 "\""}' ; echo
      #distro_pkg
@@ -31,6 +30,8 @@ util_fetch_repology_meta()
       jq -r '.[] | select(.licenses != null and .licenses != "") | .licenses[]' "${TMP_JSON}" | sed -e 's/["'\''`|]//g' -e 's/^[ \t]*//;s/[ \t]*$//' -e 's/(.*)//g' | sort -u | awk '{print "  - \"" $0 "\""}' | awk 'BEGIN {print "license:"} {print}' ; echo
      #tag
       jq -r '.[] | select(.categories != null) | .categories[]' "${TMP_JSON}" | sed -e 's/["'\''`|]//g' -e 's/^[ \t]*//;s/[ \t]*$//' | sort -u | grep -viE 'app:gui|misc|unspecified' | awk 'BEGIN {print "tag:"} {print "  - \"" $1 "\""}' ; echo
+     #Print Weburl
+      echo -e "\n[+] https://repology.org/project/${REPOLOGY_PKG}/information\n" 
    fi
   }
 export -f util_fetch_repology_meta
