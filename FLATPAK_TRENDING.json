@@ -2362,7 +2362,7 @@
       "summary": "Discover and read manga & comics",
       "description": "With its simple, elegant and adaptive interface, this reader lets you search, sort and read your series with ease.\n      Why you will love Komikku?\n      \n        Online and offline reading from dozens of servers\n        Support for locally stored series (in CBZ or CBR formats)\n        RTL, LTR, Vertical and Webtoon reading modes\n        Support several types of navigation: keyboard arrow keys, right and left navigation layout via mouse click or tapping (touchpad/touch screen), mouse wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)\n        Categories to organize your library\n        Automatic tracking of series with MyAnimeList and AniList\n        Automatic update of series\n        Automatic download of new chapters\n        Reading history\n        Light and dark themes\n      \n    ",
       "id": "info_febvre_Komikku",
-      "updated_at": 1730799738,
+      "updated_at": 1730859363,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2453,7 +2453,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "info.febvre.Komikku",
-      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/7d46f5208fc79326b2ec2a98a9bfa457/icons/128x128/info.febvre.Komikku.png",
+      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/5cdca3877efe74cf50c9a27fd9757f3d/icons/128x128/info.febvre.Komikku.png",
       "categories": [
         "Graphics",
         "Network",
@@ -24804,7 +24804,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 49,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
