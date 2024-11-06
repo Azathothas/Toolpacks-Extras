@@ -23,6 +23,7 @@
  USER="$(whoami)" && export USER="${USER}"
  HOME="$(getent passwd ${USER} | cut -d: -f6)" && export HOME="${HOME}"
  HOST_TRIPLET="$(uname -m)-$(uname -s)" && export HOST_TRIPLET="${HOST_TRIPLET}"
+ USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
 #-------------------------------------------------------# 
 ##Sanity Checks
 ##Check if it was recently initialized
