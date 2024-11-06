@@ -382,7 +382,7 @@ jobs:
                "[[pkg]]\n" +
                "pkg = \"\(.name)\"\n" +
                "pkg_id = \"\(.bin_id)\"\n" +
-               "pkg_name = \"\(.pkg_name)\"\n" +
+               "pkg_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
                "version = \"\(.version)\"\n" +
@@ -600,7 +600,7 @@ jobs:
                "[[pkg]]\n" +
                "pkg = \"\(.name)\"\n" +
                "pkg_id = \"\(.bin_id)\"\n" +
-               "pkg_name = \"\(.pkg_name)\"\n" +
+               "pkg_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
                "version = \"\(.version)\"\n" +
