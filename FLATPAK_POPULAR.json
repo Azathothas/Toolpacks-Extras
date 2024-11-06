@@ -2085,9 +2085,9 @@
         "rtf"
       ],
       "summary": "Office productivity suite",
-      "description": "Create, view and edit text documents, spreadsheets and presentations of any size and complexity. Work on documents of most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.\n    ",
+      "description": "ONLYOFFICE Desktop Editors is a free and open-source office suite pack that comprises editors for text documents, spreadsheets, presentations, PDFs and PDF forms. It allows you to create, view and edit office docs stored on your Windows/Linux PC or Mac without an Internet connection. The suite is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.\n      Thanks to the tab-based user interface, you can deal with multiple files within one and the same window. Multiple plugins allow adding any extra functionality you might need. Password protection and digital signatures ensure a higher level of security while working with files.\n      Switch between various interface themes to comfortably work in any environment. Extend your editing capabilities by using plugins: work faster with the AI helper, translate, recognize text from pictures, convert your docs to Markdown, etc.\n      Along with offline work, it’s possible to connect the application to the cloud for online document collaboration. Available options include ONLYOFFICE cloud, Moodle, Nextcloud, Seafile, ownCloud, kDrive, and Liferay.\n    ",
       "id": "org_onlyoffice_desktopeditors",
-      "updated_at": 1729848219,
+      "updated_at": 1730887938,
       "arches": [
         "x86_64"
       ],
@@ -2096,7 +2096,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.onlyoffice.desktopeditors",
-      "icon": "https://dl.flathub.org/media/org/onlyoffice/desktopeditors/d08a7378ce1909bd075c6f3e125c3c95/icons/128x128/org.onlyoffice.desktopeditors.png",
+      "icon": "https://dl.flathub.org/media/org/onlyoffice/desktopeditors/f7522f0c844023260e2e06240f71f337/icons/128x128/org.onlyoffice.desktopeditors.png",
       "categories": [
         "Office",
         "WordProcessor",
@@ -18330,7 +18330,7 @@
       "summary": "Secure email that protects your privacy",
       "description": "\n            NOTE: This a wrapper of the official packages, but it is not verified,\n            affiliated with, or supported by Proton AG.\n        \n      \n            Keep your conversations private. Proton Mail is encrypted email from\n            Switzerland. Used by millions worldwide, our all-new email app protects your\n            communications and has everything you need to easily manage your inbox.\n        \n      The Wall Street Journal says:\n      \n            “Proton Mail offers encrypted email, which makes it virtually impossible for\n            anyone to read it except the sender and the recipient.”\n        \n      With the all-new Proton Mail app, you can:\n      \n        Create a @proton.me or @protonmail.com email address\n        Send and receive encrypted emails and attachments with ease\n        Switch between multiple Proton Mail accounts\n        Easily manage your email with conversations\n        \n                Keep your inbox tidy and clean with folders, labels and simple\n                swipe-gestures\n            \n        Receive new email notifications\n        Send Password-protected Emails to anyone\n        Enjoy your inbox in dark mode\n      \n      Why use Proton Mail?\n      \n        \n                Proton Mail is free — We believe everyone deserves privacy. Upgrade to a\n                paid plan to get more done and support our mission.\n            \n        \n                Easy to use — Our all-new app has been redesigned to make it easier to\n                read, organize, and write your emails.\n            \n        \n                Your inbox is yours — We don’t spy on your communications to show you\n                targeted ads. Your inbox, your rules.\n            \n        \n                Rigorous encryption — Your entire inbox is secured, on all your devices.\n                No one can read your emails but you. Proton is privacy, guaranteed by\n                end-to-end and zero-access encryption.\n            \n        \n                Unmatched protection — We offer strong phishing, spam, and spying/tracking\n                protection for all your communications.\n            \n      \n      Industry Leading Security Features\n      \n            Messages are stored on Proton Mail servers using end-to-end encryption at\n            all times and are transmitted securely between Proton servers and user\n            devices. This largely eliminates the risk of message interception.\n        \n      Zero Access to Your Email Content\n      \n            Proton Mail's zero access architecture means that your data is encrypted in\n            a way that makes it inaccessible to us. Data is encrypted on the client side\n            using an encryption key that Proton does not have access to. This means we\n            don't have the technical ability to decrypt your messages.\n        \n      Open-Source Cryptography\n      \n            Proton Mail's open-source software has been thoroughly vetted by security\n            experts from around the world to ensure the highest levels of protection.\n            Proton Mail only uses secure implementations of AES, RSA, along with\n            OpenPGP, while all of the cryptographic libraries used are open source. By\n            using open-source libraries, Proton Mail can guarantee that the encryption\n            algorithms used do not have clandestinely built-in back doors.\n        \n      Proton Mail in the press:\n      \n            “Proton Mail is a Gmail-like email system which uses end-to-end encryption,\n            making it impossible for outside parties to monitor.” Forbes\n        \n      \n            “A new email service being developed by a group who met at MIT and CERN\n            promises to bring secure, encrypted email to the masses and keep sensitive\n            information away from prying eyes.” Huffington Post\n        \n    ",
       "id": "me_proton_Mail",
-      "updated_at": 1728014897,
+      "updated_at": 1730886731,
       "arches": [
         "x86_64"
       ],
@@ -18339,7 +18339,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "me.proton.Mail",
-      "icon": "https://dl.flathub.org/media/me/proton/Mail/1b207a65c5106e0c00c7ccd2d518c709/icons/128x128/me.proton.Mail.png",
+      "icon": "https://dl.flathub.org/media/me/proton/Mail/4d14bbcb00aad78b2d181a875d5d75c2/icons/128x128/me.proton.Mail.png",
       "categories": [
         "Network",
         "Email"
@@ -22063,7 +22063,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

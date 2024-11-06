@@ -6667,12 +6667,8 @@ APP_ID: bwfmetaedit-gui.desktop
 Descr: Analyze DV streams and report errors
 -----------------------------
 NAME: DV Analyzer
-APP_ID: net.mediaarea.DVAnalyzer.desktop
+APP_ID: net.mediaarea.DVAnalyzer
 Descr: Analyze DV streams and report errors
------------------------------
-NAME: MOV MetaEdit
-APP_ID: dvanalyzer-gui.desktop
-Descr: Embed and edit Universal Ad ID metadata in MOV or MP4 files
 -----------------------------
 NAME: MOV MetaEdit
 APP_ID: net.mediaarea.MOVMetaEdit
