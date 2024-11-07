@@ -25,7 +25,7 @@
   },
   {
     "filename": "./86box.appimage.log",
-    "size": "28.25 KB"
+    "size": "28.04 KB"
   },
   {
     "filename": "./86box.appimage.screen_1.png",
@@ -41,19 +41,19 @@
   },
   {
     "filename": "./affine.appimage.log",
-    "size": "11.72 KB"
+    "size": "11.73 KB"
   },
   {
     "filename": "./browservice.appimage.log",
-    "size": "27.24 KB"
+    "size": "27.73 KB"
   },
   {
     "filename": "./chromium-alpine.flatimage",
-    "size": "226.8 MB"
+    "size": "232.06 MB"
   },
   {
     "filename": "./chromium-alpine.flatimage.version",
-    "size": "14 B"
+    "size": "15 B"
   },
   {
     "filename": "./chromium.appbundle.DirIcon",
@@ -77,7 +77,7 @@
   },
   {
     "filename": "./chromium.appbundle.log",
-    "size": "57.82 KB"
+    "size": "56.98 KB"
   },
   {
     "filename": "./chromium.appbundle.screen_1.png",
@@ -105,7 +105,7 @@
   },
   {
     "filename": "./chromium.dwfs.appbundle",
-    "size": "231.09 MB"
+    "size": "231.1 MB"
   },
   {
     "filename": "./chromium.dwfs.appbundle.icon.png",
@@ -113,11 +113,11 @@
   },
   {
     "filename": "./chromium.dwfs.appbundle.version",
-    "size": "14 B"
+    "size": "15 B"
   },
   {
     "filename": "./chromium.flatimage.log",
-    "size": "63 KB"
+    "size": "65.3 KB"
   },
   {
     "filename": "./chromium.flatimage.screen_1.png",
@@ -173,7 +173,7 @@
   },
   {
     "filename": "./chromium.nixappimage.log",
-    "size": "5.4 MB"
+    "size": "5.87 MB"
   },
   {
     "filename": "./chromium.nixappimage.screen_1.png",
@@ -205,7 +205,7 @@
   },
   {
     "filename": "./chromium.nixappimage.zsync",
-    "size": "1.45 MB"
+    "size": "830.97 KB"
   },
   {
     "filename": "./engrampa.appbundle.DirIcon",
@@ -241,7 +241,7 @@
   },
   {
     "filename": "./engrampa.appbundle.log",
-    "size": "261.06 KB"
+    "size": "260.45 KB"
   },
   {
     "filename": "./engrampa.appbundle.screen_1.png",
@@ -313,7 +313,7 @@
   },
   {
     "filename": "./falkon.appbundle.log",
-    "size": "317.17 KB"
+    "size": "316.09 KB"
   },
   {
     "filename": "./falkon.appbundle.screen_1.png",
@@ -341,7 +341,7 @@
   },
   {
     "filename": "./falkon.dwfs.appbundle",
-    "size": "283.17 MB"
+    "size": "282.94 MB"
   },
   {
     "filename": "./falkon.dwfs.appbundle.icon.png",
@@ -389,7 +389,7 @@
   },
   {
     "filename": "./firefox.appbundle.log",
-    "size": "65.42 KB"
+    "size": "64.57 KB"
   },
   {
     "filename": "./firefox.appbundle.screen_1.png",
@@ -437,7 +437,7 @@
   },
   {
     "filename": "./imagemagick.appbundle.log",
-    "size": "80.63 KB"
+    "size": "80.65 KB"
   },
   {
     "filename": "./imagemagick.dwfs.appbundle",
@@ -489,11 +489,11 @@
   },
   {
     "filename": "./inkscape.appbundle.icon.svg",
-    "size": "10.71 KB"
+    "size": "1408 B"
   },
   {
     "filename": "./inkscape.appbundle.log",
-    "size": "900.99 KB"
+    "size": "1.02 MB"
   },
   {
     "filename": "./inkscape.appbundle.screen_1.png",
@@ -565,11 +565,11 @@
   },
   {
     "filename": "./inkscape.appimage.icon.svg",
-    "size": "10.71 KB"
+    "size": "1408 B"
   },
   {
     "filename": "./inkscape.appimage.log",
-    "size": "718.76 KB"
+    "size": "837.19 KB"
   },
   {
     "filename": "./inkscape.appimage.screen_1.png",
@@ -577,7 +577,7 @@
   },
   {
     "filename": "./librewolf-arch.flatimage",
-    "size": "577.15 MB"
+    "size": "575.93 MB"
   },
   {
     "filename": "./librewolf-arch.flatimage.version",
@@ -601,7 +601,7 @@
   },
   {
     "filename": "./librewolf.appimage.log",
-    "size": "42.8 KB"
+    "size": "42.82 KB"
   },
   {
     "filename": "./librewolf.appimage.screen_1.png",
@@ -641,7 +641,7 @@
   },
   {
     "filename": "./librewolf.flatimage.log",
-    "size": "108.35 KB"
+    "size": "109.32 KB"
   },
   {
     "filename": "./librewolf.flatimage.screen_1.png",
@@ -665,7 +665,7 @@
   },
   {
     "filename": "./mousepad.appbundle.DirIcon",
-    "size": "4584 B"
+    "size": "3111 B"
   },
   {
     "filename": "./mousepad.appbundle.arch.appdata.xml",
@@ -701,19 +701,19 @@
   },
   {
     "filename": "./mousepad.appbundle.icon.png",
-    "size": "4584 B"
+    "size": "3111 B"
   },
   {
     "filename": "./mousepad.appbundle.icon.svg",
-    "size": "13.7 KB"
+    "size": "98.09 KB"
   },
   {
     "filename": "./mousepad.appbundle.log",
-    "size": "122.36 KB"
+    "size": "190.64 KB"
   },
   {
     "filename": "./mousepad.appbundle.screen_1.png",
-    "size": "154.57 KB"
+    "size": "185.07 KB"
   },
   {
     "filename": "./mousepad.dwfs.appbundle",
@@ -757,11 +757,11 @@
   },
   {
     "filename": "./obs-studio.appimage.log",
-    "size": "115.89 KB"
+    "size": "116.38 KB"
   },
   {
     "filename": "./olive-editor.appimage.log",
-    "size": "49.51 KB"
+    "size": "49.77 KB"
   },
   {
     "filename": "./olive-editor.appimage.screen_1.png",
@@ -797,7 +797,7 @@
   },
   {
     "filename": "./pcmanfm.appbundle.log",
-    "size": "75.04 KB"
+    "size": "75.36 KB"
   },
   {
     "filename": "./pcmanfm.dwfs.appbundle",
@@ -809,7 +809,7 @@
   },
   {
     "filename": "./ppsspp.appbundle.log",
-    "size": "66.57 KB"
+    "size": "66.03 KB"
   },
   {
     "filename": "./ppsspp.appbundle.screen_1.png",
@@ -941,7 +941,7 @@
   },
   {
     "filename": "./qbittorrent.appimage.log",
-    "size": "90.67 KB"
+    "size": "90.95 KB"
   },
   {
     "filename": "./qbittorrent.appimage.screen_1.png",
@@ -1077,7 +1077,7 @@
   },
   {
     "filename": "./ristretto.appbundle.log",
-    "size": "185.59 KB"
+    "size": "114.84 KB"
   },
   {
     "filename": "./ristretto.appbundle.screen_1.png",
@@ -1113,7 +1113,7 @@
   },
   {
     "filename": "./ryujinx.appimage.log",
-    "size": "82.81 KB"
+    "size": "83.08 KB"
   },
   {
     "filename": "./ryujinx.appimage.screen_1.png",
@@ -1213,7 +1213,7 @@
   },
   {
     "filename": "./xfce4-terminal.appbundle.DirIcon",
-    "size": "4435 B"
+    "size": "3000 B"
   },
   {
     "filename": "./xfce4-terminal.appbundle.arch.desktop",
@@ -1241,7 +1241,7 @@
   },
   {
     "filename": "./xfce4-terminal.appbundle.icon.png",
-    "size": "4435 B"
+    "size": "3000 B"
   },
   {
     "filename": "./xfce4-terminal.appbundle.icon.svg",
@@ -1249,7 +1249,7 @@
   },
   {
     "filename": "./xfce4-terminal.appbundle.log",
-    "size": "96.13 KB"
+    "size": "96.61 KB"
   },
   {
     "filename": "./xfce4-terminal.dwfs.appbundle",
@@ -1285,6 +1285,42 @@
   },
   {
     "filename": "./browservice.appimage.zsync",
-    "size": "829.52 KB"
+    "size": "414.87 KB"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "size": "4.57 MB"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "size": "4.61 MB"
+  },
+  {
+    "filename": "./base.default.png",
+    "size": "38.1 KB"
+  },
+  {
+    "filename": "./bin.default.png",
+    "size": "19.73 KB"
+  },
+  {
+    "filename": "./mousepad.appbundle.screen_2.png",
+    "size": "108.13 KB"
+  },
+  {
+    "filename": "./mousepad.appbundle.screen_3.png",
+    "size": "36.22 KB"
+  },
+  {
+    "filename": "./mousepad.appbundle.screen_4.png",
+    "size": "7108 B"
+  },
+  {
+    "filename": "./mousepad.appbundle.screen_5.png",
+    "size": "3269 B"
+  },
+  {
+    "filename": "./pkg.default.png",
+    "size": "40.22 KB"
   }
 ]

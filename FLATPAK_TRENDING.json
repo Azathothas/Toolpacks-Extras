@@ -647,7 +647,7 @@
       "summary": "GNOME loves to cook",
       "description": "\n       Recipes is an easy-to-use application that will help you to discover what to cook\n       today, tomorrow, the rest of the week and for your special occasions.\n    \n      \n       Recipes comes with a collection of recipes that have been collected by GNOME contributors\n       from all over the world. It also lets you store your own recipes and share them with your\n       friends.\n    \n      \n       The major features of Recipes include:\n    \n      \n        Add and edit your own recipes\n        Share recipes with your friends\n        Export and print shopping lists\n        Adjust quantities based on the number of servings\n        Mark recipes to cook later or add them to your favorites\n        Add notes to recipes\n        Hands-free cooking instruction mode\n      \n    ",
       "id": "org_gnome_Recipes",
-      "updated_at": 1715854323,
+      "updated_at": 1730940034,
       "arches": [
         "x86_64",
         "aarch64"
@@ -753,7 +753,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 18.77149139999557,
       "installs_last_month": 460,
       "added_at": 1491893826
@@ -24136,7 +24136,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

@@ -2960,7 +2960,7 @@
       "summary": "Secures your internet and protects your online privacy",
       "description": "\n            NOTE: This wrapper is built from the official source code, but it is not verified,\n            affiliated with, or supported by Proton AG.\n        \n      \n            Proton VPN is the world's only free VPN app that is safe to use and respects\n            your privacy. Proton VPN is created by the CERN scientists behind Proton Mail\n            - the world's largest encrypted email service. Our fast VPN offers secure,\n            private and encrypted internet access with advanced security features. Proton\n            VPN also unblocks access to popular websites and streaming platforms.\n        \n      \n            Used by millions worldwide, Proton’s secure no-logs VPN offers 24/7 safe and\n            private internet access, and does not record your browsing history, display\n            ads, sell your data to third parties, or limit downloads.\n        \n      Free VPN features available to all users\n      \n        Unlimited data with no bandwidth or speed restrictions\n        Strict no logs policy\n        \n                Bypass geo restrictions: smart protocol selection automatically overcomes\n                VPN bans and unblocks censored sites and content\n            \n        Full disk encrypted servers protect your data\n        \n                Perfect forward secrecy: encrypted traffic cannot be captured and decrypted\n                later\n            \n        \n                DNS leak protection: we encrypt DNS queries to ensure that your browsing\n                activity cannot be exposed through DNS leaks\n            \n        \n                Always-on VPN/ kill switch offers protection against leaks caused by\n                accidental disconnections\n            \n      \n      Premium VPN features\n      \n        Access 2900+ high speed servers across 65+ countries worldwide\n        Fast VPN: high speed servers with connections up to 10 Gbps\n        \n                VPN Accelerator: unique technology increases Proton VPN's speeds by up to\n                400% to give a faster browsing experience\n            \n        Unblock access to blocked or censored content\n        Connect up to 10 devices to the VPN at the same time\n        \n                Ad blocker (NetShield): a DNS filtering feature that protects you from\n                malware, blocks ads, and prevents website trackers from following you across\n                the web\n            \n        \n                Stream films, sports events, and videos on any streaming service (Netflix,\n                Hulu, Amazon Prime Video, Disney+, BBC iplayer etc)\n            \n        File-sharing and P2P support\n        \n                Secure Core servers protect against network-based attacks with multi-hop VPN\n            \n        \n                Tor over VPN provides automatic integration with the Tor anonymity network\n            \n        \n                Split tunneling support allows you to select which apps go through the VPN\n                tunnel\n            \n      \n      Why choose Proton VPN?\n      \n        \n                No-logs VPN: We do not keep any logs that can identify what you do online\n            \n        \n                DNS and IPv6 leak protection: Our Linux app will never accidentally expose\n                your real IP address\n            \n        \n                Easy-to-use interface: The new Proton VPN Linux app has an intuitive\n                graphical user interface that lets you quickly activate features and connect\n                to servers\n            \n        \n                P2P support: Share and download files using BitTorrent and other P2P\n                protocols\n            \n        \n                VPN Accelerator: Free and available to everyone who uses Proton VPN, our\n                unique VPN Accelerator technology can improve speeds by over 400%\n            \n        \n                Strong encryption: Our Linux app uses the OpenVPN protocol at its strongest\n                encryption settings\n            \n        \n                Based in Switzerland: Switzerland has some of the world's strongest data\n                privacy laws\n            \n        \n                Secure streaming: Unblock popular streaming services and watch your favorite\n                shows\n            \n      \n      Join the privacy revolution\n      \n            Your support is important as it allows us to continue our mission to bring\n            online freedom to people around the globe. Get our private VPN free today and\n            enjoy fast VPN connections and a secure internet, from anywhere.\n        \n      Required dependencies\n      \n        NetworkManager-openvpn\n        KWallet or GNOME Keyring\n        systemd\n      \n    ",
       "id": "com_protonvpn_www",
-      "updated_at": 1729781931,
+      "updated_at": 1730947864,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2970,7 +2970,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.protonvpn.www",
-      "icon": "https://dl.flathub.org/media/com/protonvpn/www/6168505df1ae7747ffe774f074bc1d91/icons/128x128/com.protonvpn.www.png",
+      "icon": "https://dl.flathub.org/media/com/protonvpn/www/992523c502627e6a83b46e5b2fd9ec38/icons/128x128/com.protonvpn.www.png",
       "categories": [
         "Network"
       ],
@@ -3354,7 +3354,7 @@
       "summary": "Private messenger",
       "description": "\n      To use the Signal desktop app, Signal must first be installed on your phone.\n    \n      \n      Millions of people use Signal every day for free and instantaneous communication \n      anywhere in the world. Send and receive high-fidelity messages, participate in \n      HD voice/video calls, and explore a growing set of new features that help you \n      stay connected. Signal’s advanced privacy-preserving technology is always enabled, \n      so you can focus on sharing the moments that matter with the people who matter to you. \n    \n      \n      Signal is an independent 501c3 nonprofit. The complete source code for \n      the Signal clients and the Signal server is available on GitHub.\n    \n      \n      This flatpak is maintained by the Flathub community, and is not necessarily \n      endorsed or officially maintained by the upstream developers.\n    \n    ",
       "id": "org_signal_Signal",
-      "updated_at": 1730374733,
+      "updated_at": 1730962250,
       "arches": [
         "x86_64"
       ],
@@ -3363,7 +3363,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.signal.Signal",
-      "icon": "https://dl.flathub.org/media/org/signal/Signal/c96670abbceddc8a451017d3681e78d5/icons/128x128/org.signal.Signal.png",
+      "icon": "https://dl.flathub.org/media/org/signal/Signal/65e04d384572c423f8c2c0fbe0e9ace8/icons/128x128/org.signal.Signal.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -4380,7 +4380,7 @@
       "summary": "Free and open source 3D creation suite",
       "description": "\n            Blender is the free and open source 3D creation suite. It supports\n            the entirety of the 3D pipeline — modeling, rigging, animation,\n            simulation, rendering, compositing, motion tracking, and video\n            editing.\n        \n      \n            Blender is a public project, made by hundreds of people from around the\n            world; by studios and individual artists, professionals and hobbyists,\n            scientists, students, VFX experts, animators, game artists, modders, and\n            the list goes on.\n        \n    ",
       "id": "org_blender_Blender",
-      "updated_at": 1728738045,
+      "updated_at": 1730943522,
       "arches": [
         "x86_64"
       ],
@@ -4389,7 +4389,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "org.blender.Blender",
-      "icon": "https://dl.flathub.org/media/org/blender/Blender/ac73df8323609ca9ef034dc635bf2292/icons/128x128/org.blender.Blender.png",
+      "icon": "https://dl.flathub.org/media/org/blender/Blender/91873859f3a02ba073cc401bae058f71/icons/128x128/org.blender.Blender.png",
       "categories": [
         "Graphics",
         "3DGraphics"
@@ -4408,7 +4408,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 8.674760008173417,
       "installs_last_month": 21727,
       "added_at": 1492029203
@@ -15416,7 +15416,7 @@
       "summary": "Secure communications platform built around you",
       "description": "More than group chat: communication\n      \n        Communicate with your team and out of network colleagues more efficiently: use dedicated rooms which persist information from their creation and forever.\n        Forget group emails: join or create rooms per topic, per team, per event… Decide the level of transparency you want to provide across the organisation or project.\n        Cut through the noise by creating notifications that are customised by you and for you.\n        Grab the attention of your colleague by calling out their name and don’t miss a thing with keyword alerts.\n        Deploy bots for fun or practical use with our integrations store.\n      \n      Preliminary Wayland support since 1.7.25.\n      To try running Element natively under Wayland, run:\n      flatpak run im.riot.Riot --enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\n      For GNOME, window decorations are currently missing and you'll have to use keyboard shortcuts instead to resize the window.\n    ",
       "id": "im_riot_Riot",
-      "updated_at": 1730230470,
+      "updated_at": 1730939574,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15426,7 +15426,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "im.riot.Riot",
-      "icon": "https://dl.flathub.org/media/im/riot/Riot/d76e77a6ba3f7127aa8628da33af4291/icons/128x128/im.riot.Riot.png",
+      "icon": "https://dl.flathub.org/media/im/riot/Riot/34470e79c22b2e6628cd0b8b0918a49d/icons/128x128/im.riot.Riot.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -22063,7 +22063,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

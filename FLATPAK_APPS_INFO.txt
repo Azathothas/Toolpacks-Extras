@@ -870,6 +870,10 @@ NAME: Chronos
 APP_ID: com.francescogaglione.chronos
 Descr: Chronos is a simple and intuitive Pomodoro timer for Linux
 -----------------------------
+NAME: Cosmic money
+APP_ID: com.francescogaglione.cosmicmoney
+Descr: Simple money manager
+-----------------------------
 NAME: FreeRDP Client
 APP_ID: com.freerdp.FreeRDP
 Descr: Remote Desktop Protocol Client
@@ -6340,7 +6344,7 @@ Descr: Encrypted password manager to keep your login credentials safe
 -----------------------------
 NAME: Hiperthermia
 APP_ID: me.sergiotarxz.Exd
-Descr: Program your thermal printer!
+Descr: Program your thermal printer
 -----------------------------
 NAME: Japachar
 APP_ID: me.sergiotarxz.JapaChar

@@ -5,131 +5,131 @@
   },
   {
     "filename": "./86box.appimage",
-    "sum": "b39f794aec44d5807c79bfbe83c92b72959981e29024a5f51b9a8bb049156b6d"
+    "sum": "b2a0829f3052b00dd519478296bf38deef69d085d91480dd113862bafe71c2b7"
   },
   {
     "filename": "./86box.appimage.log",
-    "sum": "e37b4df4de31eb6989a578cb41d95cf16fbce16f63947afdf1782a05ad8e4376"
+    "sum": "e80cf848aa3f60c0cf6c2b06fe2ed7eec5b4fcc8489a18b2f2ff62b0c7f645df"
   },
   {
     "filename": "./affine.appimage.log",
-    "sum": "03a5204cd006703464dd69052fb67f68a299e084c87a1257671901ef81965b5e"
+    "sum": "544221992655d1804de738f7e02272b6ad80c873ae57c206edc643c51bb296de"
   },
   {
     "filename": "./browservice.appimage.log",
-    "sum": "4a8816e3ae3b93f4248208a7e55974ba3f5b8a3b25fc462745a40ea7ac239012"
+    "sum": "b2eb049dec1a532911c43b741f2d98343ba774338e075e3a6ec11186950d6d50"
   },
   {
     "filename": "./chromium-alpine.flatimage",
-    "sum": "377701e83cff0ed3d501b9cbe21c5602aaf35c4a08d13f61ab825efeb004ae63"
+    "sum": "826dc850990dcfac20a4552b4f112801b90120437569fd8b61e2070b57b94950"
   },
   {
     "filename": "./chromium.appbundle.log",
-    "sum": "69e4c33b2091a3db1fca03bc8ce2dc71e2e8e3be92529c7c52410f9bb7a94d10"
+    "sum": "9b7cbbafb73d9f34cd93c4cfa18336c6df3fe0f248d5a2c565c4d7d05e0945ac"
   },
   {
     "filename": "./chromium.dwfs.appbundle",
-    "sum": "78d45b52d2e2e1bb28a3262e4d4f371be13bf711919062a855b88acc10159349"
+    "sum": "a42aab7ebcd3fffcea623cc0173236380973ba4ddf329e81aa99b1123cf2ab3f"
   },
   {
     "filename": "./chromium.flatimage.log",
-    "sum": "cf1046734e4d3099c4049dc3f4a3398811fdf14099544cbb1a9a07cdf61261ae"
+    "sum": "d46862141710237184e1d3c1bc99dd5f995ea80911921ccfca6ef4e7d6801951"
   },
   {
     "filename": "./chromium.nixappimage",
-    "sum": "7393adae0b073f6f820df697710c10a671f4fb314ae7bc737874e2e65dc0b7e3"
+    "sum": "a4e0759998ce1b8a3a3386ab84ee2e2a89ca9d58cd9b922e10d2527bceda7ec1"
   },
   {
     "filename": "./chromium.nixappimage.log",
-    "sum": "990549b1654cedab1c5fc64e2f675a212ea430bccc2baf8e3d7e42e8b1aaae78"
+    "sum": "6bdd434c807a63914331d0ca2e63a8d46980edc86ed98d04b9bd23ac97b41102"
   },
   {
     "filename": "./engrampa.appbundle.log",
-    "sum": "4bc9c3e3c345e5a8a94baf3f75368f0fa5626f196cfe1a487d0d97ac357b7922"
+    "sum": "fc41cfebcb2d0b953355f83ff92ad003391e27ab8f23b93928ace46161647d51"
   },
   {
     "filename": "./engrampa.dwfs.appbundle",
-    "sum": "48fda3f49778a9a64e4068d6723df5779eb38d4d3860f26e783953571601a12c"
+    "sum": "a92e2c8a917f29bb2d398b23dd850eeb3b711dec74bda9ca18e63f5077c757b2"
   },
   {
     "filename": "./falkon.appbundle.log",
-    "sum": "3eccd18d98a306f6af611ae463a66533f4dd8b8d9b86d0d6a8a8c3fb07190234"
+    "sum": "f23f293163295eb125a3b0c4cf72453f4b549dac52c6f695b7d64d9a8e2160cb"
   },
   {
     "filename": "./falkon.dwfs.appbundle",
-    "sum": "be85126d6397b046bdb52ca90b5e46a443d36a9379ccc6a34cdb37dd7417ce91"
+    "sum": "3b41829ff7d42f941604083d656cc542a6fa1f873dd09fd433245256b024cc55"
   },
   {
     "filename": "./firefox.appbundle.log",
-    "sum": "e30cdbccc57a83ddd4e583005786ef7e290218eaa034d67aec170e5e769cb19c"
+    "sum": "841f3ccce42b953694f00ea76b5c4c8ce89d4cb927e5f13213cdf7e6e4a4ecc6"
   },
   {
     "filename": "./firefox.dwfs.appbundle",
-    "sum": "c705c7471561a386552c14f31cb774be28ad5ae452b1ce1da4a0c5003a3fe904"
+    "sum": "7f098db24f5410ea9e82a23ca7735f9caaee16e23dff46e6f28d273d4a783a6f"
   },
   {
     "filename": "./imagemagick.appbundle.log",
-    "sum": "5ef6c05d1193e0512004137ef309079560aa3a3d7eb622da8edfe59d3ade3c99"
+    "sum": "c9a197d75dd816e1d68216ddca46c90f3c7badc05c2c91a60141c903a48db422"
   },
   {
     "filename": "./imagemagick.dwfs.appbundle",
-    "sum": "ea1d98e73cdccd243b8109e753c698be28836cae4f1164aef50e7d3732f4a86a"
+    "sum": "d0c826de11b01ed2cfb2e80da719494aadb162eeb34ca0659c569842fef82a2a"
   },
   {
     "filename": "./inkscape.appbundle.log",
-    "sum": "86a7bdd4a24c37d6bbe443f1f2ebfaca2510fc23017b6d69803cb2ed54467042"
+    "sum": "b831adb9a48ffc22a6af764c59192fda46ccfffa711ccbed9b19e20360be16b9"
   },
   {
     "filename": "./inkscape.appimage.log",
-    "sum": "cd156f7aba4ae82092a9fe975a123cbef731df54dd4428bb1c4d136a57bd55cd"
+    "sum": "f26aefac919dc58982d99c6d316e6a056cec2efb6973ddc4456c9740eed0aa7b"
   },
   {
     "filename": "./librewolf-arch.flatimage",
-    "sum": "310a596c59f2313d7a8480f8a7de6af586296846154cd1f909192c14a5d1b82a"
+    "sum": "b5bb76fbbf3d7368b0d5fe666027527ef63b87a4993389373e5a2293e22d72b0"
   },
   {
     "filename": "./librewolf.appimage.log",
-    "sum": "0d6a94828ab6abe664deb4e9d4bc7248d58b8f759903376b9b2d6425f99347a3"
+    "sum": "9090784e2aa3c49ebe78e8f44cdec7b5a737ae275a4e0408a2d9c80f3ee2b8e7"
   },
   {
     "filename": "./librewolf.flatimage.log",
-    "sum": "50484758546fb47a1538df33e763ad9db0f82857d200cae06fd0ea8432792fd0"
+    "sum": "bde4ea6598738d8696c596b10aa75152d1229982d53e40d8b272543f0be744df"
   },
   {
     "filename": "./mousepad.appbundle.log",
-    "sum": "ea9ef4d842c210a77430f0a0d1ffd263a2ccbe597b06b3ee1976f51eb06c6555"
+    "sum": "8ca84968573587ebcd45309d790158c09963e75d2835866ab34541d756e22069"
   },
   {
     "filename": "./mousepad.dwfs.appbundle",
-    "sum": "7d6d6a0fedb741bbf8fc018f76868b553f0a2955048a66db60bafb3d224161c5"
+    "sum": "1e05f9da7ad7f00ef7ee8540de0e4def00e986939747b5613297ddf8a9c24df6"
   },
   {
     "filename": "./obs-studio.appimage.log",
-    "sum": "ed8a6b84250f65a0c45d9e3bc3604974cd5896b1c6c24152b88c8239f6d98893"
+    "sum": "fe44a802f4335f5904275117c44872b0d059ef3f47980a7b22322a253ebace1a"
   },
   {
     "filename": "./olive-editor.appimage.log",
-    "sum": "9bace743d1d7c3e6c01f1f2be2e858cb4b7bb77ac4509e8fa07bb95c5694776b"
+    "sum": "d7f4cecb1064daade7172f62e87c929c9745aaa92f80e8a6c12bfb246d4ca654"
   },
   {
     "filename": "./pcmanfm.appbundle.log",
-    "sum": "c8b90b62dfc1b28d0cd3ddb2e49704dd8bc658fed935ba50288682a0b15bafa0"
+    "sum": "0352f4ba751deb3dce1eb8e56a610972044d75183b1f764574905ec6e6679495"
   },
   {
     "filename": "./pcmanfm.dwfs.appbundle",
-    "sum": "a63e9319329a7a43154ffb0929c023899a18ba4b32673cac8b503262c69f4e51"
+    "sum": "fbdc5c1b4030805af1f6fff1e796306f0f640047cec42d4ee3be6295a5b24d7a"
   },
   {
     "filename": "./ppsspp.appbundle.log",
-    "sum": "300c0aef67612b840fcf28f1618583b9230df2638fa9fdd70c31ddce3d63171b"
+    "sum": "c53fb267b7480933e5e049caf7a8a0b1870a1da534bcc73b99b481f3be89fb6d"
   },
   {
     "filename": "./ppsspp.dwfs.appbundle",
-    "sum": "d52c319bbfb4cf4874e75a1db4ee1089954f9a00e04c99fa9b7a032813269905"
+    "sum": "2af39d6e2db06ced23a9721762fed6202b37319b5d5f6bb5537b62c2e12fd85c"
   },
   {
     "filename": "./qbittorrent.appimage.log",
-    "sum": "355bc078240527f33e4d86c5049ff49043ff67d2c3f4bd9275eb3eec931e6397"
+    "sum": "eadb3a19f501b8b84798707e3c59a3430f91254015993c7ebd941f33efa3c9c7"
   },
   {
     "filename": "./qbittorrent.appimage.screen_1.webp",
@@ -149,30 +149,42 @@
   },
   {
     "filename": "./ristretto.appbundle.log",
-    "sum": "037ebaeda91a6559e818fd7a9680d258ebeedea4095558fe7f19850ec7fe4965"
+    "sum": "9f235dd149a1fbe5c80bc7ba4df2bbaab68e8d0d11110608e379d441537e44f5"
   },
   {
     "filename": "./ristretto.dwfs.appbundle",
-    "sum": "e8a9094acf89a2cda5d12510d226ece6e32c651a66f061f2e797c6c4a0ae7906"
+    "sum": "2007188183129752c1257e730ef4cf579a45a257e04b220caead9e512aac02c8"
   },
   {
     "filename": "./ryujinx.appimage",
-    "sum": "96bb4b417c2441892ebbfc219b63f52dde263192a61986d61093e94d9d1adcda"
+    "sum": "52ba8b8b55149ce3b4e562229d7ae88c24ce8b1637bb92007c8f4667705da353"
   },
   {
     "filename": "./ryujinx.appimage.log",
-    "sum": "9fcc3ca01c8a41a759370f10677540f59d60c599a42a2a25fad54aeb1dffa010"
+    "sum": "3149d06ed0897830f892ffd009d871a027515ca8d493656125f4a612e4348b44"
   },
   {
     "filename": "./xfce4-terminal.appbundle.log",
-    "sum": "cd05e03beb021bf01cd0caf5afd5494f4adf88cfb3229e4f511753c2dfce2765"
+    "sum": "568555e179cb86bd1b6983a5718e3747b282e1f10693950876f049ad3ad62d56"
   },
   {
     "filename": "./xfce4-terminal.dwfs.appbundle",
-    "sum": "edf999eb5dbf3fb21a70fef75d294f603a4472fadf18b49c38399b95d82de470"
+    "sum": "761116e862731cc931d12612028f6a7e704950f3292ae6f58a0a54c6b1d44038"
   },
   {
     "filename": "./browservice.appimage",
-    "sum": "d8c01e85c1e7d6d970f0b84b1779e3a17e6a0e5d186d9c17f83980c4b397a78e"
+    "sum": "fd1755a8f1f9af8df32b8f74f84f99acf8fb021d046b4da371a33437d305fa2c"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "sum": "884530eb2ac36d58b1d3de4b2d1be7a64ed4d17ea8db0be560f7a41251769679"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "sum": "d9e0840241eb667720b3f985a705a86db6968597d96389955f3821bef6b77b1e"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "sum": "042864a959d2203d93258e1f38b0c70d5cbc2bf90a2aa274d9bcc0cc8cdaef32"
   }
 ]

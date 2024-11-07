@@ -224,6 +224,7 @@ com.fightcade.Fightcade
 com.flashforge.FlashPrint
 com.frac_tion.teleport
 com.francescogaglione.chronos
+com.francescogaglione.cosmicmoney
 com.freerdp.FreeRDP
 com.frogatto.Frogatto
 com.gamestarmechanic.gamestarmechanic

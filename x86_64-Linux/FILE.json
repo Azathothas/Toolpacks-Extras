@@ -93,7 +93,7 @@
   },
   {
     "filename": "./chromium-alpine.flatimage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b5401ec950943751e944359fbac8dc3c77251f9b, stripped"
   },
   {
     "filename": "./chromium.appbundle.log",
@@ -105,7 +105,7 @@
   },
   {
     "filename": "./chromium.flatimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with very long lines (594), with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./chromium.nixappimage",
@@ -177,7 +177,7 @@
   },
   {
     "filename": "./dolphin-emu.appimage.log",
-    "type": "ASCII text, with very long lines (493), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./duckstation.appimage",
@@ -229,7 +229,7 @@
   },
   {
     "filename": "./firefox-esr.appimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (562), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (493), with CR, LF line terminators"
   },
   {
     "filename": "./firefox-nightly.appimage",
@@ -237,11 +237,11 @@
   },
   {
     "filename": "./firefox-nightly.appimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (501), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (501), with CR, LF line terminators"
   },
   {
     "filename": "./firefox.appbundle.log",
-    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with very long lines (562), with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./firefox.dwfs.appbundle",
@@ -341,11 +341,11 @@
   },
   {
     "filename": "./ladybird-cachyos.flatimage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b5401ec950943751e944359fbac8dc3c77251f9b, stripped"
   },
   {
     "filename": "./ladybird.flatimage.log",
-    "type": "ASCII text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+    "type": "ASCII text, with very long lines (594), with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./libreoffice.appimage.log",
@@ -353,7 +353,7 @@
   },
   {
     "filename": "./librewolf-cachyos.flatimage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b5401ec950943751e944359fbac8dc3c77251f9b, stripped"
   },
   {
     "filename": "./librewolf.appimage.log",
@@ -361,7 +361,7 @@
   },
   {
     "filename": "./librewolf.flatimage.log",
-    "type": "ASCII text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+    "type": "ASCII text, with very long lines (594), with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./lite-xl.appimage",
@@ -413,7 +413,7 @@
   },
   {
     "filename": "./nvtop.appimage.log",
-    "type": "ASCII text, with very long lines (481), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (502), with CR, LF line terminators"
   },
   {
     "filename": "./obs-studio.appimage",
@@ -449,7 +449,7 @@
   },
   {
     "filename": "./opera.appimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (481), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (481), with CR, LF line terminators"
   },
   {
     "filename": "./pcmanfm.appbundle.log",
@@ -469,7 +469,7 @@
   },
   {
     "filename": "./ppsspp.appbundle.log",
-    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./ppsspp.dwfs.appbundle",
@@ -505,7 +505,7 @@
   },
   {
     "filename": "./qbittorrent-enhanced.appimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (511), with CR, LF line terminators"
+    "type": "ASCII text, with very long lines (511), with CR, LF line terminators"
   },
   {
     "filename": "./qbittorrent-enhanced.appimage.screen_1.webp",
@@ -545,7 +545,7 @@
   },
   {
     "filename": "./ristretto.appbundle.log",
-    "type": "ASCII text, with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./ristretto.dwfs.appbundle",
@@ -597,7 +597,7 @@
   },
   {
     "filename": "./steam-cachyos.flatimage",
-    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=944c2c74194e2f5b04e043f1e84a54534ba0843c, stripped"
+    "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=b5401ec950943751e944359fbac8dc3c77251f9b, stripped"
   },
   {
     "filename": "./steam.appimage",
@@ -669,10 +669,22 @@
   },
   {
     "filename": "./zettlr.appimage.log",
-    "type": "ASCII text, with very long lines (483), with CR, LF line terminators"
+    "type": "Unicode text, UTF-8 text, with very long lines (483), with CR, LF line terminators"
   },
   {
     "filename": "./zoom-us.appimage.log",
     "type": "ASCII text, with very long lines (502)"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "type": "JSON text data"
   }
 ]
