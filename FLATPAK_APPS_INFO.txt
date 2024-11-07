@@ -5402,7 +5402,7 @@ NAME: Rosary
 APP_ID: io.github.roseblume.rosary
 Descr: Study Christianity
 -----------------------------
-NAME: Rosary
+NAME: Rosary Music
 APP_ID: io.github.roseblume.rosemusic
 Descr: Listen To Online Radio
 -----------------------------
