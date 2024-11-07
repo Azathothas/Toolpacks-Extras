@@ -14070,7 +14070,7 @@
       "summary": "Configure Moza Racing hardware",
       "description": "\n      Boxflat enables you to change your Moza Racing hardware settings with ease.\n    \n      \n      Settings and their values are a 1:1 match with Pit House. This makes it possible to use presets shared by the community.\n      The table of supported settings compared to Pit House can be found on the project website. This project has no official ties to Moza\n      and/or their software. It's 100% independent work based largely on hours of reverse engineering the protocol.\n    \n      \n      Boxflat supports saving/loading presets and automatic game detection.\n    \n      \n      Supported devices:\n    \n      \n        Wheelbases\n        Wheels\n        Pedals\n        Handbrake\n        Sequential shifter\n        H-Pattern shifter\n        E-Stop\n      \n      \n      Note: The udev rules found in the GitHub repository need to be installed for the application to work properly.\n      Boxflat will remind you of this in case of no rw access to the serial devices.\n    \n    ",
       "id": "io_github_lawstorant_boxflat",
-      "updated_at": 1730938629,
+      "updated_at": 1730983148,
       "arches": [
         "x86_64",
         "aarch64"
@@ -14080,7 +14080,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.lawstorant.boxflat",
-      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/ad4996b8eef14e11cf1043ee1a34830d/icons/128x128/io.github.lawstorant.boxflat.png",
+      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/301fa5bee3879a3d6f1b5edf23b1b111/icons/128x128/io.github.lawstorant.boxflat.png",
       "categories": [
         "Game",
         "Utility"
@@ -24136,7 +24136,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
