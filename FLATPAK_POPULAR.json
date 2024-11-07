@@ -2558,7 +2558,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1730046629,
+      "updated_at": 1730927946,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3756,7 +3756,7 @@
       "summary": "A program to help you download, keep updated, and run the Tor Browser Bundle",
       "description": "Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. It downloads the same TBB from torproject.org that everyone else uses, and it doesn't alter it in any way. But it does make it much more usable, and it makes the task of keeping it up-to-date more secure.\n      You install torbrowser-launcher from your distribution's package manager and it handles everything else, including:\n      \n        Downloading the most recent version of TBB for you, in your language and for your architecture\n        Automatically updating (while preserving your bookmarks and preferences)\n        Verifying the TBB's GnuPG signature\n        Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some distros)\n        Adding a Tor Browser application launcher to your desktop environment's menu\n        Lets you set Tor Browser as your default browser\n        Optionally playing a modem sound when you open Tor Browser (because Tor is so slow)\n      \n    ",
       "id": "org_torproject_torbrowser-launcher",
-      "updated_at": 1730811004,
+      "updated_at": 1730931784,
       "arches": [
         "x86_64"
       ],

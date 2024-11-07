@@ -14070,7 +14070,7 @@
       "summary": "Configure Moza Racing hardware",
       "description": "\n      Boxflat enables you to change your Moza Racing hardware settings with ease.\n    \n      \n      Settings and their values are a 1:1 match with Pit House. This makes it possible to use presets shared by the community.\n      The table of supported settings compared to Pit House can be found on the project website. This project has no official ties to Moza\n      and/or their software. It's 100% independent work based largely on hours of reverse engineering the protocol.\n    \n      \n      Boxflat supports saving/loading presets and automatic game detection.\n    \n      \n      Supported devices:\n    \n      \n        Wheelbases\n        Wheels\n        Pedals\n        Handbrake\n        Sequential shifter\n        H-Pattern shifter\n        E-Stop\n      \n      \n      Note: The udev rules found in the GitHub repository need to be installed for the application to work properly.\n      Boxflat will remind you of this in case of no rw access to the serial devices.\n    \n    ",
       "id": "io_github_lawstorant_boxflat",
-      "updated_at": 1730825780,
+      "updated_at": 1730938629,
       "arches": [
         "x86_64",
         "aarch64"
@@ -14080,7 +14080,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.lawstorant.boxflat",
-      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/45d06bc7a02915c767f912a8d0858350/icons/128x128/io.github.lawstorant.boxflat.png",
+      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/ad4996b8eef14e11cf1043ee1a34830d/icons/128x128/io.github.lawstorant.boxflat.png",
       "categories": [
         "Game",
         "Utility"
@@ -18975,7 +18975,7 @@
       "summary": "Scalable Vector Graphics editor",
       "description": "Boxy SVG project goal is to create the best tool for editing SVG files. For beginners as well as for\nprofessional designers and developers. On any device and operating system.\n      \n        === Core features: ===\n      \n      \n        Clean and intuitive UI heavily inspired by Inkscape, Sketch and Adobe Illustrator\n        Extensive support for on-canvas editing of object geometry, transform, paint and other properties\n        Save to SVG and SVGZ formats, export to PNG, JPG, WebP, PDF and HTML5\n        Integration with Pixabay and other libraries with millions of free stock photos and vector assets\n        Google Fonts integration with hundreds of free fonts\n        Configurable keyboard shortcuts for over 100 commands\n        Manual guides, smart guides and grid\n        Path operations (unite, intersect, subtract, exclude, close, reverse, etc.)\n        Arrangement operations (align to, rotate, flip, order, group, etc.)\n      \n      \n        === For web developers: ===\n      \n      \n        Chromium-based rendering engine\n        SVG and CSS code inspector similar to Chrome Dev Tools\n        Clean SVG output that preserves IDs, classes, titles and other metadata\n        SVG sprites editing support\n      \n      This package is officially published, maintained and supported by Boxy SVG developer.\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    ",
       "id": "com_boxy_svg_BoxySVG",
-      "updated_at": 1730895627,
+      "updated_at": 1730931239,
       "arches": [
         "x86_64",
         "aarch64"
@@ -19010,7 +19010,7 @@
       "project_license": "LicenseRef-proprietary=https://boxy-svg.com/legal",
       "is_free_license": false,
       "app_id": "com.boxy_svg.BoxySVG",
-      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/92482494b4430be5a0c5c8b19f077abc/icons/128x128/com.boxy_svg.BoxySVG.png",
+      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/07419caf546af3f804f06f55dd37f5f3/icons/128x128/com.boxy_svg.BoxySVG.png",
       "categories": [
         "Graphics",
         "Development"
@@ -19685,7 +19685,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1730046629,
+      "updated_at": 1730927946,
       "arches": [
         "x86_64",
         "aarch64"
@@ -24136,7 +24136,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
