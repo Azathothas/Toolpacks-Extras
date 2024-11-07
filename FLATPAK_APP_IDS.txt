@@ -716,6 +716,7 @@ com.tomjwatson.Emote
 com.tonikelope.MegaBasterd
 com.toolstack.Folio
 com.tracktion.Waveform
+com.tradingview.tradingview
 com.transmissionbt.Transmission
 com.tutanota.Tutanota
 com.tux4kids.tuxmath

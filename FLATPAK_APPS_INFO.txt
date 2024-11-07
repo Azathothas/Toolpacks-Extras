@@ -2802,6 +2802,10 @@ NAME: Waveform11
 APP_ID: com.tracktion.Waveform
 Descr: Digital audio workstation for all music creators
 -----------------------------
+NAME: TradingView
+APP_ID: com.tradingview.tradingview
+Descr: Where the world charts, chats and trades markets
+-----------------------------
 NAME: Tuta (Experimental)
 APP_ID: com.tutanota.Tutanota
 Descr: Secure email, calendar &amp; contacts

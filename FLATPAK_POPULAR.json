@@ -4031,7 +4031,7 @@
       "summary": "Your personal browser",
       "description": "\n      Faster, safer and smarter than default browsers. Opera Browser is fully-featured for privacy, security, and everything you do online.\n    \n      \n      Opera's free VPN, Ad blocker, and Flow file sharing. Just a few of the must-have features built into Opera for faster, smoother and distraction-free browsing designed to improve your online experience.\n    \n      \n      Experience faster, distraction-free browsing with Ad blocking, and browse privately. Smoothly sync your data and send files between Opera on Mac, Windows, Linux, iOS, Android, and Chromebook.\n    \n      \n      NOTE: This package is not verified by, affiliated with, or supported by Opera.\n    \n    ",
       "id": "com_opera_Opera",
-      "updated_at": 1730461658,
+      "updated_at": 1730975321,
       "arches": [
         "x86_64"
       ],
@@ -4040,7 +4040,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.opera.Opera",
-      "icon": "https://dl.flathub.org/media/com/opera/Opera/2c1ac8c3c8df8759960a58203eeceb22/icons/128x128/com.opera.Opera.png",
+      "icon": "https://dl.flathub.org/media/com/opera/Opera/eaf6047a0ca2fff135743a611fb75f80/icons/128x128/com.opera.Opera.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -22063,7 +22063,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
