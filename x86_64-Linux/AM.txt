@@ -2363,6 +2363,7 @@
 | sharun-lib4bin | Run shared binary everywhere | https://github.com/VHSgunzo/sharun | https://bin.pkgforge.dev/x86_64/sharun-lib4bin | 72320f6489ae |
 | shc | Shell script compiler | https://github.com/neurobin/shc | https://bin.pkgforge.dev/x86_64/shc | 2ebffd12504c |
 | shell2http | Executing shell commands via HTTP server | https://github.com/msoap/shell2http | https://bin.pkgforge.dev/x86_64/shell2http | 02c2d2ddf929 |
+| shellcheck | A static analysis tool for shell scripts | https://github.com/koalaman/shellcheck | https://bin.pkgforge.dev/x86_64/shellcheck | 9f5bff750a16 |
 | shellharden | The corrective bash syntax highlighter | https://github.com/anordal/shellharden | https://bin.pkgforge.dev/x86_64/shellharden | 862a61215cdb |
 | shellz | a small utility to manage your ssh, telnet, kubernetes, winrm, web or any custom shell in a single place. | https://github.com/evilsocket/shellz | https://bin.pkgforge.dev/x86_64/shellz | 25ad357f1668 |
 | shfmt | A shell parser, formatter, and interpreter with bash support; includes shfmt | https://github.com/mvdan/sh | https://bin.pkgforge.dev/x86_64/shfmt | 74e23e815311 |

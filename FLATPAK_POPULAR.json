@@ -5893,7 +5893,7 @@
       "summary": "Image Viewer",
       "description": "\n      Gwenview is a fast and easy to use image viewer by KDE, ideal for browsing and displaying a collection of images.\n    \n      Features:\n      \n        Simple image editing: rotate, crop, resize, mirror, flip, reduce red eye, and adjust brightness, contrast, or gamma\n        Annotate and mark up images with arrows, shapes, text boxes, image stamps, and more\n        Basic file management actions such as copy, move, delete, and others\n        Functions both as a standalone application and an embedded viewer in the Konqueror web browser\n      \n    ",
       "id": "org_kde_gwenview",
-      "updated_at": 1728716979,
+      "updated_at": 1731057467,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6077,7 +6077,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.kde.gwenview",
-      "icon": "https://dl.flathub.org/media/org/kde/gwenview.desktop/ad9100a756ba184adbc4902d04b12526/icons/128x128/org.kde.gwenview.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/gwenview.desktop/a9b703b23eb1159bda5b904fceb3e8fd/icons/128x128/org.kde.gwenview.desktop.png",
       "categories": [
         "Graphics",
         "Viewer",
@@ -14133,7 +14133,7 @@
       "summary": "Manage your files",
       "description": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.\n      Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.\n      Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.\n      Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.\n      Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.\n    ",
       "id": "org_kde_dolphin",
-      "updated_at": 1728914559,
+      "updated_at": 1731053781,
       "arches": [
         "x86_64",
         "aarch64"
@@ -14219,7 +14219,8 @@
         },
         "id": {
           "description": "Dolphin adalah pengelola file KDE yang memungkinkan kamu menavigasi dan menelusuri konten hard drive, stik USB, kartu SD, dan lainnya. Membuat, memindahkan, atau menghapus file dan folder itu sederhana dan cepat.\n      Dolphin mengandung banyak fitur produktivitas yang akan menghemat waktumu. Fitur multi tab dan tampilan terpisah memungkinkan navigasi beberapa folder secara bersamaan, dan kamu bisa dengan mudah menyeret dan meletakkan file antar tampilan untuk memindahkan atau menyalinnya. Menu klik kanan pada dolphin menyediakan banyak tindakan cepat yang memungkinkan kamu mengompres, berbagi, dan menggandakan file, di antara banyak hal lainnya. Kamu juga bisa menambahkan tindakan kustom milikmu sendiri.\n      Dolphin sangat ringan, tetapi pada saat yang sama, kamu bisa menyesuaikannya dengan kebutuhan spesifikmu. Ini berarti kamu bisa menjalankan pengelola file-mu persis seperti yang kamu inginkan. Dolphin mendukung tiga mode tampilan yang berbeda: tampilan kisi klasik dari semua file, tampilan yang lebih detail, dan tampilan ranting. Kamu juga bisa mengkonfigurasi sebagian besar perilaku Dolphin.\n      Dolphin bisa menampilkan file dan folder dari banyak layanan cloud Internet dan mesin jarak jauh lainnya seolah-olah mereka ada di desktop-mu.\n      Dolphin juga dilengkapi dengan terminal terintegrasi yang memungkinkan kamu menjalankan perintah di folder saat ini. Kamu bisa memperluas kemampuan Dolphin lebih jauh dengan plugin yang hebat untuk menyesuaikannya dengan alur kerja kamu. Kamu bisa menggunakan plugin integrasi git untuk berinteraksi dengan repositori git, atau plugin Nextcloud untuk menyinkronkan file-mu secara online, dan banyak lagi.\n    ",
-          "name": "Dolphin"
+          "name": "Dolphin",
+          "summary": "Kelola file Anda"
         },
         "it": {
           "description": "Dolphin è il gestore file di KDE che ti consente di navigare e sfogliare i contenuti dei tuoi dischi fissi, chiavette USB, schede SD e altro. Creare, spostare o eliminare file e cartelle è semplice e veloce.\n      Dolphin contiene molte funzionalità di produttività che ti faranno risparmiare tempo.Le schede multiple e le funzioni di visualizzazione divisa consentono di navigare in più cartelle contemporaneamente e puoi facilmente trascinare e rilasciare i file tra le visualizzazioni per spostarli o copiarli. Il menu di scelta rapida di Dolphin fornisce molte azioni rapide che ti consentono di comprimere, condividere e duplicare file, tra molte altre cose. Puoi anche aggiungere le tue azioni personalizzate.\n      Dolphin è molto leggero, ma allo stesso tempo puoi adattarlo alle tue esigenze specifiche. Ciò significa che puoi eseguire la gestione dei file esattamente come desideri. Dolphin supporta tre diverse modalità di visualizzazione: una classica visualizzazione a griglia di tutti i file, una visualizzazione più dettagliata e una visualizzazione ad albero. Puoi anche configurare la maggior parte del comportamento di Dolphin.\n      Dolphin può visualizzare file e cartelle da molti servizi cloud Internet e altre macchine remote come se fossero direttamente sul tuo desktop.\n      Dolphin è inoltre dotato di un terminale integrato che ti consente di eseguire comandi nella cartella attuale. Puoi estendere ulteriormente le capacità di Dolphin con potenti estensioni per adattarlo al tuo flusso di lavoro. Puoi utilizzare l'estensione di integrazione con git per interagire con i depositi git o l'estensione Nextcloud per sincronizzare i tuoi file in linea e molto altro ancora.\n    ",
@@ -14316,7 +14317,7 @@
       "project_license": "GPL-2.0-or-later",
       "is_free_license": true,
       "app_id": "org.kde.dolphin",
-      "icon": "https://dl.flathub.org/media/org/kde/dolphin.desktop/918f90c60780f4aea55b5207f84139b3/icons/128x128/org.kde.dolphin.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/dolphin.desktop/9dfc317253fd5b964c14f388d94f8370/icons/128x128/org.kde.dolphin.desktop.png",
       "categories": [
         "System",
         "FileTools",
@@ -21296,7 +21297,7 @@
       "summary": "Scientific calculator",
       "description": "KCalc has everything you would expect from a scientific calculator, plus:\n      \n        Trigonometric functions, logic operations and statistical calculations\n        A results stack which enables convenient recall of previous calculation results\n        Precision is user-definable\n        The display allows cut and paste of numbers\n        The display colors and font are configurable, aiding usability\n        The use of key-bindings make it easy to use without a pointing device\n      \n    ",
       "id": "org_kde_kcalc",
-      "updated_at": 1728602183,
+      "updated_at": 1731057193,
       "arches": [
         "x86_64",
         "aarch64"
@@ -21376,7 +21377,8 @@
         },
         "id": {
           "description": "KCalc memiliki semua yang kamu harapkan dari kalkulator ilmiah, plus:\n      \n        Fungsi trigonometri, operasi logika dan perhitungan statistik\n        Tumpukan hasil yang memungkinkan pemanggilan ulang yang mudah dari hasil perhitungan sebelumnya\n        Presisi dapat ditentukan pengguna\n        Displai memungkinkan pemotongan dan penempelan angka\n        Warna displai dan font dapat dikonfigurasi, membantu kegunaan\n        Penggunaan tuts pengikat membuatnya mudah digunakan tanpa alat penunjuk\n      \n    ",
-          "name": "KCalc"
+          "name": "KCalc",
+          "summary": "Kalkulator ilmiah"
         },
         "it": {
           "description": "KCalc ha tutto quello che ci si aspetta da una calcolatrice scientifica.\n      \n        Funzioni trigonometriche, operazioni logiche e calcoli statistici\n        Una pila di risultati che permette di richiamare opportunamente i risultati dei calcoli precedenti\n        La precisione è definibile dall'utente\n        Il display permette di copiare e incollare i numeri\n        I colori e i caratteri del display possono essere configurati, supportando l'usabilità\n        L'uso di combinazioni di tastiera ne rende semplice l'uso senza un dispositivo di puntamento\n      \n    ",
@@ -21454,7 +21456,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.kde.kcalc",
-      "icon": "https://dl.flathub.org/media/org/kde/kcalc.desktop/462c0e993d76e3a7cfb17a88065d5c18/icons/128x128/org.kde.kcalc.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/kcalc.desktop/06595fae5e05bb98d95c0b57ceb2e712/icons/128x128/org.kde.kcalc.desktop.png",
       "categories": [
         "Utility",
         "Calculator"
@@ -22082,7 +22084,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
