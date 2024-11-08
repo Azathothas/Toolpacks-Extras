@@ -642,7 +642,7 @@
       "summary": "A PlayStation Portable emulator",
       "description": "PPSSPP is a PSP emulator that can run games in full HD resolution. It can\n      even upscale textures that would otherwise be too blurry as they were made\n      for the small screen of the original PSP.\n    ",
       "id": "org_ppsspp_PPSSPP",
-      "updated_at": 1730514399,
+      "updated_at": 1731077013,
       "arches": [
         "x86_64",
         "aarch64"
@@ -661,7 +661,7 @@
       "project_license": "GPL-2.0-or-later",
       "is_free_license": true,
       "app_id": "org.ppsspp.PPSSPP",
-      "icon": "https://dl.flathub.org/media/org/ppsspp/PPSSPP/f34776850f482b4c3bfff3a57625bdd2/icons/128x128/org.ppsspp.PPSSPP.png",
+      "icon": "https://dl.flathub.org/media/org/ppsspp/PPSSPP/98e3e750cb7aa9c4609b7b809c90d9d4/icons/128x128/org.ppsspp.PPSSPP.png",
       "categories": [
         "Game",
         "Emulator"
@@ -1964,7 +1964,7 @@
       "summary": "Introducing the new Microsoft Edge web browser. It’s time to expect more. More privacy. More control. More productivity. More value.",
       "description": "\n    NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft.\n    \n      \n    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.\n   \n      \n    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.\n   \n      \n    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need.\n   \n    ",
       "id": "com_microsoft_Edge",
-      "updated_at": 1730785915,
+      "updated_at": 1731075404,
       "arches": [
         "x86_64"
       ],
@@ -1973,7 +1973,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.microsoft.Edge",
-      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/881c934d020c2c15cd9dcc2b4f2fa424/icons/128x128/com.microsoft.Edge.png",
+      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/117cb2431823e7866218b0003e4348d3/icons/128x128/com.microsoft.Edge.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -2003,7 +2003,7 @@
       "summary": "Markdown-based knowledge base",
       "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.\n      The documentation can be accessed by opening the demo vault that is shipped in Obsidian.\n      Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.\n      This distribution is verified by the Obsidian team but isn't supported\n      Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom\n      GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal\n      Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK\n      Note: Regular users should disable \"Automatic Updates\" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.\n      This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)\n    ",
       "id": "md_obsidian_Obsidian",
-      "updated_at": 1730912244,
+      "updated_at": 1731061281,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2468,7 +2468,7 @@
       "summary": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once",
       "description": "Prism Launcher is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.\n      Features:\n      \n        Easily install game modifications, such as Fabric, Forge and Quilt\n        Easily install and update modpacks from the Launcher\n        Control your Java settings, and enable Mangohud or Gamemode with a toggle\n        Manage worlds and resource packs from the launcher\n        See logs and other details easily through a dashboard\n        Kill Minecraft in case of a crash/freeze\n        Isolate Minecraft instances to keep everything clean\n        Install and update mods directly from the launcher\n        Customize the launcher with themes, and more\n        And cat :3\n      \n    ",
       "id": "org_prismlauncher_PrismLauncher",
-      "updated_at": 1729805784,
+      "updated_at": 1731076830,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2478,7 +2478,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.prismlauncher.PrismLauncher",
-      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/985232145940f5fd833d1b4b6c5f6d3c/icons/128x128/org.prismlauncher.PrismLauncher.png",
+      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/426f684b09b81ac9fcd803dd85a2e6db/icons/128x128/org.prismlauncher.PrismLauncher.png",
       "categories": [
         "Game",
         "ActionGame",
@@ -3549,7 +3549,7 @@
       "summary": "View and annotate documents",
       "description": "\n   Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited to Linux, Windows, Mac OS X, *BSD, etc.\n  \n      Features:\n      \n        Supported Formats: PDF, PS, Tiff, CHM, DjVu, Images, DVI, XPS, Fiction Book, Comic Book, Plucker, EPub, Fax\n        Sidebar with contents, thumbnails, reviews and bookmarks\n        Annotations support\n      \n    ",
       "id": "org_kde_okular",
-      "updated_at": 1730824796,
+      "updated_at": 1731065207,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3671,7 +3671,7 @@
           "name": "ਓਕੁਲਾਰ"
         },
         "pl": {
-          "description": "Okular jest wszechstronną przeglądarką dokumentów opracowaną przez KDE. Okular działa na wielu platformach takich jak Linux, Windows, Mac OS X, *BSD, itp.\n      Możliwości:\n      \n        Obsługiwane formaty: PDF, PS, TIFF, CHM, DjVu, DVI, XPS, FB2, Plucker, ePub,  a także różne formaty komisów, obrazów i faks.\n        Pasek boczny z treścią, miniaturami, recenzjami i zakładkami\n        Obsługa przypisów\n      \n    ",
+          "description": "Okular jest wszechstronną przeglądarką dokumentów opracowaną przez KDE. Okular działa na wielu platformach takich jak Linux, Windows, Mac OS X, *BSD, itp.\n      Możliwości:\n      \n        Obsługiwane formaty: PDF, PS, Tiff, CHM, DjVu, Obrazy, DVI, XPS, Fiction Book, Comic Book, Plucker, EPub, Fax\n        Pasek boczny z treścią, miniaturami, recenzjami i zakładkami\n        Obsługa przypisów\n      \n    ",
           "name": "Okular",
           "summary": "Oglądanie i opisywanie dokumentów"
         },
@@ -3724,7 +3724,7 @@
       "project_license": "GPL-2.0+ and GFDL-1.3",
       "is_free_license": true,
       "app_id": "org.kde.okular",
-      "icon": "https://dl.flathub.org/media/org/kde/okular.desktop/d05133577f8e2c20aa797061d4240c3b/icons/128x128/org.kde.okular.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/okular.desktop/9821e53a3ac04cd198c4c4e609b53e9c/icons/128x128/org.kde.okular.desktop.png",
       "categories": [
         "Graphics",
         "Office",
@@ -4830,7 +4830,7 @@
       "summary": "Feature-packed web browser",
       "description": "\n      The web browser for techies and people who need a browser that helps them get things done.\n      The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.\n    \n      \n        Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n        Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n        Jot down ideas and inspiration with the integrated Notes manager.\n        End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.\n        Efficient built-in Tracker and Ad Blocker.\n        Compatible with most browser extensions from the Google Chrome Web Store.\n      \n      \n      NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.\n    \n    ",
       "id": "com_vivaldi_Vivaldi",
-      "updated_at": 1730302838,
+      "updated_at": 1731079371,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4840,7 +4840,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.vivaldi.Vivaldi",
-      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/12702a1fb7f03ff4f95022726de5e6f8/icons/128x128/com.vivaldi.Vivaldi.png",
+      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/e8f8bb45c77210c29d6de56e2e901ff2/icons/128x128/com.vivaldi.Vivaldi.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -21017,7 +21017,7 @@
       "summary": "Play Minecraft in your own world!",
       "description": "Legacy Launcher is a simple, lightweight and yet highly customizeable alternative Minecraft launcher.\n      It features pre-made modded versions (Forge, Optifine and Fabric) as well as optional per-version game profile folders, keeping data from different versions in different subfolders.\n    ",
       "id": "ch_tlaun_TL",
-      "updated_at": 1730056471,
+      "updated_at": 1731076481,
       "arches": [
         "x86_64"
       ],
@@ -22084,7 +22084,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

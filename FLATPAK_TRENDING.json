@@ -3622,7 +3622,7 @@
       "summary": "Markdown-based knowledge base",
       "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.\n      The documentation can be accessed by opening the demo vault that is shipped in Obsidian.\n      Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.\n      This distribution is verified by the Obsidian team but isn't supported\n      Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom\n      GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal\n      Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK\n      Note: Regular users should disable \"Automatic Updates\" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.\n      This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)\n    ",
       "id": "md_obsidian_Obsidian",
-      "updated_at": 1730912244,
+      "updated_at": 1731061281,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4652,7 +4652,7 @@
       "summary": "Configure Moza Racing hardware",
       "description": "\n      Boxflat enables you to change your Moza Racing hardware settings with ease.\n    \n      \n      Settings and their values are a 1:1 match with Pit House. This makes it possible to use presets shared by the community.\n      The table of supported settings compared to Pit House can be found on the project website. This project has no official ties to Moza\n      and/or their software. It's 100% independent work based largely on hours of reverse engineering the protocol.\n    \n      \n      Boxflat supports saving/loading presets and automatic game detection.\n    \n      \n      Supported devices:\n    \n      \n        Wheelbases\n        Wheels\n        Pedals\n        Handbrake\n        Sequential shifter\n        H-Pattern shifter\n        E-Stop\n      \n      \n      Note: The udev rules found in the GitHub repository need to be installed for the application to work properly.\n      Boxflat will remind you of this in case of no rw access to the serial devices.\n    \n    ",
       "id": "io_github_lawstorant_boxflat",
-      "updated_at": 1730983148,
+      "updated_at": 1731080420,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4662,7 +4662,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.lawstorant.boxflat",
-      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/301fa5bee3879a3d6f1b5edf23b1b111/icons/128x128/io.github.lawstorant.boxflat.png",
+      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/d902d0557252aaa2802db76de4b2d0f8/icons/128x128/io.github.lawstorant.boxflat.png",
       "categories": [
         "Game",
         "Utility"
@@ -9455,18 +9455,27 @@
       "summary": "Plot and manipulate data",
       "description": "\n      Graphs is a simple, yet powerful tool that allows you to plot and manipulate your data with ease. New data can be imported from a wide variety of filetypes, or generated by equation.\n      All data can be manipulated using a variety of operations such as the ability to select, cut, translate, multiply, center and smoothen data, as well as apply any custom transformations on the data.\n    \n      \n    Moreover, Graphs supports curve fitting on imported data and offers extensive customization options for the style of the plots. You can fine-tune and personalize stylesheets to your liking.\n    \n      \n      Graphs is an excellent fit for both plotting and data manipulation. The plots created with Graphs can be saved in a variety of formats suitable for sharing and presenting to a wide audience, such as in a scientific publication or presentations.\n      Additionally, the option to save plots as vector images allows for easy editing in software like Inkscape for further refinement. Graphs is written with the GNOME environment in mind, but should be suitable for any other desktop environment as well.\n    \n      \n      For any feedback, questions or general issues, please file an issue on the GitLab page.\n    \n    ",
       "id": "se_sjoerd_Graphs",
-      "updated_at": 1726805733,
+      "updated_at": 1731079086,
       "arches": [
         "x86_64",
         "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
+        "bg": {
+          "description": "„Графики“ е прост, но мощен инструмент, който ви позволява да чертаете и манипулирате данните си с лекота. Нови данни може да се внесат от различни видове файлове или да се генерират с формула. Всички данни може да се манипулират с помощта на разнообразни операции, като избиране, изрязване, преместване, умножаване, центриране и изглаждане на данни, както и прилагане на всякакви други преобразувания върху данните.\n      Освен това „Графики“ поддържа напасване на криви по внесени данни и предлага много възможности за персонализиране на стила на графиките. Може да настройвате и персонализирате стилове по свой вкус.\n      „Графики“ е отличен инструмент за изчертаване на графики, както и за манипулиране на данни. Създадените графики може да се запазват в различни формати, подходящи за споделяне и представяне пред широка аудитория, например в научна публикация или презентации. Опцията за запазване на графики като векторни изображения позволява лесно редактиране в софтуер като Inkscape. „Графики“ първоначално е разработена за средата GNOME, но може да се ползва и във всяка друга среда.\n      За обратна връзка, въпроси и др., докладвайте проблем чрез страницата ни в GitLab.\n    ",
+          "name": "Графики",
+          "summary": "Начертавайте графики и манипулирайте данни"
+        },
         "de": {
-          "description": "Graphs ist ein einfaches, aber trotzdem mächtiges Werkzeug, das es Ihnen erlaubt, Ihre Daten mühelos zu verändern und zu plotten. Neue Daten können aus vielen verschiedenen Dateitypen importiert oder über Gleichungen generiert werden. All die Daten können auf verschiedene Wege manipuliert werden, z.B. durch Selektieren, Ausschneiden, Verschieben, Multiplizieren, Zentrieren und Glätten, sowie durch benutzerdefinierte Transformationen.\n      Außerdem unterstützt Graphs Ausgleichungsrechnung (curve fitting) auf importierten Daten und bietet umfangreiche Personalisierungsmöglichkeiten für das Aussehen des Plots. Stilvorlagen können nach Ihrem Geschmack verfeinert und personalisiert werden.\n      Graphs eignet sich perfekt für Daten-Plotting und -Manipulation. Die mit Graphs erstellten Plots können in einer Vielzahl von Formaten gespeichert werden, die sich für die Weitergabe an ein breites Publikum eignen, z. B. für eine wissenschaftliche Arbeit oder eine Präsentation. Außerdem erlaubt die Option, Plots als Vektor-Bilder zu speichern, eine einfache Weiterbearbeitung in Software wie Inkscape. Graphs wurde für die GNOME-Arbeitsumgebung entworfen, ist aber auch für andere Arbeitsumgebungen geeignet.\n      Für Rückmeldungen, Fragen oder allgemeine Probleme erstellen Sie bitte einen Fehlerbericht auf der GitLab-Seite.\n    "
+          "description": "Graphs ist ein einfaches, aber trotzdem mächtiges Werkzeug, das es Ihnen erlaubt, Ihre Daten mühelos zu verändern und zu plotten. Neue Daten können aus vielen verschiedenen Dateitypen importiert oder über Gleichungen generiert werden. All die Daten können auf verschiedene Wege manipuliert werden, z.B. durch Selektieren, Ausschneiden, Verschieben, Multiplizieren, Zentrieren und Glätten, sowie durch benutzerdefinierte Transformationen.\n      Außerdem unterstützt Graphs Ausgleichungsrechnung (curve fitting) auf importierten Daten und bietet umfangreiche Personalisierungsmöglichkeiten für das Aussehen des Plots. Stilvorlagen können nach Ihrem Geschmack verfeinert und personalisiert werden.\n      Graphs eignet sich perfekt für Daten-Plotting und -Manipulation. Die mit Graphs erstellten Plots können in einer Vielzahl von Formaten gespeichert werden, die sich für die Weitergabe an ein breites Publikum eignen, z. B. für eine wissenschaftliche Arbeit oder eine Präsentation. Außerdem erlaubt die Option, Plots als Vektor-Bilder zu speichern, eine einfache Weiterbearbeitung in Software wie Inkscape. Graphs wurde für die GNOME-Arbeitsumgebung entworfen, ist aber auch für andere Arbeitsumgebungen geeignet.\n      Für Rückmeldungen, Fragen oder allgemeine Probleme erstellen Sie bitte einen Fehlerbericht auf der GitLab-Seite.\n    ",
+          "name": "Graphs",
+          "summary": "Plotten und manipulieren von Daten"
         },
         "en-GB": {
-          "description": "Graphs is a simple, yet powerful tool that allows you to plot and manipulate your data with ease. New data can be imported from a wide variety of file types, or generated by equation. All data can be manipulated using a variety of operations such as the ability to select, cut, translate, multiply, centre and smoothen data, as well as apply any custom transformations on the data.\n      Moreover, Graphs supports curve fitting on imported data and offers extensive customisation options for the style of the plots. You can fine-tune and personalise style-sheets to your liking.\n      Graphs is an excellent fit for both plotting and data manipulation. The plots created with Graphs can be saved in a variety of formats suitable for sharing and presenting to a wide audience, such as in a scientific publication or presentations. Additionally, the option to save plots as vector images allows for easy editing in software like Inkscape for further refinement. Graphs is written with the GNOME environment in mind, but should be suitable for any other desktop environment as well.\n      For any feedback, questions or general issues, please file an issue on the GitLab page.\n    "
+          "description": "Graphs is a simple, yet powerful tool that allows you to plot and manipulate your data with ease. New data can be imported from a wide variety of file types, or generated by equation. All data can be manipulated using a variety of operations such as the ability to select, cut, translate, multiply, centre and smoothen data, as well as apply any custom transformations on the data.\n      Moreover, Graphs supports curve fitting on imported data and offers extensive customisation options for the style of the plots. You can fine-tune and personalise style-sheets to your liking.\n      Graphs is an excellent fit for both plotting and data manipulation. The plots created with Graphs can be saved in a variety of formats suitable for sharing and presenting to a wide audience, such as in a scientific publication or presentations. Additionally, the option to save plots as vector images allows for easy editing in software like Inkscape for further refinement. Graphs is written with the GNOME environment in mind, but should be suitable for any other desktop environment as well.\n      For any feedback, questions or general issues, please file an issue on the GitLab page.\n    ",
+          "name": "Graphs",
+          "summary": "Plot and manipulate data"
         },
         "es": {
           "description": "Graphs es una herramienta sencilla pero potente que le permite trazar y manipular sus datos con facilidad. Los datos nuevos pueden importarse desde una amplia variedad de tipos de archivo, o generarse por ecuación. Todos los datos pueden manipularse usando una variedad de operaciones como la capacidad de seleccionar, cortar, trasladar, multiplicar, centrar y suavizar datos, así como aplicar cualquier transformación personalizada sobre los datos.\n      Además, Graphs soporta el ajuste de curvas en los datos importados y ofrece amplias opciones de personalización para el estilo de las gráficas. Puede ajustar y personalizar las hojas de estilo a su gusto.\n      Graphs es una herramienta excelente tanto para el trazado como para la manipulación de datos. Las gráficas creadas con Graphs pueden guardarse en diversos formatos adecuados para compartirlas y presentarlas a un público amplio, como en una publicación científica o en presentaciones. Además, la opción de guardar los gráficos como imágenes vectoriales permite editarlos fácilmente en programas como Inkscape para perfeccionarlos. Graphs se ha escrito pensando en el entorno GNOME, pero también debería ser adecuado para cualquier otro entorno de escritorio.\n      Para cualquier comentario, pregunta o problema general, por favor cree una incidencia en la página de GitLab.\n    ",
@@ -9506,6 +9515,11 @@
           "name": "Gráficos",
           "summary": "Plote e manipule dados"
         },
+        "ro": {
+          "description": "Grafice este un instrument simplu, dar puternic, care vă permite să plotați și să manipulați datele cu ușurință. Date noi pot fi importate dintr-o varietate largă de tipuri de fișiere sau generate prin ecuație. Toate datele pot fi manipulate utilizând o varietate de operațiuni cum ar fi abilitatea de a selecta, tăia, traduce, multiplica, centra și netezi date, precum și de a aplica orice transformări personalizate asupra datelor.\n      Mai mult, Grafice suportă potrivirea curbelor pe datele importate și oferă opțiuni extinse de personalizare pentru stilul ploturilor. Puteți ajusta și personalizate foile de stil după bunul plac.\n      Grafice este o potrivire excelentă atât pentru plotare, cât și pentru manipularea datelor. Ploturile create cu Grafice pot fi salvate într-o varietate de formate potrivite pentru partajare și prezentare unui public larg, cum ar fi într-o publicație științifică sau prezentări. În plus, opțiunea de a salva ploturi ca imagini vectoriale permite editarea ușoare în programe precum Inkscape pentru o rafinare suplimentară. Grafice este scris având în vedere mediul GNOME, dar ar trebui să fie potrivit și pentru orice alt mediu desktop.\n      Pentru orice feedback, întrebări sau probleme generale, trimiteți o problemă pe pagina GitLab.\n    ",
+          "name": "Grafice",
+          "summary": "Plotează și manipulează date"
+        },
         "ru": {
           "description": "Graphs - это простой, но мощный инструмент, позволяющий с легкостью строить графики и управлять данными. Новые данные могут быть импортированы из файлов различных типов или сгенерированы с помощью уравнения. Всеми данными можно управлять с помощью различных операций, таких как выделение, вырезание, сдвиг, умножение, центрирование и сглаживание данных, а также применять к ним любые пользовательские преобразования.\n      Кроме того, Graphs поддерживает подгонку кривых к импортированным данным и предлагает широкие возможности настройки стиля графиков. Вы можете настраивать и персонализировать таблицы стилей по своему вкусу.\n      Graphs отлично подходит как для построения графиков, так и для работы с данными. Графики, созданные с помощью Graphs, можно сохранять в различных форматах, подходящих для совместного использования и представления широкой аудитории, например, в научных публикациях или презентациях. Кроме того, возможность сохранять графики в виде векторных изображений позволяет легко редактировать их в приложениях вроде Inkscape для дальнейшей доработки. Graphs написан с учетом особенностей среды GNOME, но должен быть пригоден и для любой другой среды рабочего стола.\n      Для обратной связи, вопросов или общих проблем, пожалуйста, создайте тему на странице GitLab.\n    "
         },
@@ -9532,7 +9546,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "se.sjoerd.Graphs",
-      "icon": "https://dl.flathub.org/media/se/sjoerd/Graphs/76a7d5723df31689b5ed0e52034759d7/icons/128x128/se.sjoerd.Graphs.png",
+      "icon": "https://dl.flathub.org/media/se/sjoerd/Graphs/05a67e43f9b32b6ca6ec760145ad4c37/icons/128x128/se.sjoerd.Graphs.png",
       "categories": [
         "Education",
         "Science"
@@ -20022,7 +20036,7 @@
       "summary": "YouTube Music app",
       "description": "AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together. It is adapted to mobile phones and desktop computers.\n    ",
       "id": "org_kde_audiotube",
-      "updated_at": 1730822258,
+      "updated_at": 1731059424,
       "arches": [
         "x86_64",
         "aarch64"
@@ -20033,6 +20047,11 @@
           "description": "L'AudioTube pot cercar a YouTube Music, llistar àlbums i artistes, reproduir llistes de reproducció generades automàticament, àlbums i permet crear la vostra pròpia llista de reproducció. Està adaptat als telèfons mòbils i els ordinadors de sobretaula.\n    ",
           "name": "AudioTube",
           "summary": "Aplicació de YouTube Music"
+        },
+        "de": {
+          "description": "AudioTube kann Musik auf YouTube durchsuchen, Alben und Interpreten auflisten, automatisch generierte Wiedergabelisten und Alben abspielen und erlaubt es, eine eigene Wiedergabeliste zusammenzustellen. Mobiltelefone und Desktoprechner werden unterstützt.\n    ",
+          "name": "AudioTube",
+          "summary": "YouTube-Musikprogramm"
         },
         "en-GB": {
           "description": "AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together. It is adapted to mobile phones and desktop computers.\n    ",
@@ -20068,6 +20087,11 @@
           "name": "AudioTube",
           "summary": "App de Musica de YouTube (YouTube Music)"
         },
+        "id": {
+          "description": "AudioTube dapat mencari YouTube Music, daftar album dan artis, putar playlist yang dibuat secara otomatis, album dan memungkinkan Anda untuk menyusun playlist Anda sendiri. Aplikasi ini disesuaikan untuk ponsel dan komputer desktop.\n    ",
+          "name": "AudioTube",
+          "summary": "Aplikasi YouTube Music"
+        },
         "it": {
           "description": "AudioTube può eseguire ricerche su YouTube Music, elencare album e artisti, riprodurre scalette e album generati automaticamente e ti consente di creare la tua scaletta. È adatto ai telefoni cellulari e ai computer desktop.\n    ",
           "name": "AudioTube",
@@ -20091,6 +20115,11 @@
           "description": "AudioTube może przeszukiwać serwis YouTube Music, wypisać albumy i wykonawców, odtwarzać samoczynnie utworzone listy odtwarzania, albumy oraz umożliwia tworzenie własnych list odtwarzania. Jest dostosowana do telefonów i komputerów.\n    ",
           "name": "AudioTube",
           "summary": "Aplikacja do muzyki z YouTuba"
+        },
+        "ru": {
+          "description": "AudioTube позволяет выполнять поиск в сервисе YouTube Music, просматривать списки найденных альбомов и исполнителей, воспроизводить автоматически созданные списки воспроизведения и альбомы, а также составлять свои собственные списки воспроизведения. Приложение адаптировано для работы на мобильных телефонах и настольных компьютерах.\n    ",
+          "name": "AudioTube",
+          "summary": "Приложение для работы с YouTube Music"
         },
         "sv": {
           "description": "AudioTube kan söka på YouTube Music, lista album och artister, spela upp automatiskt genererade spellistor, album och låter dig sammanställa egna spellistor. Det är anpassat för mobiltelefoner och skrivbordsdatorer.\n    ",
@@ -20117,17 +20146,11 @@
           "name": "AudioTube",
           "summary": "Přehrávač hudby YouTube"
         },
-        "de": {
-          "name": "AudioTube"
-        },
         "fi": {
           "name": "AudioTube"
         },
         "hi": {
           "name": "ओडियो-ट्यूब"
-        },
-        "id": {
-          "name": "AudioTube"
         },
         "pa": {
           "name": "ਆਡੀਓ-ਟਿਊਬ"
@@ -20140,15 +20163,12 @@
         },
         "ro": {
           "name": "AudioTube"
-        },
-        "ru": {
-          "name": "AudioTube"
         }
       },
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.kde.audiotube",
-      "icon": "https://dl.flathub.org/media/org/kde/audiotube/c5156146b1d5f5279b397bebb2a2c5f9/icons/128x128/org.kde.audiotube.png",
+      "icon": "https://dl.flathub.org/media/org/kde/audiotube/3866959cb890386b5eb5ad7a3a457eac/icons/128x128/org.kde.audiotube.png",
       "categories": [
         "AudioVideo",
         "Player"
@@ -21148,7 +21168,7 @@
       "summary": "Easily process images in batches",
       "description": "XnConvert is multi-platform, it is available for Windows, Mac, and Linux for both 32-bit and 64-bit editions.\n      XnConvert is Multilingual, it includes more than 20 different translations.\n      It offers powerful features in an easy to use interface providing convenient drag &amp; drop functionality.\n      XnConvert is compatible with more than 500 formats and Export to about 70 different file formats.\n      Combine and choose between more than 80 different operations including:\n      \n        Metadata Editing\n        Transforms: Rotate, Crop, Resize, ...\n        Adjustments: Brightness, Contrast, Saturation, ...\n        Filters: Blur, Emboss, Sharpen, ...\n        Effects: Masking, Watermark, Vignetting, ...\n      \n      and seamlessly export to NConvert for a command line usage.\n      XnConvert is provided as freeware.\n      You are granted the right to use and to make an unlimited number of copies of this software.\n      Copyright (C) 1997-2019 Pierre-e Gougelet. All rights reserved.\n    ",
       "id": "com_xnview_XnConvert",
-      "updated_at": 1726818112,
+      "updated_at": 1731075470,
       "arches": [
         "x86_64"
       ],
@@ -22012,15 +22032,18 @@
         "torrent"
       ],
       "summary": "Download files and torrents",
-      "description": "\nVaria is a download manager for all your download needs. It can download regular files and torrents, and do it very quickly.\n\n      \nUsing Varia is very easy and straightforward, and with its aria2 backend it can potentially increase the speed of your downloads. It can integrate with Firefox or Chrome/ium through a browser extension, configured to your liking, and even support a remote aria2 instance on another computer.\n\n    ",
+      "description": "\nVaria is a download manager for all your download needs. It can download regular files and torrents, and do it very quickly.\n\n      \n        \nDownload files and torrents quickly - potentially faster than your browser, continue incomplete downloads even after reboots\n\n        \nIntegrate with Firefox and Chrome (or any Chromium based browser) to redirect downloads\n\n        \nSchedule downloads with a powerful scheduler allowing for custom timespans for each day of the week\n\n        \nDownload from protected areas with basic auth and cookies.txt import support\n\n        \nControl a remote aria2 instance running on any server\n\n      \n      \nVaria uses GTK4 and Libadwaita for the user interface and utilizes Aria2 for the downloads underneath. It is free software licensed under the Mozilla Public License 2.0. A list of dependencies can be viewed through the Legal section in the About Varia page.\n\n    ",
       "id": "io_github_giantpinkrobots_varia",
-      "updated_at": 1715071078,
+      "updated_at": 1731073596,
       "arches": [
         "x86_64",
         "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
+        "bg": {
+          "name": "Varia"
+        },
         "de": {
           "name": "Varia"
         },
@@ -22058,7 +22081,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "io.github.giantpinkrobots.varia",
-      "icon": "https://dl.flathub.org/media/io/github/giantpinkrobots.varia/9996c2631869b4ed7009803c80423f3c/icons/128x128/io.github.giantpinkrobots.varia.png",
+      "icon": "https://dl.flathub.org/media/io/github/giantpinkrobots.varia/cef942b2ba82c1bc38ede03896c43fb5/icons/128x128/io.github.giantpinkrobots.varia.png",
       "categories": [
         "Network"
       ],
@@ -22074,7 +22097,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1701449734",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.839729041321448,
       "installs_last_month": 1802,
       "added_at": 1701164794
@@ -23487,7 +23510,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
