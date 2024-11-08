@@ -11950,7 +11950,7 @@
       "summary": "Write down your thoughts",
       "description": "Marknote lets you create rich text notes and easily organise them into notebooks. You can personalise your notebooks by choosing an icon and accent color for each one, making it easy to distinguish between them and keep your notes at your fingertips. Your notes are saved as Markdown files in your Documents folder, making it easy to use your notes outside of Marknote as well as inside the app.\n    ",
       "id": "org_kde_marknote",
-      "updated_at": 1728601946,
+      "updated_at": 1731042581,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15495,7 +15495,7 @@
       "summary": "Falling Blocks Game",
       "description": "\n      KBlocks is the classic falling blocks game. The idea is to stack the falling blocks to create horizontal\n      lines without any gaps. When a line is completed it is removed, and more space is available in the play area.\n      When there is not enough space for blocks to fall, the game is over.\n    \n    ",
       "id": "org_kde_kblocks",
-      "updated_at": 1728608265,
+      "updated_at": 1731045043,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15647,7 +15647,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.kde.kblocks",
-      "icon": "https://dl.flathub.org/media/org/kde/kblocks.desktop/79c367fb549012e01b81fe545003f56a/icons/128x128/org.kde.kblocks.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/kblocks.desktop/f3dfc98776f7064cc21a14f1c6146836/icons/128x128/org.kde.kblocks.desktop.png",
       "categories": [
         "Game",
         "ArcadeGame"
