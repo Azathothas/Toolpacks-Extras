@@ -14271,7 +14271,7 @@
       "summary": "Scalable Vector Graphics editor",
       "description": "Boxy SVG project goal is to create the best tool for editing SVG files. For beginners as well as for\nprofessional designers and developers. On any device and operating system.\n      \n        === Core features: ===\n      \n      \n        Clean and intuitive UI heavily inspired by Inkscape, Sketch and Adobe Illustrator\n        Extensive support for on-canvas editing of object geometry, transform, paint and other properties\n        Save to SVG and SVGZ formats, export to PNG, JPG, WebP, PDF and HTML5\n        Integration with Pixabay and other libraries with millions of free stock photos and vector assets\n        Google Fonts integration with hundreds of free fonts\n        Configurable keyboard shortcuts for over 100 commands\n        Manual guides, smart guides and grid\n        Path operations (unite, intersect, subtract, exclude, close, reverse, etc.)\n        Arrangement operations (align to, rotate, flip, order, group, etc.)\n      \n      \n        === For web developers: ===\n      \n      \n        Chromium-based rendering engine\n        SVG and CSS code inspector similar to Chrome Dev Tools\n        Clean SVG output that preserves IDs, classes, titles and other metadata\n        SVG sprites editing support\n      \n      This package is officially published, maintained and supported by Boxy SVG developer.\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    ",
       "id": "com_boxy_svg_BoxySVG",
-      "updated_at": 1730931239,
+      "updated_at": 1731018418,
       "arches": [
         "x86_64",
         "aarch64"
@@ -14306,7 +14306,7 @@
       "project_license": "LicenseRef-proprietary=https://boxy-svg.com/legal",
       "is_free_license": false,
       "app_id": "com.boxy_svg.BoxySVG",
-      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/07419caf546af3f804f06f55dd37f5f3/icons/128x128/com.boxy_svg.BoxySVG.png",
+      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/56feebbe3a4b1f52ce379b8a7dac9819/icons/128x128/com.boxy_svg.BoxySVG.png",
       "categories": [
         "Graphics",
         "Development"
@@ -23487,7 +23487,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

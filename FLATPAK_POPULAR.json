@@ -10877,7 +10877,7 @@
       "summary": "Manage Podman and other container engines from a single UI",
       "description": "Podman Desktop is an open source graphical tool enabling you to seamlessly work with containers and Kubernetes from your local environment.\n      Build, run and manage containers:\n      \n        Build images from Containerfile or Dockerfile.\n        Pull images from remote registries.\n        Start, Stop, Restart containers and pods.\n        Easily get a terminal in your container.\n        Inspect container logs.\n        Push images to OCI registries.\n        Deploy and test images on Kubernetes.\n      \n      Multiple configuration options\n      \n        Manage OCI registries; add, edit, or delete registries.\n        Configure your proxy settings (work in progress.)\n        Configure CPU, memory, and disk of Podman machines (work in progress.)\n        Handle multiple container engines at the same time (Podman, Docker, Lima...)\n      \n      You can also bring new features with Podman Desktop plug-ins or Docker Desktop extensions.\n    ",
       "id": "io_podman_desktop_PodmanDesktop",
-      "updated_at": 1730212237,
+      "updated_at": 1731020046,
       "arches": [
         "x86_64",
         "aarch64"
@@ -10887,7 +10887,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "io.podman_desktop.PodmanDesktop",
-      "icon": "https://dl.flathub.org/media/io/podman_desktop/PodmanDesktop/e85eb01d3400120f9b81b804454d09ab/icons/128x128/io.podman_desktop.PodmanDesktop.png",
+      "icon": "https://dl.flathub.org/media/io/podman_desktop/PodmanDesktop/8cda37be46dba3495787c84196cc09e1/icons/128x128/io.podman_desktop.PodmanDesktop.png",
       "categories": [
         "Development"
       ],
@@ -22082,7 +22082,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
