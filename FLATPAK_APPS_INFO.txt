@@ -4550,6 +4550,10 @@ NAME: ecotube
 APP_ID: io.github.ecotubehq.player
 Descr: GTK+ frontend for mpv
 -----------------------------
+NAME: MPRIS Timer
+APP_ID: io.github.efogdev.mpris-timer
+Descr: A timer app with seamless GNOME integration utilizing media player UI
+-----------------------------
 NAME: Weylus Community Edition
 APP_ID: io.github.electronstudio.WeylusCommunityEdition
 Descr: Use your tablet as graphic tablet/touch screen on your computer
@@ -5185,6 +5189,10 @@ Descr: An Infinity Engine Resource Browser and Editor
 NAME: pocket-sync
 APP_ID: io.github.neil_morrison44.pocket-sync
 Descr: A GUI to do stuff with the Analogue Pocket
+-----------------------------
+NAME: NEST Desktop
+APP_ID: io.github.nest_desktop.nest-desktop
+Descr: A web-based application for spiking neuronal simulation
 -----------------------------
 NAME: ASCII Draw
 APP_ID: io.github.nokse22.asciidraw

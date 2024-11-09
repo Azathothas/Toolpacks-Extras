@@ -1170,6 +1170,7 @@ io.github.dxx_rebirth.dxx-rebirth
 io.github.dyegoaurelio.simple-wireplumber-gui
 io.github.ec_.Quake3e.OpenArena
 io.github.ecotubehq.player
+io.github.efogdev.mpris-timer
 io.github.electronstudio.WeylusCommunityEdition
 io.github.elevenhsoft.WebApps
 io.github.eminfedar.vaktisalah-gtk-rs
@@ -1330,6 +1331,7 @@ io.github.nate_xyz.Paleta
 io.github.nate_xyz.Resonance
 io.github.nearinfinitybrowser.nearinfinity
 io.github.neil_morrison44.pocket-sync
+io.github.nest_desktop.nest-desktop
 io.github.nokse22.Exhibit
 io.github.nokse22.asciidraw
 io.github.nokse22.inspector
