@@ -2960,7 +2960,7 @@
       "summary": "Secures your internet and protects your online privacy",
       "description": "\n            NOTE: This wrapper is built from the official source code, but it is not verified,\n            affiliated with, or supported by Proton AG.\n        \n      \n            Proton VPN is the world's only free VPN app that is safe to use and respects\n            your privacy. Proton VPN is created by the CERN scientists behind Proton Mail\n            - the world's largest encrypted email service. Our fast VPN offers secure,\n            private and encrypted internet access with advanced security features. Proton\n            VPN also unblocks access to popular websites and streaming platforms.\n        \n      \n            Used by millions worldwide, Proton’s secure no-logs VPN offers 24/7 safe and\n            private internet access, and does not record your browsing history, display\n            ads, sell your data to third parties, or limit downloads.\n        \n      Free VPN features available to all users\n      \n        Unlimited data with no bandwidth or speed restrictions\n        Strict no logs policy\n        \n                Bypass geo restrictions: smart protocol selection automatically overcomes\n                VPN bans and unblocks censored sites and content\n            \n        Full disk encrypted servers protect your data\n        \n                Perfect forward secrecy: encrypted traffic cannot be captured and decrypted\n                later\n            \n        \n                DNS leak protection: we encrypt DNS queries to ensure that your browsing\n                activity cannot be exposed through DNS leaks\n            \n        \n                Always-on VPN/ kill switch offers protection against leaks caused by\n                accidental disconnections\n            \n      \n      Premium VPN features\n      \n        Access 2900+ high speed servers across 65+ countries worldwide\n        Fast VPN: high speed servers with connections up to 10 Gbps\n        \n                VPN Accelerator: unique technology increases Proton VPN's speeds by up to\n                400% to give a faster browsing experience\n            \n        Unblock access to blocked or censored content\n        Connect up to 10 devices to the VPN at the same time\n        \n                Ad blocker (NetShield): a DNS filtering feature that protects you from\n                malware, blocks ads, and prevents website trackers from following you across\n                the web\n            \n        \n                Stream films, sports events, and videos on any streaming service (Netflix,\n                Hulu, Amazon Prime Video, Disney+, BBC iplayer etc)\n            \n        File-sharing and P2P support\n        \n                Secure Core servers protect against network-based attacks with multi-hop VPN\n            \n        \n                Tor over VPN provides automatic integration with the Tor anonymity network\n            \n        \n                Split tunneling support allows you to select which apps go through the VPN\n                tunnel\n            \n      \n      Why choose Proton VPN?\n      \n        \n                No-logs VPN: We do not keep any logs that can identify what you do online\n            \n        \n                DNS and IPv6 leak protection: Our Linux app will never accidentally expose\n                your real IP address\n            \n        \n                Easy-to-use interface: The new Proton VPN Linux app has an intuitive\n                graphical user interface that lets you quickly activate features and connect\n                to servers\n            \n        \n                P2P support: Share and download files using BitTorrent and other P2P\n                protocols\n            \n        \n                VPN Accelerator: Free and available to everyone who uses Proton VPN, our\n                unique VPN Accelerator technology can improve speeds by over 400%\n            \n        \n                Strong encryption: Our Linux app uses the OpenVPN protocol at its strongest\n                encryption settings\n            \n        \n                Based in Switzerland: Switzerland has some of the world's strongest data\n                privacy laws\n            \n        \n                Secure streaming: Unblock popular streaming services and watch your favorite\n                shows\n            \n      \n      Join the privacy revolution\n      \n            Your support is important as it allows us to continue our mission to bring\n            online freedom to people around the globe. Get our private VPN free today and\n            enjoy fast VPN connections and a secure internet, from anywhere.\n        \n      Required dependencies\n      \n        NetworkManager-openvpn\n        KWallet or GNOME Keyring\n        systemd\n      \n    ",
       "id": "com_protonvpn_www",
-      "updated_at": 1730947864,
+      "updated_at": 1731105474,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2970,7 +2970,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.protonvpn.www",
-      "icon": "https://dl.flathub.org/media/com/protonvpn/www/992523c502627e6a83b46e5b2fd9ec38/icons/128x128/com.protonvpn.www.png",
+      "icon": "https://dl.flathub.org/media/com/protonvpn/www/38318fccc806efd0267a17b4c93e5011/icons/128x128/com.protonvpn.www.png",
       "categories": [
         "Network"
       ],
@@ -3756,7 +3756,7 @@
       "summary": "A program to help you download, keep updated, and run the Tor Browser Bundle",
       "description": "Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. It downloads the same TBB from torproject.org that everyone else uses, and it doesn't alter it in any way. But it does make it much more usable, and it makes the task of keeping it up-to-date more secure.\n      You install torbrowser-launcher from your distribution's package manager and it handles everything else, including:\n      \n        Downloading the most recent version of TBB for you, in your language and for your architecture\n        Automatically updating (while preserving your bookmarks and preferences)\n        Verifying the TBB's GnuPG signature\n        Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some distros)\n        Adding a Tor Browser application launcher to your desktop environment's menu\n        Lets you set Tor Browser as your default browser\n        Optionally playing a modem sound when you open Tor Browser (because Tor is so slow)\n      \n    ",
       "id": "org_torproject_torbrowser-launcher",
-      "updated_at": 1730931784,
+      "updated_at": 1731107339,
       "arches": [
         "x86_64"
       ],
@@ -6908,7 +6908,7 @@
       "summary": "The one stop solution to all your e-book needs",
       "description": "calibre is the one stop solution to all your e-book needs.\n      You can use calibre to catalog your books, fetch metadata for them automatically, convert them from and to all the various e-book formats, send them to your e-book reader devices, read the books on your computer, edit the books in a dedicated e-book editor and even make them available over the network with the built-in Content server. You can also download news and periodicals in e-book format from over a thousand different news and magazine websites.\n    ",
       "id": "com_calibre_ebook_calibre",
-      "updated_at": 1729242792,
+      "updated_at": 1731109830,
       "arches": [
         "x86_64",
         "aarch64"
@@ -7005,7 +7005,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.calibre_ebook.calibre",
-      "icon": "https://dl.flathub.org/media/com/calibre_ebook/calibre/121f6162fe87354d4ed6dcb13bf53795/icons/128x128/com.calibre_ebook.calibre.png",
+      "icon": "https://dl.flathub.org/media/com/calibre_ebook/calibre/8482b80e352ca5b258f2b62b304b9a33/icons/128x128/com.calibre_ebook.calibre.png",
       "categories": [
         "Office"
       ],
@@ -12858,7 +12858,7 @@
       "summary": "Make a digital copy of your photos and documents",
       "description": "\n      A really easy way to scan both text and images.\n      You can crop out the bad parts of an image and rotate it if it is the wrong way round.\n      You can print your scans, export them to pdf, or save them in a range of image formats.\n    \n      \n      This app uses the SANE framework to support most existing scanners.\n    \n    ",
       "id": "org_gnome_SimpleScan",
-      "updated_at": 1728944611,
+      "updated_at": 1731109218,
       "arches": [
         "x86_64",
         "aarch64"
@@ -13040,7 +13040,7 @@
       "project_license": "GPL-3.0+",
       "is_free_license": true,
       "app_id": "org.gnome.SimpleScan",
-      "icon": "https://dl.flathub.org/media/org/gnome/SimpleScan/ee85809964a059fbba4d031d5168b261/icons/128x128/org.gnome.SimpleScan.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/SimpleScan/2ab6ba6d77766e2e174f6df3b9bcea0d/icons/128x128/org.gnome.SimpleScan.png",
       "categories": [
         "Graphics",
         "Scanning"
@@ -13059,7 +13059,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "gnome.org",
       "verification_timestamp": "1713434161",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 12.744096932299238,
       "installs_last_month": 7728,
       "added_at": 1674053091
@@ -17918,7 +17918,7 @@
       "summary": "Secure email that protects your privacy",
       "description": "\n            NOTE: This a wrapper of the official packages, but it is not verified,\n            affiliated with, or supported by Proton AG.\n        \n      \n            Keep your conversations private. Proton Mail is encrypted email from\n            Switzerland. Used by millions worldwide, our all-new email app protects your\n            communications and has everything you need to easily manage your inbox.\n        \n      The Wall Street Journal says:\n      \n            “Proton Mail offers encrypted email, which makes it virtually impossible for\n            anyone to read it except the sender and the recipient.”\n        \n      With the all-new Proton Mail app, you can:\n      \n        Create a @proton.me or @protonmail.com email address\n        Send and receive encrypted emails and attachments with ease\n        Switch between multiple Proton Mail accounts\n        Easily manage your email with conversations\n        \n                Keep your inbox tidy and clean with folders, labels and simple\n                swipe-gestures\n            \n        Receive new email notifications\n        Send Password-protected Emails to anyone\n        Enjoy your inbox in dark mode\n      \n      Why use Proton Mail?\n      \n        \n                Proton Mail is free — We believe everyone deserves privacy. Upgrade to a\n                paid plan to get more done and support our mission.\n            \n        \n                Easy to use — Our all-new app has been redesigned to make it easier to\n                read, organize, and write your emails.\n            \n        \n                Your inbox is yours — We don’t spy on your communications to show you\n                targeted ads. Your inbox, your rules.\n            \n        \n                Rigorous encryption — Your entire inbox is secured, on all your devices.\n                No one can read your emails but you. Proton is privacy, guaranteed by\n                end-to-end and zero-access encryption.\n            \n        \n                Unmatched protection — We offer strong phishing, spam, and spying/tracking\n                protection for all your communications.\n            \n      \n      Industry Leading Security Features\n      \n            Messages are stored on Proton Mail servers using end-to-end encryption at\n            all times and are transmitted securely between Proton servers and user\n            devices. This largely eliminates the risk of message interception.\n        \n      Zero Access to Your Email Content\n      \n            Proton Mail's zero access architecture means that your data is encrypted in\n            a way that makes it inaccessible to us. Data is encrypted on the client side\n            using an encryption key that Proton does not have access to. This means we\n            don't have the technical ability to decrypt your messages.\n        \n      Open-Source Cryptography\n      \n            Proton Mail's open-source software has been thoroughly vetted by security\n            experts from around the world to ensure the highest levels of protection.\n            Proton Mail only uses secure implementations of AES, RSA, along with\n            OpenPGP, while all of the cryptographic libraries used are open source. By\n            using open-source libraries, Proton Mail can guarantee that the encryption\n            algorithms used do not have clandestinely built-in back doors.\n        \n      Proton Mail in the press:\n      \n            “Proton Mail is a Gmail-like email system which uses end-to-end encryption,\n            making it impossible for outside parties to monitor.” Forbes\n        \n      \n            “A new email service being developed by a group who met at MIT and CERN\n            promises to bring secure, encrypted email to the masses and keep sensitive\n            information away from prying eyes.” Huffington Post\n        \n    ",
       "id": "me_proton_Mail",
-      "updated_at": 1730886731,
+      "updated_at": 1731088666,
       "arches": [
         "x86_64"
       ],
@@ -17927,7 +17927,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "me.proton.Mail",
-      "icon": "https://dl.flathub.org/media/me/proton/Mail/4d14bbcb00aad78b2d181a875d5d75c2/icons/128x128/me.proton.Mail.png",
+      "icon": "https://dl.flathub.org/media/me/proton/Mail/dbbf39a9ab43ecd47cd043035a465f3c/icons/128x128/me.proton.Mail.png",
       "categories": [
         "Network",
         "Email"
@@ -17946,7 +17946,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 1.493954113657697,
       "installs_last_month": 5847,
       "added_at": 1719821016
@@ -19724,7 +19724,7 @@
       "summary": "A front-end to glxinfo, vulkaninfo, clinfo and es2_info",
       "description": "\n            This project aims to capture all the important details of glxinfo, vulkaninfo and clinfo in a GUI. The project is being developed using python 3 pygobject with GTK4. All the important details are extracted using glxinfo/vulkaninfo/clinfo with the combination of grep, CAT , AWK commands and displayed in the front-end. There is no hard OpenGL Programming involved, until glxinfo, vulkaninfo and clinfo works the GPU-viewer will also work.\n        \n    ",
       "id": "io_github_arunsivaramanneo_GPUViewer",
-      "updated_at": 1730815733,
+      "updated_at": 1731103638,
       "arches": [
         "x86_64",
         "aarch64"
