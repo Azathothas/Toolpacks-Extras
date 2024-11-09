@@ -8426,7 +8426,7 @@ NAME: Maelstrom
 APP_ID: org.libsdl.Maelstrom.desktop
 Descr: High Quality Asteroids Clone
 -----------------------------
-NAME: vipsdisp
+NAME: Vipsdisp
 APP_ID: org.libvips.vipsdisp
 Descr: Image viewer
 -----------------------------
@@ -9921,10 +9921,6 @@ Descr: An opinionated CBZ viewer
 NAME: Infector
 APP_ID: uk.co.mangobrain.Infector
 Descr: Play the classic two- to four-player board game Ataxx
------------------------------
-NAME: The Legend of Edgar
-APP_ID: infector.desktop
-Descr: 2D Adventure Platform Game
 -----------------------------
 NAME: The Legend of Edgar
 APP_ID: uk.co.parallelrealities.games.edgar

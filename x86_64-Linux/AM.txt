@@ -2442,6 +2442,7 @@
 | sqlite3 | A self-contained, serverless, zero-configuration, transactional SQL database engine | https://github.com/sqlite/sqlite | https://bin.pkgforge.dev/x86_64/sqlite3 | 019c30145535 |
 | squashfuse | FUSE filesystem to mount squashfs archives | https://github.com/vasi/squashfuse | https://bin.pkgforge.dev/x86_64/squashfuse | cab09701506d |
 | squashfuse_ll | FUSE filesystem to mount squashfs archives | https://github.com/vasi/squashfuse | https://bin.pkgforge.dev/x86_64/squashfuse_ll | d07bcff69408 |
+| squishy-cli | A convenient wrapper for reading and extracting files from SquashFS filesystems | https://github.com/pkgforge/squishy-rs | https://bin.pkgforge.dev/x86_64/squishy-cli | fc24b033c78f |
 | ss | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/x86_64/Baseutils/iproute2/ss | abbc420d640b |
 | sshesame | SSH honeypot, a fake SSH server that lets anyone in and logs their activity | https://github.com/jaksi/sshesame | https://bin.pkgforge.dev/x86_64/sshesame | 86a9df109bbb |
 | sshkeys | Get all ssh public keys of a ssh server | https://github.com/Eun/sshkeys | https://bin.pkgforge.dev/x86_64/sshkeys | 64a5a936a0fb |

@@ -3936,13 +3936,14 @@
     {
       "name": "Notify",
       "keywords": [
+        "Gnome",
         "GTK",
-        "Gnome"
+        "ntfy"
       ],
       "summary": "Receive notifications from ntfy.sh.",
-      "description": "Versatile GTK4 client designed to seamlessly interface with the ntfy.sh notification service",
+      "description": "Versatile GTK4 client designed to seamlessly interface with the ntfy.sh notification service\n    ",
       "id": "com_ranfdev_Notify",
-      "updated_at": 1704294450,
+      "updated_at": 1731151619,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3952,10 +3953,21 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.ranfdev.Notify",
-      "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.ranfdev.Notify.png",
-      "categories": [],
-      "main_categories": [],
-      "sub_categories": [],
+      "icon": "https://dl.flathub.org/media/com/ranfdev/Notify/715d482ec5e745785083560a55ad631f/icons/128x128/com.ranfdev.Notify.png",
+      "categories": [
+        "Network",
+        "Utility",
+        "GTK",
+        "GNOME"
+      ],
+      "main_categories": [
+        "Network",
+        "Utility"
+      ],
+      "sub_categories": [
+        "GTK",
+        "GNOME"
+      ],
       "developer_name": "ranfdev",
       "verification_verified": "true",
       "verification_method": "website",
@@ -3964,7 +3976,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "ranfdev.com",
       "verification_timestamp": "1698159863",
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 15.483856967928832,
       "installs_last_month": 234,
       "added_at": 1698133479
@@ -16332,7 +16344,7 @@
       "summary": "Pin portable apps to the launcher",
       "description": "\n      Pin shortcuts for portable apps like raw executable files, AppImage files, etc. to the app launcher on your desktop.\n    \n      \n      Other features include:\n    \n      \n        Edit or delete created app entries without opening the file manager\n        Automatically add the execute permission to the file you select\n      \n    ",
       "id": "com_github_ryonakano_pinit",
-      "updated_at": 1724684669,
+      "updated_at": 1731142226,
       "arches": [
         "x86_64",
         "aarch64"
@@ -16398,7 +16410,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1691967398",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 14.007190584798536,
       "installs_last_month": 778,
       "added_at": 1634324718
@@ -21926,7 +21938,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
