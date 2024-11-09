@@ -7,8 +7,8 @@
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/86box.appimage
 - **Size 💾:** `54.23 MB`
-- **SHA256SUM 🔐:** `b39f794aec44d5807c79bfbe83c92b72959981e29024a5f51b9a8bb049156b6d`
-- **B3SUM 🔐:** `44f2b9dd22380b4d2e2b55f1610fc153ff3a44580b98d062544fc91361943ee7`
+- **SHA256SUM 🔐:** `b2a0829f3052b00dd519478296bf38deef69d085d91480dd113862bafe71c2b7`
+- **B3SUM 🔐:** `7e6c866b9ed6bbd23aa6b45d3451ebc487045d20ea469ffdda7ae82b229782ca`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.appimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/86box.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/86box.appimage.icon.png
@@ -26,8 +26,8 @@
 - **Source 📡:** [https://github.com/ttalvitie/browservice](https://github.com/ttalvitie/browservice)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/browservice.appimage
 - **Size 💾:** `242.63 MB`
-- **SHA256SUM 🔐:** `d8c01e85c1e7d6d970f0b84b1779e3a17e6a0e5d186d9c17f83980c4b397a78e`
-- **B3SUM 🔐:** `c69937d564001473980e3ed9cd1fa746be21d74d0ad0231a879ae398d82d51a7`
+- **SHA256SUM 🔐:** `fd1755a8f1f9af8df32b8f74f84f99acf8fb021d046b4da371a33437d305fa2c`
+- **B3SUM 🔐:** `567df3becb573b4aa336a3107fca6ad6847aaceeaa501b9eeee54ca64bc1094e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/browservice.appimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/browservice.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/browservice.appimage.icon.png
@@ -38,15 +38,15 @@
 
 ### [`chromium.dwfs.appbundle` 📀](https://pkg.pkgforge.dev/aarch64-Linux/chromium.dwfs.appbundle)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `130.0.6723.91`
+- **Version 🧬:** `130.0.6723.116`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/chromium.dwfs.appbundle
-- **Size 💾:** `231.09 MB`
-- **SHA256SUM 🔐:** `78d45b52d2e2e1bb28a3262e4d4f371be13bf711919062a855b88acc10159349`
-- **B3SUM 🔐:** `1c861a1259d373e55fd58a384452225a895ed12552a7fece36300e5d5fa16687`
+- **Size 💾:** `231.1 MB`
+- **SHA256SUM 🔐:** `a42aab7ebcd3fffcea623cc0173236380973ba4ddf329e81aa99b1123cf2ab3f`
+- **B3SUM 🔐:** `b5acb329dae31fdced8954f4d997e46d41facd614e34995f7998dfe6358dc12a`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/chromium.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.dwfs.appbundle.icon.png
@@ -57,15 +57,15 @@
 
 ### [`chromium-alpine.flatimage` 📀](https://pkg.pkgforge.dev/aarch64-Linux/chromium-alpine.flatimage)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `130.0.6723.91`
+- **Version 🧬:** `130.0.6723.116`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/chromium-alpine.flatimage
-- **Size 💾:** `226.8 MB`
-- **SHA256SUM 🔐:** `377701e83cff0ed3d501b9cbe21c5602aaf35c4a08d13f61ab825efeb004ae63`
-- **B3SUM 🔐:** `bb36765e0c00097a9301139399e820fe3c9f47c6d5ac045d06c524fc00830bb1`
+- **Size 💾:** `232.06 MB`
+- **SHA256SUM 🔐:** `826dc850990dcfac20a4552b4f112801b90120437569fd8b61e2070b57b94950`
+- **B3SUM 🔐:** `75fe3284c5328db481086b16449f6da8eda321a72df88b0fcb5f86970ba52af5`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.flatimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/chromium.flatimage.log
 - **Icon 🖼️:** 
@@ -83,8 +83,8 @@
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/chromium.nixappimage
 - **Size 💾:** `425.35 MB`
-- **SHA256SUM 🔐:** `7393adae0b073f6f820df697710c10a671f4fb314ae7bc737874e2e65dc0b7e3`
-- **B3SUM 🔐:** `c35d19e94ec43c0a096afa4ca59ae71ecaf053a1e5a570daf80aac6160ce8574`
+- **SHA256SUM 🔐:** `a4e0759998ce1b8a3a3386ab84ee2e2a89ca9d58cd9b922e10d2527bceda7ec1`
+- **B3SUM 🔐:** `b692add01e0cf1742955c73a35d5fb3c64fbfdae28cf2a2f26d150226d803b5b`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.nixappimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/chromium.nixappimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.nixappimage.icon.png
@@ -102,8 +102,8 @@
 - **Source 📡:** [https://github.com/mate-desktop/engrampa](https://github.com/mate-desktop/engrampa)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/engrampa.dwfs.appbundle
 - **Size 💾:** `16.94 MB`
-- **SHA256SUM 🔐:** `48fda3f49778a9a64e4068d6723df5779eb38d4d3860f26e783953571601a12c`
-- **B3SUM 🔐:** `dd791a2a95a315ac1c4274e979ebe79886e91f251cfa7aabad83346faf9aa4f4`
+- **SHA256SUM 🔐:** `a92e2c8a917f29bb2d398b23dd850eeb3b711dec74bda9ca18e63f5077c757b2`
+- **B3SUM 🔐:** `345e95e29daef583abfcc1a85fcea905ef01ae351f9ab362200537d04a8af94f`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/engrampa.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/engrampa.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/engrampa.dwfs.appbundle.icon.png
@@ -120,9 +120,9 @@
 - **Homepage 🌐:** [https://www.falkon.org](https://www.falkon.org)
 - **Source 📡:** [https://invent.kde.org/network/falkon](https://invent.kde.org/network/falkon)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/falkon.dwfs.appbundle
-- **Size 💾:** `283.17 MB`
-- **SHA256SUM 🔐:** `be85126d6397b046bdb52ca90b5e46a443d36a9379ccc6a34cdb37dd7417ce91`
-- **B3SUM 🔐:** `5ef8a038369af3a09cec8505e0cb3bb0759128079e144d318ffdc8bb2c82150c`
+- **Size 💾:** `282.94 MB`
+- **SHA256SUM 🔐:** `3b41829ff7d42f941604083d656cc542a6fa1f873dd09fd433245256b024cc55`
+- **B3SUM 🔐:** `7d2debdb0e9b7497aafa98d54c21ef75cc7c33145cd09bfb4850d866b18d5e30`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/falkon.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/falkon.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/falkon.dwfs.appbundle.icon.png
@@ -140,8 +140,8 @@
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/firefox.dwfs.appbundle
 - **Size 💾:** `189.06 MB`
-- **SHA256SUM 🔐:** `c705c7471561a386552c14f31cb774be28ad5ae452b1ce1da4a0c5003a3fe904`
-- **B3SUM 🔐:** `6fd2a0dc501344437380f840704e46c8c6ab541f3e4567e157368d19af08aea8`
+- **SHA256SUM 🔐:** `7f098db24f5410ea9e82a23ca7735f9caaee16e23dff46e6f28d273d4a783a6f`
+- **B3SUM 🔐:** `12812a54120c4cd7d0fc01fe4861b7fbe9bc556aa62e75715c8e74f963790b57`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/firefox.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/firefox.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/firefox.dwfs.appbundle.icon.png
@@ -159,8 +159,8 @@
 - **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/imagemagick.dwfs.appbundle
 - **Size 💾:** `12.37 MB`
-- **SHA256SUM 🔐:** `ea1d98e73cdccd243b8109e753c698be28836cae4f1164aef50e7d3732f4a86a`
-- **B3SUM 🔐:** `b8683da769a9e59927446ff39d4bf16ca83166993c704742aeb77d7bc18d2fda`
+- **SHA256SUM 🔐:** `d0c826de11b01ed2cfb2e80da719494aadb162eeb34ca0659c569842fef82a2a`
+- **B3SUM 🔐:** `9e224f438ba7060b7f7095564749068f14d06b586e0cf2c229c383baf5e3ca22`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/imagemagick.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/imagemagick.appbundle.icon.png
@@ -177,9 +177,9 @@
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://codeberg.org/librewolf/source](https://codeberg.org/librewolf/source)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/librewolf-arch.flatimage
-- **Size 💾:** `577.15 MB`
-- **SHA256SUM 🔐:** `310a596c59f2313d7a8480f8a7de6af586296846154cd1f909192c14a5d1b82a`
-- **B3SUM 🔐:** `3eec3430cf63a9c3010bbc61bc1afedbb42a6da1ff519122e24710d64ab3ad05`
+- **Size 💾:** `575.93 MB`
+- **SHA256SUM 🔐:** `b5bb76fbbf3d7368b0d5fe666027527ef63b87a4993389373e5a2293e22d72b0`
+- **B3SUM 🔐:** `2eb66c4d88ca6b087fd64b806d8871efda5f7725a15e6b00eb8c2f22fc605e0c`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.flatimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/librewolf.flatimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/librewolf.flatimage.icon.png
@@ -197,8 +197,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/mousepad](https://gitlab.xfce.org/apps/mousepad)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/mousepad.dwfs.appbundle
 - **Size 💾:** `17.54 MB`
-- **SHA256SUM 🔐:** `7d6d6a0fedb741bbf8fc018f76868b553f0a2955048a66db60bafb3d224161c5`
-- **B3SUM 🔐:** `1fdc5f1ac62629345c167f6b219ad0bce9e91b8c651581ca81a3b1f32f8b3e50`
+- **SHA256SUM 🔐:** `1e05f9da7ad7f00ef7ee8540de0e4def00e986939747b5613297ddf8a9c24df6`
+- **B3SUM 🔐:** `bc26acfa284565a9357ff6fc8d8b8ee9ede42fcbf9a4c9924412fa5e9a547364`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/mousepad.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/mousepad.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/mousepad.dwfs.appbundle.icon.png
@@ -216,8 +216,8 @@
 - **Source 📡:** [https://github.com/lxde/pcmanfm](https://github.com/lxde/pcmanfm)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/pcmanfm.dwfs.appbundle
 - **Size 💾:** `17.16 MB`
-- **SHA256SUM 🔐:** `a63e9319329a7a43154ffb0929c023899a18ba4b32673cac8b503262c69f4e51`
-- **B3SUM 🔐:** `37f9d9d356232f95a11b2acc5e32a35217b6cd3bc04e26048e4310c68fe3bb97`
+- **SHA256SUM 🔐:** `fbdc5c1b4030805af1f6fff1e796306f0f640047cec42d4ee3be6295a5b24d7a`
+- **B3SUM 🔐:** `a1278d20bef19ca398b31ca9b93b6dfb151415176f43c58ed680ef42283a8cbc`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/pcmanfm.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/pcmanfm.appbundle.log
 - **Icon 🖼️:** 
@@ -235,8 +235,8 @@
 - **Source 📡:** [https://github.com/hrydgard/ppsspp](https://github.com/hrydgard/ppsspp)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/ppsspp.dwfs.appbundle
 - **Size 💾:** `157.71 MB`
-- **SHA256SUM 🔐:** `d52c319bbfb4cf4874e75a1db4ee1089954f9a00e04c99fa9b7a032813269905`
-- **B3SUM 🔐:** `bbf8e75359a3ab2bae7573210b9f04b072842a3568bce4537ea538cde29737c6`
+- **SHA256SUM 🔐:** `2af39d6e2db06ced23a9721762fed6202b37319b5d5f6bb5537b62c2e12fd85c`
+- **B3SUM 🔐:** `7d7ababfcff54953dc546b4d53fca311971fa4fe97f614b17868e44d5019bf70`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ppsspp.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/ppsspp.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ppsspp.dwfs.appbundle.icon.png
@@ -254,8 +254,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/ristretto](https://gitlab.xfce.org/apps/ristretto)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/ristretto.dwfs.appbundle
 - **Size 💾:** `17.06 MB`
-- **SHA256SUM 🔐:** `e8a9094acf89a2cda5d12510d226ece6e32c651a66f061f2e797c6c4a0ae7906`
-- **B3SUM 🔐:** `a484b60d6e297201da026804b9e114e1233fbc4cbedf6da34c2adc33eb8ce93a`
+- **SHA256SUM 🔐:** `2007188183129752c1257e730ef4cf579a45a257e04b220caead9e512aac02c8`
+- **B3SUM 🔐:** `147ec95961fd9c1c524ae009a032e1316cbf332c54dc55e94f06258601134626`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ristretto.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/ristretto.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ristretto.dwfs.appbundle.icon.png
@@ -273,8 +273,8 @@
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/ryujinx.appimage
 - **Size 💾:** `24.25 MB`
-- **SHA256SUM 🔐:** `96bb4b417c2441892ebbfc219b63f52dde263192a61986d61093e94d9d1adcda`
-- **B3SUM 🔐:** `0c196a34c381ae8a32cd1ad7183a0448693a3709fddec4cd45a2b4133b0d7aab`
+- **SHA256SUM 🔐:** `52ba8b8b55149ce3b4e562229d7ae88c24ce8b1637bb92007c8f4667705da353`
+- **B3SUM 🔐:** `ab1ed5d79ac2687843e08c906c35a6de4d43e820452a2dd9378696756d4b90b2`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.appimage.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/ryujinx.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ryujinx.appimage.icon.png
@@ -292,8 +292,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/xfce4-terminal](https://gitlab.xfce.org/apps/xfce4-terminal)
 - **Download ⬇️:** https://pkg.pkgforge.dev/aarch64-Linux/xfce4-terminal.dwfs.appbundle
 - **Size 💾:** `20.94 MB`
-- **SHA256SUM 🔐:** `edf999eb5dbf3fb21a70fef75d294f603a4472fadf18b49c38399b95d82de470`
-- **B3SUM 🔐:** `873a832c54368831331ee736eaf46df610ffbcaacac0c9066ff8302926d00d95`
+- **SHA256SUM 🔐:** `761116e862731cc931d12612028f6a7e704950f3292ae6f58a0a54c6b1d44038`
+- **B3SUM 🔐:** `2ecd141401dbfc559e9be756f90e33ee52a600ec3b93510a4b9d273e895c6d22`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/xfce4-terminal.appbundle.sh
 - **Log 🧾:** https://pkg.pkgforge.dev/aarch64-Linux/xfce4-terminal.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/xfce4-terminal.dwfs.appbundle.icon.png

@@ -33,7 +33,7 @@
   },
   {
     "filename": "./chromium.flatimage.log",
-    "type": "Unicode text, UTF-8 text, with very long lines (2992), with CR, LF line terminators, with escape sequences"
+    "type": "Unicode text, UTF-8 text, with very long lines (594), with CR, LF line terminators, with escape sequences"
   },
   {
     "filename": "./chromium.nixappimage",
@@ -77,7 +77,7 @@
   },
   {
     "filename": "./inkscape.appbundle.log",
-    "type": "Unicode text, UTF-8 text"
+    "type": "ASCII text"
   },
   {
     "filename": "./inkscape.appimage.log",
@@ -174,5 +174,17 @@
   {
     "filename": "./browservice.appimage",
     "type": "ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=6103e6c87de61c6e7c2238ad2c338a3a09310710, stripped"
+  },
+  {
+    "filename": "./METADATA.AIO.toml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.AIO.yaml",
+    "type": "Unicode text, UTF-8 text"
+  },
+  {
+    "filename": "./METADATA.json.tmp",
+    "type": "JSON text data"
   }
 ]

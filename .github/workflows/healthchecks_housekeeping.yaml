@@ -444,6 +444,12 @@ jobs:
              b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz.bsum"
              zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd"
              b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd.bsum"
+             #AM
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.bin[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" 
+             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.pkg[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \(if .version and ((.version|tostring) | test("^[a-zA-Z0-9.-]+$")) then .version else (.bsum // "latest")[:12] end) |"' >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
+             sort -u "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
+             sed '/|[[:space:]]*|/d' -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
           fi
         continue-on-error: true
 
@@ -515,23 +521,25 @@ jobs:
              taplo check "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" && cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" "./aarch64-Linux/METADATA.AIO.toml"
              #copy json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "./aarch64-Linux/METADATA.AIO.json"
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json" "./aarch64-Linux/LATEST.json"
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json" ".aarch64-Linux/POPULAR.json"
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json" "./aarch64-Linux/TRENDING.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "./aarch64-Linux/METADATA.AIO.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json" "./aarch64-Linux/LATEST.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json" ".aarch64-Linux/POPULAR.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json" "./aarch64-Linux/TRENDING.json"
+               #AM
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" "./aarch64-Linux/AM.txt"
              fi
              #copy min.json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" "./aarch64-Linux/METADATA.AIO.min.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" "./aarch64-Linux/METADATA.AIO.min.json"
              fi
              #copy yaml
              if yq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "./aarch64-Linux/METADATA.AIO.yaml"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "./aarch64-Linux/METADATA.AIO.yaml"
              fi
              #copy icon
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./aarch64-Linux/base.default.png"
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./aarch64-Linux/bin.default.png"
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./aarch64-Linux/pkg.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./aarch64-Linux/base.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./aarch64-Linux/bin.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./aarch64-Linux/pkg.default.png"
              find "." -type f -size -3c -delete
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
              git pull origin main ; git push origin main
@@ -661,6 +669,12 @@ jobs:
              b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz.bsum"
              zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd"
              b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd.bsum"
+             #AM
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.bin[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" 
+             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.pkg[] | "| \(.pkg) | \(.description) | \(.src_url // .homepage) | \(.download_url) | \(if .version and ((.version|tostring) | test("^[a-zA-Z0-9.-]+$")) then .version else (.bsum // "latest")[:12] end) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
+             sort -u "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
+             sed '/|[[:space:]]*|/d' -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
           fi
         continue-on-error: true
 
@@ -732,23 +746,25 @@ jobs:
              taplo check "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" && cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" "./x86_64-Linux/METADATA.AIO.toml"
              #copy json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "./x86_64-Linux/METADATA.AIO.json"
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json" "./x86_64-Linux/LATEST.json"
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json" "./x86_64-Linux/POPULAR.json"
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json" "./x86_64-Linux/TRENDING.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "./x86_64-Linux/METADATA.AIO.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json" "./x86_64-Linux/LATEST.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json" "./x86_64-Linux/POPULAR.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json" "./x86_64-Linux/TRENDING.json"
+               #AM
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" "./x86_64-Linux/AM.txt"
              fi
              #copy min.json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" "./x86_64-Linux/METADATA.AIO.min.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" "./x86_64-Linux/METADATA.AIO.min.json"
              fi
              #copy yaml
              if yq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" >/dev/null 2>&1; then
-               cp "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "./x86_64-Linux/METADATA.AIO.yaml"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "./x86_64-Linux/METADATA.AIO.yaml"
              fi
              #copy icon
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./x86_64-Linux/base.default.png"
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./x86_64-Linux/bin.default.png"
-             cp "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./x86_64-Linux/pkg.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/base.png" "./x86_64-Linux/base.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/bin.png" "./x86_64-Linux/bin.default.png"
+             cp -fv "${GITHUB_WORKSPACE}/main/.github/assets/pkg.png" "./x86_64-Linux/pkg.default.png"
              find "." -type f -size -3c -delete
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h
              git pull origin main ; git push origin main
@@ -856,6 +872,7 @@ jobs:
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt" "r2:/bin/aarch64_arm64_Linux/FLATPAK_APP_IDS.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" "r2:/bin/aarch64_arm64_Linux/FLATPAK_POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" "r2:/bin/aarch64_arm64_Linux/FLATPAK_TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" "r2:/bin/aarch64_arm64_Linux/AM.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json" "r2:/bin/aarch64_arm64_Linux/LATEST.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json" "r2:/bin/aarch64_arm64_Linux/POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json" "r2:/bin/aarch64_arm64_Linux/TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
@@ -896,6 +913,7 @@ jobs:
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt" "r2:/bin/x86_64_Linux/FLATPAK_APP_IDS.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" "r2:/bin/x86_64_Linux/FLATPAK_POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" "r2:/bin/x86_64_Linux/FLATPAK_TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" "r2:/bin/x86_64_Linux/AM.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json" "r2:/bin/x86_64_Linux/LATEST.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json" "r2:/bin/x86_64_Linux/POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json" "r2:/bin/x86_64_Linux/TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &

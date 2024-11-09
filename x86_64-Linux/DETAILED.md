@@ -7,8 +7,8 @@
 - **Source 📡:** [https://github.com/86Box/86Box](https://github.com/86Box/86Box)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/86box.appimage
 - **Size 💾:** `57.96 MB`
-- **SHA256SUM 🔐:** `ba442eb0fefed89854be64706293abf25dd8f68e2f1f1d5beeda75a273443bba`
-- **B3SUM 🔐:** `3b98190641bd2e8861e12d5c860be3b0dd2717c48ddf7d22f693479d41b8b462`
+- **SHA256SUM 🔐:** `bbeb7211a4c77d4f9595d4a03ebb634779f4bc92f14c1ad62e0f9a98cbe6b1fe`
+- **B3SUM 🔐:** `992741119308bd6102a3cc002fca3cf0bd58195a225f3a47119b7b07ba70413c`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/86box.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/86box.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/86box.appimage.icon.png
@@ -26,8 +26,8 @@
 - **Source 📡:** [https://github.com/Acreom/releases](https://github.com/Acreom/releases)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/acreom.appimage
 - **Size 💾:** `139.12 MB`
-- **SHA256SUM 🔐:** `7dd91c97fb3a794f1c40b7516bba6b4fce5ebf5e57aa12520308301984aba3f7`
-- **B3SUM 🔐:** `074269bc328706d0ec4815b4b282802d6d8259729de5c7b6712a8a4ffca9ac4e`
+- **SHA256SUM 🔐:** `72f74dd411650568a48933e8862ff0ed1797b53b2bf2301de9a6b7342ed125a3`
+- **B3SUM 🔐:** `0c7372752639dfce98c12a0dafbb8f3ded9bd4a453823e6cf0ddf2d91642945b`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/acreom.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/acreom.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/acreom.appimage.icon.png
@@ -45,8 +45,8 @@
 - **Source 📡:** [https://github.com/actualbudget/actual](https://github.com/actualbudget/actual)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/actual.appimage
 - **Size 💾:** `92.73 MB`
-- **SHA256SUM 🔐:** `4fe0eec36ee304bc779e2e71561e2658296ad7dd9eca5a6bd0a9d97a8f13e96f`
-- **B3SUM 🔐:** `ef7893289e88caa26fd6e89f130f67a5b99db51fc60821ffd761645cc29fdd95`
+- **SHA256SUM 🔐:** `54dec8e5bc55fa613adc06c644a67539e674b5c307b1129948e2c751c475a645`
+- **B3SUM 🔐:** `3aacf67b6d1bb6cf753b1b133c6deba799c21afd38ceccf2e82d0afa2722b183`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/actual.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/actual.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/actual.appimage.icon.png
@@ -64,8 +64,8 @@
 - **Source 📡:** [https://github.com/CodeDead/Advanced-PassGen](https://github.com/CodeDead/Advanced-PassGen)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/advanced-passgen.appimage
 - **Size 💾:** `101.13 MB`
-- **SHA256SUM 🔐:** `7e5fda1e26236345e5e9604594c95a2f665e5da5f2b020587e889e7a8f924e0e`
-- **B3SUM 🔐:** `009f2260099cdefe6b96593e1de437b9fceb073728668e7954b7eb7ed36b0eb5`
+- **SHA256SUM 🔐:** `d5120bc2b03645b6ce2d24552d7ca4163200c7e46f745581d872fe4fd1a04a73`
+- **B3SUM 🔐:** `f9d40e8d5312faf7b53d13dc793ca24fa512b5fc54c269bb6940a658e720b5f1`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/advanced-passgen.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/advanced-passgen.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/advanced-passgen.appimage.icon.png
@@ -83,8 +83,8 @@
 - **Source 📡:** [https://android.googlesource.com/platform/tools/base](https://android.googlesource.com/platform/tools/base)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/android-platform-tools.appimage
 - **Size 💾:** `8.23 MB`
-- **SHA256SUM 🔐:** `5817b6a98d809d0f287bf0304e4b466ae663a7cbe4a1589651f800e6c6d134b3`
-- **B3SUM 🔐:** `7e2e76a5dd3c37150ba3d49b0402d34eb5d96485d6d8f86b9618a55573165947`
+- **SHA256SUM 🔐:** `cbfdf0044a99d8d72e4e339c055db2cf345cca66e4c4f53f2e39d7e06a688e4d`
+- **B3SUM 🔐:** `5178f1e33a8dcb03046a7002a725196a9565932f90dd9707cb573637130acb3d`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/android-platform-tools.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/android-platform-tools.appimage.log
 - **Icon 🖼️:** 
@@ -102,8 +102,8 @@
 - **Source 📡:** [https://github.com/ivan-hc/Anydesk-appimage](https://github.com/ivan-hc/Anydesk-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/anydesk.appimage
 - **Size 💾:** `14.11 MB`
-- **SHA256SUM 🔐:** `6d4f6dd38a882cc2578d3ebe151de710b07ee49e05c62c414a35aa1f6a0e7176`
-- **B3SUM 🔐:** `c2884ac29097f5bbe092608e232812b1fc11d7f1255758d69ac9064adfefdeda`
+- **SHA256SUM 🔐:** `364344fda3d1f43692a53655ea6f0f32381654fc161819d01c51c58f592ad19f`
+- **B3SUM 🔐:** `6b5043524944123f2f0611dd020a694e089308d2adf66b0884e24226a53ac673`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/anydesk.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/anydesk.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/anydesk.appimage.icon.png
@@ -121,8 +121,8 @@
 - **Source 📡:** [https://github.com/bottlesdevs/Bottles](https://github.com/bottlesdevs/Bottles)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/bottles.appimage
 - **Size 💾:** `331.59 MB`
-- **SHA256SUM 🔐:** `c39dbb4bd3d66ecac841a0f5e35d966288b5bd8eaa052a93540fa789b5f3b276`
-- **B3SUM 🔐:** `06bdee652b57a00dfb546dea0ebb33b1db3edf85239f6f91e3c9003723ef3a3d`
+- **SHA256SUM 🔐:** `2ac0cbb4dcffb677e517aa66d0f71b7f21212ec3fb0601b73ba54e05fdd71ec8`
+- **B3SUM 🔐:** `57b47c5e327e5f06305f5def0d48f921ab45a9020791f8b6fa995497b3c6c3d5`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/bottles.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/bottles.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/bottles.appimage.icon.png
@@ -140,8 +140,8 @@
 - **Source 📡:** [https://github.com/brave/brave-browser](https://github.com/brave/brave-browser)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/brave.appimage
 - **Size 💾:** `145.96 MB`
-- **SHA256SUM 🔐:** `e643d2d6dc2127301a9828472d63b5752013a17ad1de490e2d6de55240cab11f`
-- **B3SUM 🔐:** `a2be2c7492a82030b45fa3e634d56a3701b98369d96b7763168f1fc9da0e2db7`
+- **SHA256SUM 🔐:** `7652a83bc16721748051d69cfc7f22eed0ab7cf2aae375993fe0c9ebb7d0c407`
+- **B3SUM 🔐:** `2044b7d0649a01036822da6bb1c8b66458a45344b61dcd05992e4f36a48b8a7c`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/brave.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/brave.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/brave.appimage.icon.png
@@ -159,8 +159,8 @@
 - **Source 📡:** [https://github.com/ttalvitie/browservice](https://github.com/ttalvitie/browservice)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/browservice.appimage
 - **Size 💾:** `228.38 MB`
-- **SHA256SUM 🔐:** `8da9125d728ffbb6e1e198c400b641dc2b8c41e3eb671f6dbbe50cff1a39f045`
-- **B3SUM 🔐:** `a93ebd638331c53cf65675b6ad2699a91eb62241d77594b3dc31b43208092e23`
+- **SHA256SUM 🔐:** `f0d164074bca681b7de3568acb72640ac466029732d1c9b2dd0bc005d2be088f`
+- **B3SUM 🔐:** `ab827c9162cd9717a2f2e6e297b26c273202e3b1a5e000f0973133e1fcfa5324`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/browservice.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/browservice.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/browservice.appimage.icon.png
@@ -178,8 +178,8 @@
 - **Source 📡:** [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cemu.appimage
 - **Size 💾:** `56.2 MB`
-- **SHA256SUM 🔐:** `23fcf641cdb8ea29092a3ff0e2713e8c06ee0c29719fc22de7ff48f46841a987`
-- **B3SUM 🔐:** `56743b7917cd23cc6e3be31122f623de4f99b08076785cbf3d94b02e8d1aaaad`
+- **SHA256SUM 🔐:** `0fee69c352f2dcd601a4ab2202cb5d0b8918fcbc59ed4a68bf18583398889251`
+- **B3SUM 🔐:** `2d3b55117c061a07962e3befda674f5f6da965f7342404c1a513d69d207770ae`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/cemu.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cemu.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/cemu.appimage.icon.png
@@ -190,15 +190,15 @@
 
 ### [`chromium.dwfs.appbundle` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.dwfs.appbundle)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `130.0.6723.91`
+- **Version 🧬:** `130.0.6723.116`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.dwfs.appbundle
 - **Size 💾:** `251.53 MB`
-- **SHA256SUM 🔐:** `e2abf931a1ce08e8963441ff3e60a3f1b5b8a9705780ae9b7fec4dd3c14a67c8`
-- **B3SUM 🔐:** `423de8b2745c304ccf2252d1e4411befbf31797b41912d9f26aa8503e648ec97`
+- **SHA256SUM 🔐:** `b0031b8168f1d9e795f5f327c94569e7373523798beaca5b173c178ab63a3b78`
+- **B3SUM 🔐:** `9aa0b38ff3b0e338ef3116eacf5f4b070db7f428567868f8774cfb6175aee357`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/chromium.dwfs.appbundle.icon.png
@@ -209,15 +209,15 @@
 
 ### [`chromium-alpine.flatimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium-alpine.flatimage)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `130.0.6723.91`
+- **Version 🧬:** `130.0.6723.116`
 - **Description ℹ️:** Open source web browser from Google
 - **Note ⚠️:** FlatImages: https://github.com/ruanformigoni/flatimage. More: https://l.ajam.dev/flatimages
 - **Homepage 🌐:** [https://www.chromium.org](https://www.chromium.org)
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium-alpine.flatimage
-- **Size 💾:** `247.65 MB`
-- **SHA256SUM 🔐:** `499da7ccf7c800240b4639ed8c58c28de85c15264c9cf14f55acba4589d6c349`
-- **B3SUM 🔐:** `d3a57acade3abb1e10acaba12320f13e0fb150a582bccac0c4d5c9f76754e6d9`
+- **Size 💾:** `246.96 MB`
+- **SHA256SUM 🔐:** `4ebb2cac476d4527ac3050ed57774c8ec36a7050435d2f130e1abccd20eaee60`
+- **B3SUM 🔐:** `1223d21b9d7da9692c614ada9fdd4d572152fd8bde062e02e402533922089c62`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.flatimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.flatimage.log
 - **Icon 🖼️:** 
@@ -235,8 +235,8 @@
 - **Source 📡:** [https://chromium.googlesource.com/chromium/src.git](https://chromium.googlesource.com/chromium/src.git)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.nixappimage
 - **Size 💾:** `438.51 MB`
-- **SHA256SUM 🔐:** `3fbde730a96c3cff534eeb40c767856c5038010e5d8e60deb26d5a2e055c9d29`
-- **B3SUM 🔐:** `7f19bb7b620998efc2602035c31dbaa82edc214f5d103f679cbe0ea2aa568a70`
+- **SHA256SUM 🔐:** `548116fcd18614ee56051eb429f657e52af3249c86cd654a8beafe0df318d558`
+- **B3SUM 🔐:** `cfb978552bc824a6a10d839f8f98aa49a8cc771900bcb427f19189ced4585447`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/chromium.nixappimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/chromium.nixappimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/chromium.nixappimage.icon.png
@@ -254,8 +254,8 @@
 - **Source 📡:** [https://github.com/TheTumultuousUnicornOfDarkness/CPU-X](https://github.com/TheTumultuousUnicornOfDarkness/CPU-X)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cpu-x.appimage
 - **Size 💾:** `31.88 MB`
-- **SHA256SUM 🔐:** `64bfc5a8b207f8c2b51102d37c28ae030662c6e29845ed0807f6c22c90dd5b53`
-- **B3SUM 🔐:** `6d289a12b3ca4217ca237c3cce159907665e939559225ca76781e8eaa60f4836`
+- **SHA256SUM 🔐:** `7b60808542d9373dd8820336b7f555aa7e20d4169deb49f2b2ec3df91e22f1af`
+- **B3SUM 🔐:** `5a2ad86ee7369d3922815e5781e6c48711329578062c78eb4a0f98219ef4e2a2`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/cpu-x.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cpu-x.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/cpu-x.appimage.icon.png
@@ -273,8 +273,8 @@
 - **Source 📡:** [https://github.com/getcursor/cursor](https://github.com/getcursor/cursor)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cursor.appimage
 - **Size 💾:** `133 MB`
-- **SHA256SUM 🔐:** `a0ade89d060963ba4350208c0a9965d8a21fc98bedfb75f990b15777c333617c`
-- **B3SUM 🔐:** `5d4486586b8cf5a9bcfe2653c73798e0f4192404092208b98aa5aec910d0f60d`
+- **SHA256SUM 🔐:** `75cb7fee334c2c4791d86e4bf9de778f09a0c306822c366aafc641bb0cee5833`
+- **B3SUM 🔐:** `29e2797459382a5ac866dd2b0980e3284c192b5a5c0adf1249bdf0beeed7f12a`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/cursor.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/cursor.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/cursor.appimage.icon.png
@@ -292,8 +292,8 @@
 - **Source 📡:** [https://github.com/qarmin/czkawka](https://github.com/qarmin/czkawka)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/czkawka.appimage
 - **Size 💾:** `34.57 MB`
-- **SHA256SUM 🔐:** `ed10486115c6e017828ef54d4c8586b9b356939b39ab092f0fa3f02e99a9aaaf`
-- **B3SUM 🔐:** `61032e89d53a172f93dbca980c2a254e4947a67eab60ef4f9257c8779960a61b`
+- **SHA256SUM 🔐:** `a2f6a2c3cc45e75ee05c6e5effabe32f8857da70bb134144721ac846552e37d7`
+- **B3SUM 🔐:** `30154bb265ee4de20c77e87eae8601da99942e46a8bd98e52d3179903532fa43`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/czkawka.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/czkawka.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/czkawka.appimage.icon.png
@@ -311,8 +311,8 @@
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/deadbeef-nightly.appimage
 - **Size 💾:** `8.31 MB`
-- **SHA256SUM 🔐:** `b07c789c415d13fd4d94428ac17335032cebaef760419e8c581c73eb122cfbb3`
-- **B3SUM 🔐:** `7be5f69c595c41d64c361a0792dbbd25abd8b50545abdb2e743f557ece0b19a3`
+- **SHA256SUM 🔐:** `fcfeffabb5ebcafd9cbc5fdcc68ae421435fb2b5da271a804901b6cca27da331`
+- **B3SUM 🔐:** `d3a72df9effaf7f926e9b2e373322cc1f44b13e420ea6e354a91d47ae6735087`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-nightly.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/deadbeef-nightly.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/deadbeef-nightly.appimage.icon.png
@@ -330,8 +330,8 @@
 - **Source 📡:** [https://github.com/DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/deadbeef-stable.appimage
 - **Size 💾:** `8.29 MB`
-- **SHA256SUM 🔐:** `186454d46224fc10dcd3e75eece5aa67c4c5757033e8defc5e1b39af3fb4c617`
-- **B3SUM 🔐:** `b5c05581e30fe5c1748fd668734acfaed427e2ba59afdf3bc2b0605160317a01`
+- **SHA256SUM 🔐:** `c08152080e101d4fe902914f2d0c0267333ff0552fab6275927569d4f81935f2`
+- **B3SUM 🔐:** `d07d128f325051adb6c2eacc7c4c5d117cc0850741c03b2ece528f650e9ec00d`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/deadbeef-stable.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/deadbeef-stable.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/deadbeef-stable.appimage.icon.png
@@ -349,8 +349,8 @@
 - **Source 📡:** [https://github.com/ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/desktopeditors.appimage
 - **Size 💾:** `389.87 MB`
-- **SHA256SUM 🔐:** `053c7aea0d2811d65bcb5e9e1fa19fe58e09e1a07fd9f44eda109a3f16e93658`
-- **B3SUM 🔐:** `665f36fb05cc7391bfa06e5062ec9e6041339ea0c87a87f1c9860ea257df9fe0`
+- **SHA256SUM 🔐:** `e405f93944475917ee5a05ca0baa28d9c1f03e61edf44e96f205d6f517fa93ff`
+- **B3SUM 🔐:** `7232afbe7fb29b563f9790d988f1c45d9d78466eb082d1aafed26e858879df3a`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/desktopeditors.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/desktopeditors.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/desktopeditors.appimage.icon.png
@@ -368,8 +368,8 @@
 - **Source 📡:** [https://github.com/srevinsaju/discord-appimage](https://github.com/srevinsaju/discord-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/discord.appimage
 - **Size 💾:** `90.3 MB`
-- **SHA256SUM 🔐:** `18118cf636905c582ee0faa05ee85d8e79a3bfa124e0602b60130a63855fcd25`
-- **B3SUM 🔐:** `a6349702a42e655d97f64f57cd30c9e6dac25150e686c9d93a2dee085bab2f7c`
+- **SHA256SUM 🔐:** `2b399353df92d601401bb7112d22cf8166e538c1c472116a65e5bc1acf6c1643`
+- **B3SUM 🔐:** `79dd56adfa07aa9051d58238b359ab204d340edb499a617861fd6598e86e8743`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/discord.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/discord.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/discord.appimage.icon.png
@@ -387,8 +387,8 @@
 - **Source 📡:** [https://github.com/dolphin-emu/dolphin](https://github.com/dolphin-emu/dolphin)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/dolphin-emu.appimage
 - **Size 💾:** `173.63 MB`
-- **SHA256SUM 🔐:** `9bbb9dbf33e613f770778c4db8a6ce8a7a95e2c8ae7897ca128ac626f9961d27`
-- **B3SUM 🔐:** `359a5686b5d20fbcbe4da7300c1940e8fbc932d5ca7507ac5aa71375a882eabe`
+- **SHA256SUM 🔐:** `61e98792f3e53c783267813e761fe33a43bca5cc8258cbdc63ad98c432ae6d90`
+- **B3SUM 🔐:** `4978db1b34e835f8f02f11140a598d09687c8bb0164ed63395ad1d2dac557036`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/dolphin-emu.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/dolphin-emu.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/dolphin-emu.appimage.icon.png
@@ -406,8 +406,8 @@
 - **Source 📡:** [https://github.com/stenzek/duckstation](https://github.com/stenzek/duckstation)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/duckstation.appimage
 - **Size 💾:** `54.87 MB`
-- **SHA256SUM 🔐:** `40d0f2f31c55027441a7257ec45a1266823cc142442d147afcc532003c3972cb`
-- **B3SUM 🔐:** `4210cd87525fb22c0bf15cea75d50d6eb2d1eea0a612437193f9f26771af177c`
+- **SHA256SUM 🔐:** `c401f170fc1112bc493849b35a7a7845c41f1bf69437d3e0d22470adbc6e8548`
+- **B3SUM 🔐:** `bf5fee9183fa1e49d6fc7f7bec2ef49bc738cd8e84c11e365bd48b458f8eaa16`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/duckstation.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/duckstation.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/duckstation.appimage.icon.png
@@ -425,8 +425,8 @@
 - **Source 📡:** [https://github.com/dunst-project/dunst](https://github.com/dunst-project/dunst)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/dunst.appimage
 - **Size 💾:** `6.02 MB`
-- **SHA256SUM 🔐:** `56d0b7bcbb599598fc57ae161650d9b45f643309118425e81446b449fd2bdfd1`
-- **B3SUM 🔐:** `c158dae2bb52e8a2b31ef74fdfa9c89136da5288de5b8a0dddfb22cc93421f96`
+- **SHA256SUM 🔐:** `d5cb51fe5181c65f6e8d53d578d17bde7d4973f8e5efac20afb3f5c71b89d040`
+- **B3SUM 🔐:** `a7f81c5690e946c2335df801ac78a9ed567bfb6162b94729f3d898d96c9c7250`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/dunst.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/dunst.appimage.log
 - **Icon 🖼️:** 
@@ -444,8 +444,8 @@
 - **Source 📡:** [https://github.com/mate-desktop/engrampa](https://github.com/mate-desktop/engrampa)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/engrampa.dwfs.appbundle
 - **Size 💾:** `17.88 MB`
-- **SHA256SUM 🔐:** `7be3255c613e82d6dd96c7fd7abbe3d7b7be41008520761da051d1c3d43056a0`
-- **B3SUM 🔐:** `b7ba83d56380d1eb19987fa56cb273a4e3c006dd7b13cac0582e1bb79351c164`
+- **SHA256SUM 🔐:** `c09b7d48f2b314c0a09570281d5756a0fa03d1424900855bb64d7c64351ae2e9`
+- **B3SUM 🔐:** `6985972c8cdc982406bbd187d351585d37bc87b8969de608e22fd25995b31578`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/engrampa.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/engrampa.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/engrampa.dwfs.appbundle.icon.png
@@ -462,9 +462,9 @@
 - **Homepage 🌐:** [https://www.falkon.org](https://www.falkon.org)
 - **Source 📡:** [https://invent.kde.org/network/falkon](https://invent.kde.org/network/falkon)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/falkon.dwfs.appbundle
-- **Size 💾:** `304.83 MB`
-- **SHA256SUM 🔐:** `78881198a46a65198fcc2d1c2d9d0309ae667b6ce8c1b651dbebc05c8bed2d83`
-- **B3SUM 🔐:** `9bf4335d36b8bd8f0bcec25a5eaff0d9de365d67b3c819fbfc84ebf804eb6f79`
+- **Size 💾:** `304.79 MB`
+- **SHA256SUM 🔐:** `51d4bbbe1412d626448a0bd2a566a369d5c9c4e1aed3dd821b7a0388e6d24507`
+- **B3SUM 🔐:** `bd41130fcebf4f0abcb4bed07a170eb8cd89ab1e072b9f031556cc3cf9ba662d`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/falkon.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/falkon.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/falkon.dwfs.appbundle.icon.png
@@ -481,9 +481,9 @@
 - **Homepage 🌐:** [http://www.mozilla.com](http://www.mozilla.com)
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-dev.appimage
-- **Size 💾:** `85.46 MB`
-- **SHA256SUM 🔐:** `f7c544b4281536c921ccd086020d44b6864e3f91ddb6cde5268424e432d32758`
-- **B3SUM 🔐:** `cac493ce9736235fc2a175786d4e1e31ad6896133cc551a359d683f58930ab63`
+- **Size 💾:** `85.43 MB`
+- **SHA256SUM 🔐:** `d48e716541a24374e2ace053cbe5ed919d6ef6e50e669a8fee53014acadb9154`
+- **B3SUM 🔐:** `7c4fecb9599d74d1aeff62a43c72455fcc27e113c27c69e0ef913222e71d15bf`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox-dev.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-dev.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/firefox-dev.appimage.icon.png
@@ -501,8 +501,8 @@
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-esr.appimage
 - **Size 💾:** `82.05 MB`
-- **SHA256SUM 🔐:** `b52045601ed311a68ddb51b92743e35fadec9e2f9ffd8f065bee2d25f617d3d5`
-- **B3SUM 🔐:** `0bfe001cb00807d9e3148eaaa71cd4bdc2b865e65a9f34c6d52aab30436d86f7`
+- **SHA256SUM 🔐:** `6dbe29e03ffe988ca489b6244b0d5edbbf2b1f6bee38e45629b9f58519f53a64`
+- **B3SUM 🔐:** `4d0a69ac57b5d0296c9ea16eb49e086d50e2b3e0ef00bf4d384bb16bda99169f`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox-esr.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-esr.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/firefox-esr.appimage.icon.png
@@ -519,9 +519,9 @@
 - **Homepage 🌐:** [http://www.mozilla.com](http://www.mozilla.com)
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-nightly.appimage
-- **Size 💾:** `94.96 MB`
-- **SHA256SUM 🔐:** `29b3da81fb8d80b9eb550353a9cc86b69d5ede0e940e153796db2b5166d2291d`
-- **B3SUM 🔐:** `5545a35f3a1a85dc47beed8e0e8e258dffc15fd94b4e5e221fa408fdad46e0d4`
+- **Size 💾:** `95.05 MB`
+- **SHA256SUM 🔐:** `12abf37c1e2e5630e16c8de861eb5c5885c4aa56f8926f9de1905382e79b7d2b`
+- **B3SUM 🔐:** `6dc2ceac193521bbecc5b6d8649de33b860fe3038dcbbbb444241eb58d1dff5d`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox-nightly.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox-nightly.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/firefox-nightly.appimage.icon.png
@@ -538,9 +538,9 @@
 - **Homepage 🌐:** [http://www.mozilla.com](http://www.mozilla.com)
 - **Source 📡:** [https://hg.mozilla.org/mozilla-central](https://hg.mozilla.org/mozilla-central)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox.dwfs.appbundle
-- **Size 💾:** `207.97 MB`
-- **SHA256SUM 🔐:** `617642dd17afc048f4b6e03906145d4f010680f1943a0839e1d541651aa33115`
-- **B3SUM 🔐:** `d020ab514a6653ffea43a3729c030c63ab1268a6d5af54320d4b576c49e66346`
+- **Size 💾:** `207.98 MB`
+- **SHA256SUM 🔐:** `89201d48633dfe91ba54c78a4e84d34db6cddd01418210e3d097c596e81e3e8e`
+- **B3SUM 🔐:** `00165d0dd71829836159d355fd5a366f1b0e729ca0059e525243f3938eaac6d5`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/firefox.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/firefox.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/firefox.dwfs.appbundle.icon.png
@@ -558,8 +558,8 @@
 - **Source 📡:** [https://github.com/FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/freetube.appimage
 - **Size 💾:** `92.07 MB`
-- **SHA256SUM 🔐:** `1141f40b381b67809a0d0bc169632bc2d64101d32406fcf75b0413b31384aae5`
-- **B3SUM 🔐:** `bcec6f067bda8465ac77dfe4fe2b9d98ca6a2e418dfa77153133e6892c1c1b20`
+- **SHA256SUM 🔐:** `256987ed7911e32f278498b01e51b8921b391c06d70fb95151a35efdcb7569b1`
+- **B3SUM 🔐:** `e364b9c492e3e989fa8434393e4e662bb363e9826e8f129605834506716be15d`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/freetube.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/freetube.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/freetube.appimage.icon.png
@@ -577,8 +577,8 @@
 - **Source 📡:** [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/gimp.appimage
 - **Size 💾:** `161.29 MB`
-- **SHA256SUM 🔐:** `cdfaabc10810f31dc16db9ac8e6fc60d709a0ca9607355a356c2967ba801882b`
-- **B3SUM 🔐:** `ff88796feeba474540d34651bf380ff91aa7e1b23f6f44fd17e3868822cd6d18`
+- **SHA256SUM 🔐:** `2bb1d9569c6f4732d49de549c4747b010914d23aea1905b3adc1d9ffeb3710a1`
+- **B3SUM 🔐:** `7783671085e5babc401bb524eb856853399ec125e4f2ca7836be3ada1e959d14`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/gimp.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/gimp.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/gimp.appimage.icon.png
@@ -596,8 +596,8 @@
 - **Source 📡:** [https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/heroic.appimage
 - **Size 💾:** `139.19 MB`
-- **SHA256SUM 🔐:** `92f096c474cde0a6b250d62f280609b326f0b6ea8457ef8fd4dbecb12689607c`
-- **B3SUM 🔐:** `265b406149e36befa43231fbe33c71a353768c6ee3bdea877c482218702d9125`
+- **SHA256SUM 🔐:** `c8293997dc02cdf0f8ffadb93711b048f067ed47214d94b1e3061336215ec8a5`
+- **B3SUM 🔐:** `cb26783c5ddf1888c30293cf6a5dae93f13e514c50c64c8fbec19b247d2cf7f9`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/heroic.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/heroic.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/heroic.appimage.icon.png
@@ -608,15 +608,15 @@
 
 ### [`i3.appimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/i3.appimage)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `4.23`
+- **Version 🧬:** `4.24`
 - **Description ℹ️:** A Tiling Window Manager
 - **Note ⚠️:** Community Created AppImage based on Conty (ArchLinux). Check/Report @ https://github.com/Samueru-sama/i3-AppImage
 - **Homepage 🌐:** [https://i3wm.org](https://i3wm.org)
 - **Source 📡:** [https://github.com/i3/i3](https://github.com/i3/i3)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/i3.appimage
 - **Size 💾:** `3.86 MB`
-- **SHA256SUM 🔐:** `e7cc0b16f66fdd3e8de22a6b95558ec09e520a1c676bffbd6f7a324dcf473ed6`
-- **B3SUM 🔐:** `d45e571dd56cf056570d67b633dd4c10c433e2ceb2f57c7cf82c7b06c58b9a75`
+- **SHA256SUM 🔐:** `1aca8e0cfd6d3bef2b458904de6ed3d1537a5f482e23830c018ceaa0af002cee`
+- **B3SUM 🔐:** `bbfdf40e69bc6e7c834acc5bd756d193f78582c51aa4f6a5e7577f52429efd3c`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/i3.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/i3.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/i3.appimage.icon.png
@@ -634,8 +634,8 @@
 - **Source 📡:** [https://github.com/ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/imagemagick.dwfs.appbundle
 - **Size 💾:** `13.63 MB`
-- **SHA256SUM 🔐:** `0169737eaad7e8173ae02c6589ed9f36e636a4195f6a794c51dbabd2cd081b1e`
-- **B3SUM 🔐:** `358dfc1c095ddd3569dfa576ccd43be243a5a1f0c4be6e0dc195f7e58516ee66`
+- **SHA256SUM 🔐:** `8c4ff5ebbfb25451e37f2c631d4695c75c4521ffa98f52105f54efee9823697e`
+- **B3SUM 🔐:** `d91828b75381fd2296c8a7674806cac6903a5e6abadbbcf8f16c9864357ff1d4`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/imagemagick.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/imagemagick.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/imagemagick.appbundle.icon.png
@@ -653,8 +653,8 @@
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/inkscape-dev.appimage
 - **Size 💾:** `100.78 MB`
-- **SHA256SUM 🔐:** `379d18595f029312a3d550ba4b099105c9994051c19e70192045a99d705a2a3a`
-- **B3SUM 🔐:** `8f098dee6de1b1ba4cd37796e4df2a7ee6bb61206eff35f97a96ea4164b43500`
+- **SHA256SUM 🔐:** `e2ca0a1554e4a449dc3b214adb97c294c40f8b5a2f57e1c99c8d7f4362394376`
+- **B3SUM 🔐:** `21f5ca1dd27e6f9025833c0a044c34b78c32138c5f392f793151772cd6ddbd33`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape-dev.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/inkscape-dev.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/inkscape-dev.appimage.icon.png
@@ -672,8 +672,8 @@
 - **Source 📡:** [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/inkscape.appimage
 - **Size 💾:** `96.39 MB`
-- **SHA256SUM 🔐:** `d35f3289f7d3c2cc029790f2504801cddbadf610192a6dd02bdbdd0eea329722`
-- **B3SUM 🔐:** `e2a8d744c7b292b9a97175ccd629f1c6e7c77dc25abf0ee359eeaa2c42d69e0b`
+- **SHA256SUM 🔐:** `9fc3366252f2f40b1f72871f94f61a4a008865ee09635ab39825237a8d446e29`
+- **B3SUM 🔐:** `1ace97965ade3ed5b2f0af514deb93edaca965e352ad7467a26725a51537d968`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/inkscape.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/inkscape.appimage.icon.png
@@ -691,8 +691,8 @@
 - **Source 📡:** [https://invent.kde.org/multimedia/kdenlive](https://invent.kde.org/multimedia/kdenlive)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/kdenlive.appimage
 - **Size 💾:** `198.23 MB`
-- **SHA256SUM 🔐:** `7b46380348b69f192cc4c8c214ca4c7b7921fb3384d2d50c20f71621cc8a9a79`
-- **B3SUM 🔐:** `4248c72a8b739fab4c7c21ae3d449fb8111fcac6fb3b5ec2a87524e46df938f4`
+- **SHA256SUM 🔐:** `36bf26032a1215ce842db55c02cce60a9b7df1915a3d7cae394570f8f72f00e5`
+- **B3SUM 🔐:** `6da18bd2afae2ca03fb3584e7829b9d4c30dc538bce8c1b175d8d8eca5a065c9`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/kdenlive.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/kdenlive.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/kdenlive.appimage.icon.png
@@ -710,8 +710,8 @@
 - **Source 📡:** [https://invent.kde.org/graphics/krita](https://invent.kde.org/graphics/krita)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/krita.appimage
 - **Size 💾:** `308.58 MB`
-- **SHA256SUM 🔐:** `067faea80a933fd38af191ea269aaa5468b19e0d70e31c2f4409e5d36865af3d`
-- **B3SUM 🔐:** `0ebc7a76cc5909ae38396d7a1308fd58395d72a9070e75977458d39811977cf4`
+- **SHA256SUM 🔐:** `987498aa3e7834f1b6221042086e08177022d601397d548d5d824ef1e9cc594e`
+- **B3SUM 🔐:** `e94089c551bd1a489ac03a91e54c259770fbd2cc1c3127993b14b5d220b393d0`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/krita.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/krita.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/krita.appimage.icon.png
@@ -728,9 +728,9 @@
 - **Homepage 🌐:** [https://ladybird.org](https://ladybird.org)
 - **Source 📡:** [https://github.com/LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ladybird-cachyos.flatimage
-- **Size 💾:** `438.71 MB`
-- **SHA256SUM 🔐:** `5384aba5878bb11b803228540bc5292312eee09e51a84bf4f387831e48f52e25`
-- **B3SUM 🔐:** `413fa0a3d098e3079e7851cf71416b1d68512d8375e426f8f948dd9a9a333803`
+- **Size 💾:** `437.6 MB`
+- **SHA256SUM 🔐:** `6480cb6231d8999004ae109e4bf85a89c6a30df56544b4b2712479327cac66e0`
+- **B3SUM 🔐:** `d9cc13750afde0e0c8e93bbc62b46cc2e1d47635c34fe8695536592a49956896`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/ladybird.flatimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ladybird.flatimage.log
 - **Icon 🖼️:** 
@@ -747,9 +747,9 @@
 - **Homepage 🌐:** [https://librewolf.net](https://librewolf.net)
 - **Source 📡:** [https://codeberg.org/librewolf/source](https://codeberg.org/librewolf/source)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/librewolf-cachyos.flatimage
-- **Size 💾:** `472.43 MB`
-- **SHA256SUM 🔐:** `14fa5552d839ede0e26b6f3beec88d6f852709526a6027216316a8f24cc34a50`
-- **B3SUM 🔐:** `4b678bdbb6149226418fe990fc98be986cb80e18e6beb2646496785f2fa2ff17`
+- **Size 💾:** `474.63 MB`
+- **SHA256SUM 🔐:** `d103372bcc5645895306cb962d53906b93f63251c05e540bffe7395075730151`
+- **B3SUM 🔐:** `f9553367bfa992f380e34df01e2dd913fef69d531c65b8cf0a0626f916a52c8b`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/librewolf.flatimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/librewolf.flatimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/librewolf.flatimage.icon.png
@@ -767,8 +767,8 @@
 - **Source 📡:** [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/lite-xl.appimage
 - **Size 💾:** `2.65 MB`
-- **SHA256SUM 🔐:** `0e7ccef5933690266556952ed1dcafac35c5c7c766a7bd99401520ec778dcc4b`
-- **B3SUM 🔐:** `48b6b64f38dbcb28fc70482f771bbbd702ee0933842589161756f3e6f7826899`
+- **SHA256SUM 🔐:** `38842fba6d3269fe6a4280c2a74a9379a73ad8736a7df4603aa37d00da38c02f`
+- **B3SUM 🔐:** `83f8b5485085caf2c35a6dfbee6493de45d685b644ba02276828f18e83601084`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/lite-xl.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/lite-xl.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/lite-xl.appimage.icon.png
@@ -779,15 +779,15 @@
 
 ### [`microsoft-edge-dev.appimage` 📀](https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/microsoft-edge-dev.appimage)
 - **PKG_Name 📦:** 
-- **Version 🧬:** `132.0.2917.0`
+- **Version 🧬:** `132.0.2931.1`
 - **Description ℹ️:** The web browser from Microsoft (Dev)
 - **Note ⚠️:** Community Created AppImage. Check/Report @ https://github.com/ivan-hc/MS-Edge-appimage
 - **Homepage 🌐:** [https://www.microsoft.com/edge](https://www.microsoft.com/edge)
 - **Source 📡:** [https://packages.microsoft.com/repos/edge/pool/main/m/](https://packages.microsoft.com/repos/edge/pool/main/m/)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/microsoft-edge-dev.appimage
 - **Size 💾:** `202.2 MB`
-- **SHA256SUM 🔐:** `06aa13288b4ab1006224ce1e43d5714d8ed8b0b92d606427becd07936843f41c`
-- **B3SUM 🔐:** `44a4890573c1dd6934ecd6e86e9308a47ec7203fbf43ff310d974f53d6ea43c2`
+- **SHA256SUM 🔐:** `6d66fa7a289e5bb97a9ad5a430429117ef25f8bcec2c5fa0c2d0f2c82db1b78c`
+- **B3SUM 🔐:** `2f8cd42940171c0ac491f475ede15fa99e41f0b7ba015d4ebff52916cd0e05f2`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/microsoft-edge-dev.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/microsoft-edge-dev.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/microsoft-edge-dev.appimage.icon.png
@@ -805,8 +805,8 @@
 - **Source 📡:** [https://packages.microsoft.com/repos/edge/pool/main/m/](https://packages.microsoft.com/repos/edge/pool/main/m/)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/microsoft-edge-stable.appimage
 - **Size 💾:** `200.45 MB`
-- **SHA256SUM 🔐:** `0283c8c94ffcd8fc420411ba10b6b7f53593811e01d3b5eaff7a2309247b1e8a`
-- **B3SUM 🔐:** `d6569c2cf7eaca91d1d90d3d02af7e7902a59c51da65a4a6bf26276a8f5f3c90`
+- **SHA256SUM 🔐:** `e3b8286c25d0df34353d116bd1622ed61b2c0cefb60d9140bd7eb63e6d8f6fe9`
+- **B3SUM 🔐:** `a6d9e2e0ba359f96e376a2faa20e6ec2ce5b064538470397ec93727fb4a15c64`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/microsoft-edge-stable.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/microsoft-edge-stable.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/microsoft-edge-stable.appimage.icon.png
@@ -824,8 +824,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/mousepad](https://gitlab.xfce.org/apps/mousepad)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/mousepad.dwfs.appbundle
 - **Size 💾:** `18.5 MB`
-- **SHA256SUM 🔐:** `59788624f4e52198ebcabaedb9ddeb4b3c48bf1ff86063a898d347d3f8dffc71`
-- **B3SUM 🔐:** `c5e3a26dae87e6b0a303c26ce2f21e3e31f55297f0fc2ae44d14a87983a02844`
+- **SHA256SUM 🔐:** `19080dde9604f982c95a6814f93fc15fa05455e24639fb941f06db1614e3160a`
+- **B3SUM 🔐:** `319dfea657c2fa3d6345c42e6dd161e8492297ef694eeb97c8f2287e8ba7b17e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/mousepad.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/mousepad.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/mousepad.dwfs.appbundle.icon.png
@@ -843,8 +843,8 @@
 - **Source 📡:** [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/mpv.appimage
 - **Size 💾:** `24.58 MB`
-- **SHA256SUM 🔐:** `19b1f44897da133d53a49096a01ca1fb8172e9a09870d17b0913466fe2d60829`
-- **B3SUM 🔐:** `070bf214cd3dcf2020e0ba0312a001f8a5aa243a64d67984a128afd117063978`
+- **SHA256SUM 🔐:** `f67d6f419d3ae055c391c0d1d978a0c27890d03812d9394a7fa636c814a84a67`
+- **B3SUM 🔐:** `992555104298347168360a4e375171a9b1f59c5add5f9da5b9875a35d308e36a`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/mpv.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/mpv.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/mpv.appimage.icon.png
@@ -862,8 +862,8 @@
 - **Source 📡:** [https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/nvtop.appimage
 - **Size 💾:** `926.1 KB`
-- **SHA256SUM 🔐:** `6c35f0818e99ba0798b07e2efb306cccce30db34a7d1a3a09b26c154c98afa4e`
-- **B3SUM 🔐:** `ce85986eb2998387b1fbf5d46142ae4091c8cacf47f49168ee5cd2f4c0ff9ed8`
+- **SHA256SUM 🔐:** `d51306804513663ad12dd9c52dfce68dfdbac38af70e34dc2aa6a10dfdf5242c`
+- **B3SUM 🔐:** `6e542ebe5a5e71e139721d4ef4ebda576efbe903101bcdbca0bcf173fae570a5`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/nvtop.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/nvtop.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/nvtop.appimage.icon.png
@@ -880,9 +880,9 @@
 - **Homepage 🌐:** [https://obsproject.com](https://obsproject.com)
 - **Source 📡:** [https://github.com/obsproject/obs-studio](https://github.com/obsproject/obs-studio)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/obs-studio.appimage
-- **Size 💾:** `174.22 MB`
-- **SHA256SUM 🔐:** `267ff072d95757556996804550ea40744a567cf5cb270186d857da67e6042ded`
-- **B3SUM 🔐:** `0e140c0e2f26e83f8f0c8592d40a01cbc361f93c63f03d70dafaad3ffe70ca69`
+- **Size 💾:** `174.21 MB`
+- **SHA256SUM 🔐:** `5702c4e4035311811c77d1fefa34ff10d5533f5809a5c8ca0524b47c1787f947`
+- **B3SUM 🔐:** `c86ab95dc45771cd4bb6e0383a12e31e7110eb227867a47de905132b6d8073df`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/obs-studio.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/obs-studio.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/obs-studio.appimage.icon.png
@@ -900,8 +900,8 @@
 - **Source 📡:** [https://github.com/obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/obsidian.appimage
 - **Size 💾:** `97.02 MB`
-- **SHA256SUM 🔐:** `59a4dcdd86f8de672ce8942afebe644603a20a94eea0e6be6f39c5f2a5b67710`
-- **B3SUM 🔐:** `5cecf8a244a3c84593d0656c44ee01635ecce3b4f432788dd36c51135a0e2808`
+- **SHA256SUM 🔐:** `74c4b14af57d9ed638e1f11ccab5420f2bd1a5c7e92f6f5788cfe375033fedfd`
+- **B3SUM 🔐:** `7fb949dff23737f2dc7f2de25617f82a4a92c73d1c89ad0b6627b401859aee8e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/obsidian.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/obsidian.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/obsidian.appimage.icon.png
@@ -919,8 +919,8 @@
 - **Source 📡:** [https://github.com/olive-editor/olive](https://github.com/olive-editor/olive)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/olive-editor.appimage
 - **Size 💾:** `120.57 MB`
-- **SHA256SUM 🔐:** `e1deaddc9cb9c53dee1c6e5f2d8cb6e816c959746c56e1ba402c6af8285229d4`
-- **B3SUM 🔐:** `f78dd675106ee3ceff05e83004746c8250aa2f2e477edd0de2dbcb9862345e1d`
+- **SHA256SUM 🔐:** `f36db863c77fd73eab37e1acfb71032907cfcec8c3a60591ff7b16a80a00c5ef`
+- **B3SUM 🔐:** `03e981b48d60a2dd67b075e41cdbac9eff11d505c5f87915b681603bfc201f76`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/olive-editor.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/olive-editor.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/olive-editor.appimage.icon.png
@@ -938,8 +938,8 @@
 - **Source 📡:** [https://github.com/ivan-hc/Opera-appimage](https://github.com/ivan-hc/Opera-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/opera.appimage
 - **Size 💾:** `158.16 MB`
-- **SHA256SUM 🔐:** `c973711b6555e61e5bab306fae8bc5cf04891cacbcbd2251be92b95a1d72f339`
-- **B3SUM 🔐:** `609b7e83819ad5e2cfa1f9f4f9ab79861f96f3f4abeeb010c0f80463fd95f248`
+- **SHA256SUM 🔐:** `5f9e7fa4f4683b069d0fbc6564b7164c00717659eb37d93efcd00bed6b9dde74`
+- **B3SUM 🔐:** `faac9f66e712e6f3e27033980b02ece9ff441e953b3ca2a5ca4a7f7b10e0f471`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/opera.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/opera.appimage.log
 - **Icon 🖼️:** 
@@ -957,8 +957,8 @@
 - **Source 📡:** [https://github.com/lxde/pcmanfm](https://github.com/lxde/pcmanfm)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/pcmanfm.dwfs.appbundle
 - **Size 💾:** `18.04 MB`
-- **SHA256SUM 🔐:** `80aa2e0b83338326c00a8e14d6fc61a67cf0af6690375ef74ca464e37f2ed28b`
-- **B3SUM 🔐:** `9299c45b16385c052b68024d7572f77f6f98e18945570b68cf7ff3dfe7bb34ad`
+- **SHA256SUM 🔐:** `4fa15b8f50b457ac42c998137e35a147a17b010725af3a54377d8ded034d8575`
+- **B3SUM 🔐:** `fc7b0065b4859af10185c9230e0d860fad2810e0c8966c9ff09659b1ba8ac48b`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/pcmanfm.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/pcmanfm.appbundle.log
 - **Icon 🖼️:** 
@@ -976,8 +976,8 @@
 - **Source 📡:** [https://github.com/polybar/polybar](https://github.com/polybar/polybar)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/polybar.appimage
 - **Size 💾:** `15.86 MB`
-- **SHA256SUM 🔐:** `97ffad8bab96c316157a72d68c009f0d884d7a5b5da2bcd3c8be34940ccda57a`
-- **B3SUM 🔐:** `07149875d260abc8d298168d32d41423c85053c1494f78eb7e3ed89559f7846d`
+- **SHA256SUM 🔐:** `c69c67643e68023a1cb09f2cbbfb18d35e76ad6396c413f923d3447449a0b1c2`
+- **B3SUM 🔐:** `07724500a22443998c54433f5d500a8c7544a798f9d5bb2dd229ebb5dd3bb260`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/polybar.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/polybar.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/polybar.appimage.icon.png
@@ -995,8 +995,8 @@
 - **Source 📡:** [https://github.com/hrydgard/ppsspp](https://github.com/hrydgard/ppsspp)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ppsspp.dwfs.appbundle
 - **Size 💾:** `171.36 MB`
-- **SHA256SUM 🔐:** `7039f20d9b456f0cc826916ec57362129d7233e43b7acead89acdb697a871ed8`
-- **B3SUM 🔐:** `a7b39b00eae3bff0e0714dc39443c46219a375dc2e52a6a2f0c0726ebea64e32`
+- **SHA256SUM 🔐:** `b54ee065ca0e66f7eb9a4a501c01770025514077a47f304e841f2cd46192aa9c`
+- **B3SUM 🔐:** `28519e15075ca8cff5fdbc92b5955c8efa3db9271c23737839903c0c2d9f41ab`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/ppsspp.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ppsspp.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/ppsspp.dwfs.appbundle.icon.png
@@ -1014,8 +1014,8 @@
 - **Source 📡:** [https://github.com/PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/prismlauncher.appimage
 - **Size 💾:** `78.53 MB`
-- **SHA256SUM 🔐:** `ff7fe9d1f7ae22bc46f8d5fa88f3922bafd355ac7ddb03172631f4a4a6cc79dc`
-- **B3SUM 🔐:** `9f408980805e637a38bd67af69b84cff99771cca7b14579915bf4b8f6f8dfe28`
+- **SHA256SUM 🔐:** `f6c11aa6cdf094a9cf1111f1423c06031df4b84ccb3d1f79075cf9dec464ab20`
+- **B3SUM 🔐:** `37c0db8f5993026d50e2141a67e3c7525d5a38310c5937a8fb6ddd2d9d8afa6e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/prismlauncher.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/prismlauncher.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/prismlauncher.appimage.icon.png
@@ -1033,8 +1033,8 @@
 - **Source 📡:** [https://github.com/DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/protonup-qt.appimage
 - **Size 💾:** `63.99 MB`
-- **SHA256SUM 🔐:** `f34119f4663548b4eecbcbe1b2e53fa92622c398a28505d16f75fdd02cbadcb6`
-- **B3SUM 🔐:** `b0b1bfa22014a37cf3ee89f75475aa399d99b7a970f9df307284fbf19c3fee45`
+- **SHA256SUM 🔐:** `edab2546d0dab8ca8ce00bce8ebb7db3bfb33dd7afec2544d446e21b7cfeb694`
+- **B3SUM 🔐:** `fd355e621e21293ad591a260292893600819daf7d1598591985ed8a305197b4e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/protonup-qt.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/protonup-qt.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/protonup-qt.appimage.icon.png
@@ -1052,8 +1052,8 @@
 - **Source 📡:** [https://github.com/puddletag/puddletag](https://github.com/puddletag/puddletag)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/puddletag.appimage
 - **Size 💾:** `52.03 MB`
-- **SHA256SUM 🔐:** `aa8629381b45a6230b6d6a63e1c761af6d64b0090d978f22a9088f535e507330`
-- **B3SUM 🔐:** `fd5d614961e176f8dae5927d67e7512ca0787b7a2e0068d5f9401db54071b747`
+- **SHA256SUM 🔐:** `b2c66efcaf9adb849912ebc9e495fee49b0845b5dff4b6c2a1a9b9f5c09984c1`
+- **B3SUM 🔐:** `32c66bfc3d145aa1c3b46c0ee7463a541d94336c045ee7cbbb608f2852495bfe`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/puddletag.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/puddletag.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/puddletag.appimage.icon.png
@@ -1071,8 +1071,8 @@
 - **Source 📡:** [https://github.com/c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/qbittorrent-enhanced.appimage
 - **Size 💾:** `25.59 MB`
-- **SHA256SUM 🔐:** `386359c181923da6ada55eafd127c3fbb92f91c831a0184756116cda1c77d6e8`
-- **B3SUM 🔐:** `6bbf423d9c3db1b57277bac7fcc9123069a474af6d5c48318c8cc10aa9bd3844`
+- **SHA256SUM 🔐:** `e0fc6836aac692c5fc6727cb50d3292268c000d01fd823f551d52c1cd81c5aa2`
+- **B3SUM 🔐:** `a96f70998206a3d224b76b4dd1ce4fb5e5b1fbfa031a5b22a411da01a1d1b858`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/qbittorrent-enhanced.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/qbittorrent-enhanced.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/qbittorrent-enhanced.appimage.icon.png
@@ -1090,8 +1090,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/ristretto](https://gitlab.xfce.org/apps/ristretto)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ristretto.dwfs.appbundle
 - **Size 💾:** `18 MB`
-- **SHA256SUM 🔐:** `9ce5315a4a88002133cabeaa7c4ca34f0889b69c866e00542c016df450378bbf`
-- **B3SUM 🔐:** `4ad8a47c79c3c9966b66203e6d5f86b87d0f6d56877ba7d5d8afbaefed518f21`
+- **SHA256SUM 🔐:** `12664097947d1bd658d93822dafb74c466229f22f98df90023f97598a90bddfe`
+- **B3SUM 🔐:** `d6ecf6f604d68a0847bb8583c6859d3cf0c0bda41192d5866c844b08d74347da`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/ristretto.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ristretto.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/ristretto.dwfs.appbundle.icon.png
@@ -1109,8 +1109,8 @@
 - **Source 📡:** [https://github.com/davatorium/rofi](https://github.com/davatorium/rofi)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/rofi.appimage
 - **Size 💾:** `9.79 MB`
-- **SHA256SUM 🔐:** `9438887a4734bc4cbf3d5568e05e51ada16db06ad685cec4165d53f5593821ea`
-- **B3SUM 🔐:** `700b8b0e88a17fc93c811a6dea7e24cd9885a7aee8513ea55236025961cad5d4`
+- **SHA256SUM 🔐:** `89ef1da9b2ab875536c7624c76979e5228d3965f5a0531603f1c3880d8a0c89f`
+- **B3SUM 🔐:** `51f559e8194e6bad4a2c3a76c3ecce259d3f2697e420081a78ca76dadf9f87d3`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/rofi.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/rofi.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/rofi.appimage.icon.png
@@ -1128,8 +1128,8 @@
 - **Source 📡:** [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ryujinx.appimage
 - **Size 💾:** `25.23 MB`
-- **SHA256SUM 🔐:** `f057ac4227f076168159969d20b7eef4d4975dc6ffd1fb0c1a577a0c0dc519f2`
-- **B3SUM 🔐:** `44a16de684e8e42c1e307b95eaa2120fe49660731fb10c6c14e8a34f76160d75`
+- **SHA256SUM 🔐:** `a7a8d2ef4d0f6312fa46cc0c92c742922cbe42f6e6f82406dba460e7aa4e08bd`
+- **B3SUM 🔐:** `4281df506b177c5e1591bc03a5dd4672989e84e22cb4d3c10b7fc290aa79fb87`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/ryujinx.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/ryujinx.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/ryujinx.appimage.icon.png
@@ -1147,8 +1147,8 @@
 - **Source 📡:** [https://github.com/signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/signal-desktop.appimage
 - **Size 💾:** `137.84 MB`
-- **SHA256SUM 🔐:** `722f173d487aa013f9e2ea0083409f4dcc092cb5a589d39c65582e479192c2d1`
-- **B3SUM 🔐:** `4129f27049cb69070f579b443d7c3da9e6ff0c199fa34aed5f59d15e9da49a54`
+- **SHA256SUM 🔐:** `f5d470ec030a23ae51944ee8108d561a23663b05758df1641ff4c16f55a48aa7`
+- **B3SUM 🔐:** `5514533d55e229960bd944c07428b5a156f3ccdb24e04d8d098e0cda63c3a42e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/signal-desktop.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/signal-desktop.appimage.icon.png
@@ -1166,8 +1166,8 @@
 - **Source 📡:** [https://github.com/siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/siyuan.appimage
 - **Size 💾:** `157.72 MB`
-- **SHA256SUM 🔐:** `bd84e89ce072abbdb781956b1826dabfa35ecc7ba13c4892bbd9a04269d215b3`
-- **B3SUM 🔐:** `aa0cbc05fd33799c185f289941d05ea9a086efc8c8d73b07dc15775559643d9e`
+- **SHA256SUM 🔐:** `42652a5738658fd285b22b1d841e3dae82e8b4e93cf6090a279e04097858f8be`
+- **B3SUM 🔐:** `376032b9e4ff9cef59c987afd28be41f793be30854a4bc577bedd62ab6e8f0a7`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/siyuan.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/siyuan.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/siyuan.appimage.icon.png
@@ -1185,8 +1185,8 @@
 - **Source 📡:** [https://github.com/ivan-hc/Spotify-appimage](https://github.com/ivan-hc/Spotify-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/spotify.appimage
 - **Size 💾:** `124.83 MB`
-- **SHA256SUM 🔐:** `daac8e1c5179f7d34e00f9feef66d31b633e8531686f268d4a22ed124a2270b4`
-- **B3SUM 🔐:** `2e39a2286e8f76aea2dce7d298f8d7bb3e55faace9d66ceffec75f3220f87387`
+- **SHA256SUM 🔐:** `ab954e280254fbb3f48b6d94686679df969576d4d050d93c67e6111d894e4ec2`
+- **B3SUM 🔐:** `0f307a4bbb8534aaba74b6d336561a17daa13eba029125325b540182e0c82aaf`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/spotify.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/spotify.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/spotify.appimage.icon.png
@@ -1203,9 +1203,9 @@
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ivan-hc/Steam-appimage](https://github.com/ivan-hc/Steam-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/steam.appimage
-- **Size 💾:** `356.97 MB`
-- **SHA256SUM 🔐:** `f2a62afe62eb7fbc3e2f5609d4d7bae7fde3f646fbcfd599e82b2af9ba818fac`
-- **B3SUM 🔐:** `69ea8304151cf1d30b81ce135e87f1498f1a08c658e4b2624e2d25b44bbd2a24`
+- **Size 💾:** `358.68 MB`
+- **SHA256SUM 🔐:** `11680abf6766db59fba1abf6d6ece9a3bb772e95c938e94c64b4e0555a5d1f84`
+- **B3SUM 🔐:** `be7c369ce32cf52f1b2e4074f7fc5e0853405e3219dda9a0b268110cea40f6b8`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/steam.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/steam.appimage.icon.png
@@ -1222,9 +1222,9 @@
 - **Homepage 🌐:** [https://store.steampowered.com/about/](https://store.steampowered.com/about/)
 - **Source 📡:** [https://github.com/ValveSoftware/steam-for-linux](https://github.com/ValveSoftware/steam-for-linux)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/steam-cachyos.flatimage
-- **Size 💾:** `559.32 MB`
-- **SHA256SUM 🔐:** `3883d46ba2be0c8462b7df66f0d79b2b00da9dc9da091adf260d8d5a3547d185`
-- **B3SUM 🔐:** `5808ed237b1867d03f032a59bff3326ec10ccf0e8bcbe7c7462a68ef6a52be5e`
+- **Size 💾:** `558.16 MB`
+- **SHA256SUM 🔐:** `263e566ec05bc7fecd25b32fc8ca2c5bc33a15812b4c95d70f5aaa14dbaf1e6c`
+- **B3SUM 🔐:** `cd2b4ea8d997887d5db4999759680e9c6e0230b407940767c860bb8c27d748a1`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/steam.flatimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/steam.flatimage.log
 - **Icon 🖼️:** 
@@ -1242,8 +1242,8 @@
 - **Source 📡:** [https://github.com/videolan/vlc](https://github.com/videolan/vlc)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/vlc.appimage
 - **Size 💾:** `169.76 MB`
-- **SHA256SUM 🔐:** `56870352d50d2bbb6df4db9a247ccaa70d76d8f8fd984e4c69c9d84afeb36d67`
-- **B3SUM 🔐:** `6ce0907e2c901fc9f189d78830d12519c6bcfa709c8ec703cd35feb07a4bfb72`
+- **SHA256SUM 🔐:** `55f83f93d7f3c383712feb4c474e5e0f3fff18c0a2bc63a831f2762934d3d878`
+- **B3SUM 🔐:** `ab54e61678deba4c269589f18fc22598e1b5e640d71515a38927ca8656c46cb4`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/vlc.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/vlc.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/vlc.appimage.icon.png
@@ -1261,8 +1261,8 @@
 - **Source 📡:** [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/vscode.appimage
 - **Size 💾:** `123.04 MB`
-- **SHA256SUM 🔐:** `d7ffb8d767dda7fee19de5867286e432aa2121b20a7328a73f0414f6a6fad50a`
-- **B3SUM 🔐:** `e8fefad6994e767c5e728e24d661736d32a092cd79534de3433e7d3af55e40b9`
+- **SHA256SUM 🔐:** `16022cd06c18dbe0531c04dd9e927de8c6bc4f10041785d79544308ba713ec22`
+- **B3SUM 🔐:** `5775cc2bf8ff74c53eb8d477c80b542c7ece7e2f3aff3732b8f22c07774d1ae9`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/vscode.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/vscode.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/vscode.appimage.icon.png
@@ -1280,8 +1280,8 @@
 - **Source 📡:** [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/wezterm.appimage
 - **Size 💾:** `40.33 MB`
-- **SHA256SUM 🔐:** `28c6d0b0715738142fcf80dbb1e6be46588563223ae416641dce393457dabc8a`
-- **B3SUM 🔐:** `475fa2608a601cf350e3188b7d17916bc2e6998799464ab54b9a0701dd002895`
+- **SHA256SUM 🔐:** `4aca4b24ef0d374f6feb71da75d5d3fd9fe144702c11dc70d33f9feac07d61b7`
+- **B3SUM 🔐:** `00dd69c4b11e14d6ae2b5d7c6bb5f70859962f8eb7f23fcd397670bb7fcfdc02`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/wezterm.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/wezterm.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/wezterm.appimage.icon.png
@@ -1299,8 +1299,8 @@
 - **Source 📡:** [https://github.com/ivan-hc/WPS-Office-appimage](https://github.com/ivan-hc/WPS-Office-appimage)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/wps-office.appimage
 - **Size 💾:** `461.61 MB`
-- **SHA256SUM 🔐:** `33d52ea42e18e8b2e7f4388df61efddd57c8be9a3d5529b72498be6a654c6014`
-- **B3SUM 🔐:** `b04b4239304c20797426e26236dfc97fb56cded3b11e8cdc7dbd27a300a4a51e`
+- **SHA256SUM 🔐:** `20277bb8b7946100ef3d3c724e1b67fdf0babee94f2ade268b9a6e1524982f27`
+- **B3SUM 🔐:** `d4fa6bbf3dd42d934ec17ba564233cac2adf1572d85e3bc30941cf9a418ac54f`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/wps-office.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/wps-office.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/wps-office.appimage.icon.png
@@ -1318,8 +1318,8 @@
 - **Source 📡:** [https://github.com/xemu-project/xemu](https://github.com/xemu-project/xemu)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/xemu.appimage
 - **Size 💾:** `18.53 MB`
-- **SHA256SUM 🔐:** `bc929ae381cf9ba296e14ac22fa4de5011be3af5a912c4c4396662ec75e86de7`
-- **B3SUM 🔐:** `e4671893c151b32cadcb743529f0c3bc82ef4bac94d45f7f3301b94c5143eeb3`
+- **SHA256SUM 🔐:** `a71e5761392306d95468bac576443eb0c3d5c600ce543ad00666d251a2c3f789`
+- **B3SUM 🔐:** `e56241bb85615bff98167cc420adaee007dab88be9f27bdd595df3e92a1bd9c1`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/xemu.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/xemu.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/xemu.appimage.icon.png
@@ -1337,8 +1337,8 @@
 - **Source 📡:** [https://gitlab.xfce.org/apps/xfce4-terminal](https://gitlab.xfce.org/apps/xfce4-terminal)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/xfce4-terminal.dwfs.appbundle
 - **Size 💾:** `22.01 MB`
-- **SHA256SUM 🔐:** `c8fa830d6a9611e02ab5cfac83c40d4011a00158fee52113713ad3a06bc14064`
-- **B3SUM 🔐:** `ec119c0a121ae754b9f19c00a8ab8fe3a00819dc6dbb4f3e9bbe9b802a1958aa`
+- **SHA256SUM 🔐:** `e0e362e008b1dfbf0a03be0edae83bb0d7c9afc0431b806a5caf278039d571ac`
+- **B3SUM 🔐:** `049f156308a322b3b29bc2910600979b4aff121a5e3f2f03649cb36328b235cc`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/xfce4-terminal.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/xfce4-terminal.appbundle.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/xfce4-terminal.dwfs.appbundle.icon.png
@@ -1356,8 +1356,8 @@
 - **Source 📡:** [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 - **Download ⬇️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/zettlr.appimage
 - **Size 💾:** `131.02 MB`
-- **SHA256SUM 🔐:** `151cfd99f76a9cc33d799caed3657aaca4b97ab037de1b99c727d944206cdaa9`
-- **B3SUM 🔐:** `6ed576292b42ea6c66ad50680e70ba725ee917fb2075c02f5c983fdb9e463255`
+- **SHA256SUM 🔐:** `3670fc4241f29b09ec3161dd95ca541a1ba0029f404fe1bad1e5eb6a5c461de0`
+- **B3SUM 🔐:** `788854ccc36ca434534f31e03a4342a34a63269aa0ef03fd79f06fbd5569dc42`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/zettlr.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/zettlr.appimage.log
 - **Icon 🖼️:** https://pkg.pkgforge.dev/x86_64/zettlr.appimage.icon.png

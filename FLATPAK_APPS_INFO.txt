@@ -870,6 +870,10 @@ NAME: Chronos
 APP_ID: com.francescogaglione.chronos
 Descr: Chronos is a simple and intuitive Pomodoro timer for Linux
 -----------------------------
+NAME: Cosmic money
+APP_ID: com.francescogaglione.cosmicmoney
+Descr: Simple money manager
+-----------------------------
 NAME: FreeRDP Client
 APP_ID: com.freerdp.FreeRDP
 Descr: Remote Desktop Protocol Client
@@ -2798,6 +2802,10 @@ NAME: Waveform11
 APP_ID: com.tracktion.Waveform
 Descr: Digital audio workstation for all music creators
 -----------------------------
+NAME: TradingView
+APP_ID: com.tradingview.tradingview
+Descr: Where the world charts, chats and trades markets
+-----------------------------
 NAME: Tuta (Experimental)
 APP_ID: com.tutanota.Tutanota
 Descr: Secure email, calendar &amp; contacts
@@ -3506,6 +3514,10 @@ NAME: Add Water
 APP_ID: dev.qwery.AddWater
 Descr: Keep Firefox in fashion
 -----------------------------
+NAME: Restfox
+APP_ID: dev.restfox.Restfox
+Descr: A powerful minimalistic HTTP client
+-----------------------------
 NAME: MineSector
 APP_ID: dev.rzia.minesector
 Descr: Snazzy Minesweeper-based game
@@ -3528,7 +3540,7 @@ Descr: A simple Kubernetes IDE for GNOME
 -----------------------------
 NAME: SlimeVR
 APP_ID: dev.slimevr.SlimeVR
-Descr: An app for facilitating full-body tracking in virtual reality
+Descr: Accessible full-body tracking in VR
 -----------------------------
 NAME: Porta War
 APP_ID: dev.stewlab.PortaWar
@@ -4162,6 +4174,10 @@ NAME: Kazumi
 APP_ID: io.github.Predidit.Kazumi
 Descr: Watch Animes online with danmaku support
 -----------------------------
+NAME: Fig
+APP_ID: io.github.Q1CHENL.fig
+Descr: Sleek GIF editor
+-----------------------------
 NAME: Polished Map++
 APP_ID: io.github.Rangi42.polished-map-plusplus
 Descr: Edit pokecrystal maps and tilesets
@@ -4533,6 +4549,10 @@ Descr: Free and open source first-person shooter
 NAME: ecotube
 APP_ID: io.github.ecotubehq.player
 Descr: GTK+ frontend for mpv
+-----------------------------
+NAME: MPRIS Timer
+APP_ID: io.github.efogdev.mpris-timer
+Descr: A timer app with seamless GNOME integration utilizing media player UI
 -----------------------------
 NAME: Weylus Community Edition
 APP_ID: io.github.electronstudio.WeylusCommunityEdition
@@ -5170,6 +5190,10 @@ NAME: pocket-sync
 APP_ID: io.github.neil_morrison44.pocket-sync
 Descr: A GUI to do stuff with the Analogue Pocket
 -----------------------------
+NAME: NEST Desktop
+APP_ID: io.github.nest_desktop.nest-desktop
+Descr: A web-based application for spiking neuronal simulation
+-----------------------------
 NAME: ASCII Draw
 APP_ID: io.github.nokse22.asciidraw
 Descr: Sketch anything using characters
@@ -5393,6 +5417,10 @@ Descr: Understand file permissions
 NAME: Rosary
 APP_ID: io.github.roseblume.rosary
 Descr: Study Christianity
+-----------------------------
+NAME: Rosary Music
+APP_ID: io.github.roseblume.rosemusic
+Descr: Listen To Online Radio
 -----------------------------
 NAME: SameBoy
 APP_ID: io.github.sameboy.SameBoy
@@ -6326,6 +6354,10 @@ NAME: Proton Pass
 APP_ID: me.proton.Pass
 Descr: Encrypted password manager to keep your login credentials safe
 -----------------------------
+NAME: Hiperthermia
+APP_ID: me.sergiotarxz.Exd
+Descr: Program your thermal printer
+-----------------------------
 NAME: Japachar
 APP_ID: me.sergiotarxz.JapaChar
 Descr: Learn Japanese characters
@@ -6640,7 +6672,7 @@ Descr: Bandcamp.com Wishlist Manager
 -----------------------------
 NAME: Freeciv21
 APP_ID: net.longturn.freeciv21
-Descr: Freeciv21 - Develop Your Civilization from Humble Roots to a Global Empire
+Descr: Develop Your Civilization from Humble Roots to a Global Empire
 -----------------------------
 NAME: Bible
 APP_ID: net.lugsole.bible_gui.desktop
@@ -6655,12 +6687,8 @@ APP_ID: net.mancubus.SLADE
 Descr: It&apos;s a Doom editor
 -----------------------------
 NAME: AVI MetaEdit
-APP_ID: net.mediaarea.AVIMetaEdit.desktop
+APP_ID: net.mediaarea.AVIMetaEdit
 Descr: Embed, validate, and export AVI files metadata
------------------------------
-NAME: BWF MetaEdit
-APP_ID: avimetaedit-gui.desktop
-Descr: Embed, validate, and export BWF files metadata
 -----------------------------
 NAME: BWF MetaEdit
 APP_ID: net.mediaarea.BWFMetaEdit
@@ -6671,12 +6699,8 @@ APP_ID: bwfmetaedit-gui.desktop
 Descr: Analyze DV streams and report errors
 -----------------------------
 NAME: DV Analyzer
-APP_ID: net.mediaarea.DVAnalyzer.desktop
+APP_ID: net.mediaarea.DVAnalyzer
 Descr: Analyze DV streams and report errors
------------------------------
-NAME: MOV MetaEdit
-APP_ID: dvanalyzer-gui.desktop
-Descr: Embed and edit Universal Ad ID metadata in MOV or MP4 files
 -----------------------------
 NAME: MOV MetaEdit
 APP_ID: net.mediaarea.MOVMetaEdit
@@ -9330,16 +9354,16 @@ NAME: Tropy
 APP_ID: org.tropy.Tropy
 Descr: Explore your research photos
 -----------------------------
-NAME: Tryton 6.8
-APP_ID: org.tryton.Tryton-68
-Descr: Connect to Tryton
------------------------------
 NAME: Tryton 7.0
 APP_ID: org.tryton.Tryton-70
 Descr: Connect to Tryton
 -----------------------------
 NAME: Tryton 7.2
 APP_ID: org.tryton.Tryton-72
+Descr: Connect to Tryton
+-----------------------------
+NAME: Tryton 7.4
+APP_ID: org.tryton.Tryton-74
 Descr: Connect to Tryton
 -----------------------------
 NAME: TeXworks

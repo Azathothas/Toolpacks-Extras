@@ -3,7 +3,7 @@ name: 🛍️ Build 📀 (toolpack_aarch64-Linux) Packages 📦📀
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * 4" # @ 06:00 AM UTC (11:45 AM NPT Morning Fri)
+    - cron: "0 6 * * 4" # @ 06:00 AM UTC (11:45 AM NPT Morning Thu)
 #Sane env
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS_GHRO }}"
@@ -100,7 +100,7 @@ jobs:
 #------------------------------------------------------------------------------------#
   build-fetch-packages:
     #runs-on: ubuntu-latest
-    runs-on: arm64-linux-toolpacker
+    runs-on: arm64-linux-pkgcache
     needs: [presetup]
     timeout-minutes: 2400
     permissions:
