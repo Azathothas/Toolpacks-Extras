@@ -1170,10 +1170,6 @@ NAME: Fondo
 APP_ID: com.github.calo001.fondo
 Descr: Find the most beautiful wallpapers
 -----------------------------
-NAME: Luna
-APP_ID: com.github.calo001.luna
-Descr: An amazing calendar widget
------------------------------
 NAME: Calculus
 APP_ID: com.github.carlos157oliveira.Calculus
 Descr: Compute derivatives and integrals

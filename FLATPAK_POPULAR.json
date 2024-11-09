@@ -6396,7 +6396,7 @@
       "summary": "Play Nintendo 64 games easily",
       "description": "Rosalie's Mupen GUI is an easy to use yet customizable mupen64plus front-end, allowing you to easily play Nintendo 64 games.\n    ",
       "id": "com_github_Rosalie241_RMG",
-      "updated_at": 1727758713,
+      "updated_at": 1731162955,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6427,7 +6427,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1682342579",
-      "runtime": "org.kde.Platform/x86_64/6.7",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 5.116726897116591,
       "installs_last_month": 16404,
       "added_at": 1642853336
@@ -11005,7 +11005,7 @@
       "summary": "Graphical front-end for Wine",
       "description": "\n    PlayOnLinux will allow you to run your favorite Windows games and\n    applications on Linux through Wine easily.\n    \n      \n    New users can often find Wine to be intimidating and difficult to use.\n    PlayOnLinux simplifies much of this and makes installing and using\n    Windows programs easier.\n    \n      \n    PlayOnLinux has the database of Windows applications from which the user\n    can install desired application with a few clicks. It will automatically\n    setup your Wine prefix and download any required Windows libraries.\n    \n    ",
       "id": "com_playonlinux_PlayOnLinux4",
-      "updated_at": 1727893372,
+      "updated_at": 1731155981,
       "arches": [
         "x86_64"
       ],
@@ -11014,7 +11014,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.playonlinux.PlayOnLinux4",
-      "icon": "https://dl.flathub.org/media/com/playonlinux/PlayOnLinux4/c3563a41317239a98230ed8aa65f2a40/icons/128x128/com.playonlinux.PlayOnLinux4.png",
+      "icon": "https://dl.flathub.org/media/com/playonlinux/PlayOnLinux4/542e7ae194c3fe0f5e2abbab240453f1/icons/128x128/com.playonlinux.PlayOnLinux4.png",
       "categories": [
         "Utility"
       ],
@@ -17757,7 +17757,7 @@
       "summary": "A 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy",
       "description": "\n      Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built\n      using a modified version of the Doom Legacy port of Doom. SRB2 is\n      closely inspired by the original Sonic games from the Sega Genesis, and\n      attempts to recreate the design in 3D. It features tons of levels,\n      enemies, speed, and quite a lot of the fun that the original Sonic\n      games provided.\n    \n    ",
       "id": "org_srb2_SRB2",
-      "updated_at": 1730113108,
+      "updated_at": 1731160513,
       "arches": [
         "x86_64",
         "aarch64"
@@ -17783,7 +17783,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 8.133439384447547,
       "installs_last_month": 5929,
       "added_at": 1589785393
