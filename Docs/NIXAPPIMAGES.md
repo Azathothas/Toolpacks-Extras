@@ -1,6 +1,6 @@
 - Author: [`@ralismark`](https://github.com/ralismark) `+` [`@Azathothas`](https://github.com/Azathothas) `+` [`Others`](https://github.com/NixOS/bundlers)
-- Project Page: [https://github.com/Azathothas/nix-appimage](https://github.com/Azathothas/nix-appimage)
-- Described as An AppImage created using a [Nix-Bundler](https://github.com/NixOS/bundlers) like [Azathothas/nix-appimage](https://github.com/Azathothas/nix-appimage) & [DavHau/nix-portable](https://github.com/DavHau/nix-portable)
+- Project Page: [https://github.com/pkgforge/nix-appimage](https://github.com/pkgforge/nix-appimage)
+- Described as An AppImage created using a [Nix-Bundler](https://github.com/NixOS/bundlers) like [pkgforge/nix-appimage](https://github.com/pkgforge/nix-appimage) & [DavHau/nix-portable](https://github.com/DavHau/nix-portable)
 - Naming Schema: `${PKG_NAME}.NixAppImage`
 > ```bash
 > !#Examples
@@ -11,7 +11,7 @@
 
 - Caveats & Known Issues
 > - [libGL](https://github.com/NixOS/nixpkgs/issues/9415)
-> - ~~[User Namespaces & Sandboxing](https://github.com/ralismark/nix-appimage/issues/10)~~ `Fixed` by [`@Azathothas/nix-appimage`](https://github.com/Azathothas/nix-appimage) on [`2024-10-26`](https://github.com/Azathothas/nix-appimage/commit/ce3da063d18bd67dfb4c788b033f67c6ee39c307)
+> - ~~[User Namespaces & Sandboxing](https://github.com/ralismark/nix-appimage/issues/10)~~ `Fixed` by [`@pkgforge/nix-appimage`](https://github.com/pkgforge/nix-appimage)
 > - **Large Image Size**: About `2-5x` larger than other formats, but <ins>guarantee absolute portability.</ins>
 ---
 

@@ -40,7 +40,7 @@ if [ "${SKIP_BUILD}" == "NO" ]; then
        export APP="chromium"
        export NIX_PKGNAME="chromium"
        export PKG_NAME="${APP}.nixappimage"
-       nix bundle --bundler "github:Azathothas/nix-appimage?ref=main" "nixpkgs#${NIX_PKGNAME}" --out-link "${OWD}/${APP}.appimage" --log-format bar-with-logs
+       nix bundle --bundler "github:pkgforge/nix-appimage?ref=main" "nixpkgs#${NIX_PKGNAME}" --out-link "${OWD}/${APP}.appimage" --log-format bar-with-logs
       #Copy
        sudo rsync -achL "${OWD}/${APP}.appimage" "${OWD}/${PKG_NAME}.tmp"
        sudo chown -R "$(whoami):$(whoami)" "${OWD}/${PKG_NAME}.tmp" && chmod -R 755 "${OWD}/${PKG_NAME}.tmp"
