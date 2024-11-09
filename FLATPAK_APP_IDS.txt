@@ -1052,7 +1052,6 @@ io.github.FedericoCalzoni.EventRecorder
 io.github.Figma_Linux.figma_linux
 io.github.Fndroid.clash_for_windows
 io.github.Foldex.AdwSteamGtk
-io.github.Foldex.r2mod
 io.github.GoldenGnu.jEveAssets
 io.github.Hexchat
 io.github.Icalingua.Icalingua

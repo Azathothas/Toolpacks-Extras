@@ -15114,9 +15114,9 @@
       "name": "Japachar",
       "keywords": null,
       "summary": "Learn Japanese characters",
-      "description": "\n      This application helps you to learn Japanese characters using a gradual learning algorithm which makes you test-like questions.\n    \n      \n      It keeps a inner score of how much you know a character to give priority to ask you again about it if needed and introduces new characters when you are ready.\n    \n      \n        You are going to need to have installed japanese fonts on your linux system in order of this app to correctly work, I recommend noto-cjk.\n    \n    ",
+      "description": "\n      This application helps you to learn Japanese characters using a gradual learning algorithm which makes you test-like questions.\n    \n      \n      It keeps a inner score of how much you know a character to give priority to ask you again about it if needed and introduces new characters when you are ready.\n    \n      It works now without having to install any third party font.\n    ",
       "id": "me_sergiotarxz_JapaChar",
-      "updated_at": 1723879976,
+      "updated_at": 1731136503,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15126,7 +15126,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "me.sergiotarxz.JapaChar",
-      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/e8f5f35ed26031255df5b5a07e6e26e6/icons/128x128/me.sergiotarxz.JapaChar.png",
+      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/5b2a256349fd41e6adca800023cf90fe/icons/128x128/me.sergiotarxz.JapaChar.png",
       "categories": [
         "Education",
         "Game"
@@ -15144,7 +15144,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "sergiotarxz.me",
       "verification_timestamp": "1719836718",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 14.124850241390414,
       "installs_last_month": 457,
       "added_at": 1719841243
@@ -16414,7 +16414,7 @@
       "summary": "Snip and pin useful information",
       "description": "\n      Clip what's important to a small floating window, so you don't have to switch between windows or workspaces repeatedly.\n      The application allows you to see what's behind the window by hovering over it.\n    \n      Best used with:\n      \n        \"Always on Top\" and/or \"Always on Visible Workspace\"\n        A keyboard shortcut\n      \n      \n      On GNOME, go to Settings → Keyboard → View and Customize Shortcuts → Custom Shortcuts.\n      There you can set a shortcut to run flatpak run io.github.kelvinnovais.Kasasa\n    \n      \n      Note: On GNOME versions &lt; 46, a dialog will appear to set up and take the screenshot,\n      instead of directly using the GNOME's screenshoter; this may be inconvenient.\n    \n    ",
       "id": "io_github_kelvinnovais_Kasasa",
-      "updated_at": 1728302017,
+      "updated_at": 1731121129,
       "arches": [
         "x86_64",
         "aarch64"
@@ -16446,7 +16446,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.kelvinnovais.Kasasa",
-      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/98b83402bbfec865f69bfb4a9cfbdcf2/icons/128x128/io.github.kelvinnovais.Kasasa.png",
+      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/fb13af80ef97da9464eb628a2ed742de/icons/128x128/io.github.kelvinnovais.Kasasa.png",
       "categories": [
         "Utility"
       ],

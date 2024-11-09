@@ -4114,10 +4114,6 @@ NAME: Clash for Windows
 APP_ID: io.github.Fndroid.clash_for_windows
 Descr: Clash&apos;s graphical client, based on Electron.
 -----------------------------
-NAME: R2Mod
-APP_ID: io.github.Foldex.r2mod
-Descr: Risk of Rain 2 Mod Manager
------------------------------
 NAME: jEveAssets
 APP_ID: io.github.GoldenGnu.jEveAssets
 Descr: jEveAssets is an out-of-game asset manager for Eve-Online

@@ -340,7 +340,7 @@
       "summary": "GameCube / Wii / Triforce Emulator",
       "description": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!\n    ",
       "id": "org_DolphinEmu_dolphin-emu",
-      "updated_at": 1730444523,
+      "updated_at": 1731116107,
       "arches": [
         "x86_64",
         "aarch64"
@@ -350,7 +350,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.DolphinEmu.dolphin-emu",
-      "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/9f602a8b2a6e768a9813245039b34caa/icons/128x128/org.DolphinEmu.dolphin-emu.png",
+      "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/73d18d1066a8e4bc594304a0c23433b1/icons/128x128/org.DolphinEmu.dolphin-emu.png",
       "categories": [
         "Game",
         "Emulator"
@@ -369,7 +369,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.kde.Platform/x86_64/6.7",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 9.244527603009391,
       "installs_last_month": 87794,
       "added_at": 1491928957
