@@ -170,7 +170,6 @@ com.chez.GrafX2
 com.chowdsp.BYOD
 com.chroniclogic.Zatikon
 com.cinecred.cinecred
-com.clarahobbs.chessclock
 com.claudiocambra.brickbuster
 com.cloudchewie.cloudotp
 com.codemouse92.timecard
@@ -583,6 +582,7 @@ com.neoutils.NeoRegex
 com.netease.CloudMusic
 com.netxms.NetXMSClient
 com.netxms.NetXMSClient50
+com.netxms.NetXMSClient51
 com.nextcloud.desktopclient.nextcloud
 com.nickgirga.webready
 com.nitrokey.nitrokey-app

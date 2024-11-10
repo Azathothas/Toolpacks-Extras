@@ -10894,6 +10894,10 @@ NAME: IntelMediaSDK plugin for HandBrake
 APP_ID: fr.handbrake.ghb.Plugin.IntelMediaSDK
 Descr: Provides Intel QSV encoding options.
 -----------------------------
+NAME: Commercial DVD support for HandBrake
+APP_ID: fr.handbrake.ghb.Plugin.dvdcss
+Descr: Provides commercial DVD support with libdvdcss
+-----------------------------
 NAME: MariaDB Client
 APP_ID: io.dbeaver.DBeaverCommunity.Client.mariadb
 Descr: MariaDB client for DBeaver Community
@@ -10957,6 +10961,10 @@ Descr: Chewing input method
 NAME: Chinese Addons
 APP_ID: org.fcitx.Fcitx5.Addon.ChineseAddons
 Descr: Add support for Pinyin, Table and many other Chinese related functionality to Fcitx
+-----------------------------
+NAME: McBopomofo for Fcitx 5
+APP_ID: org.fcitx.Fcitx5.Addon.McBopomofo
+Descr: A Bopomofo input method that picks phrases intelligently
 -----------------------------
 NAME: Mozc for Fcitx 5
 APP_ID: org.fcitx.Fcitx5.Addon.Mozc

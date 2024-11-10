@@ -2597,127 +2597,6 @@
       "added_at": 1552120513
     },
     {
-      "name": "Chess Clock",
-      "keywords": [
-        "chess",
-        "clock",
-        "game",
-        "timer"
-      ],
-      "summary": "Time games of over-the-board chess",
-      "description": "Chess Clock is a simple application to provide time control for over-the-board chess games.  Intended for mobile use, players select the time control settings desired for their game, then the black player taps their clock to start white's timer.  After each player's turn, they tap the clock to start their opponent's, until the game is finished or one of the clocks reaches zero.",
-      "id": "com_clarahobbs_chessclock",
-      "updated_at": 1695858425,
-      "arches": [
-        "aarch64",
-        "x86_64"
-      ],
-      "type": "desktop-application",
-      "translations": {
-        "da": {
-          "description": "Skakur er et simpelt program til at styre tiden for fysiske skakspil. Skakur er beregnet på mobilt brug, og spillerne vælger den ønskede tidsstyring af deres spil, hvorefter den sorte spiller trykker på sit ur for at starte hvids minutur. Efter hver spillers tur trykker de på uret for at starte modstanderens ur, indtil spillet er slut, eller et af urene når nul.",
-          "name": "Skakur",
-          "summary": "Skakur til fysiske skakspil"
-        },
-        "de": {
-          "description": "Schachuhr ist eine einfache Anwendung, um Bedenkzeit für Schachspiele am Brett bereitzustellen. Ausgerichtet auf mobile Verwendung, wählen die Spieler die für ihr Spiel gewünschten Bedenkzeiteinstellungen, dann tippt Spieler schwarz auf die eigene Uhr, um die Zeitmessung von Spieler weiß zu starten. Nach jedem eigenen Zug tippen die Spieler auf die Uhr ihres Gegners, um deren Zeitmessung auszulösen, bis das Spiel beendet ist oder eine der Uhren auf null steht.",
-          "name": "Schachuhr",
-          "summary": "Zeitmessung für Schach am Brett"
-        },
-        "es": {
-          "description": "Reloj de ajedrez es una sencilla aplicación que ofrece control del tiempo para juegos de ajedrez sobre tablero. Pensada para usarse en móviles, los jugadores seleccionan los controles del tiempo que quieren para cada partida. El jugador de las negras pulsa el reloj para iniciar el temporizador de las blancas. Después de cada turno se pulsa el reloj para iniciar el del oponente hasta que el juego termina o el reloj llega a cero.",
-          "name": "Reloj de ajedrez",
-          "summary": "Tiempo de partidas de ajedrez sobre tablero"
-        },
-        "fi": {
-          "description": "Šakkikello on sovellus lautašakin pelivuorojen keston hallintaan. Se on tarkoitettu mobiilikäyttöön, ja pelaajat voivat valita haluamansa aikamäärityksen, jonka jälkeen musta pelaaja napauttaa kelloa aloittaakseen valkoisen pelaajan ajastimen. Jokaisen vuoron jälkeen pelaaja napauttaa kelloa aloittaakseen vastustajan pelivuoron, kunnes peli päättyy voittoon tai toisen pelaajan aika loppuu.",
-          "name": "Šakkikello",
-          "summary": "Seuraa lautašakin vuorojen kestoa"
-        },
-        "fr": {
-          "description": "Pendule d’échecs est une application simple, prévue pour un usage sur mobile, pour contrôler le temps d’une partie d’échecs en temps réel. Les joueurs sélectionnent les paramètres de contrôle du temps souhaités pour leur partie, puis le joueur noir tape sur son horloge pour démarrer le minuteur du joueur blanc. Après son tour, chaque joueur tape sur son horloge pour démarrer celle de l’adversaire, jusqu’à ce que la partie soit terminée ou que l’une des pendules atteigne zéro.",
-          "name": "Pendule d’échecs",
-          "summary": "Chronométrez vos parties de jeux d’échecs en temps réel"
-        },
-        "hu": {
-          "description": "A Sakkóra egy egyszerű alkalmazás, amely időzítést biztosít a sakkjátszmákhoz. Mobil használathoz ajánlott, a játékosok kiválasztják a játékhoz használandó időzítési beállításokat, majd a sötét játékos lenyomja a saját óráját, hogy a világos ideje ketyegjen. Minden játékos a köre után lenyomja az órát, és az ellenfél köre indul el, egészen addig, amíg a játék véget nem ér, vagy az óra el nem éri a nullát.",
-          "name": "Sakkóra",
-          "summary": "Mérje a sakkjátszmák idejét"
-        },
-        "id": {
-          "description": "Jam Catur adalah aplikasi sederhana untuk menyediakan kontrol waktu untuk permainan catur di atas papan. Ditujukan untuk penggunaan seluler, pemain memilih pengaturan kontrol waktu yang diinginkan untuk permainan mereka, lalu pemain hitam mengetuk jamnya untuk memulai pengatur waktu putih. Setelah giliran masing-masing pemain, mereka mengetuk jam untuk memulai lawan mereka, hingga permainan selesai atau salah satu jam mencapai nol.",
-          "name": "Jam Catur",
-          "summary": "Permainan waktu catur di atas papan"
-        },
-        "it": {
-          "description": "Orologio per scacchi è una semplice app che permette di controllare il tempo nelle partite di scacchi su una scacchiera. Intesa per un uso su dispositivi mobili, i giocatori possono selezionare le impostazioni di tempo desiderate per la loro partita; a quel punto il giocatore nero tocca il proprio orologio per far partire quello del bianco. Dopo ciascun turno, ciascun giocatore tocca l'orologio per far partire quello dell'avversario, finché la partita termina oppure uno dei due orologi raggiunge lo zero.",
-          "name": "Orologio per scacchi",
-          "summary": "Un cronometro per partite a scacchi a tavolino"
-        },
-        "nl": {
-          "description": "Schaakklok is een eenvoudige toepassing voor tijdsbediening van schaakspellen, en is bedoeld voor mobiel gebruik. Spelers selecteren de gewenste tijdsbedieningsinstellingen voor hun spel, waarna de zwarte speler op de klok drukt om de timer van wit te starten. Na de beurt van elke speler, drukken ze op de klok om die van hun tegenstander te starten, totdat het spel is afgelopen of een van de klokken nul bereikt.",
-          "name": "Schaakklok",
-          "summary": "Houd de bedenktijd van schaakspellen bij"
-        },
-        "pt": {
-          "description": "O Relógio de Xadrez é uma aplicação simples que permite o controlo do tempo para jogos de xadrez de tabuleiro. Destinado à utilização móvel, os jogadores selecionam as definições de controlo de tempo desejadas para o seu jogo, depois o jogador de peças pretas bate o seu relógio para iniciar o temporizador do jogador de peças brancas. Após a vez de cada jogador, batem no relógio para iniciar o do adversário, até o jogo estar terminado ou até um dos relógios chegar a zero.",
-          "name": "Relógio de Xadrez",
-          "summary": "Tempo de jogos de xadrez de tabuleiro"
-        },
-        "pt-BR": {
-          "description": "Relógio de Xadrez é um aplicativo simples para fornecer controle de tempo para jogos de xadrez em qualquer lugar. Destinado ao uso móvel, os jogadores selecionam as configurações de controle de tempo desejadas para o jogo e, em seguida, o jogador preto toca no relógio para iniciar o cronômetro do branco. Após a vez de cada jogador, eles tocam no relógio para iniciar o do oponente, até que o jogo termine ou um dos relógios chegue a zero.",
-          "name": "Relógio de Xadrez",
-          "summary": "Cronometre jogos de xadrez em qualquer lugar."
-        },
-        "ru": {
-          "description": "Шахматные часы - это простое приложение для контроля времени в шахматных партиях за доской. Предназначено для мобильного использования, игроки выбирают настройки контроля времени, необходимые для их игры, затем игрок черными нажимает на свои часы, чтобы запустить таймер игрока белыми. После каждого хода игрок нажимает на часы, чтобы запустить таймер противника, и так до тех пор, пока игра не будет завершена или пока одни из часов не достигнут нуля.",
-          "name": "Шахматные часы",
-          "summary": "Партии в шахматы на время"
-        },
-        "sv": {
-          "description": "Schackklocka är ett enkelt program som tillhandahåller tidskontroller för schackspel över brädet. Det är avsett för mobil användning, spelarna väljer tidskontrollinställningarna som önskas för deras spel, sedan knackar svart spelare på sin klocka för att starta tiden för vit spelare. Efter varje spelares tur knackar de på klockan för att starta motståndarens tid, tills spelet är slut eller en av klockarna tickat ner till noll.",
-          "name": "Schackklocka",
-          "summary": "Ta tid för schackspel över brädet"
-        },
-        "tr": {
-          "description": "Satranç Saati, yüz yüze oynanan satranç oyunlarına zaman denetimi sağlayan basit bir uygulamadır. Mobil kullanım için tasarlanmıştır, oyuncular oyunları için istedikleri zaman denetim ayarlarını seçer, ardından siyah oyuncu beyazın zamanlayıcısını başlatmak için saate dokunur. Her oyuncunu sırası geldiğinde, rakibinin zamanlayıcısını başlatmak için saate dokunur, oyun tamamlanana dek ya da saatlerden biri sıfıra ulaşana dek sürer.",
-          "name": "Satranç Saati",
-          "summary": "Zamanlı satranç oyunu saati"
-        },
-        "uk": {
-          "description": "«Шаховий годинник» є простою програмою, яка надає засоби керування часом для ігор на звичайній шаховій дошці. Програму призначено для використання на мобільних пристроях. Гравці вибирають бажані для гри параметри керування часом, потім гравець чорними запускає годинник для гравця білими. Після кожного ходу гравець запускає таймер для свого суперника, аж доки гру не буде завершено або відлік за годинником завершиться нульовим значенням.",
-          "name": "Шаховий годинник",
-          "summary": "Відлік часу для ігор у шахи на звичайній дошці"
-        }
-      },
-      "project_license": "GPL-3.0-or-later",
-      "is_free_license": true,
-      "app_id": "com.clarahobbs.chessclock",
-      "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.clarahobbs.chessclock.png",
-      "categories": [
-        "BoardGame",
-        "Game"
-      ],
-      "main_categories": [
-        "Game"
-      ],
-      "sub_categories": [
-        "BoardGame"
-      ],
-      "developer_name": "Clara Hobbs",
-      "verification_verified": "true",
-      "verification_method": "website",
-      "verification_login_name": null,
-      "verification_login_provider": null,
-      "verification_login_is_organization": "false",
-      "verification_website": "clarahobbs.com",
-      "verification_timestamp": "1679841813",
-      "runtime": "org.gnome.Platform/x86_64/45",
-      "trending": 15.699817413083313,
-      "installs_last_month": 199,
-      "added_at": 1673595208
-    },
-    {
       "name": "Slack",
       "keywords": null,
       "summary": "Business communication",
@@ -13708,7 +13587,7 @@
       "summary": "Play your music elegantly",
       "description": "Gapless (AKA: G4Music) is a light weight music player written in GTK4, focuses on large music collection.\n      Features\n      \n        Supports most music file types, Samba and any other remote protocols (depends on GIO and GStreamer).\n        Fast loading and parsing thousands of music files in very few seconds, monitor local changes.\n        Low memory usage for large music collection with album covers (embedded and external), no thumbnail caches to store.\n        Group and sorts by album/artist/title, shuffle list, full-text searching.\n        Fluent adaptive user interface for different screen (Desktop, Tablet, Mobile).\n        Gaussian blurred cover as background, follows GNOME light/dark mode.\n        Supports creating and editing playlists, drag cover to change order or add to another playlist.\n        Supports drag and drop with other apps.\n        Supports audio peaks visualizer.\n        Supports gapless playback.\n        Supports normalizing volume with ReplayGain.\n        Supports specified audio sink.\n        Supports MPRIS control.\n      \n    ",
       "id": "com_github_neithern_g4music",
-      "updated_at": 1730000469,
+      "updated_at": 1731220112,
       "arches": [
         "aarch64",
         "x86_64"
@@ -13726,7 +13605,7 @@
           "summary": "Přehrávejte hudbu elegantně"
         },
         "de": {
-          "description": "Gapless (alias »G4Music«) ist eine leichtgewichtige Musikwiedergabe, geschrieben in GTK, die sich auf große Musiksammlungen konzentriert.\n      Funktionen\n      \n        Unterstützt die meisten Musikdateitypen, Samba und alle anderen Fernzugriffsprotokolle (abhängig von GIO und GStreamer).\n        Schnelles Laden und Verarbeiten von Tausenden von Musikdateien in wenigen Sekunden, Überwachen von lokalen Änderungen.\n        Geringer Speicherbedarf für große Musiksammlungen mit Albumbildern (eingebettet und extern), kein Zwischenspeichern von Vorschaubildern.\n        Gruppieren und sortieren nach Album/Interpret/Titel, Liste durchmischen, Volltextsuche.\n        Geschmeidige adaptive Benutzeroberfläche für unterschiedliche Bildschirme (Desktop, Tablet, mobiles Gerät).\n        Gauss-weichgezeichnete Albumbilder als Hintergrund, folgt dem hellen bzw. dunklen GNOME-Modus.\n        Unterstützt das Erstellen und Bearbeiten von Wiedergabelisten; ziehen Sie das Albumbild, um die Reihenfolge zu ändern oder zu einer anderen Wiedergabeliste hinzuzufügen.\n        Unterstützt Ziehen und Ablegen mit anderen Anwendungen.\n        Unterstützt die Visualisierung von Audiospitzenpegeln.\n        Unterstützt lückenlose Wiedergabe.\n        Unterstützt die Normalisierung der Lautstärke durch ReplayGain.\n        Unterstützt angegebenen Audio-Ausgang.\n        Unterstützt MPRIS-Steuerung.\n      \n    ",
+          "description": "Gapless (alias »G4Music«) ist eine leichtgewichtige Musikwiedergabe, geschrieben in GTK, die sich auf große Musiksammlungen konzentriert.\n      Funktionen\n      \n        Unterstützt die meisten Musikdateitypen, Samba und alle anderen Fernzugriffsprotokolle (abhängig von GIO und GStreamer).\n        Schnelles Laden und Verarbeiten von Tausenden von Musikdateien in wenigen Sekunden, Überwachen von lokalen Änderungen.\n        Geringer Speicherbedarf für große Musiksammlungen mit Albumbildern (eingebettet und extern), kein Zwischenspeichern von Vorschaubildern.\n        Gruppieren und sortieren nach Album/Interpret/Titel, Liste durchmischen, Volltextsuche.\n        Geschmeidige adaptive Benutzeroberfläche für unterschiedliche Bildschirme (Desktop, Tablet, mobiles Gerät).\n        Gauß-weichgezeichnete Albumbilder als Hintergrund, folgt dem hellen bzw. dunklen GNOME-Modus.\n        Unterstützt das Erstellen und Bearbeiten von Wiedergabelisten; ziehen Sie das Albumbild, um die Reihenfolge zu ändern oder zu einer anderen Wiedergabeliste hinzuzufügen.\n        Unterstützt Ziehen und Ablegen mit anderen Anwendungen.\n        Unterstützt die Visualisierung von Audiospitzenpegeln.\n        Unterstützt lückenlose Wiedergabe.\n        Unterstützt die Normalisierung der Lautstärke durch ReplayGain.\n        Unterstützt angegebenen Audio-Ausgang.\n        Unterstützt MPRIS-Steuerung.\n      \n    ",
           "name": "Gapless",
           "summary": "Geben Sie Ihre Musik auf elegante Weise wieder"
         },
@@ -13745,8 +13624,13 @@
           "name": "Gapless",
           "summary": "לנגן את המוזיקה שלך באלגנטיות"
         },
+        "nl": {
+          "description": "Gapless (AKA: G4Music) is een lichte muziekspeler, gemaakt in GTK4, gericht op grote muziekverzamelingen.\n      Functies\n      \n        Ondersteunt de meeste muziekbestandstypes, Samba en andere netwerkprotocollen (afhankelijk van GIO en GStreamer).\n        Laadt snel en kan duizenden muziekbestanden verwerken in luttele seconden, controleert op lokale wijzigingen.\n        Heeft een laag geheugengebruik voor grote muziekverzamelingen met albumhoezen (ingebed en extern), zonder miniatuurcaches bij te houden.\n        Kan groeperen en sorteren op album/artiest/titel, willekeurig afspelen en zoeken in de volledige tekst.\n        Heeft een vlotte, adaptieve gebruikersinterface voor verschillende schermgroottes (desktop, tablet, mobiel).\n        Heeft een gaussiaans vervaagde hoes als achtergrond, volgt de lichte/donkere modus van GNOME.\n        Ondersteunt het aanmaken en bewerken van afspeellijsten, versleep de hoes om de volgorde te wijzigen of aan een andere afspeellijst toe te voegen.\n        Ondersteunt inslepen uit andere toepassingen.\n        Ondersteunt visualisatie van het piekvolume.\n        Ondersteunt ononderbroken afspelen.\n        Ondersteunt ReplayGain om het volume te normaliseren.\n        Ondersteunt de opgegeven audiosink.\n        Ondersteunt MPRIS-besturing.\n      \n    ",
+          "name": "Gapless",
+          "summary": "Speel uw muziek op elegante wijze af"
+        },
         "oc": {
-          "description": "Gapless (tanben conegut coma G4Music) es un lector de musica leugièr escrich en GTK4, se concentra sus las grandas colleccions musicalas.\n      Foncionalitats\n      \n        Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin autre protocòl a distància que siá (depend de GIO e GStreamer).\n        Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas segondas, susvelhança dels cambiaments locals.\n        Utilizacion de memòria bassa per una granda colleccion de musica amb de coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas d’emmagazinar.\n        Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte complèt.\n        Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, tauleta, mobil).\n        Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur GNOME.\n        Permet d’afichar lo nivèl àudio de poncha.\n        Pren en carga la lectura sens interrupcion.\n        Compatible amb la normalizacion del volum amb ReplayGain.\n        Compatible amb los contraròtles MPRIS.\n      \n    ",
+          "description": "Gapless (tanben conegut coma G4Music) es un lector de musica leugièr escrich en GTK4, se concentra sus las grandas colleccions musicalas.\n      Foncionalitats\n      \n        Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin autre protocòl a distància que siá (depend de GIO e GStreamer).\n        Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas segondas, susvelhança dels cambiaments locals.\n        Utilizacion de memòria bassa per una granda colleccion de musica amb de coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas d’emmagazinar.\n        Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte complèt.\n        Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, tauleta, mobil).\n        Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur GNOME.\n        Permet d’afichar lo nivèl àudio de poncha.\n        Pren en carga la lectura sens interrupcion.\n        Compatible amb la normalizacion del volum amb ReplayGain.\n        Pren en carga un receptors àudio especificat.\n        Compatible amb los contraròtles MPRIS.\n      \n    ",
           "name": "Gapless",
           "summary": "Legissètz vòstra music amb elegància"
         },
@@ -13783,7 +13667,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.neithern.g4music",
-      "icon": "https://dl.flathub.org/media/com/github/neithern.g4music/334f07346d960480d63aecdd9666ed6c/icons/128x128/com.github.neithern.g4music.png",
+      "icon": "https://dl.flathub.org/media/com/github/neithern.g4music/ccd5bada236f1776d61871eb288dd328/icons/128x128/com.github.neithern.g4music.png",
       "categories": [
         "Music",
         "Audio",
@@ -23361,10 +23245,242 @@
       "trending": 13.360737179899573,
       "installs_last_month": 202,
       "added_at": 1714895599
+    },
+    {
+      "name": "Tali",
+      "keywords": [
+        "yahtzee"
+      ],
+      "summary": "Roll dice and score points",
+      "description": "\n      A variation on poker with dice and less money, this game is a family classic.\n      Throw the dice three times in a row, holding back the ones you like, in order\n      to make the best possible hand. You can also play a lesser-known variant with\n      colored dice.\n    \n      \n      Play between one and five opponents at three difficulty levels.\n    \n    ",
+      "id": "org_gnome_Tali",
+      "updated_at": 1715580992,
+      "arches": [
+        "aarch64",
+        "x86_64"
+      ],
+      "type": "desktop-application",
+      "translations": {
+        "be": {
+          "description": "Варыяцыя покера з касцямі і меншай колькасцю грошай, класічная сямейная гульня. Кідайце косці тры разы запар, пакідаючы тыя, што вам падабаюцца, з мэтай набраць найлепшы збор. Таксама паспрабуйце менш распаўсюджаны варыянт з каляровымі касцямі.\n      Гуляйце з адным ці пяццю праціўнікамі на трох узроўнях цяжкасці.\n    ",
+          "name": "Tali",
+          "summary": "Кідай косці і набірай ачкі"
+        },
+        "bg": {
+          "description": "Игра за цялото семейство — играе се без пари, а прилича на покер. Хвърлете заровете последователно, до три пъти, като задържате или не колкото решите от тях. Целта е да направите най-добрата комбинация. Може да играете и вариант с цветни зарове.\n      Игра с един до пет опоненти от три различни трудности.\n    ",
+          "name": "Генерал",
+          "summary": "Хвърлете заровете и отбелязвайте точки"
+        },
+        "ca": {
+          "description": "Una variant del pòquer amb daus i menys diners, és un joc clàssic de família. Llenceu el dau tres vegades seguides, conservant els que vulgueu, per tal de fer la millor mà possible. També es pot jugar una variant menys coneguda amb daus de colors.\n      Jugueu entre un i cinc oponents amb tres nivells de dificultat.\n    ",
+          "name": "Tali",
+          "summary": "Tireu els daus i aconseguiu punts"
+        },
+        "cs": {
+          "description": "Variace na poker, akorát s kostkami a bez peněz v podobě klasické rodinné hry. Házíte kostkami třikrát po sobě, libovolné kostky můžete vrátit mezi vrhané a snažíte se získat co nejlepší „karty“. Můžete hrát také méně známou variantu s barevnými kostkami.\n      Hrajte s jedním až pěti protivníky ve třech úrovních obtížnosti.\n    ",
+          "name": "Tali",
+          "summary": "Vrhněte kostky a získejte za to body"
+        },
+        "da": {
+          "description": "En variant af poker med terninger og færre penge. Dette spil er en familieklassiker. Kast terningerne tre gange i træk, idet du holder dem tilbage du vil beholde, for at få den bedst mulige hånd. Du kan også spille en mindre kendt variant med farvede terninger.\n      Spil med fra en til fem modstandere på tre sværhedsgrader.\n    ",
+          "name": "Yatzy",
+          "summary": "Kast terninger og scor point"
+        },
+        "de": {
+          "description": "Eine Variante des Poker mit Würfeln und weniger Geld. Würfeln Sie drei Mal hintereinander und behalten Sie die Würfel, die Ihnen zusagen, um die besten Zahlen zu behalten. Sie können ebenfalls eine weniger bekannte Variante mit farbigen Würfeln spielen.\n      Spielen Sie gegen bis zu fünf Gegner auf drei unterschiedlichen Schwierigkeitsstufen.\n    ",
+          "name": "Tali",
+          "summary": "Rollen Sie die Würfel und erzielen Sie Punkte"
+        },
+        "el": {
+          "description": "Μια παραλλαγή του πόκερ με ζάρια και λιγότερα χρήματα, αυτό το παιχνίδι είναι κλασικό οικογενειακό. Ρίξτε τη ζαριά τρεις φορές στη σειρά, κρατώντας αυτές που θέλετε, για να κάνετε τις καλύτερες δυνατές. Μπορείτε επίσης να παίξετε μια λιγότερο γνωστή παραλλαγή με χρωματιστά ζάρια.\n      Παίξτε μεταξύ ενός και πέντε αντιπάλων σε τρία επίπεδα δυσκολίας.\n    ",
+          "name": "Τάλι",
+          "summary": "Ρίξτε τα ζάρια και κερδίστε πόντους"
+        },
+        "en-GB": {
+          "description": "A variation on poker with dice and less money, this game is a family classic. Throw the dice three times in a row, holding back the ones you like, in order to make the best possible hand. You can also play a lesser-known variant with coloured dice.\n      Play between one and five opponents at three difficulty levels.\n    ",
+          "name": "Tali",
+          "summary": "Roll dice and score points"
+        },
+        "es": {
+          "description": "Una variante del póker con dados y menos dinero, este juego es un clásico familia. Lance los dados tres veces y conserve los que quiere para conseguir la mejor mano posible. También puede jugar una variante menos conocida, con dados de colores.\n      Juegue contra 1-5 oponentes y en tres niveles de dificultad.\n    ",
+          "name": "Tali",
+          "summary": "Tirar el dado y acumular puntos"
+        },
+        "fa": {
+          "description": "گونه‌ای از پوکر با تاس و با پول کمتر، این بازی، یک بازی کلاسیک خانوادگی است. یک تاس را سه بار پشت سر هم بیاندازید، آنهایی که دوست دارید را نگه دارید، تا اینکه بهترین دست ممکن را داشته باشید. شما همچنین می‌توانید یک گونه کمتر شناخته شده، با تاس رنگی را بازی کنید.\n      بین یک تا پنج حریف و در سه سطح مختلف بازی کنید.\n    ",
+          "name": "تالی",
+          "summary": "تاس بندازید و امتیاز بگیرید"
+        },
+        "fi": {
+          "description": "Muunnelma pokerista nopilla ja vähemmällä rahalla. Heitä noppaa kolme kertaa putkeen, pidä haluamasi nopat, yritä tehdä paras mahdollinen käsi. Voit pelata myös vähemmän tunnettua muunnelmaa väritetyillä nopilla.\n      Pelaa yhdestä viiteen vastustajaa vastaan kolmella eri vaikeustasolla.\n    ",
+          "name": "Tali",
+          "summary": "Heitä noppaa ja ansaitse pisteitä"
+        },
+        "fr": {
+          "description": "Un genre de poker avec des dés et moins d’argent, ce jeu est un classique familial. Lancez les dés trois fois d’affilée, en conservant ceux qui vous plaisent, pour constituer la meilleure main possible. Vous pouvez aussi jouer à une variante moins connue avec des dés colorés.\n      Vous pouvez jouer contre un à cinq adversaires, avec trois niveaux de difficulté.\n    ",
+          "name": "Tali",
+          "summary": "Lancez les dés et récoltez des points"
+        },
+        "he": {
+          "description": "עיבוד מחודש על פוקר עם קוביות ועם פחות כסף, המשחק הזה הוא קלסיקה משפחתית. עליך להטיל את הקוביות שלוש פעמים ברצף ולשמור את ההטלות המועדפות עליך כדי לייצור את היד הטובה ביותר. ניתן לשחק בגרסה הפחות מוכרת עם קוביות בצבעים.\n      אפשר לשחק משחקן בודד ועד חמישה בשלוש דרגות קושי.\n    ",
+          "name": "טאלי",
+          "summary": "מטילים קוביות וזוכים בנקודות"
+        },
+        "hr": {
+          "description": "Varijanta pokera s kockama i manje novaca, ova igra je obiteljski klasik. Bacajte kocku tri puta za redom, zadržavajući kocku koja vam najviše odgovara kako bi postigli najbolji mogući rezultat. Možete isto tako igrati i manje poznatu varijantu s obojenim kockama.\n      Igrajte protiv dva do pet protivnika na tri razine težine.\n    ",
+          "name": "Jamb",
+          "summary": "Bacajte kocke i sakupljajte bodove"
+        },
+        "hu": {
+          "description": "A póker kockákkal és kevesebb pénzzel játszható változata, igazi családi klasszikus. Dobjon kockával egymás után háromszor, és a legjobb leosztás eléréséhez tartsa vissza, amelyiket kedveli. Játszhat egy kevésbé ismert változatot is színes kockákkal.\n      Játsszon egy és öt közti számú ellenféllel, három nehézségi szinten.\n    ",
+          "name": "Tali",
+          "summary": "Dobjon a kockával és szerezzen pontokat"
+        },
+        "id": {
+          "description": "Suatu variasi dari poker dengan dadu dan lebih sedikit uang, permainan ini adalah klasik untuk keluarga. Lempar dadu tiga kali berturut-turut, pertahankan yang Anda sukai, untuk membuat pegangan yang paling baik. Anda juga dapat memainkan varian yang kurang dikenal dengan dadu berwarna.\n      Bermainlah melawan satu sampai lima lawan pada tiga tingkat kesulitan.\n    ",
+          "name": "Tali",
+          "summary": "Lempar dadu dan dapatkan nilai"
+        },
+        "it": {
+          "description": "Una variante del poker con dadi e meno soldi, un classico gioco per famiglie. Lancia i dadi per tre volte e tieni quelli che ti piacciono in modo da avere la mano migliore. Puoi anche giocare a una variante meno nota con dadi colorati.\n      Gioca contro uno o cinque avversari su tre diversi livelli di difficoltà.\n    ",
+          "name": "Tali",
+          "summary": "Lancia i dadi e fai punti"
+        },
+        "ko": {
+          "description": "포커의 변종. 주사위를 사용하고 포커보다 적은 돈을 사용합니다. 이 게임은 아주 전통적인 게임입니다. 주사위를 세 번 연속으로 던져서 그 중에 마음에 드는 패를 선택합니다. 색깔 있는 주사위로 덜 알려진 변형 게임을 플레이할 수도 있습니다.\n      세 가지 종류의 난이도로 하나에서 다섯을 상대로 플레이합니다.\n    ",
+          "name": "탈리",
+          "summary": "주사위를 굴려 점수를 얻으세요"
+        },
+        "lt": {
+          "description": "Pokerio variantas su kauliukais ir mažiau pinigų, tai yra klasikinis šeimos žaidimas. Meskite kauliuką tris kartus iš eilės, pasilikdamas mėgiamus, siekiant pasidaryti geriausią įmanomą ranką. Taip pat galite žaisti mažiau žinomą spalvotų kauliukų žaidimą.\n      Žaiskite su nuo vieno iki penkių priešininkų trim skirtingais lygiais.\n    ",
+          "name": "Tali",
+          "summary": "Ridenkite kauliuką ir rinkite taškus"
+        },
+        "nb": {
+          "description": "En variasjon av poker med terninger og mindre penger. Dette spillet er en familieklassiker. Kast terningene tre ganger på rad, og ta vare på de du ønsker å beholde for å få best mulig resultat. Du kan også spille en mindre kjent variant med farger på terningene.\n      Spill mot en til fem motstandere på tre vanskelighetsnivåer.\n    ",
+          "name": "Tali",
+          "summary": "Trill terningene og få poeng"
+        },
+        "nl": {
+          "description": "Dit spel is een familieklassieker: een variatie op poker met dobbelstenen en minder geld. Gooi de dobbelstenen drie keer achter elkaar, waarna u de dobbelstenen pakt die u goed vindt, om de best mogelijke hand te krijgen. U kunt ook een minder bekende variant spelen met gekleurde dobbelstenen.\n      Speel tegen een tot vijf tegenstanders op drie moeilijkheidsniveaus.\n    ",
+          "name": "Tali",
+          "summary": "Rol dobbelstenen en scoor punten"
+        },
+        "oc": {
+          "description": "Un genre de poker amb de dats e mens d'argent, aqueste jòc es un classic familial. Getatz los dats tres còps de suita, en conservant los que vos agradan, per constituir la melhora man possibla. Podètz tanben jogar a una varianta mens coneguda amb des dats colorats.\n      Podètz jogar contra un a cinc adversaris, amb tres nivèls de dificultat.\n    ",
+          "name": "Tali",
+          "summary": "Getatz los dats e recoltatz de punts"
+        },
+        "pl": {
+          "description": "Klasyczna gra rodzinna, rodzaj pokera z kośćmi i mniejszymi pieniędzmi. Należy rzucić kośćmi trzy razy z rzędu, zatrzymując wybrane rzuty, aby mieć jak najlepsze rozdanie. Można także zagrać w mniej znaną odmianę z kolorowymi kośćmi.\n      Można grać z od jednego do pięciu przeciwników na trzech poziomach trudności.\n    ",
+          "name": "Kości",
+          "summary": "Rzucanie kośćmi, aby zdobywać punkty"
+        },
+        "pt": {
+          "description": "Sendo uma variante do poker com dados e menos dinheiro, este jogo é um clássico familiar. Lance os dados três vezes seguidas, retendo aqueles que lhe agradam, de forma a conseguir constituir a melhor mão possível. Pode também jogar uma variante menos conhecida com dados coloridos.\n      Jogue com entre um a cinco adversários com três níveis de dificuldade.\n    ",
+          "name": "Tali",
+          "summary": "Atire os dados e ganhe pontos"
+        },
+        "pt-BR": {
+          "description": "Uma variação de pôquer com dados e menos dinheiro, este jogo é um clássico da família. Jogue os dados três vezes em uma rodada, guardando o que você quiser, de forma a fazer a melhor mão possível. Você também pode jogar uma variante menos conhecida com dados coloridos.\n      Jogue com entre um e cinco oponentes em três níveis de dificuldade.\n    ",
+          "name": "Tali",
+          "summary": "Lançar dados e marcar pontos"
+        },
+        "ro": {
+          "description": "O versiune de poker cu zaruri și bani puțini, acest joc este clasic pentru familii. Aruncați zarurile de trei ori la rând, păstrând rezultatele care vă plac, pentru a avea cel mai bun rezultat. Puteți juca, de asemenea, o variantă mai puțin cunoscută cu zaruri colorate.\n      Joacă cu între unul și cinci adversari la trei nivele de dificultate.\n    ",
+          "name": "Tali",
+          "summary": "Aruncă zarurile și câștigă puncte"
+        },
+        "ru": {
+          "description": "Вариация игры в покер с костями. Выкидываете кости три раз подряд, откладывая после броска выгодные цифры. Вы также можете сыграть в менее известный вариант с цветными костями.\n      Играйте с оппонентами (от одного до пяти) на трёх уровнях сложности.\n    ",
+          "name": "Тали",
+          "summary": "Бросайте кости и набирайте очки"
+        },
+        "sv": {
+          "description": "En variant av poker med tärning och mindre pengar, det här spelet är en familjeklassiker. Kasta tärningarna tre gånger, behåll de du vill ha kvar efter varje gång och skapa bästa möjliga hand. Du kan också spela en mindre känd variant med färgade tärningar.\n      Spela mot en till fem motståndare på tre svårighetsnivåer.\n    ",
+          "name": "Tali",
+          "summary": "Rulla tärningar och få poäng"
+        },
+        "tr": {
+          "description": "Zar ve daha az parayla bir poker çeşidi, bu oyun bir aile klasiğidir. Zarı üç kez üst üste atın, mümkün olan en iyi eli yapmak için istediklerinizi tutun. Renkli zarlı daha az bilinen bir çeşidini de oynayabilirsiniz.\n      Birle beş arasında rakiple üç zorluk düzeyinde oynayın.\n    ",
+          "name": "Tali",
+          "summary": "Zar atın ve puan kazanın"
+        },
+        "uk": {
+          "description": "Варіант покеру з костями та з грошима, ця гра — класично для сім'ї. Кидайте кості три рази в ряд, забравши найкращі, щоб набрати найкращу руку. Можете грати менш відомий варіант з кольоровими костями.\n      Грайте проти від одного до п'яти суперників, у три різні рівні складності.\n    ",
+          "name": "Кістяний покер",
+          "summary": "Киньте кубики і заробіть бали"
+        },
+        "ar": {
+          "name": "تالي"
+        },
+        "az": {
+          "name": "Tali"
+        },
+        "bn": {
+          "name": "টালী"
+        },
+        "eo": {
+          "name": "Talio"
+        },
+        "et": {
+          "name": "Tali"
+        },
+        "ga": {
+          "name": "Tali"
+        },
+        "hi": {
+          "name": "ताली"
+        },
+        "ja": {
+          "name": "Tali"
+        },
+        "pa": {
+          "name": "ਟੇਲੀ"
+        },
+        "si": {
+          "name": "දාදුකැට"
+        },
+        "sq": {
+          "name": "Tali"
+        },
+        "ta": {
+          "name": "தலி"
+        },
+        "vi": {
+          "name": "Tali"
+        }
+      },
+      "project_license": "GPL-2.0+",
+      "is_free_license": true,
+      "app_id": "org.gnome.Tali",
+      "icon": "https://dl.flathub.org/media/org/gnome/Tali/feb806c986db1360551e4ede8d06bcb5/icons/128x128/org.gnome.Tali.png",
+      "categories": [
+        "Game",
+        "CardGame"
+      ],
+      "main_categories": [
+        "Game"
+      ],
+      "sub_categories": [
+        "CardGame"
+      ],
+      "developer_name": "The GNOME Project",
+      "verification_verified": false,
+      "verification_method": null,
+      "verification_login_name": null,
+      "verification_login_provider": null,
+      "verification_login_is_organization": null,
+      "verification_website": null,
+      "verification_timestamp": null,
+      "runtime": "org.gnome.Platform/x86_64/46",
+      "trending": 13.345019286825408,
+      "installs_last_month": 185,
+      "added_at": 1556260826
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
