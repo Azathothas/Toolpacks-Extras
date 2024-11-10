@@ -1500,6 +1500,7 @@ io.gitlab.elescoute.password
 io.gitlab.elescoute.spacelaunch
 io.gitlab.floodlight.Presenter
 io.gitlab.gregorni.Letterpress
+io.gitlab.guillermop.Counters
 io.gitlab.gwendalj.package-transporter
 io.gitlab.jazztickets.choria
 io.gitlab.jazztickets.emptyclip

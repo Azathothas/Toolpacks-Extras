@@ -5360,7 +5360,7 @@ Descr: Powerful Tox chat client that follows the Tox design guidelines.
 -----------------------------
 NAME: Newelle
 APP_ID: io.github.qwersyk.Newelle.desktop
-Descr: Chat bot that controls your computer
+Descr: Your AI-Powered System Assistant
 -----------------------------
 NAME: QLogExplorer
 APP_ID: io.github.rafaelfassi.QLogExplorer
@@ -5817,6 +5817,10 @@ Descr: Rocket launches tracker
 NAME: Floodlight Presenter
 APP_ID: io.gitlab.floodlight.Presenter
 Descr: Free, libre, open source presentation and lyrics program
+-----------------------------
+NAME: Counters
+APP_ID: io.gitlab.guillermop.Counters
+Descr: Keep track of anything
 -----------------------------
 NAME: Package Transporter
 APP_ID: io.gitlab.gwendalj.package-transporter.desktop
