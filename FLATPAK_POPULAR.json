@@ -3315,7 +3315,7 @@
       "summary": "Stay focused, browse faster",
       "description": "Zen is the best way to browse the web. Beautifully designed, privacy-focused, and packed with features. We care about your experience, not your data.\n      \n        Split view\n        Web sidebar\n        Tab groups\n        Customizable interface\n        Vertical tabs\n        And more…\n      \n    ",
       "id": "io_github_zen_browser_zen",
-      "updated_at": 1730432696,
+      "updated_at": 1731235416,
       "arches": [
         "x86_64"
       ],
@@ -3324,7 +3324,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "io.github.zen_browser.zen",
-      "icon": "https://dl.flathub.org/media/io/github/zen_browser.zen/b40900d45bc99d319cfa11c14b2e1bd1/icons/128x128/io.github.zen_browser.zen.png",
+      "icon": "https://dl.flathub.org/media/io/github/zen_browser.zen/889a8307c2b05600f9ec7975e8581e9f/icons/128x128/io.github.zen_browser.zen.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -13376,7 +13376,7 @@
       "summary": "A free, open source, and cross-platform media player",
       "description": "\n   Mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety\nof video file formats, audio and video codecs, and subtitle types. Special\ninput URL types are available to read input from a variety of sources other\nthan disk files. Depending on platform, a variety of different video and audio\noutput methods are supported.\n  \n      Features:\n      \n        Drag and drop playlist\n        Loading external configuration files\n        Flatpak: mpv-mpris support - multimedia keys play/pause support\n        Flatpak: mpv.conf: Screenshots (shortcut key 's') are saved in ~/Pictures/mpv directory\n        Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv\n        Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts\n        Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME while playing media\n        Flatpak: mpv scripts needs write access. Use flatseal app to set home or host write permission\n      \n    ",
       "id": "io_mpv_Mpv",
-      "updated_at": 1729956028,
+      "updated_at": 1731238161,
       "arches": [
         "aarch64",
         "x86_64"
@@ -19354,7 +19354,7 @@
       "summary": "Network protocol analyzer",
       "description": "\n\tWireshark allows you to examine protocol data stored in files.\n\tIt supports dozens of protocol capture file formats and understands\n\tmore than a thousand protocols.\n    \n      \n\tIt has many powerful features including a rich display filter language\n\tand the ability to reassemble multiple protocol packets in order to,\n\tfor example, view a complete TCP stream, save the contents of a file\n\twhich was transferred over HTTP or CIFS, or play back an RTP audio\n\tstream.\n    \n      \n\tNOTE: This version of Wireshark does not support capturing data.\n    \n    ",
       "id": "org_wireshark_Wireshark",
-      "updated_at": 1729588727,
+      "updated_at": 1731239168,
       "arches": [
         "aarch64",
         "x86_64"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

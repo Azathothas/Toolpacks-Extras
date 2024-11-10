@@ -6163,10 +6163,6 @@ APP_ID: io.sourceforge.trigger_rally.TriggerRally
 Descr: Fast-paced single-player rally racing game
 -----------------------------
 NAME: Zaz
-APP_ID: trigger-rally.desktop
-Descr: Puzzle game where the player has to arrange balls in triplets.
------------------------------
-NAME: Zaz
 APP_ID: io.sourceforge.zaz
 Descr: Puzzle game where the player has to arrange balls in triplets.
 -----------------------------
@@ -7428,11 +7424,7 @@ Descr: Fully validating Bitcoin peer-to-peer network node, wallet and GUI
 -----------------------------
 NAME: Bitfighter
 APP_ID: org.bitfighter.Bitfighter
-Descr: multiplayer vector graphics space game
------------------------------
-NAME: Blackcoin More
-APP_ID: bitfighter.desktop
-Descr: True Decentralised Digital Currency
+Descr: Multiplayer vector graphics space game
 -----------------------------
 NAME: Blackcoin More
 APP_ID: org.blackcoin.blackcoin-more
@@ -8245,10 +8237,6 @@ Descr: The advanced drum machine
 NAME: Tennix
 APP_ID: org.icculus.tennix
 Descr: Multiplayer Tennis Game
------------------------------
-NAME: Seahorse Adventures
-APP_ID: tennix.desktop
-Descr: Help barbie the seahorse float on bubbles to the moon
 -----------------------------
 NAME: Seahorse Adventures
 APP_ID: org.imitationpickles.barbie
