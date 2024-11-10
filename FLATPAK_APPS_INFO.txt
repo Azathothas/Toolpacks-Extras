@@ -2011,10 +2011,6 @@ APP_ID: com.js8call.JS8Call
 Descr: Software using the JS8 Digital Mode providing weak signal keyboard to keyboard messaging to Amateur Radio Operators
 -----------------------------
 NAME: Forecast
-APP_ID: js8call.desktop
-Descr: View weather predictions
------------------------------
-NAME: Forecast
 APP_ID: com.jwestall.Forecast
 Descr: View weather predictions
 -----------------------------
@@ -2252,6 +2248,10 @@ Descr: Control your network monitoring
 -----------------------------
 NAME: NetXMS 5.0
 APP_ID: com.netxms.NetXMSClient50
+Descr: Control your network monitoring
+-----------------------------
+NAME: NetXMS 5.1
+APP_ID: com.netxms.NetXMSClient51
 Descr: Control your network monitoring
 -----------------------------
 NAME: Nextcloud Desktop
@@ -3482,6 +3482,10 @@ NAME: Wordbook
 APP_ID: dev.mufeed.Wordbook
 Descr: Lookup definitions for any English term
 -----------------------------
+NAME: neovide
+APP_ID: dev.neovide.neovide
+Descr: Advanced graphical interface for Neovim
+-----------------------------
 NAME: Tureng
 APP_ID: dev.omerkurt.Tureng
 Descr: Tureng dictionary
@@ -4544,7 +4548,7 @@ Descr: GTK+ frontend for mpv
 -----------------------------
 NAME: MPRIS Timer
 APP_ID: io.github.efogdev.mpris-timer
-Descr: Timer app with seamless GNOME integration
+Descr: Native-feeling timers for GNOME
 -----------------------------
 NAME: Weylus Community Edition
 APP_ID: io.github.electronstudio.WeylusCommunityEdition

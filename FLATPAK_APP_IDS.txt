@@ -895,6 +895,7 @@ dev.mariinkys.Oboete
 dev.mariinkys.StarryDex
 dev.mrquantumoff.mcmodpackmanager
 dev.mufeed.Wordbook
+dev.neovide.neovide
 dev.omerkurt.Tureng
 dev.opengoal.OpenGOAL
 dev.overlayed.Overlayed
