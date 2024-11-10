@@ -10958,10 +10958,6 @@ NAME: Chinese Addons
 APP_ID: org.fcitx.Fcitx5.Addon.ChineseAddons
 Descr: Add support for Pinyin, Table and many other Chinese related functionality to Fcitx
 -----------------------------
-NAME: McBopomofo for Fcitx 5
-APP_ID: org.fcitx.Fcitx5.Addon.McBopomofo
-Descr: A Bopomofo input method that picks phrases intelligently
------------------------------
 NAME: Mozc for Fcitx 5
 APP_ID: org.fcitx.Fcitx5.Addon.Mozc
 Descr: Japanese input method based on Mozc
