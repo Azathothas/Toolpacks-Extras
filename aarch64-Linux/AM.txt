@@ -43,6 +43,7 @@
 | ani-cli | A cli tool to browse and play anime | https://github.com/pystardust/ani-cli | https://bin.pkgforge.dev/aarch64/ani-cli | e06b48e21d81 |
 | ansi2html | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/aarch64/ansi2html | e0de17501598 |
 | ansi2txt | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/aarch64/ansi2txt | 2802657d04bf |
+| apk-static | Alpine Package Keeper (apk) | https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper | https://bin.pkgforge.dev/aarch64/apk-static | 8e9e1cc74d61 |
 | apk.sh | apk.sh makes reverse engineering Android apps easier | https://github.com/ax/apk.sh | https://bin.pkgforge.dev/aarch64/apk.sh | c92dca7d63c2 |
 | apkeep | command-line tool for downloading APK files from various sources | https://github.com/EFForg/apkeep | https://bin.pkgforge.dev/aarch64/apkeep | c7fdd34a3bdc |
 | apply | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/apply | 07822688a366 |
@@ -65,6 +66,7 @@
 | arping | A set of small useful utilities for Linux networking | https://github.com/iputils/iputils | https://bin.pkgforge.dev/aarch64/Baseutils/iputils/arping | e817d0118837 |
 | arping | A set of small useful utilities for Linux networking | https://github.com/iputils/iputils | https://bin.pkgforge.dev/aarch64/arping | cb202f7163e3 |
 | artix-flatimage.no_strip | A hybrid of Flatpak sandboxing with AppImage portability | https://github.com/ruanformigoni/flatimage | https://bin.pkgforge.dev/aarch64/artix-flatimage.no_strip | e4745cf1fcba |
+| asc2xml | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/asc2xml | 19fcbc3fafec |
 | ascii | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ascii | abaabfcb09fe |
 | ash | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ash | dd3ca32bb24e |
 | asn | ASN / RPKI validity / BGP stats / IPv4v6 / Prefix / URL / ASPath / Organization / IP reputation / IP geolocation / IP fingerprinting / Network recon / lookup API server / Web traceroute server | https://github.com/nitefood/asn | https://bin.pkgforge.dev/aarch64/asn | 0e1002e2c2e4 |
@@ -140,6 +142,7 @@
 | blueprint-flatimage.no_strip | A hybrid of Flatpak sandboxing with AppImage portability | https://github.com/ruanformigoni/flatimage | https://bin.pkgforge.dev/aarch64/blueprint-flatimage.no_strip | 31d118d766ee |
 | bluetuith | A TUI bluetooth manager for Linux. | https://github.com/darkhz/bluetuith | https://bin.pkgforge.dev/aarch64/bluetuith | 592bd43be712 |
 | boltconn | Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM | https://github.com/XOR-op/BoltConn | https://bin.pkgforge.dev/aarch64/boltconn | 0084e7eff280 |
+| bombadillo | Browser for gopher | gemini | finger | local (a users file system) | https://tildegit.org/sloum/bombadillo | https://bin.pkgforge.dev/aarch64/bombadillo | 3f5ad1bfca51 |
 | bootchartd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/bootchartd | 9b82595dfe79 |
 | bore | ngrok alternative for making tunnels to localhost | https://github.com/ekzhang/bore | https://bin.pkgforge.dev/aarch64/bore | 01cf0b658633 |
 | boringtun-cli | Userspace WireGuard® Implementation in Rust | https://github.com/cloudflare/boringtun | https://bin.pkgforge.dev/aarch64/boringtun-cli | 3cbfc15929a9 |
@@ -307,6 +310,8 @@
 | coreutils | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/coreutils | 8e22e7d98cb5 |
 | cotp | Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality. | https://github.com/replydev/cotp | https://bin.pkgforge.dev/aarch64/cotp | 301276478064 |
 | cowitness | mimic an HTTP server and a DNS server, providing complete responses | https://github.com/stolenusername/cowitness | https://bin.pkgforge.dev/aarch64/cowitness | 86ec92b47d51 |
+| cowsay | complete rewrite of cowsay in Go | https://gitlab.com/nmyk/cowsay | https://bin.pkgforge.dev/aarch64/cowsay | 737c8b95db10 |
+| cowthink | complete rewrite of cowsay in Go | https://gitlab.com/nmyk/cowsay | https://bin.pkgforge.dev/aarch64/cowthink | c8f388f93aa1 |
 | cp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cp | a7d71365e99b |
 | cp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/cp | e6e33ebd96f7 |
 | cp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cp | f040f24d9fe4 |
@@ -319,6 +324,7 @@
 | crawley | The unix-way web crawler | https://github.com/s0rg/crawley | https://bin.pkgforge.dev/aarch64/crawley | 8e6d4f88b836 |
 | crc32 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/crc32 | 048b9c7a9c31 |
 | crictl | CLI and validation tools for Kubelet Container Runtime Interface (CRI) | https://github.com/kubernetes-sigs/cri-tools | https://bin.pkgforge.dev/aarch64/crictl | 137c32339af8 |
+| crlfuzz | A fast tool to scan CRLF vulnerability written in Go | hhttps://github.com/dwisiswant0/crlfuzz | https://bin.pkgforge.dev/aarch64/crlfuzz | 4e3864bccf67 |
 | croc | Easily and securely send things from one computer to another | https://github.com/schollz/croc | https://bin.pkgforge.dev/aarch64/croc | 6e23e8fae5a6 |
 | crond | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/crond | 18d7eeb303cc |
 | cronie-crond | Standalone, Minimal HTTP Server | https://github.com/cronie-crond/cronie | https://bin.pkgforge.dev/aarch64/cronie-crond | 725a864d0704 |
@@ -417,6 +423,9 @@
 | depmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/depmod | 86e2c5e6ed89 |
 | depmod | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/aarch64/Baseutils/kmod/depmod | ec109bd93b24 |
 | deskey_to_ntlm.pl | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/deskey_to_ntlm.pl | 7747572ad446 |
+| desktop-file-edit | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/desktop-file-edit | 9386c87502b9 |
+| desktop-file-install | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/desktop-file-install | 9386c87502b9 |
+| desktop-file-validate | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/desktop-file-validate | ebbecec51813 |
 | devbox | Instant, easy, and predictable development environments | https://github.com/jetpack-io/devbox | https://bin.pkgforge.dev/aarch64/devbox | 54e531e62d12 |
 | devlink | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/devlink | 7d2ba4b76f99 |
 | devmem | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/devmem | 1bf2ea6ebe8e |
@@ -471,6 +480,7 @@
 | domainname | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/domainname | 2b0ddc2b0d1a |
 | doomxss | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/doomxss | cd0af19f6a05 |
 | dos2unix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dos2unix | 70c08a80d2c8 |
+| dos2unix | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/dos2unix | 91769dd7777a |
 | dotenv-linter | ⚡️Lightning-fast linter for .env files. Written in Rust 🦀 | https://github.com/dotenv-linter/dotenv-linter | https://bin.pkgforge.dev/aarch64/dotenv-linter | 8740e6ef8b60 |
 | dperf | Drive performance measurement tool | https://github.com/minio/dperf | https://bin.pkgforge.dev/aarch64/dperf | 531737995838 |
 | dpkg | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dpkg | 48840943725e |
@@ -762,8 +772,10 @@
 | gensquashfs | New Set of Tools for working with SquashFS Images | https://github.com/AgentD/squashfs-tools-ng | https://bin.pkgforge.dev/aarch64/Baseutils/squashfs-tools-ng/gensquashfs | 03f3840eff08 |
 | gentoo-musl.no_strip | Portable Ephemeral Gentoo Linux Docker Image (DockerC) | https://github.com/gentoo/gentoo-docker-images | https://bin.pkgforge.dev/aarch64/gentoo-musl.no_strip | a853cc817861 |
 | gentoo.no_strip | Portable Ephemeral Gentoo Linux Docker Image (DockerC) | https://github.com/gentoo/gentoo-docker-images | https://bin.pkgforge.dev/aarch64/gentoo.no_strip | 96bca38c0250 |
+| geodns | Network tools that run from multiple geographic locations using the GeoNet API. | https://gitlab.com/shodan-public/geonet-rs | https://bin.pkgforge.dev/aarch64/geodns | b2ad744be55a |
 | geoip | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/geoip | 42f6bfe87099 |
 | geoip6 | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/geoip6 | 4245b24ed4e8 |
+| geoping | Network tools that run from multiple geographic locations using the GeoNet API. | https://gitlab.com/shodan-public/geonet-rs | https://bin.pkgforge.dev/aarch64/geoping | 8c18c321e060 |
 | getJS | A tool to fastly get all javascript sources/files | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/aarch64/getJS | bb78f8be5747 |
 | getfattr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/getfattr | c145e3cb2c7a |
 | getlimits | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/getlimits | null |
@@ -969,6 +981,7 @@
 | github-endpoints | Find endpoints on GitHub | https://github.com/gwen001/github-endpoints | https://bin.pkgforge.dev/aarch64/github-endpoints | 70d468aa34c4 |
 | github-regexp | Basically a regexp over a GitHub search | https://github.com/gwen001/github-regexp | https://bin.pkgforge.dev/aarch64/github-regexp | 61a29dfe2a68 |
 | github-subdomains | Find subdomains on GitHub | https://github.com/gwen001/github-subdomains | https://bin.pkgforge.dev/aarch64/github-subdomains | 6cc86525830e |
+| gitlab-cli | Official Gitlab CLI | https://docs.gitlab.com/ee/editor_extensions/gitlab_cli | https://bin.pkgforge.dev/aarch64/gitlab-cli | ab8c5c4871bb |
 | gitlab-subdomains | Find subdomains on Gitlab | https://github.com/gwen001/gitlab-subdomains | https://bin.pkgforge.dev/aarch64/gitlab-subdomains | b292c75cbf1e |
 | gitleaks | Protect and discover secrets using Gitleaks 🔑 | https://github.com/gitleaks/gitleaks | https://bin.pkgforge.dev/aarch64/gitleaks | 3e1d099c9e4b |
 | gitpod | cli for gitpod | https://github.com/gitpod-io/gitpod | https://bin.pkgforge.dev/aarch64/gitpod | d345961c2c44 |
@@ -976,6 +989,7 @@
 | gitql | 💊 A git query language | https://github.com/filhodanuvem/gitql | https://bin.pkgforge.dev/aarch64/gitql | 23bf016867ed |
 | gitui | Blazing 💥 fast terminal-ui for git written in rust 🦀 | https://github.com/extrawurst/gitui | https://bin.pkgforge.dev/aarch64/gitui | 1a8ed547aea6 |
 | gix | An idiomatic, lean, fast & safe pure Rust implementation of Git | https://github.com/Byron/gitoxide | https://bin.pkgforge.dev/aarch64/gix | 4d84c03a2cef |
+| glab | Official Gitlab CLI | https://docs.gitlab.com/ee/editor_extensions/gitlab_cli | https://bin.pkgforge.dev/aarch64/glab | ab8c5c4871bb |
 | glow | Render markdown on the CLI | https://github.com/charmbracelet/glow | https://bin.pkgforge.dev/aarch64/glow | 90c258feb356 |
 | go-appimaged.no_strip | Go implementation of AppImage Tools | https://github.com/probonopd/go-appimage | https://bin.pkgforge.dev/aarch64/go-appimaged.no_strip | a5f6c0aef41d |
 | go-appimagetool.no_strip | Go implementation of AppImage Tools | https://github.com/probonopd/go-appimage | https://bin.pkgforge.dev/aarch64/go-appimagetool.no_strip | 975970a5e428 |
@@ -1014,6 +1028,7 @@
 | grcat | GNU implementation of the Awk programming language | https://git.savannah.gnu.org/cgit/gawk.git | https://bin.pkgforge.dev/aarch64/Baseutils/gawk/grcat | 9bbc78407eb7 |
 | grep | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/grep | accfa6d9ce53 |
 | grep | Search one or more input files for lines containing a match to a specified pattern. | https://git.savannah.gnu.org/git/grep.git | https://bin.pkgforge.dev/aarch64/Baseutils/grep/grep | 741eae9cbe74 |
+| grep | Search one or more input files for lines containing a match to a specified pattern. | https://www.gnu.org/software/grep/ | https://bin.pkgforge.dev/aarch64/grep | 741eae9cbe74 |
 | grex | A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases | https://github.com/pemistahl/grex | https://bin.pkgforge.dev/aarch64/grex | 979f7d3cdfa5 |
 | gron | Make JSON greppable! | https://github.com/tomnomnom/gron | https://bin.pkgforge.dev/aarch64/gron | aa531ce3ed19 |
 | gronx-tasker | Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon | https://github.com/adhocore/gronx | https://bin.pkgforge.dev/aarch64/gronx-tasker | 1948e29f65ed |
@@ -1103,7 +1118,36 @@
 | hwclock | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hwclock | df3c98d7775e |
 | hwclock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hwclock | 1dc0613d6305 |
 | hx | 🔮 Futuristic take on hexdump, made in Rust. | https://github.com/sitkevij/hex | https://bin.pkgforge.dev/aarch64/hx | f71aaed5d258 |
+| hxaddid | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxaddid | 92f8edaa5768 |
+| hxcite | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxcite | b919d49d214f |
+| hxcite-mkbib | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxcite-mkbib | 700630f6e317 |
+| hxclean | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxclean | 3a5a377fb7e4 |
+| hxcopy | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxcopy | 76f4782716db |
+| hxcount | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxcount | f3a1a2d8ec0a |
+| hxextract | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxextract | ec0b7693145f |
+| hxincl | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxincl | f501e795a68f |
+| hxindex | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxindex | 642dd4cc3634 |
+| hxmkbib | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxmkbib | e8c0b5073073 |
+| hxmultitoc | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxmultitoc | 4a1c956f6122 |
 | hxn | ⚡ Blazing-fast tool to grab screenshots of your domain list right from terminal | https://github.com/pwnwriter/haylxon | https://bin.pkgforge.dev/aarch64/hxn | 436d68ed7130 |
+| hxname2id | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxname2id | bef5d21eef44 |
+| hxnormalize | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxnormalize | 483cb40c79ce |
+| hxnsxml | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxnsxml | 5e598cb294a3 |
+| hxnum | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxnum | efceda2bb6d5 |
+| hxpipe | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxpipe | 89833a2f3a6e |
+| hxprintlinks | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxprintlinks | a9ed8f03b907 |
+| hxprune | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxprune | 1ecb351c5579 |
+| hxref | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxref | 7d623b491b3f |
+| hxremove | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxremove | e11ee3165390 |
+| hxselect | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxselect | f93c74eef116 |
+| hxtabletrans | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxtabletrans | d55818f94113 |
+| hxtoc | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxtoc | 40d3442f07f6 |
+| hxuncdata | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxuncdata | 498418a5b455 |
+| hxunent | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxunent | 455c5df4b77d |
+| hxunpipe | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxunpipe | 9292062ebfa3 |
+| hxunxmlns | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxunxmlns | d8e1e200e4ef |
+| hxwls | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxwls | c0dec209de03 |
+| hxxmlns | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxxmlns | 412c467e317b |
 | hyperfine | A command-line benchmarking tool | https://github.com/sharkdp/hyperfine | https://bin.pkgforge.dev/aarch64/hyperfine | 29b3aacb7ae7 |
 | hypervisor-fw | cloud-hypervisors firmware in rust | https://github.com/cloud-hypervisor/rust-hypervisor-firmware | https://bin.pkgforge.dev/aarch64/hypervisor-fw | baf31c6c5e1b |
 | hysp | 📦 An independent package manager that every hacker deserves. | https://github.com/pwnwriter/hysp | https://bin.pkgforge.dev/aarch64/hysp | b4b049d6f0ec |
@@ -1215,6 +1259,7 @@
 | kak | a better code editor | https://github.com/mawww/kakoune | https://bin.pkgforge.dev/aarch64/kak | 2964f9f23082 |
 | kakoune | a better code editor | https://github.com/mawww/kakoune | https://bin.pkgforge.dev/aarch64/kakoune | 2964f9f23082 |
 | kalc | a complex numbers, 2d/3d graphing, arbitrary precision, vector/matrix, cli calculator with real-time output and support for units | https://github.com/bgkillas/kalc | https://bin.pkgforge.dev/aarch64/kalc | 568e082fa46f |
+| kalilinux.no_strip | Portable Ephemeral KaliLinux Docker Image (DockerC) | https://www.kali.org/docs/containers/official-kalilinux-docker-images/ | https://bin.pkgforge.dev/aarch64/kalilinux.no_strip | 2c69bea4ba95 |
 | kalker | calculator with math syntax that supports user-defined variables and functions, complex numbers, and estimation of derivatives and integrals | https://github.com/PaddiM8/kalker | https://bin.pkgforge.dev/aarch64/kalker | 24a2ac2003fb |
 | kanha | 🦚 A web-app pentesting suite written in rust | https://github.com/pwnwriter/kanha | https://bin.pkgforge.dev/aarch64/kanha | 323a629c7d10 |
 | katana | A next-generation crawling and spidering framework | https://github.com/projectdiscovery/katana | https://bin.pkgforge.dev/aarch64/katana | 4243f951d11a |
@@ -1286,6 +1331,8 @@
 | load_nandsim.sh | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/load_nandsim.sh | 85cc0590ac5f |
 | loadfont | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/loadfont | d24b03c76c50 |
 | loadkmap | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/loadkmap | 4e6c1dd20a6c |
+| localxpose | reverse proxy that enables you to expose your localhost to the internet. | https://localxpose.io/ | https://bin.pkgforge.dev/aarch64/localxpose | 2ff521bd2d92 |
+| loclx | reverse proxy that enables you to expose your localhost to the internet. | https://localxpose.io/ | https://bin.pkgforge.dev/aarch64/loclx | 2ff521bd2d92 |
 | logcli | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/aarch64/logcli | eb800e76824d |
 | logdy | Web based real-time log viewer | https://github.com/logdyhq/logdy-core | https://bin.pkgforge.dev/aarch64/logdy | b6ac52a3cdb3 |
 | logger | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/logger | 4fc81b633c7e |
@@ -1353,6 +1400,7 @@
 | lzmore | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzmore | 05d9d73db3a7 |
 | lzop | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lzop | e46809d3c509 |
 | mabel | A fancy BitTorrent client for the terminal. | https://github.com/smmr-software/mabel | https://bin.pkgforge.dev/aarch64/mabel | 63b3d48a71ff |
+| mac2unix | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/mac2unix | 91769dd7777a |
 | macchina | system-info-fetch | https://github.com/Macchina-CLI/macchina | https://bin.pkgforge.dev/aarch64/macchina | e2c81db8694e |
 | maddy | ✉️ Composable all-in-one mail server. | https://github.com/foxcpp/maddy | https://bin.pkgforge.dev/aarch64/maddy | 99aab7468b4c |
 | magick | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/aarch64/Baseutils/imagemagick/magick | e0cfdb53036c |
@@ -1537,10 +1585,12 @@
 | nc | TCP/IP swiss army knife (GNU-variant) | https://svn.code.sf.net/p/netcat/code/trunk/ | https://bin.pkgforge.dev/aarch64/Baseutils/netcat-gnu/nc | 1e1435ebce73 |
 | nc | TCP/IP swiss army knife (libressl-variant) | https://github.com/libressl/portable | https://bin.pkgforge.dev/aarch64/Baseutils/netcat/nc | 44b16235aa15 |
 | ncat | port scanner | https://github.com/nmap/nmap | https://bin.pkgforge.dev/aarch64/ncat | e0e048fcbb14 |
+| ncdu | disk usage analyzer | https://dev.yorhel.nl | https://bin.pkgforge.dev/aarch64/ncdu | 72d9239524fb |
 | ncgopher | A gopher and gemini client for the modern internet | https://github.com/jansc/ncgopher | https://bin.pkgforge.dev/aarch64/ncgopher | 24baa33a45bb |
 | neofetch | Updated Fork | https://github.com/hykilpikonna/hyfetch | https://bin.pkgforge.dev/aarch64/neofetch | 27c319efa0b0 |
 | nerdctl | Docker-compatible CLI for containerd, with support for Compose, Rootless, eStargz, OCIcrypt, IPFS | https://github.com/containerd/nerdctl | https://bin.pkgforge.dev/aarch64/nerdctl | 2dae030513fa |
 | netbird | Connects Devices into a single secure private WireGuard®-based mesh network with SSO/MFA and simple access controls | https://github.com/netbirdio/netbird | https://bin.pkgforge.dev/aarch64/netbird | ef45c4061a9f |
+| netcat | TCP/IP swiss army knife (GNU-variant) | https://netcat.sourceforge.net/ | https://bin.pkgforge.dev/aarch64/netcat | 44b16235aa15 |
 | netcat | TCP/IP swiss army knife (GNU-variant) | https://svn.code.sf.net/p/netcat/code/trunk/ | https://bin.pkgforge.dev/aarch64/Baseutils/netcat-gnu/netcat | 1e1435ebce73 |
 | netcat | TCP/IP swiss army knife (libressl-variant) | https://github.com/libressl/portable | https://bin.pkgforge.dev/aarch64/Baseutils/netcat/netcat | 44b16235aa15 |
 | netexec | The Network Execution (CrackMapExec) Tool | https://github.com/Pennyw0rth/NetExec | https://bin.pkgforge.dev/aarch64/netexec | a4b884eeed4b |
@@ -1564,6 +1614,7 @@
 | ngettext | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/ngettext | cb249c06f4e6 |
 | nginx | Static Nginx and njs binaries for Linux | https://github.com/jirutka/nginx-binaries | https://bin.pkgforge.dev/aarch64/nginx | 5f21f6d0174e |
 | ngocok | ngrok Collaborator Link — yet another Burp Collaborator alternative for free with ngrok. | https://github.com/dwisiswant0/ngocok | https://bin.pkgforge.dev/aarch64/ngocok | 81158c3cf7e8 |
+| ngrok | External Tunnel to Internal Assets | https://ngrok.com/ | https://bin.pkgforge.dev/aarch64/ngrok | 5951429a5487 |
 | nice | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nice | ae1add0f9d18 |
 | nice | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/nice | dc9915ae30a5 |
 | nice | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nice | 7fb17c6f4020 |
@@ -1768,6 +1819,7 @@
 | pueue | task management tool for sequential and parallel execution of long-running tasks | https://github.com/Nukesor/pueue | https://bin.pkgforge.dev/aarch64/pueue | 529259ac5a6e |
 | pueued | task management tool for sequential and parallel execution of long-running tasks | https://github.com/Nukesor/pueue | https://bin.pkgforge.dev/aarch64/pueued | c9aec6f50f62 |
 | puredns | fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries | https://github.com/d3mondev/puredns | https://bin.pkgforge.dev/aarch64/puredns | 6eb106cb7990 |
+| pv | Tool for monitoring the progress of data through a pipeline | https://www.ivarch.com/programs/pv.shtml | https://bin.pkgforge.dev/aarch64/pv | 5e2a58b87e61 |
 | pwait | Small utility to wait for a process to finish | https://github.com/diazona/pwait | https://bin.pkgforge.dev/aarch64/pwait | 09d02adef816 |
 | pwcat | GNU implementation of the Awk programming language | https://git.savannah.gnu.org/cgit/gawk.git | https://bin.pkgforge.dev/aarch64/Baseutils/gawk/pwcat | cab76806bf6a |
 | pwd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pwd | f0f3a50354b0 |
@@ -2174,6 +2226,7 @@
 | scriptreplay | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/scriptreplay | 4afb029dbaae |
 | sd | Intuitive find & replace CLI (sed alternative) | https://github.com/chmln/sd | https://bin.pkgforge.dev/aarch64/sd | 5407519e0fa2 |
 | sdb | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/aarch64/Baseutils/radare2/sdb | db0412454da0 |
+| sed | (stream editor) is a non-interactive command-line text editor | https://www.gnu.org/software/sed/ | https://bin.pkgforge.dev/aarch64/sed | 147efa003b6f |
 | sed | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sed | ea835d5bd470 |
 | seedrng | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/seedrng | 38ac12986ed0 |
 | seekablepipe | A set of tiny general Unix utilities optimized for simplicity and small size | https://github.com/skarnet/s6-portable-utils | https://bin.pkgforge.dev/aarch64/Baseutils/s6-portable-utils/seekablepipe | 611209d07873 |
@@ -2312,6 +2365,7 @@
 | ss | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/ss | 9931fbb0ade1 |
 | sshesame | SSH honeypot, a fake SSH server that lets anyone in and logs their activity | https://github.com/jaksi/sshesame | https://bin.pkgforge.dev/aarch64/sshesame | 467c1908c9c1 |
 | sshkeys | Get all ssh public keys of a ssh server | https://github.com/Eun/sshkeys | https://bin.pkgforge.dev/aarch64/sshkeys | ef535660f4e3 |
+| sshpass | Standalone, Minimal HTTP Server | https://git.code.sf.net/p/sshpass/code-git | https://bin.pkgforge.dev/aarch64/sshpass | 6b2c82571bd2 |
 | sshportal | Embedded SSH Server & Client meant for temp ssh access using invite codes | https://github.com/moul/sshportal | https://bin.pkgforge.dev/aarch64/sshportal | cde7e573776e |
 | sshx | Fast, collaborative live terminal sharing over the web | https://github.com/ekzhang/sshx | https://bin.pkgforge.dev/aarch64/sshx | e3c0c6652991 |
 | sshx-server | Fast, collaborative live terminal sharing over the web | https://github.com/ekzhang/sshx | https://bin.pkgforge.dev/aarch64/sshx-server | e7f6d87fd232 |
@@ -2334,6 +2388,7 @@
 | stew | 🥘 An independent package manager for compiled binaries. | https://github.com/marwanhawari/stew | https://bin.pkgforge.dev/aarch64/stew | c548bb78beeb |
 | strace | strace is a diagnostic, debugging and instructional userspace utility for Linux | https://github.com/strace/strace | https://bin.pkgforge.dev/aarch64/strace | e1f77eb7aa41 |
 | stree | 📁Directory trees of AWS S3 Bucket | https://github.com/orangekame3/stree | https://bin.pkgforge.dev/aarch64/stree | cc8a65c1e831 |
+| stress-ng | stress test a computer system in various selectable ways | https://www.gnu.org/software/stress-ng/ | https://bin.pkgforge.dev/aarch64/stress-ng | c2ef95b0c216 |
 | stress_1 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/stress_1 | 2695a6a27d26 |
 | stress_2 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/stress_2 | e873bd5f0fef |
 | stress_3 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/stress_3 | a5602f4b38d6 |
@@ -2536,6 +2591,7 @@
 | ttyd | Share your terminal over the web | https://github.com/tsl0922/ttyd | https://bin.pkgforge.dev/aarch64/ttyd | f7e1333a6742 |
 | ttyrec2ansi | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/aarch64/ttyrec2ansi | 5c5fdef6ada6 |
 | ttysize | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ttysize | 2aa89879be07 |
+| tuiarchiver | terminal application to list / manage archives | https://codeberg.org/dnalor/tuiarchiver | https://bin.pkgforge.dev/aarch64/tuiarchiver | 3960e1bd3fe3 |
 | tun2proxy | Tunnel (TUN) interface for SOCKS and HTTP proxies | https://github.com/tun2proxy/tun2proxy | https://bin.pkgforge.dev/aarch64/tun2proxy | 3ec8698951f2 |
 | tunctl | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tunctl | 0cbd2c7b4f1c |
 | tune.exfat | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/tune.exfat | e10a65acd9f4 |
@@ -2551,6 +2607,7 @@
 | tz | 🌐 A time zone helper | https://github.com/oz/tz | https://bin.pkgforge.dev/aarch64/tz | dc9aaee88b98 |
 | u-root | create a one-binary root file system (initramfs) containing a busybox-like set of tools | https://github.com/u-root/u-root | https://bin.pkgforge.dev/aarch64/u-root | 9b38a38e4004 |
 | u-root-busybox | Tools for compiling many Go commands into one binary to save space | https://github.com/u-root/gobusybox | https://bin.pkgforge.dev/aarch64/u-root-busybox | b476d4fcd908 |
+| ubase-box | a collection of unportable tools, similar in spirit to util-linux but much simpler. | https://git.suckless.org/ubase | https://bin.pkgforge.dev/aarch64/ubase-box | 11d680f946ed |
 | ubi-stress-test.sh | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/ubi-stress-test.sh | 9856ea4b115a |
 | ubiattach | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ubiattach | 4f98dba6410f |
 | ubiattach | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/ubiattach | dfc6a3bea1ca |
@@ -2615,6 +2672,8 @@
 | uniq | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uniq | f9945975b9ea |
 | uniq | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/uniq | 6f5bf45e55fc |
 | unix2dos | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unix2dos | 2607a7ee884f |
+| unix2dos | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/unix2dos | 726791a10e97 |
+| unix2mac | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/unix2mac | 726791a10e97 |
 | unlink | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unlink | a63c92fd4432 |
 | unlink | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/unlink | b641f0b4d9a5 |
 | unlink | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/unlink | 01776beb2164 |
@@ -2631,6 +2690,7 @@
 | unxz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unxz | dc6231b7ead2 |
 | unzip | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unzip | 85aa6d3e0073 |
 | unzstd | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/unzstd | 30166f687f41 |
+| update-desktop-database | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/update-desktop-database | 5427144cb3e8 |
 | uptime | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uptime | 56d4352ced12 |
 | uptime | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/uptime | afa93cf9fec7 |
 | uptime | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uptime | 51bea12c3aa6 |
@@ -2701,6 +2761,10 @@
 | wall | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/wall | ded3939ac773 |
 | wall | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wall | 74f00ff9fded |
 | warp | S3 benchmarking tool | https://github.com/minio/warp | https://bin.pkgforge.dev/aarch64/warp | 7839d8b659c8 |
+| warp-cli | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-cli | eace4680fcb7 |
+| warp-dex | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-dex | 3a189ec4de74 |
+| warp-diag | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-diag | 2de2c67e9243 |
+| warp-svc | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-svc | 14733754ca7a |
 | watch | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/watch | 9d3bebda2cf7 |
 | watch | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/watch | 02460eb7e538 |
 | watchdog | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/watchdog | 7999c0dbf24f |
@@ -2718,10 +2782,13 @@
 | wego | weather app for the terminal | https://github.com/schachmat/wego | https://bin.pkgforge.dev/aarch64/wego | b765ecc0e980 |
 | wezterm | A GPU-accelerated cross-platform terminal emulator and multiplexer | https://github.com/wez/wezterm | https://bin.pkgforge.dev/aarch64/wezterm | b9bdf4ff1d9f |
 | wezterm-mux-server | A GPU-accelerated cross-platform terminal emulator and multiplexer | https://github.com/wez/wezterm | https://bin.pkgforge.dev/aarch64/wezterm-mux-server | 2bd7f3c28517 |
+| wg | tools for configuring WireGuard | https://git.zx2c4.com/wireguard-tools | https://bin.pkgforge.dev/aarch64/wg | 891a0e9c3b69 |
+| wg-quick | tools for configuring WireGuard | https://git.zx2c4.com/wireguard-tools | https://bin.pkgforge.dev/aarch64/wg-quick | 6ef6d820c6a7 |
 | wget | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/wget | bbecc55c1293 |
 | what | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/what | 28f505143097 |
 | whereis | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/whereis | 07c8e7acf66e |
 | which | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/which | 01cd0c67a26f |
+| which | Shows the full path of (shell) commands | https://www.gnu.org/software/which/ | https://bin.pkgforge.dev/aarch64/which | bb5189d65b69 |
 | who | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/who | 935862cba16f |
 | who | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/who | 3066ca6383b3 |
 | who | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/who | 100b03fbeee1 |
@@ -2734,6 +2801,8 @@
 | whois | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/whois | 14b8ff2f697c |
 | whoismac | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/whoismac | 2337ec1f1b27 |
 | wipefs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wipefs | 424f9c7e8ef6 |
+| wireguard-go | Go Implementation of WireGuard | https://git.zx2c4.com/wireguard-go | https://bin.pkgforge.dev/aarch64/wireguard-go | cd6bc088a821 |
+| wireguard-rs | Rust Implementation of WireGuard | https://git.zx2c4.com/wireguard-rs | https://bin.pkgforge.dev/aarch64/wireguard-rs | c0a2e6af46cb |
 | wireproxy | Wireguard client that exposes itself as a socks5 proxy | https://github.com/pufferffish/wireproxy | https://bin.pkgforge.dev/aarch64/wireproxy | 5e466f2d1c74 |
 | wiretap | ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run | https://github.com/sandialabs/wiretap | https://bin.pkgforge.dev/aarch64/wiretap | fefceb229b0e |
 | wlancap2wpasec | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/wlancap2wpasec | 4b628777e35e |
@@ -2774,6 +2843,8 @@
 | xfce4-terminal.dwfs.appbundle | A lightweight and easy to use Terminal Emulator | https://gitlab.xfce.org/apps/xfce4-terminal | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.appbundle | 1.1.3 |
 | xgettext | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/xgettext | 6e0f05334435 |
 | xh | Friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh | https://bin.pkgforge.dev/aarch64/xh | bc2db4798058 |
+| xhost | Tool to manage the list of host names or user names allowed to make connections to the X server. | https://gitlab.freedesktop.org/xorg/app/xhost | https://bin.pkgforge.dev/aarch64/xhost | bc465e26edcf |
+| xml2asc | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/xml2asc | 7fcc877fdfa1 |
 | xo | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/xo | null |
 | xplr | A hackable, minimal, fast TUI file explorer | https://github.com/sayanarijit/xplr | https://bin.pkgforge.dev/aarch64/xplr | 06ef5a0ef4b8 |
 | xq | Command-line XML and HTML beautifier and content extractor | https://github.com/sibprogrammer/xq | https://bin.pkgforge.dev/aarch64/xq | a408c78ebb29 |
