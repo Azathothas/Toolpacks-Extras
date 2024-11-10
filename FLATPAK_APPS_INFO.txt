@@ -4544,7 +4544,7 @@ Descr: GTK+ frontend for mpv
 -----------------------------
 NAME: MPRIS Timer
 APP_ID: io.github.efogdev.mpris-timer
-Descr: A timer app with seamless GNOME integration utilizing media player UI
+Descr: Timer app with seamless GNOME integration
 -----------------------------
 NAME: Weylus Community Edition
 APP_ID: io.github.electronstudio.WeylusCommunityEdition
@@ -8549,10 +8549,6 @@ Descr: Create, play and print beautiful sheet music
 NAME: MyPaint
 APP_ID: org.mypaint.MyPaint
 Descr: Painting program for digital artists
------------------------------
-NAME: Naev
-APP_ID: mypaint.desktop
-Descr: 2D action/rpg space trading combat game
 -----------------------------
 NAME: Naev
 APP_ID: org.naev.Naev

@@ -2234,7 +2234,7 @@
       "summary": "LibreWolf Web Browser",
       "description": "LibreWolf\n      This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.\n      LibreWolf uses more than 500 privacy/security/performance settings, patches, LibreWolf-Addons (optional) and is designed to minimize data collection and telemetry as much as possible (updater, crashreporter and Firefox’s integrated addons that don’t respect privacy are removed).\n      LibreWolf is NOT associated with Mozilla or its products.\n      Features:\n      \n        Latest Version of Firefox: LibreWolf is compiled directly from the latest build of Firefox Stable. You will have the the latest features, and security updates.\n        Completely Independent Build: LibreWolf uses a completely independent build from Firefox and has its own settings, profile folder and installation path. As a result, it can be installed alongside Firefox or any other browser.\n        Settings protection: important settings are enforced/locked within librewolf.cfg and policies.json, those settings cannot be changed by addons/updates/LibreWolf itself or unwanted/accidental manipulation; To change those settings you can easily do it by editing librewolf.cfg and policies.json.\n        LibreWolf-addons: set of optional LibreWolf extensions\n        Statistics disabled: telemetry and similar functions are disabled\n        Tested settings: settings are performance aware\n        Recommended and code reviewed addons list\n        Community-Driven\n        And much more…\n      \n    ",
       "id": "io_gitlab_librewolf-community",
-      "updated_at": 1730506223,
+      "updated_at": 1731199826,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2244,7 +2244,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "io.gitlab.librewolf-community",
-      "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/8b08331061d73e3a6868536513f5b4e7/icons/128x128/io.gitlab.librewolf-community.png",
+      "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/4f411e65027131de4a143c1d5e3defef/icons/128x128/io.gitlab.librewolf-community.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
