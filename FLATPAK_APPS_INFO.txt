@@ -10026,10 +10026,6 @@ NAME: Rust4Diva
 APP_ID: xyz.rust4diva.Rust4Diva
 Descr: Cross platform mod manager for Project Diva Mega Mix+
 -----------------------------
-NAME: Exercise Timer
-APP_ID: xyz.safeworlds.hiit
-Descr: Train and rest with high intensity
------------------------------
 NAME: midiconn
 APP_ID: xyz.safeworlds.midiconn
 Descr: Virtual MIDI hub

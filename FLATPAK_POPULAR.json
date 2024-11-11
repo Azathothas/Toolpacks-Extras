@@ -2920,7 +2920,7 @@
       "summary": "The web browser from Chromium project",
       "description": "\n    Chromium is an open-source browser project that aims to build a safer, faster,\n    and more stable way to experience the web.\n    \n      \n    We invite you to join our effort to build a powerful platform for developing a\n    new generation of web applications.\n    \n    ",
       "id": "org_chromium_Chromium",
-      "updated_at": 1730087451,
+      "updated_at": 1731287981,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2930,7 +2930,7 @@
       "project_license": "BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)",
       "is_free_license": true,
       "app_id": "org.chromium.Chromium",
-      "icon": "https://dl.flathub.org/media/org/chromium/Chromium/3517c69e2450bd053118507be5cca0c6/icons/128x128/org.chromium.Chromium.png",
+      "icon": "https://dl.flathub.org/media/org/chromium/Chromium/e7a6f1af1657b41579c91de317b7404d/icons/128x128/org.chromium.Chromium.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -2949,7 +2949,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 5.4006899040286545,
       "installs_last_month": 28449,
       "added_at": 1602842796
@@ -22081,7 +22081,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

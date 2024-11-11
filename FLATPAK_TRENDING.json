@@ -18708,7 +18708,7 @@
       "summary": "Train and rest with high intensity",
       "description": "Exercise timer is a simple utility to conduct interval training.\n      Following a short preparation period, a prescribed number of exercise sets are played. In between each exercise, there is a resting period.\n      The app does not make an assumption about the kind of the exercise.\n      Features:\n      \n        Save and recall presets containing the number of sets and the duration of the exercise, rest and preparation periods.\n        A beeping sound is played at- and prior to each transition.\n        The volume of the sound can be adjusted.\n        Light and dark mode follows the system's setting.\n      \n    ",
       "id": "xyz_safeworlds_hiit",
-      "updated_at": 1727021548,
+      "updated_at": 1731293791,
       "arches": [
         "x86_64",
         "aarch64"
@@ -18735,9 +18735,19 @@
           "summary": "उच्च तीव्रता के साथ प्रशिक्षण लें और आराम करें"
         },
         "hu": {
-          "description": "Az Edzésórával egyszerűen időzíthetők az intervallum edzések.\n      A felkészülési időt követően az előírt számú gyakorlat szett következik. A gyakorlatok közé pihenőidő van ütemezve.\n      Az app nem tesz különbséget a gyakorlatok típusa között.\n      Funkciók:\n      \n        Sípoló hang jelzi a periódusok végét.\n        A síp hangereje állítható.\n        A világos és sötét megjelenés követi a rendszerbeállítást.\n      \n    ",
+          "description": "Az Edzésórával egyszerűen időzíthetők az intervallum edzések.\n      A felkészülési időt követően az előírt számú gyakorlat szett következik. A gyakorlatok közé pihenőidő van ütemezve.\n      Az app nem tesz különbséget a gyakorlatok típusa között.\n      Funkciók:\n      \n        Az edzések, melyek tartalmazzák a szettek számát, a gyakorlat, a pihenés és a felkészülés idejét, elmenthetők és betölthetők.\n        Sípoló hang jelzi a periódusok végét.\n        A síp hangereje állítható.\n        A világos és sötét megjelenés követi a rendszerbeállítást.\n      \n    ",
           "name": "Edzésóra",
           "summary": "Edzz magas intenzitáson"
+        },
+        "it": {
+          "description": "Il timer per esercizi è uno strumento semplice per condurre un allenamento a intervalli.\n      Dopo un breve periodo di preparazione, viene svolto un numero prestabilito di serie di esercizi. Tra un esercizio e l'altro c'è un periodo di riposo.\n      L'app non fa ipotesi sul tipo di esercizio.\n      Caratteristiche:\n      \n        Un segnale acustico viene riprodotto prima e durante ogni transizione.\n        È possibile regolare il volume del suono.\n        La modalità chiara e scura segue le impostazioni del sistema.\n      \n    ",
+          "name": "Timer per esercizi",
+          "summary": "Allenati e riposati ad alta intensità"
+        },
+        "ru": {
+          "description": "Таймер упражнений — простая утилита для проведения интервальных тренировок.\n      После небольшой подготовки выполняется предписанное количество подходов к упражнению. Между каждым упражнением есть период отдыха.\n      Приложение не учитывает характер упражнения.\n      Функции:\n      \n        Перед каждым подходом и во время него воспроизводится звуковой сигнал.\n        Громкость звука можно регулировать.\n        Светлый и темный режим соответствуют настройкам системы.\n      \n    ",
+          "name": "Таймер упражнений",
+          "summary": "Выполняй упражнения с высокой интенсивностью"
         },
         "fi": {
           "name": "Harjoitusajastin",
@@ -18750,7 +18760,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "xyz.safeworlds.hiit",
-      "icon": "https://dl.flathub.org/media/xyz/safeworlds/hiit/34f9afbfb1097dea0fd5b9ad4ed16b66/icons/128x128/xyz.safeworlds.hiit.png",
+      "icon": "https://dl.flathub.org/media/xyz/safeworlds/hiit/aadd4b4cbc99ec3c0b9e837c5bb3c2ba/icons/128x128/xyz.safeworlds.hiit.png",
       "categories": [
         "Utility"
       ],
@@ -24811,7 +24821,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
