@@ -1031,10 +1031,6 @@ APP_ID: com.github._4lex4.ScanTailor-Advanced
 Descr: Interactive post-processing tool for scanned pages
 -----------------------------
 NAME: Bless
-APP_ID: scantailor.desktop
-Descr: Gtk# Hex Editor
------------------------------
-NAME: Bless
 APP_ID: com.github.afrantzis.Bless
 Descr: Gtk# Hex Editor
 -----------------------------
@@ -3560,7 +3556,7 @@ Descr: Manage files on the go
 -----------------------------
 NAME: Chordcat
 APP_ID: dev.ters.Chordcat
-Descr: Chord Naming App with MIDI Support
+Descr: Chord naming app with midi support
 -----------------------------
 NAME: SpMp
 APP_ID: dev.toastbits.spmp
@@ -5240,7 +5236,7 @@ Descr: Free Media Downloader &amp; Converter
 -----------------------------
 NAME: OpenHV
 APP_ID: io.github.openhv.OpenHV
-Descr: Open Source 90s Pixelart Sci-Fi Real Time Strategy game
+Descr: Sci-Fi RTS game
 -----------------------------
 NAME: Argos
 APP_ID: io.github.orontee.Argos.desktop
@@ -7488,7 +7484,7 @@ Descr: A turn-based survival game set in a post-apocalyptic world
 -----------------------------
 NAME: Chocolate Doom
 APP_ID: org.chocolate_doom.ChocolateDoom
-Descr: Conservative Doom Source Port
+Descr: Conservative source port
 -----------------------------
 NAME: QMidiPlayer
 APP_ID: org.chrisoft.qmidiplayer.desktop

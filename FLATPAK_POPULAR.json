@@ -5373,7 +5373,7 @@
       "summary": "Chromium without Google",
       "description": "Ungoogled Chromium is Google Chromium, sans dependency on Google web services. It also\n      features some tweaks to enhance privacy, control, and transparency (almost all of which\n      require manual activation or enabling).\n      Ungoogled Chromium retains the default Chromium experience as closely as possible. Unlike\n      other Chromium forks that have their own visions of a web browser, Ungoogled Chromium is\n      essentially a drop-in replacement for Chromium.\n      Without signing in to a Google Account, Chromium does pretty well in terms of security and\n      privacy. However, Chromium still has some dependency on Google web services and binaries. In\n      addition, Google designed Chromium to be easy and intuitive for users, which means they\n      compromise on transparency and control of inner operations.\n      Ungoogled Chromium addresses these issues in the following ways:\n      \n        Remove all remaining background requests to any web services while building and running\n        the browser\n        Remove all code specific to Google web services\n        Remove all uses of pre-made binaries from the source code, and replace them with\n        user-provided alternatives when possible\n        Disable features that inhibit control and transparency, and add or modify features that\n        promote them (these changes will almost always require manual activation or enabling)\n      \n      These features are implemented as configuration flags, patches, and custom scripts.\n    ",
       "id": "io_github_ungoogled_software_ungoogled_chromium",
-      "updated_at": 1730807445,
+      "updated_at": 1731314520,
       "arches": [
         "x86_64",
         "aarch64"
@@ -5383,7 +5383,7 @@
       "project_license": "BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)",
       "is_free_license": true,
       "app_id": "io.github.ungoogled_software.ungoogled_chromium",
-      "icon": "https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/1548ec0eb8cd6570380a468a552f9196/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png",
+      "icon": "https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/b1ea7f10789daf8c7fe586d53e35443e/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -13376,7 +13376,7 @@
       "summary": "A free, open source, and cross-platform media player",
       "description": "\n   Mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety\nof video file formats, audio and video codecs, and subtitle types. Special\ninput URL types are available to read input from a variety of sources other\nthan disk files. Depending on platform, a variety of different video and audio\noutput methods are supported.\n  \n      Features:\n      \n        Drag and drop playlist\n        Loading external configuration files\n        Flatpak: mpv-mpris support - multimedia keys play/pause support\n        Flatpak: mpv.conf: Screenshots (shortcut key 's') are saved in ~/Pictures/mpv directory\n        Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv\n        Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts\n        Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME while playing media\n        Flatpak: mpv scripts needs write access. Use flatseal app to set home or host write permission\n      \n    ",
       "id": "io_mpv_Mpv",
-      "updated_at": 1731238161,
+      "updated_at": 1731313676,
       "arches": [
         "x86_64",
         "aarch64"
@@ -14653,7 +14653,7 @@
       "summary": "Manage your files",
       "description": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.\n      Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.\n      Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.\n      Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.\n      Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.\n    ",
       "id": "org_kde_dolphin",
-      "updated_at": 1731053781,
+      "updated_at": 1731298297,
       "arches": [
         "x86_64",
         "aarch64"

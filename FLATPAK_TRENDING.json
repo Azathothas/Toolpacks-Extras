@@ -4844,7 +4844,7 @@
       "summary": "Discover and read manga & comics",
       "description": "With its simple, elegant and adaptive interface, this reader lets you search, sort and read your series with ease.\n      Why you will love Komikku?\n      \n        Online and offline reading from dozens of servers\n        Support for locally stored series (in CBZ or CBR formats)\n        RTL, LTR, Vertical and Webtoon reading modes\n        Support several types of navigation: keyboard arrow keys, right and left navigation layout via mouse click or tapping (touchpad/touch screen), mouse wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)\n        Categories to organize your library\n        Automatic tracking of series with MyAnimeList and AniList\n        Automatic update of series\n        Automatic download of new chapters\n        Reading history\n        Light and dark themes\n      \n    ",
       "id": "info_febvre_Komikku",
-      "updated_at": 1730859363,
+      "updated_at": 1731320588,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4935,7 +4935,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "info.febvre.Komikku",
-      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/5cdca3877efe74cf50c9a27fd9757f3d/icons/128x128/info.febvre.Komikku.png",
+      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/1b4725755bf44d708ed5a22f1d7bb86e/icons/128x128/info.febvre.Komikku.png",
       "categories": [
         "Graphics",
         "Network",
@@ -6311,7 +6311,7 @@
       "summary": "Manage your files",
       "description": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.\n      Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.\n      Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.\n      Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.\n      Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.\n    ",
       "id": "org_kde_dolphin",
-      "updated_at": 1731053781,
+      "updated_at": 1731298297,
       "arches": [
         "x86_64",
         "aarch64"
@@ -11869,7 +11869,7 @@
       "summary": "Easily process images in batches",
       "description": "XnConvert is multi-platform, it is available for Windows, Mac, and Linux for both 32-bit and 64-bit editions.\n      XnConvert is Multilingual, it includes more than 20 different translations.\n      It offers powerful features in an easy to use interface providing convenient drag &amp; drop functionality.\n      XnConvert is compatible with more than 500 formats and Export to about 70 different file formats.\n      Combine and choose between more than 80 different operations including:\n      \n        Metadata Editing\n        Transforms: Rotate, Crop, Resize, ...\n        Adjustments: Brightness, Contrast, Saturation, ...\n        Filters: Blur, Emboss, Sharpen, ...\n        Effects: Masking, Watermark, Vignetting, ...\n      \n      and seamlessly export to NConvert for a command line usage.\n      XnConvert is provided as freeware.\n      You are granted the right to use and to make an unlimited number of copies of this software.\n      Copyright (C) 1997-2019 Pierre-e Gougelet. All rights reserved.\n    ",
       "id": "com_xnview_XnConvert",
-      "updated_at": 1731075470,
+      "updated_at": 1731300690,
       "arches": [
         "x86_64"
       ],
@@ -11901,7 +11901,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 14.62136773950502,
       "installs_last_month": 1367,
       "added_at": 1552520864
@@ -21767,7 +21767,7 @@
       "summary": "Program your thermal printer",
       "description": "This application is an IDE which helps you to create tickets and \n        stickers in your thermal printer using programming.\n      The software is paid, but it allows you to test the app\n        before paying.\n      This IDE support using images, image emojies,\n        QRcodes and custom text fonts while using your thermal\n        printer.\n      If you are unsure what hardware should you buy to start\n        using thermal printers, in the app there is a menu\n        with the devices and supplies I recommend because I\n        tested them to work in the app.\n    ",
       "id": "me_sergiotarxz_Exd",
-      "updated_at": 1731123203,
+      "updated_at": 1731326976,
       "arches": [
         "x86_64",
         "aarch64"
@@ -21777,7 +21777,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "me.sergiotarxz.Exd",
-      "icon": "https://dl.flathub.org/media/me/sergiotarxz/Exd/cf8b0b4d1ce741bd22f19c41ba1a7028/icons/128x128/me.sergiotarxz.Exd.png",
+      "icon": "https://dl.flathub.org/media/me/sergiotarxz/Exd/dad7d5c3e182516ed25f375b4697b69e/icons/128x128/me.sergiotarxz.Exd.png",
       "categories": [
         "Development"
       ],
