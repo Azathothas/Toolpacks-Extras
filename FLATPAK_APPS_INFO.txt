@@ -8912,7 +8912,7 @@ Descr: Interactive post-processing tool for scanned pages
 -----------------------------
 NAME: Scilab
 APP_ID: org.scilab.Scilab
-Descr: Package for numerical computations
+Descr: Scientific software package for numerical computations
 -----------------------------
 NAME: SciTE
 APP_ID: org.scintilla.SciTE
@@ -9377,10 +9377,6 @@ Descr: Atari ST/STE/TT/Falcon emulator
 NAME: TV-Browser
 APP_ID: org.tvbrowser.TVBrowser
 Descr: A free EPG
------------------------------
-NAME: Twine
-APP_ID: tvbrowser.desktop
-Descr: Twine is an open-source tool for telling interactive, nonlinear stories
 -----------------------------
 NAME: Twine
 APP_ID: org.twinery.Twine
@@ -9960,7 +9956,7 @@ Descr: Linux port of the Microsoft Windows calculator app
 -----------------------------
 NAME: CmapTools
 APP_ID: us.ihmc.cmap.CmapTools
-Descr: Allows users to to create and share concept maps.
+Descr: Create and share concept maps
 -----------------------------
 NAME: Materialious
 APP_ID: us.materialio.Materialious

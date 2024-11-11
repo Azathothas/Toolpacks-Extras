@@ -1087,7 +1087,7 @@
       "summary": "An Open Source Epic Games, GOG and Amazon Prime Games Launcher.",
       "description": "Heroic is an Open Source Games Launcher. Right now it supports launching games from the\n\t\t\tEpic Games Store using Legendary, GOG Games using our custom implementation with gogdl\n\t\t\tand Amazon Games using Nile.\n      Main Features:\n      \n        Have access to your Epic, GOG and Amazon Games in a intuitive User Interface.\n        Add Games outside GOG, Amazon or Epic Games Store native or not. Even Browser apps\n\t\t\t\tare supported\n        A Download queue to download multiple games at once.\n        Install and launch your Windows Games using Wine or Proton. Or Launch your Native\n\t\t\t\tGOG Games.\n        Cloud Saves support for GOG and Epic Games.\n        Import Games installed through the Epic Store or GOG Galaxy.\n        Verify and Repair corrupted installations or even move your installation to\n\t\t\t\tdifferent folders.\n        Access the Epic and GOG store and also Heroic Wiki directly from the App.\n        Check HowLongtoBeat database to see how long it will take to finish a game. And also\n\t\t\t\tcheck the Metacritic, IGCB or OpenCritc score for the game.\n        And many more features\n      \n      Current Limitations on the Flatpak:\n      \n        Heroic will not find or use Wine and Proton Flatpak versions. At least for now.\n        For now would be better to use the Built-in Wine Manager to download and install\n\t\t\t\tWine and Proton Versions.\n        It should find Proton from the Steam folder for both Steam Flatpak and non-Flatpak\n\t\t\t\tif they are on installed on the library inside your $HOME folder\n        Heroic cannot access /usr/bin so it won't be able to find any wine or proton\n\t\t\t\tisntalled there for now.\n      \n    ",
       "id": "com_heroicgameslauncher_hgl",
-      "updated_at": 1729120799,
+      "updated_at": 1731266932,
       "arches": [
         "x86_64"
       ],
@@ -1117,7 +1117,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "heroicgameslauncher.com",
       "verification_timestamp": "1675767418",
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 5.797305124579944,
       "installs_last_month": 60454,
       "added_at": 1646944179
@@ -22081,7 +22081,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
