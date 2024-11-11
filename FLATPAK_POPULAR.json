@@ -2511,7 +2511,7 @@
       "summary": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once",
       "description": "Prism Launcher is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.\n      Features:\n      \n        Easily install game modifications, such as Fabric, Forge and Quilt\n        Easily install and update modpacks from the Launcher\n        Control your Java settings, and enable Mangohud or Gamemode with a toggle\n        Manage worlds and resource packs from the launcher\n        See logs and other details easily through a dashboard\n        Kill Minecraft in case of a crash/freeze\n        Isolate Minecraft instances to keep everything clean\n        Install and update mods directly from the launcher\n        Customize the launcher with themes, and more\n        And cat :3\n      \n    ",
       "id": "org_prismlauncher_PrismLauncher",
-      "updated_at": 1731076830,
+      "updated_at": 1731316784,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2521,7 +2521,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.prismlauncher.PrismLauncher",
-      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/426f684b09b81ac9fcd803dd85a2e6db/icons/128x128/org.prismlauncher.PrismLauncher.png",
+      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/71b29f1ddd9be243479851450448f649/icons/128x128/org.prismlauncher.PrismLauncher.png",
       "categories": [
         "Game",
         "ActionGame",
@@ -2544,7 +2544,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "prismlauncher.org",
       "verification_timestamp": "1678358592",
-      "runtime": "org.kde.Platform/x86_64/6.7",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 10.570270509348086,
       "installs_last_month": 30087,
       "added_at": 1666334692
@@ -3241,7 +3241,7 @@
       "summary": "Manage AppImages",
       "description": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.\n    ",
       "id": "it_mijorus_gearlever",
-      "updated_at": 1729268531,
+      "updated_at": 1731326798,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3282,7 +3282,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "it.mijorus.gearlever",
-      "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/8cc8ef06d49304a9ba41f36aa56bde07/icons/128x128/it.mijorus.gearlever.png",
+      "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/bc2d61fc9438f43a555d2915312d9a52/icons/128x128/it.mijorus.gearlever.png",
       "categories": [
         "Utility"
       ],
@@ -7425,7 +7425,7 @@
       "summary": "Business communication",
       "description": "\n      Caution: Slack for Linux is in beta. We’re still busy adding features and\n      ironing out potential issues.\n    \n      \n      Slack brings team communication and collaboration into one place so you\n      can get more work done, whether you belong to a large enterprise or a\n      small business. Check off your to-do list and move your projects forward\n      by bringing the right people, conversations, tools, and information you\n      need together. Slack is available on any device, so you can find and\n      access your team and your work, whether you’re at your desk or on the go.\n    \n      \n      Scientifically proven (or at least rumored) to make your working life\n      simpler, more pleasant, and more productive. We hope you’ll give Slack a\n      try.\n    \n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by\n      Slack Technologies, Inc.\n    \n    ",
       "id": "com_slack_Slack",
-      "updated_at": 1730313760,
+      "updated_at": 1731324048,
       "arches": [
         "x86_64"
       ],
@@ -22081,7 +22081,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

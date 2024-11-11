@@ -4900,11 +4900,7 @@ Descr: Create and print labels on Niimbot printers
 -----------------------------
 NAME: CutePeaks
 APP_ID: io.github.labsquare.CutePeaks
-Descr: standalone Sanger trace viewer
------------------------------
-NAME: Colorway
-APP_ID: cutepeaks.desktop
-Descr: Generate color pairings
+Descr: Standalone Sanger trace viewer
 -----------------------------
 NAME: Colorway
 APP_ID: io.github.lainsce.Colorway
@@ -6616,7 +6612,7 @@ Descr: Conference schedules viewer
 -----------------------------
 NAME: PedantiK
 APP_ID: net.krafting.PedantiK
-Descr: Find the Wikipedia page
+Descr: Find the Wikipedia article
 -----------------------------
 NAME: Playlifin
 APP_ID: net.krafting.Playlifin

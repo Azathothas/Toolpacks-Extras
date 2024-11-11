@@ -9732,7 +9732,7 @@
       "summary": "Multi-page document scanning app",
       "description": "Skanpage is a simple scanning application optimized for multi-page document scanning. It can also scan and save single-page documents and images.\n      Features:\n      \n        Scanning from flatbed and ADF scanners\n        Configurable options for scanning device\n        Reordering, rotation, and deletion of scanned pages\n        Saving to multi-page PDF documents and image files\n      \n    ",
       "id": "org_kde_skanpage",
-      "updated_at": 1731057893,
+      "updated_at": 1731324952,
       "arches": [
         "x86_64",
         "aarch64"
@@ -10653,7 +10653,7 @@
       "summary": "Business communication",
       "description": "\n      Caution: Slack for Linux is in beta. We’re still busy adding features and\n      ironing out potential issues.\n    \n      \n      Slack brings team communication and collaboration into one place so you\n      can get more work done, whether you belong to a large enterprise or a\n      small business. Check off your to-do list and move your projects forward\n      by bringing the right people, conversations, tools, and information you\n      need together. Slack is available on any device, so you can find and\n      access your team and your work, whether you’re at your desk or on the go.\n    \n      \n      Scientifically proven (or at least rumored) to make your working life\n      simpler, more pleasant, and more productive. We hope you’ll give Slack a\n      try.\n    \n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by\n      Slack Technologies, Inc.\n    \n    ",
       "id": "com_slack_Slack",
-      "updated_at": 1730313760,
+      "updated_at": 1731324048,
       "arches": [
         "x86_64"
       ],
@@ -16253,7 +16253,7 @@
       "summary": "Process data with GnuPG",
       "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1730322110,
+      "updated_at": 1731326663,
       "arches": [
         "x86_64",
         "aarch64"
@@ -16289,7 +16289,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/8ac35a6efacc928fdbc4087fe70bf36a/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/4624a1a0eaa3b9f7f1b01a41d282d8df/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -24821,7 +24821,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
