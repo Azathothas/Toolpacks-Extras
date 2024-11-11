@@ -3081,7 +3081,7 @@
       "summary": "Configure Moza Racing hardware",
       "description": "\n      Boxflat enables you to change your Moza Racing hardware settings with ease.\n    \n      \n      Settings and their values are a 1:1 match with Pit House. This makes it possible to use presets shared by the community.\n      The table of supported settings compared to Pit House can be found on the project website. This project has no official ties to Moza\n      and/or their software. It's 100% independent work based largely on hours of reverse engineering the protocol.\n    \n      \n      Boxflat supports saving/loading presets and automatic game detection.\n    \n      \n      Supported devices:\n    \n      \n        Wheelbases\n        Wheels\n        Pedals\n        Handbrake\n        Sequential shifter\n        H-Pattern shifter\n        E-Stop\n      \n      \n      Note: The udev rules found in the GitHub repository need to be installed for the application to work properly.\n      Boxflat will remind you of this in case of no rw access to the serial devices.\n    \n    ",
       "id": "io_github_lawstorant_boxflat",
-      "updated_at": 1731080420,
+      "updated_at": 1731330960,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3091,7 +3091,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.lawstorant.boxflat",
-      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/d902d0557252aaa2802db76de4b2d0f8/icons/128x128/io.github.lawstorant.boxflat.png",
+      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/82b56637f7216de9cd0c4ee258bd9a2e/icons/128x128/io.github.lawstorant.boxflat.png",
       "categories": [
         "Game",
         "Utility"
@@ -19482,9 +19482,9 @@
       "name": "Short Circuit",
       "keywords": null,
       "summary": "Developer scratchpad",
-      "description": "Short Circuit is a developer scratchpad made for GNOME!The next time you copy paste some text to do some text manipulation like base64 encode/decode, json formatting etc..You can just copy paste in shortcircuit and control T your way through everything!",
+      "description": "Short Circuit is a developer scratchpad made for GNOME!\n      The next time you copy paste some text to do some text manipulation like base64 encode/decode, json formatting etc..\n      You can just copy paste in shortcircuit and control T your way through everything!\n    ",
       "id": "in_bharatkalluri_shortcircuit",
-      "updated_at": 1695613897,
+      "updated_at": 1731338449,
       "arches": [
         "x86_64",
         "aarch64"
@@ -19494,9 +19494,13 @@
       "project_license": "GPL-3.0+",
       "is_free_license": true,
       "app_id": "in.bharatkalluri.shortcircuit",
-      "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/in.bharatkalluri.shortcircuit.png",
-      "categories": [],
-      "main_categories": [],
+      "icon": "https://dl.flathub.org/media/in/bharatkalluri/shortcircuit/e94c90671612f443a34e08780453a96a/icons/128x128/in.bharatkalluri.shortcircuit.png",
+      "categories": [
+        "Utility"
+      ],
+      "main_categories": [
+        "Utility"
+      ],
       "sub_categories": [],
       "developer_name": "Bharat Kalluri",
       "verification_verified": false,
@@ -19506,7 +19510,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 14.05914222815574,
       "installs_last_month": 85,
       "added_at": 1595576448
@@ -24821,7 +24825,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 49,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

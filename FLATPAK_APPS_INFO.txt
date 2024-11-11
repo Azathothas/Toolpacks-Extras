@@ -1780,7 +1780,7 @@ Descr: Graphical serial terminal
 -----------------------------
 NAME: Master Key
 APP_ID: com.gitlab.guillermop.MasterKey
-Descr: A password manager application
+Descr: Manage passwords without saving them
 -----------------------------
 NAME: Nextcloud Password client
 APP_ID: com.gitlab.j0chn.nextcloud_password_client
