@@ -11,7 +11,7 @@
 - **B3SUM 🔐:** `7e6c866b9ed6bbd23aa6b45d3451ebc487045d20ea469ffdda7ae82b229782ca`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/86box.appimage.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/86box.appimage.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage.zsync
 
@@ -30,7 +30,7 @@
 - **B3SUM 🔐:** `567df3becb573b4aa336a3107fca6ad6847aaceeaa501b9eeee54ca64bc1094e`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/browservice.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/browservice.appimage.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/browservice.appimage.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage.zsync
 
@@ -49,7 +49,7 @@
 - **B3SUM 🔐:** `b5acb329dae31fdced8954f4d997e46d41facd614e34995f7998dfe6358dc12a`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/chromium.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.appbundle.zsync
 
@@ -87,7 +87,7 @@
 - **B3SUM 🔐:** `b692add01e0cf1742955c73a35d5fb3c64fbfdae28cf2a2f26d150226d803b5b`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/chromium.nixappimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/chromium.nixappimage.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/chromium.nixappimage.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage.zsync
 
@@ -106,7 +106,7 @@
 - **B3SUM 🔐:** `345e95e29daef583abfcc1a85fcea905ef01ae351f9ab362200537d04a8af94f`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/engrampa.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/engrampa.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/engrampa.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.appbundle.zsync
 
@@ -125,7 +125,7 @@
 - **B3SUM 🔐:** `7d2debdb0e9b7497aafa98d54c21ef75cc7c33145cd09bfb4850d866b18d5e30`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/falkon.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/falkon.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/falkon.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.appbundle.zsync
 
@@ -144,7 +144,7 @@
 - **B3SUM 🔐:** `12812a54120c4cd7d0fc01fe4861b7fbe9bc556aa62e75715c8e74f963790b57`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/firefox.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/firefox.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/firefox.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.appbundle.zsync
 
@@ -163,7 +163,7 @@
 - **B3SUM 🔐:** `9e224f438ba7060b7f7095564749068f14d06b586e0cf2c229c383baf5e3ca22`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/imagemagick.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/imagemagick.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.appbundle.zsync
 
@@ -182,7 +182,7 @@
 - **B3SUM 🔐:** `2eb66c4d88ca6b087fd64b806d8871efda5f7725a15e6b00eb8c2f22fc605e0c`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.flatimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/librewolf.flatimage.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/librewolf.flatimage.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf.flatimage.zsync
 
@@ -201,7 +201,7 @@
 - **B3SUM 🔐:** `bc26acfa284565a9357ff6fc8d8b8ee9ede42fcbf9a4c9924412fa5e9a547364`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/mousepad.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/mousepad.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/mousepad.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.appbundle.zsync
 
@@ -239,7 +239,7 @@
 - **B3SUM 🔐:** `7d7ababfcff54953dc546b4d53fca311971fa4fe97f614b17868e44d5019bf70`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ppsspp.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ppsspp.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/ppsspp.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.appbundle.zsync
 
@@ -258,7 +258,7 @@
 - **B3SUM 🔐:** `147ec95961fd9c1c524ae009a032e1316cbf332c54dc55e94f06258601134626`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ristretto.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ristretto.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/ristretto.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.zsync
 
@@ -277,7 +277,7 @@
 - **B3SUM 🔐:** `ab1ed5d79ac2687843e08c906c35a6de4d43e820452a2dd9378696756d4b90b2`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.appimage.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/ryujinx.appimage.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/ryujinx.appimage.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage.zsync
 
@@ -296,7 +296,7 @@
 - **B3SUM 🔐:** `2ecd141401dbfc559e9be756f90e33ee52a600ec3b93510a4b9d273e895c6d22`
 - **Script ⚙️:** https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/aarch64-Linux/pkgs/xfce4-terminal.appbundle.sh
 - **Log 🧾:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.log
-- **Icon 🖼️:** https://pkg.pkgforge.dev/aarch64/xfce4-terminal.dwfs.appbundle.icon.png
+- **Icon 🖼️:** https://pkgcache.pkgforge.dev/aarch64/xfce4-terminal.dwfs.appbundle.icon.png
 - **Desktop 🖥️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.desktop
 - **Zsync ♻️:** https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.appbundle.zsync
 

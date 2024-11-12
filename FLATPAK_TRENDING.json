@@ -393,7 +393,7 @@
       "summary": "Snip and pin useful information",
       "description": "\n      Clip what's important to a small floating window, so you don't have to switch between windows or workspaces repeatedly.\n      The application allows you to see what's behind the window by hovering over it.\n    \n      Best used with:\n      \n        \"Always on Top\" and/or \"Always on Visible Workspace\"\n        A keyboard shortcut\n      \n      \n      On GNOME, go to Settings → Keyboard → View and Customize Shortcuts → Custom Shortcuts.\n      There you can set a shortcut to run flatpak run io.github.kelvinnovais.Kasasa\n    \n      \n      Note: On GNOME versions &lt; 46, a dialog will appear to set up and take the screenshot,\n      instead of directly using the GNOME's screenshoter; this may be inconvenient.\n    \n    ",
       "id": "io_github_kelvinnovais_Kasasa",
-      "updated_at": 1731121129,
+      "updated_at": 1731380314,
       "arches": [
         "x86_64",
         "aarch64"
@@ -405,8 +405,9 @@
           "name": "Kasasa"
         },
         "it": {
-          "description": "Da utilizzare al meglio con:\n      \n        \"Sempre in primo piano\" e/o \"Area di lavoro sempre visibile\"\n        Una scorciatoia da tastiera\n      \n      Nota: nelle versioni di GNOME &lt; 46, apparirà una finestra di dialogo per impostare e acquisire lo screenshot, anziché usare direttamente lo screenshoter di GNOME; questo potrebbe essere non conveniente.\n    ",
-          "name": "Kasasa"
+          "description": "Ritaglia ciò che è importante in una piccola finestra mobile, così non dovrai passare ripetutamente da una finestra all'altra o da un'area di lavoro all'altra. L'applicazione ti consente di vedere cosa c'è dietro la finestra passandoci sopra con il mouse.\n      Da utilizzare al meglio con:\n      \n        \"Sempre in primo piano\" e/o \"Area di lavoro sempre visibile\"\n        Una scorciatoia da tastiera\n      \n      Su GNOME, vai su Impostazioni → Tastiera → Visualizza e personalizza scorciatoie → Scorciatoie personalizzate. Lì puoi impostare una scorciatoia per eseguire &lt;code&gt;flatpak run io.github.kelvinnovais.Kasasa&lt;/code&gt; \n      Nota: nelle versioni di GNOME &lt; 46, apparirà una finestra di dialogo per impostare e acquisire lo screenshot, anziché usare direttamente lo screenshoter di GNOME; questo potrebbe essere non conveniente.\n    ",
+          "name": "Kasasa",
+          "summary": "Cattura e appuntati informazioni utili"
         },
         "pt-BR": {
           "description": "Recorte o que é importante para uma pequena janela flutuante, para não ter que alternar entre janelas ou áreas de trabalho repetidamente. O aplicativo permite que você veja o que está atrás da janela passando o mouse sobre ela.\n      Melhor usado com:\n      \n        \"Sempre na frente das outras janelas\" e/ou \"Sempre na área de trabalho visível\"\n        Um atalho de teclado\n      \n      No GNOME, vá para Configurações → Teclado → Visualizar e personalizar atalhos → Atalhos personalizados. Lá você pode definir um atalho para executar flatpak run io.github.kelvinnovais.Kasasa \n      Nota: Nas versões GNOME &amp;lt; 46, uma caixa de diálogo aparecerá para configurar e fazer a captura de tela, em vez de usar diretamente o criador de capturas de tela do GNOME; isso pode ser inconveniente.\n    ",
@@ -425,7 +426,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.kelvinnovais.Kasasa",
-      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/fb13af80ef97da9464eb628a2ed742de/icons/128x128/io.github.kelvinnovais.Kasasa.png",
+      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/c27e13537325a8e204c21f279be3b116/icons/128x128/io.github.kelvinnovais.Kasasa.png",
       "categories": [
         "Utility"
       ],
@@ -18618,13 +18619,13 @@
         "Engineering"
       ],
       "developer_name": "Prusa Research a.s",
-      "verification_verified": false,
-      "verification_method": null,
+      "verification_verified": "true",
+      "verification_method": "website",
       "verification_login_name": null,
       "verification_login_provider": null,
-      "verification_login_is_organization": null,
-      "verification_website": null,
-      "verification_timestamp": null,
+      "verification_login_is_organization": "false",
+      "verification_website": "prusa3d.com",
+      "verification_timestamp": "1731396585",
       "runtime": "org.gnome.Platform/x86_64/46",
       "trending": 14.405482231159835,
       "installs_last_month": 3874,
@@ -23091,7 +23092,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

@@ -2887,10 +2887,6 @@ APP_ID: com.viewizard.AstroMenace
 Descr: Hardcore 3D space scroll-shooter with spaceship upgrade possibilities
 -----------------------------
 NAME: VirusTotal Uploader
-APP_ID: com.viewizard.astromenace.desktop
-Descr: Upload files to virustotal.com
------------------------------
-NAME: VirusTotal Uploader
 APP_ID: com.virustotal.VirusTotalUploader
 Descr: Upload files to virustotal.com
 -----------------------------
