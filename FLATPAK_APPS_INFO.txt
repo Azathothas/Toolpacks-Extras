@@ -832,7 +832,7 @@ Descr: Write Japanese text with Ruby annotations easily
 -----------------------------
 NAME: ET: Legacy
 APP_ID: com.etlegacy.ETLegacy
-Descr: ET: Legacy is an open source project based on the code of Wolfenstein: Enemy Territory which was released in 2010 under the terms of the GPLv3.
+Descr: ET: Legacy is an open source project based on the code of Wolfenstein: Enemy Territory which was released in 2010 under the terms of the GPLv3
 -----------------------------
 NAME: Celeste 64
 APP_ID: com.exok.Celeste64
@@ -5342,14 +5342,6 @@ NAME: QNapi
 APP_ID: io.github.qnapi
 Descr: A software for downloading and automatic matching subtitles to movies
 -----------------------------
-NAME: qTox
-APP_ID: qnapi.desktop
-Descr: Powerful Tox chat client that follows the Tox design guidelines.
------------------------------
-NAME: qTox
-APP_ID: io.github.qtox.qTox
-Descr: Powerful Tox chat client that follows the Tox design guidelines.
------------------------------
 NAME: Newelle
 APP_ID: io.github.qwersyk.Newelle.desktop
 Descr: Your AI-Powered System Assistant
@@ -9260,7 +9252,7 @@ Descr: Check your bank accounts
 -----------------------------
 NAME: TwoFun
 APP_ID: org.tabos.twofun
-Descr: Touch based reaction game for two players.
+Descr: Touch based reaction game for two players
 -----------------------------
 NAME: Taisei Project
 APP_ID: org.taisei_project.Taisei
