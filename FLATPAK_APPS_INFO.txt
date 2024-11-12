@@ -7035,10 +7035,6 @@ APP_ID: net.sourceforge.molsketch
 Descr: 2D Molecular Structures Editor
 -----------------------------
 NAME: Osmo
-APP_ID: molsketch.desktop
-Descr: Personal organizer
------------------------------
-NAME: Osmo
 APP_ID: net.sourceforge.osmo
 Descr: Personal organizer
 -----------------------------
