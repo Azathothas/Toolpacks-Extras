@@ -4653,7 +4653,7 @@
       "summary": "Free file archiver utility",
       "description": "\n      PeaZip is a free, Open Source (LGPLv3) archive manager utility for BSD, Linux, \n      macOS and Windows.\n    \n      \n      Cross-platform, desktop-agnostic alternative to 7-Zip, FileRoller, WinRar, WinZip \n      and similar apps: create, convert open and extract 7Z, Brotli, BZip2, GZip, RAR, \n      TAR, XZ, ZIP, ZPAQ, Zstandard files, and many more archive formats.\n    \n      \n      PeaZip also supports encrypting / decrypting archives (with optional two factor\n      authentication), and its scripting engine makes easy to export the tasks defined \n      in the GUI as CLI scripts.\n    \n    ",
       "id": "io_github_peazip_PeaZip",
-      "updated_at": 1729930975,
+      "updated_at": 1731401189,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4663,7 +4663,7 @@
       "project_license": "LGPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.peazip.PeaZip",
-      "icon": "https://dl.flathub.org/media/io/github/peazip.PeaZip/6fb685d1f297616da57fbab961cbdc13/icons/128x128/io.github.peazip.PeaZip.png",
+      "icon": "https://dl.flathub.org/media/io/github/peazip.PeaZip/20980fc4e64617af6e31f3c7ac57d61c/icons/128x128/io.github.peazip.PeaZip.png",
       "categories": [
         "Utility",
         "Archiving",
@@ -12148,7 +12148,7 @@
       "summary": "Web browser from Yandex",
       "description": "New Yandex Browser with AI search and Alisa voice assistant is a modern fast web browser with familiar user interface.\n    ",
       "id": "ru_yandex_Browser",
-      "updated_at": 1729862953,
+      "updated_at": 1731401084,
       "arches": [
         "x86_64"
       ],
@@ -12163,7 +12163,7 @@
       "project_license": "LicenseRef-proprietary=https://yandex.ru/legal/browser_agreement",
       "is_free_license": false,
       "app_id": "ru.yandex.Browser",
-      "icon": "https://dl.flathub.org/media/ru/yandex/Browser/ef610a6886720d444a8a841b77d896df/icons/128x128/ru.yandex.Browser.png",
+      "icon": "https://dl.flathub.org/media/ru/yandex/Browser/13a34a462e13152913f04b1f0630386e/icons/128x128/ru.yandex.Browser.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

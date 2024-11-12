@@ -846,6 +846,10 @@ NAME: File Manager
 APP_ID: com.expidusos.file_manager
 Descr: ExpidusOS File Manager
 -----------------------------
+NAME: FaFa Runner
+APP_ID: com.fafarunner.FaFaRunner
+Descr: Enjoy smooth gameplay, stunning graphics, and endless fun
+-----------------------------
 NAME: Kana
 APP_ID: com.felipekinoshita.Kana
 Descr: Learn Japanese characters
@@ -6597,6 +6601,10 @@ Descr: A game of matching marbles
 NAME: Confy
 APP_ID: net.kirgroup.confy
 Descr: Conference schedules viewer
+-----------------------------
+NAME: Hex Colordle
+APP_ID: net.krafting.HexColordle
+Descr: Find the color
 -----------------------------
 NAME: PedantiK
 APP_ID: net.krafting.PedantiK

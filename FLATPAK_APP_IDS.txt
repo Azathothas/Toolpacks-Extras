@@ -216,6 +216,7 @@ com.etlegacy.ETLegacy
 com.exok.Celeste64
 com.expidusos.calculator
 com.expidusos.file_manager
+com.fafarunner.FaFaRunner
 com.feaneron.Boatswain
 com.felipekinoshita.Kana
 com.felipekinoshita.Wildcard
@@ -1684,6 +1685,7 @@ net.jammr.jammr
 net.jenyay.Outwiker
 net.jockx.Kulki
 net.kirgroup.confy
+net.krafting.HexColordle
 net.krafting.PedantiK
 net.krafting.Playlifin
 net.krafting.PlaylifinVoyager
