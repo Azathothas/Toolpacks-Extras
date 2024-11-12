@@ -351,7 +351,7 @@
       "summary": "Program your thermal printer",
       "description": "This application is an IDE which helps you to create tickets and \n        stickers in your thermal printer using programming.\n      The software is paid, but it allows you to test the app\n        before paying.\n      This IDE support using images, image emojies,\n        QRcodes and custom text fonts while using your thermal\n        printer.\n      If you are unsure what hardware should you buy to start\n        using thermal printers, in the app there is a menu\n        with the devices and supplies I recommend because I\n        tested them to work in the app.\n    ",
       "id": "me_sergiotarxz_Exd",
-      "updated_at": 1731326976,
+      "updated_at": 1731420095,
       "arches": [
         "x86_64",
         "aarch64"
@@ -361,7 +361,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "me.sergiotarxz.Exd",
-      "icon": "https://dl.flathub.org/media/me/sergiotarxz/Exd/dad7d5c3e182516ed25f375b4697b69e/icons/128x128/me.sergiotarxz.Exd.png",
+      "icon": "https://dl.flathub.org/media/me/sergiotarxz/Exd/20f0e936a2541eeadc96cfd3b5ad6869/icons/128x128/me.sergiotarxz.Exd.png",
       "categories": [
         "Development"
       ],

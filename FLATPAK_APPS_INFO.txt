@@ -642,10 +642,6 @@ NAME: Chatterino
 APP_ID: com.chatterino.chatterino.desktop
 Descr: Chat client for twitch.tv
 -----------------------------
-NAME: FaFa Runner
-APP_ID: com.chenyifaer.FaFaRunner
-Descr: Enjoy smooth gameplay, stunning graphics, and endless fun
------------------------------
 NAME: GrafX2
 APP_ID: com.chez.GrafX2
 Descr: A bitmap paint program specialized in 256 color drawing

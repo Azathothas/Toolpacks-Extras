@@ -165,7 +165,6 @@ com.cassidyjames.plausible
 com.cburch.Logisim
 com.cerebralnomad.recipescribe
 com.chatterino.chatterino
-com.chenyifaer.FaFaRunner
 com.chez.GrafX2
 com.chowdsp.BYOD
 com.chroniclogic.Zatikon
