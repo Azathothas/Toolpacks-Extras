@@ -71,9 +71,9 @@ fi
    if find "." -maxdepth 1 -type f -name '*screen*' -size +1k | grep -q .; then
      find "." -maxdepth 1 -type f -name '*screen_*' -exec rsync -achLv "{}" "${BINDIR}" \; 2>/dev/null
      if [[ -f "${BINDIR}/${BIN}.scr.png" ]] && [[ $(stat -c%s "${BINDIR}/${BIN}.scr.png") -gt 1024 ]]; then
-       echo "https://pkg.pkgforge.dev/$(uname -m)/${BIN}.scr.png" | tee "${BINDIR}/${BIN}.screens.txt"
+       echo "https://pkgcache.pkgforge.dev/$(uname -m)/${BIN}.scr.png" | tee "${BINDIR}/${BIN}.screens.txt"
      fi
-     find "." -maxdepth 1 -type f -name '*screen_*' -printf '%f\n' | sort -t'_' -k2,2n | sed "s|^|https://pkg.pkgforge.dev/$(uname -m)/|" | tee -a "${BINDIR}/${BIN}.screens.txt"
+     find "." -maxdepth 1 -type f -name '*screen_*' -printf '%f\n' | sort -t'_' -k2,2n | sed "s|^|https://pkgcache.pkgforge.dev/$(uname -m)/|" | tee -a "${BINDIR}/${BIN}.screens.txt"
      sed '1s/^[ \t]*//; $s/[ \t]*$//; s/^[ \t]*//; s/[ \t]*$//' -i "${BINDIR}/${BIN}.screens.txt"
      if [[ ! -f "${BINDIR}/${APP}.screens.txt" || $(stat -c%s "${BINDIR}/${APP}.screens.txt") -le 3 ]]; then
        rsync -achLv  "${BINDIR}/${BIN}.screens.txt" "${BINDIR}/${APP}.screens.txt"

@@ -53,10 +53,10 @@
 
 | 🧰 Architecture 🧰 | 📦 Total PKGs 📦 | 🇨🇭 WorkFlows 🇨🇭 | 🧾Logs|
 |---------------------|-----------------------|-----------------|------------------|
-|[ **Linux `aarch64 // arm64`**](https://github.com/pkgforge/pkgcache/tree/main/aarch64-Linux)| 16 | [![🛍️ Build 📦 (aarch64-Linux) Packages 📦📀](https://github.com/pkgforge/pkgcache/actions/workflows/build_aarch64-Linux.yaml/badge.svg)](https://github.com/pkgforge/pkgcache/actions/workflows/build_aarch64-Linux.yaml)|[BUILD.log](https://pkg.pkgforge.dev/aarch64-Linux/BUILD.log.txt)|
-|[ **Linux `amd // x86_64`**](https://github.com/pkgforge/pkgcache/tree/main/x86_64-Linux)| 72 | [![🛍️ Build 📦 (x86_64-Linux) Binaries 📦📀](https://github.com/pkgforge/pkgcache/actions/workflows/build_x86_64-Linux.yaml/badge.svg)](https://github.com/pkgforge/pkgcache/actions/workflows/build_x86_64-Linux.yaml)|[BUILD.log](https://pkg.pkgforge.dev/x86_64-Linux/BUILD.log.txt)|
+|[ **Linux `aarch64 // arm64`**](https://github.com/pkgforge/pkgcache/tree/main/aarch64-Linux)| 16 | [![🛍️ Build 📦 (aarch64-Linux) Packages 📦📀](https://github.com/pkgforge/pkgcache/actions/workflows/build_aarch64-Linux.yaml/badge.svg)](https://github.com/pkgforge/pkgcache/actions/workflows/build_aarch64-Linux.yaml)|[BUILD.log](https://pkgcache.pkgforge.dev/aarch64-Linux/BUILD.log.txt)|
+|[ **Linux `amd // x86_64`**](https://github.com/pkgforge/pkgcache/tree/main/x86_64-Linux)| 72 | [![🛍️ Build 📦 (x86_64-Linux) Binaries 📦📀](https://github.com/pkgforge/pkgcache/actions/workflows/build_x86_64-Linux.yaml/badge.svg)](https://github.com/pkgforge/pkgcache/actions/workflows/build_x86_64-Linux.yaml)|[BUILD.log](https://pkgcache.pkgforge.dev/x86_64-Linux/BUILD.log.txt)|
 
-> - Raw [**`metadata`**](https://pkg.pkgforge.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/pkgforge/pkgcache/blob/main/Docs/METADATA.md) on [pkg.pkgforge.dev/METADATA.json](https://pkg.pkgforge.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/pkgforge/pkgcache/main/METADATA.yaml).
+> - Raw [**`metadata`**](https://pkgcache.pkgforge.dev/METADATA.json) containing info for _sources_ etc is available as [**JSON**](https://github.com/pkgforge/pkgcache/blob/main/Docs/METADATA.md) on [pkgcache.pkgforge.dev/METADATA.json](https://pkgcache.pkgforge.dev/METADATA.json) & also as [**YAML**](https://raw.githubusercontent.com/pkgforge/pkgcache/main/METADATA.yaml).
 > - See: [Parse METADATA.json](https://github.com/pkgforge/pkgcache/blob/main/Docs/METADATA.md#using-jq-to-parse-metadatajson) to learn how to parse using `jq`
 ---
 

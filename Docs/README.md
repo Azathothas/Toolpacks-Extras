@@ -49,7 +49,7 @@
 > ```bash
 > ❯ Linux (curl + jq + sha256sum)
 > !#path= should be exact location to $PKG, so if it's in cwd, path="./$PKG" [REPLACE $PKG with literal Value)
-> echo "$(curl -qfsSL "https://pkg.pkgforge.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$PKG") | .shasum')  $PKG" | sha256sum -c -
+> echo "$(curl -qfsSL "https://pkgcache.pkgforge.dev/$(uname -m)/METADATA.json" | jq -r '.[] | select(.name == "$PKG") | .shasum')  $PKG" | sha256sum -c -
 >  
 > ```
 > - Or You can do it manually, the checksums are at:
@@ -109,7 +109,7 @@
 > > | [`aarch64` `Linux`](https://github.com/pkgforge/pkgcache/actions/workflows/build_aarch64_Linux.yaml) | `12 vCPU (Ampere Altra)` `+` `24 GB RAM (??)` `+` `768 GB SSD` `+` `Unmetered Bandwidth` | [`Netcup`](https://www.netcup.eu/bestellen/produkt.php?produkt=3991) | `NO` | `35-40` `Hrs` | `$16.70/Mo` | 
 ---
 
-- #### [WebUI (pkg.pkgforge.dev)](https://pkg.pkgforge.dev/)
+- #### [WebUI (pkgcache.pkgforge.dev)](https://pkgcache.pkgforge.dev/)
 > - At some point, it would be nice to have a web interface like https://portable-linux-apps.github.io/, but for now, It's not planned.
 ---
 
@@ -120,8 +120,8 @@
 ---
 
 - #### Public Code Search
-> - [GitHub Search](https://github.com/search?q=NOT+user%3AAzathothas+NOT+user%3Axplshn+NOT+user%3Ametis-os+NOT+user%3Ahackerschoice+NOT+is%3Afork+pkg.pkgforge.dev&type=code&s=updated&o=desc): `NOT user:Azathothas NOT user:xplshn NOT user:metis-os NOT user:hackerschoice NOT is:fork pkg.pkgforge.dev`
-> - [Google](https://www.google.com)|[Bing](https://www.bing.com/)|[Baidu](https://www.baidu.com): `"*.pkg.pkgforge.dev" -site:ajam.dev`
+> - [GitHub Search](https://github.com/search?q=NOT+user%3AAzathothas+NOT+user%3Axplshn+NOT+user%3Ametis-os+NOT+user%3Ahackerschoice+NOT+is%3Afork+pkgcache.pkgforge.dev&type=code&s=updated&o=desc): `NOT user:Azathothas NOT user:xplshn NOT user:metis-os NOT user:hackerschoice NOT is:fork pkgcache.pkgforge.dev`
+> - [Google](https://www.google.com)|[Bing](https://www.bing.com/)|[Baidu](https://www.baidu.com): `"*.pkgcache.pkgforge.dev" -site:ajam.dev`
 ---
 
 - #### [Contact](https://ajam.dev/contact)

@@ -290,7 +290,7 @@ jobs:
             curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/METADATA.json" -o "${SYSTMP}/x86_64-Linux-METADATA.json" || echo '{}' > "${SYSTMP}/x86_64-Linux-METADATA.json"
            ##Merge
             jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "${SYSTMP}/aarch64-Linux-METADATA.json" "${SYSTMP}/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
-            sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkg.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkg.pkgforge.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
+            sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkgcache.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkgcache.pkgforge.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
            #Gen Yaml
             cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/METADATA.yaml"
             cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
@@ -375,8 +375,8 @@ jobs:
                "provides = \"\(.extra_bins)\"\n"
              ' 2>/dev/null >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             ##Main (pkg.pkgforge.dev)
-             curl -qfsSL "https://pkg.pkgforge.dev/aarch64/METADATA.min.json" |\
+             ##Main (pkgcache.pkgforge.dev)
+             curl -qfsSL "https://pkgcache.pkgforge.dev/aarch64/METADATA.min.json" |\
              jq -r '
                .[] |
                "[[pkg]]\n" +
@@ -399,7 +399,7 @@ jobs:
                "appstream = \"\(.appstream)\"\n" +
                "category = \"\(.category)\"\n" +
                "desktop = \"\(.desktop)\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://pkg.pkgforge.dev/aarch64/pkg.default.png" else .icon end) + "\"\n" +
+               "icon = \"" + (if .icon == null or .icon == "" then "https://pkgcache.pkgforge.dev/aarch64/pkg.default.png" else .icon end) + "\"\n" +
                "screenshots = [" +
                  ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n" +
@@ -601,8 +601,8 @@ jobs:
                "provides = \"\(.extra_bins)\"\n"
              ' 2>/dev/null >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
              validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             ##Main (pkg.pkgforge.dev)
-             curl -qfsSL "https://pkg.pkgforge.dev/x86_64/METADATA.min.json" |\
+             ##Main (pkgcache.pkgforge.dev)
+             curl -qfsSL "https://pkgcache.pkgforge.dev/x86_64/METADATA.min.json" |\
              jq -r '
                .[] |
                "[[pkg]]\n" +
@@ -625,7 +625,7 @@ jobs:
                "appstream = \"\(.appstream)\"\n" +
                "category = \"\(.category)\"\n" +
                "desktop = \"\(.desktop)\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://pkg.pkgforge.dev/x86_64/pkg.default.png" else .icon end) + "\"\n" +
+               "icon = \"" + (if .icon == null or .icon == "" then "https://pkgcache.pkgforge.dev/x86_64/pkg.default.png" else .icon end) + "\"\n" +
                "screenshots = [" +
                  ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
                "]\n" +
@@ -804,11 +804,11 @@ jobs:
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.yaml"
             ##Gen aarch64-Linux/DETAILED.md
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | jq -r '.[] | "### [`\(.name // "" | if . == null or . == "" then "" else . end)` 📀](\(.download_url // "" | if . == null or . == "" then "" else . end))\n- **PKG_Name 📦:** \(.pkg_name // "" | if . == null or . == "" then "" else . end)\n- **Version 🧬:** `\(.version // "" | if . == null or . == "" then "" else . end)`\n- **Description ℹ️:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note ⚠️:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Homepage 🌐:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Source 📡:** [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end))\n- **Download ⬇️:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Size 💾:** `\(.size // "" | if . == null or . == "" then "" else . end)`\n- **SHA256SUM 🔐:** `\(.shasum // "" | if . == null or . == "" then "" else . end)`\n- **B3SUM 🔐:** `\(.bsum // "" | if . == null or . == "" then "" else . end)`\n- **Script ⚙️:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Log 🧾:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Icon 🖼️:** \(.icon // "" | if . == null or . == "" then "" else . end)\n- **Desktop 🖥️:** \(.build_log | sub("\\.log$"; ".desktop"))\n- **Zsync ♻️:** \(.build_log | sub("\\.log$"; ".zsync"))\n\n---\n"' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.md"
-             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkg.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.md" > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.min.md"
+             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkgcache.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.md" > "${GITHUB_WORKSPACE}/main/aarch64-Linux/DETAILED.min.md"
             ##aarch64-Linux/README.md
              { echo '|ICON 🖼️|PKG 📀|PKG_Name 📦|Version 🧬| Description ℹ️|Note ⚠️|Homepage 🌐|Source 📡|Size 💾|SHA256SUM 🔐|B3SUM 🔐|Script ⚙️|Log 🧾|' ; echo '| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |' ; cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.json" | sed 's/|/,/g' | jq -r '.[] | "| <img src=\"\(.icon // "" | if . == null or . == "" then "" else . end)\" width=\"28\" height=\"28\"> | [`\(.name // "" | if . == null or . == "" then "" else . end)`](\(.download_url // "" | if . == null or . == "" then "" else . end)) | \(.pkg_name // "" | if . == null or . == "" then "" else . end) | \(.version // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.note // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end)) |\(.size // "" | if . == null or . == "" then "" else . end) | `\(.shasum // "" | if . == null or . == "" then "" else . end)` | `\(.bsum // "" | if . == null or . == "" then "" else . end)` | \(.build_script // "" | if . == null or . == "" then "" else . end) | \(.build_log // "" | if . == null or . == "" then "" else . end) | \(.category // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md"
              sed 's/||//g' -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md"
-             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkg.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md" > "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.min.md"
+             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkgcache.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.md" > "${GITHUB_WORKSPACE}/main/aarch64-Linux/README.min.md"
           fi
         continue-on-error: true
 
@@ -822,11 +822,11 @@ jobs:
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.yaml"
             ##Gen x86_64-Linux/DETAILED.md
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | jq -r '.[] | "### [`\(.name // "" | if . == null or . == "" then "" else . end)` 📀](\(.download_url // "" | if . == null or . == "" then "" else . end))\n- **PKG_Name 📦:** \(.pkg_name // "" | if . == null or . == "" then "" else . end)\n- **Version 🧬:** `\(.version // "" | if . == null or . == "" then "" else . end)`\n- **Description ℹ️:** \(.description // "" | if . == null or . == "" then "" else . end)\n- **Note ⚠️:** \(.note // "" | if . == null or . == "" then "" else . end)\n- **Homepage 🌐:** [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end))\n- **Source 📡:** [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end))\n- **Download ⬇️:** \(.download_url // "" | if . == null or . == "" then "" else . end)\n- **Size 💾:** `\(.size // "" | if . == null or . == "" then "" else . end)`\n- **SHA256SUM 🔐:** `\(.shasum // "" | if . == null or . == "" then "" else . end)`\n- **B3SUM 🔐:** `\(.bsum // "" | if . == null or . == "" then "" else . end)`\n- **Script ⚙️:** \(.build_script // "" | if . == null or . == "" then "" else . end)\n- **Log 🧾:** \(.build_log // "" | if . == null or . == "" then "" else . end)\n- **Icon 🖼️:** \(.icon // "" | if . == null or . == "" then "" else . end)\n- **Desktop 🖥️:** \(.build_log | sub("\\.log$"; ".desktop"))\n- **Zsync ♻️:** \(.build_log | sub("\\.log$"; ".zsync"))\n\n---\n"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.md"
-             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkg.pkgforge.dev/x86_64-Linux|g" "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.md" > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.min.md"
+             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkgcache.pkgforge.dev/x86_64-Linux|g" "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.md" > "${GITHUB_WORKSPACE}/main/x86_64-Linux/DETAILED.min.md"
             ##x86_64-Linux/README.md
              { echo '|ICON 🖼️|PKG 📀|PKG_Name 📦|Version 🧬| Description ℹ️|Note ⚠️|Homepage 🌐|Source 📡|Size 💾|SHA256SUM 🔐|B3SUM 🔐|Script ⚙️|Log 🧾|' ; echo '| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |' ; cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.json" | sed 's/|/,/g' | jq -r '.[] | "| <img src=\"\(.icon // "" | if . == null or . == "" then "" else . end)\" width=\"28\" height=\"28\"> | [`\(.name // "" | if . == null or . == "" then "" else . end)`](\(.download_url // "" | if . == null or . == "" then "" else . end)) | \(.pkg_name // "" | if . == null or . == "" then "" else . end) | \(.version // "" | if . == null or . == "" then "" else . end) | \(.description // "" | if . == null or . == "" then "" else . end) | \(.note // "" | if . == null or . == "" then "" else . end) | [\(.web_url // "" | if . == null or . == "" then "" else . end)](\(.web_url // "" | if . == null or . == "" then "" else . end)) | [\(.src_url // "" | if . == null or . == "" then "" else . end)](\(.src_url // "" | if . == null or . == "" then "" else . end)) |\(.size // "" | if . == null or . == "" then "" else . end) | `\(.shasum // "" | if . == null or . == "" then "" else . end)` | `\(.bsum // "" | if . == null or . == "" then "" else . end)` | \(.build_script // "" | if . == null or . == "" then "" else . end) | \(.build_log // "" | if . == null or . == "" then "" else . end) | \(.category // "" | if . == null or . == "" then "" else . end) |"' ; } > "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md"
              sed 's/||//g' -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md"
-             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkg.pkgforge.dev/x86_64-Linux|g" "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md" > "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.min.md"
+             sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkgcache.pkgforge.dev/x86_64-Linux|g" "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.md" > "${GITHUB_WORKSPACE}/main/x86_64-Linux/README.min.md"
           fi
         continue-on-error: true
 

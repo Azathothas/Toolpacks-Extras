@@ -64,12 +64,12 @@
 > > ↣ $(.pkg)
 > > -> .Zsync Files (.AppImage/.NixAppImage)
 > > #Though, there now exists appimageupdatetool: https://github.com/AppImageCommunity/AppImageUpdate, you can still use zsync manually if you need it 
-> > "$(.name).zsync" #Example: https://pkg.pkgforge.dev/x86_64/qbittorrent.AppImage.zsync
+> > "$(.name).zsync" #Example: https://pkgcache.pkgforge.dev/x86_64/qbittorrent.AppImage.zsync
 > > ```
 > - You can use this data to automate downloading, updating or even build a full fledged *📦 Package Manager* like [`🦀 @QaidVoid/soar`](https://github.com/QaidVoid/soar), [`@xplshn/dbin`](https://github.com/xplshn/dbin)
 ---
 
-- #### Using [JQ](https://jqlang.github.io/jq/manual/) to Parse [METADATA.json](https://pkg.pkgforge.dev/METADATA.json)
+- #### Using [JQ](https://jqlang.github.io/jq/manual/) to Parse [METADATA.json](https://pkgcache.pkgforge.dev/METADATA.json)
 > - This is a basic example demonstrating how easy it is to work with the Metadata
 > ```bash
 > #-----------------------------------------------------------------------------#
@@ -97,7 +97,7 @@
 > > !# wget works without any flags
 > >
 > > !# Example
-> > curl -qfsSLO "https://pkg.pkgforge.dev/$(uname -m)/$PKG_OR_PATH_TO_PKG"
+> > curl -qfsSLO "https://pkgcache.pkgforge.dev/$(uname -m)/$PKG_OR_PATH_TO_PKG"
 > >
 > > ```
 > ![image](https://github.com/user-attachments/assets/778cfb21-9938-4cbd-b132-cafa84676594)

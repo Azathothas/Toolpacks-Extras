@@ -103,7 +103,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
              DESCRIPTION="$(yq -r '.description' ${BUILDYAML})" && export DESCRIPTION="${DESCRIPTION}"
              jq --arg BIN "$BIN" --arg DESCRIPTION "${DESCRIPTION}" '.[] |= if .name == $BIN then . + {description: $DESCRIPTION} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Appstream
-             APPSTREAM_URLS=("https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.metainfo.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.appdata.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.metainfo.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.appdata.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.metainfo.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.appdata.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.metainfo.xml" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.appdata.xml")
+             APPSTREAM_URLS=("https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.metainfo.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.appdata.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.metainfo.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.appdata.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.metainfo.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.appdata.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.metainfo.xml" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.appdata.xml")
                 for APPSTREAM_TURLS in "${APPSTREAM_URLS[@]}"; do
                     if [ "$(curl -sL -w "%{http_code}" "${APPSTREAM_TURLS}" -o '/dev/null')" != "404" ]; then
                         jq --arg BIN "$BIN" --arg APPSTREAM "${APPSTREAM_TURLS}" \
@@ -113,7 +113,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
                 done
              jq --arg BIN "${BIN}" '.[] |= if .name == $BIN then . + {appstream: (if (.appstream == null or .appstream == "") then "" else .appstream end)} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Desktop
-             DESKTOP_URLS=("https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.desktop" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.desktop" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.desktop" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.desktop" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.desktop" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.desktop")
+             DESKTOP_URLS=("https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.desktop" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.desktop" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.desktop" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.desktop" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.desktop" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.desktop")
              for DESKTOP_TURL in "${DESKTOP_URLS[@]}"; do
                  if [ "$(curl -sL -w "%{http_code}" "${DESKTOP_TURL}" -o '/dev/null')" != "404" ]; then
                      jq --arg BIN "$BIN" --arg DESKTOP "${DESKTOP_TURL}" \
@@ -123,7 +123,7 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
              done
              jq --arg BIN "${BIN}" '.[] |= if .name == $BIN then . + {desktop: (if (.desktop == null or .desktop == "") then "" else .desktop end)} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Icon
-             ICON_URLS=("https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.icon.png" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.icon.png")
+             ICON_URLS=("https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.icon.png" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.icon.png" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.icon.png" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.alpine.icon.png" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.arch.icon.png" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN_NAME}.debian.icon.png")
                 for ICON_TURLS in "${ICON_URLS[@]}"; do
                     if [ "$(curl -sL -w "%{http_code}" "${ICON_TURLS}" -o '/dev/null')" != "404" ]; then
                         jq --arg BIN "$BIN" --arg ICON "${ICON_TURLS}" \
@@ -137,18 +137,18 @@ echo -e "\n\n [+] Started Metadata Update at :: $(TZ='UTC' date +'%A, %Y-%m-%d (
              PROVIDES="$(cat ${TMPDIR}/BINS.txt | sed "/^$BIN$/d" | paste -sd ',' -)" && export PROVIDES="${PROVIDES}"
              jq --arg BIN "$BIN" --arg PROVIDES "$PROVIDES" '.[] |= if .name == $BIN then . + {provides: $PROVIDES} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
             #Repology
-             if [ "$(curl -sL -w "%{http_code}" "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" -o '/dev/null')" != "404" ]; then
-               jq --arg BIN "$BIN" --arg REPOLOGY "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" '.[] |= if .name == $BIN then . + {repology: $REPOLOGY} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
+             if [ "$(curl -sL -w "%{http_code}" "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" -o '/dev/null')" != "404" ]; then
+               jq --arg BIN "$BIN" --arg REPOLOGY "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.repology.json" '.[] |= if .name == $BIN then . + {repology: $REPOLOGY} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
              else
                jq --arg BIN "$BIN" --arg REPOLOGY "" '.[] |= if .name == $BIN then . + {repology: $REPOLOGY} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
              fi
             #Screenshots
-             SCREENSHOT_URLS="$(curl -qfsSL "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.screens.txt" | xargs printf '"%s", ' | sed 's/, $//')"
+             SCREENSHOT_URLS="$(curl -qfsSL "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${BIN}.screens.txt" | xargs printf '"%s", ' | sed 's/, $//')"
              export SCREENSHOT_URLS="[${SCREENSHOT_URLS}]"
              if echo "${SCREENSHOT_URLS}" | grep -q "https"; then
                 jq --arg BIN "$BIN" --argjson SCREENSHOT_URLS "$SCREENSHOT_URLS" '.[] |= if .name == $BIN then . + {screenshots: $SCREENSHOT_URLS} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
              else
-                SCREENSHOT_URLS="$(curl -qfsSL "https://pkg.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.screens.txt" | xargs printf '"%s", ' | sed 's/, $//')"
+                SCREENSHOT_URLS="$(curl -qfsSL "https://pkgcache.pkgforge.dev/${HOST_TRIPLET%%-*}/${NAME}.screens.txt" | xargs printf '"%s", ' | sed 's/, $//')"
                 export SCREENSHOT_URLS="[${SCREENSHOT_URLS}]"
                 if echo "${SCREENSHOT_URLS}" | grep -q "https"; then
                    jq --arg BIN "$BIN" --argjson SCREENSHOT_URLS "$SCREENSHOT_URLS" '.[] |= if .name == $BIN then . + {screenshots: $SCREENSHOT_URLS} else . end' "${TMPDIR}/METADATA.json" > "${TMPDIR}/METADATA.tmp" && mv "${TMPDIR}/METADATA.tmp" "${TMPDIR}/METADATA.json"
@@ -248,7 +248,7 @@ if jq --exit-status . "${TMPDIR}/METADATA.json.bak" >/dev/null 2>&1; then
    #rm "./${HOST_TRIPLET}/METADATA.json.tmp" 2>/dev/null
    cp "${TMPDIR}/METADATA.json" "${HF_REPO_LOCAL}/${HOST_TRIPLET}/METADATA.json"
    #jq -r tostring "${TMPDIR}/METADATA.json" > "${HF_REPO_LOCAL}/${HOST_TRIPLET}/METADATA.min.json"
-   sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/$(uname -m)-$(uname -s)|https://pkg.pkgforge.dev/$(uname -m)|g" \
+   sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/$(uname -m)-$(uname -s)|https://pkgcache.pkgforge.dev/$(uname -m)|g" \
    "${HF_REPO_LOCAL}/${HOST_TRIPLET}/METADATA.json" | jq -r tostring > "${HF_REPO_LOCAL}/${HOST_TRIPLET}/METADATA.min.json"
  #Commit & Push
    git add --all --verbose && git commit -m "[+] METADATA (${HOST_TRIPLET}) [$(TZ='UTC' date +'%Y_%m_%d')]"
