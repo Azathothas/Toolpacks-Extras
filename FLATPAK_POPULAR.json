@@ -691,7 +691,7 @@
       "summary": "PlayStation Emulator",
       "description": "DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices.\n      \"Hack\" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.\n      \"PlayStation\" and \"PSX\" are registered trademarks of Sony Interactive Entertainment Europe Limited. This project is not affiliated in any way with Sony Interactive Entertainment.\n    ",
       "id": "org_duckstation_DuckStation",
-      "updated_at": 1730516294,
+      "updated_at": 1731384069,
       "arches": [
         "x86_64",
         "aarch64"
@@ -701,7 +701,7 @@
       "project_license": "CC-BY-NC-ND-4.0",
       "is_free_license": false,
       "app_id": "org.duckstation.DuckStation",
-      "icon": "https://dl.flathub.org/media/org/duckstation/DuckStation/e09cd6456ad84bcd059fb804ab110d3a/icons/128x128/org.duckstation.DuckStation.png",
+      "icon": "https://dl.flathub.org/media/org/duckstation/DuckStation/4724b3d516d15dc0cbb341fbc850de8c/icons/128x128/org.duckstation.DuckStation.png",
       "categories": [
         "Game",
         "Emulator"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

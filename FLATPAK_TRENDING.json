@@ -18640,7 +18640,7 @@
       "summary": "Manage your passwords",
       "description": "Secrets is a password manager which makes use of the KeePass v.4 format. It integrates perfectly with the GNOME desktop and provides an easy and uncluttered interface for the management of password databases.\n    ",
       "id": "org_gnome_World_Secrets",
-      "updated_at": 1729187514,
+      "updated_at": 1731366405,
       "arches": [
         "x86_64",
         "aarch64"
@@ -18798,7 +18798,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.gnome.World.Secrets",
-      "icon": "https://dl.flathub.org/media/org/gnome/World.Secrets/e7c54a8c51fc9f4014c6257b44fd1cb0/icons/128x128/org.gnome.World.Secrets.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/World.Secrets/61774791ff672a1bb0a3e86c37ca67ed/icons/128x128/org.gnome.World.Secrets.png",
       "categories": [
         "Utility"
       ],
@@ -23091,7 +23091,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 48,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
