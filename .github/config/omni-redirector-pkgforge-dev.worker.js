@@ -47,15 +47,13 @@ const DOMAIN_CONFIG = new Map([
 // Unified handler for all domains
 function handleDomain(pathname, search, config) {
   const { defaultTarget, pathMappings } = config;
-  
+
   // Check for specific path matches first
   for (const [prefix, target] of pathMappings) {
-    if (pathname.startsWith('/' + prefix)) {
-      const remainingPath = pathname.slice(prefix.length + 1); // +1 for the leading slash
-      const baseUrl = target.endsWith('/') && remainingPath.startsWith('/')
-        ? target.slice(0, -1)
-        : target;
-      return `${baseUrl}${remainingPath}${search}`;
+    if (pathname.startsWith('/' + prefix + '/')) {
+      const remainingPath = pathname.slice(prefix.length + 2); // +2 for both slashes
+      const baseUrl = target.endsWith('/') ? target.slice(0, -1) : target;
+      return `${baseUrl}/${remainingPath}${search}`;
     }
   }
   
