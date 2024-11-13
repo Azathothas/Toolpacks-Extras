@@ -133,7 +133,7 @@
       "summary": "Messaging, voice and video client",
       "description": "Discord is a free all in one messaging, voice, and video client thats available on your computer and phone.\n      Whether you’re part of a school club, gaming group, worldwide art community, or just a handful of friends that want to spend time together, Discord makes it easy to talk every day and hang out more often.\n      \n        Talk to your friends with messaging, voice, and video in a \"Direct Message\" (1 other person), group chat (up to 10 people), or a multi-channel server (practically infinite maximum members).\n        Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.\n        Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.\n        Get a community of any size running with moderation tools and custom member access. Give members special powers, set up private channels, and more.\n        Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.\n        Available on Linux, macOS, Windows, iOS, Android, and your web browser.\n      \n      Discord is written in Javascript, React, Elixir, and Rust. The desktop application uses the electron framework.\n      The flatpak version runs in a sandbox to provide better safety and privacy for users. However, this sandboxing prevents the following features from working out of the box: Game Activity, Unrestricted File Access, Rich Presence. Check the README in the Github repo for details.\n    ",
       "id": "com_discordapp_Discord",
-      "updated_at": 1730785649,
+      "updated_at": 1731455554,
       "arches": [
         "x86_64"
       ],
@@ -142,7 +142,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.discordapp.Discord",
-      "icon": "https://dl.flathub.org/media/com/discordapp/Discord/3e0510fc4126da7c0dfd44f4311d6dd4/icons/128x128/com.discordapp.Discord.png",
+      "icon": "https://dl.flathub.org/media/com/discordapp/Discord/f6ad36464d3bf5acf1e59912fcab8eff/icons/128x128/com.discordapp.Discord.png",
       "categories": [
         "InstantMessaging",
         "Network"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

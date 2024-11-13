@@ -307,10 +307,6 @@ APP_ID: ch.x29a.playitslowly
 Descr: Play music at a different speed
 -----------------------------
 NAME: Delta Chat
-APP_ID: playitslowly.desktop
-Descr: Delta Chat email-based messenger
------------------------------
-NAME: Delta Chat
 APP_ID: chat.delta.desktop
 Descr: Delta Chat email-based messenger
 -----------------------------

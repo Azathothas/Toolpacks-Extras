@@ -2718,10 +2718,10 @@
         "Post-it",
         "Sticky"
       ],
-      "summary": "Take notes in Markdown",
-      "description": "Create notebooks, take notes in markdown\n      Features:\n      \n        Almost WYSIWYG markdown rendering\n        Searchable through GNOME search\n        Highlight and strikethrough text formatting\n        App themeing based on notebook color\n        Trash can\n      \n    ",
+      "summary": "A beautiful markdown note-taking app for GNOME",
+      "description": "Create notebooks and take notes in markdown\n      Some features include:\n      \n        Almost WYSIWYG markdown rendering\n        Searchable through GNOME search\n        Highlight and strikethrough text formatting\n        App themeing based on notebook color\n        Trash can\n        Markdown document\n        Optional line numbers\n        Optional auto save\n        Open links with Control-Click\n        Link to other notes in Folio\n        Automatically create links for bare URL's and e-mail addresses\n      \n    ",
       "id": "com_toolstack_Folio",
-      "updated_at": 1729560295,
+      "updated_at": 1731457435,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2729,78 +2729,65 @@
       "type": "desktop-application",
       "translations": {
         "ar": {
-          "description": "أنشِئ الدفاتر، ودوِّن الملاحظات بـ«ماركداون»\n      المزايا:\n      \n        تَصْيير ما تراه هو ما تحصل عليه (WYSIWYG) جزئي لـ«ماركداون»\n        قابل للبحث من خلال بحث جنوم\n        تنسيق الإبراز والخط الوسطي للنص\n        سمة التطبيق استنادًا إلى لون الدفتر\n        سلة المهملات\n      \n    ",
-          "summary": "دوِّن الملاحظات بـ«ماركداون»"
+          "description": "أنشِئ الدفاتر، ودوِّن الملاحظات بـ«ماركداون»\n      بعض المزايا تتضمن:\n      \n        تَصْيير ما تراه هو ما تحصل عليه (WYSIWYG) جزئي لـ«ماركداون»\n        قابل للبحث من خلال بحث جنوم\n        تنسيق الإبراز والخط الوسطي للنص\n        سمة التطبيق استنادًا إلى لون الدفتر\n        سلة المهملات\n        مستند ماركداون\n        أرقام أسطر اختيارية\n        حفظ آلي اختياري\n        فتح الروابط من خلال التحكم بالضغط\n        الربط بالملاحظات الأخرى في «مطوية»\n        إنشاء الروابط آليًا للمسارات وعناوين البريد الإلكتروني\n      \n    ",
+          "summary": "تطبيق تدوين ملاحظات ماركداون جميل لجنوم"
         },
         "cs": {
-          "description": "Vytvářejte sešity, dělejte si poznámky v markdown\n      Vlastnosti:\n      \n        Téměř WYSIWYG vykreslování markdown\n        Lze prohledávat pomocí vyhledávání v GNOME\n        Formátování textu zvýrazněním a přeškrtnutím\n        Motiv aplikace založený na barvě sešitu\n        Koš\n      \n    ",
-          "summary": "Dělejte si poznámky v Markdown"
+          "description": "\n        Téměř WYSIWYG vykreslování markdown\n        Lze prohledávat pomocí vyhledávání v GNOME\n        Formátování textu zvýrazněním a přeškrtnutím\n        Motiv aplikace založený na barvě sešitu\n        Koš\n      \n    "
         },
         "de": {
-          "description": "Erstellen Sie Notizbücher, machen Sie Notizen in Markdown\n      Funktionen:\n      \n        Beinahe vollständige Echtbilddarstellung (WYSIWYG) von Markdown\n        Durchsuchbar mit der GNOME-Suche\n        Papierkorb\n      \n    ",
-          "summary": "Notizen machen in Markdown"
+          "description": "\n        Beinahe vollständige Echtbilddarstellung (WYSIWYG) von Markdown\n        Durchsuchbar mit der GNOME-Suche\n        Papierkorb\n        Markdown-Dokument\n      \n    "
         },
         "es": {
-          "description": "Crea libretas, toma notas en Markdown\n      Funcionalidades:\n      \n        Renderizado casi perfecto de Markdown\n        Rastreable a través de la búsqueda de GNOME\n        Papelera\n      \n    ",
-          "summary": "Toma apuntes en Markdown"
+          "description": "\n        Renderizado casi perfecto de Markdown\n        Rastreable a través de la búsqueda de GNOME\n        Papelera\n        Documento Markdown\n      \n    "
         },
         "fa": {
-          "description": "ایجاد دفترچه، یادداشت‌برداری به روش مارک‌دون\n      قابلیت‌ها:\n      \n        پردازش تقریباً ویزی‌ویگ مارک‌دون\n        جست‌وجوپذیر از جست‌وجوی گنوم\n        زباله‌دان\n      \n    ",
-          "summary": "کارهٔ یادداشت‌برداری"
+          "description": "\n        پردازش تقریباً ویزی‌ویگ مارک‌دون\n        جست‌وجوپذیر از جست‌وجوی گنوم\n        زباله‌دان\n        سند مارک‌دون\n      \n    "
         },
         "fi": {
-          "description": "Luo muistikirjoja ja tee muistiinpanoja Markdownilla\n      Ominaisuudet:\n      \n        Lähes WYSIWYG-tason Markdown-editori\n        muistiinpanoja voi hakea GNOME:n haulla\n        Roskakori\n      \n    ",
-          "summary": "Tee muistiinpanoja Markdownilla"
+          "description": "\n        Lähes WYSIWYG-tason Markdown-editori\n        muistiinpanoja voi hakea GNOME:n haulla\n        Roskakori\n        Markdown-tiedosto\n      \n    "
         },
         "fr": {
-          "description": "Créez des carnets de notes, prenez des notes en markdown\n      Fonctionnalités :\n      \n        Rendu Markdown instantanné\n        Recherche possible directement sur le bureau GNOME\n        Mise en forme du texte en surbrillance et en barré\n        Coloration de l’application selon la couleur du carnet de notes\n        Corbeille\n      \n    ",
-          "summary": "Application de prise de notes"
+          "description": "Créez des carnets de notes et prenez des notes en markdown\n      Quelques fonctionnalités inclues :\n      \n        Rendu Markdown instantanné\n        Recherche possible directement sur le bureau GNOME\n        Mise en forme du texte en surbrillance et en barré\n        Coloration de l’application selon la couleur du carnet de notes\n        Corbeille\n        Document Markdown\n        Numérotation des lignes optionnelle\n        Enregistrement automatique optionnel\n        Ouverture des liens avec Ctrl + Clic\n        Lien vers d’autres notes dans Folio\n        Création automatique de liens pour les adresses URL et e-mail\n      \n    ",
+          "summary": "Une belle application de prise de notes Markdown pour GNOME"
         },
         "hi": {
-          "description": "नोटबुक बनाएं, मार्कडाउन में नोट्स लें\n      विशेषताएं:\n      \n        लगभग WYSIWYG मार्कडाउन प्रतिपादन\n        GNOME खोज के माध्यम से खोजा जा सकता है\n        हाइलाइट और स्ट्राइकथ्रू पाठ प्रारूपण\n        नोटबुक रंग पर आधारित ऐप थीम\n        कूड़ेदान\n      \n    ",
-          "summary": "मार्कडाउन में नोट्स लें"
+          "description": "\n        लगभग WYSIWYG मार्कडाउन प्रतिपादन\n        GNOME खोज के माध्यम से खोजा जा सकता है\n        हाइलाइट और स्ट्राइकथ्रू पाठ प्रारूपण\n        नोटबुक रंग पर आधारित ऐप थीम\n        कूड़ेदान\n      \n    "
         },
         "it": {
-          "description": "Crea taccuini, prendi note con markdown\n      Funzionalità:\n      \n        Rendering del markdown fedele\n        Ricerca direttamente dal desktop GNOME\n        Evidenzia e barra la formattazione del testo\n        Temi dell'app basati sul colore del taccuino\n        Cestino\n      \n    ",
-          "summary": "Applicazione di note"
+          "description": "\n        Rendering del markdown fedele\n        Ricerca direttamente dal desktop GNOME\n        Evidenzia e barra la formattazione del testo\n        Temi dell'app basati sul colore del taccuino\n        Cestino\n        Documento markdown\n      \n    "
         },
         "ko": {
-          "description": "마크다운으로 노트를 작성하고 필기장 만들기\n      기능:\n      \n        대부분의 WYSIWYG 마크다운 렌더링\n        그놈 검색을 통해 검색 가능\n        휴지통\n      \n    ",
-          "summary": "노트 작성 프로그램"
+          "description": "\n        대부분의 WYSIWYG 마크다운 렌더링\n        그놈 검색을 통해 검색 가능\n        휴지통\n        마크다운 문서\n      \n    "
         },
         "nb": {
-          "description": "Opprett notisbøker, ta notater på Markdown\n      Funksjoner:\n      \n        Nesten WYSIWYG Markdown-gjengivelse\n        Søkbar med GNOME-søk\n        Fremhev og gjennomstrek tekst\n        Appdrakt basert på notisbokfarge\n        Papirkurv\n      \n    ",
-          "summary": "Ta notater på Markdown"
+          "description": "\n        Nesten WYSIWYG Markdown-gjengivelse\n        Søkbar med GNOME-søk\n        Fremhev og gjennomstrek tekst\n        Appdrakt basert på notisbokfarge\n        Papirkurv\n      \n    "
         },
         "oc": {
-          "description": "Creatz de libres de nòtas, prenètz de nòtas en markdown\n      Foncionalitats :\n      \n        Gaireben un rendut WYSIWYG markdown\n        Trobable via GNOME search\n        Bordilhièr\n      \n    ",
-          "summary": "Aplicacion de presa de nòtas"
+          "description": "\n        Gaireben un rendut WYSIWYG markdown\n        Trobable via GNOME search\n        Bordilhièr\n        Document Markdown\n      \n    "
         },
         "pl": {
-          "description": "Twórz zeszyty, rób notatki w markdown\n      Cechy:\n      \n        To co widzisz jest tym co otrzymasz - czytelne formatowanie z Markdown\n        Możliwość wyszukiwania treści przez wyszukiwanie GNOME\n        Kosz na śmieci\n      \n    ",
-          "summary": "Rób notatki w Markdown"
+          "description": "\n        To co widzisz jest tym co otrzymasz - czytelne formatowanie z Markdown\n        Możliwość wyszukiwania treści przez wyszukiwanie GNOME\n        Kosz na śmieci\n        Dokument Markdown\n      \n    "
         },
         "pt-BR": {
-          "description": "Crie cadernos, tome notas em Markdown\n      Funcionalidades:\n      \n        Renderização de Markdown quase WYSIWYG\n        Pesquisável por meio da pesquisa do GNOME\n        Formatação com opção de texto destacado e tachado\n        Tematização do aplicativo com base na cor de cada caderno\n        Lixeira\n      \n    ",
-          "summary": "Tome notas em Markdown"
+          "description": "Crie cadernos e tome notas em Markdown\n      Suas funcionalidades incluem:\n      \n        Renderização de Markdown quase WYSIWYG\n        Pesquisável por meio da pesquisa do GNOME\n        Formatação com opção de texto destacado e tachado\n        Tematização do aplicativo com base na cor de cada caderno\n        Lixeira\n        Documento markdown\n        Números de linha opcionais\n        Salvamento automático opcional\n        Abrir links com Ctrl + clique\n        Criar links para outras notas no Folio\n        Criar automaticamente links para URLs e endereços de e-mail escritos como texto\n      \n    ",
+          "summary": "Um lindo aplicativo de notas em Markdown para o GNOME"
         },
         "ru": {
-          "description": "Создать блокноты, делайте заметки в markdown\n      Функции:\n      \n        Рендеринг markdown почти как WYSIWYG\n        Доступен для поиска через поиск GNOME\n        Мусорная корзина\n      \n    ",
-          "summary": "Делайте заметки в Markdown"
+          "description": "\n        Рендеринг markdown почти как WYSIWYG\n        Доступен для поиска через поиск GNOME\n        Мусорная корзина\n        Документ markdown\n      \n    "
         },
         "tr": {
-          "description": "Not defterleri oluşturun, markdown ile not alın\n      Özellikler:\n      \n        Neredeyse WYSIWYG markdown oluşturma\n        GNOME aramasıyla aranabilir\n        Vurgulama ve üstünü çizme\n        Not defteri rengine göre uygulama renklendirme\n        Çöp kutusu\n      \n    ",
-          "summary": "Markdown ile not alın"
+          "description": "Not defterleri oluşturun, markdown ile not alın\n      Kimi özelikleri:\n      \n        Neredeyse WYSIWYG markdown oluşturma\n        GNOME aramasıyla aranabilir\n        Vurgulama ve üstünü çizme\n        Not defteri rengine göre uygulama renklendirme\n        Çöp kutusu\n        Markdown belgesi\n        İsteğe bağlı satır numaraları\n        İsteğe bağlı kendiliğinden kayıt\n        Ctrl tıklama ile bağlantıları açma\n        Folio içindeki diğer notlara bağlantı\n        Temel URL ve e-posta adreslerinden kendiliğinden bağlantılar oluştur\n      \n    ",
+          "summary": "GNOME için güzel bir markdown not alma uygulaması"
         },
         "uk": {
-          "description": "Створити блокноти, робіть нотатки в Markdown\n      Функції:\n      \n        Рендеринг markdown майже як WYSIWYG\n        Можливий для пошуку через пошук GNOME\n        Смітник\n      \n    ",
-          "summary": "Робіть нотатки в Markdown"
+          "description": "\n        Рендеринг markdown майже як WYSIWYG\n        Можливий для пошуку через пошук GNOME\n        Смітник\n        Документ Markdown\n      \n    "
         }
       },
       "project_license": "GPL-3.0+",
       "is_free_license": true,
       "app_id": "com.toolstack.Folio",
-      "icon": "https://dl.flathub.org/media/com/toolstack/Folio/78188498c2c958bf5dc216d8c2df760a/icons/128x128/com.toolstack.Folio.png",
+      "icon": "https://dl.flathub.org/media/com/toolstack/Folio/6df7076dc7b83d229a68cbf12f9c4ff9/icons/128x128/com.toolstack.Folio.png",
       "categories": [
         "Utility",
         "TextEditor"
@@ -23376,7 +23363,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
