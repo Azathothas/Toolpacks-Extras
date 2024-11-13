@@ -1090,6 +1090,7 @@ io.github.achetagames.epic_asset_manager
 io.github.adenlall.salatok-gtk
 io.github.adrienverge.PhotoCollage
 io.github.aerocyber.sitemarker
+io.github.aganzha.Stage
 io.github.aggalex.Wineglass
 io.github.alainm23.planify
 io.github.alescdb.mailviewer
@@ -1256,6 +1257,7 @@ io.github.kalaksi.Lightkeeper
 io.github.kaschpal.timetable
 io.github.kelvinnovais.Kasasa
 io.github.kevinsmia1939.PySimpleCV
+io.github.khaled_0.TubeSync
 io.github.koromelodev.mindmate
 io.github.kotatogram
 io.github.kovzol.bibref
@@ -1595,6 +1597,7 @@ it.mijorus.collector
 it.mijorus.gearlever
 it.mijorus.smile
 it.mijorus.whisper
+it.unibo.tuprolog.ide
 jp.yvt.OpenSpades
 la.ogri.strongbox
 life.bolls.bolls

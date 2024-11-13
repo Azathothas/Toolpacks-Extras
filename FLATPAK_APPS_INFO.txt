@@ -4242,6 +4242,10 @@ NAME: Sitemarker
 APP_ID: io.github.aerocyber.sitemarker
 Descr: An open source bookmark manager
 -----------------------------
+NAME: Stage
+APP_ID: io.github.aganzha.Stage
+Descr: Git GUI client inspired by Magit
+-----------------------------
 NAME: Wineglass
 APP_ID: io.github.aggalex.Wineglass
 Descr: A GUI for Wine
@@ -4861,6 +4865,10 @@ Descr: Snip and pin useful information
 NAME: PySimpleCV
 APP_ID: io.github.kevinsmia1939.PySimpleCV
 Descr: Plot Cyclic voltammogram and battery cycling
+-----------------------------
+NAME: TubeSync
+APP_ID: io.github.khaled_0.TubeSync
+Descr: Sync YouTube playlists offline
 -----------------------------
 NAME: MindMate
 APP_ID: io.github.koromelodev.mindmate
@@ -6229,6 +6237,10 @@ Descr: An emoji picker
 NAME: Whisper
 APP_ID: it.mijorus.whisper.desktop
 Descr: Listen to your mic
+-----------------------------
+NAME: tuProlog IDE
+APP_ID: it.unibo.tuprolog.ide
+Descr: An IDE for using Prolog via 2p-kt
 -----------------------------
 NAME: OpenSpades
 APP_ID: jp.yvt.OpenSpades

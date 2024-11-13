@@ -4698,7 +4698,7 @@
       "summary": "Feature-packed web browser",
       "description": "\n      The web browser for techies and people who need a browser that helps them get things done.\n      The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.\n    \n      \n        Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n        Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n        Jot down ideas and inspiration with the integrated Notes manager.\n        End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.\n        Efficient built-in Tracker and Ad Blocker.\n        Compatible with most browser extensions from the Google Chrome Web Store.\n      \n      \n      NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.\n    \n    ",
       "id": "com_vivaldi_Vivaldi",
-      "updated_at": 1731079371,
+      "updated_at": 1731513097,
       "arches": [
         "aarch64",
         "x86_64"
@@ -4708,7 +4708,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.vivaldi.Vivaldi",
-      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/e8f8bb45c77210c29d6de56e2e901ff2/icons/128x128/com.vivaldi.Vivaldi.png",
+      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/5e88dd57922b94fbadb1f79dbebaabcb/icons/128x128/com.vivaldi.Vivaldi.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -8987,7 +8987,7 @@
       "summary": "IDE for Android app development",
       "description": "Android Studio is the official Integrated Development Environment (IDE) for Android app development. Based on the powerful code editor and developer tools from IntelliJ IDEA, Android Studio offers even more features that enhance your productivity when building Android apps, such as:\n      \n        A flexible Gradle-based build system\n        A fast and feature-rich emulator\n        A unified environment where you can develop for all Android devices\n        Live Edit to update composables in emulators and physical devices in real time\n        Code templates and GitHub integration to help you build common app features and import sample code\n        Extensive testing tools and frameworks\n        Lint tools to catch performance, usability, version compatibility, and other problems\n        C++ and NDK support\n        Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine\n      \n    ",
       "id": "com_google_AndroidStudio",
-      "updated_at": 1730803076,
+      "updated_at": 1731502584,
       "arches": [
         "x86_64"
       ],
@@ -11986,7 +11986,7 @@
       "summary": "Capable and Ergonomic Java IDE",
       "description": "\n      IntelliJ IDEA Community is a free and open-source edition of IntelliJ IDEA, the commercial Java IDE by JetBrains.\n      IntelliJ IDEA Community provides all the tools you need for Java, Groovy, Kotlin, Scala, and Android. It offers\n      instant and clever code completion, on-the-fly code analysis, and reliable refactoring tools.\n    \n      \n      Mission-critical tools such as integrated version controls systems and a wide variety of supported languages and\n      frameworks are at hand — no plugin hustle included.\n    \n      \n      IntelliJ IDEA Community can be downloaded at no cost and is open for contributions by community members. The\n      product is built on top of the IntelliJ Platform, which is fully open source.\n    \n      NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.\n    ",
       "id": "com_jetbrains_IntelliJ-IDEA-Community",
-      "updated_at": 1729697075,
+      "updated_at": 1731511471,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11996,7 +11996,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "com.jetbrains.IntelliJ-IDEA-Community",
-      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/e177dedd8fd90d6946f495794d4b5949/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
+      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/113994e2b0bd5ff2f9369c60a198d027/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
       "categories": [
         "Development",
         "IDE"
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
