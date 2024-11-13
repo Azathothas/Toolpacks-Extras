@@ -17090,7 +17090,7 @@
       "summary": "Nextcloud desktop synchronization client",
       "description": "The Nextcloud desktop client allows you to keep one or more folders full of\nyour photos, videos and documents synchronized with your server. Any file you\nadd, modify or delete in the synced folders on your desktop or laptop will show\nup, change or disappear on the server and all other connected devices. Thanks\nto the client, you can work with your files even when you are not online!\n    ",
       "id": "com_nextcloud_desktopclient_nextcloud",
-      "updated_at": 1727830461,
+      "updated_at": 1731491857,
       "arches": [
         "aarch64",
         "x86_64"
@@ -17100,7 +17100,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "com.nextcloud.desktopclient.nextcloud",
-      "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/6aad1078122012bcefc9900b04acf55e/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
+      "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/f6370629781c4afabe12da8baca750d8/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
       "categories": [
         "Utility"
       ],
@@ -21969,7 +21969,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
