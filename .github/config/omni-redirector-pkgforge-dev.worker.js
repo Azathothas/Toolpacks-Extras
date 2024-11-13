@@ -11,11 +11,15 @@ const DOMAIN_CONFIG = new Map([
       defaultTarget: BINCACHE_DEFAULT,
       pathMappings: new Map([
         ['aarch64', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/aarch64-Linux'],
+        ['aarch64-linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/aarch64-Linux'],
         ['aarch64-Linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/aarch64-Linux'],
         ['arm64_linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/aarch64-Linux'],
+        ['arm64_Linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/aarch64-Linux'],
         ['x86_64', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux'],
+        ['x86_64-linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux'],
         ['x86_64-Linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux'],
-        ['amd64_linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux']
+        ['amd64_linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux'],
+        ['amd64_Linux', 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main/x86_64-Linux']
       ])
     }
   ],
@@ -25,11 +29,15 @@ const DOMAIN_CONFIG = new Map([
       defaultTarget: PKGCACHE_DEFAULT,
       pathMappings: new Map([
         ['aarch64', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux'],
+        ['aarch64-linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux'],
         ['aarch64-Linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux'],
         ['arm64_linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux'],
+        ['arm64_Linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux'],
         ['x86_64', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux'],
+        ['x86_64-linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux'],
         ['x86_64-Linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux'],
-        ['amd64_linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux']
+        ['amd64_linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux'],
+        ['amd64_Linux', 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux']
       ])
     }
   ],
