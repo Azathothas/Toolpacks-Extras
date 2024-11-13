@@ -9,7 +9,6 @@ app.drey.Biblioteca
 app.drey.Blurble
 app.drey.Damask
 app.drey.Dialect
-app.drey.Doggo
 app.drey.EarTag
 app.drey.Elastic
 app.drey.KeyRack

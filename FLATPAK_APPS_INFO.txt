@@ -30,10 +30,6 @@ NAME: Dialect
 APP_ID: app.drey.Dialect
 Descr: Translate between languages
 -----------------------------
-NAME: Doggo
-APP_ID: app.drey.Doggo
-Descr: Clicker and chance game
------------------------------
 NAME: Key Rack
 APP_ID: app.drey.KeyRack
 Descr: View and edit passwords
@@ -2788,7 +2784,7 @@ Descr: Download, upload or stream files from MEGA
 -----------------------------
 NAME: Folio
 APP_ID: com.toolstack.Folio
-Descr: Take notes in Markdown
+Descr: A beautiful markdown note-taking app for GNOME
 -----------------------------
 NAME: Waveform11
 APP_ID: com.tracktion.Waveform
