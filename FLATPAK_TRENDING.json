@@ -5461,7 +5461,7 @@
       "summary": "Learn Japanese characters",
       "description": "\n      This application helps you to learn Japanese characters using a gradual learning algorithm which makes you test-like questions.\n    \n      \n      It keeps a inner score of how much you know a character to give priority to ask you again about it if needed and introduces new characters when you are ready.\n    \n      It works now without having to install any third party font.\n    ",
       "id": "me_sergiotarxz_JapaChar",
-      "updated_at": 1731510420,
+      "updated_at": 1731576934,
       "arches": [
         "aarch64",
         "x86_64"
@@ -5471,7 +5471,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "me.sergiotarxz.JapaChar",
-      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/4d00f143890e028a30f795fb66527480/icons/128x128/me.sergiotarxz.JapaChar.png",
+      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/214ed00fffaabfd427f7c0e2b03c5fd5/icons/128x128/me.sergiotarxz.JapaChar.png",
       "categories": [
         "Education",
         "Game"
@@ -6748,7 +6748,7 @@
       "summary": "Play and organize all your music",
       "description": "\n      Rhythmbox is a music management application, designed to work well under the GNOME\n      desktop. In addition to music stored on your computer, it supports network shares,\n      podcasts, radio streams, portable music devices (including phones), and internet music\n      services such as Last.fm and Magnatune.\n    \n      \n      Rhythmbox is Free software, based on GTK+ and GStreamer, and is extensible via plugins\n      written in Python or C.\n    \n    ",
       "id": "org_gnome_Rhythmbox3",
-      "updated_at": 1722068416,
+      "updated_at": 1731581434,
       "arches": [
         "aarch64",
         "x86_64"
@@ -6757,23 +6757,28 @@
       "translations": {
         "be": {
           "description": "Rhythmbox — гэта праграма для кіравання музыкай, распрацаваная для працы ў асяроддзі GNOME. У дадатак да музыкі, якая захоўваецца на вашым камп'ютары, падтрымліваюцца сеткавыя рэсурсы, падкасты, радыёперадачы, партатыўныя музычныя прылады (у тым ліку тэлефоны) і разнастайныя музычныя інтэрнэт-сэрвісы, напрыклад, Last.fm і Magnatune.\n      Rhythmbox — свабоднае праграмнае забеспячэнне, заснаванае на GTK+ і GStreamer і з магчымасцю падлучэння плагінаў, напісаных на Python або C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Прайграе і арганізуе вашу музыку"
         },
         "ca": {
           "description": "El Rhytmbox és una aplicació de gestió de música dissenyada per a treballar amb l'escriptori GNOME. A més de gestionar la música que teniu al vostre ordinador, és compatible amb la compartició en xarxa, podcasts, flux de ràdio, dispositius de música portable (inclosos telèfons) i serveis de música d'Internet com Last.fm o Magnatune.\n      El Rhythmbox és programari lliure, basat en GTK+ i GStreamer, i és extensible mitjançant connectors escrits en Python o C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Reproduïu i organitzeu tota la música"
         },
         "cs": {
           "description": "Rhythmbox je aplikace sloužící ke správě hudby a je navržena pro pracovní prostředí GNOME. Mimo hudby uložené ve vašem počítači podporuje také síťové sdílení, podcasty, vysílání rádií, přenosné přehrávače (včetně mobilních telefonů) a internetové hudební služby, jako je Last.fm a Magnatune.\n      Rhythmbox je svobodný software používající GTK+ a GStreamer a je rozšiřitelný pomocí zásuvných modulů psaných v jazycích Python nebo C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Přehrávejte si a organizujte veškerou svoji hudbu"
         },
         "da": {
           "description": "Rhythmbox er et musikhåndteringsprogram som er designet med særligt henblik på GNOME-skrivebordet. Ud over musikken på din computer, understøtter Rhythmbox netværksdelinger, podcast, radiostrømme, transportable musikafspillere (inklusive telefoner) samt internettjenester såsom Last.fm og Magnatune.\n      Rhythmbox er fri software baseret på GTK+ og GStreamer, og kan udvides med moduler skrevet i Python eller C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Afspil og organisér al din musik"
         },
         "de": {
           "description": "Rhythmbox ist ein Musikverwaltungsprogramm, welches konzipiert ist, um gut innerhalb der GNOME-Arbeitsumgebung zu laufen. Über die Musik hinaus, die auf Ihrem Rechner gespeichert ist, unterstützt es Netzwerkfreigaben, »Podcasts«, Radiosendungen, tragbare Musikgeräte (auch Telefone) und Internet-Musikdienste wie Last.fm und Magnatune.\n      Rhythmbox ist freie Software, basierend auf GTK+ und GStreamer. Es ist mit Zusatzmodulen erweiterbar, die in Python oder C geschrieben sind.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Ihre gesamte Musik wiedergeben und organisieren"
         },
         "el": {
           "description": "Το Rhythmbox είναι μια εφαρμογή διαχειρίσης της μουσικής σας, σχεδιασμένη να λειτουργεί άριστα στο GNOME. Εκτός από τη μουσική που είναι αποθηκευμένη στον υπολογιστή σας, υποστηρίζει κοινόχρηστα δικτύου, ραδιοφωνικές ροές, φορητές συσκευές μουσικής (και κινητά τηλέφωνα), και διαδικτυακές υπηρεσίες μουσικής όπως τα Last.fm και Magnatune.\n      Το Rhythmbox είναι ελεύθερο λογισμικό, βασισμένο στο GTK+ και το GStreamer, και είναι επεκτάσιμο με πρόσθετο γραμμένα σε Python ή C.\n    ",
@@ -6793,11 +6798,17 @@
         },
         "fi": {
           "description": "Rytmilaatikko on sovellus musiikin hallintaan. Se tukee paikallisten tiedostojen lisäksi verkkojakoja, podcasteja, radiosuoratoistoja, kannettavia musiikkilaitteita (mukaan lukien puhelimia) ja internetpalveluita kuten Last.fm ja Magnatune.\n      Rytmilaatikko on vapaa ja avoin ohjelmisto, joka pohjautuu GTK+:aan ja Gstreameriin. Rytmilaatikko on ohjelmoitu käyttäen Pythonia ja C:tä. Laajennuksilla on mahdollista lisätä toiminnalisuuksia Rytmilaatikkoon.\n    ",
-          "name": "Rytmilaatikko"
+          "name": "Rytmilaatikko",
+          "summary": "Soita ja järjestä musiikkikokoelmasi"
         },
         "fr": {
           "description": "Rhythmbox est une application de gestion de musique conçue pour s’intégrer harmonieusement au bureau GNOME. En plus de la musique stockée sur votre ordinateur, elle gère les partages réseau, les podcasts, les flux radiophoniques, les lecteurs audio portables (y compris les téléphones), et les services de musique sur Internet comme Last.fm et Magnatune.\n      Rhythmbox est un logiciel libre basé sur GTK+ et GStreamer ; il est extensible par des greffons écrits en Python ou en C.\n    ",
           "name": "Rhythmbox"
+        },
+        "hi": {
+          "description": "रिदमबॉक्स एक संगीत प्रबंधन एप्लिकेशन है, जिसे गनोम डेस्कटॉप के तहत अच्छी तरह से काम करने के लिए डिज़ाइन किया गया है। आपके कंप्यूटर पर संग्रहीत संगीत के अलावा, यह नेटवर्क शेयर, पॉडकास्ट, रेडियो स्ट्रीम, पोर्टेबल संगीत डिवाइस (फोन सहित) और Last.fm और Magnatune जैसी इंटरनेट संगीत सेवाओं का समर्थन करता है।\n      रिदमबॉक्स एक निःशुल्क सॉफ्टवेयर है, जो GTK+ और GStreamer पर आधारित है, तथा इसे पायथन या C में लिखे प्लगइन्स के माध्यम से विस्तारित किया जा सकता है।\n    ",
+          "name": "रिदमबॉक्स",
+          "summary": "अपना सारे संगीत बजाएं और व्यवस्थित करें"
         },
         "hr": {
           "description": "Rhythmbox je aplikacija za upravljanje glazbom, dizajnirana tako da radi u GNOME radnom okruženju. Kao dodatak glazbi spremljenoj na vašem računalu, podržava mrežno dijeljenje, podcaste, radio streamove, prijenosne glazbene uređaje (uključujući mobitele) i internet glazbene usluge poput Last.fm i Magnatune.\n      Rhythmbox je slobodan softver, temeljen na GTK+ i GStreameru, i proširiv je putem priključaka napisanim u Pythonu ili C.\n    ",
@@ -6805,11 +6816,13 @@
         },
         "hu": {
           "description": "A Rhythmbox egy GNOME környezetbeli működésre tervezett zenekezelő alkalmazás. A számítógépén tárolt zenén túl támogatja a hálózati megosztásokat, podcastokat, rádióközvetítéseket, hordozható zenelejátszókat (telefonokat is) és olyan internetes zenei szolgáltatásokat, mint a Last.fm és Magnatune.\n      A Rhythmbox szabad szoftver, a GTK+ és GStreamer használatával készült, és Python vagy C nyelvű bővítményekkel bővíthető.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Az összes zenéjének lejátszása és rendszerezése"
         },
         "id": {
           "description": "Rhythmbox adalah sebuah aplikasi manajemen musik, dirancang untuk bekerja baik di bawah desktop GNOME. Selain musik yang disimpan pada komputer Anda, itu mendukung berbagi pakai jaringan, siniar, stream radio, perangkat musik portabel (termasuk telepon), dan layanan musik internet seperti Last.fm dan Magnatune.\n      Rhythmbox adalah Perangkat lunak bebas, berbasis pada GTK+ dan GStreamer, dan dapat dikembangkan melalui pengaya yang ditulis dalam Python atau C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Putar dan atur semua musik Anda"
         },
         "it": {
           "description": "Rhythmbox è un'applicazione per la gestione della musica, progettata per integrarsi nell'ambiente grafico GNOME. Oltre alla musica archiviata nel proprio computer, supporta condivisioni di rete, podcast, radio, dispositivi portatili (compresi telefonini) e servizi musicali su Internet come Last.fm e Magnatune.\n      Rhythmbox è software libero basato su GTK+ e GStreamer ed è possibile estenderne le funzionalità attraverso plugin scritti in Python o C.\n    ",
@@ -6825,7 +6838,8 @@
         },
         "lt": {
           "description": "Rhythmbox yra muzikos tvarkymo programa, sukurta taip, kad gerai veiktų GNOME darbalaukyje. Be jūsų kompiuteryje esančios muzikos ji palaiko tinklo viešinius, tiklalaides, radijo srautus, nešiojamus muzikos įrenginius (įskaitant telefonus) bei internetines muzikos tarnybas, tokias kaip Last.fm ir Magnatune.\n      Rhythmbox yra laisva programinė įranga, sukurta GTK+ ir GStreamer pagrindu, bei yra plečiama įskiepiais, parašytais Python arba C kalbomis.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Grokite ir tvarkykite savo muziką"
         },
         "nb": {
           "description": "Rhythmbox er et program for håndtering av musikk og er designet for GNOME skrivebordet. I tillegg til musikk lagret på din datamaskin støtter det delte nettverkslokasjoner, podcaster, radiostrømmer og portable musikkenheter (inklusive telefoner) og musikktjenester på internett som Last.fm og Magnatune.\n      Rhythmbox er fri programvare basert på GTK+ og GStreamer og kan utvides via tillegg skrevet i Python eller C.\n    ",
@@ -6837,39 +6851,48 @@
         },
         "oc": {
           "description": "Rhythmbox es una aplicacion de gestion de musica concebuda per s'integrar armoniosament al burèu GNOME. Amai de la musica emmagazinada sus vòstre ordinator, gerís los partiments ret, los podcasts, los fluxes radiofonics, los lectors àudios portables (incluses los telefòns), e los servicis de musica sus Internet coma Last.fm e Magnatune.\n      Rhythmbox es un logicial liure basat sus GTK+ e GStreamer ; es extensible per d'empeutons escriches en Python o en C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Legir e organizar tota vòstra musica"
         },
         "pl": {
           "description": "Rhythmbox to program do zarządzania muzyką, zaprojektowany do działania w środowisku GNOME. Oprócz muzyki przechowywanej na komputerze obsługuje on także muzykę udostępnianą w sieci, podcasty, radio internetowe, przenośne odtwarzacze muzyki (w tym smartfony) oraz serwisy internetowe Last.fm i Magnatune.\n      Rhythmbox jest wolnym oprogramowaniem, opartym na bibliotekach GTK i GStreamer, i jest rozszerzalny dzięki mechanizmowi wtyczek napisanych w językach Python i C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Odtwarzanie i organizowanie muzyki"
         },
         "pt": {
           "description": "O Rhytmbox é uma aplicação de gestão de música desenhada para trabalhar bem nos ambientes de trabalho GNOME. Além de armazenar música no seu computador, suporta partilhas de rede, podcasts, fluxos de rádio, dispositivos de música portáteis (incluindo telefones) e serviços de música pela internet, tais como Last.fm e Magnatune.\n      Rhytmbox é uma aplicação livre, baseado em GTK+ e GStreamer e é extensivel com extensões escritas em Python ou C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Reproduza e organize toda a sua música"
         },
         "pt-BR": {
           "description": "Rhythmbox é um aplicativo de gerenciamento de músicas, projetado para funcionar bem sob o ambiente GNOME. Além de músicas armazenadas em seu computador, há suporte a compartilhamentos de rede, podcasts, streams de rádio, dispositivos de música portáteis (incluindo telefones), e serviços de músicas na Internet tal como Last.fm e Magnatune.\n      Rhythmbox é um software livre, baseado no GTK+ e GStreamer, e é extensível via plug-ins escritos em Python ou C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Reproduza e organize a sua coleção de música"
         },
         "ro": {
           "description": "Rhythmbox este o aplicație de administrare a muzicii, concepută pentru a funcționa bine sub mediul de desktop GNOME. Pe lângă muzica stocată pe calculatorul dumneavoastră, suportă partajări de rețea, podcasturi, fluxuri radio, dispozitive portabile de muzică (inclusiv telefoane) și servicii de muzică pe internet cum ar fi Last.fm și Magnatune.\n      Rhythmbox este program liber, bazat pe GTK+ și GStreamer, și este extensibil prin module scrise în Python sau C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Redă și organizează toată muzica"
         },
         "ru": {
           "description": "Rhythmbox — это приложение для управления музыкой, предназначенное для работы в среде GNOME. В дополнение к музыке, хранящейся на вашем компьютере, оно поддерживает работу по сети, подкасты, радио, портативные устройства (включая телефоны), а также музыкальные интернет сервисы, такие как Last.fm и Magnatune.\n      Rhythmbox — это свободное программное обеспечение, основанное на GTK+ и GStreamer, и расширяемое с помощью модулей написанных на Python или C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Воспроизведение и упорядочение всей вашей музыкальной коллекции"
         },
         "sv": {
           "description": "Rhythmbox är ett program för musikhantering, designat för att fungera bra i skrivbordsmiljön GNOME. Förutom musik lagrad på din dator stöder det nätverksutdelningar, poddsändningar, radioströmmar, portabla musikenheter (inklusive mobiler) och musiktjänster på internet som Last.fm och Magnatune.\n      Rhythmbox är fri programvara, baserad på GTK+ och GStreamer, och är utökningsbar genom insticksmoduler skrivna i Python eller C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Spela och organisera all din musik"
         },
         "tr": {
           "description": "Rhythmbox GNOME masaüstünde iyi çalışmak üzere tasarlanmış müzik yönetim uygulamasıdır. Bilgisayarınzda kayıtlı müziğe ek olarak, ağ paylaşımlarını, ortam akışları, radyo akışlarını, taşınabilir müzik aygıtlarını (telefonlar dahil), ve Last.fm ve Magnatune gibi internet müzik hizmetlerini de destekler.\n      Rhythmbox GTK+ ve GStreamer temelli Özgür yazılımdır, ve Python veya C ile yazılan eklentilerle geliştirilebilir.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Tüm müziklerinizi çalın ve yönetin"
         },
         "uk": {
           "description": "Rhythmbox — програма для керування музичними даними, яку тісно інтегровано до стільниці GNOME. Окрім роботи із музичними файлами, які зберігаються на вашому комп'ютері, у програмі передбачено підтримку роботи зі спільними ресурсами у мережі, подкастами, потоками радіотрансляцій, портативними музичними пристроями (включно із телефонами) та музичними службами у інтернеті, зокрема Last.fm і Magnatune.\n      Rhythmbox є вільним програмним забезпеченням, заснованим на GTK+ і GStreamer, можливості якого можна розширити за допомогою додатків мовами Python і C.\n    ",
-          "name": "Rhythmbox"
+          "name": "Rhythmbox",
+          "summary": "Відтворення та упорядкування усіх ваших музичних творів"
         },
         "vi": {
           "description": "Rhythmbox là một ứng dụng quản lý nhạc, thiết kế để làm việc tốt trên môi trường máy tính GNOME. Ngoài việc nhạc lưu trên máy tính của bạn, nó còn hỗ trợ chia sẻ qua mạng, podcats, luồng radio, thiết bị âm nhạc di động (bao gồm cả điện thoại) và các dịch vụ âm nhạc trên internet như là Last.fm và Magnatune.\n      Rhythmbox là phần mềm miễn phí, dựa trên GTK+ và GStreamer, và được mở rộng thông qua các phần bổ xung viết bằng ngôn ngữ Python hay C.\n    ",
@@ -6893,9 +6916,6 @@
         "ga": {
           "name": "Rhythmbox"
         },
-        "hi": {
-          "name": "रिदमबॉक्स"
-        },
         "pa": {
           "name": "ਰੀਥਮਬਾਕਸ"
         },
@@ -6909,7 +6929,7 @@
       "project_license": "GPL-2.0+ and GFDL-1.3",
       "is_free_license": true,
       "app_id": "org.gnome.Rhythmbox3",
-      "icon": "https://dl.flathub.org/media/org/gnome/Rhythmbox3.desktop/d62ab6be2656d2f38e15716780af221e/icons/128x128/org.gnome.Rhythmbox3.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/Rhythmbox3.desktop/6a13c9ede0f9a329c1fb50753cb6efc6/icons/128x128/org.gnome.Rhythmbox3.desktop.png",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -12035,7 +12055,7 @@
       "summary": "Translate and localize applications and libraries",
       "description": "\n      Gtranslator is an enhanced gettext po file editor for the GNOME desktop\n      environment.\n      It handles all forms of gettext po files and includes very useful features\n      like find/replace, translation memory, different translator profiles,\n      messages table (for having an overview of the translations/messages in the\n      po file), easy navigation and editing of translation messages and comments\n      of the translation where accurate.\n    \n      \n      Gtranslator includes also a plugin system with many interesting plugins like alternate language, insert tags, integration with subversion and a source code viewer.\n    \n    ",
       "id": "org_gnome_Gtranslator",
-      "updated_at": 1728129707,
+      "updated_at": 1731566021,
       "arches": [
         "aarch64",
         "x86_64"
@@ -12252,7 +12272,7 @@
       "summary": "Manage your bibliography",
       "description": "Manage your bibliographies using the BibTeX format.\n    ",
       "id": "org_gnome_World_Citations",
-      "updated_at": 1729089328,
+      "updated_at": 1731572895,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22562,7 +22582,7 @@
       "summary": "Manage AppImages",
       "description": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.\n    ",
       "id": "it_mijorus_gearlever",
-      "updated_at": 1731326798,
+      "updated_at": 1731573795,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22619,7 +22639,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "mijorus.it",
       "verification_timestamp": "1686721686",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.736984265852705,
       "installs_last_month": 26765,
       "added_at": 1686656859
@@ -22812,7 +22832,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
