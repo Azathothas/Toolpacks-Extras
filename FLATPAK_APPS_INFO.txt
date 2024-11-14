@@ -8010,10 +8010,6 @@ NAME: Crosswords
 APP_ID: org.gnome.Crosswords
 Descr: Solve crossword puzzles
 -----------------------------
-NAME: EasyTAG
-APP_ID: org.gnome.EasyTAG
-Descr: Edit audio file metadata
------------------------------
 NAME: Eolie
 APP_ID: org.gnome.Eolie
 Descr: Web browser

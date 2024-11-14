@@ -11985,7 +11985,7 @@
       "summary": "Ultimate entertainment center",
       "description": "Kodi allows users to play and view videos, music, podcasts,\n        and other digital media files from local storage, network storage\n        and the internet. It's optimized for a 10-foot user interface to be\n        used with televisions and remote controls.\n      Kodi spawned from the love of media. It is an entertainment hub\n        that brings all your digital media together into a beautiful\n        and user friendly package. It is 100% free and open source,\n        very customisable and runs on a wide variety of devices. It is\n        supported by a dedicated team of volunteers and a huge community.\n    ",
       "id": "tv_kodi_Kodi",
-      "updated_at": 1723943959,
+      "updated_at": 1731547752,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11995,7 +11995,7 @@
       "project_license": "GPL-2.0-only GPL-2.0-or-later LGPL-2.1-or-later MIT BSD-3-Clause BSD-4-Clause",
       "is_free_license": true,
       "app_id": "tv.kodi.Kodi",
-      "icon": "https://dl.flathub.org/media/tv/kodi/Kodi/4f8cbfae09dc6c8c55501a5d3f604fbb/icons/128x128/tv.kodi.Kodi.png",
+      "icon": "https://dl.flathub.org/media/tv/kodi/Kodi/dd163a745edd525dcfeaeee92663d697/icons/128x128/tv.kodi.Kodi.png",
       "categories": [
         "AudioVideo",
         "Video",
@@ -22812,7 +22812,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
