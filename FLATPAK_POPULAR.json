@@ -6028,7 +6028,7 @@
       "summary": "Media player",
       "description": "Open source media player built with Qt/QML and libmpv.\n      Features\n      \n        play online videos, through youtube-dl\n        supports youtube playlists\n        toggle playlist with mouse-over, playlist overlays the video\n        auto skip chapter containing certain words\n        configurable shortcuts and mouse buttons\n        quick jump to next chapter by middle click on progress bar\n      \n    ",
       "id": "org_kde_haruna",
-      "updated_at": 1731536203,
+      "updated_at": 1731592764,
       "arches": [
         "x86_64",
         "aarch64"
@@ -9808,7 +9808,7 @@
       "summary": "High-performance code editor",
       "description": "\n      *NOTE*: This is the official release of Zed, packaged into a Flatpak by the community. This repackaging is not yet supported by Zed Industries, Inc.\n    \n      \n      Productive coding starts with a tool that stays out of your way. Zed blends the power of an IDE with the speed of a lightweight editor for productivity you can feel under your fingertips.\n    \n      Features:\n      \n        Performance: Efficiently uses every CPU core and your GPU for instant startup, quick file loading, and responsive keystrokes.\n        Language-aware: Maintains a syntax tree for precise highlighting, and auto-indent, with LSP support for autocompletion and refactoring.\n        Collaboration: Real-time editing and navigation for multiple developers in a shared workspace.\n        AI Integration: Integrates GitHub Copilot and GPT-4 for natural language code generation.\n      \n    ",
       "id": "dev_zed_Zed",
-      "updated_at": 1731526187,
+      "updated_at": 1731599265,
       "arches": [
         "x86_64",
         "aarch64"
@@ -9818,7 +9818,7 @@
       "project_license": "AGPL-3.0-or-later and Apache-2.0 and GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "dev.zed.Zed",
-      "icon": "https://dl.flathub.org/media/dev/zed/Zed/8c764ba85010f097a694a1e74e1c0db0/icons/128x128/dev.zed.Zed.png",
+      "icon": "https://dl.flathub.org/media/dev/zed/Zed/a657326d7dfc237b3967a45bf4ebe215/icons/128x128/dev.zed.Zed.png",
       "categories": [
         "Development",
         "Utility"
@@ -13741,7 +13741,7 @@
       "added_at": 1545160256
     },
     {
-      "name": "Minetest",
+      "name": "Luanti",
       "keywords": [
         "sandbox",
         "world",
@@ -13753,9 +13753,9 @@
         "roleplaying"
       ],
       "summary": "Block-based multiplayer game platform",
-      "description": "\n            Minetest is a block-based sandbox game platform.\n        \n      \n            Players can create and destroy various types of blocks in a\n            three-dimensional open world. This allows forming structures in\n            every possible creation, on multiplayer servers or in singleplayer.\n        \n      \n            Minetest is designed to be simple, stable, and portable.\n            It is lightweight enough to run on fairly old hardware.\n        \n      \n            Minetest has many features, including:\n        \n      \n        Ability to walk around, dig, and build in a near-infinite voxel world\n        Crafting of items from raw materials\n        A simple modding API that supports many additions and modifications to the game\n        Multiplayer support via servers hosted by users\n        Beautiful lightning-fast map generator\n      \n    ",
+      "description": "\n            Luanti is a block-based sandbox game platform.\n        \n      \n            Players can create and destroy various types of blocks in a\n            three-dimensional open world. This allows forming structures in\n            every possible creation, on multiplayer servers or in singleplayer.\n        \n      \n            Luanti is designed to be simple, stable, and portable.\n            It is lightweight enough to run on fairly old hardware.\n        \n      \n            Luanti has many features, including:\n        \n      \n        Ability to walk around, dig, and build in a near-infinite voxel world\n        Crafting of items from raw materials\n        A simple modding API that supports many additions and modifications to the game\n        Multiplayer support via servers hosted by users\n        Beautiful lightning-fast map generator\n      \n    ",
       "id": "net_minetest_Minetest",
-      "updated_at": 1729630438,
+      "updated_at": 1731600051,
       "arches": [
         "x86_64",
         "aarch64"
@@ -13763,18 +13763,18 @@
       "type": "desktop-application",
       "translations": {
         "de": {
-          "description": "\n            Minetest ist eine blockbasierte Sandbox-Spielplattform.\n        \n      \n            Spieler können in einer offenen 3D-Welt viele verschiedene Arten von\n            Blöcken platzieren und abbauen. Dies erlaubt das Bauen von vielfältigen\n            Strukturen im Einzelspieler oder auf Mehrspielerservern.\n        \n      \n            Minetest wurde entworfen, um einfach, stabil und portabel zu sein.\n            Es ist leichtgewichtig genug, um auf relativ alter Hardware zu laufen.\n        \n      \n            Minetest besitzt viele Features, unter anderem:\n        \n      \n        Die Möglichkeit, in einer nahezu unendlichen Voxel-Welt herumzulaufen, zu graben und zu\n                bauen\n            \n        Fertigen von Items aus Rohmaterialien\n        Eine einfache Modding-API, die viele Ergänzungen und Änderungen am Spiel unterstützt\n        Mehrspieler auf selber gehosteten Servern\n        Wunderschöner, blitzschneller Kartengenerator\n      \n    ",
+          "description": "\n            Luanti ist eine blockbasierte Sandbox-Spielplattform.\n        \n      \n            Spieler können in einer offenen 3D-Welt viele verschiedene Arten von\n            Blöcken platzieren und abbauen. Dies erlaubt das Bauen von vielfältigen\n            Strukturen im Einzelspieler oder auf Mehrspielerservern.\n        \n      \n            Luanti wurde entworfen, um einfach, stabil und portabel zu sein.\n            Es ist leichtgewichtig genug, um auf relativ alter Hardware zu laufen.\n        \n      \n            Luanti besitzt viele Features, unter anderem:\n        \n      \n        Die Möglichkeit, in einer nahezu unendlichen Voxel-Welt herumzulaufen, zu graben und zu\n                bauen\n            \n        Fertigen von Items aus Rohmaterialien\n        Eine einfache Modding-API, die viele Ergänzungen und Änderungen am Spiel unterstützt\n        Mehrspieler auf selber gehosteten Servern\n        Wunderschöner, blitzschneller Kartengenerator\n      \n    ",
           "summary": "Blockbasierte Mehrspieler-Spieleplattform"
         },
         "fr": {
-          "description": "\n            Minetest est une plateforme de jeu de type bac à sable à base de blocs.\n        \n      \n            Les joueurs peuvent créer et détruire différents types de blocs dans un\n            monde ouvert tridimensionnel. Cela permet de créer des structures de toutes les\n            formes possibles, sur des serveurs multijoueurs ou en solo.\n        \n      \n            Minetest est conçu pour être simple, stable et portable.\n            Il est suffisamment léger pour fonctionner sur du matériel relativement ancien.\n        \n      \n            Minetest offre de nombreuses fonctionnalités, notamment :\n        \n      \n        La possibilité de se promener, de creuser et de construire dans un monde voxel quasi-infini\n            \n        Fabrication d'objets à partir de matières premières\n        Une API de modding simple qui permet de nombreux ajouts et modifications au jeu\n        Prise en charge du multijoueur via des serveurs hébergés par les utilisateurs\n        Générateur de cartes très rapide\n      \n    ",
+          "description": "\n            Luanti est une plateforme de jeu de type bac à sable à base de blocs.\n        \n      \n            Les joueurs peuvent créer et détruire différents types de blocs dans un\n            monde ouvert tridimensionnel. Cela permet de créer des structures de toutes les\n            formes possibles, sur des serveurs multijoueurs ou en solo.\n        \n      \n            Luanti est conçu pour être simple, stable et portable.\n            Il est suffisamment léger pour fonctionner sur du matériel relativement ancien.\n        \n      \n            Luanti offre de nombreuses fonctionnalités, notamment :\n        \n      \n        La possibilité de se promener, de creuser et de construire dans un monde voxel quasi-infini\n            \n        Fabrication d'objets à partir de matières premières\n        Une API de modding simple qui permet de nombreux ajouts et modifications au jeu\n        Prise en charge du multijoueur via des serveurs hébergés par les utilisateurs\n        Générateur de cartes très rapide\n      \n    ",
           "summary": "Plate-forme de jeu multijoueurs à base de blocs"
         }
       },
       "project_license": "LGPL-2.1+ AND CC-BY-SA-3.0 AND MIT AND Apache-2.0",
       "is_free_license": true,
       "app_id": "net.minetest.Minetest",
-      "icon": "https://dl.flathub.org/media/net/minetest/Minetest/c204a0c3ee9ae0e5e0f23e83512bafd2/icons/128x128/net.minetest.Minetest.png",
+      "icon": "https://dl.flathub.org/media/net/minetest/Minetest/067516b419777a1e8d2989d35d2fe6aa/icons/128x128/net.minetest.Minetest.png",
       "categories": [
         "Game",
         "Simulation"
@@ -13785,7 +13785,7 @@
       "sub_categories": [
         "Simulation"
       ],
-      "developer_name": "Minetest Team",
+      "developer_name": "Luanti Team",
       "verification_verified": "true",
       "verification_method": "website",
       "verification_login_name": null,
@@ -21971,7 +21971,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

@@ -1062,6 +1062,7 @@ io.github.KikoPlayProject.KikoPlay
 io.github.MakovWait.Godots
 io.github.MrPiggy92.ScriptedJourneys
 io.github.NickKarpowicz.LightwaveExplorer
+io.github.OkuBrowser.oku
 io.github.OpenToonz
 io.github.Pithos
 io.github.Predidit.Kazumi
@@ -1817,6 +1818,7 @@ net.wz2100.wz2100
 net.xm1math.Texmaker
 net.xmind.XMind
 net.xmind.XMind8
+net.zdechov.app.C-evo
 net.zdechov.app.LazFuck
 net.zdechov.app.TransLines
 net.zdechov.app.Tunneler

@@ -4142,6 +4142,10 @@ NAME: Lightwave Explorer
 APP_ID: io.github.NickKarpowicz.LightwaveExplorer
 Descr: An efficient, user-friendly solver for nonlinear light-matter interaction
 -----------------------------
+NAME: Oku
+APP_ID: io.github.OkuBrowser.oku
+Descr: A Web browser with an emphasis on local-first data storage
+-----------------------------
 NAME: OpenToonz
 APP_ID: io.github.OpenToonz
 Descr: 2D animation
@@ -6710,7 +6714,7 @@ NAME: MeshLab
 APP_ID: net.meshlab.MeshLab
 Descr: Free and open source processing and editing 3D triangular meshes
 -----------------------------
-NAME: Minetest
+NAME: Luanti
 APP_ID: net.minetest.Minetest
 Descr: Block-based multiplayer game platform
 -----------------------------
@@ -7181,6 +7185,10 @@ Descr: Mind Mapping &amp; Brainstorming
 NAME: XMind 8
 APP_ID: net.xmind.XMind8
 Descr: Amazing brainstorming and mind mapping tool.
+-----------------------------
+NAME: C-evo: New Horizons
+APP_ID: net.zdechov.app.C-evo
+Descr: Turn-based empire building game
 -----------------------------
 NAME: LazFuck
 APP_ID: net.zdechov.app.LazFuck
