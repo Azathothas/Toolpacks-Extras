@@ -9332,28 +9332,34 @@
       "name": "Funkcio",
       "keywords": null,
       "summary": "Draw functions from points",
-      "description": "Define a few points and get mathematical functions that connect them.",
+      "description": "\n        Define a few points and get mathematical functions that connect them.\n        \n    ",
       "id": "im_bernard_Funkcio",
-      "updated_at": 1695620582,
+      "updated_at": 1731541403,
       "arches": [
         "aarch64",
         "x86_64"
       ],
       "type": "desktop-application",
-      "translations": {},
+      "translations": {
+        "en-GB": {
+          "description": "Define a few points and get mathematical functions that connect them.\n    ",
+          "name": "Funkcio",
+          "summary": "Draw functions from points"
+        }
+      },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "im.bernard.Funkcio",
-      "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/im.bernard.Funkcio.png",
+      "icon": "https://dl.flathub.org/media/im/bernard/Funkcio/ffdbae68272fbf1f96a705c578edc14b/icons/128x128/im.bernard.Funkcio.png",
       "categories": [
+        "Utility",
         "Education",
-        "Science",
-        "Utility"
+        "Science"
       ],
       "main_categories": [
+        "Utility",
         "Education",
-        "Science",
-        "Utility"
+        "Science"
       ],
       "sub_categories": [],
       "developer_name": "Walter Bernard",
@@ -9364,7 +9370,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 15.09629264369585,
       "installs_last_month": 161,
       "added_at": 1615652697
