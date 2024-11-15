@@ -268,16 +268,8 @@ com.github.alainm23.byte
 com.github.alecaddd.sequeler
 com.github.alexhuntley.Plots
 com.github.alexkdeveloper.desktop-files-creator
-com.github.alexkdeveloper.dice
-com.github.alexkdeveloper.dwxmlcreator
-com.github.alexkdeveloper.easter
-com.github.alexkdeveloper.forgetpass
-com.github.alexkdeveloper.goldsearch
-com.github.alexkdeveloper.notepad
 com.github.alexkdeveloper.recorder
 com.github.alexkdeveloper.relaxator
-com.github.alexkdeveloper.somafm
-com.github.alexkdeveloper.sudoku
 com.github.amikha1lov.RecApp
 com.github.appadeia.Taigo
 com.github.arminstraub.krop
@@ -1094,9 +1086,6 @@ io.github.aganzha.Stage
 io.github.aggalex.Wineglass
 io.github.alainm23.planify
 io.github.alescdb.mailviewer
-io.github.alexkdeveloper.calculator
-io.github.alexkdeveloper.gomoku
-io.github.alexkdeveloper.predictor
 io.github.alexkdeveloper.radio
 io.github.alexkdeveloper.zodiac
 io.github.am2r_community_developers.AM2RLauncher

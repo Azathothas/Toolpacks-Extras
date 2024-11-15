@@ -1042,30 +1042,6 @@ NAME: Desktop Files Creator
 APP_ID: com.github.alexkdeveloper.desktop-files-creator
 Descr: Simple app for creating desktop files on GNU/Linux
 -----------------------------
-NAME: Dice
-APP_ID: com.github.alexkdeveloper.dice
-Descr: A simple dice game
------------------------------
-NAME: Dynamic Wallpaper Creator
-APP_ID: com.github.alexkdeveloper.dwxmlcreator
-Descr: Simple dynamic wallpaper creator
------------------------------
-NAME: Date of Catholic Easter
-APP_ID: com.github.alexkdeveloper.easter
-Descr: Calculate the date of Catholic Easter
------------------------------
-NAME: Forgetpass
-APP_ID: com.github.alexkdeveloper.forgetpass
-Descr: Simple password generator for websites
------------------------------
-NAME: Gold Search
-APP_ID: com.github.alexkdeveloper.goldsearch
-Descr: A game in which you need to look for gold
------------------------------
-NAME: Notepad
-APP_ID: com.github.alexkdeveloper.notepad
-Descr: Easy to create text notes
------------------------------
 NAME: Recorder
 APP_ID: com.github.alexkdeveloper.recorder
 Descr: Simple audio recorder
@@ -1073,14 +1049,6 @@ Descr: Simple audio recorder
 NAME: Relaxator
 APP_ID: com.github.alexkdeveloper.relaxator
 Descr: Relax to soothing sounds
------------------------------
-NAME: Soma Radio
-APP_ID: com.github.alexkdeveloper.somafm
-Descr: A simple radio with built-in stations from the website somafm.com
------------------------------
-NAME: Sudoku
-APP_ID: com.github.alexkdeveloper.sudoku
-Descr: Sudoku game
 -----------------------------
 NAME: RecApp
 APP_ID: com.github.amikha1lov.RecApp.desktop
@@ -4257,18 +4225,6 @@ Descr: Forget about forgetting things
 NAME: MailViewer
 APP_ID: io.github.alescdb.mailviewer
 Descr: EML and MSG file viewer
------------------------------
-NAME: Calculator
-APP_ID: io.github.alexkdeveloper.calculator
-Descr: A simple string calculator
------------------------------
-NAME: Gomoku
-APP_ID: io.github.alexkdeveloper.gomoku
-Descr: Gomoku game
------------------------------
-NAME: Predictor
-APP_ID: io.github.alexkdeveloper.predictor
-Descr: A program that predicts the future
 -----------------------------
 NAME: Radio
 APP_ID: io.github.alexkdeveloper.radio
