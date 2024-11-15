@@ -3348,7 +3348,7 @@ Descr: Beyond the equation
 -----------------------------
 NAME: Tweaks
 APP_ID: dev.edfloreshz.CosmicTweaks
-Descr: Customize your COSMIC™ desktop
+Descr: Beyond the limits of your desktop
 -----------------------------
 NAME: Tasks
 APP_ID: dev.edfloreshz.Tasks
