@@ -267,7 +267,6 @@ com.github.ahrm.sioyek
 com.github.alainm23.byte
 com.github.alecaddd.sequeler
 com.github.alexhuntley.Plots
-com.github.alexkdeveloper.astronum
 com.github.alexkdeveloper.desktop-files-creator
 com.github.alexkdeveloper.dice
 com.github.alexkdeveloper.dwxmlcreator

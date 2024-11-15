@@ -1038,10 +1038,6 @@ NAME: Sequeler
 APP_ID: com.github.alecaddd.sequeler
 Descr: Friendly SQL Client
 -----------------------------
-NAME: Astronum
-APP_ID: com.github.alexkdeveloper.astronum
-Descr: Program for simple astrological and numerological calculations
------------------------------
 NAME: Desktop Files Creator
 APP_ID: com.github.alexkdeveloper.desktop-files-creator
 Descr: Simple app for creating desktop files on GNU/Linux
@@ -7428,7 +7424,7 @@ Descr: True Decentralised Digital Currency
 -----------------------------
 NAME: Black Fennec
 APP_ID: org.blackfennec.app
-Descr: Extensible Semi-structured Data Editing Environment
+Descr: Semi-structured Data Editor
 -----------------------------
 NAME: BleachBit
 APP_ID: org.bleachbit.BleachBit
