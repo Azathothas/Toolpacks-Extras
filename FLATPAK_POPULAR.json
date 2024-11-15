@@ -4698,7 +4698,7 @@
       "summary": "Feature-packed web browser",
       "description": "\n      The web browser for techies and people who need a browser that helps them get things done.\n      The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.\n    \n      \n        Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n        Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n        Jot down ideas and inspiration with the integrated Notes manager.\n        End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.\n        Efficient built-in Tracker and Ad Blocker.\n        Compatible with most browser extensions from the Google Chrome Web Store.\n      \n      \n      NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.\n    \n    ",
       "id": "com_vivaldi_Vivaldi",
-      "updated_at": 1731513097,
+      "updated_at": 1731624762,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4708,7 +4708,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.vivaldi.Vivaldi",
-      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/5e88dd57922b94fbadb1f79dbebaabcb/icons/128x128/com.vivaldi.Vivaldi.png",
+      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/b9e24cd22dc1d8401ff255e0c85ca9d1/icons/128x128/com.vivaldi.Vivaldi.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -22071,7 +22071,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
