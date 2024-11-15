@@ -1088,7 +1088,7 @@
       "summary": "Original Xbox Emulator",
       "description": "\n       A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.\n    \n      Note: Only \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu\" can be written by xemu.\n    The Hard Disk image has to be placed there, for example, at \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu/xbox_hdd.qcow2\".\n    ",
       "id": "app_xemu_xemu",
-      "updated_at": 1727619898,
+      "updated_at": 1731664648,
       "arches": [
         "x86_64",
         "aarch64"
@@ -1098,7 +1098,7 @@
       "project_license": "GPL-2.0-only",
       "is_free_license": true,
       "app_id": "app.xemu.xemu",
-      "icon": "https://dl.flathub.org/media/app/xemu/xemu/8190da7573dd878c83903e4cd0d3a613/icons/128x128/app.xemu.xemu.png",
+      "icon": "https://dl.flathub.org/media/app/xemu/xemu/5a29ca2ce17a5b92b2d1195fa8f90ef9/icons/128x128/app.xemu.xemu.png",
       "categories": [
         "Game",
         "Emulator"
@@ -17733,7 +17733,7 @@
       "summary": "Rhythm is just a *click* away!",
       "description": "Open source rhythm game written in C# and inspired by Osu! Tatakae! Ouendan\n      Attention: Unofficial package. For official releases, please visit the osu! website.\n    ",
       "id": "sh_ppy_osu",
-      "updated_at": 1729022036,
+      "updated_at": 1731663156,
       "arches": [
         "x86_64"
       ],
@@ -17744,7 +17744,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "sh.ppy.osu",
-      "icon": "https://dl.flathub.org/media/sh/ppy/osu/7f0579a3edc5e8791116e68937f5a735/icons/128x128/sh.ppy.osu.png",
+      "icon": "https://dl.flathub.org/media/sh/ppy/osu/83ce99c3d3c5701deaa4f5b9045923c7/icons/128x128/sh.ppy.osu.png",
       "categories": [
         "Game"
       ],
@@ -22071,7 +22071,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
