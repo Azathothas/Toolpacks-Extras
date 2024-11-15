@@ -1038,18 +1038,6 @@ NAME: Sequeler
 APP_ID: com.github.alecaddd.sequeler
 Descr: Friendly SQL Client
 -----------------------------
-NAME: Desktop Files Creator
-APP_ID: com.github.alexkdeveloper.desktop-files-creator
-Descr: Simple app for creating desktop files on GNU/Linux
------------------------------
-NAME: Recorder
-APP_ID: com.github.alexkdeveloper.recorder
-Descr: Simple audio recorder
------------------------------
-NAME: Relaxator
-APP_ID: com.github.alexkdeveloper.relaxator
-Descr: Relax to soothing sounds
------------------------------
 NAME: RecApp
 APP_ID: com.github.amikha1lov.RecApp.desktop
 Descr: User friendly Open Source screencaster for Linux written in GTK
@@ -3108,7 +3096,7 @@ Descr: Create barcodes
 -----------------------------
 NAME: Formiko
 APP_ID: cz.zeropage.Formiko
-Descr: reStructuredText and MarkDown editor and live previewer
+Descr: reStructuredText and MarkDown editor
 -----------------------------
 NAME: Gobby
 APP_ID: de._0x539.gobby

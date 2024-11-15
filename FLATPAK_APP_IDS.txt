@@ -267,9 +267,7 @@ com.github.ahrm.sioyek
 com.github.alainm23.byte
 com.github.alecaddd.sequeler
 com.github.alexhuntley.Plots
-com.github.alexkdeveloper.desktop-files-creator
 com.github.alexkdeveloper.recorder
-com.github.alexkdeveloper.relaxator
 com.github.amikha1lov.RecApp
 com.github.appadeia.Taigo
 com.github.arminstraub.krop

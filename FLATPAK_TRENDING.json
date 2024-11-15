@@ -6900,7 +6900,7 @@
       "summary": "Search through all your files",
       "description": "Ever had a folder full of PDF files, where you knew, somewhere in there, is what you're looking for. But you did not know in which file. So you had to search each of them at a time...\n      With Clapgrep this is no longer necessary! Simply open the folder with Clapgrep, enter the search term, and Clapgrep will do all the hard work of finding out on which page / line in which file the information is that you are looking for!\n      Clapgrep can currently search all sorts of text files, PDFs and Office documents, with more to come.\n    ",
       "id": "de_leopoldluley_Clapgrep",
-      "updated_at": 1728310262,
+      "updated_at": 1731673716,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6910,7 +6910,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "de.leopoldluley.Clapgrep",
-      "icon": "https://dl.flathub.org/media/de/leopoldluley/Clapgrep/185a2a3dc0605c577b6e078cc99f07a7/icons/128x128/de.leopoldluley.Clapgrep.png",
+      "icon": "https://dl.flathub.org/media/de/leopoldluley/Clapgrep/6f46ad882f82cff280840bf8e7a9a787/icons/128x128/de.leopoldluley.Clapgrep.png",
       "categories": [
         "Utility",
         "FileTools"
@@ -6929,7 +6929,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "leopoldluley.de",
       "verification_timestamp": "1727210167",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 15.237622069862685,
       "installs_last_month": 1596,
       "added_at": 1727178326
@@ -8799,7 +8799,7 @@
       "summary": "Merge, shuffle, and crop PDFs",
       "description": "\n      PDF Arranger is a small application, which helps the user to merge or split pdf\n      documents and rotate, crop and rearrange their pages using an interactive and\n      intuitive graphical interface.\n    \n      \n      It is a frontend for pikepdf.\n    \n    ",
       "id": "com_github_jeromerobert_pdfarranger",
-      "updated_at": 1730815996,
+      "updated_at": 1731683421,
       "arches": [
         "x86_64",
         "aarch64"
