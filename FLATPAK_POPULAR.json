@@ -1964,7 +1964,7 @@
       "summary": "Introducing the new Microsoft Edge web browser. It’s time to expect more. More privacy. More control. More productivity. More value.",
       "description": "\n    NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft.\n    \n      \n    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.\n   \n      \n    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.\n   \n      \n    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need.\n   \n    ",
       "id": "com_microsoft_Edge",
-      "updated_at": 1731621420,
+      "updated_at": 1731719748,
       "arches": [
         "x86_64"
       ],
@@ -1973,7 +1973,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.microsoft.Edge",
-      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/191e846cfa96d963048a09fa8b0c123b/icons/128x128/com.microsoft.Edge.png",
+      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/0b789942edb4e78b72c29127dc803b67/icons/128x128/com.microsoft.Edge.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -2779,7 +2779,7 @@
       "summary": "The web browser from Chromium project",
       "description": "\n    Chromium is an open-source browser project that aims to build a safer, faster,\n    and more stable way to experience the web.\n    \n      \n    We invite you to join our effort to build a powerful platform for developing a\n    new generation of web applications.\n    \n    ",
       "id": "org_chromium_Chromium",
-      "updated_at": 1731287981,
+      "updated_at": 1731721358,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2789,7 +2789,7 @@
       "project_license": "BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)",
       "is_free_license": true,
       "app_id": "org.chromium.Chromium",
-      "icon": "https://dl.flathub.org/media/org/chromium/Chromium/e7a6f1af1657b41579c91de317b7404d/icons/128x128/org.chromium.Chromium.png",
+      "icon": "https://dl.flathub.org/media/org/chromium/Chromium/0e5dda7f20c0bddace2024e857dce9bc/icons/128x128/org.chromium.Chromium.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -6140,7 +6140,7 @@
       "summary": "Unofficial Microsoft Teams client for Linux",
       "description": "Experience seamless integration with the Microsoft Teams Web App in a standalone Electron application.\n      This application is an unofficial client for Microsoft Teams.\n    ",
       "id": "com_github_IsmaelMartinez_teams_for_linux",
-      "updated_at": 1730060418,
+      "updated_at": 1731651323,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6150,7 +6150,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.github.IsmaelMartinez.teams_for_linux",
-      "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/920f6641992f9dbecfce01e4110064e7/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
+      "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/288f106994ae62aae542071f736dce01/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
       "categories": [
         "Chat",
         "Network",
@@ -17395,7 +17395,7 @@
       "summary": "Rhythm is just a *click* away!",
       "description": "Open source rhythm game written in C# and inspired by Osu! Tatakae! Ouendan\n      Attention: Unofficial package. For official releases, please visit the osu! website.\n    ",
       "id": "sh_ppy_osu",
-      "updated_at": 1731663156,
+      "updated_at": 1731724152,
       "arches": [
         "x86_64"
       ],
@@ -17406,7 +17406,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "sh.ppy.osu",
-      "icon": "https://dl.flathub.org/media/sh/ppy/osu/83ce99c3d3c5701deaa4f5b9045923c7/icons/128x128/sh.ppy.osu.png",
+      "icon": "https://dl.flathub.org/media/sh/ppy/osu/166d1499d1cf080e2b38e9087962d01a/icons/128x128/sh.ppy.osu.png",
       "categories": [
         "Game"
       ],
@@ -22135,7 +22135,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
