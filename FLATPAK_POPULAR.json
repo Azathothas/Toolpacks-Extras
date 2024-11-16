@@ -1006,7 +1006,7 @@
       "summary": "An Open Source Epic Games, GOG and Amazon Prime Games Launcher.",
       "description": "Heroic is an Open Source Games Launcher. Right now it supports launching games from the\n\t\t\tEpic Games Store using Legendary, GOG Games using our custom implementation with gogdl\n\t\t\tand Amazon Games using Nile.\n      Main Features:\n      \n        Have access to your Epic, GOG and Amazon Games in a intuitive User Interface.\n        Add Games outside GOG, Amazon or Epic Games Store native or not. Even Browser apps\n\t\t\t\tare supported\n        A Download queue to download multiple games at once.\n        Install and launch your Windows Games using Wine or Proton. Or Launch your Native\n\t\t\t\tGOG Games.\n        Cloud Saves support for GOG and Epic Games.\n        Import Games installed through the Epic Store or GOG Galaxy.\n        Verify and Repair corrupted installations or even move your installation to\n\t\t\t\tdifferent folders.\n        Access the Epic and GOG store and also Heroic Wiki directly from the App.\n        Check HowLongtoBeat database to see how long it will take to finish a game. And also\n\t\t\t\tcheck the Metacritic, IGCB or OpenCritc score for the game.\n        And many more features\n      \n      Current Limitations on the Flatpak:\n      \n        Heroic will not find or use Wine and Proton Flatpak versions. At least for now.\n        For now would be better to use the Built-in Wine Manager to download and install\n\t\t\t\tWine and Proton Versions.\n        It should find Proton from the Steam folder for both Steam Flatpak and non-Flatpak\n\t\t\t\tif they are on installed on the library inside your $HOME folder\n        Heroic cannot access /usr/bin so it won't be able to find any wine or proton\n\t\t\t\tisntalled there for now.\n      \n    ",
       "id": "com_heroicgameslauncher_hgl",
-      "updated_at": 1731266932,
+      "updated_at": 1731752989,
       "arches": [
         "x86_64"
       ],
@@ -1036,7 +1036,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "heroicgameslauncher.com",
       "verification_timestamp": "1675767418",
-      "runtime": "org.freedesktop.Platform/x86_64/24.08",
+      "runtime": "org.freedesktop.Platform/x86_64/23.08",
       "trending": 5.465013294102388,
       "installs_last_month": 60367,
       "added_at": 1646944179
@@ -13384,7 +13384,7 @@
       "summary": "Block-based multiplayer game platform",
       "description": "\n            Luanti is a block-based sandbox game platform.\n        \n      \n            Players can create and destroy various types of blocks in a\n            three-dimensional open world. This allows forming structures in\n            every possible creation, on multiplayer servers or in singleplayer.\n        \n      \n            Luanti is designed to be simple, stable, and portable.\n            It is lightweight enough to run on fairly old hardware.\n        \n      \n            Luanti has many features, including:\n        \n      \n        Ability to walk around, dig, and build in a near-infinite voxel world\n        Crafting of items from raw materials\n        A simple modding API that supports many additions and modifications to the game\n        Multiplayer support via servers hosted by users\n        Beautiful lightning-fast map generator\n      \n    ",
       "id": "net_minetest_Minetest",
-      "updated_at": 1731600051,
+      "updated_at": 1731753875,
       "arches": [
         "x86_64",
         "aarch64"
@@ -21787,7 +21787,7 @@
       "summary": "A simple Flatpak store",
       "description": "\n    It will help you install Flatpak apps in a user-friendly way. We have recipes for some of them to install them even better. \n    \n      \n    For example, for Steam, it asks the user to choose a folder where they store their games before installation.\n    \n    ",
       "id": "org_dupot_easyflatpak",
-      "updated_at": 1731712238,
+      "updated_at": 1731754433,
       "arches": [
         "x86_64"
       ],
@@ -21796,7 +21796,7 @@
       "project_license": "LGPL-2.1-only",
       "is_free_license": true,
       "app_id": "org.dupot.easyflatpak",
-      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/2e10d598f01ac372dc3ca161a01b9dbf/icons/128x128/org.dupot.easyflatpak.png",
+      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/ec7c96da9ea89619092054acc592a16c/icons/128x128/org.dupot.easyflatpak.png",
       "categories": [
         "Utility"
       ],
@@ -22135,7 +22135,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

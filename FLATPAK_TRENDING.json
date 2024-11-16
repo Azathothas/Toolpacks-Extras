@@ -160,7 +160,7 @@
       "summary": "Your AI-Powered System Assistant",
       "description": "Train Newelle to do more with custom extensions and new AI modules, giving your chatbot endless possibilities.\n    ",
       "id": "io_github_qwersyk_Newelle",
-      "updated_at": 1731255681,
+      "updated_at": 1731752022,
       "arches": [
         "x86_64",
         "aarch64"
@@ -170,7 +170,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.qwersyk.Newelle",
-      "icon": "https://dl.flathub.org/media/io/github/qwersyk.Newelle.desktop/b11e26f1fd8b5bd35992cf242ab51a17/icons/128x128/io.github.qwersyk.Newelle.desktop.png",
+      "icon": "https://dl.flathub.org/media/io/github/qwersyk.Newelle.desktop/9d84d725adb6cae9b454efd3e1fd7444/icons/128x128/io.github.qwersyk.Newelle.desktop.png",
       "categories": [
         "Utility"
       ],
@@ -6040,7 +6040,7 @@
       "summary": "Find the color",
       "description": "Guess the hexadecimal value of a color shown on screen. After each guess, see if you got each value correct or if you need to go a little higher, a lot higher, a little lower, or a lot lower. Try to find the correct value in the fewest tries!\n    ",
       "id": "net_krafting_HexColordle",
-      "updated_at": 1731716435,
+      "updated_at": 1731758589,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6050,7 +6050,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.krafting.HexColordle",
-      "icon": "https://dl.flathub.org/media/net/krafting/HexColordle/658b932eec4199c2c160efb73918b480/icons/128x128/net.krafting.HexColordle.png",
+      "icon": "https://dl.flathub.org/media/net/krafting/HexColordle/ab497c8dc4186ef6c33e9ec5f9e0f691/icons/128x128/net.krafting.HexColordle.png",
       "categories": [
         "Game"
       ],
