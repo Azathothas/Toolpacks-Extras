@@ -3524,7 +3524,7 @@ Descr: Arcade-style fire fighting game
 -----------------------------
 NAME: Cantata
 APP_ID: dog.unix.cantata.Cantata
-Descr: Listen to and manage your Music Player Daemon (MPD) library
+Descr: Control your music server
 -----------------------------
 NAME: BOINC Manager
 APP_ID: edu.berkeley.BOINC

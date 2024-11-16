@@ -6038,9 +6038,9 @@
         "color"
       ],
       "summary": "Find the color",
-      "description": "Hex Colordle is a game where you need to find the hexadecimal value of the color shown on screen.\n    ",
+      "description": "Guess the hexadecimal value of a color shown on screen. After each guess, see if you got each value correct or if you need to go a little higher, a lot higher, a little lower, or a lot lower. Try to find the correct value in the fewest tries!\n    ",
       "id": "net_krafting_HexColordle",
-      "updated_at": 1731705656,
+      "updated_at": 1731716435,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6050,7 +6050,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.krafting.HexColordle",
-      "icon": "https://dl.flathub.org/media/net/krafting/HexColordle/38390a83aa746815072ee6642600648d/icons/128x128/net.krafting.HexColordle.png",
+      "icon": "https://dl.flathub.org/media/net/krafting/HexColordle/658b932eec4199c2c160efb73918b480/icons/128x128/net.krafting.HexColordle.png",
       "categories": [
         "Game"
       ],
@@ -23566,7 +23566,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

@@ -21787,7 +21787,7 @@
       "summary": "A simple Flatpak store",
       "description": "\n    It will help you install Flatpak apps in a user-friendly way. We have recipes for some of them to install them even better. \n    \n      \n    For example, for Steam, it asks the user to choose a folder where they store their games before installation.\n    \n    ",
       "id": "org_dupot_easyflatpak",
-      "updated_at": 1731531325,
+      "updated_at": 1731712238,
       "arches": [
         "x86_64"
       ],
@@ -21796,7 +21796,7 @@
       "project_license": "LGPL-2.1-only",
       "is_free_license": true,
       "app_id": "org.dupot.easyflatpak",
-      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/9c0e44b24396a607a29699bbbe9abb66/icons/128x128/org.dupot.easyflatpak.png",
+      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/2e10d598f01ac372dc3ca161a01b9dbf/icons/128x128/org.dupot.easyflatpak.png",
       "categories": [
         "Utility"
       ],
@@ -21955,7 +21955,7 @@
       "summary": "Digital photo organizer",
       "description": "\n      Shotwell is an easy-to-use, fast photo organizer designed for the GNOME desktop.\n      It allows you to import photos from your camera or disk, organize them by date and subject\n      matter, even ratings.  It also offers basic photo editing, like crop, red-eye correction,\n      color adjustments, and straighten.  Shotwell’s non-destructive photo editor does not alter\n      your master photos, making it easy to experiment and correct errors.\n    \n      \n      When ready, Shotwell can upload your photos to various web services, such as Flickr,\n      Google Photos, and more.\n    \n      \n      Shotwell supports JPEG, PNG, TIFF, and a variety of RAW file formats.\n    \n    ",
       "id": "org_gnome_Shotwell",
-      "updated_at": 1730918462,
+      "updated_at": 1731713896,
       "arches": [
         "x86_64",
         "aarch64"
@@ -22135,7 +22135,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
