@@ -1365,6 +1365,7 @@ io.github.qnapi
 io.github.quodlibet.ExFalso
 io.github.quodlibet.QuodLibet
 io.github.qwersyk.Newelle
+io.github.ra3xdh.qucs_s
 io.github.rafaelfassi.QLogExplorer
 io.github.randovania.Randovania
 io.github.rdybka.vht
@@ -2476,6 +2477,7 @@ org.paraview.ParaView
 org.pdfstitcher.pdfstitcher
 org.pegasus_frontend.Pegasus
 org.pencil2d.Pencil2D
+org.pgadmin.pgadmin4
 org.phoenicis.playonlinux
 org.photoqt.PhotoQt
 org.pipewire.Helvum
@@ -2756,6 +2758,7 @@ social.whalebird.WhalebirdDesktop
 space.fips.Fips
 space.nouspiro.tenmon
 space.rirusha.Cassette
+studio.eufonia.EufoniaClient
 studio.kx.carla
 surf.deckr.deckr
 tech.feliciano.pocket-casts

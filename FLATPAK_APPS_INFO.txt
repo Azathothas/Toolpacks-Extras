@@ -5286,6 +5286,10 @@ NAME: Newelle
 APP_ID: io.github.qwersyk.Newelle.desktop
 Descr: Your AI-Powered System Assistant
 -----------------------------
+NAME: Qucs-S
+APP_ID: io.github.ra3xdh.qucs_s
+Descr: Quite universal circuit simulator with SPICE
+-----------------------------
 NAME: QLogExplorer
 APP_ID: io.github.rafaelfassi.QLogExplorer
 Descr: Fast log explorer with advanced tools
@@ -8670,6 +8674,10 @@ NAME: Pencil2D
 APP_ID: org.pencil2d.Pencil2D
 Descr: Create 2D animations with ease
 -----------------------------
+NAME: pgAdmin 4
+APP_ID: org.pgadmin.pgadmin4
+Descr: Administration and development platform for PostgreSQL
+-----------------------------
 NAME: Phoenicis PlayOnLinux
 APP_ID: org.phoenicis.playonlinux
 Descr: Install and run Windows software on Linux
@@ -9765,6 +9773,10 @@ Descr: OpenGL-based FITS image viewer
 NAME: Tenmon
 APP_ID: space.nouspiro.tenmon
 Descr: FITS/XISF image viewer, converter, index and search
+-----------------------------
+NAME: Eufonia Client
+APP_ID: studio.eufonia.EufoniaClient
+Descr: A Minecraft launcher for public and private in-game events
 -----------------------------
 NAME: Carla
 APP_ID: studio.kx.carla

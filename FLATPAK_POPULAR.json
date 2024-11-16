@@ -1334,7 +1334,7 @@
       "summary": "Code editing. Redefined.",
       "description": "Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle.\n      IMPORTANT: To use certain features in this flatpacked version (like the integrated terminal), please read the linked documentation.\n      This is the proprietary Microsoft build of Visual Studio Code, packaged into a Flatpak. This repackaging is not supported by Microsoft.\n    ",
       "id": "com_visualstudio_code",
-      "updated_at": 1730769136,
+      "updated_at": 1731769821,
       "arches": [
         "x86_64",
         "aarch64"
@@ -1344,7 +1344,7 @@
       "project_license": "LicenseRef-proprietary=https://code.visualstudio.com/license",
       "is_free_license": false,
       "app_id": "com.visualstudio.code",
-      "icon": "https://dl.flathub.org/media/com/visualstudio/code/ad9cfc0aa7d6ae615762e43922b1f86e/icons/128x128/com.visualstudio.code.png",
+      "icon": "https://dl.flathub.org/media/com/visualstudio/code/2fd519147146b45ba5131fb3d3f39cb9/icons/128x128/com.visualstudio.code.png",
       "categories": [
         "TextEditor",
         "Development",
@@ -2467,7 +2467,7 @@
       "summary": "LibreWolf Web Browser",
       "description": "LibreWolf\n      This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.\n      LibreWolf uses more than 500 privacy/security/performance settings, patches, LibreWolf-Addons (optional) and is designed to minimize data collection and telemetry as much as possible (updater, crashreporter and Firefox’s integrated addons that don’t respect privacy are removed).\n      LibreWolf is NOT associated with Mozilla or its products.\n      Features:\n      \n        Latest Version of Firefox: LibreWolf is compiled directly from the latest build of Firefox Stable. You will have the the latest features, and security updates.\n        Completely Independent Build: LibreWolf uses a completely independent build from Firefox and has its own settings, profile folder and installation path. As a result, it can be installed alongside Firefox or any other browser.\n        Settings protection: important settings are enforced/locked within librewolf.cfg and policies.json, those settings cannot be changed by addons/updates/LibreWolf itself or unwanted/accidental manipulation; To change those settings you can easily do it by editing librewolf.cfg and policies.json.\n        LibreWolf-addons: set of optional LibreWolf extensions\n        Statistics disabled: telemetry and similar functions are disabled\n        Tested settings: settings are performance aware\n        Recommended and code reviewed addons list\n        Community-Driven\n        And much more…\n      \n    ",
       "id": "io_gitlab_librewolf-community",
-      "updated_at": 1731199826,
+      "updated_at": 1731767461,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2477,7 +2477,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "io.gitlab.librewolf-community",
-      "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/4f411e65027131de4a143c1d5e3defef/icons/128x128/io.gitlab.librewolf-community.png",
+      "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/a54550a19aeab7b1e9374f17b5df05ce/icons/128x128/io.gitlab.librewolf-community.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -5229,7 +5229,7 @@
       "summary": "A Graphical Distrobox Manager",
       "description": "BoxBuddy is a graphical user interface for Distrobox.\n      Distrobox allows users to create container images of many different Linux distributions which are nicely integrated with your host system, but still completely separate.\n      BoxBuddy makes creating and using these containers simple and convenient by providing a simple UI for many common tasks.\n      NOTE: BoxBuddy does not package Distrobox, it must be installed on your system separately.\n    ",
       "id": "io_github_dvlv_boxbuddyrs",
-      "updated_at": 1730525875,
+      "updated_at": 1731768221,
       "arches": [
         "x86_64",
         "aarch64"
@@ -5239,7 +5239,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "io.github.dvlv.boxbuddyrs",
-      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/aa9f6506bca8fab02a93984b12712f39/icons/128x128/io.github.dvlv.boxbuddyrs.png",
+      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/7ad1706822f9bcb4701898a2ffaf8adf/icons/128x128/io.github.dvlv.boxbuddyrs.png",
       "categories": [
         "Utility"
       ],
@@ -21787,7 +21787,7 @@
       "summary": "A simple Flatpak store",
       "description": "\n    It will help you install Flatpak apps in a user-friendly way. We have recipes for some of them to install them even better. \n    \n      \n    For example, for Steam, it asks the user to choose a folder where they store their games before installation.\n    \n    ",
       "id": "org_dupot_easyflatpak",
-      "updated_at": 1731754433,
+      "updated_at": 1731765386,
       "arches": [
         "x86_64"
       ],
@@ -21796,7 +21796,7 @@
       "project_license": "LGPL-2.1-only",
       "is_free_license": true,
       "app_id": "org.dupot.easyflatpak",
-      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/ec7c96da9ea89619092054acc592a16c/icons/128x128/org.dupot.easyflatpak.png",
+      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/a06fb6ce384100db13f13050c293a407/icons/128x128/org.dupot.easyflatpak.png",
       "categories": [
         "Utility"
       ],
