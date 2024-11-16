@@ -10726,6 +10726,10 @@ NAME: Advanced Scene Switcher
 APP_ID: com.obsproject.Studio.Plugin.SceneSwitcher
 Descr: An advanced automated scene switcher for OBS Studio
 -----------------------------
+NAME: Source Clone
+APP_ID: com.obsproject.Studio.Plugin.SourceClone
+Descr: Plugin for OBS Studio to clone sources
+-----------------------------
 NAME: Transition Table
 APP_ID: com.obsproject.Studio.Plugin.TransitionTable
 Descr: Fine-tune your transitions with a transition table
