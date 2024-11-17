@@ -2,6 +2,7 @@
 const SOAR_DEFAULT = 'https://soar.qaidvoid.dev';
 const BINCACHE_DEFAULT = 'https://huggingface.co/datasets/pkgforge/bincache/resolve/main';
 const PKGCACHE_DEFAULT = 'https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main';
+const SOARPKGS_DEFAULT = 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main';
 
 // Pre-compile domain regex patterns and their configurations
 const DOMAIN_CONFIG = new Map([
@@ -41,6 +42,24 @@ const DOMAIN_CONFIG = new Map([
       ])
     }
   ],
+  [
+    /^https?:\/\/soarpkgs\.pkgforge\.dev/i,
+    {
+      defaultTarget: SOARPKGS_DEFAULT,
+      //pathMappings: new Map([
+      //  ['aarch64', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/aarch64-Linux'],
+      //  ['aarch64-linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/aarch64-Linux'],
+      //  ['aarch64-Linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/aarch64-Linux'],
+      //  ['arm64_linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/aarch64-Linux'],
+      //  ['arm64_Linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/aarch64-Linux'],
+      //  ['x86_64', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux'],
+      //  ['x86_64-linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux'],
+      //  ['x86_64-Linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux'],
+      //  ['amd64_linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux'],
+      //  ['amd64_Linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux']
+      //])
+    }
+  ],  
   [
     /^https?:\/\/soar\.pkgforge\.dev/i,
     {
