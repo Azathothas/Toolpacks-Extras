@@ -6037,7 +6037,7 @@
       "summary": "Media player",
       "description": "Open source media player built with Qt/QML and libmpv.\n      Features\n      \n        play online videos, through youtube-dl\n        supports youtube playlists\n        toggle playlist with mouse-over, playlist overlays the video\n        auto skip chapter containing certain words\n        configurable shortcuts and mouse buttons\n        quick jump to next chapter by middle click on progress bar\n      \n    ",
       "id": "org_kde_haruna",
-      "updated_at": 1731592764,
+      "updated_at": 1731818482,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6175,7 +6175,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1681471955",
-      "runtime": "org.kde.Platform/x86_64/6.7",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 28.784541506549225,
       "installs_last_month": 14858,
       "added_at": 1623314528
