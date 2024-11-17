@@ -18206,7 +18206,7 @@
       "summary": "IPTV player with EPG support",
       "description": "\n      IPTV player with many features, such as:\n    \n      \n        M3U / XSPF playlists support\n        XTream API support\n        TV program (EPG) support\n        Stream recording\n        Playlist editor\n        TV archive / catchup\n        and many more...\n      \n    ",
       "id": "io_github_yuki_iptv_yuki-iptv",
-      "updated_at": 1731217087,
+      "updated_at": 1731855424,
       "arches": [
         "x86_64",
         "aarch64"
@@ -22059,7 +22059,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

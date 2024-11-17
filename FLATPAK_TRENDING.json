@@ -10319,7 +10319,7 @@
       "summary": "Turn photos into sketch images",
       "description": "XnSketch allows you to turn your photos into cartoon or sketch images.\n      Features:\n      \n        18 different effects (black strokes, white strokes, pastel, pencil sketch, colored sketch, ...)\n        Edge strength, and opacity adjustement\n        Contrast, brightness, saturation adjustement\n        Save or share the result\n      \n      XnSketch is provided as freeware.\n      You are granted the right to use and to make an unlimited number of copies of this software.\n      Copyright (C) 1997-2016 Pierre-e Gougelet. All rights reserved.\n    ",
       "id": "com_xnview_XnSketch",
-      "updated_at": 1731299892,
+      "updated_at": 1731846659,
       "arches": [
         "x86_64"
       ],
@@ -13760,7 +13760,7 @@
       "summary": "Body mass index calculator",
       "description": "BMI is an open-source, body mass index calculator built with GTK4 and LibAdwaita.\n    ",
       "id": "io_github_philippkosarev_bmi",
-      "updated_at": 1729109594,
+      "updated_at": 1731871613,
       "arches": [
         "x86_64",
         "aarch64"
@@ -13770,7 +13770,7 @@
       "project_license": "GPL-2.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.philippkosarev.bmi",
-      "icon": "https://dl.flathub.org/media/io/github/philippkosarev.bmi/381f6a78a958f8661ffc0f0b5e55628a/icons/128x128/io.github.philippkosarev.bmi.png",
+      "icon": "https://dl.flathub.org/media/io/github/philippkosarev.bmi/72545fd1450dd92ff0d6cdc808cb103e/icons/128x128/io.github.philippkosarev.bmi.png",
       "categories": [
         "Utility"
       ],
@@ -23255,7 +23255,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

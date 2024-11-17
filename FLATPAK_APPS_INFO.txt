@@ -1048,7 +1048,7 @@ Descr: Taigo is a virtual pet for your desktop
 -----------------------------
 NAME: krop
 APP_ID: com.github.arminstraub.krop
-Descr: A tool to crop PDF files
+Descr: Crop PDF files to better fit screen size
 -----------------------------
 NAME: Cipher
 APP_ID: com.github.arshubham.cipher
@@ -6483,10 +6483,6 @@ APP_ID: net.fsuae.FS-UAE
 Descr: FS-UAE Amiga Emulator
 -----------------------------
 NAME: War Thunder
-APP_ID: fs-uae.desktop
-Descr: War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game.
------------------------------
-NAME: War Thunder
 APP_ID: net.gaijin.WarThunder
 Descr: War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game.
 -----------------------------
@@ -9780,7 +9776,7 @@ Descr: FITS/XISF image viewer, converter, index and search
 -----------------------------
 NAME: Eufonia Client
 APP_ID: studio.eufonia.EufoniaClient
-Descr: A Minecraft launcher for public and private in-game events
+Descr: Join Minecraft in-game events
 -----------------------------
 NAME: Carla
 APP_ID: studio.kx.carla
