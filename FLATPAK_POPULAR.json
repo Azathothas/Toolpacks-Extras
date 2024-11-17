@@ -16208,7 +16208,7 @@
       "summary": "A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux",
       "description": "\n            This is a screen recorder that has minimal impact on system performance by recording a monitor using the GPU only, similar to shadowplay on windows. This is the fastest screen recording tool for Linux. This screen recorder works on X11 and Wayland on AMD, Intel and NVIDIA.\n        \n      \n            This screen recorder can be used for recording your desktop offline, for live streaming and for nvidia-like instant replay, where only the last few minutes are saved.\n        \n      Supported video codecs:\n      \n        H264 (default)\n        HEVC (Optionally with HDR)\n        AV1 (Optionally with HDR. Not currently supported on NVIDIA if you use GPU Screen Recorder flatpak)\n        VP8\n        VP9\n      \n      Supported audio codecs:\n      \n        Opus (default)\n        AAC\n      \n      \n            Recording a monitor requires (restricted) root access which means that you have to install GPU Screen Recorder system-wide: \"flatpak install --system com.dec05eba.gpu_screen_recorder\"\n            and pkexec needs to be installed on the system and a polkit agent needs to be running.\n            Note that this only applies to when recording a monitor on AMD/Intel or when recording on Wayland without using the desktop portal option.\n        \n      AV1 is currently not supported in the flatpak for Nvidia since GPU Screen Recorder uses an older ffmpeg version to support older Nvidia cards. Install GPU Screen Recorder from source or from AUR if you want to use AV1 on Nvidia.\n      \n            Videos are in variable framerate format. Very out of date video players might have an issue playing such videos. It's recommend to use MPV to play such videos, otherwise you might experience stuttering in the video.\n            You can select constant frame rate mode in advanced view if you need it.\n        \n      \n            If the video doesn't play or you get green/yellow overlay then your video player is missing H264/HEVC video codec. Either install the video codecs or use mpv.\n        \n      AMD has a driver/hardware fault that causes black bars/distorted colors on the sides of the video for certain video resolutions. This happens for both av1 and hevc, so if you have this issue then switch to h264 video codec option in advanced settings.\n        \n      \n            If H264/HEVC video encoding option is not available on your AMD/Intel system but you know that your GPU supports those codecs for encoding then you may need to install mesa-extra freedesktop runtime by running this command: \"flatpak install --system org.freedesktop.Platform.GL.default//23.08-extra\".\n        \n      \n            On NVIDIA systems the flatpak NVIDIA driver needs to match the systems NVIDIA driver version or the NVIDIA driver will fail to properly load in flatpaks.\n            Make sure you update flatpak on your system with: \"flatpak update\", or if that doesn't fix it you can try to install the specific flatpak NVIDIA driver version version that matches your systems NVIDIA driver version by running:\n            \"flatpak install org.freedesktop.Platform.GL.nvidia-version\", for example \"flatpak install org.freedesktop.Platform.GL.nvidia-550-54-14\".\n            You can find which NVIDIA driver version is running on your system by running \"cat /proc/driver/nvidia/version\".\n        \n      GPU Screen Recorder flatpak can install files in $HOME/.local/share/gpu-screen-recorder. If you want to uninstall GPU Screen Recorder then you will have to remove this directory manually.\n    ",
       "id": "com_dec05eba_gpu_screen_recorder",
-      "updated_at": 1730847429,
+      "updated_at": 1731854279,
       "arches": [
         "x86_64",
         "aarch64"
@@ -16218,7 +16218,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.dec05eba.gpu_screen_recorder",
-      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/f428da8b9f2b5ee82c66f0e775c829b5/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
+      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/7238ea73535c710dca3e23d1b35f2cdc/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
       "categories": [
         "AudioVideo",
         "Recorder"
@@ -22059,7 +22059,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
