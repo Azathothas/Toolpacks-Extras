@@ -1720,6 +1720,7 @@ net.puddletag.puddletag
 net.purrdata.PurrData
 net.qsl.QSSTV
 net.redeclipse.RedEclipse
+net.redeclipse.RedEclipse-Legacy
 net.retrodeck.retrodeck
 net.rpcs3.RPCS3
 net.rpdev.OpenTodoList
@@ -2508,6 +2509,7 @@ org.raceintospace.Raceintospace
 org.racket_lang.Racket
 org.radare.iaito
 org.raspberrypi.rpi-imager
+org.recoll.recoll
 org.regular_dev.biplanes_revival
 org.remmina.Remmina
 org.rncbc.qpwgraph

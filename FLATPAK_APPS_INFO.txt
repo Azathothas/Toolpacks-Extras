@@ -6742,6 +6742,10 @@ NAME: QSSTV
 APP_ID: net.qsl.QSSTV
 Descr: Program for receiving and transmitting SSTV and HAMDRM
 -----------------------------
+NAME: Red Eclipse Legacy
+APP_ID: net.redeclipse.RedEclipse-Legacy
+Descr: First-person shooter with agile gameplay and built-in editor
+-----------------------------
 NAME: Red Eclipse
 APP_ID: net.redeclipse.RedEclipse
 Descr: First-person shooter with agile gameplay and built-in editor
@@ -6945,10 +6949,6 @@ Descr: Drumstick MIDI Monitor is a MIDI monitor for Linux using ALSA sequencer
 NAME: LBreakoutHD
 APP_ID: net.sourceforge.lgames.LBreakoutHD
 Descr: Arkanoid / Breakout alike game
------------------------------
-NAME: LGeneral
-APP_ID: lbreakouthd.desktop
-Descr: Turn based strategy game engine (like Panzer General)
 -----------------------------
 NAME: LGeneral
 APP_ID: net.sourceforge.lgames.LGeneral
@@ -8797,6 +8797,10 @@ Descr: GUI for radare2
 NAME: Raspberry Pi Imager
 APP_ID: org.raspberrypi.rpi-imager
 Descr: Raspberry Pi imaging utility
+-----------------------------
+NAME: Recoll
+APP_ID: org.recoll.recoll
+Descr: Full-text search for your desktop
 -----------------------------
 NAME: Biplanes Revival
 APP_ID: org.regular_dev.biplanes_revival
@@ -10690,9 +10694,13 @@ NAME: DistroAV
 APP_ID: com.obsproject.Studio.Plugin.DistroAV
 Descr: NewTek NDI integration for OBS Studio
 -----------------------------
-NAME: DroidCam
+NAME: Downstream Keyer
 APP_ID: com.obsproject.Studio.Plugin.NDI
-Descr: Use your phone as a camera source with the DroidCam app
+Descr: Plugin for OBS Studio to add a Downstream Keyer dock
+-----------------------------
+NAME: Downstream Keyer
+APP_ID: com.obsproject.Studio.Plugin.DownstreamKeyer
+Descr: Plugin for OBS Studio to add a Downstream Keyer dock
 -----------------------------
 NAME: DroidCam
 APP_ID: com.obsproject.Studio.Plugin.DroidCam
