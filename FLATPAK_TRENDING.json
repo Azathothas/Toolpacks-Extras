@@ -9743,7 +9743,7 @@
       "summary": "Listen to music on Spotify",
       "description": "\n      Listen to music on Spotify.\n    \n      Requires a premium account.\n      Current features:\n      \n        playback control (play/pause, prev/next, seeking)\n        play queue with shuffle option\n        selection mode: easily browse and select mutliple tracks to queue them\n        browse your saved albums and playlists\n        search albums and artists\n        view an artist's releases\n        view users' playlists\n        credentials management with Secret Service\n        MPRIS integration\n      \n    ",
       "id": "dev_alextren_Spot",
-      "updated_at": 1712707466,
+      "updated_at": 1731796606,
       "arches": [
         "x86_64",
         "aarch64"
@@ -9772,7 +9772,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "alextren.dev",
       "verification_timestamp": "1678138514",
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 14.847832090529062,
       "installs_last_month": 1500,
       "added_at": 1610434638
@@ -23255,7 +23255,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
