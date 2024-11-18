@@ -4956,11 +4956,11 @@ Descr: mhWaveEdit is a graphical program for editing sound files
 -----------------------------
 NAME: Qtcord
 APP_ID: mhwaveedit.desktop
-Descr: Lightweight Discord Client
+Descr: Lightweight Discord client
 -----------------------------
 NAME: Qtcord
 APP_ID: io.github.mak448a.QTCord
-Descr: Lightweight Discord Client
+Descr: Lightweight Discord client
 -----------------------------
 NAME: xbox-cloud-gaming-electron
 APP_ID: io.github.mandruis7.xbox-cloud-gaming-electron
