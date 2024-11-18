@@ -10084,7 +10084,7 @@ Descr: OCR extension for Danish (dan)
 -----------------------------
 NAME: OCR Danish - Fraktur
 APP_ID: com.github.unrud.djpdf.OCR.DanFrak
-Descr: OCR extension for Danish - Fraktur language (dan_frak)
+Descr: OCR extension for Danish - Fraktur (dan_frak)
 -----------------------------
 NAME: OCR German
 APP_ID: com.github.unrud.djpdf.OCR.Deu
@@ -10092,7 +10092,7 @@ Descr: OCR extension for German (deu)
 -----------------------------
 NAME: OCR German - Fraktur
 APP_ID: com.github.unrud.djpdf.OCR.DeuFrak
-Descr: OCR extension for German - Fraktur language (deu_frak)
+Descr: OCR extension for German - Fraktur (deu_frak)
 -----------------------------
 NAME: OCR Divehi
 APP_ID: com.github.unrud.djpdf.OCR.Div
@@ -10114,9 +10114,9 @@ NAME: OCR Esperanto
 APP_ID: com.github.unrud.djpdf.OCR.Epo
 Descr: OCR extension for Esperanto (epo)
 -----------------------------
-NAME: OCR Math / equation detection module
+NAME: OCR Math / equation detection
 APP_ID: com.github.unrud.djpdf.OCR.Equ
-Descr: OCR extension for Math / equation detection module (equ)
+Descr: OCR extension for Math / equation detection (equ)
 -----------------------------
 NAME: OCR Estonian
 APP_ID: com.github.unrud.djpdf.OCR.Est
@@ -10540,7 +10540,7 @@ Descr: OCR extension for Slovak (slk)
 -----------------------------
 NAME: OCR Slovak - Fraktur
 APP_ID: com.github.unrud.djpdf.OCR.SlkFrak
-Descr: OCR extension for Slovak - Fraktur language (slk_frak)
+Descr: OCR extension for Slovak - Fraktur (slk_frak)
 -----------------------------
 NAME: OCR Slovenian
 APP_ID: com.github.unrud.djpdf.OCR.Slv
@@ -10602,9 +10602,9 @@ NAME: OCR Tajik
 APP_ID: com.github.unrud.djpdf.OCR.Tgk
 Descr: OCR extension for Tajik (tgk)
 -----------------------------
-NAME: OCR Tagalog (new - Filipino)
+NAME: OCR Tagalog
 APP_ID: com.github.unrud.djpdf.OCR.Tgl
-Descr: OCR extension for Tagalog (new - Filipino) language (tgl)
+Descr: OCR extension for Tagalog (tgl)
 -----------------------------
 NAME: OCR Thai
 APP_ID: com.github.unrud.djpdf.OCR.Tha
