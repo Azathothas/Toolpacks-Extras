@@ -8196,7 +8196,7 @@ Descr: Download management tool
 -----------------------------
 NAME: Jellyfin Server
 APP_ID: org.jellyfin.JellyfinServer
-Descr: The Free Software Media System
+Descr: Free Software Media Streaming System
 -----------------------------
 NAME: JFLAP
 APP_ID: org.jflap.JFLAP
@@ -9604,7 +9604,7 @@ Descr: VTuber application made with Godot 3.4
 -----------------------------
 NAME: OpenFreebuds
 APP_ID: pw.mmk.OpenFreebuds
-Descr: Open-source client app for HUAWEI FreeBuds earphones
+Descr: Companion app for HUAWEI earphones
 -----------------------------
 NAME: kel-agent
 APP_ID: radio.k0swe.Kel_Agent
