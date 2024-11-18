@@ -349,7 +349,7 @@
       "summary": "Fast. Secure. Powerful.",
       "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices. One of the world's top 10 most downloaded apps with over 500 million active users.\n      FAST: Telegram is the fastest messaging app on the market, connecting people via a unique, distributed network of data centers around the globe.\n      SYNCED: You can access your messages from all your phones, tablets and computers at once. Telegram apps are standalone, so you don’t need to keep your phone connected. Start typing on one device and finish the message from another. Never lose your data again.\n      UNLIMITED: You can send media and files, without any limits on their type and size. Your entire chat history will require no disk space on your device, and will be securely stored in the Telegram cloud for as long as you need it.\n      SECURE: We made it our mission to provide the best security combined with ease of use. Everything on Telegram, including chats, groups, media, etc. is encrypted using a combination of 256-bit symmetric AES encryption, 2048-bit RSA encryption, and Diffie–Hellman secure key exchange.\n      100% FREE &amp; OPEN: Telegram has a fully documented and free API for developers, open source apps and verifiable builds to prove the app you download is built from the exact same source code that is published.\n      POWERFUL: You can create group chats with up to 200,000 members, share large videos, documents of any type (.DOCX, .MP3, .ZIP, etc.) up to 2 GB each, and even set up bots for specific tasks. Telegram is the perfect tool for hosting online communities and coordinating teamwork.\n      RELIABLE: Built to deliver your messages using as little data as possible, Telegram is the most reliable messaging system ever made. It works even on the weakest mobile connections.\n      FUN: Telegram has powerful photo and video editing tools, animated stickers and emoji, fully customizable themes to change the appearance of your app, and an open sticker/GIF platform to cater to all your expressive needs.\n      SIMPLE: While providing an unprecedented array of features, we take great care to keep the interface clean. Telegram is so simple you already know how to use it.\n      PRIVATE: We take your privacy seriously and will never give any third parties access to your data. You can delete any message you ever sent or received for both sides, at any time and without a trace. Telegram will never use your data to show you ads.\n      We keep expanding the boundaries of what you can do with a messaging app. Don’t wait years for older messengers to catch up with Telegram — join the revolution today.\n    ",
       "id": "org_telegram_desktop",
-      "updated_at": 1731872665,
+      "updated_at": 1731892902,
       "arches": [
         "aarch64",
         "x86_64"
@@ -359,7 +359,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "org.telegram.desktop",
-      "icon": "https://dl.flathub.org/media/org/telegram/desktop/3edc8056b81eb1117abc05885d8f5384/icons/128x128/org.telegram.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/telegram/desktop/8394753b3f1119664844e9a3990da05e/icons/128x128/org.telegram.desktop.png",
       "categories": [
         "Network",
         "InstantMessaging"
@@ -16182,7 +16182,7 @@
       "summary": "A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux",
       "description": "\n            This is a screen recorder that has minimal impact on system performance by recording a monitor using the GPU only, similar to shadowplay on windows. This is the fastest screen recording tool for Linux. This screen recorder works on X11 and Wayland on AMD, Intel and NVIDIA.\n        \n      \n            This screen recorder can be used for recording your desktop offline, for live streaming and for nvidia-like instant replay, where only the last few minutes are saved.\n        \n      Supported video codecs:\n      \n        H264 (default)\n        HEVC (Optionally with HDR)\n        AV1 (Optionally with HDR. Not currently supported on NVIDIA if you use GPU Screen Recorder flatpak)\n        VP8\n        VP9\n      \n      Supported audio codecs:\n      \n        Opus (default)\n        AAC\n      \n      \n            Recording a monitor requires (restricted) root access which means that you have to install GPU Screen Recorder system-wide: \"flatpak install --system com.dec05eba.gpu_screen_recorder\"\n            and pkexec needs to be installed on the system and a polkit agent needs to be running.\n            Note that this only applies to when recording a monitor on AMD/Intel or when recording on Wayland without using the desktop portal option.\n        \n      AV1 is currently not supported in the flatpak for Nvidia since GPU Screen Recorder uses an older ffmpeg version to support older Nvidia cards. Install GPU Screen Recorder from source or from AUR if you want to use AV1 on Nvidia.\n      \n            Videos are in variable framerate format. Very out of date video players might have an issue playing such videos. It's recommend to use MPV to play such videos, otherwise you might experience stuttering in the video.\n            You can select constant frame rate mode in advanced view if you need it.\n        \n      \n            If the video doesn't play or you get green/yellow overlay then your video player is missing H264/HEVC video codec. Either install the video codecs or use mpv.\n        \n      AMD has a driver/hardware fault that causes black bars/distorted colors on the sides of the video for certain video resolutions. This happens for both av1 and hevc, so if you have this issue then switch to h264 video codec option in advanced settings.\n        \n      \n            If H264/HEVC video encoding option is not available on your AMD/Intel system but you know that your GPU supports those codecs for encoding then you may need to install mesa-extra freedesktop runtime by running this command: \"flatpak install --system org.freedesktop.Platform.GL.default//23.08-extra\".\n        \n      \n            On NVIDIA systems the flatpak NVIDIA driver needs to match the systems NVIDIA driver version or the NVIDIA driver will fail to properly load in flatpaks.\n            Make sure you update flatpak on your system with: \"flatpak update\", or if that doesn't fix it you can try to install the specific flatpak NVIDIA driver version version that matches your systems NVIDIA driver version by running:\n            \"flatpak install org.freedesktop.Platform.GL.nvidia-version\", for example \"flatpak install org.freedesktop.Platform.GL.nvidia-550-54-14\".\n            You can find which NVIDIA driver version is running on your system by running \"cat /proc/driver/nvidia/version\".\n        \n      GPU Screen Recorder flatpak can install files in $HOME/.local/share/gpu-screen-recorder. If you want to uninstall GPU Screen Recorder then you will have to remove this directory manually.\n    ",
       "id": "com_dec05eba_gpu_screen_recorder",
-      "updated_at": 1731854279,
+      "updated_at": 1731897106,
       "arches": [
         "aarch64",
         "x86_64"
@@ -16192,7 +16192,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.dec05eba.gpu_screen_recorder",
-      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/7238ea73535c710dca3e23d1b35f2cdc/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
+      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/bed8c96f51c75ccc885132a4832e351b/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
       "categories": [
         "AudioVideo",
         "Recorder"
@@ -17104,7 +17104,7 @@
       "summary": "Rhythm is just a *click* away!",
       "description": "Open source rhythm game written in C# and inspired by Osu! Tatakae! Ouendan\n      Attention: Unofficial package. For official releases, please visit the osu! website.\n    ",
       "id": "sh_ppy_osu",
-      "updated_at": 1731724152,
+      "updated_at": 1731903943,
       "arches": [
         "x86_64"
       ],
@@ -17115,7 +17115,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "sh.ppy.osu",
-      "icon": "https://dl.flathub.org/media/sh/ppy/osu/166d1499d1cf080e2b38e9087962d01a/icons/128x128/sh.ppy.osu.png",
+      "icon": "https://dl.flathub.org/media/sh/ppy/osu/fee86fbd7e16085b76c2149e236328b6/icons/128x128/sh.ppy.osu.png",
       "categories": [
         "Game"
       ],

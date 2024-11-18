@@ -4218,10 +4218,6 @@ NAME: Radio
 APP_ID: io.github.alexkdeveloper.radio
 Descr: A simple radio with stations from the website radio-browser.info
 -----------------------------
-NAME: Zodiac
-APP_ID: io.github.alexkdeveloper.zodiac
-Descr: A simple program for plotting horoscopes
------------------------------
 NAME: AM2RLauncher
 APP_ID: io.github.am2r_community_developers.AM2RLauncher
 Descr: A front-end for dealing with AM2R updates and mods

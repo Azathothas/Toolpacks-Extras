@@ -1084,7 +1084,6 @@ io.github.aggalex.Wineglass
 io.github.alainm23.planify
 io.github.alescdb.mailviewer
 io.github.alexkdeveloper.radio
-io.github.alexkdeveloper.zodiac
 io.github.am2r_community_developers.AM2RLauncher
 io.github.am2r_community_developers.Atomic
 io.github.amit9838.mousam
