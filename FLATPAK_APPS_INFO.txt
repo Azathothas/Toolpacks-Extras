@@ -4214,10 +4214,6 @@ NAME: MailViewer
 APP_ID: io.github.alescdb.mailviewer
 Descr: EML and MSG file viewer
 -----------------------------
-NAME: Radio
-APP_ID: io.github.alexkdeveloper.radio
-Descr: A simple radio with stations from the website radio-browser.info
------------------------------
 NAME: AM2RLauncher
 APP_ID: io.github.am2r_community_developers.AM2RLauncher
 Descr: A front-end for dealing with AM2R updates and mods
@@ -4821,6 +4817,10 @@ Descr: Kotatogram Desktop messenger
 NAME: bibref
 APP_ID: io.github.kovzol.bibref
 Descr: Discover references in the Bible
+-----------------------------
+NAME: Poliedros
+APP_ID: io.github.kriptolix.Poliedros
+Descr: Poliedros is a multi-type dice roller.
 -----------------------------
 NAME: LightZone
 APP_ID: io.github.ktgw0316.LightZone
@@ -6722,6 +6722,10 @@ NAME: PokerTH
 APP_ID: net.pokerth.PokerTH
 Descr: Poker game with single and multiplayer support
 -----------------------------
+NAME: Superfluous Returnz
+APP_ID: net.ptilouk.superfluous
+Descr: The unnecessary video game of a useless superhero
+-----------------------------
 NAME: Puddletag
 APP_ID: net.puddletag.puddletag
 Descr: A powerful ID3 tag editor
@@ -7757,6 +7761,10 @@ Descr: A customisable music player
 NAME: fre:ac
 APP_ID: org.freac.freac
 Descr: Audio converter and CD ripper
+-----------------------------
+NAME: FreeCAD
+APP_ID: org.freecad.FreeCAD
+Descr: An open source parametric 3D CAD modeler
 -----------------------------
 NAME: FreeCAD
 APP_ID: org.freecadweb.FreeCAD

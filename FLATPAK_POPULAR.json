@@ -2006,7 +2006,7 @@
       "summary": "Markdown-based knowledge base",
       "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.\n      The documentation can be accessed by opening the demo vault that is shipped in Obsidian.\n      Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.\n      This distribution is verified by the Obsidian team but isn't supported\n      Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom\n      GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal\n      Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK\n      Note: Regular users should disable \"Automatic Updates\" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.\n      This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)\n    ",
       "id": "md_obsidian_Obsidian",
-      "updated_at": 1731949680,
+      "updated_at": 1731984383,
       "arches": [
         "aarch64",
         "x86_64"
@@ -13050,7 +13050,7 @@
       "summary": "A free, open source, and cross-platform media player",
       "description": "\n   Mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety\nof video file formats, audio and video codecs, and subtitle types. Special\ninput URL types are available to read input from a variety of sources other\nthan disk files. Depending on platform, a variety of different video and audio\noutput methods are supported.\n  \n      Features:\n      \n        Drag and drop playlist\n        Loading external configuration files\n        Flatpak: mpv-mpris support - multimedia keys play/pause support\n        Flatpak: mpv.conf: Screenshots (shortcut key 's') are saved in ~/Pictures/mpv directory\n        Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv\n        Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts\n        Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME while playing media\n        Flatpak: mpv scripts needs write access. Use flatseal app to set home or host write permission\n      \n    ",
       "id": "io_mpv_Mpv",
-      "updated_at": 1731967466,
+      "updated_at": 1731988062,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22252,7 +22252,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

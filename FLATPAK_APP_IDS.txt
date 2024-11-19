@@ -1083,7 +1083,6 @@ io.github.aganzha.Stage
 io.github.aggalex.Wineglass
 io.github.alainm23.planify
 io.github.alescdb.mailviewer
-io.github.alexkdeveloper.radio
 io.github.am2r_community_developers.AM2RLauncher
 io.github.am2r_community_developers.Atomic
 io.github.amit9838.mousam
@@ -1246,6 +1245,7 @@ io.github.khaled_0.TubeSync
 io.github.koromelodev.mindmate
 io.github.kotatogram
 io.github.kovzol.bibref
+io.github.kriptolix.Poliedros
 io.github.ktgw0316.LightZone
 io.github.kukuruzka165.materialgram
 io.github.labbots.NiimPrintX
@@ -1715,6 +1715,7 @@ net.pioneerspacesim.Pioneer
 net.pistegamez.PekkaKana2
 net.poedit.Poedit
 net.pokerth.PokerTH
+net.ptilouk.superfluous
 net.puddletag.puddletag
 net.purrdata.PurrData
 net.qsl.QSSTV
@@ -1971,6 +1972,7 @@ org.flycast.Flycast
 org.fontforge.FontForge
 org.fooyin.fooyin
 org.freac.freac
+org.freecad.FreeCAD
 org.freecadweb.FreeCAD
 org.freeciv.gtk322
 org.freeciv.gtk4
