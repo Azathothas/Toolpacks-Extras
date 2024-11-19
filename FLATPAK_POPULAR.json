@@ -13050,7 +13050,7 @@
       "summary": "A free, open source, and cross-platform media player",
       "description": "\n   Mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety\nof video file formats, audio and video codecs, and subtitle types. Special\ninput URL types are available to read input from a variety of sources other\nthan disk files. Depending on platform, a variety of different video and audio\noutput methods are supported.\n  \n      Features:\n      \n        Drag and drop playlist\n        Loading external configuration files\n        Flatpak: mpv-mpris support - multimedia keys play/pause support\n        Flatpak: mpv.conf: Screenshots (shortcut key 's') are saved in ~/Pictures/mpv directory\n        Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv\n        Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts\n        Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME while playing media\n        Flatpak: mpv scripts needs write access. Use flatseal app to set home or host write permission\n      \n    ",
       "id": "io_mpv_Mpv",
-      "updated_at": 1731617408,
+      "updated_at": 1731967466,
       "arches": [
         "aarch64",
         "x86_64"
@@ -13060,7 +13060,7 @@
       "project_license": "GPL-2.0+ AND LGPL-2.0-or-later",
       "is_free_license": true,
       "app_id": "io.mpv.Mpv",
-      "icon": "https://dl.flathub.org/media/io/mpv/Mpv/ba7e06a681c0288e7a30d55f3763b80f/icons/128x128/io.mpv.Mpv.png",
+      "icon": "https://dl.flathub.org/media/io/mpv/Mpv/7f11eac9f1d476c2085e34aa19fdcb56/icons/128x128/io.mpv.Mpv.png",
       "categories": [
         "AudioVideo",
         "Audio",
@@ -22252,7 +22252,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

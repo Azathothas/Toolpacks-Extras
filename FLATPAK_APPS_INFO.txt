@@ -7642,10 +7642,6 @@ NAME: FOSStriangulator
 APP_ID: org.enjoyingfoss.FOSStriangulator
 Descr: A tool for making triangulated illustrations out of photos
 -----------------------------
-NAME: Entangle
-APP_ID: org.entangle_photo.Manager
-Descr: Tethered Camera Control &amp; Capture
------------------------------
 NAME: Spectral
 APP_ID: org.eu.encom.spectral
 Descr: IM client for the Matrix protocol
