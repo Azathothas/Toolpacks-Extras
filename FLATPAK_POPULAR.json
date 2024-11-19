@@ -2551,7 +2551,7 @@
       "summary": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once",
       "description": "Prism Launcher is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.\n      Features:\n      \n        Easily install game modifications, such as Fabric, Forge and Quilt\n        Easily install and update modpacks from the Launcher\n        Control your Java settings, and enable Mangohud or Gamemode with a toggle\n        Manage worlds and resource packs from the launcher\n        See logs and other details easily through a dashboard\n        Kill Minecraft in case of a crash/freeze\n        Isolate Minecraft instances to keep everything clean\n        Install and update mods directly from the launcher\n        Customize the launcher with themes, and more\n        And cat :3\n      \n    ",
       "id": "org_prismlauncher_PrismLauncher",
-      "updated_at": 1731316784,
+      "updated_at": 1732003246,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2561,7 +2561,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.prismlauncher.PrismLauncher",
-      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/71b29f1ddd9be243479851450448f649/icons/128x128/org.prismlauncher.PrismLauncher.png",
+      "icon": "https://dl.flathub.org/media/org/prismlauncher/PrismLauncher/3b6dba65d7d16d3b24a0093c8edc165d/icons/128x128/org.prismlauncher.PrismLauncher.png",
       "categories": [
         "Game",
         "ActionGame",
@@ -5757,7 +5757,7 @@
       "summary": "Unofficial Microsoft Teams client for Linux",
       "description": "Experience seamless integration with the Microsoft Teams Web App in a standalone Electron application.\n      This application is an unofficial client for Microsoft Teams.\n    ",
       "id": "com_github_IsmaelMartinez_teams_for_linux",
-      "updated_at": 1731651323,
+      "updated_at": 1732003790,
       "arches": [
         "aarch64",
         "x86_64"
@@ -15662,7 +15662,7 @@
       "summary": "Free the internet from mass surveillance",
       "description": "\n            NOTE: This wrapper is not verified by, affiliated with, or supported by Mullvad VPN AB.\n        \n      \n            The Mullvad Browser is a privacy-focused web browser developed in a collaboration\n            between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and\n            fingerprinting. You could say it’s a Tor Browser to use without the Tor Network.\n            Instead, you can use it with a trustworthy VPN. The idea is to provide one more\n            alternative – beside the Tor Network – to browse the internet with more privacy. To get\n            as many people as possible to fight the big data gathering of today. To free the\n            internet from mass surveillance.\n        \n    ",
       "id": "net_mullvad_MullvadBrowser",
-      "updated_at": 1730304843,
+      "updated_at": 1731971564,
       "arches": [
         "x86_64"
       ],
@@ -15671,7 +15671,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "net.mullvad.MullvadBrowser",
-      "icon": "https://dl.flathub.org/media/net/mullvad/MullvadBrowser/a342faeba42637e9710cc0a5b75e1932/icons/128x128/net.mullvad.MullvadBrowser.png",
+      "icon": "https://dl.flathub.org/media/net/mullvad/MullvadBrowser/12691571ddf9a04b89bb85de09cc0b60/icons/128x128/net.mullvad.MullvadBrowser.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -15692,7 +15692,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 8.27576588708651,
       "installs_last_month": 6738,
       "added_at": 1681368803
@@ -22252,7 +22252,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

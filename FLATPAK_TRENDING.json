@@ -17461,7 +17461,7 @@
       "summary": "Googlized Telegram",
       "description": "Telegram Desktop based messenger with Material Design and additional features\n    ",
       "id": "io_github_kukuruzka165_materialgram",
-      "updated_at": 1731624278,
+      "updated_at": 1731998258,
       "arches": [
         "aarch64",
         "x86_64"
@@ -17471,7 +17471,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "io.github.kukuruzka165.materialgram",
-      "icon": "https://dl.flathub.org/media/io/github/kukuruzka165.materialgram/9ef3172cecd92b334f8c705dd943b480/icons/128x128/io.github.kukuruzka165.materialgram.png",
+      "icon": "https://dl.flathub.org/media/io/github/kukuruzka165.materialgram/e9f4ed7636f0c63382cdc5a3ef9ad82b/icons/128x128/io.github.kukuruzka165.materialgram.png",
       "categories": [
         "Network",
         "InstantMessaging"
@@ -22818,7 +22818,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
