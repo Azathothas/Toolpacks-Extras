@@ -2423,7 +2423,7 @@
       "summary": "Video Conferencing, Web Conferencing, Webinars, Screen Sharing",
       "description": "Award winning Zoom brings video conferencing, online meetings and group messaging into one easy-to-use application.\n      \n        One consistent enterprise experience for all use cases\n        Engineered and optimized to work reliably\n        Up to 500 video participants and 10,000 viewers\n        Easy-to-use, buy and scale\n        Most affordable, straightforward pricing\n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by zoom.us.\n    ",
       "id": "us_zoom_Zoom",
-      "updated_at": 1731102639,
+      "updated_at": 1732016258,
       "arches": [
         "x86_64"
       ],
@@ -2432,7 +2432,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "us.zoom.Zoom",
-      "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/085b2d3d75b107911ac27c7deba20bf4/icons/128x128/us.zoom.Zoom.desktop.png",
+      "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/62239e3e674ed7c4c9a2a3c11dc593e7/icons/128x128/us.zoom.Zoom.desktop.png",
       "categories": [
         "Network",
         "InstantMessaging",
