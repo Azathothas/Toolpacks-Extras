@@ -9618,7 +9618,7 @@
       "summary": "Download web video and audio",
       "description": "\n        A basic yt-dlp frontend\n        Supports downloading videos in multiple formats (mp4, webm, mp3, opus, flac, and wav)\n        Run multiple downloads at a time\n        Supports downloading metadata and video subtitles\n      \n    ",
       "id": "org_nickvision_tubeconverter",
-      "updated_at": 1731369621,
+      "updated_at": 1732032791,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9628,7 +9628,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "org.nickvision.tubeconverter",
-      "icon": "https://dl.flathub.org/media/org/nickvision/tubeconverter/f1d5808ee80bb9198b513a10eb077fe4/icons/128x128/org.nickvision.tubeconverter.png",
+      "icon": "https://dl.flathub.org/media/org/nickvision/tubeconverter/692bdd8aa19111b690b7610705bf5c72/icons/128x128/org.nickvision.tubeconverter.png",
       "categories": [
         "AudioVideo",
         "Network"
@@ -22252,7 +22252,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
