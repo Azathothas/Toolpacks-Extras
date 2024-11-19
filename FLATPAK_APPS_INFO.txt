@@ -8196,7 +8196,7 @@ Descr: Download management tool
 -----------------------------
 NAME: Jellyfin Server
 APP_ID: org.jellyfin.JellyfinServer
-Descr: Free Software Media Streaming System
+Descr: Media Streaming System
 -----------------------------
 NAME: JFLAP
 APP_ID: org.jflap.JFLAP
