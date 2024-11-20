@@ -1973,7 +1973,6 @@ org.fontforge.FontForge
 org.fooyin.fooyin
 org.freac.freac
 org.freecad.FreeCAD
-org.freecadweb.FreeCAD
 org.freeciv.gtk322
 org.freeciv.gtk4
 org.freeciv.qt

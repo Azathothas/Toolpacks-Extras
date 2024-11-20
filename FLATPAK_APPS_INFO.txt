@@ -7766,10 +7766,6 @@ NAME: FreeCAD
 APP_ID: org.freecad.FreeCAD
 Descr: An open source parametric 3D CAD modeler
 -----------------------------
-NAME: FreeCAD
-APP_ID: org.freecadweb.FreeCAD
-Descr: An open source parametric 3D CAD modeler
------------------------------
 NAME: Freeciv gtk+-3.22 client
 APP_ID: org.freeciv.gtk322
 Descr: Gtk+-3.22 based client for the Freeciv game
