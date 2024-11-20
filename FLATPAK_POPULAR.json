@@ -4669,7 +4669,7 @@
       "summary": "Connect to a computer remotely",
       "description": "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by AnyDesk.\n    ",
       "id": "com_anydesk_Anydesk",
-      "updated_at": 1726911060,
+      "updated_at": 1732059948,
       "arches": [
         "x86_64"
       ],
@@ -4687,7 +4687,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.anydesk.Anydesk",
-      "icon": "https://dl.flathub.org/media/com/anydesk/Anydesk.desktop/40114bc8f1bc11abcef91c0fe3dbf540/icons/128x128/com.anydesk.Anydesk.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/anydesk/Anydesk.desktop/c088db68534b2cda271fa3a91f095fd0/icons/128x128/com.anydesk.Anydesk.desktop.png",
       "categories": [
         "Network"
       ],
@@ -4703,7 +4703,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 8.830072536096598,
       "installs_last_month": 20047,
       "added_at": 1518188846
@@ -22029,7 +22029,7 @@
       "summary": "Digital photo organizer",
       "description": "\n      Shotwell is an easy-to-use, fast photo organizer designed for the GNOME desktop.\n      It allows you to import photos from your camera or disk, organize them by date and subject\n      matter, even ratings.  It also offers basic photo editing, like crop, red-eye correction,\n      color adjustments, and straighten.  Shotwell’s non-destructive photo editor does not alter\n      your master photos, making it easy to experiment and correct errors.\n    \n      \n      When ready, Shotwell can upload your photos to various web services, such as Flickr,\n      Google Photos, and more.\n    \n      \n      Shotwell supports JPEG, PNG, TIFF, and a variety of RAW file formats.\n    \n    ",
       "id": "org_gnome_Shotwell",
-      "updated_at": 1731713896,
+      "updated_at": 1732057041,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22342,7 +22342,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
