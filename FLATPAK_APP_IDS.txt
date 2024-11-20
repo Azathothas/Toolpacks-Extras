@@ -1152,6 +1152,7 @@ io.github.dvlv.boxbuddyrs
 io.github.dweymouth.supersonic
 io.github.dxx_rebirth.dxx-rebirth
 io.github.dyegoaurelio.simple-wireplumber-gui
+io.github.dzheremi2.lrcmake-gtk
 io.github.ec_.Quake3e.OpenArena
 io.github.ecotubehq.player
 io.github.efogdev.mpris-timer
@@ -1914,6 +1915,7 @@ org.damask_multiphysics.DAMASK_grid
 org.damask_multiphysics.DAMASK_mesh
 org.darkdimension.rue
 org.darktable.Darktable
+org.dash.dash-core
 org.dash.electrum.electrum_dash
 org.davmail.DavMail
 org.dbgate.DbGate

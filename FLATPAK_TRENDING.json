@@ -10135,7 +10135,7 @@
       "summary": "Video editor",
       "description": "Kdenlive is a video editing application with support for many audio and video formats. It offers advanced editing features, a variety of effects and transitions, color correction, audio post-production and subtitling tools. Additionally, it provides the flexibility to render into practically any format of your choice.\n      Features:\n      \n        Nested Sequences\n        Configurable interface and shortcuts\n        Scopes: Histogram, Vectorscope, RGB Parade, Waveform and Audio Meter\n        Proxy editing\n        Free online assets and templates\n        Motion tracking\n        AI powered tools\n      \n    ",
       "id": "org_kde_kdenlive",
-      "updated_at": 1731789840,
+      "updated_at": 1732074137,
       "arches": [
         "aarch64",
         "x86_64"

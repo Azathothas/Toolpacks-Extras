@@ -4462,6 +4462,10 @@ NAME: Simple Wireplumber GUI
 APP_ID: io.github.dyegoaurelio.simple-wireplumber-gui
 Descr: A simple GTK4 GUI for PipeWire
 -----------------------------
+NAME: LRCMake
+APP_ID: io.github.dzheremi2.lrcmake-gtk
+Descr: Sync lyrics of your loved songs
+-----------------------------
 NAME: OpenArena
 APP_ID: io.github.ec_.Quake3e.OpenArena
 Descr: Free and open source first-person shooter
@@ -7541,6 +7545,10 @@ Descr: A card game about deduction, love and regret.
 NAME: darktable
 APP_ID: org.darktable.Darktable
 Descr: Organize and develop images from digital cameras
+-----------------------------
+NAME: Dash Core
+APP_ID: org.dash.dash-core
+Descr: Fully validating Dash peer-to-peer network node, wallet and GUI
 -----------------------------
 NAME: Dash Electrum
 APP_ID: org.dash.electrum.electrum_dash
