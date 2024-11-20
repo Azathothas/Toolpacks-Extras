@@ -7795,7 +7795,7 @@
       "summary": "Understand file permissions",
       "description": "Concessio helps you understand and convert between unix permissions representations\n      \n        Convert between symbolic and numeric representations of UNIX file permissions\n        Use toggle buttons to update the symbolic and numeric fields\n        Open a file to read it's permissions and convert them\n        Open the help dialog to read and understand the UNIX permissions system\n      \n    ",
       "id": "io_github_ronniedroid_concessio",
-      "updated_at": 1727013619,
+      "updated_at": 1732106857,
       "arches": [
         "aarch64",
         "x86_64"
@@ -7816,12 +7816,22 @@
           "description": "Concessio ti aiuta a comprendere e convertire tra le rappresentazioni dei permessi Unix\n      \n        Converti tra rappresentazioni simboliche e numeriche dei permessi dei file UNIX\n        Utilizzare i pulsanti di attivazione per aggiornare i campi simbolici e numerici\n        Aprire un file per leggerne i permessi e convertirli\n        Aprire la finestra di dialogo della guida per leggere e comprendere il sistema di autorizzazioni UNIX\n      \n    ",
           "name": "Concessio",
           "summary": "Comprendere i permessi dei file"
+        },
+        "nl": {
+          "description": "Met Concessio krijgt u inzicht in Unixrechten en hulp bij het converteren en/of berekenen ervan\n      \n        Converteer symbolische en numerieke Unixrechten\n        Klik op de schakelaars om de velden bij te werken\n        Open een bestand om de rechten ervan uit te lezen en/of te converteren\n        Open het hulpvenster om het Unix-rechtensysteem te leren begrijpen\n      \n    ",
+          "name": "Concessio",
+          "summary": "Inzicht in bestandsrechten"
+        },
+        "ru": {
+          "description": "Concessio помогает вам понимать и преобразовывать представления разрешений Unix\n      \n        Преобразование между символьным и числовым представлением прав доступа к файлам UNIX\n        Используйте переключатели для обновления символьных и числовых полей\n        Откройте файл, чтобы прочитать его разрешения и преобразовать их\n        Откройте диалог справки, чтобы прочитать и понять систему разрешений UNIX\n      \n    ",
+          "name": "Concessio",
+          "summary": "Понимание прав доступа к файлам"
         }
       },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.ronniedroid.concessio",
-      "icon": "https://dl.flathub.org/media/io/github/ronniedroid.concessio/00a3c1f6d7e30a091169f48951522ced/icons/128x128/io.github.ronniedroid.concessio.png",
+      "icon": "https://dl.flathub.org/media/io/github/ronniedroid.concessio/243c66598c96e52dcd2e67109790613d/icons/128x128/io.github.ronniedroid.concessio.png",
       "categories": [
         "System",
         "Utility"
@@ -7839,7 +7849,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1724763669",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 16.098250724121677,
       "installs_last_month": 604,
       "added_at": 1724762509
@@ -14703,7 +14713,7 @@
       "summary": "Install nerd fonts",
       "description": "\n            User-friendly application designed for managing Nerd Fonts on your system. With a sleek\n            GTK4 user interface enhanced by libadwaita, Embellish provides a seamless experience for\n            installing, uninstalling and updating of Nerd Fonts.\n        \n      \n        List all available Nerd Fonts\n        Download and install a Font\n        Uninstall an installed Font\n        Update an installed font\n        preview fonts\n        Search fonts\n        Read font's licence(s)\n      \n    ",
       "id": "io_github_getnf_embellish",
-      "updated_at": 1727013685,
+      "updated_at": 1732105410,
       "arches": [
         "aarch64",
         "x86_64"
@@ -14713,7 +14723,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.getnf.embellish",
-      "icon": "https://dl.flathub.org/media/io/github/getnf.embellish/ef6dfc3bf52bcd22f74d012007d8f5fc/icons/128x128/io.github.getnf.embellish.png",
+      "icon": "https://dl.flathub.org/media/io/github/getnf.embellish/e11a140e674c504b8757c23324dc4056/icons/128x128/io.github.getnf.embellish.png",
       "categories": [
         "TextTools",
         "Utility"
@@ -14732,7 +14742,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1721214889",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 15.081191312954914,
       "installs_last_month": 1530,
       "added_at": 1721209624
@@ -18002,7 +18012,7 @@
       "summary": "Configure Moza Racing hardware",
       "description": "\n      Boxflat enables you to change your Moza Racing hardware settings with ease.\n    \n      \n      Settings and their values are a 1:1 match with Pit House. This makes it possible to use presets shared by the community.\n      The table of supported settings compared to Pit House can be found on the project website. This project has no official ties to Moza\n      and/or their software. It's 100% independent work based largely on hours of reverse engineering the protocol.\n    \n      \n      Boxflat supports saving/loading presets and automatic per-game application.\n    \n      \n      If a device misses an axis an/or a button, an automatic game detection fix will be applied. No need for other software/SDL hints to make them work.\n    \n      \n      Supported devices:\n    \n      \n        Wheelbases\n        Wheels\n        Pedals\n        Handbrake\n        Sequential shifter\n        H-Pattern shifter\n        E-Stop\n        Universal Hub\n      \n      \n      Note: The udev rules found in the GitHub repository need to be installed for the application to work properly.\n      Boxflat will remind you of this in case of no rw access to the serial devices.\n    \n    ",
       "id": "io_github_lawstorant_boxflat",
-      "updated_at": 1731612518,
+      "updated_at": 1732105080,
       "arches": [
         "aarch64",
         "x86_64"
@@ -18012,7 +18022,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.lawstorant.boxflat",
-      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/28f4cf02d0b6c23051aaad20138c174a/icons/128x128/io.github.lawstorant.boxflat.png",
+      "icon": "https://dl.flathub.org/media/io/github/lawstorant.boxflat/3d3410b493b165c17809a18c83f6ec6d/icons/128x128/io.github.lawstorant.boxflat.png",
       "categories": [
         "Game",
         "Utility"
@@ -21606,7 +21616,7 @@
       "summary": "Snip and pin useful information",
       "description": "\n      Clip what's important to a small floating window, so you don't have to switch between windows or workspaces repeatedly.\n      The application allows you to see what's behind the window by hovering over it.\n    \n      Best used with:\n      \n        \"Always on Top\" and/or \"Always on Visible Workspace\"\n        A keyboard shortcut\n      \n      \n      On GNOME, go to Settings → Keyboard → View and Customize Shortcuts → Custom Shortcuts.\n      There you can set a shortcut to run flatpak run io.github.kelvinnovais.Kasasa\n    \n      \n      Note: On GNOME versions &lt; 46, a dialog will appear to set up and take the screenshot,\n      instead of directly using the GNOME's screenshoter; this may be inconvenient.\n    \n    ",
       "id": "io_github_kelvinnovais_Kasasa",
-      "updated_at": 1731380314,
+      "updated_at": 1732099120,
       "arches": [
         "aarch64",
         "x86_64"
@@ -21628,8 +21638,9 @@
           "summary": "Recorte e fixe informações úteis"
         },
         "ru": {
-          "description": "Лучше использовать с:\n      \n        \"Всегда сверху\" и/или \"Всегда на видимом рабочем столе\"\n        Клавиатурное сокращение\n      \n      Примечание: В GNOME &amp;lt; 46 появится диалоговое окно для настройки и создания скриншота вместо встроенного инструмента; это может быть неудобно.\n    ",
-          "name": "Kasasa"
+          "description": "Закрепите всё важное в небольшом плавающем окне, чтобы не переключаться между окнами или рабочими пространствами. Приложение позволяет увидеть, что находится за окном, при наведении курсора.\n      Лучше использовать с:\n      \n        \"Всегда сверху\" и/или \"Всегда на видимом рабочем столе\"\n        Клавиатурное сокращение\n      \n      В GNOME перейдите в Настройки → Клавиатура → Просмотр и изменение комбинаций клавиш → Дополнительные комбинации клавиш. Там вы сможете настроить сочетание для запуска &lt;code&gt;flatpak run io.github.kelvinnovais.Kasasa&lt;/code&gt; \n      Примечание: В GNOME &amp;lt; 46 появится диалоговое окно для настройки и создания скриншота вместо встроенного инструмента; это может быть неудобно.\n    ",
+          "name": "Kasasa",
+          "summary": "Выделяйте и закрепляйте полезную информацию"
         },
         "uk": {
           "description": "Краще використовувати з:\n      \n        \"Завжди зверху\" та/або \"Завжди на видимому робочому просторі\"\n        Клавіатурне скорочення\n      \n      Примітка: На GNOME версіях &lt;46, діалогове вікно з'явиться щоб зробити знімок екрану, замість того, щоб напряму використовувати вбудований в GNOME додаток знімків; це може бути не дуже зручно.\n    ",
@@ -21639,7 +21650,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.kelvinnovais.Kasasa",
-      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/c27e13537325a8e204c21f279be3b116/icons/128x128/io.github.kelvinnovais.Kasasa.png",
+      "icon": "https://dl.flathub.org/media/io/github/kelvinnovais.Kasasa/a3f340fdf1ee30d2f50429d4e0659666/icons/128x128/io.github.kelvinnovais.Kasasa.png",
       "categories": [
         "Utility"
       ],
@@ -25140,7 +25151,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 52,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
