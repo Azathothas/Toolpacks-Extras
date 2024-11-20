@@ -4474,7 +4474,7 @@ NAME: ecotube
 APP_ID: io.github.ecotubehq.player
 Descr: GTK+ frontend for mpv
 -----------------------------
-NAME: MPRIS Timer
+NAME: Play Timer
 APP_ID: io.github.efogdev.mpris-timer
 Descr: Native-feeling timers for GNOME
 -----------------------------
@@ -10678,6 +10678,10 @@ NAME: Python 2.7
 APP_ID: com.jetbrains.PyCharm.Extensions.Python2-7
 Descr: Extension for PyCharm
 -----------------------------
+NAME: Advanced Masks
+APP_ID: com.obsproject.Studio.Plugin.AdvancedMasks
+Descr: This plug-in provides filters for users to create intricate and customized masks for their OBS Scenes and Sources.
+-----------------------------
 NAME: Aitum Multistream
 APP_ID: com.obsproject.Studio.Plugin.AitumMultistream
 Descr: The Aitum Multistream Plugin lets you go live on as many platforms as possible, completely free
@@ -11209,6 +11213,10 @@ Descr: .NET Core SDK extension
 NAME: .NET 8 SDK extension
 APP_ID: org.freedesktop.Sdk.Extension.dotnet8
 Descr: .NET 8 SDK extension
+-----------------------------
+NAME: .NET 9 SDK extension
+APP_ID: org.freedesktop.Sdk.Extension.dotnet9
+Descr: .NET 9 SDK extension
 -----------------------------
 NAME: Free Pascal Compiler and Lazarus
 APP_ID: org.freedesktop.Sdk.Extension.freepascal

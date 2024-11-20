@@ -8446,7 +8446,7 @@
       "summary": "A Graphical Distrobox Manager",
       "description": "BoxBuddy is a graphical user interface for Distrobox.\n      Distrobox allows users to create container images of many different Linux distributions which are nicely integrated with your host system, but still completely separate.\n      BoxBuddy makes creating and using these containers simple and convenient by providing a simple UI for many common tasks.\n      NOTE: BoxBuddy does not package Distrobox, it must be installed on your system separately.\n    ",
       "id": "io_github_dvlv_boxbuddyrs",
-      "updated_at": 1731768221,
+      "updated_at": 1732091203,
       "arches": [
         "aarch64",
         "x86_64"
@@ -8456,7 +8456,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "io.github.dvlv.boxbuddyrs",
-      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/7ad1706822f9bcb4701898a2ffaf8adf/icons/128x128/io.github.dvlv.boxbuddyrs.png",
+      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/8b2f3e921d9f40310868be4ecd43aacd/icons/128x128/io.github.dvlv.boxbuddyrs.png",
       "categories": [
         "Utility"
       ],
@@ -25140,7 +25140,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 52,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
