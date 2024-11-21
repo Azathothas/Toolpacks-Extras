@@ -6,7 +6,7 @@
       "summary": "The browser built to be yours",
       "description": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by Google.\n    ",
       "id": "com_google_Chrome",
-      "updated_at": 1731692867,
+      "updated_at": 1732157068,
       "arches": [
         "x86_64"
       ],
@@ -15,7 +15,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.google.Chrome",
-      "icon": "https://dl.flathub.org/media/com/google/Chrome/f2a1b8470298bdc72039eaa39c36f6b6/icons/128x128/com.google.Chrome.png",
+      "icon": "https://dl.flathub.org/media/com/google/Chrome/38f5684c4eef2c3f65a8f5887c9ec32b/icons/128x128/com.google.Chrome.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -554,7 +554,7 @@
       "summary": "Online music streaming service",
       "description": "Access all of your favorite music, discover new songs, and share music online with your friends - all in one place. \n    Create shared playlists or share individual songs with your Facebook friends with just a click of a button. \n    Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists. \n      Spotify is the best way to have access to millions of songs, and all the latest hits.\n    ",
       "id": "com_spotify_Client",
-      "updated_at": 1731954083,
+      "updated_at": 1732151703,
       "arches": [
         "x86_64"
       ],
@@ -12471,7 +12471,7 @@
       "summary": "A free, open source, and cross-platform media player",
       "description": "\n   Mpv is a movie player based on MPlayer and mplayer2. It supports a wide variety\nof video file formats, audio and video codecs, and subtitle types. Special\ninput URL types are available to read input from a variety of sources other\nthan disk files. Depending on platform, a variety of different video and audio\noutput methods are supported.\n  \n      Features:\n      \n        Drag and drop playlist\n        Loading external configuration files\n        Flatpak: mpv-mpris support - multimedia keys play/pause support\n        Flatpak: mpv.conf: Screenshots (shortcut key 's') are saved in ~/Pictures/mpv directory\n        Flatpak: mpv config directory is  ~/.var/app/io.mpv.Mpv/config/mpv\n        Flatpak: mpv scripts directory is ~/.var/app/io.mpv.Mpv/config/mpv/scripts\n        Flatpak: mpv_inhibit_gnome is included which prevents screen blanking in GNOME while playing media\n        Flatpak: mpv scripts needs write access. Use flatseal app to set home or host write permission\n      \n    ",
       "id": "io_mpv_Mpv",
-      "updated_at": 1731988062,
+      "updated_at": 1732156985,
       "arches": [
         "aarch64",
         "x86_64"
