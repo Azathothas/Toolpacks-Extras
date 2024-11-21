@@ -3291,7 +3291,7 @@ APP_ID: de.z_ray.OptimusUI
 Descr: Interface for nVidia Optimus
 -----------------------------
 NAME: PicPlanner
-APP_ID: de.zwarf.picplanner.desktop
+APP_ID: de.zwarf.picplanner
 Descr: Plan your next photo locations
 -----------------------------
 NAME: Spot
