@@ -8680,7 +8680,7 @@ Descr: Create 2D animations with ease
 -----------------------------
 NAME: pgAdmin 4
 APP_ID: org.pgadmin.pgadmin4
-Descr: Administration and development platform for PostgreSQL
+Descr: Admin and development platform for PostgreSQL
 -----------------------------
 NAME: Phoenicis PlayOnLinux
 APP_ID: org.phoenicis.playonlinux
