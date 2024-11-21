@@ -1923,6 +1923,7 @@ org.debian.TuxPuck
 org.deidentifier.arx
 org.deluge_torrent.deluge
 org.denemo.Denemo
+org.deskflow.deskflow
 org.desmume.DeSmuME
 org.develz.Crawl
 org.dhewm3.Dhewm3
@@ -2521,6 +2522,7 @@ org.robocode.Robocode
 org.rolisteam.rolisteam
 org.ryujinx.Ryujinx
 org.sabnzbd.sabnzbd
+org.sasview.sasview
 org.sauerbraten.Sauerbraten
 org.scantailor.ScanTailor
 org.scilab.Scilab

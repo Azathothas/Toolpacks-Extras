@@ -7578,6 +7578,10 @@ NAME: Denemo
 APP_ID: org.denemo.Denemo
 Descr: Create Music Scores
 -----------------------------
+NAME: Deskflow
+APP_ID: org.deskflow.deskflow
+Descr: Software Keyboard and mouse sharing
+-----------------------------
 NAME: DeSmuME
 APP_ID: org.desmume.DeSmuME
 Descr: Nintendo DS emulator
@@ -8841,6 +8845,10 @@ Descr: A Nintendo Switch Emulator
 NAME: SABnzbd
 APP_ID: org.sabnzbd.sabnzbd
 Descr: Free and easy binary newsreader
+-----------------------------
+NAME: SasViw
+APP_ID: org.sasview.sasview
+Descr: SasView is a Small Angle Scattering Analysis Software Package
 -----------------------------
 NAME: Sauerbraten
 APP_ID: org.sauerbraten.Sauerbraten
