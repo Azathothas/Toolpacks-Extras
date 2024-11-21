@@ -8846,7 +8846,7 @@ NAME: SABnzbd
 APP_ID: org.sabnzbd.sabnzbd
 Descr: Free and easy binary newsreader
 -----------------------------
-NAME: SasViw
+NAME: SasView
 APP_ID: org.sasview.sasview
 Descr: SasView is a Small Angle Scattering Analysis Software Package
 -----------------------------
