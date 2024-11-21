@@ -786,7 +786,7 @@
       "summary": "PlayStation Emulator",
       "description": "DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices.\n      \"Hack\" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.\n      \"PlayStation\" and \"PSX\" are registered trademarks of Sony Interactive Entertainment Europe Limited. This project is not affiliated in any way with Sony Interactive Entertainment.\n    ",
       "id": "org_duckstation_DuckStation",
-      "updated_at": 1731384069,
+      "updated_at": 1732157351,
       "arches": [
         "aarch64",
         "x86_64"
@@ -796,7 +796,7 @@
       "project_license": "CC-BY-NC-ND-4.0",
       "is_free_license": false,
       "app_id": "org.duckstation.DuckStation",
-      "icon": "https://dl.flathub.org/media/org/duckstation/DuckStation/4724b3d516d15dc0cbb341fbc850de8c/icons/128x128/org.duckstation.DuckStation.png",
+      "icon": "https://dl.flathub.org/media/org/duckstation/DuckStation/bb4022fec88e3e80a64cf1cfd57450b1/icons/128x128/org.duckstation.DuckStation.png",
       "categories": [
         "Game",
         "Emulator"
@@ -3784,7 +3784,7 @@
       "summary": "A program to help you download, keep updated, and run the Tor Browser Bundle",
       "description": "Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. It downloads the same TBB from torproject.org that everyone else uses, and it doesn't alter it in any way. But it does make it much more usable, and it makes the task of keeping it up-to-date more secure.\n      You install torbrowser-launcher from your distribution's package manager and it handles everything else, including:\n      \n        Downloading the most recent version of TBB for you, in your language and for your architecture\n        Automatically updating (while preserving your bookmarks and preferences)\n        Verifying the TBB's GnuPG signature\n        Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some distros)\n        Adding a Tor Browser application launcher to your desktop environment's menu\n        Lets you set Tor Browser as your default browser\n        Optionally playing a modem sound when you open Tor Browser (because Tor is so slow)\n      \n    ",
       "id": "org_torproject_torbrowser-launcher",
-      "updated_at": 1731540817,
+      "updated_at": 1732143573,
       "arches": [
         "x86_64"
       ],
@@ -3823,7 +3823,7 @@
       "summary": "Private messenger",
       "description": "\n      To use the Signal desktop app, Signal must first be installed on your phone.\n    \n      \n      Millions of people use Signal every day for free and instantaneous communication \n      anywhere in the world. Send and receive high-fidelity messages, participate in \n      HD voice/video calls, and explore a growing set of new features that help you \n      stay connected. Signal’s advanced privacy-preserving technology is always enabled, \n      so you can focus on sharing the moments that matter with the people who matter to you. \n    \n      \n      Signal is an independent 501c3 nonprofit. The complete source code for \n      the Signal clients and the Signal server is available on GitHub.\n    \n      \n      This flatpak is maintained by the Flathub community, and is not necessarily \n      endorsed or officially maintained by the upstream developers.\n    \n    ",
       "id": "org_signal_Signal",
-      "updated_at": 1731569166,
+      "updated_at": 1732139098,
       "arches": [
         "x86_64"
       ],
@@ -3832,7 +3832,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.signal.Signal",
-      "icon": "https://dl.flathub.org/media/org/signal/Signal/6ed626cd2e1d7d7dc53b2ccb7a1e51c3/icons/128x128/org.signal.Signal.png",
+      "icon": "https://dl.flathub.org/media/org/signal/Signal/fd8ab4a2db7c887d11927b60a266fc58/icons/128x128/org.signal.Signal.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -8346,7 +8346,7 @@
       "summary": "Chat with local AI models",
       "description": "An Ollama client\n      Features\n      \n        Built in Ollama instance\n        Talk to multiple models in the same conversation\n        Pull and delete models from the app\n        Have multiple conversations\n        Image recognition (Only available with compatible models)\n        Plain text documents recognition\n        Import and export chats\n        Append YouTube transcripts to the prompt\n        Append text from a website to the prompt\n        PDF recognition\n      \n      Disclaimer\n      This project is not affiliated at all with Ollama, I'm not responsible for any damages to your device or software caused by running code given by any models.\n    ",
       "id": "com_jeffser_Alpaca",
-      "updated_at": 1730785517,
+      "updated_at": 1732148617,
       "arches": [
         "aarch64",
         "x86_64"
@@ -8383,6 +8383,11 @@
           "name": "अलपाका",
           "summary": "स्थानीय AI मॉडलों के साथ चैट करें"
         },
+        "it": {
+          "description": "Un client per Ollama\n      Caratteristiche\n      \n        Istanza di Ollama incorporata\n        Utilizza molteplici modelli nella stessa conversazione\n        Scarica e cancella i modelli direttamente dall'applicazione\n        Gestisci diverse conversazioni\n        Riconoscimento di immagini (Disponibile solo con i modelli compatibili)\n        Riconoscimento di documenti di testo\n        Importa ed esporta le conversazioni\n        Allega al prompt la trascrizione video di YouTube\n        Allega al prompt il testo di un sito internet\n        Riconoscimento PDF\n      \n      Dichiarazione di non responsabilità\n      Questo progetto non è in alcun modo associato ad Ollama, e non si accetta alcuna responsabilità per eventuali danni al dispositivo o software causati dall'esecuzione di codice generato da qualsiasi modello.\n    ",
+          "name": "Alpaca",
+          "summary": "Chatta con modelli di intelligenza artificiale locali"
+        },
         "nb-NO": {
           "description": "En Ollama klient\n      Funksjonalitet\n      \n        Innebygd Ollama programvareinstans\n        Snakk til flere modeller i samme samtale\n        Last ned og slett modeller fra appen\n        Ha flere samtaler\n        Bildetolkning (tilgjengelig for modeller som støtter det)\n        Råtekst dokument tolking\n        Importer og eksporter samtaler\n      \n      Obs!\n      Dette prosjektet er ikke assosiert med Ollama, og jeg er ikke ansvarlig for noen skader til din enhet eller programvare ved bruk av kode gitt fra modellene.\n    ",
           "name": "Alpaca",
@@ -8411,7 +8416,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.jeffser.Alpaca",
-      "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/4a007e8485a3cee685ecbd965fd2a04d/icons/128x128/com.jeffser.Alpaca.png",
+      "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/60c4a1342034594bd8ed4b2865772ba6/icons/128x128/com.jeffser.Alpaca.png",
       "categories": [
         "Utility",
         "Development",
@@ -20446,7 +20451,7 @@
       "summary": "Network protocol analyzer",
       "description": "\n\tWireshark allows you to examine protocol data stored in files.\n\tIt supports dozens of protocol capture file formats and understands\n\tmore than a thousand protocols.\n    \n      \n\tIt has many powerful features including a rich display filter language\n\tand the ability to reassemble multiple protocol packets in order to,\n\tfor example, view a complete TCP stream, save the contents of a file\n\twhich was transferred over HTTP or CIFS, or play back an RTP audio\n\tstream.\n    \n      \n\tNOTE: This version of Wireshark does not support capturing data.\n    \n    ",
       "id": "org_wireshark_Wireshark",
-      "updated_at": 1731239168,
+      "updated_at": 1732142994,
       "arches": [
         "aarch64",
         "x86_64"
@@ -20460,7 +20465,7 @@
       "project_license": "GPL-2.0",
       "is_free_license": true,
       "app_id": "org.wireshark.Wireshark",
-      "icon": "https://dl.flathub.org/media/org/wireshark/Wireshark/fafadb5747290ced35076de024ff421b/icons/128x128/org.wireshark.Wireshark.png",
+      "icon": "https://dl.flathub.org/media/org/wireshark/Wireshark/9006ce859c2eca3dc0fc9a0af37ebc0e/icons/128x128/org.wireshark.Wireshark.png",
       "categories": [
         "Network",
         "Monitor"

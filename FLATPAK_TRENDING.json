@@ -22828,7 +22828,7 @@
       "summary": "Chat with local AI models",
       "description": "An Ollama client\n      Features\n      \n        Built in Ollama instance\n        Talk to multiple models in the same conversation\n        Pull and delete models from the app\n        Have multiple conversations\n        Image recognition (Only available with compatible models)\n        Plain text documents recognition\n        Import and export chats\n        Append YouTube transcripts to the prompt\n        Append text from a website to the prompt\n        PDF recognition\n      \n      Disclaimer\n      This project is not affiliated at all with Ollama, I'm not responsible for any damages to your device or software caused by running code given by any models.\n    ",
       "id": "com_jeffser_Alpaca",
-      "updated_at": 1730785517,
+      "updated_at": 1732148617,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22865,6 +22865,11 @@
           "name": "अलपाका",
           "summary": "स्थानीय AI मॉडलों के साथ चैट करें"
         },
+        "it": {
+          "description": "Un client per Ollama\n      Caratteristiche\n      \n        Istanza di Ollama incorporata\n        Utilizza molteplici modelli nella stessa conversazione\n        Scarica e cancella i modelli direttamente dall'applicazione\n        Gestisci diverse conversazioni\n        Riconoscimento di immagini (Disponibile solo con i modelli compatibili)\n        Riconoscimento di documenti di testo\n        Importa ed esporta le conversazioni\n        Allega al prompt la trascrizione video di YouTube\n        Allega al prompt il testo di un sito internet\n        Riconoscimento PDF\n      \n      Dichiarazione di non responsabilità\n      Questo progetto non è in alcun modo associato ad Ollama, e non si accetta alcuna responsabilità per eventuali danni al dispositivo o software causati dall'esecuzione di codice generato da qualsiasi modello.\n    ",
+          "name": "Alpaca",
+          "summary": "Chatta con modelli di intelligenza artificiale locali"
+        },
         "nb-NO": {
           "description": "En Ollama klient\n      Funksjonalitet\n      \n        Innebygd Ollama programvareinstans\n        Snakk til flere modeller i samme samtale\n        Last ned og slett modeller fra appen\n        Ha flere samtaler\n        Bildetolkning (tilgjengelig for modeller som støtter det)\n        Råtekst dokument tolking\n        Importer og eksporter samtaler\n      \n      Obs!\n      Dette prosjektet er ikke assosiert med Ollama, og jeg er ikke ansvarlig for noen skader til din enhet eller programvare ved bruk av kode gitt fra modellene.\n    ",
           "name": "Alpaca",
@@ -22893,7 +22898,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.jeffser.Alpaca",
-      "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/4a007e8485a3cee685ecbd965fd2a04d/icons/128x128/com.jeffser.Alpaca.png",
+      "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/60c4a1342034594bd8ed4b2865772ba6/icons/128x128/com.jeffser.Alpaca.png",
       "categories": [
         "Utility",
         "Development",
@@ -24046,7 +24051,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 49,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
