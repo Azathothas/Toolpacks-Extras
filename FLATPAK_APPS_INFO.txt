@@ -2312,7 +2312,7 @@ Descr: Watch torrents with your friends
 -----------------------------
 NAME: PokeMMO
 APP_ID: com.pokemmo.PokeMMO
-Descr: Multiplayer Nintendo DS and GBA game emulator
+Descr: PokeMMO Game Client
 -----------------------------
 NAME: Polyphone
 APP_ID: com.polyphone_soundfonts.polyphone
@@ -7146,9 +7146,9 @@ NAME: Tunneler
 APP_ID: net.zdechov.app.Tunneler
 Descr: A tank digging battle game
 -----------------------------
-NAME: vCardStudio
+NAME: vCard Studio
 APP_ID: net.zdechov.app.vCardStudio
-Descr: contact management application
+Descr: Contact management application
 -----------------------------
 NAME: 2048
 APP_ID: net.zdechov.app.x2048

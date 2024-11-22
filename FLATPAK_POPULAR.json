@@ -1967,7 +1967,7 @@
       "summary": "Introducing the new Microsoft Edge web browser. It’s time to expect more. More privacy. More control. More productivity. More value.",
       "description": "\n    NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft.\n    \n      \n    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.\n   \n      \n    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.\n   \n      \n    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need.\n   \n    ",
       "id": "com_microsoft_Edge",
-      "updated_at": 1731719748,
+      "updated_at": 1732244896,
       "arches": [
         "x86_64"
       ],
@@ -1976,7 +1976,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.microsoft.Edge",
-      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/0b789942edb4e78b72c29127dc803b67/icons/128x128/com.microsoft.Edge.png",
+      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/fd4eb1f4d16bdba6b4dc1860850dc1d1/icons/128x128/com.microsoft.Edge.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -15695,7 +15695,7 @@
       "summary": "A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux",
       "description": "\n            This is a screen recorder that has minimal impact on system performance by recording a monitor using the GPU only, similar to shadowplay on windows. This is the fastest screen recording tool for Linux. This screen recorder works on X11 and Wayland on AMD, Intel and NVIDIA.\n        \n      \n            This screen recorder can be used for recording your desktop offline, for live streaming and for nvidia-like instant replay, where only the last few minutes are saved.\n        \n      Supported video codecs:\n      \n        H264 (default)\n        HEVC (Optionally with HDR)\n        AV1 (Optionally with HDR. Not currently supported on NVIDIA if you use GPU Screen Recorder flatpak)\n        VP8\n        VP9\n      \n      Supported audio codecs:\n      \n        Opus (default)\n        AAC\n      \n      \n            Recording a monitor requires (restricted) root access which means that you have to install GPU Screen Recorder system-wide: \"flatpak install --system com.dec05eba.gpu_screen_recorder\"\n            and pkexec needs to be installed on the system and a polkit agent needs to be running.\n            Note that this only applies to when recording a monitor on AMD/Intel or when recording on Wayland without using the desktop portal option.\n        \n      AV1 is currently not supported in the flatpak for Nvidia since GPU Screen Recorder uses an older ffmpeg version to support older Nvidia cards. Install GPU Screen Recorder from source or from AUR if you want to use AV1 on Nvidia.\n      \n            Videos are in variable framerate format. Very out of date video players might have an issue playing such videos. It's recommend to use MPV to play such videos, otherwise you might experience stuttering in the video.\n            You can select constant frame rate mode in advanced view if you need it.\n        \n      \n            If the video doesn't play or you get green/yellow overlay then your video player is missing H264/HEVC video codec. Either install the video codecs or use mpv.\n        \n      AMD has a driver/hardware fault that causes black bars/distorted colors on the sides of the video for certain video resolutions. This happens for both av1 and hevc, so if you have this issue then switch to h264 video codec option in advanced settings.\n        \n      \n            If H264/HEVC video encoding option is not available on your AMD/Intel system but you know that your GPU supports those codecs for encoding then you may need to install mesa-extra freedesktop runtime by running this command: \"flatpak install --system org.freedesktop.Platform.GL.default//23.08-extra\".\n        \n      \n            On NVIDIA systems the flatpak NVIDIA driver needs to match the systems NVIDIA driver version or the NVIDIA driver will fail to properly load in flatpaks.\n            Make sure you update flatpak on your system with: \"flatpak update\", or if that doesn't fix it you can try to install the specific flatpak NVIDIA driver version version that matches your systems NVIDIA driver version by running:\n            \"flatpak install org.freedesktop.Platform.GL.nvidia-version\", for example \"flatpak install org.freedesktop.Platform.GL.nvidia-550-54-14\".\n            You can find which NVIDIA driver version is running on your system by running \"cat /proc/driver/nvidia/version\".\n        \n      GPU Screen Recorder flatpak can install files in $HOME/.local/share/gpu-screen-recorder. If you want to uninstall GPU Screen Recorder then you will have to remove this directory manually.\n    ",
       "id": "com_dec05eba_gpu_screen_recorder",
-      "updated_at": 1731897106,
+      "updated_at": 1732238022,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15705,7 +15705,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.dec05eba.gpu_screen_recorder",
-      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/bed8c96f51c75ccc885132a4832e351b/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
+      "icon": "https://dl.flathub.org/media/com/dec05eba/gpu_screen_recorder/c3b3c5ada2ff2ecc7547a2f1c0113e0f/icons/128x128/com.dec05eba.gpu_screen_recorder.png",
       "categories": [
         "AudioVideo",
         "Recorder"
@@ -18856,7 +18856,7 @@
       "summary": "A simple Flatpak store",
       "description": "\n    It will help you install Flatpak apps in a user-friendly way. We have recipes for some of them to install them even better. \n    \n      \n    For example, for Steam, it asks the user to choose a folder where they store their games before installation.\n    \n    ",
       "id": "org_dupot_easyflatpak",
-      "updated_at": 1731784230,
+      "updated_at": 1732236818,
       "arches": [
         "x86_64"
       ],
@@ -18865,7 +18865,7 @@
       "project_license": "LGPL-2.1-only",
       "is_free_license": true,
       "app_id": "org.dupot.easyflatpak",
-      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/24d34790f62bcd97753e9830f4e0ff60/icons/128x128/org.dupot.easyflatpak.png",
+      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/a12f5dd71e714a1cb47a9c284b0c068b/icons/128x128/org.dupot.easyflatpak.png",
       "categories": [
         "Utility"
       ],
@@ -22321,7 +22321,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
