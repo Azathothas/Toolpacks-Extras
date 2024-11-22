@@ -2707,6 +2707,7 @@ page.codeberg.lazyt.ubpm
 page.codeberg.libre_menu_editor.LibreMenuEditor
 page.codeberg.maerchenfeeimgarten.Pfeilspiel
 page.codeberg.papojari.Find_Billy
+page.codeberg.terratactician_expandoria.game
 page.codeberg.tpikonen.geobug
 page.codeberg.tpikonen.satellite
 page.codeberg.yeldham.Librerama

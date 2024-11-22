@@ -2631,6 +2631,7 @@
 | ubiupdatevol | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ubiupdatevol | cd7c8bfc7644 |
 | ubiupdatevol | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/ubiupdatevol | ce9aaf013ede |
 | ubuntu-flatimage.no_strip | A hybrid of Flatpak sandboxing with AppImage portability | https://github.com/ruanformigoni/flatimage | https://bin.pkgforge.dev/aarch64/ubuntu-flatimage.no_strip | 01937eabde19 |
+| ubuntu.no_strip | Portable Ephemeral Ubuntu Linux Docker Image (DockerC) | https://github.com/docker-library/docs/tree/master/ubuntu | https://bin.pkgforge.dev/aarch64/ubuntu.no_strip | 56a44ddc68b3 |
 | uclampset | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uclampset | 6286d8929195 |
 | ucspilogd | small & secure supervision software suite | https://github.com/skarnet/s6 | https://bin.pkgforge.dev/aarch64/Baseutils/s6/ucspilogd | 7f9fcc832848 |
 | udhcpc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/udhcpc | 01558cbfe4f4 |

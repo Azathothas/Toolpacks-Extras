@@ -9570,6 +9570,10 @@ NAME: Find Billy!
 APP_ID: page.codeberg.papojari.Find_Billy
 Descr: A pixel art 2d platformer game.
 -----------------------------
+NAME: TerraTactician Expandoria
+APP_ID: page.codeberg.terratactician_expandoria.game
+Descr: Hexagon based logic game
+-----------------------------
 NAME: Geobug
 APP_ID: page.codeberg.tpikonen.geobug
 Descr: Check your location and save it to a GPX track
