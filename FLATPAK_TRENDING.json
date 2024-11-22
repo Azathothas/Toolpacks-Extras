@@ -21903,7 +21903,7 @@
       "summary": "Listen to audio books",
       "description": "Do you like audio books? Then lets get cozy!\n      Cozy is a audio book player. Here are some of the features:\n      \n        Import all your audio books into Cozy to browse them comfortably\n        Listen to your DRM free mp3, m4b, m4a (aac, ALAC, …), flac, ogg and wav audio books\n        Remembers your playback position\n        Sleep timer\n        Playback speed control for each book individually\n        Search your library\n        Multiple storage location support\n        Offline Mode! This allows you to keep an audio book on your internal storage if you store your audio books on an external or network drive. Perfect to listen to on the go!\n        Drag and Drop to import new audio books\n        Sort your audio books by author, reader and name\n      \n    ",
       "id": "com_github_geigi_cozy",
-      "updated_at": 1709307842,
+      "updated_at": 1732286511,
       "arches": [
         "x86_64",
         "aarch64"
@@ -21934,7 +21934,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1712154041",
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.70779496946077,
       "installs_last_month": 2151,
       "added_at": 1511886266
@@ -22406,7 +22406,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 42,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

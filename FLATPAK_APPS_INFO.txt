@@ -3968,7 +3968,7 @@ Descr: Enpass is a password manager to securely store and manage your passwords 
 -----------------------------
 NAME: Ente Auth
 APP_ID: io.ente.auth
-Descr: Open source 2FA authenticator, with end-to-end encrypted backups
+Descr: FOSS, cross-platform 2FA app
 -----------------------------
 NAME: Exodus
 APP_ID: io.exodus.Exodus.desktop
