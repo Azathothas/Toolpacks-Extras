@@ -1904,7 +1904,7 @@ Descr: Capable and Ergonomic Java IDE
 -----------------------------
 NAME: IntelliJ IDEA Ultimate
 APP_ID: com.jetbrains.IntelliJ-IDEA-Ultimate
-Descr: Capable and Ergonomic Java IDE for Enterprise, Web and Mobile Development
+Descr: The Leading Java and Kotlin IDE
 -----------------------------
 NAME: PhpStorm
 APP_ID: com.jetbrains.PhpStorm
@@ -2312,7 +2312,7 @@ Descr: Watch torrents with your friends
 -----------------------------
 NAME: PokeMMO
 APP_ID: com.pokemmo.PokeMMO
-Descr: PokeMMO Game Client
+Descr: Multiplayer Nintendo DS and GBA game emulator
 -----------------------------
 NAME: Polyphone
 APP_ID: com.polyphone_soundfonts.polyphone
@@ -5120,7 +5120,7 @@ Descr: A GUI to do stuff with the Analogue Pocket
 -----------------------------
 NAME: NEST Desktop
 APP_ID: io.github.nest_desktop.nest-desktop
-Descr: A web-based application for spiking neuronal simulation
+Descr: Simulate spiking neuronal networks
 -----------------------------
 NAME: ASCII Draw
 APP_ID: io.github.nokse22.asciidraw

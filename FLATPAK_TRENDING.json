@@ -994,7 +994,7 @@
       "summary": "GUI for radare2",
       "description": "Iaito is the official graphical interface for radare2, a libre reverse engineering framework.\n      \n        Focus on simplicity, parity with commands, keybindings and r2-style workflows.\n        Use r2 plugins (f.ex: no need for r2ghidra-iaito plugin if r2ghidra is installed)\n        Aims to cover other radare2 features, not just a disassembler (forensics, networking, bindiffing, solvers, ...).\n      \n    ",
       "id": "org_radare_iaito",
-      "updated_at": 1732027754,
+      "updated_at": 1732226297,
       "arches": [
         "x86_64",
         "aarch64"
@@ -1004,7 +1004,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "org.radare.iaito",
-      "icon": "https://dl.flathub.org/media/org/radare/iaito/93af3f318080d959ef265b46bada00d4/icons/128x128/org.radare.iaito.png",
+      "icon": "https://dl.flathub.org/media/org/radare/iaito/93efb306c477dd0be91aa3beb5c0eb26/icons/128x128/org.radare.iaito.png",
       "categories": [
         "Development",
         "Debugger",

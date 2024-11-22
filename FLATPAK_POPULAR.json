@@ -9642,7 +9642,7 @@
       "summary": "High-performance code editor",
       "description": "\n      *NOTE*: This is the official release of Zed, packaged into a Flatpak by the community. This repackaging is not yet supported by Zed Industries, Inc.\n    \n      \n      Productive coding starts with a tool that stays out of your way. Zed blends the power of an IDE with the speed of a lightweight editor for productivity you can feel under your fingertips.\n    \n      Features:\n      \n        Performance: Efficiently uses every CPU core and your GPU for instant startup, quick file loading, and responsive keystrokes.\n        Language-aware: Maintains a syntax tree for precise highlighting, and auto-indent, with LSP support for autocompletion and refactoring.\n        Collaboration: Real-time editing and navigation for multiple developers in a shared workspace.\n        AI Integration: Integrates GitHub Copilot and GPT-4 for natural language code generation.\n      \n    ",
       "id": "dev_zed_Zed",
-      "updated_at": 1732139844,
+      "updated_at": 1732242324,
       "arches": [
         "x86_64",
         "aarch64"
@@ -9652,7 +9652,7 @@
       "project_license": "AGPL-3.0-or-later and Apache-2.0 and GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "dev.zed.Zed",
-      "icon": "https://dl.flathub.org/media/dev/zed/Zed/58ca3f65b18f29285b962afcd86df132/icons/128x128/dev.zed.Zed.png",
+      "icon": "https://dl.flathub.org/media/dev/zed/Zed/7f0381f8785a6a6043bbd352f069b6d7/icons/128x128/dev.zed.Zed.png",
       "categories": [
         "Development",
         "Utility"
@@ -22321,7 +22321,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
