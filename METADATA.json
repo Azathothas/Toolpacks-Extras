@@ -1366,7 +1366,7 @@
         "build_script": "https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/engrampa.appbundle.sh",
         "build_log": "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/engrampa.appbundle.log",
         "appstream": "",
-        "category": "WebBrowser",
+        "category": "Core,Utility",
         "desktop": "",
         "icon": "https://pkgcache.pkgforge.dev/x86_64/engrampa.dwfs.appbundle.icon.png",
         "screenshots": [

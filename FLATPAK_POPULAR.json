@@ -6406,13 +6406,18 @@
       "summary": "Audio Effects for PipeWire Applications",
       "description": "Easy Effects is an advanced audio manipulation tool. It includes an equalizer, limiter, compressor and a reverberation tool, just to mention a few. To complement this there is also a built in spectrum analyzer.\n      Easy Effects is the successor to PulseEffects. Easy Effects only supports PipeWire's audio server. PulseAudio users should instead use PulseEffects.\n      Because Easy Effects uses the default PipeWire sound server it will work with most, if not all, applications you use. All supported applications are presented in the main window, where each can be enabled individually.\n      Besides manipulating sound output, Easy Effects is able to apply effects to an input device, such as a microphone. This is, for example, useful in audio recording, but it also works well during voice conversations.\n      When Easy Effects is launched it will conveniently remember the configuration used in the last session. It is also possible to save all the current settings as profiles.\n    ",
       "id": "com_github_wwmm_easyeffects",
-      "updated_at": 1726174934,
+      "updated_at": 1732325944,
       "arches": [
         "aarch64",
         "x86_64"
       ],
       "type": "desktop-application",
       "translations": {
+        "cs": {
+          "description": "EasyEffects je pokročilým nástrojem pro zacházení se zvukem. Obsahuje mimo jiné nástroj ekvalizéru, omezovače (limiter), kompresoru a dozvuku. Na doplnění je také vestavěn analyzátor spektra.\n      EasyEffects je nástupce aplikace PulseEffects. EasyEffects podporuje pouze audio server PipeWire. Uživatelé PulseAudio by měli použít aplikaci PulseEffects.\n      Protože aplikace Easy Effects používá výchozí zvukový server PipeWire, bude pracovat s většinou, pokud už ne se všemi vámi používanými programy. Všechny podporované programy jsou ukázány v hlavním okně, v němž je možné kterýkoli z nich ručně povolit.\n      Vedle práce se zvukovým výstupem dokáže aplikace Easy Effects efekty použít i na vstupní zařízení, jako je mikrofon. To je užitečné mimo jiné při nahrávání zvuku, avšak lze dobře uplatnit i během hlasových hovorů.\n      Když je aplikace Easy Effects spuštěna, zapamatuje si nastavení používané při poslední relaci. Je možné i uložit všechna aktuální nastavení jako profil.\n    ",
+          "name": "Easy Effects",
+          "summary": "Zvukové efekty pro programy využívající PipeWire"
+        },
         "es": {
           "description": "Easy Effects es una herramienta avanzada de manipulación de audio. Incluye un ecualizador, un limitador, un compresor y una herramienta de reverberación, por mencionar algunos. Para complementar esto, también hay un analizador de espectro incorporado.\n      Easy Effects es el sucesor de PulseEffects. Easy Effects sólo es compatible con el servidor de audio de PipeWire. Los usuarios de PulseAudio deben utilizar en su lugar PulseEffects.\n      Dado que Easy Effects utiliza el servidor de sonido PipeWire por defecto, funcionará con la mayoría, si no con todas, las aplicaciones que utilice. Todas las aplicaciones compatibles se presentan en la ventana principal, donde cada una puede ser activada individualmente.\n      Además de manipular la salida de sonido, Easy Effects es capaz de aplicar efectos a un dispositivo de entrada, como un micrófono. Esto es, por ejemplo, útil en la grabación de audio, pero también funciona bien durante las conversaciones de voz.\n      Cuando se inicie Easy Effects, recordará convenientemente la configuración utilizada en la última sesión. También es posible guardar todos los ajustes actuales como perfiles.\n    ",
           "name": "Easy Effects",
@@ -6429,9 +6434,14 @@
           "summary": "Audio-effecten voor PipeWire-apps"
         },
         "pt-BR": {
-          "description": "O Easy Effects é uma ferramenta avançada de manipulação de áudio que inclui as funções de equalizador, limitador, compressor, reverberação e um analisador de espectro do som.\n      O Easy Effects é o sucessor do PulseEffects. O Easy Effects é compatível apenas com o PipeWire como servidor de áudio. Os usuários do PulseAudio devem utilizar o PulseEffects.\n      Como o Easy Effects utiliza o servidor de áudio PipeWire, certamente funcionará com a maioria ou com quase todos os aplicativos que você utiliza no seu computador. Todos os aplicativos compatíveis são apresentados na janela principal permitindo que cada um seja ativado individualmente.\n      Além de manipular a saída de som, o Easy Effects é capaz de aplicar efeitos a um dispositivo de entrada, como por exemplo, um microfone. Esta funcionalidade é útil para a gravação de áudio, mas também funciona bem durante conversas de voz.\n      Quando o Easy Effects for iniciado memorizará convenientemente as configurações utilizadas na última sessão. Também é possível salvar todas as configurações atuais como perfis do usuário.\n    ",
-          "name": "Equalizador de Áudio Easy Effects",
-          "summary": "O ‘Easy Effects’ é um aplicativo GTK gratuito e de código aberto que fornece uma grande variedade de efeitos sonoros e filtros para serem aplicados nos fluxos de áudio de entrada e saída que utiliza o servidor de áudio PipeWire, possui as funções de equalizador, compressor e efeitos de áudio"
+          "description": "Easy Effects é uma ferramenta avançada de manipulação de áudio. Inclui equalizador, limitador, compressor e ferramenta de reverberação, só para citar alguns. Para complementar isso, há também um analisador de espectro integrado.\n      Easy Effects é o sucessor do PulseEffects. Easy Effects suporta apenas o servidor de áudio do PipeWire. Os usuários do PulseAudio devem usar o PulseEffects.\n      Como o Easy Effects usa o servidor de som PipeWire padrão, ele funcionará com a maioria, senão com todos os aplicativos que você usa. Todos os aplicativos suportados são apresentados na janela principal, onde cada um pode ser habilitado individualmente.\n      Além de manipular a saída de som, Easy Effects é capaz de aplicar efeitos a um dispositivo de entrada, como um microfone. Isso é útil, por exemplo, na gravação de áudio, mas também funciona bem durante conversas de voz.\n      Quando o Easy Effects for iniciado, ele lembrará convenientemente a configuração usada na última sessão. Também é possível salvar todas as configurações atuais como perfis.\n    ",
+          "name": "Easy Effects",
+          "summary": "Efeitos de áudio para aplicações PipeWire"
+        },
+        "ro": {
+          "description": "Easy Effects este un instrument avansat de manipulare audio. Acesta include un egalizator, un limitator, un compresor și un instrument de reverberație, doar pentru a menționa câteva. Pentru a completa acestea, există și un analizor de spectru încorporat.\n      Easy Effects este succesorul programului PulseEffects. Easy Effects acceptă doar serverul audio PipeWire. Utilizatorii PulseAudio ar trebui să utilizeze în schimb PulseEffects.\n      Deoarece Easy Effects utilizează serverul de sunet implicit PipeWire, acesta va funcționa cu majoritatea, dacă nu chiar cu toate aplicațiile pe care le utilizați. Toate aplicațiile acceptate sunt prezentate în fereastra principală, unde fiecare poate fi activată individual.\n      Pe lângă manipularea sunetului de ieșire, Easy Effects este capabil să aplice efecte unui dispozitiv de intrare, cum ar fi un microfon. Acest lucru este, de exemplu, util în înregistrarea audio, dar funcționează bine și în timpul conversațiilor vocale.\n      Când Easy Effects este lansat, acesta va reține în mod convenabil configurația utilizată în ultima sesiune. De asemenea, este posibil să salvați toate configurările curente ca profile.\n    ",
+          "name": "Easy Effects",
+          "summary": "Efecte audio pentru aplicațiile PipeWire"
         },
         "ru": {
           "description": "Easy Effects — это продвинутый набор инструментов для работы со звуком. Приложение включает в себя эквалайзер, ограничитель (лимитер), компрессор, утилиту для реверберации и многое другое. Более того, имеется встроенный анализатор аудиоспектра.\n      Easy Effects является преемником PulseEffects, но поддерживает только аудио-сервер PipeWire. Пользователям PulseAudio следует оставаться на PulseEffects.\n      Так как Easy Effects использует стандартный сервер PipeWire, программа будет работать с большинством используемых вами приложений. Все поддерживаемые приложения представлены в главном окне, где каждое может быть настроено индивидуально.\n      Помимо изменения звука на выходе Easy Effects также может использовать звуковые эффекты для входных устройств, таких как микрофон. К примеру, это может быть полезно во время аудиозаписи или голосовой конференции.\n      При запуске Easy Effects автоматически подгрузит ваши настройки из предыдущей сессии. Также вы можете сохранить все ваши текущие настройки в профили запуска.\n    ",
@@ -6442,10 +6452,6 @@
           "description": "Easy Effects gelişmiş bir ses işleme aracıdır. Ekolayzır, sınırlayıcı, sıkıştırıcı ve yankılanma araçları içerir. Bunları tamamlamak için ayrıca bir spektrum çözümleyici bulunmaktadır.\n      Easy Effects, PulseEffects'in devamıdır. Easy Effects yalnızca PipeWire'ın ses sunucusunu destekler. PulseAudio kullanıcıları bunun yerine PulseEffects kullanmalıdır.\n      EasyEffects, varsayılan PipeWire ses sunucusunu kullandığından, kullandığınız uygulamaların tümü olmasa da çoğu ile çalışacaktır. Desteklenen tüm uygulamalar, her birinin ayrı ayrı etkinleştirilebileceği ana pencerede sunulur.\n      Ses çıkışını değiştirmenin yanı sıra, Easy Effects, mikrofon gibi bir giriş aygıtına da efektler uygulayabilir. Bu özellik ses kaydında da kullanışlıdır ve sesli konuşmalarda da iyi çalışır.\n      Easy Effects başlatıldığında, son oturumda kullanılan ayarlamaları rahatlıkla hatırlayacaktır. Tüm geçerli ayarları profil olarak kaydetmek de mümkündür.\n    ",
           "name": "Easy Effects",
           "summary": "PipeWire Uygulamaları için Ses Efektleri"
-        },
-        "cs": {
-          "name": "Easy Effects",
-          "summary": "Zvukové efekty pro programy využívající PipeWire"
         },
         "da": {
           "summary": "Lyd Effekter for PipeWire Applikationer"
@@ -6475,7 +6481,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.wwmm.easyeffects",
-      "icon": "https://dl.flathub.org/media/com/github/wwmm.easyeffects.desktop/cd05bea2bbe994760634523dd1812357/icons/128x128/com.github.wwmm.easyeffects.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/github/wwmm.easyeffects.desktop/40c85b0c12a5463249b80fd24b6186f2/icons/128x128/com.github.wwmm.easyeffects.desktop.png",
       "categories": [
         "AudioVideo",
         "Audio"
@@ -16313,7 +16319,7 @@
       "summary": "Powerful, intelligent flash cards",
       "description": "Anki is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.\n      Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-agnostic and supports images, audio, videos and scientific markup (via LaTeX), the possibilities are endless.\n      Optional LaTeX support is provided by the TeX Live Flatpak extension org.freedesktop.Sdk.Extension.texlive.\n    ",
       "id": "net_ankiweb_Anki",
-      "updated_at": 1723188730,
+      "updated_at": 1732334749,
       "arches": [
         "aarch64",
         "x86_64"
@@ -16342,7 +16348,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 10.985410136152629,
       "installs_last_month": 6230,
       "added_at": 1520618691
@@ -22331,7 +22337,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
