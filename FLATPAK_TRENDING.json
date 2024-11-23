@@ -17531,7 +17531,7 @@
       "summary": "Admire your photos",
       "description": "A photo gallery for everyone who wants their photos to live locally on their devices.\n      Why enjoy your photo library with Fotema?\n      \n        View iOS Live Photos and Android motion photos (Samsung devices only).\n        View photos plotted on a map.\n        Automatically detects faces.\n        View your library by year or month.\n        Play videos.\n        Many supported image formats. Fotema supports the same image formats as Loupe (the GNOME image viewer).\n      \n    ",
       "id": "app_fotema_Fotema",
-      "updated_at": 1730835076,
+      "updated_at": 1732374124,
       "arches": [
         "aarch64",
         "x86_64"
@@ -17541,7 +17541,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "app.fotema.Fotema",
-      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/7e78c225b52787b293528fef591e6907/icons/128x128/app.fotema.Fotema.png",
+      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/47fd555600f39d48c01d88268df24e8c/icons/128x128/app.fotema.Fotema.png",
       "categories": [
         "Graphics",
         "Viewer",
@@ -22773,7 +22773,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
