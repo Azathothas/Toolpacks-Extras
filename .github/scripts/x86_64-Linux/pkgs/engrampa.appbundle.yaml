@@ -5,7 +5,7 @@ bins:
   - "engrampa.dwfs.appbundle"
 category:
  - "Core"
-- "Utility"
+ - "Utility"
 description: "A file archiver for MATE"
 note: "AppBundles: https://github.com/xplshn/pelf. More: https://l.ajam.dev/appbundles"
 web_url: "https://wiki.mate-desktop.org/mate-desktop/applications/engrampa/"
