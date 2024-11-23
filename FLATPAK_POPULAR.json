@@ -7297,7 +7297,7 @@
       "summary": "Universal Database Manager",
       "description": "Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.\n      This is the official build of DBeaver, packaged into a Flatpak. This repackaging is not supported by DBeaver Community Edition.\n    ",
       "id": "io_dbeaver_DBeaverCommunity",
-      "updated_at": 1730895169,
+      "updated_at": 1732348676,
       "arches": [
         "aarch64",
         "x86_64"
@@ -7307,7 +7307,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "io.dbeaver.DBeaverCommunity",
-      "icon": "https://dl.flathub.org/media/io/dbeaver/DBeaverCommunity/e84a7d7d005fa01e4923ac87d38a7651/icons/128x128/io.dbeaver.DBeaverCommunity.png",
+      "icon": "https://dl.flathub.org/media/io/dbeaver/DBeaverCommunity/e069e5ccd4f66d9c3e1ed21046302b78/icons/128x128/io.dbeaver.DBeaverCommunity.png",
       "categories": [
         "IDE",
         "Development"
@@ -11445,7 +11445,7 @@
       "summary": "Take handwritten notes",
       "description": "\n      Xournal++ is a hand note-taking software written in C++ with the target of\n      flexibility, functionality and speed. Stroke recognizer and other parts are\n      based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux\n      (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input\n      from devices such as Wacom Tablets.\n    \n      \n      Xournal++ features:\n    \n      \n        Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)\n        Paper backgrounds for note-taking, scratch paper, or whiteboarding\n        Annotate on top of PDFs\n        Select text from the background PDF, copy, highlight or underline it or strike it through\n        Follow links from the background PDF\n        Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line\n        Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)\n        Shape drawing (line, arrow, circle, rectangle, spline)\n        Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii\n        Fill shape functionality\n        Shape resizing and rotation\n        Rotation and grid snapping for precise alignment of objects\n        Input stabilization for smoother writing/drawing\n        Text tool for adding text in different fonts, colors, and sizes\n        Enhanced support for image insertion\n        Eraser with multiple configurations\n        LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting\n        Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)\n        Allows mapping different tools/colors etc. to stylus/mouse buttons\n        Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape\n        Custom color palette support using the .gpl format\n        Page template definitions\n        Bug reporting, autosave, and auto backup tools\n        Audio recording and playback alongside with handwritten notes\n        Multi language support (over 20 languages supported)\n        Plugins using Lua scripting\n      \n      \n    ",
       "id": "com_github_xournalpp_xournalpp",
-      "updated_at": 1729489417,
+      "updated_at": 1732347329,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22166,7 +22166,7 @@
       "summary": "SyncThingy = Syncthing + simple tray indicator",
       "description": "SyncThingy is a simple tray indicator for Syncthing written in C++.\n      \n        Following the KISS principle, it allows you to see if Syncthing is running, stop it and manage it using the default webui.\n        \n    ",
       "id": "com_github_zocker_160_SyncThingy",
-      "updated_at": 1729123058,
+      "updated_at": 1732362169,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22176,7 +22176,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.github.zocker_160.SyncThingy",
-      "icon": "https://dl.flathub.org/media/com/github/zocker_160.SyncThingy/80ec44b5df8d746bb98779f532711a25/icons/128x128/com.github.zocker_160.SyncThingy.png",
+      "icon": "https://dl.flathub.org/media/com/github/zocker_160.SyncThingy/addf76e1b7f5ab86cbd013665bec2136/icons/128x128/com.github.zocker_160.SyncThingy.png",
       "categories": [
         "Network",
         "FileTransfer",
@@ -22337,7 +22337,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

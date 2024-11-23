@@ -3430,7 +3430,7 @@
       "summary": "Process data with GnuPG",
       "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1732028698,
+      "updated_at": 1732349311,
       "arches": [
         "aarch64",
         "x86_64"
@@ -3461,12 +3461,15 @@
           "description": "Lock es una interfàcia grafica per GnuPG (GPG) qu’utiliza una polida interfàcia utilizaire LibAdwaita.\n      Tractar tèxte e fichièrs :\n      \n        Chiframent\n        Deschiframent\n        Signatura\n        Verificacion\n      \n      Gerissètz vòstre trocèl GnuPG :\n      \n        Generar un parelh de claus novèl\n        Importar las claus\n        Exportar las claus publicas\n        Afichar las datas d'expiracion\n        Suprimir las claus\n      \n    ",
           "name": "Verrolhar",
           "summary": "Tractar las donadas amb GnuPG"
+        },
+        "et": {
+          "summary": "Töötle andmeid GnuPG abil"
         }
       },
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/dd1369dd6d2ca257aececa59cf5a9ec9/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/33ebfcb2dd7a0fe6d977edd6aaa1a74b/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -22770,7 +22773,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
