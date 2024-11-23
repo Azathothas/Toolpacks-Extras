@@ -4476,7 +4476,7 @@ Descr: GTK+ frontend for mpv
 -----------------------------
 NAME: Play Timer
 APP_ID: io.github.efogdev.mpris-timer
-Descr: Native-feeling timers for GNOME
+Descr: Native-feeling timers
 -----------------------------
 NAME: Weylus Community Edition
 APP_ID: io.github.electronstudio.WeylusCommunityEdition
