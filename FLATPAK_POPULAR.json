@@ -14366,7 +14366,7 @@
       "summary": "Get perfect 3D prints!",
       "description": "\n            Bambu Studio is a cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically\n            optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth\n            printing experience.\n      \n    ",
       "id": "com_bambulab_BambuStudio",
-      "updated_at": 1731695164,
+      "updated_at": 1732405513,
       "arches": [
         "aarch64",
         "x86_64"
@@ -17886,7 +17886,7 @@
       "summary": "A simple Flatpak store",
       "description": "\n    It will help you install Flatpak apps in a user-friendly way. We have recipes for some of them to install them even better. \n    \n      \n    For example, for Steam, it asks the user to choose a folder where they store their games before installation.\n    \n    ",
       "id": "org_dupot_easyflatpak",
-      "updated_at": 1732236818,
+      "updated_at": 1732402757,
       "arches": [
         "x86_64"
       ],
@@ -17895,7 +17895,7 @@
       "project_license": "LGPL-2.1-only",
       "is_free_license": true,
       "app_id": "org.dupot.easyflatpak",
-      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/a12f5dd71e714a1cb47a9c284b0c068b/icons/128x128/org.dupot.easyflatpak.png",
+      "icon": "https://dl.flathub.org/media/org/dupot/easyflatpak/3e559facd131159073c2c7e9575595c5/icons/128x128/org.dupot.easyflatpak.png",
       "categories": [
         "Utility"
       ],
