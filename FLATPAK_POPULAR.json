@@ -5710,7 +5710,7 @@
       "summary": "Telemetry-less code editing",
       "description": "VSCodium combines the simplicity of a code editor with what developers need for the core\n      edit-build-debug cycle.\n      This is the telemetry-less version of Visual Studio Code, packaged into a Flatpak.\n      This repackaging is not supported by Microsoft.\n      Note: To use certain features in this flatpak version, please see Readme file.\n    ",
       "id": "com_vscodium_codium",
-      "updated_at": 1732106785,
+      "updated_at": 1732472841,
       "arches": [
         "aarch64",
         "x86_64"
@@ -5720,7 +5720,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.vscodium.codium",
-      "icon": "https://dl.flathub.org/media/com/vscodium/codium/fe5f8d33ecd7bb46b6841135412cfe8e/icons/128x128/com.vscodium.codium.png",
+      "icon": "https://dl.flathub.org/media/com/vscodium/codium/768bc5fe8d4cbcc460bf9746e0aebbad/icons/128x128/com.vscodium.codium.png",
       "categories": [
         "TextEditor",
         "Development",
@@ -5735,7 +5735,7 @@
         "TextEditor",
         "IDE"
       ],
-      "developer_name": "Peter Squicciarini",
+      "developer_name": "The VSCodium team",
       "verification_verified": "true",
       "verification_method": "website",
       "verification_login_name": null,
@@ -9230,7 +9230,7 @@
       "summary": "A Firefox-based, flexible browser developed in Japan with a variety of features.",
       "description": "Unlimited customization with Floorp\n      Features\n      \n        Strong Tracking Protection\n        Flexible Layout\n        Switchable Design\n        Regular Updates\n        No User Tracking\n        Powered by Open Source\n      \n    ",
       "id": "one_ablaze_floorp",
-      "updated_at": 1730222959,
+      "updated_at": 1732468340,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9240,7 +9240,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "one.ablaze.floorp",
-      "icon": "https://dl.flathub.org/media/one/ablaze/floorp/aa71862ec8f054ca7272b50b062aac9d/icons/128x128/one.ablaze.floorp.png",
+      "icon": "https://dl.flathub.org/media/one/ablaze/floorp/813c9c92b45de1050c307d10372cf47f/icons/128x128/one.ablaze.floorp.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -22337,7 +22337,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
