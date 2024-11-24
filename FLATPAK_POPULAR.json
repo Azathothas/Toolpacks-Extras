@@ -11965,7 +11965,7 @@
       "summary": "Simple collaboration from your desktop",
       "description": "\n      Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned\n      user, GitHub Desktop simplifies your development workflow.\n    \n      \n      Attribute commits with collaborators easily. Quickly add co-authors to your commit. Great for\n      pairing and excellent for sending a little love/credit to that special someone who helped fix\n      that gnarly bug of yours. See the attribution on the history page, undo an accidental\n      attribution, and see the co-authors on github.com\n    \n      \n      Checkout branches with pull requests and view CI statuses. See all open pull requests for your\n      repositories and check them out as if they were a local branch, even if they're from upstream\n      branches or forks. See which pull requests pass commit status checks, too!]\n    \n      \n      Syntax highlighted diffs. The new GitHub Desktop supports syntax highlighting when viewing\n      diffs for a variety of different languages.\n    \n      \n      Expanded image diff support. Easily compare changed images. See the before and after, swipe or\n      fade between the two, or look at just the changed parts.\n    \n      \n      Extensive editor &amp; shell integrations. Open your favorite editor or shell from the app, or\n      jump back to GitHub Desktop from your shell. GitHub Desktop is your springboard for work.\n    \n      \n      Community supported. GitHub Desktop is open source now! Check out our roadmap, contribute, and\n      help us make collaboration even easier.\n    \n      \n      This version of GitHub Desktop is a fork that adds support for Linux.\n    \n    ",
       "id": "io_github_shiftey_Desktop",
-      "updated_at": 1731404375,
+      "updated_at": 1732416634,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11975,7 +11975,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "io.github.shiftey.Desktop",
-      "icon": "https://dl.flathub.org/media/io/github/shiftey.Desktop/80e3ee72f37af19b1bd9ffd6a668184c/icons/128x128/io.github.shiftey.Desktop.png",
+      "icon": "https://dl.flathub.org/media/io/github/shiftey.Desktop/05947d59217129d8123dfb95b5bd50b8/icons/128x128/io.github.shiftey.Desktop.png",
       "categories": [
         "Development"
       ],
