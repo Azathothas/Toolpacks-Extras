@@ -8077,7 +8077,7 @@
       "summary": "Install websites as apps",
       "description": "\n      Install websites as desktop apps, so that they appear in their own windows separate from any browsers installed.\n      This is similar to the \"Install as App\" feature found in popular web browsers.\n    \n      \n      It uses an internal browser isolated from the system browser, which can optionally be used in incognito mode.\n      Links to websites other than the one installed open in a new browser window.\n    \n    ",
       "id": "net_codelogistics_webapps",
-      "updated_at": 1730825572,
+      "updated_at": 1732435117,
       "arches": [
         "aarch64",
         "x86_64"
@@ -8088,6 +8088,11 @@
           "description": "Installieren Sie Websites als Desktop Anwendungen: getrennt von bereits installierten Browsern, in seperaten Fenstern angezeigt. Vergleichbar mit der Funktion “Als App installieren” aus prominenten Browsern.\n      Web Apps nutzt einen internen Browser, isoliert von Browsern des Systems, der optional auch im Inkognito Modus genutzt werden kann. Links zu anderen Websites werden im Systembrowser geöffnet.\n    ",
           "name": "Web Apps",
           "summary": "Installieren Sie Websites als Apps"
+        },
+        "es": {
+          "description": "Instalar sitios web como aplicaciones de escritorio para que se carguen en sus propias ventanas, independientes de cualquier navegador instalado. Esto es similar a la función «Instalar como aplicación» que tienen algunos navegadores web populares.\n      Usa un navegador interno aislado del navegador del sistema, que puede usarse opcionalmente en modo incógnito. Dirige a sitios web diferentes del que se abre en una ventana nueva de navegador.\n    ",
+          "name": "Aplicaciones web",
+          "summary": "Instalar sitios web como aplicaciones"
         },
         "fr": {
           "description": "Installer des sites web en tant qu’applications de bureau, de sorte qu’ils apparaissent dans leur propre fenêtre, indépendamment des navigateurs installés. Cette fonction est similaire à la fonction « Installer en tant qu’application » que l’on trouve dans les navigateurs web les plus populaires.\n      Cette application utilise un navigateur interne isolé du navigateur du système, et peut être utilisé en mode incognito (optionnel). Les liens vers des sites web autres que celui installé s’ouvrent dans une nouvelle fenêtre du navigateur principal installé sur le système.\n    ",
@@ -8124,6 +8129,10 @@
           "name": "Web 应用",
           "summary": "将网站安装为应用"
         },
+        "bn": {
+          "name": "ওয়েব অ্যাপস",
+          "summary": "ওয়েবসাইটগুলিকে অ্যাপ হিসাবে ইনস্টল করুন"
+        },
         "tr": {
           "name": "Web Uygulamaları",
           "summary": "Web sitelerini uygulama olarak kur"
@@ -8132,7 +8141,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.codelogistics.webapps",
-      "icon": "https://dl.flathub.org/media/net/codelogistics/webapps/12a92e1d7183de42349224356cf0c481/icons/128x128/net.codelogistics.webapps.png",
+      "icon": "https://dl.flathub.org/media/net/codelogistics/webapps/d19a10959d03640f1c0bfc4200687f5e/icons/128x128/net.codelogistics.webapps.png",
       "categories": [
         "Network"
       ],
@@ -17095,7 +17104,7 @@
       "summary": "Admire your photos",
       "description": "A photo gallery for everyone who wants their photos to live locally on their devices.\n      Why enjoy your photo library with Fotema?\n      \n        View iOS Live Photos and Android motion photos (Samsung devices only).\n        View photos plotted on a map.\n        Automatically detects faces.\n        View your library by year or month.\n        Play videos.\n        Many supported image formats. Fotema supports the same image formats as Loupe (the GNOME image viewer).\n      \n    ",
       "id": "app_fotema_Fotema",
-      "updated_at": 1732374124,
+      "updated_at": 1732435954,
       "arches": [
         "aarch64",
         "x86_64"
@@ -17105,7 +17114,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "app.fotema.Fotema",
-      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/47fd555600f39d48c01d88268df24e8c/icons/128x128/app.fotema.Fotema.png",
+      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/69462a43ad7400a31571a2ff5d8f0d86/icons/128x128/app.fotema.Fotema.png",
       "categories": [
         "Graphics",
         "Viewer",
@@ -23787,7 +23796,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
