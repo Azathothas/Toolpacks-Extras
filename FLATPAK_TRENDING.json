@@ -11079,7 +11079,7 @@
       "summary": "Process data with GnuPG",
       "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1732349311,
+      "updated_at": 1732450853,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11101,6 +11101,11 @@
           "name": "Schloss",
           "summary": "Verarbeiten Sie Daten mit GnuPG"
         },
+        "fi": {
+          "description": "Lock on graafinen käyttöliittymä GnuPG:lle (GPG), joka hyödyntää nättiä LibAdwaita-käyttöliittymää.\n      Käsittele tekstiä ja tiedostoja:\n      \n        Salaus\n        Salauksen purku\n        Allekirjoitus\n        Vahvistus\n      \n      Hallitse GnuPG-avainnippua:\n      \n        Luo uusia avainpareja\n        Tuo avaimia\n        Vie julkisia avaimia\n        Näytä vanhenemispäivät\n        Poista avaimia\n      \n    ",
+          "name": "Lock",
+          "summary": "Käsittele tietoja GnuPG:llä"
+        },
         "he": {
           "description": "מנעול הוא מנשק משתמש גרפי ל־GnuPG (GPG) שמשתמש במנשק המשתמש LibAdwaita היפהפה.\n      עיבוד טקסט וקבצים:\n      \n        הצפנה\n        פענוח\n        חתימה\n        אימות\n      \n      ניהול צרור מפתחות ה־GnuPG שלך:\n      \n        יצירת צמדי מפתחות חדשים\n        ייבוא מפתחות\n        ייצוא מפתחות ציבוריים\n        הצגת תאריכי תפוגת תוקף\n        הסרת מפתחות\n      \n    ",
           "name": "נעילה",
@@ -11111,6 +11116,11 @@
           "name": "Verrolhar",
           "summary": "Tractar las donadas amb GnuPG"
         },
+        "tr": {
+          "description": "Lock, GnuPG (GPG) için güzel LibAdwaita ara yüzünü kullanan grafiksel bir ön uçtur.\n      Metin ve dosyaları işle:\n      \n        Şifreleme\n        Şifre Çözme\n        İmzalama\n        Doğrulama\n      \n      GnuPG anahtarlığınızı yönetin:\n      \n        Yeni anahtar çiftleri oluşturun\n        Anahtarları içe aktarın\n        Genel anahtarları dışa aktarın\n        Son geçerlilik tarihlerini görüntüleyin\n        Anahtarları kaldırın\n      \n    ",
+          "name": "Kilitle",
+          "summary": "GnuPG ile veri işleme"
+        },
         "et": {
           "summary": "Töötle andmeid GnuPG abil"
         }
@@ -11118,7 +11128,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/33ebfcb2dd7a0fe6d977edd6aaa1a74b/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/78334199449877dea2178b44c070d1fa/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -23796,7 +23806,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

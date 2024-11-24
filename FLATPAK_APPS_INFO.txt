@@ -1986,10 +1986,6 @@ NAME: Caffeine
 APP_ID: com.konstantintutsch.Caffeine
 Descr: Calculate your coffee
 -----------------------------
-NAME: Lock
-APP_ID: com.konstantintutsch.Lock
-Descr: Process data with GnuPG
------------------------------
 NAME: Flutter nmap GUI
 APP_ID: com.krioltech.fnmap
 Descr: Fnmap is a GUI front end for the nmap (Network Mapper)
