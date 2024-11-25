@@ -5473,7 +5473,7 @@
       "summary": "Compare images and videos",
       "description": "A program for comparing multiple versions of an image or video.\n    ",
       "id": "org_gnome_gitlab_YaLTeR_Identity",
-      "updated_at": 1728284216,
+      "updated_at": 1732518071,
       "arches": [
         "aarch64",
         "x86_64"
