@@ -7594,6 +7594,10 @@ NAME: DevilutionX
 APP_ID: org.diasurgical.DevilutionX
 Descr: Diablo/Hellfire source port
 -----------------------------
+NAME: Firefly Luciferin
+APP_ID: org.dpsoftware.FireflyLuciferin
+Descr: Ambilight clone
+-----------------------------
 NAME: DuckStation
 APP_ID: org.duckstation.DuckStation
 Descr: PlayStation Emulator
@@ -9549,6 +9553,10 @@ Descr: A basic game of picross, nonogram, griddler
 NAME: Glerm
 APP_ID: page.codeberg.gwync.glerm
 Descr: A puzzle game
+-----------------------------
+NAME: Snux
+APP_ID: page.codeberg.ilijaculap.snux
+Descr: Simple Snake Game
 -----------------------------
 NAME: When Penguins Fly
 APP_ID: page.codeberg.imbev.WhenPenguinsFly

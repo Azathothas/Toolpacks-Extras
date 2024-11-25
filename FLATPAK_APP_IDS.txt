@@ -1928,6 +1928,7 @@ org.desmume.DeSmuME
 org.develz.Crawl
 org.dhewm3.Dhewm3
 org.diasurgical.DevilutionX
+org.dpsoftware.FireflyLuciferin
 org.duckstation.DuckStation
 org.dune3d.dune3d
 org.dupot.beatmatchtopass
@@ -2702,6 +2703,7 @@ page.codeberg.JakobDev.jdReplace
 page.codeberg.JakobDev.jdSimpleAutostart
 page.codeberg.JakobDev.jdTextEdit
 page.codeberg.gwync.glerm
+page.codeberg.ilijaculap.snux
 page.codeberg.imbev.WhenPenguinsFly
 page.codeberg.lazyt.ubpm
 page.codeberg.libre_menu_editor.LibreMenuEditor
