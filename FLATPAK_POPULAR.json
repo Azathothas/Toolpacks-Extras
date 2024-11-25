@@ -2494,7 +2494,7 @@
       "summary": "Video Conferencing, Web Conferencing, Webinars, Screen Sharing",
       "description": "Award winning Zoom brings video conferencing, online meetings and group messaging into one easy-to-use application.\n      \n        One consistent enterprise experience for all use cases\n        Engineered and optimized to work reliably\n        Up to 500 video participants and 10,000 viewers\n        Easy-to-use, buy and scale\n        Most affordable, straightforward pricing\n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by zoom.us.\n    ",
       "id": "us_zoom_Zoom",
-      "updated_at": 1732016258,
+      "updated_at": 1732530235,
       "arches": [
         "x86_64"
       ],
@@ -2503,7 +2503,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "us.zoom.Zoom",
-      "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/62239e3e674ed7c4c9a2a3c11dc593e7/icons/128x128/us.zoom.Zoom.desktop.png",
+      "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/7d132efaa3fb9a2a9462b4257ee7c999/icons/128x128/us.zoom.Zoom.desktop.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -2537,7 +2537,7 @@
       "summary": "A secure and free password manager for all of your devices",
       "description": "\n      Bitwarden is the easiest and safest way to store all of your logins and\n      passwords while conveniently keeping them synced between all of your\n      devices.\n    \n      \n      Password theft is a serious problem. The websites and apps that you use\n      are under attack every day. Security breaches occur and your passwords\n      are stolen. When you reuse the same passwords across apps and websites\n      hackers can easily access your email, bank, and other important\n      accounts.\n    \n      \n      Security experts recommend that you use a different, randomly generated\n      password for every account that you create. But how do you manage all\n      those passwords? Bitwarden makes it easy for you to create, store, and\n      access your passwords.\n    \n      \n      Bitwarden stores all of your logins in an encrypted vault that syncs\n      across all of your devices. Since it's fully encrypted before it ever\n      leaves your device, only you have access to your data. Not even the\n      team at Bitwarden can read your data, even if we wanted to. Your data\n      is sealed with AES-256 bit encryption, salted hashing, and PBKDF2\n      SHA-256.\n    \n      \n      Bitwarden is 100% open source software. The source code for Bitwarden\n      is hosted on GitHub and everyone is free to review, audit, and\n      contribute to the Bitwarden codebase.\n    \n    ",
       "id": "com_bitwarden_desktop",
-      "updated_at": 1731702321,
+      "updated_at": 1732536311,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2547,7 +2547,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.bitwarden.desktop",
-      "icon": "https://dl.flathub.org/media/com/bitwarden/desktop/f4df3cb75445d98d6c73fcd549669f31/icons/128x128/com.bitwarden.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/bitwarden/desktop/886d15f8c2b79a7dc913c6696753f047/icons/128x128/com.bitwarden.desktop.png",
       "categories": [
         "Utility"
       ],
@@ -9611,7 +9611,7 @@
       "summary": "Plex client for desktop computers",
       "description": "Plex for Linux is your client for playback on the Linux desktop. It features the point and\n    click interface you see in your browser but uses a more powerful playback engine as well as\n    some other advanced features.\n    ",
       "id": "tv_plex_PlexDesktop",
-      "updated_at": 1730898900,
+      "updated_at": 1732533425,
       "arches": [
         "x86_64"
       ],
@@ -9620,7 +9620,7 @@
       "project_license": "LicenseRef-proprietary=https://www.plex.tv/en-gb/about/privacy-legal/plex-terms-of-service/",
       "is_free_license": false,
       "app_id": "tv.plex.PlexDesktop",
-      "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/4912c6e455b8f93d3c1bc8e2d2c8cbda/icons/128x128/tv.plex.PlexDesktop.png",
+      "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/835877171c4325f1f4919f9edc37262d/icons/128x128/tv.plex.PlexDesktop.png",
       "categories": [
         "AudioVideo",
         "Player"
@@ -22405,7 +22405,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

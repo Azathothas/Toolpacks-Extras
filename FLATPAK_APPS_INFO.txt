@@ -2308,7 +2308,7 @@ Descr: Watch torrents with your friends
 -----------------------------
 NAME: PokeMMO
 APP_ID: com.pokemmo.PokeMMO
-Descr: PokeMMO Game Client
+Descr: Multiplayer Nintendo DS and GBA game emulator
 -----------------------------
 NAME: Polyphone
 APP_ID: com.polyphone_soundfonts.polyphone
@@ -6044,7 +6044,7 @@ Descr: Sewing pattern design software
 -----------------------------
 NAME: Pixelitor
 APP_ID: io.sourceforge.Pixelitor
-Descr: Pixelitor is an open source image editor
+Descr: Open source image editor
 -----------------------------
 NAME: YSoccer
 APP_ID: io.sourceforge.YSoccer
