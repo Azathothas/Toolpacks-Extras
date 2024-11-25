@@ -4792,7 +4792,7 @@
       "summary": "Free file archiver utility",
       "description": "\n      PeaZip is a free, Open Source (LGPLv3) archive manager utility for BSD, Linux, \n      macOS and Windows.\n    \n      \n      Cross-platform, desktop-agnostic GUI archive manager based on Open Source technologies \n      of 7-Zip / p7zip, Zstandard, Brotli, ZPAQ, PEA, and other Free Software file compression \n      tools, alternative to 7-Zip, Engrampa, FileRoller, Keka, WinRar, WinZip and similar apps.\n    \n      \n      Create, convert open and extract 7Z, Brotli, BZip2, GZip, PEA, RAR, TAR, XZ, ZIP, \n      ZPAQ, Zstandard files, and many more (200+) archive formats.\n    \n      \n      PeaZip supports encryption / decryption of archives (with optional two factor authentication), \n      and its scripting engine makes easy to export the tasks defined in the GUI as CLI scripts.\n    \n    ",
       "id": "io_github_peazip_PeaZip",
-      "updated_at": 1732439249,
+      "updated_at": 1732493938,
       "arches": [
         "aarch64",
         "x86_64"
@@ -4802,7 +4802,7 @@
       "project_license": "LGPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.peazip.PeaZip",
-      "icon": "https://dl.flathub.org/media/io/github/peazip.PeaZip/a86f5e81d9fe5080b090d1f82fb6598d/icons/128x128/io.github.peazip.PeaZip.png",
+      "icon": "https://dl.flathub.org/media/io/github/peazip.PeaZip/a82e53fde2cccb5563132e1ff3f205e7/icons/128x128/io.github.peazip.PeaZip.png",
       "categories": [
         "Utility",
         "Archiving",
@@ -4823,7 +4823,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1711690745",
-      "runtime": "org.kde.Platform/x86_64/5.15-23.08",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 8.196286180471047,
       "installs_last_month": 18947,
       "added_at": 1611045618
@@ -6320,7 +6320,7 @@
       "summary": "Create your own world in one of the most popular video games",
       "description": "Join people all over the world playing Minecraft, one of the most popular videogames around! Your own imagination is the limit in this fun game where you get to build the world around you. Play with friends, or alone, as you adventure, gather, build, and battle in an incredible land of your very own. For the best experience, we recommend you create an account and purchase online at minecraft.net/en-us/store before installing this app. ** Requires internet.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by Mojang or Microsoft.\n    ",
       "id": "com_mojang_Minecraft",
-      "updated_at": 1732363546,
+      "updated_at": 1732487806,
       "arches": [
         "x86_64"
       ],
@@ -14275,7 +14275,7 @@
       "summary": "Get perfect 3D prints!",
       "description": "\n            Bambu Studio is a cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically\n            optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth\n            printing experience.\n      \n    ",
       "id": "com_bambulab_BambuStudio",
-      "updated_at": 1732405513,
+      "updated_at": 1732490383,
       "arches": [
         "aarch64",
         "x86_64"
@@ -19729,7 +19729,7 @@
       "summary": "Open, modify and create compressed archive files",
       "description": "\n      File Roller is a GNOME application for opening, creating, and\n      modifying archive and compressed archive files.\n    \n      \n      File Roller supports a wide range of different archive files, including:\n    \n      \n        gzip archives (.tar.gz, .tgz)\n        bzip archives (.tar.bz, .tbz)\n        zip archives (.zip)\n        xz archives (.tar.xz)\n      \n    ",
       "id": "org_gnome_FileRoller",
-      "updated_at": 1727858917,
+      "updated_at": 1732488269,
       "arches": [
         "aarch64",
         "x86_64"
@@ -19782,7 +19782,7 @@
           "summary": "Ανοίξτε, τροποποιήστε και δημιουργήστε συμπιεσμένα αρχεία"
         },
         "en-GB": {
-          "description": "\n        gzip archives (.tar.gz, .tgz)\n        bzip archives (.tar.bz, .tbz)\n        Zip archives (.zip)\n        xz archives (.tar.xz)\n      \n    ",
+          "description": "File Roller is a GNOME application for opening, creating, and modifying archive and compressed archive files.\n      File Roller supports a wide range of different archive files, including:\n      \n        gzip archives (.tar.gz, .tgz)\n        bzip archives (.tar.bz, .tbz)\n        zip archives (.zip)\n        xz archives (.tar.xz)\n      \n    ",
           "name": "File Roller",
           "summary": "Open, modify and create compressed archive files"
         },
@@ -19817,8 +19817,9 @@
           "summary": "פתיחה, שינוי ויצירת קבצי ארכיונים דחוסים"
         },
         "hi": {
-          "description": "\n        gzip archives (.tar.gz, .tgz)\n        bzip archives (.tar.bz, .tbz)\n        zip archives (.zip)\n        xz archives (.tar.xz)\n      \n    ",
-          "summary": "संकुचित अभिलेख फ़ाइल खोलें, बदलें और बनाएँ"
+          "description": "फाइल रोलर एक गनोम अनुप्रयोग है जो पुरालेखीय और संपीड़ित पुरालेखीय फाइलों को खोलने, बनाने और संशोधित करने के लिए उपयोग किया जाता है।\n      फाइल रोलर विभिन्न पुरालेख फाइलों की एक विस्तृत श्रृंखला का समर्थन करता है, जिनमें शामिल हैं:\n      \n        gzip पुरालेख (.tar.gz, .tgz)\n        bzip पुरालेख (.tar.bz, .tbz)\n        zip पुरालेख (.zip)\n        xz पुरालेख (.tar.xz)\n      \n    ",
+          "name": "फाइल रोलर",
+          "summary": "संपीड़ित पुरालेख फाइलें खोलें, संशोधित करें और बनाएं"
         },
         "hr": {
           "description": "\n        gzip arhive (.tar.gz, .tgz)\n        bzip arhive (.tar.bz, .tbz)\n        zip arhive (.zip)\n        xz arhive (.tar.xz)\n      \n    ",
@@ -19886,12 +19887,12 @@
           "summary": "Otwieranie, modyfikowanie i tworzenie skompresowanych plików archiwów"
         },
         "pt": {
-          "description": "\n        arquivos gzip (.tar.gz, .tgz)\n        arquivos bzip (.tar.bz, .tbz)\n        arquivos zip (.zip)\n        arquivos xz (.tar.xz)\n      \n    ",
+          "description": "O File Roller é uma aplicação GNOME para abrir, criar e modificar arquivos e arquivos de ficheiros comprimidos.\n      O File Roller suporta uma grande variedade de formatos de arquivos, incluindo:\n      \n        arquivos gzip (.tar.gz, .tgz)\n        arquivos bzip (.tar.bz, .tbz)\n        arquivos zip (.zip)\n        arquivos xz (.tar.xz)\n      \n    ",
           "name": "Gestor de Arquivos",
           "summary": "Abrir, modificar e criar arquivos de ficheiros comprimidos"
         },
         "pt-BR": {
-          "description": "\n        pacotes gzip (.tar.gz, .tgz)\n        pacotes bzip (.tar.bz, .tbz)\n        pacotes zip (.zip)\n        pacotes xz (.tar.xz)\n      \n    ",
+          "description": "O Gerenciador de compactação (também conhecido como File Roller) é um aplicativo do GNOME para abrir, criar e modificar arquivos de pacotes, compactados ou não.\n      O Gerenciador de compactação suporta uma ampla variedade de pacotes de arquivos, incluindo:\n      \n        pacotes gzip (.tar.gz, .tgz)\n        pacotes bzip (.tar.bz, .tbz)\n        pacotes zip (.zip)\n        pacotes xz (.tar.xz)\n      \n    ",
           "name": "File Roller",
           "summary": "Abra, modifique e crie arquivos de pacotes comprimidos"
         },
@@ -19954,7 +19955,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.gnome.FileRoller",
-      "icon": "https://dl.flathub.org/media/org/gnome/FileRoller/3c8e4d1feaa924745d566132c216710b/icons/128x128/org.gnome.FileRoller.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/FileRoller/73275311b586f0de9b3fd04a7b6f7e99/icons/128x128/org.gnome.FileRoller.png",
       "categories": [
         "Utility",
         "Archiving",
