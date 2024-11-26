@@ -54,7 +54,7 @@
       "summary": "Fast, Private & Safe Web Browser",
       "description": "When it comes to your life online, you have a choice: accept the factory settings or put your privacy first. When you choose Firefox as your default browser, you’re choosing to protect your data while supporting an independent tech company. Firefox is also the only major browser backed by a non-profit fighting to give you more openness, transparency and control of your life online. Join hundreds of millions of people who choose to protect what's important by choosing Firefox - a web browser designed to be fast, easy to use, customizable and private.",
       "id": "org_mozilla_firefox",
-      "updated_at": 1731437098,
+      "updated_at": 1732628626,
       "arches": [
         "x86_64"
       ],
@@ -1602,7 +1602,7 @@
       "summary": "Original Xbox Emulator",
       "description": "\n       A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.\n    \n      Note: Only \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu\" can be written by xemu.\n    The Hard Disk image has to be placed there, for example, at \"$HOME/.var/app/app.xemu.xemu/data/xemu/xemu/xbox_hdd.qcow2\".\n    ",
       "id": "app_xemu_xemu",
-      "updated_at": 1731664648,
+      "updated_at": 1732618600,
       "arches": [
         "aarch64",
         "x86_64"
@@ -1612,7 +1612,7 @@
       "project_license": "GPL-2.0-only",
       "is_free_license": true,
       "app_id": "app.xemu.xemu",
-      "icon": "https://dl.flathub.org/media/app/xemu/xemu/5a29ca2ce17a5b92b2d1195fa8f90ef9/icons/128x128/app.xemu.xemu.png",
+      "icon": "https://dl.flathub.org/media/app/xemu/xemu/04cd9dec59cfb27a8557e1c4045999ae/icons/128x128/app.xemu.xemu.png",
       "categories": [
         "Game",
         "Emulator"
@@ -2239,7 +2239,7 @@
       "summary": "Thunderbird is a free and open source email, newsfeed, chat, and calendaring client",
       "description": "Thunderbird is a free and open source email, newsfeed, chat, and calendaring client, that’s easy to set up and customize. One of the core principles of Thunderbird is the use and promotion of open standards - this focus is a rejection of our world of closed platforms and services that can’t communicate with each other. We want our users to have freedom and choice in how they communicate.Thunderbird is an open source project, which means anyone can contribute ideas, designs, code, and time helping fellow users.",
       "id": "org_mozilla_Thunderbird",
-      "updated_at": 1731457088,
+      "updated_at": 1732633731,
       "arches": [
         "x86_64"
       ],
@@ -14555,7 +14555,7 @@
       "summary": "Wine GUI using Zenity",
       "description": "\n      WineZGUI (pronounced Wine-Zee-Goo-Eee) is a wine frontend for playing windows games with wine easily. It is a collection of Bash scripts for Wine Prefix Management and Linux Desktop Integration for easier wine gaming experience using Zenity.\n    \n      \n      IMPORTANT: wine-9.0 from org.winehq.Wine needs \"winetricks dxvk vkd3d\" or install other runners like wine-9.0 or proton-ge from Runner-&gt;Download Runner\n    \n      WineZGUI features:\n      \n        Runs windows games or exe files from file manager.\n        Creates application shortcut for easier access.\n        Separate prefix for every exe file launched with WineZGUI\n        Imports other wine directory from Bottles, Wine, Lutris, Heroic Launcher into WineZGUI and create shortcuts for all found exes.\n        Imported wine directory from lutris or bottles may require: winetricks vkd3d dxvk \n        Backup and Restore prefixes for later use.\n        Runners (different builds of wine like proton) can be used with prefixes.\n        Create Game Bundles for sharing (prefix+game+runner).\n        Open Terminal/Shell supports konsole, gnome-terminal, xfce4-terminal.\n      \n    ",
       "id": "io_github_fastrizwaan_WineZGUI",
-      "updated_at": 1728034401,
+      "updated_at": 1732617092,
       "arches": [
         "x86_64"
       ],
@@ -14564,7 +14564,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.fastrizwaan.WineZGUI",
-      "icon": "https://dl.flathub.org/media/io/github/fastrizwaan.WineZGUI/aea41fb6b149e4584b817b763fc62b81/icons/128x128/io.github.fastrizwaan.WineZGUI.png",
+      "icon": "https://dl.flathub.org/media/io/github/fastrizwaan.WineZGUI/fdd175e4c9bacbc51e9ab17373574b78/icons/128x128/io.github.fastrizwaan.WineZGUI.png",
       "categories": [
         "Game",
         "Emulator"
@@ -20774,7 +20774,7 @@
       "summary": "Collect, organize, cite, and share research",
       "description": "\n      Zotero [zoh-TAIR-oh] is a free, easy-to-use tool to help you collect,\n      organize, cite, and share your research sources.\n    \n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by the Zotero project.\n      Please confirm that problems are reproducible using the official tarball before reporting in the Zotero Forums.\n    \n      \n      NOTE: The user home permission is provided for compatiblity purpose.\n      Home access permission can be safely removed as follows:\n      First, move folders \"~/.zotero\" and \"~/Zotero\" to the app sandbox, typically in \"~/.var/app/org.zotero.Zotero/\";\n      then, remove home access premission in flatseal, Plasma settings, \n      or with the command \"flatpak override --user --nofilesystem=home org.zotero.Zotero\"; and restart zotero.\n    \n      \n      The drag and drop functionality might break after rejecting the permission for home directory,\n      please use file chooser instead, or grant permission to the drag and drop location via \n      \"flatpak override --user --filesystem=/PATH/TO/DragAndDrop org.zotero.Zotero\" or flatseal.\n    \n      \n      NOTE: If your Zotero folder is not located inside your home directory, please grant permission to access that\n      folder via \"flatpak override --user --filesystem=/PATH/TO/ZOTEROFOLDER org.zotero.Zotero\".\n    \n    ",
       "id": "org_zotero_Zotero",
-      "updated_at": 1730445484,
+      "updated_at": 1732635333,
       "arches": [
         "x86_64"
       ],
@@ -20783,7 +20783,7 @@
       "project_license": "AGPL-3.0",
       "is_free_license": true,
       "app_id": "org.zotero.Zotero",
-      "icon": "https://dl.flathub.org/media/org/zotero/Zotero/7801826ba6dfb3a7a14a866963402262/icons/128x128/org.zotero.Zotero.png",
+      "icon": "https://dl.flathub.org/media/org/zotero/Zotero/f230a7d7a846301204b1c5684338a67a/icons/128x128/org.zotero.Zotero.png",
       "categories": [
         "Office"
       ],
@@ -22284,7 +22284,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
