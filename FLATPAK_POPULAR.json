@@ -7020,7 +7020,7 @@
       "summary": "View images",
       "description": "Browse through your images and inspect their metadata with:\n      \n        Fast GPU accelerated image rendering\n        Tiled rendering for vector graphics\n        Extendable and sandboxed image decoding\n        Accessible presentation of the most important metadata.\n      \n    ",
       "id": "org_gnome_Loupe",
-      "updated_at": 1729158883,
+      "updated_at": 1732630531,
       "arches": [
         "aarch64",
         "x86_64"
@@ -7206,7 +7206,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "org.gnome.Loupe",
-      "icon": "https://dl.flathub.org/media/org/gnome/Loupe/ff04aa327e03e57e3ec8f30026866f6e/icons/128x128/org.gnome.Loupe.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/Loupe/a7d9885c6790772ae9c9feb9969a9a86/icons/128x128/org.gnome.Loupe.png",
       "categories": [
         "Graphics",
         "Viewer",
@@ -22284,7 +22284,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
