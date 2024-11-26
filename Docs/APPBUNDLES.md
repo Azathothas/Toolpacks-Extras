@@ -1,2 +1,0 @@
-- Author: [`@xplshn`](https://github.com/xplshn)
-- Project Page: [https://github.com/xplshn/pelf/](https://github.com/xplshn/pelf/)
