@@ -20594,7 +20594,7 @@
       "summary": "A modern Dune II reimplementation",
       "description": "\n      Lead one of three interplanetary houses, Atreides, Harkonnen or Ordos,\n      in an attempt to harvest the largest amount of spice from the sand\n      dunes. Exchange your spice stockpiles for credits through refinement\n      and build an army capable of thwarting attempts of the other houses to\n      stop your harvesting!\n    \n      \n      Dune Legacy is an effort by a handful of developers to revitalize the\n      first-ever real-time strategy game. The original game was the basis\n      for the hugely successful Command and Conquer series, and the gameplay\n      has been replicated an extended to a wide variety of storylines and\n      series.\n    \n      \n      NOTE: Original Dune 2 game files are needed.\n    \n    ",
       "id": "net_sourceforge_DuneLegacy",
-      "updated_at": 1716577665,
+      "updated_at": 1732611046,
       "arches": [
         "aarch64",
         "x86_64"
@@ -20623,7 +20623,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 14.077628115480982,
       "installs_last_month": 491,
       "added_at": 1652852067

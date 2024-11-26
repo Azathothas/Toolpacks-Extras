@@ -5,8 +5,8 @@
 | 7z | Unarchiver | https://github.com/ip7z/7zip | https://bin.pkgforge.dev/x86_64/7z | 73dae4f516c2 |
 | 86box.appimage | Emulator of x86-based machines | https://github.com/86Box/86Box | https://pkgcache.pkgforge.dev/x86_64/86box.appimage | v4.2.1 |
 | JitterTest | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/x86_64/Baseutils/mtdutils/JitterTest | d49345b90ea6 |
-| MagickCore-config | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/MagickCore-config | 81fa2e5c4a2a |
-| MagickWand-config | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/MagickWand-config | 81fa2e5c4a2a |
+| MagickCore-config | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/MagickCore-config | c1db7f6fb69f |
+| MagickWand-config | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/MagickWand-config | c1db7f6fb69f |
 | a-utils | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/x86_64/Baseutils/a-utils/a-utils | e12b420fd8a6 |
 | acpid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/acpid | 347164d0295c |
 | acreom.appimage | An IDE based Knowledge Base using Markdown (AppImage) | https://github.com/Acreom/releases | https://pkgcache.pkgforge.dev/x86_64/acreom.appimage | v1.20.2 |
@@ -49,7 +49,7 @@
 | anew-rs | An efficient way to filter duplicate lines from input, à la uniq. | https://github.com/zer0yu/anew | https://bin.pkgforge.dev/x86_64/anew-rs | 8ba66287c6a0 |
 | anewer | anewer appends lines from stdin to a file if they dont already exist in the file | https://github.com/ysf/anewer | https://bin.pkgforge.dev/x86_64/anewer | 92ab10f5246e |
 | ani-cli | A cli tool to browse and play anime | https://github.com/pystardust/ani-cli | https://bin.pkgforge.dev/x86_64/ani-cli | 1553e3185b11 |
-| animate | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/animate | 81fa2e5c4a2a |
+| animate | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/animate | c1db7f6fb69f |
 | ansi2html | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/x86_64/ansi2html | f4d3fd3d0d1a |
 | ansi2txt | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/x86_64/ansi2txt | e807bedefaf2 |
 | anydesk.appimage | Desktop sharing application, providing remote support and online meetings | https://github.com/ivan-hc/Anydesk-appimage | https://pkgcache.pkgforge.dev/x86_64/anydesk.appimage | 6.3.3 |
@@ -279,7 +279,7 @@
 | chsh | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/x86_64/Baseutils/util-linux/chsh | 48ea2a4b01b2 |
 | chvt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/chvt | 62492be67658 |
 | cidr | CLI to perform various actions on CIDR ranges | https://github.com/bschaatsbergen/cidr | https://bin.pkgforge.dev/x86_64/cidr | 5ee602f93a2f |
-| cifsiostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/cifsiostat | ad31dc8b2d53 |
+| cifsiostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/cifsiostat | 4785e94901c2 |
 | ciopfs | A fuse file system that mounts a directory on a regular file system in case insensitive fashion | https://github.com/martanne/ciopfs | https://bin.pkgforge.dev/x86_64/ciopfs | 3d0ce1fec3b4 |
 | circumflex | 🌿 Its Hacker News in your terminal | https://github.com/bensadeh/circumflex | https://bin.pkgforge.dev/x86_64/circumflex | a4c9f0e19d0b |
 | cksum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/cksum | 8c057297e085 |
@@ -322,15 +322,15 @@
 | comm | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils_uutils/comm | b04a84844326 |
 | comm | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils-glibc/comm | 313a7a03b0de |
 | comm | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils/comm | af3bb8bdf4e2 |
-| compare | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/compare | 81fa2e5c4a2a |
+| compare | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/compare | c1db7f6fb69f |
 | compile_et | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/x86_64/Baseutils/e2fsprogs/compile_et | 87726c6e827a |
-| composite | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/composite | 81fa2e5c4a2a |
-| conjure | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/conjure | 81fa2e5c4a2a |
+| composite | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/composite | c1db7f6fb69f |
+| conjure | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/conjure | c1db7f6fb69f |
 | conspy | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/conspy | c68094e0ac5c |
 | containerd | An open and reliable container runtime | https://github.com/containerd/containerd | https://bin.pkgforge.dev/x86_64/containerd | 8c782c3fb684 |
 | containerd | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/x86_64/containerd | 8c782c3fb684 |
 | containerd-shim-runc-v2 | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/x86_64/containerd-shim-runc-v2 | 4acebe1b75e3 |
-| convert | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/convert | 81fa2e5c4a2a |
+| convert | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/convert | c1db7f6fb69f |
 | coreutils | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils_uutils/coreutils | 74063b1c444f |
 | coreutils | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils-glibc/coreutils | 9c2ee33063cc |
 | coreutils | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils/coreutils | 5f2a8b414ad4 |
@@ -486,7 +486,7 @@
 | dirname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils/dirname | e9aedcf5656c |
 | dirname | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils-vlang/dirname | de53afc8afab |
 | discord.appimage | All-in-one cross-platform voice and text chat for gamers | https://github.com/srevinsaju/discord-appimage | https://pkgcache.pkgforge.dev/x86_64/discord.appimage | stable |
-| display | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/display | 81fa2e5c4a2a |
+| display | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/display | c1db7f6fb69f |
 | dive | A tool for exploring each layer in a docker image | https://github.com/wagoodman/dive | https://bin.pkgforge.dev/x86_64/dive | 8aca61a9c92a |
 | dizi | Server-client music player written in Rust | https://github.com/kamiyaa/dizi | https://bin.pkgforge.dev/x86_64/dizi | 2ed0444f77b2 |
 | dizi-server | Server-client music player written in Rust | https://github.com/kamiyaa/dizi | https://bin.pkgforge.dev/x86_64/dizi-server | a23456ece14c |
@@ -1216,7 +1216,7 @@
 | id | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils_uutils/id | 596e3b139627 |
 | id | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils-glibc/id | 132478dc1236 |
 | id | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils/id | e317bcbcb1d3 |
-| identify | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/identify | 81fa2e5c4a2a |
+| identify | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/identify | c1db7f6fb69f |
 | idle | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/x86_64/Baseutils/python3/idle | a68f29ffb788 |
 | idle3 | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/x86_64/Baseutils/python3/idle3 | a68f29ffb788 |
 | idle3.12 | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/x86_64/Baseutils/python3/idle3.12 | null |
@@ -1234,7 +1234,7 @@
 | imdl | A CLI utility for BitTorrent torrent file creation, verification, and more | https://github.com/casey/intermodal | https://bin.pkgforge.dev/x86_64/imdl | fa1378a49519 |
 | imgcat | Display images and gifs in your terminal | https://github.com/danielgatis/imgcat | https://bin.pkgforge.dev/x86_64/imgcat | f860aed49250 |
 | imix | parallel | xargs in rust | https://github.com/spellshift/realm | https://bin.pkgforge.dev/x86_64/imix | aa547e7ba774 |
-| import | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/import | 81fa2e5c4a2a |
+| import | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/import | c1db7f6fb69f |
 | importenv | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/x86_64/Baseutils/a-utils/importenv | null |
 | importenv | Launch an executable file with environment variables from a specific process id | https://github.com/VHSgunzo/importenv | https://bin.pkgforge.dev/x86_64/importenv | 3dd15ee83557 |
 | indextree | Generates the tree of the directory listing page. | https://github.com/riza/indextree | https://bin.pkgforge.dev/x86_64/indextree | 2b46d7cf92ad |
@@ -1263,7 +1263,7 @@
 | ionice | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/ionice | 6f56cbd30221 |
 | ionice | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/x86_64/Baseutils/util-linux/ionice | cb13b2d539a4 |
 | iostat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/iostat | 9b9d794df1bf |
-| iostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/iostat | 238e8c012946 |
+| iostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/iostat | b3429e6cb015 |
 | iotop | A top utility for IO | https://github.com/Tomas-M/iotop | https://bin.pkgforge.dev/x86_64/iotop | 64458613b5c2 |
 | iotop-c | A top utility for IO | https://github.com/Tomas-M/iotop | https://bin.pkgforge.dev/x86_64/iotop-c | 64458613b5c2 |
 | ip | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/x86_64/Baseutils/iproute2/ip | bacb40f1e422 |
@@ -1400,7 +1400,7 @@
 | listmonk | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard | https://github.com/knadh/listmonk | https://bin.pkgforge.dev/x86_64/listmonk | 30d9319d9a9f |
 | lite-xl.appimage | A lightweight, simple, fast, feature-filled, and extremely extensible Text Editor | https://github.com/lite-xl/lite-xl | https://pkgcache.pkgforge.dev/x86_64/lite-xl.appimage | v2.1.5 |
 | litefs | FUSE-based file system for replicating SQLite databases across a cluster of machines | https://github.com/superfly/litefs | https://bin.pkgforge.dev/x86_64/litefs | 803990f2d4c5 |
-| lklfuse | Tools for LKL (Linux Kernel Library) | https://github.com/lkl/linux | https://bin.pkgforge.dev/x86_64/Baseutils/lkl/lklfuse | 1f72262aded8 |
+| lklfuse | Tools for LKL (Linux Kernel Library) | https://github.com/lkl/linux | https://bin.pkgforge.dev/x86_64/Baseutils/lkl/lklfuse | a9273ca6ad46 |
 | ln | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/ln | 900d9b5a227c |
 | ln | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils_uutils/ln | 5b0cdc77ccb3 |
 | ln | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils-glibc/ln | 7eed7e282e58 |
@@ -1484,8 +1484,8 @@
 | mac2unix | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/x86_64/mac2unix | 525313da861a |
 | macchina | system-info-fetch | https://github.com/Macchina-CLI/macchina | https://bin.pkgforge.dev/x86_64/macchina | 8eea1592f2e0 |
 | maddy | ✉️ Composable all-in-one mail server. | https://github.com/foxcpp/maddy | https://bin.pkgforge.dev/x86_64/maddy | 274cfd0f83ac |
-| magick | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/magick | 81fa2e5c4a2a |
-| magick-script | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/magick-script | 81fa2e5c4a2a |
+| magick | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/magick | c1db7f6fb69f |
+| magick-script | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/magick-script | c1db7f6fb69f |
 | magick.no_strip | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://bin.pkgforge.dev/x86_64/magick.no_strip | c83b47cd0138 |
 | magick_appbundle.no_strip | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://bin.pkgforge.dev/x86_64/magick_appbundle.no_strip | 31a76e8d865e |
 | mailpit | An email and SMTP testing tool with API for developers | https://github.com/axllent/mailpit | https://bin.pkgforge.dev/x86_64/mailpit | ee69cf4bd59f |
@@ -1599,9 +1599,9 @@
 | modinfo | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/x86_64/Baseutils/kmod/modinfo | 9b309f674514 |
 | modprobe | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/modprobe | 43c52e593485 |
 | modprobe | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/x86_64/Baseutils/kmod/modprobe | 9b309f674514 |
-| mogrify | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/mogrify | 81fa2e5c4a2a |
+| mogrify | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/mogrify | c1db7f6fb69f |
 | monolith | ⬛️ CLI tool for saving complete web pages as a single HTML file | https://github.com/Y2Z/monolith | https://bin.pkgforge.dev/x86_64/monolith | 34999ec0d89f |
-| montage | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/montage | 81fa2e5c4a2a |
+| montage | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/montage | c1db7f6fb69f |
 | more | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/more | 4645fb20e369 |
 | more | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/x86_64/Baseutils/coreutils_uutils/more | f9dd5de4a5f4 |
 | more | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/x86_64/Baseutils/util-linux/more | 3a81b39053bf |
@@ -1621,7 +1621,7 @@
 | mountpoint | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/x86_64/Baseutils/util-linux/mountpoint | 4b114858bbda |
 | mousepad.dwfs.appbundle | An easy-to-use, Fast & Simple Editor | https://gitlab.xfce.org/apps/mousepad | https://pkgcache.pkgforge.dev/x86_64/mousepad.dwfs.appbundle | 0.6.3 |
 | mpstat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/mpstat | 0e682b9cb6fe |
-| mpstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/mpstat | c9a5c28fa4fe |
+| mpstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/mpstat | cb33738b4f45 |
 | mpv.appimage | 🎥 Command line video player | https://github.com/mpv-player/mpv | https://pkgcache.pkgforge.dev/x86_64/mpv.appimage | v0.39.0 |
 | mqttui | Subscribe to a MQTT Topic or publish something quickly from the terminal | https://github.com/EdJoPaTo/mqttui | https://bin.pkgforge.dev/x86_64/mqttui | 23bbe3592291 |
 | msgattrib | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/x86_64/Baseutils/gettext/msgattrib | ab9369f405e4 |
@@ -1838,7 +1838,7 @@
 | php-micro | Standalone PHP binary | https://github.com/crazywhalecc/static-php-cli | https://bin.pkgforge.dev/x86_64/php-micro | 8e2ccd96f3b6 |
 | pidof | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/pidof | 9f38aaf35cbe |
 | pidof | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/x86_64/Baseutils/procps/pidof | cae324264877 |
-| pidstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/pidstat | 2a07e233e0d1 |
+| pidstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/pidstat | 702af7db8e07 |
 | pidwait | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/x86_64/Baseutils/procps/pidwait | null |
 | pier | A Linux script management CLI written in Rust | https://github.com/pier-cli/pier | https://bin.pkgforge.dev/x86_64/pier | 9760d6409735 |
 | pigz | A parallel implementation of gzip for multi-core machines | https://github.com/madler/pigz | https://bin.pkgforge.dev/x86_64/pigz | a97bd77d46de |
@@ -1986,31 +1986,31 @@
 | qsv | CSVs sliced, diced & analyzed. | https://github.com/jqnatividad/qsv | https://bin.pkgforge.dev/x86_64/qsv | e3a544f9c66a |
 | quickcert | Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol | https://github.com/c3l3si4n/quickcert | https://bin.pkgforge.dev/x86_64/quickcert | b0ac5847cbce |
 | quotes-escaper | Escape Single | Double Quotes | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/x86_64/quotes-escaper | 4ddec2d6a365 |
-| r2agent | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2agent | c186d7db8806 |
-| r2pm | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2pm | e1069ade56ce |
-| r2r | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2r | 747efe35d570 |
-| rabin2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rabin2 | d91d777fb5f6 |
-| radare2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/radare2 | 715744720278 |
-| radiff2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/radiff2 | ad3113ef4a6e |
-| rafind2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rafind2 | c0dada590ff3 |
+| r2agent | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2agent | e4a2a98d371a |
+| r2pm | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2pm | 4919e4515ad3 |
+| r2r | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/r2r | ebd232e6099e |
+| rabin2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rabin2 | c1336a97c1a1 |
+| radare2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/radare2 | bd59068e0821 |
+| radiff2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/radiff2 | 891cac60843e |
+| rafind2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rafind2 | f4dfa52df306 |
 | rage | A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability. | https://github.com/str4d/rage | https://bin.pkgforge.dev/x86_64/rage | 348f08796990 |
 | rage-keygen | A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability. | https://github.com/str4d/rage | https://bin.pkgforge.dev/x86_64/rage-keygen | 1e291d4bb3f8 |
-| ragg2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/ragg2 | 659bf8499eb2 |
-| rahash2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rahash2 | 3f156f891ac8 |
+| ragg2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/ragg2 | fbd4ab565285 |
+| rahash2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rahash2 | 219430bb5a69 |
 | raidautorun | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/raidautorun | 76a706efd6fe |
 | ranlib | Tools for manipulating binaries (linker, assembler, etc.) (wrapper script) | https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git | https://bin.pkgforge.dev/x86_64/Baseutils/bintools/ranlib | d8708f8fb1b9 |
 | ranlib | Tools for manipulating binaries (linker, assembler, etc.) (wrapper script) | https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git | https://bin.pkgforge.dev/x86_64/Baseutils/binutils/ranlib | d8708f8fb1b9 |
 | rapwp | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/x86_64/rapwp | 149e36141f07 |
 | rarp | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/x86_64/Baseutils/nettools/rarp | 04a0be4cef1c |
-| rarun2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rarun2 | 63acbf4f1163 |
-| rasign2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rasign2 | 88e4b7bcbab6 |
-| rasm2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rasm2 | 1b67b8629c3f |
+| rarun2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rarun2 | e18b8b0570ee |
+| rasign2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rasign2 | 96dfb333a1d1 |
+| rasm2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rasm2 | 8ea7991495da |
 | rate-limit-checker | Check whether the domain has a rate limit enabled | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/x86_64/rate-limit-checker | 56fa93e74fda |
 | rate-mirrors | Client-Side map-aware Mirror Ranking Tool (Arch Linux; Manjaro; custom ones) | https://github.com/westandskif/rate-mirrors | https://bin.pkgforge.dev/x86_64/rate-mirrors | 0a2a1f321924 |
 | rathole | A lightweight and high-performance reverse proxy for NAT traversal, written in Rust. An alternative to frp and ngrok. | https://github.com/rapiz1/rathole | https://bin.pkgforge.dev/x86_64/rathole | 6bc1fbf31cb9 |
 | rattler-build | rattler-build is a universal package builder for Windows, macOS and Linux | https://github.com/prefix-dev/rattler-build | https://bin.pkgforge.dev/x86_64/rattler-build | 63d3d6b87204 |
-| ravc2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/ravc2 | 0d6537b2fdad |
-| rax2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rax2 | 069edd9b8d4f |
+| ravc2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/ravc2 | 276a8c637306 |
+| rax2 | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/x86_64/Baseutils/radare2/rax2 | cf742af4f872 |
 | rcat | Rustcat(rcat) - The modern Port listener and Reverse shell | https://github.com/robiot/rustcat | https://bin.pkgforge.dev/x86_64/rcat | 4a0998090fb3 |
 | rclone | rsync for cloud storage | https://github.com/rclone/rclone | https://bin.pkgforge.dev/x86_64/rclone | 169aa6cba32d |
 | rdate | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/rdate | db553b12dffa |
@@ -2525,7 +2525,7 @@
 | stest | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/x86_64/Baseutils/fio/stest | 6cea1658598d |
 | stew | 🥘 An independent package manager for compiled binaries. | https://github.com/marwanhawari/stew | https://bin.pkgforge.dev/x86_64/stew | 78ac29c35bbf |
 | strace | strace is a diagnostic, debugging and instructional userspace utility for Linux | https://github.com/strace/strace | https://bin.pkgforge.dev/x86_64/strace | eba22f0c427b |
-| stream | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/stream | 81fa2e5c4a2a |
+| stream | A software suite to create, edit, compose, or convert bitmap images | https://github.com/imagemagick/linux | https://bin.pkgforge.dev/x86_64/Baseutils/imagemagick/stream | c1db7f6fb69f |
 | stree | 📁Directory trees of AWS S3 Bucket | https://github.com/orangekame3/stree | https://bin.pkgforge.dev/x86_64/stree | b69245b1ffff |
 | stress-ng | stress test a computer system in various selectable ways | https://www.gnu.org/software/stress-ng/ | https://bin.pkgforge.dev/x86_64/stress-ng | 4d39c30b4802 |
 | stress_1 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/x86_64/Baseutils/mtdutils/stress_1 | c6ca235a044e |
@@ -2621,7 +2621,7 @@
 | tailscale_combined | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/x86_64/tailscale_combined | 04ff5bd0f085 |
 | tailscaled | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/x86_64/tailscaled | 424cdd9cb8d4 |
 | tailspin | 🌀 A log file highlighter | https://github.com/bensadeh/tailspin | https://bin.pkgforge.dev/x86_64/tailspin | e1bf381d4a3b |
-| tapestat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/tapestat | 3f1dbb86604f |
+| tapestat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/x86_64/Baseutils/sysstat/tapestat | c22a6eaccb5d |
 | taplo | A TOML toolkit written in Rust | https://github.com/tamasfe/taplo | https://bin.pkgforge.dev/x86_64/taplo | 4c992f5fe4e3 |
 | tar | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/tar | 830380af55e4 |
 | tar | create/manipulate tar archives | https://git.savannah.gnu.org/cgit/tar.git | https://bin.pkgforge.dev/x86_64/Baseutils/tar/tar | 6a0044cb3bf6 |
@@ -2682,10 +2682,10 @@
 | top | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/x86_64/Baseutils/busybox/top | 6ed53a742aa8 |
 | top | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/x86_64/Baseutils/procps/top | 1a643ed0e204 |
 | topmorph.pl | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/x86_64/Baseutils/hashcat-utils/topmorph.pl | 8396aa9e18de |
-| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor | 530b98a335e1 |
-| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-gencert | a83a12202792 |
-| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-print-ed-signing-cert | ce82c00e36d0 |
-| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-resolve | 3974edf8a039 |
+| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor | 67102b5e1015 |
+| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-gencert | 415bfed8f70b |
+| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-print-ed-signing-cert | 36496029fd45 |
+| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/tor-resolve | 0905a36f6ed0 |
 | tor-socks-proxy.no_strip | Tiny Docker Image as Tor SOCKS5 proxy (DockerC) | https://github.com/PeterDaveHello/tor-socks-proxy | https://bin.pkgforge.dev/x86_64/tor-socks-proxy.no_strip | 59d5cee25a15 |
 | torify | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/torify | 49453cad50a0 |
 | torsocks | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/x86_64/Baseutils/tor/torsocks | b4d64c6dd269 |
@@ -2745,11 +2745,11 @@
 | tune2fs | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/x86_64/Baseutils/e2fsprogs/tune2fs | d027f8496f3b |
 | tusd | Server for tus, the open protocol for resumable file uploads | https://github.com/tus/tusd | https://bin.pkgforge.dev/x86_64/tusd | a07190fe97f0 |
 | tut | TUI for Mastodon with vim inspired keys | https://github.com/RasmusLindroth/tut | https://bin.pkgforge.dev/x86_64/tut | b18f1ab31c13 |
-| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate | 27f7b72d2bcd |
-| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-connector | 341c124d579b |
-| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-connectorctl | 4c52d0105154 |
-| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-notifier | 2c614a8329e8 |
-| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingated | f9632972931b |
+| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate | 207e8581ab60 |
+| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-connector | d214b6a6ddfe |
+| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-connectorctl | bafd8a15604b |
+| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingate-notifier | 1368c573ee1b |
+| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/x86_64/Baseutils/twingate/twingated | b6d553a2c364 |
 | txeh | CLI utility for /etc/hosts management. | https://github.com/txn2/txeh | https://bin.pkgforge.dev/x86_64/txeh | da8b875e77e7 |
 | tz | 🌐 A time zone helper | https://github.com/oz/tz | https://bin.pkgforge.dev/x86_64/tz | 18950307939e |
 | u-root | create a one-binary root file system (initramfs) containing a busybox-like set of tools | https://github.com/u-root/u-root | https://bin.pkgforge.dev/x86_64/u-root | c41ed81ea923 |

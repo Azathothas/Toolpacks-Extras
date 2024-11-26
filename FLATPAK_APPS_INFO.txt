@@ -1900,7 +1900,7 @@ Descr: Capable and Ergonomic Go IDE
 -----------------------------
 NAME: IntelliJ IDEA Community
 APP_ID: com.jetbrains.IntelliJ-IDEA-Community
-Descr: Capable and Ergonomic Java IDE
+Descr: The Leading Java and Kotlin IDE
 -----------------------------
 NAME: IntelliJ IDEA Ultimate
 APP_ID: com.jetbrains.IntelliJ-IDEA-Ultimate
@@ -4879,7 +4879,7 @@ APP_ID: io.github.leolost2605.gradebook
 Descr: Keep track of your grades
 -----------------------------
 NAME: Chirurgien
-APP_ID: io.github.leonardschardijn.Chirurgien.desktop
+APP_ID: io.github.leonardschardijn.Chirurgien
 Descr: Understand and manipulate binary file formats
 -----------------------------
 NAME: RigelEngine
@@ -8101,10 +8101,6 @@ Descr: Dictionary lookup program
 NAME: gPodder-adaptive
 APP_ID: org.gpodder.gpodder-adaptive
 Descr: Media aggregator and podcast client for mobile and desktop alike
------------------------------
-NAME: gPodder
-APP_ID: gpodder.desktop
-Descr: Media aggregator and podcast client
 -----------------------------
 NAME: gPodder
 APP_ID: org.gpodder.gpodder

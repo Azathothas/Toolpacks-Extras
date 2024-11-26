@@ -5519,7 +5519,7 @@
       "summary": "Platform for building and using APIs",
       "description": "\n      Postman is the complete toolchain for API developers, used by 5 million\n      developers and more than 100,000 companies worldwide to access 130 million\n      APIs every month. Postman makes working with APIs faster and easier by\n      supporting developers at every stage of their workflow, and is available\n      for macOS, Windows, Linux and Chrome users.\n    \n      \n      This wrapper is not verified by, affiliated with, or supported by Postman\n      Inc.\n    \n    ",
       "id": "com_getpostman_Postman",
-      "updated_at": 1731920205,
+      "updated_at": 1732599751,
       "arches": [
         "aarch64",
         "x86_64"
@@ -5529,7 +5529,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.getpostman.Postman",
-      "icon": "https://dl.flathub.org/media/com/getpostman/Postman/85605c983663c22aeb9e060a932e7484/icons/128x128/com.getpostman.Postman.png",
+      "icon": "https://dl.flathub.org/media/com/getpostman/Postman/430add7bb2b8ae0f647dfe7fd8a6c213/icons/128x128/com.getpostman.Postman.png",
       "categories": [
         "Development",
         "WebDevelopment"
@@ -11330,7 +11330,7 @@
       "summary": "A better version of Thunderbird",
       "description": "Betterbird is a fine-tuned version of Mozilla Thunderbird, Thunderbird on steroids, if you will. Betterbird is better than Thunderbird in three ways: It contains new features exclusive to Betterbird, it contains bug fixes exclusive to Betterbird and it contains fixes that Thunderbird may ship at a later stage.\n    ",
       "id": "eu_betterbird_Betterbird",
-      "updated_at": 1730101281,
+      "updated_at": 1732599265,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11340,7 +11340,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "eu.betterbird.Betterbird",
-      "icon": "https://dl.flathub.org/media/eu/betterbird/Betterbird/b583163ca12aa742a5587b811884f20c/icons/128x128/eu.betterbird.Betterbird.png",
+      "icon": "https://dl.flathub.org/media/eu/betterbird/Betterbird/9adff16619e3109d92530c45885f56c4/icons/128x128/eu.betterbird.Betterbird.png",
       "categories": [
         "Calendar",
         "Chat",
@@ -11654,16 +11654,15 @@
     {
       "name": "IntelliJ IDEA Community",
       "keywords": [
+        "kotlin",
+        "java",
         "development",
-        "idea",
-        "ide",
-        "intellij",
-        "java"
+        "ide"
       ],
-      "summary": "Capable and Ergonomic Java IDE",
-      "description": "\n      IntelliJ IDEA Community is a free and open-source edition of IntelliJ IDEA, the commercial Java IDE by JetBrains.\n      IntelliJ IDEA Community provides all the tools you need for Java, Groovy, Kotlin, Scala, and Android. It offers\n      instant and clever code completion, on-the-fly code analysis, and reliable refactoring tools.\n    \n      \n      Mission-critical tools such as integrated version controls systems and a wide variety of supported languages and\n      frameworks are at hand — no plugin hustle included.\n    \n      \n      IntelliJ IDEA Community can be downloaded at no cost and is open for contributions by community members. The\n      product is built on top of the IntelliJ Platform, which is fully open source.\n    \n      NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.\n    ",
+      "summary": "The Leading Java and Kotlin IDE",
+      "description": "IntelliJ IDEA Community is a free and open-source edition of IntelliJ IDEA, the commercial Java IDE by JetBrains. IntelliJ IDEA Community provides all the tools you need for Java, Groovy, Kotlin, Scala, and Android. It offers instant and clever code completion, on-the-fly code analysis, and reliable refactoring tools.\n      Mission-critical tools such as integrated version controls systems and a wide variety of supported languages and frameworks are at hand — no plugin hustle included.\n      IntelliJ IDEA Community can be downloaded at no cost and is open for contributions by community members. The product is built on top of the IntelliJ Platform, which is fully open source.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.\n    ",
       "id": "com_jetbrains_IntelliJ-IDEA-Community",
-      "updated_at": 1732194087,
+      "updated_at": 1732613849,
       "arches": [
         "aarch64",
         "x86_64"
@@ -11673,7 +11672,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "com.jetbrains.IntelliJ-IDEA-Community",
-      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/113994e2b0bd5ff2f9369c60a198d027/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
+      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/c25137c8a73fb7f12ab4f97582b48944/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
       "categories": [
         "Development",
         "IDE"
@@ -22285,7 +22284,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
