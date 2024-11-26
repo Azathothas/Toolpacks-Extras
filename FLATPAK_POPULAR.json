@@ -1939,7 +1939,7 @@
       "summary": "Introducing the new Microsoft Edge web browser. It’s time to expect more. More privacy. More control. More productivity. More value.",
       "description": "\n    NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft.\n    \n      \n    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.\n   \n      \n    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.\n   \n      \n    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need.\n   \n    ",
       "id": "com_microsoft_Edge",
-      "updated_at": 1732244896,
+      "updated_at": 1732590123,
       "arches": [
         "x86_64"
       ],
@@ -1948,7 +1948,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.microsoft.Edge",
-      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/fd4eb1f4d16bdba6b4dc1860850dc1d1/icons/128x128/com.microsoft.Edge.png",
+      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/fcb8ddb357db0b9213f6bfc231507b95/icons/128x128/com.microsoft.Edge.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -22285,7 +22285,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
