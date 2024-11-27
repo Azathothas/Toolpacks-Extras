@@ -25675,7 +25675,7 @@
       "summary": "Check your bank accounts",
       "description": "\n      An easy way to access your online banking information. Show your balance and transaction based on FinTS online banking information.\n    \n      \n      Note: This is a frontend for python-fints. Report non working bank access at python-fints github page.\n    \n    ",
       "id": "org_tabos_saldo",
-      "updated_at": 1719826034,
+      "updated_at": 1732703429,
       "arches": [
         "aarch64",
         "x86_64"
@@ -25689,7 +25689,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "org.tabos.saldo",
-      "icon": "https://dl.flathub.org/media/org/tabos/saldo.desktop/adc8a74093879e397c4e881cb8a49050/icons/128x128/org.tabos.saldo.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/tabos/saldo.desktop/fe36fbf9e0b5d5ef6181977b3f5cea0e/icons/128x128/org.tabos.saldo.desktop.png",
       "categories": [
         "Network"
       ],
@@ -25698,13 +25698,13 @@
       ],
       "sub_categories": [],
       "developer_name": "Jan-Michael Brummer",
-      "verification_verified": false,
-      "verification_method": null,
+      "verification_verified": "true",
+      "verification_method": "website",
       "verification_login_name": null,
       "verification_login_provider": null,
-      "verification_login_is_organization": null,
-      "verification_website": null,
-      "verification_timestamp": null,
+      "verification_login_is_organization": "false",
+      "verification_website": "tabos.org",
+      "verification_timestamp": "1732703045",
       "runtime": "org.gnome.Platform/x86_64/46",
       "trending": 14.1352534016668,
       "installs_last_month": 131,
@@ -26418,7 +26418,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 51,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
