@@ -4739,7 +4739,7 @@
       "summary": "Offline learning platform",
       "description": "\n      Kolibri provides offline access to a curated and openly licensed\n      educational content library, focused on serving both learners and\n      educators.\n    \n      \n      Available in dozens of languages, the Kolibri Content Library includes\n      both formal educational materials, such as lessons and assessments, as\n      well as exploratory materials, such as books, games, and simulations.\n    \n    ",
       "id": "org_learningequality_Kolibri",
-      "updated_at": 1728068848,
+      "updated_at": 1732660359,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9075,7 +9075,7 @@
       "summary": "Scalable Vector Graphics editor",
       "description": "Boxy SVG project goal is to create the best tool for editing SVG files. For beginners as well as for\nprofessional designers and developers. On any device and operating system.\n      \n        === Core features: ===\n      \n      \n        Clean and intuitive UI heavily inspired by Inkscape, Sketch and Adobe Illustrator\n        Extensive support for on-canvas editing of object geometry, transform, paint and other properties\n        Save to SVG and SVGZ formats, export to PNG, JPG, WebP, PDF and HTML5\n        Integration with Pixabay and other libraries with millions of free stock photos and vector assets\n        Google Fonts integration with hundreds of free fonts\n        Configurable keyboard shortcuts for over 100 commands\n        Manual guides, smart guides and grid\n        Path operations (unite, intersect, subtract, exclude, close, reverse, etc.)\n        Arrangement operations (align to, rotate, flip, order, group, etc.)\n      \n      \n        === For web developers: ===\n      \n      \n        Chromium-based rendering engine\n        SVG and CSS code inspector similar to Chrome Dev Tools\n        Clean SVG output that preserves IDs, classes, titles and other metadata\n        SVG sprites editing support\n      \n      This package is officially published, maintained and supported by Boxy SVG developer.\n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    ",
       "id": "com_boxy_svg_BoxySVG",
-      "updated_at": 1731885841,
+      "updated_at": 1732652344,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9110,7 +9110,7 @@
       "project_license": "LicenseRef-proprietary=https://boxy-svg.com/legal",
       "is_free_license": false,
       "app_id": "com.boxy_svg.BoxySVG",
-      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/838578b96f42f2c2fc5f6314891236d9/icons/128x128/com.boxy_svg.BoxySVG.png",
+      "icon": "https://dl.flathub.org/media/com/boxy_svg/BoxySVG/978437c88a9776d403d6a87c5b15bcf1/icons/128x128/com.boxy_svg.BoxySVG.png",
       "categories": [
         "Graphics",
         "Development"
@@ -9120,7 +9120,7 @@
         "Development"
       ],
       "sub_categories": [],
-      "developer_name": "Jarosław Foksa",
+      "developer_name": "Boxy SVG PL, Jarosław Foksa",
       "verification_verified": "true",
       "verification_method": "website",
       "verification_login_name": null,
@@ -26418,7 +26418,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 53,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
