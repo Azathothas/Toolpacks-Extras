@@ -787,11 +787,13 @@ jobs:
           ##aarch64-Linux/
            unset TOTAL_PACKAGES
            TOTAL_PACKAGES="$(curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/METADATA.json" | jq '.[] | select(.host == "aarch64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="${TOTAL_PACKAGES}"
-           sed 's#\(tree/main/aarch64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
+           sed "s|\(https://img.shields.io/badge/Binaries-[(]*\)[0-9]\+|\1${TOTAL_PACKAGES}|" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed 's#\(tree/main/aarch64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
           ##x86_64-Linux/
            unset TOTAL_PACKAGES
            TOTAL_PACKAGES="$(curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/METADATA.json" | jq '.[] | select(.host == "x86_64-Linux") | .main' | jq -r '.[].name' | sort -u | wc -l)" && export TOTAL_PACKAGES="${TOTAL_PACKAGES}"
-           sed 's#\(tree/main/x86_64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
+           sed -E "s|(https://img.shields.io/badge/Binaries-[^(]*\([0-9]+\)\+\()[0-9]+|\1${TOTAL_PACKAGES}|" -i "$GITHUB_WORKSPACE/main/README.md"
+           #sed 's#\(tree/main/x86_64-Linux)| \)[0-9]*\( |.*\)#\1'"${TOTAL_PACKAGES}"'\2#' -i "${GITHUB_WORKSPACE}/main/README.md"
         continue-on-error: true
 
       - name: Generate README (aarch64-Linux)
