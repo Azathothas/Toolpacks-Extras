@@ -4733,7 +4733,7 @@
       "summary": "Feature-packed web browser",
       "description": "\n      The web browser for techies and people who need a browser that helps them get things done.\n      The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.\n    \n      \n        Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n        Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n        Jot down ideas and inspiration with the integrated Notes manager.\n        End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.\n        Efficient built-in Tracker and Ad Blocker.\n        Compatible with most browser extensions from the Google Chrome Web Store.\n      \n      \n      NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.\n    \n    ",
       "id": "com_vivaldi_Vivaldi",
-      "updated_at": 1732202149,
+      "updated_at": 1732731476,
       "arches": [
         "aarch64",
         "x86_64"
@@ -4743,7 +4743,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.vivaldi.Vivaldi",
-      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/9535cdab285bc1889d17aa587a8c9c38/icons/128x128/com.vivaldi.Vivaldi.png",
+      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/371330aba87147572ff9efea2d2a761f/icons/128x128/com.vivaldi.Vivaldi.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -14631,7 +14631,7 @@
       "summary": "Customize your login screen",
       "description": "\n        Change GDM Settings; Apply theme and background, change cursor theme, icon theme\n        and night light settings, among other things.\n     \n    ",
       "id": "io_github_realmazharhussain_GdmSettings",
-      "updated_at": 1726954314,
+      "updated_at": 1732736645,
       "arches": [
         "aarch64",
         "x86_64"
@@ -14650,7 +14650,8 @@
         },
         "de": {
           "description": "GDM-Einstellungen verändern; Thema und Hintergrund anpassen, Zeigerthema ändern, Symbolthema und Nachtfarben-Einstellungen und andere Dinge.\n    ",
-          "name": "GDM-Einstellungen"
+          "name": "GDM-Einstellungen",
+          "summary": "Personalisieren Sie Ihren Willkommensbildschirm"
         },
         "es": {
           "description": "Cambiar la configuración de GDM; aplicar el tema y el fondo, cambiar el tema del cursor, el tema de los iconos y la configuración de la luz nocturna, entre otras cosas.\n    ",
@@ -14658,10 +14659,13 @@
           "summary": "Personalice su pantalla de inicio de sesión"
         },
         "fa": {
-          "description": "تغییرات تنظیمات GDM؛ اِعمال زمینه و پس‌زمینه، تغییر زمینهٔ اشاره‌گر، زمینه نقشک و تنظیمات نور شب، و همینطور چیزهایی دیگر.\n    "
+          "description": "تغییرات تنظیمات GDM؛ اِعمال زمینه و پس‌زمینه، تغییر زمینهٔ اشاره‌گر، زمینه نقشک و تنظیمات نور شب، و همینطور چیزهایی دیگر.\n    ",
+          "name": "تنظیمات GDM",
+          "summary": "شخصی سازی صفحهٔ ورودتان"
         },
         "fi": {
           "description": "Muuta GDM:n asetuksia; aseta teema ja tausta, vaihda kursori- ja kuvaketeema, määritä yövalon asetukset ja paljon muuta.\n    ",
+          "name": "GDM:n asetukset",
           "summary": "Mukauta kirjautumisnäkymää"
         },
         "fr": {
@@ -14675,12 +14679,14 @@
           "summary": "התאמת מסך הכניסה שלך"
         },
         "hi": {
-          "description": "GDM सेटिंग्स बदलें; थीम और पृष्ठभूमि लागू करें, अन्य चीज़ों के अलावा कर्सर थीम, आइकन थीम और नाइट लाइट सेटिंग्स बदलें।\n    ",
+          "description": "GDM सेटिंग्स बदलें; थीम और पृष्ठभूमि लागू करें, अन्य चीज़ों के अलावा कर्सर थीम, आइकन थीम और रात्रि प्रकाश सेटिंग बदलें।\n    ",
           "name": "GDM सेटिंग्स",
-          "summary": "अपनी लॉगिन स्क्रीन कस्टमाइज़ करें"
+          "summary": "अपनी लॉगिन स्क्रीन को अनुकूलित करें"
         },
         "id": {
-          "description": "Ubah Pengaturan GDM; Terapkan tema dan latar belakang, ubah tema kursor, tema ikon dan pengaturan lampu malam, antara lain.\n    "
+          "description": "Ubah Pengaturan GDM; Terapkan tema dan latar belakang, ubah tema kursor, tema ikon dan pengaturan lampu malam, antara lain.\n    ",
+          "name": "Pengaturan GDM",
+          "summary": "Sesuaikan layar login Anda"
         },
         "it": {
           "description": "Modifica le impostazioni GDM; Applica tema e sfondo, modifica il tema del cursore, il tema delle icone e le impostazioni della luce notturna, tra le altre cose.\n    ",
@@ -14707,6 +14713,7 @@
         },
         "oc": {
           "description": "Cambiar paramètres GDM : aplicar tèmas e fonzes, cambiar lo tèma dels cursors, de las icònas e los paramètres de lum nocturna, demest autras causas.\n    ",
+          "name": "Paramètres de GDM",
           "summary": "Personalizatz l’ecran de connexion"
         },
         "pl": {
@@ -14716,6 +14723,7 @@
         },
         "pt": {
           "description": "Alterar definições GDM; Aplicar tema e fundo, alterar tema do cursor, tema do ícone e definições de luz nocturna, entre outras coisas.\n    ",
+          "name": "configurações GDM",
           "summary": "Personalize o seu ecrã de início de sessão"
         },
         "pt-BR": {
@@ -14724,7 +14732,7 @@
           "summary": "Personalize o sua tela de início de sessão"
         },
         "ru": {
-          "description": "Измените настройки GDM; Примените тему и фон, измените тему курсора, тему значка и настройки ночного режима, среди прочего.\n    ",
+          "description": "Измените настройки GDM; Примените тему и фон, измените тему курсора, тему значка и настройки ночного света, среди прочего.\n    ",
           "name": "Настройки GDM",
           "summary": "Настройте свой экран входа в систему"
         },
@@ -14740,6 +14748,7 @@
         },
         "uk": {
           "description": "Змінити налаштування GDM; Застосуйте тему та фон, змініть тему курсора, тему значків і налаштування нічного освітлення тощо.\n    ",
+          "name": "Налаштування GDM",
           "summary": "Налаштуйте свій екран входу"
         },
         "vi": {
@@ -14747,13 +14756,20 @@
           "summary": "Tùy chỉnh màn hình đăng nhập của bạn"
         },
         "zh": {
-          "description": "更改 GDM 设置； 应用主题和背景、更改光标主题、图标主题和夜灯设置等。\n    "
+          "description": "更改 GDM 设置； 应用主题和背景、更改光标主题、图标主题和夜灯设置等。\n    ",
+          "name": "GDM 设置",
+          "summary": "自定义登录屏幕"
+        },
+        "zh-Hant": {
+          "description": "更改 GDM 設定；套用主題和背景、變更游標主題、圖示主題和夜燈設定等。\n    ",
+          "name": "GDM 設定",
+          "summary": "自訂你的登入畫面"
         }
       },
       "project_license": "AGPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.realmazharhussain.GdmSettings",
-      "icon": "https://dl.flathub.org/media/io/github/realmazharhussain.GdmSettings/0f56d56ebfb38c58a3d04b6f2be872e0/icons/128x128/io.github.realmazharhussain.GdmSettings.png",
+      "icon": "https://dl.flathub.org/media/io/github/realmazharhussain.GdmSettings/29e5767af01fb8e7ceb43cb22088ea6f/icons/128x128/io.github.realmazharhussain.GdmSettings.png",
       "categories": [
         "System",
         "Settings",
@@ -22290,7 +22306,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
