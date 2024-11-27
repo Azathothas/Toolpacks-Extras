@@ -1426,10 +1426,6 @@ NAME: Lyrics
 APP_ID: com.github.naaando.lyrics
 Descr: The beautiful way to sing your songs
 -----------------------------
-NAME: Vocal
-APP_ID: com.github.needleandthread.vocal
-Descr: A Great Podcast Client for the Modern Free Desktop
------------------------------
 NAME: waifu2x-ncnn-vulkan
 APP_ID: com.github.nihui.waifu2x-ncnn-vulkan
 Descr: waifu2x converter ncnn version

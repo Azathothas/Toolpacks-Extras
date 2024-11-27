@@ -373,7 +373,6 @@ com.github.muriloventuroso.easyssh
 com.github.muriloventuroso.givemelyrics
 com.github.muriloventuroso.pdftricks
 com.github.naaando.lyrics
-com.github.needleandthread.vocal
 com.github.neithern.g4music
 com.github.nihui.waifu2x-ncnn-vulkan
 com.github.nrittsti.NTag
