@@ -842,10 +842,6 @@ NAME: Kana
 APP_ID: com.felipekinoshita.Kana
 Descr: Learn Japanese characters
 -----------------------------
-NAME: Wildcard
-APP_ID: com.felipekinoshita.Wildcard
-Descr: Test your regular expressions
------------------------------
 NAME: Fightcade
 APP_ID: com.fightcade.Fightcade
 Descr: Play arcade games online
