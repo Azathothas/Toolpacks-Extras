@@ -5519,7 +5519,7 @@
       "summary": "Platform for building and using APIs",
       "description": "\n      Postman is the complete toolchain for API developers, used by 5 million\n      developers and more than 100,000 companies worldwide to access 130 million\n      APIs every month. Postman makes working with APIs faster and easier by\n      supporting developers at every stage of their workflow, and is available\n      for macOS, Windows, Linux and Chrome users.\n    \n      \n      This wrapper is not verified by, affiliated with, or supported by Postman\n      Inc.\n    \n    ",
       "id": "com_getpostman_Postman",
-      "updated_at": 1732599751,
+      "updated_at": 1732704191,
       "arches": [
         "aarch64",
         "x86_64"
@@ -5548,7 +5548,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 7.54511932215714,
       "installs_last_month": 16818,
       "added_at": 1529683648
@@ -22290,7 +22290,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
