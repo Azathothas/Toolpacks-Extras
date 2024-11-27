@@ -1,10 +1,30 @@
+<div align="center">
+
+[stars-shield]: https://img.shields.io/github/stars/pkgforge/pkgcache.svg
+[stars-url]: https://github.com/pkgforge/pkgcache/stargazers
+[issues-shield]: https://img.shields.io/github/issues/pkgforge/pkgcache.svg
+[issues-url]: https://github.com/pkgforge/pkgcache/issues
+[license-shield]: https://img.shields.io/github/license/pkgforge/pkgcache.svg
+[license-url]: https://github.com/pkgforge/pkgcache/blob/main/LICENSE
+[doc-shield]: https://img.shields.io/badge/docs.pkgforge.dev-blue
+[doc-url]: https://docs.pkgforge.dev/orgs/pkgforge-core/projects/pkgcache
+
+<a href="https://github.com/pkgforge/pkgcache/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Binaries-(2411)+(2511)-blue?labelColor=orange&style=flat&link=https://github.com/pkgforge/pkgcache/tree/main/.github/scripts" alt="Binaries" /></a>
+[![Documentation][doc-shield]][doc-url]
+[![Issues][issues-shield]][issues-url]
+[![License: MIT][license-shield]][license-url]
+[![Stars][stars-shield]][stars-url]
+</div>
+
 <p align="center">
-    <a href="https://huggingface.co/datasets/pkgforge/pkgcache/tree/main">
-        <img src="https://github.com/user-attachments/assets/673198c0-0db3-4aee-9e5d-3234e364fdfa" width="200"></a>
+    <!-- <a href="https://github.com/pkgforge/soar">
+        <img src="https://github.com/user-attachments/assets/220ce7b3-55b3-496e-b3b8-2556123193a2" width="100">
+    </a><br> -->
+    <a href="https://github.com/pkgforge/soar">
+        <img src="https://bin.pkgforge.dev/list.gif" alt="soar-list" width="500">
+    </a><br> 
+    <b><strong> <a href="https://docs.pkgforge.dev/orgs/pkgforge-core/projects/pkgcache">Package Forge Package Cache</a></code></strong></b>
     <br>
-    <b><strong> <a href="https://github.com/pkgforge/pkgcache">Portable Packages</a></code></strong></b>
-    <br>
-  <img src="https://github.com/user-attachments/assets/a02386d8-61c1-4479-ae75-66485a7ceb4f" width="200" />
 </p>
 
 <!-- Crude Attempt at Humor -->
@@ -15,11 +35,10 @@
   </a>
   <a href="https://github.com/sherlock-project/sherlock/issues/2011" target="_blank">
     <img src="https://github.com/user-attachments/assets/5a08ecaa-a412-4eaf-a9e8-1214455a6368" alt="Inspiration Image">
-  </a>
+  </a>    
 </details>
 
 ---
-> ℹ️ This used to be a [sister project](https://github.com/Azathothas/Toolpacks/issues/28) to [Azathothas/Toolpacks](https://github.com/Azathothas/Toolpacks)
 #### Contents
 > - [**📖 Docs & FAQs 📖**](https://github.com/pkgforge/pkgcache/tree/main/Docs)
 > > - [**`What? & Why?`**](https://github.com/pkgforge/pkgcache/blob/main/Docs/README.md#what--why)
