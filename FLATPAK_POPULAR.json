@@ -389,7 +389,7 @@
       "summary": "Online music streaming service",
       "description": "Access all of your favorite music, discover new songs, and share music online with your friends - all in one place. \n    Create shared playlists or share individual songs with your Facebook friends with just a click of a button. \n    Follow your favorite artists or friends to know what they are listening to, and then save the songs to your own playlists. \n      Spotify is the best way to have access to millions of songs, and all the latest hits.\n    ",
       "id": "com_spotify_Client",
-      "updated_at": 1732151703,
+      "updated_at": 1732809436,
       "arches": [
         "x86_64"
       ],
@@ -398,7 +398,7 @@
       "project_license": "LicenseRef-proprietary=https://www.spotify.com/us/legal/end-user-agreement/",
       "is_free_license": false,
       "app_id": "com.spotify.Client",
-      "icon": "https://dl.flathub.org/media/com/spotify/Client/db075568918d6abb08d52b7ccc46b413/icons/128x128/com.spotify.Client.png",
+      "icon": "https://dl.flathub.org/media/com/spotify/Client/7511f4fae60092ce00182ffba9120d2e/icons/128x128/com.spotify.Client.png",
       "categories": [
         "Audio",
         "Music",
@@ -15611,7 +15611,7 @@
       "summary": "Powerful, intelligent flash cards",
       "description": "Anki is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.\n      Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-agnostic and supports images, audio, videos and scientific markup (via LaTeX), the possibilities are endless.\n      Optional LaTeX support is provided by the TeX Live Flatpak extension org.freedesktop.Sdk.Extension.texlive.\n    ",
       "id": "net_ankiweb_Anki",
-      "updated_at": 1732334749,
+      "updated_at": 1732808123,
       "arches": [
         "aarch64",
         "x86_64"
@@ -15640,7 +15640,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/24.08",
+      "runtime": "org.kde.Platform/x86_64/6.7",
       "trending": 10.750185545033306,
       "installs_last_month": 6325,
       "added_at": 1520618691
@@ -22240,7 +22240,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
