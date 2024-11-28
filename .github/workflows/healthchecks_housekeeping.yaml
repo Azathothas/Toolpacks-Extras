@@ -513,7 +513,7 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Sync
-          PKG_COUNT="$(curl -qfsSL "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
+          PKG_COUNT="$(cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
           if [[ "${PKG_COUNT}" -gt 3000 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
@@ -758,7 +758,7 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Sync
-          PKG_COUNT="$(curl -qfsSL "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
+          PKG_COUNT="$(cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
           if [[ "${PKG_COUNT}" -gt 3000 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
