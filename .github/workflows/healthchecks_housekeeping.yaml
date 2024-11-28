@@ -490,7 +490,7 @@ jobs:
           git sparse-checkout set "" && git checkout
           #Generate New Pkgs
            if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then 
-             git --no-pager log --since='7 days ago' --diff-filter=A --name-only | grep -Ei "aarch64-Linux" | grep -E '\.(AppBundle|AppImage|FlatImage|NixAppImage|RunImage)$' | sort -u | while read -r G_FILE; do
+             git --no-pager log --since='7 days ago' --diff-filter=A --name-only | grep -Ei "aarch64-Linux" | grep -Ei '\.(AppBundle|AppImage|FlatImage|NixAppImage|RunImage)$' | sort -u | while read -r G_FILE; do
                 C_COUNT="$(git log --oneline -- "${G_FILE}" | wc -l)"
                 if [ "${C_COUNT}" -le 2 ]; then
                     echo "${G_FILE}"
@@ -513,6 +513,8 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Sync
+          PKG_COUNT="$(curl -qfsSL "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
+          if [[ "${PKG_COUNT}" -gt 3000 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
              huggingface-cli lfs-enable-largefiles "." ; df -h
@@ -547,7 +549,22 @@ jobs:
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]"
              git pull origin main ; git push origin main
            popd >/dev/null 2>&1
+          else
+           echo -e "\n[-] FATAL: PKG_COUNT is < 3000 or broken\n"
+           echo "${PKG_COUNT}"
+           export METADATA_FAILED="TRUE"
+           echo "METADATA_FAILED=${METADATA_FAILED}" >> "${GITHUB_ENV}"
+          fi
         continue-on-error: true
+
+      - name: Exit if Failed (aarch64)
+        if: env.METADATA_FAILED == 'TRUE'
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+         exit 1
+        continue-on-error: false
 
       - name: Generate All-In-One (x86_64-Linux)
         run: |
@@ -718,7 +735,7 @@ jobs:
           git sparse-checkout set "" && git checkout
           #Generate New Pkgs
            if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then 
-             git --no-pager log --since='7 days ago' --diff-filter=A --name-only | grep -Ei "x86_64-Linux" | grep -E '\.(AppBundle|AppImage|FlatImage|NixAppImage|RunImage)$' | sort -u | while read -r G_FILE; do
+             git --no-pager log --since='7 days ago' --diff-filter=A --name-only | grep -Ei "x86_64-Linux" | grep -Ei '\.(AppBundle|AppImage|FlatImage|NixAppImage|RunImage)$' | sort -u | while read -r G_FILE; do
                 C_COUNT="$(git log --oneline -- "${G_FILE}" | wc -l)"
                 if [ "${C_COUNT}" -le 2 ]; then
                     echo "${G_FILE}"
@@ -741,6 +758,8 @@ jobs:
           set +x ; set +e
           #--------------#
           ##Sync
+          PKG_COUNT="$(curl -qfsSL "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
+          if [[ "${PKG_COUNT}" -gt 3000 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
              huggingface-cli lfs-enable-largefiles "." ; df -h
@@ -775,7 +794,22 @@ jobs:
              git add --all --verbose && git commit -m "[+] METADATA (AIO) $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h
              git pull origin main ; git push origin main
            popd >/dev/null 2>&1
+          else
+           echo -e "\n[-] FATAL: PKG_COUNT is < 3000 or broken\n"
+           echo "${PKG_COUNT}"
+           export METADATA_FAILED="TRUE"
+           echo "METADATA_FAILED=${METADATA_FAILED}" >> "${GITHUB_ENV}"
+          fi
         continue-on-error: true
+
+      - name: Exit if Failed (x86_64)
+        if: env.METADATA_FAILED == 'TRUE'
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+         exit 1
+        continue-on-error: false
 
       - name: Git Pull
         run: |
