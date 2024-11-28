@@ -563,7 +563,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-         exit 1
+          exit 1
         continue-on-error: false
 
       - name: Generate All-In-One (x86_64-Linux)
@@ -808,7 +808,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-         exit 1
+          exit 1
         continue-on-error: false
 
       - name: Git Pull
