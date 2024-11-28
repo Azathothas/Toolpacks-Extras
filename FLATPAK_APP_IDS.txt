@@ -361,8 +361,6 @@ com.github.maoschanz.drawing
 com.github.marhkb.Pods
 com.github.marinm.songrec
 com.github.marktext.marktext
-com.github.matfantinel.moneta
-com.github.matfantinel.reminduck
 com.github.mdh34.hackup
 com.github.mdh34.quickdocs
 com.github.mgropp.PdfJumbler

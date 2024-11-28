@@ -1386,17 +1386,9 @@ NAME: MarkText
 APP_ID: com.github.marktext.marktext
 Descr: Next generation markdown editor
 -----------------------------
-NAME: Moneta
+NAME: HackUp
 APP_ID: marktext.desktop
-Descr: Monitor the exchange rates of real-world currencies on your desktop
------------------------------
-NAME: Moneta
-APP_ID: com.github.matfantinel.moneta
-Descr: Monitor the exchange rates of real-world currencies on your desktop
------------------------------
-NAME: Reminduck
-APP_ID: com.github.matfantinel.reminduck
-Descr: Remember your stuff in an adorably annoying way.
+Descr: Read Hacker News from the desktop
 -----------------------------
 NAME: HackUp
 APP_ID: com.github.mdh34.hackup
