@@ -7584,7 +7584,7 @@ Descr: Diablo/Hellfire source port
 -----------------------------
 NAME: Firefly Luciferin
 APP_ID: org.dpsoftware.FireflyLuciferin
-Descr: Ambilight clone
+Descr: Ambient lighting software
 -----------------------------
 NAME: DuckStation
 APP_ID: org.duckstation.DuckStation

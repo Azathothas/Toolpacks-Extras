@@ -12592,7 +12592,7 @@
       "summary": "Block-based multiplayer game platform",
       "description": "\n            Luanti is a block-based sandbox game platform.\n        \n      \n            Players can create and destroy various types of blocks in a\n            three-dimensional open world. This allows forming structures in\n            every possible creation, on multiplayer servers or in singleplayer.\n        \n      \n            Luanti is designed to be simple, stable, and portable.\n            It is lightweight enough to run on fairly old hardware.\n        \n      \n            Luanti has many features, including:\n        \n      \n        Ability to walk around, dig, and build in a near-infinite voxel world\n        Crafting of items from raw materials\n        A simple modding API that supports many additions and modifications to the game\n        Multiplayer support via servers hosted by users\n        Beautiful lightning-fast map generator\n      \n    ",
       "id": "net_minetest_Minetest",
-      "updated_at": 1731753875,
+      "updated_at": 1732782815,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22240,7 +22240,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
