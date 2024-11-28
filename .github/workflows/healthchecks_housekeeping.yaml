@@ -333,7 +333,7 @@ jobs:
                .[] | 
                "[[bin]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name | gsub("\\.no_strip"; "") else . end)\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -358,7 +358,7 @@ jobs:
                .[] | 
                "[[base]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name | gsub("\\.no_strip"; "") else . end)\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -383,7 +383,7 @@ jobs:
                .[] |
                "[[pkg]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name else . end)\"\n" +
                "pkg_id = \"\(.bin_id)\"\n" +
                "pkg_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
@@ -562,7 +562,7 @@ jobs:
                .[] | 
                "[[bin]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name | gsub("\\.no_strip"; "") else . end)\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -587,7 +587,7 @@ jobs:
                .[] | 
                "[[base]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name | gsub("\\.no_strip"; "") else . end)\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -612,7 +612,7 @@ jobs:
                .[] |
                "[[pkg]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family)\"\n" +
+               "pkg_family = \"\(.pkg_family // "" | if . == "" then .name else . end)\"\n" +
                "pkg_id = \"\(.bin_id)\"\n" +
                "pkg_name = \"\(.bin_name)\"\n" +
                "description = \"\(.description)\"\n" +
