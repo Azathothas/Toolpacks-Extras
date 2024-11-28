@@ -1914,6 +1914,10 @@ NAME: RubyMine
 APP_ID: com.jetbrains.RubyMine
 Descr: Enjoy first-class support for Ruby 2.x and Rails 6.x, Sinatra, React, Angular, Puppet, Docker, and more
 -----------------------------
+NAME: RustRover
+APP_ID: com.jetbrains.RustRover
+Descr: A cross-platform IDE for Rust
+-----------------------------
 NAME: WebStorm
 APP_ID: com.jetbrains.WebStorm
 Descr: The smartest JavaScript IDE
@@ -2549,6 +2553,10 @@ Descr: Integrated Development Environment for STM32
 NAME: STM32CubeIDE
 APP_ID: com.st.STM32CubeIDE
 Descr: Integrated Development Environment for STM32
+-----------------------------
+NAME: STM32CubeMX
+APP_ID: com.st.STM32CubeMX
+Descr: A graphical tool for configuring STM32 microcontrollers and microprocessors
 -----------------------------
 NAME: Steam Deck Repo Manager
 APP_ID: com.steamdeckrepo.manager
@@ -4602,6 +4610,10 @@ NAME: Passy
 APP_ID: io.github.glitterware.Passy
 Descr: Offline password manager with cross-platform synchronization
 -----------------------------
+NAME: Musicfox
+APP_ID: io.github.go_musicfox.go-musicfox
+Descr: Terminal music player for Netease Cloud Music
+-----------------------------
 NAME: gopher64
 APP_ID: io.github.gopher64.gopher64
 Descr: Nintendo 64 Emulator
@@ -4753,6 +4765,10 @@ Descr: Have always at a glance the usage of system resources
 NAME: Modular Calculator
 APP_ID: io.github.jordanl2.ModularCalculator
 Descr: A powerful, scriptable, modular calculator aimed at scientific, engineering or computing work.
+-----------------------------
+NAME: Bella
+APP_ID: io.github.josephmawa.Bella
+Descr: Pick color from the screen in any format
 -----------------------------
 NAME: Gods Deluxe
 APP_ID: io.github.jotd666.gods-deluxe

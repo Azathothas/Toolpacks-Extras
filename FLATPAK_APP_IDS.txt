@@ -499,6 +499,7 @@ com.jetbrains.PyCharm-Community
 com.jetbrains.PyCharm-Professional
 com.jetbrains.Rider
 com.jetbrains.RubyMine
+com.jetbrains.RustRover
 com.jetbrains.WebStorm
 com.jetpackduba.Gitnuro
 com.jgraph.drawio.desktop
@@ -659,6 +660,7 @@ com.spacestation14.Launcher
 com.spotify.Client
 com.springrts.SpringLobby
 com.st.STM32CubeIDE
+com.st.STM32CubeMX
 com.steamdeckrepo.manager
 com.steamgriddb.SGDBoop
 com.steamgriddb.steam-rom-manager
@@ -1195,6 +1197,7 @@ io.github.giantpinkrobots.varia
 io.github.gillesdegottex.FMIT
 io.github.glaumar.QRookie
 io.github.glitterware.Passy
+io.github.go_musicfox.go-musicfox
 io.github.gopher64.gopher64
 io.github.grangerhub.Tremulous
 io.github.gssh_linux.gssh
@@ -1231,6 +1234,7 @@ io.github.jliljebl.Flowblade
 io.github.jonmagon.kdiskmark
 io.github.jorchube.monitorets
 io.github.jordanl2.ModularCalculator
+io.github.josephmawa.Bella
 io.github.jotd666.gods-deluxe
 io.github.jtdx_project.JTDX
 io.github.julian_hochhaus.LG4X_V2
