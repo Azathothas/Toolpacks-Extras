@@ -358,7 +358,7 @@ jobs:
                .[] | 
                "[[base]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name | gsub("\\.no_strip"; ""))\"\n" +
+               "pkg_family = \"\( if (.build_script | type) == "string" and (.build_script | length > 0) then (.build_script | split("/") | .[-1] | split(".") | .[0] ) else (.name | gsub("\\.no_strip"; "")) end )\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
@@ -587,7 +587,7 @@ jobs:
                .[] | 
                "[[base]]\n" +
                "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name | gsub("\\.no_strip"; ""))\"\n" +
+               "pkg_family = \"\( if (.build_script | type) == "string" and (.build_script | length > 0) then (.build_script | split("/") | .[-1] | split(".") | .[0] ) else (.name | gsub("\\.no_strip"; "")) end )\"\n" +
                "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
                "description = \"\(.description)\"\n" +
                "note = \"\(.note)\"\n" +
