@@ -514,7 +514,7 @@ jobs:
           #--------------#
           ##Sync
           PKG_COUNT="$(cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
-          if [[ "${PKG_COUNT}" -gt 3000 ]]; then
+          if [[ "${PKG_COUNT}" -gt 2900 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
              huggingface-cli lfs-enable-largefiles "." ; df -h
@@ -759,7 +759,7 @@ jobs:
           #--------------#
           ##Sync
           PKG_COUNT="$(cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
-          if [[ "${PKG_COUNT}" -gt 3000 ]]; then
+          if [[ "${PKG_COUNT}" -gt 2900 ]]; then
            pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
              git lfs install
              huggingface-cli lfs-enable-largefiles "." ; df -h
