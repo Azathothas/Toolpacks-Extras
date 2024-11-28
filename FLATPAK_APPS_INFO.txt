@@ -4842,6 +4842,10 @@ NAME: CutePeaks
 APP_ID: io.github.labsquare.CutePeaks
 Descr: Standalone Sanger trace viewer
 -----------------------------
+NAME: lada
+APP_ID: io.github.ladaapp.lada
+Descr: Remove and recover pixelated content in adult videos
+-----------------------------
 NAME: Colorway
 APP_ID: io.github.lainsce.Colorway
 Descr: Generate color pairings

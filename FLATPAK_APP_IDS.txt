@@ -1252,6 +1252,7 @@ io.github.ktgw0316.LightZone
 io.github.kukuruzka165.materialgram
 io.github.labbots.NiimPrintX
 io.github.labsquare.CutePeaks
+io.github.ladaapp.lada
 io.github.lainsce.Colorway
 io.github.lainsce.Countdown
 io.github.lainsce.DotMatrix

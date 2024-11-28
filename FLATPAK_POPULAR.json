@@ -4289,7 +4289,7 @@
       "summary": "Manage AppImages",
       "description": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.\n    ",
       "id": "it_mijorus_gearlever",
-      "updated_at": 1732121647,
+      "updated_at": 1732803846,
       "arches": [
         "aarch64",
         "x86_64"
@@ -6470,7 +6470,7 @@
       "summary": "Business communication",
       "description": "\n      Caution: Slack for Linux is in beta. We’re still busy adding features and\n      ironing out potential issues.\n    \n      \n      Slack brings team communication and collaboration into one place so you\n      can get more work done, whether you belong to a large enterprise or a\n      small business. Check off your to-do list and move your projects forward\n      by bringing the right people, conversations, tools, and information you\n      need together. Slack is available on any device, so you can find and\n      access your team and your work, whether you’re at your desk or on the go.\n    \n      \n      Scientifically proven (or at least rumored) to make your working life\n      simpler, more pleasant, and more productive. We hope you’ll give Slack a\n      try.\n    \n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by\n      Slack Technologies, Inc.\n    \n    ",
       "id": "com_slack_Slack",
-      "updated_at": 1731703801,
+      "updated_at": 1732805704,
       "arches": [
         "x86_64"
       ],
@@ -6479,7 +6479,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.slack.Slack",
-      "icon": "https://dl.flathub.org/media/com/slack/Slack/a9495f9bc65d5c040553cbcf20b2e4ef/icons/128x128/com.slack.Slack.png",
+      "icon": "https://dl.flathub.org/media/com/slack/Slack/20f25028bfac4c593bf8ee6e930eaf68/icons/128x128/com.slack.Slack.png",
       "categories": [
         "Network",
         "InstantMessaging"
