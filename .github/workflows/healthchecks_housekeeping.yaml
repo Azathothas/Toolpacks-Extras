@@ -65,17 +65,17 @@ jobs:
           bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
         continue-on-error: true
         
-      - name: Install to-capnp
-        run: |
-          #presets
-          set +x ; set +e
-          #-------------#
-          sudo curl -qfsSL "https://github.com/QaidVoid/to-capnp/releases/download/nightly/to-capnp-nightly-$(uname -m)-linux" -o "/usr/local/bin/to-capnp" && sudo chmod +x "/usr/local/bin/to-capnp"
-          if ! command -v to-capnp &> /dev/null; then
-             echo -e "\n[+] to-capnp NOT Installed\n"
-           exit 1
-          fi
-        continue-on-error: false
+      #- name: Install to-capnp
+      #  run: |
+      #    #presets
+      #    set +x ; set +e
+      #    #-------------#
+      #    sudo curl -qfsSL "https://github.com/QaidVoid/to-capnp/releases/download/nightly/to-capnp-nightly-$(uname -m)-linux" -o "/usr/local/bin/to-capnp" && sudo chmod +x "/usr/local/bin/to-capnp"
+      #    if ! command -v to-capnp &> /dev/null; then
+      #       echo -e "\n[+] to-capnp NOT Installed\n"
+      #     exit 1
+      #    fi
+      #  continue-on-error: false
 
       - name: Setup Env
         run: |
@@ -424,12 +424,12 @@ jobs:
              zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd"
              b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd.bsum"
              #JSON (capnp)
-             to-capnp -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
+             #to-capnp -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp"
+             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum"
+             #7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
+             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
+             #zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd"
+             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
              #JSON (MIN)
              cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json"
              b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.bsum"
@@ -649,12 +649,12 @@ jobs:
              zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd"
              b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd.bsum"
              #JSON (capnp)
-             to-capnp -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
+             #to-capnp -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp"
+             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum"
+             #7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
+             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
+             #zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd"
+             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
              #JSON (MIN)
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json"
              b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.bsum"
@@ -890,12 +890,12 @@ jobs:
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
@@ -931,12 +931,12 @@ jobs:
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
+          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" "r2:/bin/x86_64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
           rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
