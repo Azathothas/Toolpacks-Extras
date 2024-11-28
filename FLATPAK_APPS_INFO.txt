@@ -1314,6 +1314,10 @@ NAME: Sandbox
 APP_ID: com.github.jms55.Sandbox
 Descr: A sand simulation game
 -----------------------------
+NAME: Foliate
+APP_ID: com.github.johnfactotum.Foliate
+Descr: Read e-books in style
+-----------------------------
 NAME: Quick Lookup
 APP_ID: com.github.johnfactotum.QuickLookup
 Descr: Look up words quickly

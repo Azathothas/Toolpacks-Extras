@@ -7285,95 +7285,75 @@
       "summary": "Read e-books in style",
       "description": "Discover a new chapter in reading with Foliate, the modern e-book reader tailored for GNOME. Immerse yourself in a distraction-free interface, with customization features designed to match your unique preferences.\n      Features include:\n      \n        Open EPUB, Mobipocket, Kindle, FB2, CBZ, and PDF files\n        Paginated mode and scrolled mode\n        Customize font and line-spacing\n        Light, sepia, dark, and invert mode\n        Reading progress slider with chapter marks\n        Bookmarks and annotations\n        Find in book\n        Quick dictionary lookup\n      \n    ",
       "id": "com_github_johnfactotum_Foliate",
-      "updated_at": 1712211353,
+      "updated_at": 1732767958,
       "arches": [
         "aarch64",
         "x86_64"
       ],
       "type": "desktop-application",
       "translations": {
+        "cs": {
+          "description": "Objevte novou kapitolu čtení s moderní čtečkou elektronických knih Foliate přizpůsobenou pro prostředí GNOME. Ponořte se do nerozptylujícího rozhraní s přizpůsobitelnými prvky navrženými na míru vašim jedinečným volbám.\n      Vlastnosti zahrnují:\n      \n        Otevírání souborů EPUB, Mobipocket, Kindle, FB2, CBZ a PDF\n        Stránkovaný režim a režim posouvání\n        Přizpůsobení písma a řádkování\n        Světlý, tmavohnědý (sépiový), tmavý a obrácený režim\n        Posuvník postupu čtení se značkami kapitol\n        Záložky a poznámky\n        Najít v knize\n        Rychlé vyhledávání ve slovníku\n      \n    ",
+          "summary": "Stylové čtení elektronických knih"
+        },
         "de": {
-          "description": "Entdecke ein neues Kapitel des Lesens mit Foliate, dem modernen E-Book-Reader, angepasst für GNOME. Tauche in eine ablenkungsfreie Oberfläche ein, mit Anpassungsmöglichkeiten, die Deinen individuellen Vorlieben entsprechen.\n      Funktionen beinhalten:\n      \n        Öffne EPUB, Mobipocket, Kindle, FB2, CBZ und PDF-Dateien\n        Seitenmodus und Scrollmodus\n        Anpassbare Schriftarten und Zeilenabstände\n        Heller, sepia, dunkler und invertierter Modus\n        Lesefortschrittsanzeige mit Kapitelmarkierungen\n        Schnelle Wörterbuchsuche\n      \n    ",
-          "name": "Foliate"
+          "description": "Entdecke ein neues Kapitel des Lesens mit Foliate, dem modernen E-Book-Reader, angepasst für GNOME. Tauche in eine ablenkungsfreie Oberfläche ein, mit Anpassungsmöglichkeiten, die Deinen individuellen Vorlieben entsprechen.\n      Funktionen beinhalten:\n      \n        Öffne EPUB, Mobipocket, Kindle, FB2, CBZ und PDF-Dateien\n        Seitenmodus und Scrollmodus\n        Anpassbare Schriftarten und Zeilenabstände\n        Heller, sepia, dunkler und invertierter Modus\n        Lesefortschrittsanzeige mit Kapitelmarkierungen\n        Schnelle Wörterbuchsuche\n      \n    "
         },
         "el": {
           "description": "Ξεκινήστε ένα νέο κεφάλαιο στον τρόπο ανάγνωσης με το Φυλλοειδές, έναν μοντέρνο αναγνώστη ηλεκτρονικών βιβλίων σχεδιασμένο για το GNOME. Εισαχθείτε σε ένα περιβάλλον δίχως περισπασμούς, με πολλές επιλογές προσαρμογής σχεδιασμένες για να ικανοποιήσουν τις μοναδικές σας προτιμήσεις.\n      Οι λειτουργίες του περιλαμβάνουν:\n      \n        Άνοιγμα αρχείων EPUB, Mobipocket, Kindle, FB2, CBZ, και PDF\n        Σελιδοποιημένη λειτουργία και κυλιόμενη λειτουργία\n        Επιλογή γραμματοσειράς και διάστιχου\n        Ανοιχτόχρωμη, σέπια, σκουρόχρωμη, κι ανεστραμμένη λειτουργία\n        Πρόοδος ανάγνωσης με δείκτες κεφαλαίων\n        Ταχεία αναζήτηση σε λεξικό\n      \n    ",
-          "name": "Φυλλοειδές",
           "summary": "Ανάγνωση ηλεκτρονικών βιβλίων με στυλ"
         },
         "es": {
           "description": "Descubra un capítulo nuevo en la lectura con Foliate, el moderno lector de libros electrónicos adaptado a GNOME. Sumérjase en una interfaz libre de distracciones, con características de personalización diseñadas para adaptarse a sus preferencias únicas.\n      Características:\n      \n        Abrir archivos EPUB, Mobipocket, Kindle, FB2, CBZ y PDF\n        Modo paginado y modo desplazado\n        Personalizar la tipografía y el interlineado\n        Modo claro, sepia, oscuro e invertido\n        Deslizador del progreso de lectura con marcas de capítulo\n        Marcadores y anotaciones\n        Búsqueda en el libro\n        Búsqueda rápida en el diccionario\n      \n    ",
-          "name": "Foliate",
           "summary": "Lea libros electrónicos con estilo"
         },
         "fr": {
           "description": "Ouvrez un nouveau chapitre dans vos lecture avec Foliate, le lecteur moderne de livres électroniques conçu pour GNOME. Immergez-vous dans une interface sans distractions, personnalisable pour correspondre à vos seules préférences.\n      Fonctionnalités inclues :\n      \n        Ouvrez des fichiers EPUB, Mobipocket, Kindle, FB2, CBZ, et PDF\n        Modes pagination et défilement\n        Personnaliser la police et l’espacement des lignes\n        Modes clair, sépia, sombre et inversé\n        Barre de progression de lecture avec marquage des chapitres\n        Marque-pages et annotations\n        Recherche dans le livre\n        Vérification dans le dictionnaire\n      \n    ",
-          "name": "Foliate",
           "summary": "Lisez vos livres électroniques avec style"
         },
         "he": {
           "description": "לגלות פרק חדש בקריאה עם Foliate, קורא הספרים האלקטרוני המודרני המותאם ל־GNOME. מאפשר לך לשקוע בממשק נטול הסחות דעת, מעוצב עם תכונות להתאמה אישית כך שתתאפשר לך התאמה להעדפות הייחודיות שלך.\n      התכונות כוללות:\n      \n        פתיחת קובצי EPUB, Mobipocket, Kindle, FB2, CBZ ו־PDF.\n        מצב ניווט לפי עמוד ומצב גלילה\n        התאמה אישית של הגופן וריווח השורות\n        בהיר, חום מיושן, כהה ומצב היפוך\n        מחוון התקדמות בקריאה עם סימוני פרקים\n        סימניות והסברים\n        איתור בספר\n        שליפה מהירה מהמילון\n      \n    ",
-          "name": "Foliate",
           "summary": "לקרוא ספרים אלקטרוניים בסטייל"
         },
         "hi": {
-          "description": "GNOME के लिए तैयार किए गए आधुनिक ई-पुस्तक पाठक Foliate के साथ पढ़ने का एक नया अध्याय खोजें। आपकी विशिष्ट प्राथमिकताओं से मेल खाने के लिए डिज़ाइन की गई अनुकूलन सुविधाओं के साथ, अपने आप को एक व्याकुलता-मुक्त इंटरफ़ेस में डुबो दें।\n      शामिल विशेषताएं:\n      \n        EPUB, Mobipocket, Kindle, FB2, CBZ और PDF फाइलें खोलें\n        पृष्ठांकित मोड और स्क्रॉल मोड\n        फॉन्ट और पंक्ति-रिक्ति को अनुकूलित करें\n        हल्का, सेपिया, गहरा और उल्टा मोड\n        अध्याय चिह्नों के साथ पढ़ने की प्रगति स्लाइडर\n        बुकमार्क और एनोटेशन\n        पुस्तक में खोजें\n        त्वरित शब्दकोश खोज\n      \n    ",
-          "name": "Foliate",
+          "description": "GNOME के लिए तैयार किए गए आधुनिक ई-पुस्तक पाठक Foliate के साथ पढ़ने का एक नया अध्याय खोजें। आपकी विशिष्ट प्राथमिकताओं से मेल खाने के लिए डिज़ाइन की गई अनुकूलन सुविधाओं के साथ, अपने आप को एक व्याकुलता-मुक्त इंटरफ़ेस में डुबो दें।\n      शामिल विशेषताएं:\n      \n        EPUB, Mobipocket, Kindle, FB2, CBZ और PDF फाइलें खोलें\n        पृष्ठांकित मोड और स्क्रॉल मोड\n        फॉन्ट और पंक्ति-रिक्ति को अनुकूलित करें\n        हल्का, सेपिया, गहरा और उल्टा मोड\n        अध्याय चिह्नों के साथ पढ़ने की प्रगति स्लाइडर\n        पुस्तचिन्ह और एनोटेशन\n        पुस्तक में खोजें\n        त्वरित शब्दकोश खोज\n      \n    ",
           "summary": "अंदाज़ से ई-पुस्तकें पढ़ें"
         },
         "hr": {
           "description": "Otkrij novo poglavlje čitajući pomoću Foliatea, modernim čitačem e-knjiga prilagođenim za GNOME. Foliate pruža jednostavno sučelje s mogučnošću prilagođavanja raznih funkcija vlastitim željama.\n      Funkcije uključuju:\n      \n        Otvori EPUB, Mobipocket, Kindle, FB2, CBZ i PDF datoteke\n        Modus paginacije i modus listanja\n        Prilagodi font i razmak između redaka\n        Svijetli, tamnosmeđi, tamni i invertirani modus\n        Klizač napretka čitanja s oznakama poglavlja\n        Straničnici i pribilješke\n        Pronađi u knjizi\n        Brzo pretraživanje rječnika\n      \n    ",
-          "name": "Foliate",
           "summary": "Čitaj e-knjige u stilu"
+        },
+        "hu": {
+          "description": "Nyisson egy új fejezetet az olvasásban a Foliate segítségével, a modern e-book olvasóval,melyet a GNOME felülethez igazítottunk. Merüljön el az olvasásban egy letisztult és személyre szabható felület segítségével,amelyet úgy terveztek, hogy igazodjon az Ön egyéni igényeihez.\n      Legfontosabb jellemzők:\n      \n        EPUB, Mobipocket, Kindle, FB2, CBZ és PDF formátumok megnyitása\n        Oldalankénti valamint folyamatos megjelenítési mód\n        Személyre szabható betű - és sorköz\n        Világos, szépia, sötét és invertált megjelenítési módok\n        Olvasási folyamatsáv, fejezetjelzőkkel\n        Könyjelzők és feljegyzések\n        Keresés a könyvben\n        Gyors keresés a szótárban\n      \n    ",
+          "summary": "Olvasson e-könyveket stílusosan"
         },
         "it": {
           "description": "Scopri un nuovo capitolo della lettura con Foliate, il moderno lettore di e-book su misura per GNOME. Immergiti in un'interfaccia priva di distrazioni, con funzionalità di personalizzazione progettate per soddisfare le tue uniche preferenze.\n      Le funzionalità includono:\n      \n        Apri file EPUB, Mobipocket, Kindle, FB2, CBZ e PDF\n        Modalità impaginata e modalità discorrimento\n        Personalizza il carattere e l'interlinea\n        Modalità chiara, seppia, scura e invertita\n        Dispositivo di scorrimento dell'avanzamento della lettura con contrassegni del capitolo\n        Segnalibri e annotazioni\n        Trova nel libro\n        Ricerca veloce nel dizionario\n      \n    ",
-          "name": "Foliate",
           "summary": "Leggi gli e-book con stile"
         },
         "oc": {
-          "description": "Foncionalitats inclusas :\n      \n        Cercar dins lo libre\n        Consulta rapida del diccionari\n      \n    ",
-          "name": "Foliate",
+          "description": "Descobrissètz un capítol novèl en legissent amb Foliate, lo lector d’e-book modèrn fargat per GNOME. Immergissètz-vos dins una interfàcia sens cap de distraccion, amb de foncionalitats personalizablas concebudas per correspondre a vòstras preferéncias unicas.\n      Foncionalitats inclusas :\n      \n        Dobrir de fichièrs EPUB, Mobipocket, Kindle, FB2, CBZ, e PDF\n        Mòde paginat e defilament\n        Personalizar la polissa e la nautor de linha\n        Mòde clar, sepia, escur e intervertir\n        Barra de progression de la lectura amb marcadors pels capítols\n        Marcapaginas e anotacions\n        Cercar dins lo libre\n        Consulta rapida del diccionari\n      \n    ",
           "summary": "Legir d’e-books amb estil"
         },
         "pt-BR": {
           "description": "Descubra um novo capítulo na leitura com o Foliate, o moderno leitor de e-books feito sob medida para o GNOME. Mergulhe em uma interface livre de distrações, com recursos de personalização projetados para atender às suas preferências únicas.\n      Entre as características, estão:\n      \n        Abrir arquivos EPUB, Mobipocket, Kindle, FB2, CBZ e PDF\n        Modo paginado e modo de rolagem\n        Personalização de fonte e de espaçamento entre linhas\n        Modo claro, sépia, escuro e invertido\n        Controle deslizante de progresso de leitura com marcação de capítulo\n        Marcadores e anotações\n        Localizar no livro\n        Pesquisa rápida de dicionário\n      \n    ",
-          "name": "Foliate",
           "summary": "Leia e-books com estilo"
         },
         "ru": {
           "description": "Откройте для себя новую главу в чтении с Foliate, современным приложением для чтения электронных книг, разработанным специально для GNOME. Погрузитесь в удобный интерфейс с функциями настройки, разработанными в соответствии с вашими уникальными предпочтениями.\n      Включает следующие функции:\n      \n        Открытие файлов: EPUB, Mobipocket, Kindle, FB2, CBZ и PDF\n        Режим разбивки на страницы и режим прокрутки\n        Настройка шрифта и межстрочного интервала\n        Режимы: «Светлый», «Сепия», «Тёмный» и «Инвертированный»\n        Ползунок прогресса чтения с отметками глав\n        Закладки и примечания\n        Найти в книге\n        Быстрая проверка по словарю\n      \n    ",
-          "name": "Foliate",
           "summary": "Читайте электронные книги стильно"
+        },
+        "sv": {
+          "description": "Upptäck ett nytt kapitel i läsning med Foliate, den moderna e-boksläsaren skräddarsydd för GNOME. Fördjupa dig i ett distraktionsfritt gränssnitt, med anpassningsfunktioner utformade för att matcha dina unika preferenser.\n      Funktioner inkluderar:\n      \n        Öppna EPUB-, Mobipocket-, Kindle-, FB2-, CBZ- och PDF-filer\n        Paginerat läge och rullat läge\n        Anpassa teckensnitt och radavstånd\n        Ljus, sepia, mörkt och inverterat läge\n        Reglage för läsförlopp med kapitelmarkeringar\n        Bokmärken och anteckningar\n        Hitta i bok\n        Snabbt uppslag i ordbok\n      \n    ",
+          "summary": "Läs e-böcker med stil"
         },
         "tr": {
           "description": "GNOME için özel hazırlanmış modern e-kitap okuyucu Foliate ile okumada yeni bir sayfa açın. Özel tercihlerinize uyacak şekilde tasarlanmış özelleştirme özellikleriyle, dikkat dağıtmayan bir arayüze kendinizi kaptırın.\n      Özellikleri şunlardır:\n      \n        EPUB, Mobipocket, Kindle, FB2, CBZ ve PDF dosyalarını açın\n        Sayfalandırılmış kip ve kaydırmalı kip\n        Yazı tipini ve satır aralığını özelleştirme\n        Açık, sepya, koyu ve ters çevirme kipleri\n        Bölüm imli okuma ilerleme kaydırıcısı\n        Yer imleri ve notlar\n        Kitapta bul\n        Hızlı sözlük araması\n      \n    ",
-          "name": "Foliate",
           "summary": "E-kitapları okuyun"
         },
         "uk": {
           "description": "Досліджуйте новий розділ читаючи з Foliate - сучасною читалкою електронних книг адаптованою для GNOME. Заглибтеся у читання з не відволікаючим інтерфейсом з налаштуваннями функцій під ваші особисті уподобання.\n      Можливості:\n      \n        Вміє відкривати EPUB, Mobipocket, Kindle, FB2, CBZ, та PDF файли\n        Посторінковий і режим гортання\n        Налаштування шрифтів та міжстрочний інтервал\n        Світлий, сепія, темний та інвертовані стилі\n        Прогрес читання з підтримкою закладок\n        Примітки та нотатки\n        Пошук в книзі\n        Швидкий пошук у словнику\n      \n    ",
-          "name": "Foliate",
           "summary": "Читайте електронні книги у стилі"
-        },
-        "cs": {
-          "name": "Foliate"
-        },
-        "id": {
-          "name": "Foliate"
-        },
-        "ko": {
-          "name": "Foliate"
-        },
-        "nb": {
-          "name": "Foliate"
-        },
-        "nl": {
-          "name": "Foliate"
-        },
-        "sv": {
-          "name": "Foliate",
-          "summary": "Läs e-böcker i stil"
         },
         "ar": {
           "summary": "اقرأ الكتب الإلكترونية بأسلوب أنيق"
@@ -7382,7 +7362,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.johnfactotum.Foliate",
-      "icon": "https://dl.flathub.org/media/com/github/johnfactotum.Foliate/087fe5098abbbeabc4939b629fc3e2be/icons/128x128/com.github.johnfactotum.Foliate.png",
+      "icon": "https://dl.flathub.org/media/com/github/johnfactotum.Foliate/981f49169ac0f377fd1c6923a62b3d64/icons/128x128/com.github.johnfactotum.Foliate.png",
       "categories": [
         "Office",
         "Viewer"
@@ -7401,7 +7381,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1699853625",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.438243431908669,
       "installs_last_month": 10940,
       "added_at": 1559220873
@@ -22260,7 +22240,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
