@@ -671,7 +671,7 @@ jobs:
              b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd.bsum"
              #AM
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.bin[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" 
+             #cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
              cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.pkg[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \(if .version and ((.version|tostring) | test("^[a-zA-Z0-9.-]+$")) then .version else (.bsum // "latest")[:12] end) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
              sort -u "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
              sed '/|[[:space:]]*|/d' -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
