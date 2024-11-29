@@ -1666,6 +1666,7 @@ net.fsuae.FS-UAE
 net.gaijin.WarThunder
 net.giuspen.cherrytree
 net.goatattack.goatattack
+net.gpro.gproapp
 net.gradator.gtkatlantic
 net.granjow.slowmovideo
 net.gwyddion.Gwyddion
@@ -2660,6 +2661,7 @@ org.videolan.VLC
 org.viking.Viking
 org.vim.Vim
 org.vinegarhq.Vinegar
+org.virt_manager.virt-manager
 org.virt_manager.virt-viewer
 org.virtualxt.VirtualXT
 org.wesnoth.Wesnoth

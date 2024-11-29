@@ -3,6 +3,7 @@
 | 2to3 | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/aarch64/Baseutils/python3/2to3 | 10ace4cf9e65 |
 | 2to3-3.12 | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/aarch64/Baseutils/python3/2to3-3.12 | null |
 | 7z | Unarchiver | https://github.com/ip7z/7zip | https://bin.pkgforge.dev/aarch64/7z | 74f8ecb6b386 |
+| 86box.appimage | Emulator of x86-based machines | https://github.com/86Box/86Box | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/86box.appimage | v4.2.1 |
 | JitterTest | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/JitterTest | b68fface85b2 |
 | a-utils | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/a-utils | 3cc3b8dd6c48 |
 | acpid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/acpid | 9888ac29bcf9 |
@@ -154,6 +155,7 @@
 | bridge | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/bridge | 67cd144b6c3f |
 | brook | A cross-platform programmable network tool | https://github.com/txthinking/brook | https://bin.pkgforge.dev/aarch64/brook | 326f674d89d3 |
 | broot | A new way to see and navigate directory trees | https://github.com/Canop/broot | https://bin.pkgforge.dev/aarch64/broot | ef668759c794 |
+| browservice.appimage | Browse the modern web on historical browsers | https://github.com/ttalvitie/browservice | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/browservice.appimage | v0.9.10.0 |
 | brutespray | Bruteforcing from various scanner output - Automatically attempts default creds on found services. | https://github.com/x90skysn3k/brutespray | https://bin.pkgforge.dev/aarch64/brutespray | 1e046618f7ef |
 | bsdcat | Multi-format archive and compression Tools | https://github.com/libarchive/libarchive | https://bin.pkgforge.dev/aarch64/Baseutils/libarchive/bsdcat | 0152351f9fe1 |
 | bsdcpio | Multi-format archive and compression Tools | https://github.com/libarchive/libarchive | https://bin.pkgforge.dev/aarch64/Baseutils/libarchive/bsdcpio | bbeb0bdd4b6e |
@@ -244,6 +246,9 @@
 | chown | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chown | f8f46ed79603 |
 | chpasswd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chpasswd | b69d9708efcf |
 | chpst | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chpst | 87df7c5765c8 |
+| chromium-alpine.flatimage | Open source web browser from Google | https://chromium.googlesource.com/chromium/src.git | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.flatimage | 130.0.6723.116 |
+| chromium.dwfs.appbundle | Open source web browser from Google | https://chromium.googlesource.com/chromium/src.git | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.dwfs.appbundle | 130.0.6723.116 |
+| chromium.nixappimage | Open source web browser from Google | https://chromium.googlesource.com/chromium/src.git | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage | 130.0.6723.91 |
 | chroot | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chroot | c622216bf22a |
 | chroot | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chroot | 2b7363bbb728 |
 | chroot | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chroot | d8cb65c3b112 |
@@ -547,6 +552,7 @@
 | enc | 🔑🔒 A modern and friendly CLI alternative to GnuPG | https://github.com/life4/enc | https://bin.pkgforge.dev/aarch64/enc | 8daa22972e2d |
 | encode | Encode|Decode input from stdin | https://github.com/Brum3ns/encode | https://bin.pkgforge.dev/aarch64/encode | c109e960ebfb |
 | encrypted-dns | high-performance, zero maintenance proxy to run an encrypted DNS server. | https://github.com/DNSCrypt/encrypted-dns-server | https://bin.pkgforge.dev/aarch64/encrypted-dns | 1537b4c0d920 |
+| engrampa.dwfs.appbundle | A file archiver for MATE | https://github.com/mate-desktop/engrampa | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/engrampa.dwfs.appbundle | 1.28.1 |
 | enola | Hunt down social media accounts by username across social networks | https://github.com/TheYahya/enola | https://bin.pkgforge.dev/aarch64/enola | da5bcfc2602d |
 | entr | Run arbitrary commands when files change | https://github.com/eradman/entr | https://bin.pkgforge.dev/aarch64/entr | 3492ef866087 |
 | enumerepo | List all public repositories for (valid) GitHub usernames | https://github.com/trickest/enumerepo | https://bin.pkgforge.dev/aarch64/enumerepo | 98ed3c4ea27e |
@@ -596,6 +602,7 @@
 | fadvise | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fadvise | 0de57ace1f98 |
 | fakeidentd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fakeidentd | 35b4b50cd2cd |
 | falconhound | FalconHound is a blue team multi-tool | https://github.com/FalconForceTeam/FalconHound | https://bin.pkgforge.dev/aarch64/falconhound | 6408d9c9b1a6 |
+| falkon.dwfs.appbundle | A KDE web browser with the QtWebEngine Rendering Engine | https://invent.kde.org/network/falkon | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.appbundle | 24.08.2 |
 | fallocate | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fallocate | 11798f8736a1 |
 | fallocate | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fallocate | ed1e8aca5bc4 |
 | false | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/false | b8ce2ab6199b |
@@ -654,6 +661,7 @@
 | fio-genzipf | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/fio-genzipf | 5474feb2208e |
 | fio-verify-state | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/fio-verify-state | 1588aa08e6f8 |
 | firecfg | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/firecfg | ce36f0858099 |
+| firefox.dwfs.appbundle | A web browser built from Firefox source tree | https://hg.mozilla.org/mozilla-central | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/firefox.dwfs.appbundle | 132.0.1 |
 | firejail | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/firejail | fd840833ae98 |
 | firemon | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/firemon | a2c8ff981c81 |
 | flash_erase | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/flash_erase | 58192c1c1333 |
@@ -1165,6 +1173,7 @@
 | ifplugd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifplugd | cc50e23fa272 |
 | ifstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/ifstat | 1708659e72c6 |
 | ifup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifup | e70e9dbe8c80 |
+| imagemagick.dwfs.appbundle | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.appbundle | 7.1.1.39 |
 | imagemagick.no_strip | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://bin.pkgforge.dev/aarch64/imagemagick.no_strip | 00e61be4a548 |
 | imdl | A CLI utility for BitTorrent torrent file creation, verification, and more | https://github.com/casey/intermodal | https://bin.pkgforge.dev/aarch64/imdl | 0af1d6bc4cf6 |
 | imgcat | Display images and gifs in your terminal | https://github.com/danielgatis/imgcat | https://bin.pkgforge.dev/aarch64/imgcat | 2a45d455b71c |
@@ -1292,6 +1301,7 @@
 | lf | Terminal file manager | https://github.com/gokcehan/lf | https://bin.pkgforge.dev/aarch64/lf | e65b255d5640 |
 | lfsr-test | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/lfsr-test | cd878e56a36d |
 | libaws | A simpler way to declare aws infrastructure that is easy to use and extend | https://github.com/nathants/libaws | https://bin.pkgforge.dev/aarch64/libaws | d0abac493f04 |
+| librewolf-arch.flatimage | A custom version of Firefox, focused on privacy, security and freedom | https://codeberg.org/librewolf/source | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/librewolf-arch.flatimage | 132.0 |
 | libstdbuf.so | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/libstdbuf.so | null |
 | libtorsocks.a | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/libtorsocks.a | e2f5ae92e9c7 |
 | libtorsocks.so | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/libtorsocks.so | 75828a066088 |
@@ -1524,6 +1534,7 @@
 | mount.unionfs | Tools for union filesystem using fuse3 | https://github.com/rpodgorny/unionfs-fuse | https://bin.pkgforge.dev/aarch64/Baseutils/unionfs-fuse3/mount.unionfs | null |
 | mountpoint | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mountpoint | 75aa940112d2 |
 | mountpoint | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mountpoint | fae28c792fa4 |
+| mousepad.dwfs.appbundle | An easy-to-use, Fast & Simple Editor | https://gitlab.xfce.org/apps/mousepad | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.appbundle | 0.6.3 |
 | mpstat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mpstat | d56a8b43a2e7 |
 | mpstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/mpstat | a94e7546ce7d |
 | mqttui | Subscribe to a MQTT Topic or publish something quickly from the terminal | https://github.com/EdJoPaTo/mqttui | https://bin.pkgforge.dev/aarch64/mqttui | a3f6485e341a |
@@ -1701,6 +1712,7 @@
 | pathchk | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pathchk | b1bd3de4f0e1 |
 | pathchk | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pathchk | 8a90a5acac60 |
 | pathchk | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pathchk | 1b4bbaf5fcb8 |
+| pcmanfm.dwfs.appbundle | Extremely fast and lightweight file manager | https://github.com/lxde/pcmanfm | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.appbundle | 1.3.2 |
 | pdfcpu | A PDF processor written in Go. | https://github.com/pdfcpu/pdfcpu | https://bin.pkgforge.dev/aarch64/pdfcpu | cae49881df5f |
 | pdfrun | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/pdfrun | af6921374fea |
 | peekfd | A set of small useful utilities that use the proc filesystem | https://gitlab.com/psmisc/psmisc | https://bin.pkgforge.dev/aarch64/Baseutils/psmisc/peekfd | null |
@@ -1762,6 +1774,7 @@
 | ppath | Pretty Print your systems PATH environment variable. | https://github.com/marwanhawari/ppath | https://bin.pkgforge.dev/aarch64/ppath | e8f690d83a4f |
 | ppfuzz | A fast tool to scan client-side prototype pollution vulnerability | https://github.com/dwisiswant0/ppfuzz | https://bin.pkgforge.dev/aarch64/ppfuzz | f3ed90c2921c |
 | pping | tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping | https://github.com/wzv5/pping | https://bin.pkgforge.dev/aarch64/pping | 727b3e4d7ef9 |
+| ppsspp.dwfs.appbundle | A Fast and Portable PSP emulator | https://github.com/hrydgard/ppsspp | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.appbundle | 1.17.1 |
 | pr | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pr | 41c2a3b79fcb |
 | pr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pr | c57ced3e8af1 |
 | pr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pr | 2b5665e34c04 |
@@ -1946,6 +1959,7 @@
 | rfdformat | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rfdformat | 590b4f2494e5 |
 | rfkill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rfkill | 320e8abd2a47 |
 | ripgen | Rust-based high performance domain permutation generator | https://github.com/resyncgg/ripgen | https://bin.pkgforge.dev/aarch64/ripgen | 34d0507cf02e |
+| ristretto.dwfs.appbundle | An Image Viewer | https://gitlab.xfce.org/apps/ristretto | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.appbundle | 0.13.2 |
 | rli | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/rli | 084a31341d46 |
 | rli2 | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/rli2 | 7711f943305e |
 | rm | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rm | 1a71d114d10a |
@@ -2022,6 +2036,7 @@
 | rx | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rx | 9bc2929690c3 |
 | rye | A Hassle-Free Python Experience | https://github.com/astral-sh/rye | https://bin.pkgforge.dev/aarch64/rye | af524792af7b |
 | ryelang | Interpreter for RyeLang | https://github.com/astral-sh/ryelang | https://bin.pkgforge.dev/aarch64/ryelang | 3d7147a6129b |
+| ryujinx.appimage | A simple, experimental Nintendo Switch emulator | https://github.com/ryujinx-mirror/ryujinx | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ryujinx.appimage | r.49574a9 |
 | s3scanner | Scan for misconfigured S3 buckets across S3-compatible APIs | https://github.com/sa7mon/S3Scanner | https://bin.pkgforge.dev/aarch64/s3scanner | 348379ab3986 |
 | s3sync | Really fast sync tool for S3 | https://github.com/larrabee/s3sync | https://bin.pkgforge.dev/aarch64/s3sync | 06cafd495d30 |
 | s5cmd | Parallel S3 and local filesystem execution tool. | https://github.com/peak/s5cmd | https://bin.pkgforge.dev/aarch64/s5cmd | 7094cbc52d27 |
@@ -2830,6 +2845,7 @@
 | xet_staticx | 💥 Python CLI for XetHub | https://github.com/xetdata/pyxet | https://bin.pkgforge.dev/aarch64/xet_staticx | 35ff9c5df4d0 |
 | xetcmd | 💥 Git for Data (large files and repositories) | https://github.com/xetdata/xet-core | https://bin.pkgforge.dev/aarch64/xetcmd | 762e7c085625 |
 | xetmnt | 💥 Git for Data (large files and repositories) | https://github.com/xetdata/xet-core | https://bin.pkgforge.dev/aarch64/xetmnt | 4a52766305fe |
+| xfce4-terminal.dwfs.appbundle | A lightweight and easy to use Terminal Emulator | https://gitlab.xfce.org/apps/xfce4-terminal | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/xfce4-terminal.dwfs.appbundle | 1.1.3 |
 | xgettext | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/xgettext | 32f0d2f3988b |
 | xh | Friendly and fast tool for sending HTTP requests | https://github.com/ducaale/xh | https://bin.pkgforge.dev/aarch64/xh | bc2db4798058 |
 | xhost | Tool to manage the list of host names or user names allowed to make connections to the X server. | https://gitlab.freedesktop.org/xorg/app/xhost | https://bin.pkgforge.dev/aarch64/xhost | a722e4987629 |

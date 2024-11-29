@@ -2383,7 +2383,7 @@
       "summary": "A tool to create a live USB drive with an edition of Fedora",
       "description": "A tool to create a bootable live USB drive with an edition of Fedora. Not only can Fedora Media Writer write an image to your flash drive, it can also download it for you. It offers official editions (Server, Workstation), Fedora spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and Fedora Labs (Design Suite, Security Lab,...). It provides basic information about each of them to help you make the right choice.\n      Fedora Media Writer can also write other bootable ISOs loaded from your local disk, but keep in mind that it's only tested with Fedora images.\n    ",
       "id": "org_fedoraproject_MediaWriter",
-      "updated_at": 1732558839,
+      "updated_at": 1732887263,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2547,7 +2547,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.fedoraproject.MediaWriter",
-      "icon": "https://dl.flathub.org/media/org/fedoraproject/MediaWriter.desktop/e324180ac8fb50b62f2b871b88f3f834/icons/128x128/org.fedoraproject.MediaWriter.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/fedoraproject/MediaWriter.desktop/aebe9b32fc249ea1ab641fc9fe287ca6/icons/128x128/org.fedoraproject.MediaWriter.desktop.png",
       "categories": [
         "System"
       ],
@@ -9428,7 +9428,7 @@
       "summary": "Secure remote desktop access",
       "description": "\n        RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.\n    \n      \n         Works on Windows, macOS, Linux, iOS, Android, Web. \n         Supports VP8 / VP9 / AV1 software codecs, and H264 / H265 hardware codecs. \n         Own your data, easily set up self-hosting solution on your infrastructure. \n         P2P connection with end-to-end encryption based on NaCl. \n         No administrative privileges or installation needed for Windows, elevate priviledge locally or from remote on demand. \n         We like to keep things simple and will strive to make simpler where possible. \n      \n      \n        For self-hosting setup instructions please go to our home page.\n    \n    ",
       "id": "com_rustdesk_RustDesk",
-      "updated_at": 1730226323,
+      "updated_at": 1732887718,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9438,7 +9438,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "com.rustdesk.RustDesk",
-      "icon": "https://dl.flathub.org/media/com/rustdesk/RustDesk/7dd12ab6be45958acf33ed0d7f0fb4ee/icons/128x128/com.rustdesk.RustDesk.png",
+      "icon": "https://dl.flathub.org/media/com/rustdesk/RustDesk/9371ae24248614ab15c3e41d3502e65e/icons/128x128/com.rustdesk.RustDesk.png",
       "categories": [
         "Utility"
       ],

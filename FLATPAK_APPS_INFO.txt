@@ -6502,9 +6502,13 @@ NAME: Goat Attack
 APP_ID: net.goatattack.goatattack
 Descr: Multiplayer Pixel Art Shooter Game
 -----------------------------
-NAME: GtkAtlantic
+NAME: GPRO
 APP_ID: goatattack.desktop
-Descr: A game like Monopoly
+Descr: Manage your racing team
+-----------------------------
+NAME: GPRO
+APP_ID: net.gpro.gproapp
+Descr: Manage your racing team
 -----------------------------
 NAME: GtkAtlantic
 APP_ID: net.gradator.gtkatlantic
@@ -8696,7 +8700,7 @@ Descr: Install and run Windows software on Linux
 -----------------------------
 NAME: PhotoQt
 APP_ID: org.photoqt.PhotoQt
-Descr: View and manage images
+Descr: View and manage images, videos, and documents
 -----------------------------
 NAME: Helvum
 APP_ID: org.pipewire.Helvum
