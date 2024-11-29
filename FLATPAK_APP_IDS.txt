@@ -46,6 +46,7 @@ au.edu.uq.esys.escript
 br.app.pw3270.terminal
 br.com.eduk.school
 br.com.gualandi.Xjump
+br.com.wiselabs.simplexity
 br.eng.silas.qpdftools
 br.gov.cti.invesalius
 br.gov.fazenda.receita.irpf2022

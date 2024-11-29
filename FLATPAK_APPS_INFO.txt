@@ -170,6 +170,10 @@ NAME: Xjump
 APP_ID: br.com.gualandi.Xjump
 Descr: A jumping game for modern graphical systems
 -----------------------------
+NAME: Simplexity
+APP_ID: br.com.wiselabs.simplexity
+Descr: Simple desktop app for Perplexity.AI
+-----------------------------
 NAME: Qpdf Tools
 APP_ID: br.eng.silas.qpdftools
 Descr: Tool for managing PDFs
