@@ -12896,7 +12896,7 @@
       "summary": "Manage your files",
       "description": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.\n      Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.\n      Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.\n      Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.\n      Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.\n    ",
       "id": "org_kde_dolphin",
-      "updated_at": 1732572563,
+      "updated_at": 1732878563,
       "arches": [
         "aarch64",
         "x86_64"
@@ -15367,7 +15367,7 @@
       "summary": "Powerful, intelligent flash cards",
       "description": "Anki is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.\n      Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-agnostic and supports images, audio, videos and scientific markup (via LaTeX), the possibilities are endless.\n      Optional LaTeX support is provided by the TeX Live Flatpak extension org.freedesktop.Sdk.Extension.texlive.\n    ",
       "id": "net_ankiweb_Anki",
-      "updated_at": 1732808123,
+      "updated_at": 1732872727,
       "arches": [
         "aarch64",
         "x86_64"
@@ -22514,7 +22514,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

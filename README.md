@@ -9,7 +9,7 @@
 [doc-shield]: https://img.shields.io/badge/docs.pkgforge.dev-blue
 [doc-url]: https://docs.pkgforge.dev/orgs/pkgforge-core/projects/pkgcache
 
-<a href="https://github.com/pkgforge/pkgcache/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Packages-(16)+(72)-blue?labelColor=orange&style=flat&link=https://github.com/pkgforge/pkgcache/tree/main/.github/scripts" alt="Binaries" /></a>
+<a href="https://github.com/pkgforge/pkgcache/tree/main/.github/scripts"><img src="https://img.shields.io/badge/Packages-(0)+(0)-blue?labelColor=orange&style=flat&link=https://github.com/pkgforge/pkgcache/tree/main/.github/scripts" alt="Binaries" /></a>
 [![Documentation][doc-shield]][doc-url]
 [![Issues][issues-shield]][issues-url]
 [![License: MIT][license-shield]][license-url]
