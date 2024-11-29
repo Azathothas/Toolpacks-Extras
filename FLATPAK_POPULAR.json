@@ -440,7 +440,7 @@
       "summary": "VLC media player, the open-source multimedia player",
       "description": "\n            VLC is a free and open source cross-platform multimedia player and\n            framework that plays most multimedia files as well as DVDs, Audio CDs,\n            VCDs, and various streaming protocols.\n        \n    ",
       "id": "org_videolan_VLC",
-      "updated_at": 1730028705,
+      "updated_at": 1732868066,
       "arches": [
         "aarch64",
         "x86_64"
@@ -6256,9 +6256,9 @@
         "GPU"
       ],
       "summary": "Keep an eye on system resources",
-      "description": "\n      Resources allows you to check the utilization of your system resources and control your running processes and apps. It’s designed to be user-friendly and feel right at home on a modern desktop by using GNOME’s libadwaita.\n    \n      \n      Resources supports monitoring the following components:\n    \n      \n        CPU\n        Memory\n        GPU\n        Network Interfaces\n        Storage Devices\n      \n    ",
+      "description": "\n      Resources allows you to check the utilization of your system resources and control your running processes and apps. It’s designed to be user-friendly and feel right at home on a modern desktop by using GNOME’s libadwaita.\n    \n      \n      Resources supports monitoring the following components:\n    \n      \n        CPU\n        Memory\n        GPU\n        Network Interfaces\n        Storage Devices\n        Batteries\n      \n    ",
       "id": "net_nokyan_Resources",
-      "updated_at": 1727722958,
+      "updated_at": 1732876574,
       "arches": [
         "aarch64",
         "x86_64"
@@ -6266,22 +6266,27 @@
       "type": "desktop-application",
       "translations": {
         "cs": {
-          "description": "Aplikace Zdroje umožňuje sledovat využití vašich systémových zdrojů a ovládat běžící procesy a aplikace. Je navržena tak, aby byla uživatelsky přívětivá a zapadala do prostředí moderního desktopu, s využitím libadwaita od GNOME.\n      Aplikace Zdroje podporuje sledování následujících komponent:\n      \n        CPU\n        Paměť\n        GPU\n        Síťová Rozhraní\n        Zařízení Úložiště\n      \n    ",
+          "description": "Aplikace Zdroje umožňuje sledovat využití vašich systémových zdrojů a ovládat běžící procesy a aplikace. Je navržena tak, aby byla uživatelsky přívětivá a zapadala do prostředí moderního desktopu, s využitím libadwaita od GNOME.\n      Aplikace Zdroje podporuje sledování následujících komponent:\n      \n        CPU\n        Paměť\n        GPU\n        Síťová Rozhraní\n        Úložiště\n        Baterie\n      \n    ",
           "name": "Zdroje",
           "summary": "Udržujte kontrolu nad systémovými zdroji"
         },
         "de": {
-          "description": "Ressourcen ermöglicht es Ihnen, die Auslastung Ihrer Systemressourcen zu überwachen und Ihre laufenden Prozesse und Anwendungen zu kontrollieren. Dank GNOMEs libadwaita ist Ressourcen einfach verständlich und passt somit perfekt in einen modernen Desktop.\n      Ressourcen unterstützt das Überwachen folgender Komponenten:\n      \n        CPU\n        Arbeitsspeicher\n        GPU\n        Netzwerkschnittstellen\n        Datenträger\n      \n    ",
+          "description": "Ressourcen ermöglicht es Ihnen, die Auslastung Ihrer Systemressourcen zu überwachen und Ihre laufenden Prozesse und Anwendungen zu kontrollieren. Dank GNOMEs libadwaita ist Ressourcen einfach verständlich und passt somit perfekt in einen modernen Desktop.\n      Ressourcen unterstützt das Überwachen folgender Komponenten:\n      \n        CPU\n        Arbeitsspeicher\n        GPU\n        Netzwerkschnittstellen\n        Datenträger\n        Akkus\n      \n    ",
           "name": "Ressourcen",
           "summary": "Systemressourcen im Auge behalten"
         },
+        "en-GB": {
+          "description": "Resources allows you to check the utilisation of your system resources and control your running processes and apps. It’s designed to be user-friendly and feel right at home on a modern desktop by using GNOME’s libadwaita.\n      Resources supports monitoring the following components:\n      \n        CPU\n        Memory\n        GPU\n        Network Interfaces\n        Storage Devices\n        Batteries\n      \n    ",
+          "name": "Resources",
+          "summary": "Keep an eye on system resources"
+        },
         "es": {
-          "description": "Resources te permite comprobar la utilización de los recursos de tu sistema y controlar los procesos y aplicaciones en ejecución. Está diseñado para ser fácil de usar y sentirse como en casa en un escritorio moderno utilizando libadwaita de GNOME.\n      Resources soporta el monitoreo de los siguientes componentes:\n      \n        CPU\n        Memoria\n        GPU\n        Interfaces de red\n        Dispositivos de almacenamiento\n      \n    ",
+          "description": "Resources te permite comprobar la utilización de los recursos de tu sistema y controlar los procesos y aplicaciones en ejecución. Está diseñado para ser fácil de usar y sentirse como en casa en un escritorio moderno utilizando libadwaita de GNOME.\n      Resources soporta el monitoreo de los siguientes componentes:\n      \n        CPU\n        Memoria\n        GPU\n        Interfaces de red\n        Dispositivos de almacenamiento\n        Baterías\n      \n    ",
           "name": "Resources",
           "summary": "Monitoree los recursos del sistema"
         },
         "fr": {
-          "description": "Resources vous permet de vérifier l'utilisation des ressources de votre système et de contrôler les processus et applications en cours d'exécution. Il est conçu pour être convivial grâce à l'utilisation de la bibliothèque GNOME libadwaita.\n      Resources prend en charge la surveillance des composants suivants :\n      \n        CPU\n        Mémoire\n        GPU\n        Interfaces réseau\n        Disques\n      \n    ",
+          "description": "Resources vous permet de vérifier l'utilisation des ressources de votre système et de contrôler les processus et applications en cours d'exécution. Il est conçu pour être convivial grâce à l'utilisation de la bibliothèque GNOME libadwaita.\n      Resources prend en charge la surveillance des composants suivants :\n      \n        CPU\n        Mémoire\n        GPU\n        Interfaces réseau\n        Disques\n        Batteries\n      \n    ",
           "name": "Ressources",
           "summary": "Surveiller les ressources du système"
         },
@@ -6299,32 +6304,38 @@
           "name": "Resources",
           "summary": "システムリソースを監視"
         },
+        "nb": {
+          "description": "Resources lar deg sjekke forbruket av systemresursene dine og håndtere kjørende prosesser og apper. Den er utviklet for å være brukervennlig og å høre hjemme på et moderne skrivebord ved å bruke GNOMEs libadwaita.\n      Resources kan overvåke de følgende komponenter:\n      \n        CPU\n        Minne\n        GPU\n        Nettverksgrensesnitt\n        Lagringsenheter\n        Batterier\n      \n    ",
+          "name": "Resources",
+          "summary": "Hold øye med systemresurser"
+        },
         "nl": {
           "description": "Systeembronnen heeft ondersteuning voor de volgende items:\n      \n        Cpu\n        Geheugen\n        Gpu\n        Netwerkinterfaces\n        Opslagapparaten\n      \n    ",
           "name": "Systeembronnen",
           "summary": "Monitor uw systeembronnen en -processen"
         },
         "pl": {
-          "description": "Zasoby pozwalają sprawdzać wykorzystanie zasobów systemowych i kontrolować uruchomione procesy i aplikacje. Został zaprojektowany tak, aby był przyjazny dla użytkownika i pasował do nowoczesnego pulpitu dzięki wykorzystaniu biblioteki libadwaita od GNOME.\n      Zasoby pozwalają monitorować:\n      \n        CPU\n        Pamięć\n        GPU\n        Interfejsy sieciowe\n        Urządzenia do przechowywania danych\n      \n    ",
+          "description": "Zasoby pozwalają sprawdzać wykorzystanie zasobów systemowych i kontrolować uruchomione procesy i aplikacje. Został zaprojektowany tak, aby był przyjazny dla użytkownika i pasował do nowoczesnego pulpitu dzięki wykorzystaniu biblioteki libadwaita od GNOME.\n      Zasoby pozwalają monitorować:\n      \n        CPU\n        Pamięć\n        GPU\n        Interfejsy sieciowe\n        Urządzenia do przechowywania danych\n        Baterie\n      \n    ",
           "name": "Zasoby",
           "summary": "Obserwuj zasoby systemu"
         },
         "pt-BR": {
-          "description": "Recursos permite que você verifique a utilização dos recursos do seu sistema e controle os processos e aplicativos em execução. É projetado para ter uma interface amigável e se encaixar em um desktop moderno, usando Libadwaita do GNOME.\n      Recursos suporta o monitoramento dos seguintes componentes:\n      \n        CPU\n        Memória\n        GPU\n        Interfaces de rede\n        Dispositivos de Armazenamento\n      \n    ",
+          "description": "Recursos permite que você verifique a utilização dos recursos do seu sistema e controle os processos e aplicativos em execução. É projetado para ter uma interface amigável e se encaixar em um desktop moderno, usando Libadwaita do GNOME.\n      Recursos suporta o monitoramento dos seguintes componentes:\n      \n        CPU\n        Memória\n        GPU\n        Interfaces de rede\n        Dispositivos de Armazenamento\n        Baterias\n      \n    ",
           "name": "Recursos",
           "summary": "Monitore os recursos do sistema"
         },
         "ru": {
-          "description": "\"Ресурсы\" позволяют вам проверять использование системных ресурсов и контролировать запущенные процессы и приложения. Оно разработано так, чтобы быть удобным для пользователя и чувствовать себя как дома на современном рабочем столе благодаря использованию библиотеки GNOME libadwaita.\n      \"Ресурсы\" поддерживают мониторинг следующих компонентов:\n      \n        ЦП\n        Память\n        Графика\n        Сетевые интерфейсы\n        Устройства хранения\n      \n    ",
+          "description": "Приложение позволяет вам проверять использование системных ресурсов и контролировать запущенные процессы и приложения. Оно разработано так, чтобы быть удобным для пользователя и чувствовать себя как дома на современном рабочем столе благодаря использованию библиотеки GNOME libadwaita.\n      Приложение поддерживает мониторинг следующих компонентов:\n      \n        ЦП\n        Память\n        Графика\n        Сетевые интерфейсы\n        Устройства хранения\n        Батареи\n      \n    ",
           "name": "Ресурсы",
           "summary": "Отслеживайте системные ресурсы"
         },
         "tr": {
-          "description": "Kaynaklar aşağıdaki bileşenlerin izlenmesini destekler:\n      \n        İşlemci\n        Bellek\n        Ekran Kartı\n        Ağ Arayüzleri\n        Depolama Aygıtları\n      \n    ",
-          "name": "Kaynaklar"
+          "description": "Kaynaklar, sistem kaynaklarınızın kullanımını kontrol etmenizi ve çalışan süreçleri ve uygulamaları denetlemenizi sağlar. Kullanıcı dostu olacak şekilde ve GNOME libadwaita kullanılarak, sizi evinizde hissedecek şekilde tasarlanmıştır.\n      Kaynaklar aşağıdaki bileşenlerin izlenmesini destekler:\n      \n        İşlemci\n        Bellek\n        Ekran Kartı\n        Ağ Arayüzleri\n        Depolama Aygıtları\n        Pil\n      \n    ",
+          "name": "Kaynaklar",
+          "summary": "Bir gözünüz hep sistem kaynaklarında olsun"
         },
         "uk": {
-          "description": "'Ресурси' дозволяє вам перевірити утилізацію ресурсів вашої системи і контролювати запущені процеси та додатки. Цей додаток створено бути зручним для користувача і гарно виглядати на сучасних робочих столах, дякуючи бібліотеці libadwaita від GNOME.\n      'Ресурси' підтримує моніторинг наступних компонентів:\n      \n        Процесору\n        Оперативна пам'ять\n        Відеокарта\n        Мережевих інтерфейсів\n        Накопичувачів даних\n      \n    ",
+          "description": "'Ресурси' дозволяє вам перевірити утилізацію ресурсів вашої системи і контролювати запущені процеси та додатки. Цей додаток створено бути зручним для користувача і гарно виглядати на сучасних робочих столах, дякуючи бібліотеці libadwaita від GNOME.\n      'Ресурси' підтримує моніторинг наступних компонентів:\n      \n        Процесору\n        Оперативна пам'ять\n        Відеокарта\n        Мережевих інтерфейсів\n        Накопичувачів даних\n        Акумулятори\n      \n    ",
           "name": "Ресурси",
           "summary": "Слідкуйте за системними ресурсами"
         }
@@ -6332,7 +6343,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.nokyan.Resources",
-      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/93a62e53aed359e11e32f38a464bf89d/icons/128x128/net.nokyan.Resources.png",
+      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/c7fd297eca8855e746e658a2ebac0186/icons/128x128/net.nokyan.Resources.png",
       "categories": [
         "System"
       ],
@@ -14413,7 +14424,7 @@
       "summary": "Download videos and audios from hundreds of sites",
       "description": "ytDownloader (Formerly know as Youtube Downloader Plus) lets you download videos and audios of different qualities from hundreds of\n      sites including the popular ones but not limited to Youtube, Facebook, Instagram, Tiktok,\n      Twitter, Twitch and so on.\n      ✔️ Supports high quality video resolutions\n      ✔️ Supports audio extraction in multiple formats\n      ✔️ Supports playlist downloads\n      ✔️ Supports downloading particular ranges\n      ✔️ Supports downloading subtitles\n      ✔️ Supports multiple themes\n      ✔️ Completely free and open source\n      ✔️ Fast download speeds\n    ",
       "id": "io_github_aandrew_me_ytdn",
-      "updated_at": 1730796687,
+      "updated_at": 1732869104,
       "arches": [
         "aarch64",
         "x86_64"
@@ -14423,7 +14434,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "io.github.aandrew_me.ytdn",
-      "icon": "https://dl.flathub.org/media/io/github/aandrew_me.ytdn/7084c0b95cb8942b7c4ebc37a425ba22/icons/128x128/io.github.aandrew_me.ytdn.png",
+      "icon": "https://dl.flathub.org/media/io/github/aandrew_me.ytdn/bd7f863260010d929c0b8f08a9fbb1ae/icons/128x128/io.github.aandrew_me.ytdn.png",
       "categories": [
         "Utility"
       ],
