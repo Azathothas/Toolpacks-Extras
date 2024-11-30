@@ -2577,7 +2577,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1731963071,
+      "updated_at": 1732931797,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2692,6 +2692,11 @@
           "name": "Video Downloader",
           "summary": "Descarregue vídeos da web"
         },
+        "pt-BR": {
+          "description": "Baixe vídeos de sites com uma intertace fácil de usar. Contém as seguintes questões:\n      \n        Converta vídeos para MP3\n        Suporta vídeos protegidos por senha e vídeos privados\n        Baixe vídeos únicos ou playlists inteiras\n        Seleciona automaticamente um formato de vídeo baseado em suas demandas de qualidade\n      \n      Baseado no yt-dlp.\n    ",
+          "name": "Video Downloader",
+          "summary": "Baixe vídeos da web"
+        },
         "ro": {
           "description": "Descărcați videoclipuri de pe site-uri web cu o interfață ușor de utilizat. Oferă următoarele caracteristici:\n      \n        Convertiți videoclipuri în MP3\n        Suportă videoclipuri private și protejare prin parolă\n        Descărcați videoclipuri individuale sau liste de redare întregi\n        Selectează automat un format video în funcție de cerințele tale de calitate\n      \n      Bazat pe yt-dlp.\n    ",
           "name": "Video Downloader",
@@ -2731,7 +2736,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.unrud.VideoDownloader",
-      "icon": "https://dl.flathub.org/media/com/github/unrud.VideoDownloader/de5fca1ad140a7aa3933dbaaf8b5d74d/icons/128x128/com.github.unrud.VideoDownloader.png",
+      "icon": "https://dl.flathub.org/media/com/github/unrud.VideoDownloader/19038e807f12fa6ac802f850cd254514/icons/128x128/com.github.unrud.VideoDownloader.png",
       "categories": [
         "Network"
       ],
@@ -22568,7 +22573,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
