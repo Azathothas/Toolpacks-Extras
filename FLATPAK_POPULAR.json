@@ -15089,7 +15089,7 @@
       "summary": "Powerful, intelligent flash cards",
       "description": "Anki is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn.\n      Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-agnostic and supports images, audio, videos and scientific markup (via LaTeX), the possibilities are endless.\n      Optional LaTeX support is provided by the TeX Live Flatpak extension org.freedesktop.Sdk.Extension.texlive.\n    ",
       "id": "net_ankiweb_Anki",
-      "updated_at": 1732935112,
+      "updated_at": 1732943450,
       "arches": [
         "aarch64",
         "x86_64"
@@ -15099,7 +15099,7 @@
       "project_license": "AGPL-3.0+",
       "is_free_license": true,
       "app_id": "net.ankiweb.Anki",
-      "icon": "https://dl.flathub.org/media/net/ankiweb/Anki/61e0116eda2cab71cd04aa22638c6e2b/icons/128x128/net.ankiweb.Anki.png",
+      "icon": "https://dl.flathub.org/media/net/ankiweb/Anki/7a5b3d570ead5d0ba1a1452d8c8df443/icons/128x128/net.ankiweb.Anki.png",
       "categories": [
         "Education",
         "Languages"
@@ -22573,7 +22573,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
