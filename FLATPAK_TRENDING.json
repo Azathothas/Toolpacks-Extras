@@ -8613,7 +8613,7 @@
       "summary": "Play your music elegantly",
       "description": "Gapless (AKA: G4Music) is a light weight music player written in GTK4, focuses on large music collection.\n      Features\n      \n        Supports most music file types, Samba and any other remote protocols (depends on GIO and GStreamer).\n        Fast loading and parsing thousands of music files in very few seconds, monitor local changes.\n        Low memory usage for large music collection with album covers (embedded and external), no thumbnail caches to store.\n        Group and sorts by album/artist/title, shuffle list, full-text searching.\n        Fluent adaptive user interface for different screen (Desktop, Tablet, Mobile).\n        Gaussian blurred cover as background, follows GNOME light/dark mode.\n        Supports creating and editing playlists, drag cover to change order or add to another playlist.\n        Supports drag and drop with other apps.\n        Supports audio peaks visualizer.\n        Supports gapless playback.\n        Supports normalizing volume with ReplayGain.\n        Supports specified audio sink.\n        Supports MPRIS control.\n      \n    ",
       "id": "com_github_neithern_g4music",
-      "updated_at": 1731220112,
+      "updated_at": 1732975785,
       "arches": [
         "aarch64",
         "x86_64"
@@ -8656,7 +8656,7 @@
           "summary": "Speel uw muziek op elegante wijze af"
         },
         "oc": {
-          "description": "Gapless (tanben conegut coma G4Music) es un lector de musica leugièr escrich en GTK4, se concentra sus las grandas colleccions musicalas.\n      Foncionalitats\n      \n        Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin autre protocòl a distància que siá (depend de GIO e GStreamer).\n        Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas segondas, susvelhança dels cambiaments locals.\n        Utilizacion de memòria bassa per una granda colleccion de musica amb de coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas d’emmagazinar.\n        Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte complèt.\n        Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, tauleta, mobil).\n        Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur GNOME.\n        Permet d’afichar lo nivèl àudio de poncha.\n        Pren en carga la lectura sens interrupcion.\n        Compatible amb la normalizacion del volum amb ReplayGain.\n        Pren en carga un receptors àudio especificat.\n        Compatible amb los contraròtles MPRIS.\n      \n    ",
+          "description": "Gapless (tanben conegut coma G4Music) es un lector de musica leugièr escrich en GTK4, se concentra sus las grandas colleccions musicalas.\n      Foncionalitats\n      \n        Pren en carga la màger part dels tipes de fichièrs musicals, Samba e quin autre protocòl a distància que siá (depend de GIO e GStreamer).\n        Cargament rapid e analisi de milièrs de fichièrs musicals en fòrça paucas segondas, susvelhança dels cambiaments locals.\n        Utilizacion de memòria bassa per una granda colleccion de musica amb de coberturas d'albums (integradas e extèrnas), pas de caches de vinhetas d’emmagazinar.\n        Gropar e triar per album/artista/títol, lista de mescla, recèrca de tèxte complèt.\n        Interfàcia d'utilizaire adaptativa fluida per mantun ecran (burèu, tauleta, mobil).\n        Cobertura en fosc gaussian coma rèireplan, seguís lo mòde clar/escur GNOME.\n        Pren en carga la creacion e modificacion de listas de lectura, lisar depausar per cambiar l’òrdre o apondre a una autra lista de lectura.\n        Pren en carga del lisar depausar d’autras aplicacions.\n        Permet d’afichar lo nivèl àudio de poncha.\n        Pren en carga la lectura sens interrupcion.\n        Compatible amb la normalizacion del volum amb ReplayGain.\n        Pren en carga un receptors àudio especificat.\n        Compatible amb los contraròtles MPRIS.\n      \n    ",
           "name": "Gapless",
           "summary": "Legissètz vòstra music amb elegància"
         },
@@ -8670,8 +8670,13 @@
           "name": "Gapless",
           "summary": "Воспроизводите музыку элегантно"
         },
+        "sv": {
+          "description": "Gapless (även kallad G4Music) är en lättviktig musikspelare skriven i GTK4 som fokuserar på stora musiksamlingar.\n      Funktioner\n      \n        Stöder de flesta filtyper för musik, Samba och andra fjärrprotokoll (beror på GIO och GStreamer).\n        Snabb inläsning och tolkning av tusentals musikfiler på några få sekunder, övervaka lokala ändringar.\n        Låg minnesanvändning för stora musiksamlingar med albumomslag (inbäddade och externa), inga miniatyrbildscachar att lagra.\n        Gruppering och sortering efter album/artist/titel, slumplista, fulltextsökning.\n        Helt adaptivt användargränssnitt för olika skärmar (skrivbord, platta, mobil).\n        Gaussiskt oskärpt omslag som bakgrund, följer GNOMEs ljusa/mörka läge.\n        Stöder skapande och redigering av spellistor, dra omslag för att ändra ordning eller lägga till i en annan spellista.\n        Stöder dra-och-släpp med andra program.\n        Stöder visualisering av ljudtoppnivå.\n        Stöder mellanrumslös uppspelning.\n        Stöder normalisering av volym med ReplayGain.\n        Stöder specificerad ljudutgång.\n        Stöder MPRIS-kontroll.\n      \n    ",
+          "name": "Gapless",
+          "summary": "Spela din musik elegant"
+        },
         "tr": {
-          "description": "Gapless (Yani: G4Music), GTK4 ile yazılmış hafif bir müzik oynatıcıdır ve büyük müzik derlemelerine odaklanır.\n      Özellikler\n      \n        Çoğu müzik dosyası türününün yanında Samba ve diğer uzak iletişim kurallarını destekler (GIO ve GStreamerʼa bağlıdır).\n        Binlerce müzik dosyasını birkaç saniyede yükleme ve ayrıştırma, yerel değişiklikleri izleme.\n        Albüm kapakları (gömülü ve harici) içeren büyük müzik derlemeleri için düşük bellek kullanımı, küçük resim önbellekleri depolanmaz.\n        Albüme/sanatçıya/başlığa göre gruplama ve sıralama, liste karıştırma, tam metin arama.\n        Farklı ekranlar (Masaüstü, Tablet, Cep Telefonu) için akıcı uyarlanabilir kullanıcı arayüzü.\n        Arka plan için bulanıklaştırılmış kapak, GNOME açık/koyu kipini takip.\n        Ses tepe seviyesi görselleyiciyi destekler.\n        Aralıksız çalmayı destekler.\n        ReplayGain ile sesi normalleştirmeyi destekler.\n        MPRIS denetimini destekler.\n      \n    ",
+          "description": "Gapless (Yani: G4Music), GTK4 ile yazılmış hafif bir müzik oynatıcıdır ve büyük müzik derlemelerine odaklanır.\n      Özellikler\n      \n        Çoğu müzik dosyası türününün yanında Samba ve diğer uzak iletişim kurallarını destekler (GIO ve GStreamerʼa bağlıdır).\n        Binlerce müzik dosyasını birkaç saniyede yükleme ve ayrıştırma, yerel değişiklikleri izleme.\n        Albüm kapakları (gömülü ve harici) içeren büyük müzik derlemeleri için düşük bellek kullanımı, küçük resim önbellekleri depolanmaz.\n        Albüme/sanatçıya/başlığa göre gruplama ve sıralama, liste karıştırma, tam metin arama.\n        Farklı ekranlar (Masaüstü, Tablet, Cep Telefonu) için akıcı uyarlanabilir kullanıcı arayüzü.\n        Arka plan için bulanıklaştırılmış kapak, GNOME açık/koyu kipini takip.\n        Oynatma listeleri oluşturmayı ve düzenlemeyi destekler. Sırayı değiştirmek ya da başka oynatma listesine eklemek için kapağı sürükleyin.\n        Diğer uygulamalarla sürükle ve bırak özelliğini destekler.\n        Ses tepe seviyesi görselleyiciyi destekler.\n        Aralıksız çalmayı destekler.\n        ReplayGain ile sesi normalleştirmeyi destekler.\n        Belirtilen ses alıcılarını destekler.\n        MPRIS denetimini destekler.\n      \n    ",
           "name": "Aralıksız",
           "summary": "Müziğinizi zarifçe çalın"
         },
@@ -8685,15 +8690,12 @@
         },
         "hu": {
           "name": "Gapless"
-        },
-        "sv": {
-          "name": "Gapless"
         }
       },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.neithern.g4music",
-      "icon": "https://dl.flathub.org/media/com/github/neithern.g4music/ccd5bada236f1776d61871eb288dd328/icons/128x128/com.github.neithern.g4music.png",
+      "icon": "https://dl.flathub.org/media/com/github/neithern.g4music/19585387e5776b0d6ef09a8af72c47d8/icons/128x128/com.github.neithern.g4music.png",
       "categories": [
         "Music",
         "Audio",
@@ -13094,7 +13096,7 @@
       "summary": "Process data with GnuPG",
       "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1732565950,
+      "updated_at": 1732988710,
       "arches": [
         "aarch64",
         "x86_64"
@@ -13148,7 +13150,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/5ed401728f70079a2cb0b7c4cd66ae56/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/0288d9419643a1cff7ebe6b196786bdf/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -22085,7 +22087,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
