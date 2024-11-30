@@ -8729,7 +8729,7 @@
       "summary": "(Tic Tac Toe)²",
       "description": "Play with your friends or against the algorithm. You can read the rules in the game.\n\t  \n    ",
       "id": "io_github_nokse22_ultimate-tic-tac-toe",
-      "updated_at": 1728216798,
+      "updated_at": 1732918287,
       "arches": [
         "aarch64",
         "x86_64"
@@ -8743,7 +8743,7 @@
         },
         "es": {
           "description": "Juega con tus amigos o contra el algoritmo. Puedes leer las reglas en el juego.\n    ",
-          "name": "Tic Tac Toe definitivo",
+          "name": "Ultimate Tic Tac Toe",
           "summary": "(Tic Tac Toe)²"
         },
         "hi": {
@@ -8770,7 +8770,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.nokse22.ultimate-tic-tac-toe",
-      "icon": "https://dl.flathub.org/media/io/github/nokse22.ultimate-tic-tac-toe/7605112cd0b97d93c4faa4e4065b3850/icons/128x128/io.github.nokse22.ultimate-tic-tac-toe.png",
+      "icon": "https://dl.flathub.org/media/io/github/nokse22.ultimate-tic-tac-toe/3f1fc3124650d59a0dc16ab491febbce/icons/128x128/io.github.nokse22.ultimate-tic-tac-toe.png",
       "categories": [
         "Game"
       ],
@@ -22085,7 +22085,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 43,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
