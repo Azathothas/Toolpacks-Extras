@@ -3702,6 +3702,10 @@ NAME: rpn
 APP_ID: fr.rubet.rpn
 Descr: Reverse Polish Notation CLI calculator
 -----------------------------
+NAME: Bodev
+APP_ID: fr.sgued.bodev
+Descr: The developper&apos;s toolbox
+-----------------------------
 NAME: Ten Forward
 APP_ID: fr.sgued.ten_forward
 Descr: Control a NAT-PMP gateway

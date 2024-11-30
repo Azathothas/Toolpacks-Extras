@@ -3978,7 +3978,7 @@
       "summary": "WhatsApp Messenger",
       "description": "What's:\n      Zapzap is a container for execution of the web web, that is, a kind of Webapp. Thus, all\n      features of WhatsApp Web are available in addition to several others which integrate ZapZap with the\n      system.\n      What sets this application apart is its support for multiple accounts, running in the background, a spellchecker\n      and customizations based on the theme of the system.\n      Data security:\n      No modifications or manipulations are made to the execution of WhatsApp Web. In\n      addition, all source code is available on GitHub and is publically auditable.\n      About:\n      ZapZap was initially developed for personal use. I decided to share it so that other people,\n      like me, could have a WhatsApp client more integrated into the system.\n    ",
       "id": "com_rtosta_zapzap",
-      "updated_at": 1729952245,
+      "updated_at": 1732976180,
       "arches": [
         "aarch64",
         "x86_64"
@@ -3988,7 +3988,7 @@
       "project_license": "GPL-3.0+",
       "is_free_license": true,
       "app_id": "com.rtosta.zapzap",
-      "icon": "https://dl.flathub.org/media/com/rtosta/zapzap/6fad13f59a52c2fda3fc5e7d4dfebd4d/icons/128x128/com.rtosta.zapzap.png",
+      "icon": "https://dl.flathub.org/media/com/rtosta/zapzap/b4bc492d16cc232c089e474bbb3ef20b/icons/128x128/com.rtosta.zapzap.png",
       "categories": [
         "Chat",
         "InstantMessaging",
@@ -22573,7 +22573,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
