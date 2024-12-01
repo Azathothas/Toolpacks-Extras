@@ -5899,16 +5899,8 @@ APP_ID: io.jor.bugdom
 Descr: Save Bugdom from Thorax&apos;s evil Fire Ants
 -----------------------------
 NAME: Bugdom 2
-APP_ID: io.jor.bugdom.desktop
-Descr: Track down the Bully Bee and get your knapsack back!
------------------------------
-NAME: Bugdom 2
 APP_ID: io.jor.bugdom2
 Descr: Track down the Bully Bee and get your knapsack back!
------------------------------
-NAME: Cro-Mag Rally
-APP_ID: io.jor.bugdom2.desktop
-Descr: The wildest racing game since man invented the wheel!
 -----------------------------
 NAME: Cro-Mag Rally
 APP_ID: io.jor.cromagrally
@@ -5917,10 +5909,6 @@ Descr: The wildest racing game since man invented the wheel!
 NAME: Mighty Mike
 APP_ID: io.jor.mightymike
 Descr: High-Powered Action Rescue in a Toy Store Gone Mad!
------------------------------
-NAME: Nanosaur
-APP_ID: io.jor.mightymike.desktop
-Descr: Send dinosaur eggs to the future before a meteor hits the Earth!
 -----------------------------
 NAME: Nanosaur
 APP_ID: io.jor.nanosaur
