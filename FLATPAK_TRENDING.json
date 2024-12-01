@@ -849,7 +849,7 @@
       "summary": "All-in-one office solution",
       "description": "\n      Calligra is an office and graphics suite. It contains applications for word processing, spreadsheets, presentation and vector graphics.\n    \n      \n      Words is an intuitive word processor and desktop publisher application.\n      With it, you can create informative and attractive documents with pleasure and ease.\n    \n      \n      Calligra Sheets is a fully-featured calculation and spreadsheet tool.\n      Use it to quickly create and calculate various business-related spreadsheets, such as income and expenditure, employee working hours, etc.\n    \n      \n      Calligra Stage is an easy to use yet still flexible presentation application.\n      You can easily create presentations containing a rich variety of elements, from graphics to text, from charts to images. Calligra Stage is extensible through a plugin system,\n      so it is easy to add new effects, new content elements or even new ways of managing your presentation. Because of the integration with Calligra, all the power and flexibility\n      of the Calligra content elements are available to Stage.\n    \n      \n      Karbon is a vector drawing application with a user interface that is easy to use, highly customizable and extensible.\n      That makes Karbon a great application for users starting to explore the world of vector graphics as well as for artists\n      wanting to create breathtaking vector art.\n    \n    ",
       "id": "org_kde_calligra",
-      "updated_at": 1729645825,
+      "updated_at": 1733017993,
       "arches": [
         "aarch64",
         "x86_64"
@@ -4776,7 +4776,7 @@
       "summary": "Write down your thoughts",
       "description": "Marknote lets you create rich text notes and easily organise them into notebooks. You can personalise your notebooks by choosing an icon and accent color for each one, making it easy to distinguish between them and keep your notes at your fingertips. Your notes are saved as Markdown files in your Documents folder, making it easy to use your notes outside of Marknote as well as inside the app.\n    ",
       "id": "org_kde_marknote",
-      "updated_at": 1731042581,
+      "updated_at": 1733015440,
       "arches": [
         "aarch64",
         "x86_64"
@@ -14897,7 +14897,7 @@
       "summary": "Keep up with your feeds",
       "description": "\n      Akregator is a news feed reader. It enables you to follow news sites, blogs and other RSS/Atom-enabled websites without the need to manually\n      check for updates using a web browser. Akregator is designed to be both easy to use and to be powerful enough to read hundreds of news sources conveniently.\n      It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading.\n    \n    ",
       "id": "org_kde_akregator",
-      "updated_at": 1732742650,
+      "updated_at": 1733019594,
       "arches": [
         "aarch64",
         "x86_64"
@@ -20732,7 +20732,7 @@
       "summary": "Play music and listen to online radio stations",
       "description": "The Elisa music player is developed by the KDE community and strives to be simple and pleasant to use.\n      With Elisa, you can browse your local music collection by genre, artist, album, or track, listen to online radio, create and manage playlists, display lyrics, and more.\n      Elisa supports your full KDE color scheme when used on the Plasma desktop, or else the standard light and dark modes.\n      Chill out with Party Mode, which puts your music's album art front and center.\n    ",
       "id": "org_kde_elisa",
-      "updated_at": 1731039392,
+      "updated_at": 1733016593,
       "arches": [
         "aarch64",
         "x86_64"
@@ -23500,7 +23500,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

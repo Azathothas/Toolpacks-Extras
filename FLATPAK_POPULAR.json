@@ -10305,7 +10305,7 @@
       "summary": "Show disk usage and delete unused files",
       "description": "\n      Filelight is an application to visualize the disk usage on your computer by showing folders using an easy-to-understand view of concentric rings. Filelight makes it simple to free up space!\n    \n      Features:\n      \n        Scan local, remote, or removable disks\n        View detailed information about files and folders\n        Delete files or folders that are taking up too much space\n        Integration into the Dolphin, Konqueror, and Krusader file managers\n        Configurable color schemes\n      \n    ",
       "id": "org_kde_filelight",
-      "updated_at": 1731032612,
+      "updated_at": 1733015331,
       "arches": [
         "aarch64",
         "x86_64"
@@ -10475,7 +10475,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.kde.filelight",
-      "icon": "https://dl.flathub.org/media/org/kde/filelight.desktop/f2b76b68d1d78291bdab263e927479a9/icons/128x128/org.kde.filelight.desktop.png",
+      "icon": "https://dl.flathub.org/media/org/kde/filelight.desktop/7890c04a06ec9c5b4064f591476bfa96/icons/128x128/org.kde.filelight.desktop.png",
       "categories": [
         "Utility"
       ],
@@ -22484,7 +22484,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 43,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
