@@ -4092,7 +4092,7 @@ Descr: Godot game engine version manager
 -----------------------------
 NAME: Scripted Journeys
 APP_ID: io.github.MrPiggy92.ScriptedJourneys
-Descr: A multi-map text adventure
+Descr: Play a multi-map text adventure
 -----------------------------
 NAME: Lightwave Explorer
 APP_ID: io.github.NickKarpowicz.LightwaveExplorer
