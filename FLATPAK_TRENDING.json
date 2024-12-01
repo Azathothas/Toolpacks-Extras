@@ -9972,7 +9972,7 @@
       "summary": "Admire your photos",
       "description": "A photo gallery for everyone who wants their photos to live locally on their devices.\n      Why enjoy your photo library with Fotema?\n      \n        View iOS Live Photos and Android motion photos (Samsung devices only).\n        View photos plotted on a map.\n        Automatically detects faces.\n        View your library by year or month.\n        Play videos.\n        Many supported image formats. Fotema supports the same image formats as Loupe (the GNOME image viewer).\n      \n    ",
       "id": "app_fotema_Fotema",
-      "updated_at": 1732435954,
+      "updated_at": 1733056094,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9982,7 +9982,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "app.fotema.Fotema",
-      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/69462a43ad7400a31571a2ff5d8f0d86/icons/128x128/app.fotema.Fotema.png",
+      "icon": "https://dl.flathub.org/media/app/fotema/Fotema/81791ec331526630638c03a68bde8ed1/icons/128x128/app.fotema.Fotema.png",
       "categories": [
         "Graphics",
         "Viewer",
@@ -23119,7 +23119,7 @@
       "summary": "Manage your Hamachi networks",
       "description": "Haguichi makes it a breeze to join, create and administer Hamachi networks.\n      Features:\n      \n        Searchable, sortable and collapsible network list\n        Sidebar for easy access to details and actions\n        Indicator support for quick access to primary actions\n        Desktop notifications to stay up to date of network events\n        Commands that can be completely customized\n        Backup and restore of your Hamachi configuration folder\n      \n      \n        Please note: Requires installation of Hamachi on the system in order to use.\n      \n    ",
       "id": "com_github_ztefn_haguichi",
-      "updated_at": 1722016025,
+      "updated_at": 1733060520,
       "arches": [
         "aarch64",
         "x86_64"
@@ -23127,81 +23127,63 @@
       "type": "desktop-application",
       "translations": {
         "bg": {
-          "description": "Характеристики:\n      \n        Търсим, подреждащ се и сгъваем списък с мрежи\n        Страничен панел за лесен достъп до детайли и действия\n      \n    ",
-          "name": "Haguichi"
+          "description": "Характеристики:\n      \n        Търсим, подреждащ се и сгъваем списък с мрежи\n        Страничен панел за лесен достъп до детайли и действия\n      \n    "
         },
         "es": {
           "description": "Haguichi facilita crear, administrar e incorporarse a redes de Hamachi.\n      Prestaciones:\n      \n        Organice, contraiga y filtre la lista de redes\n        Barra lateral para un fácil acceso a los detalles y las acciones\n        Admite un indicador para un acceso rápido a las acciones principales\n        Notificaciones de escritorio para mantenerse al tanto de los sucesos de la red\n        Órdenes totalmente personalizables\n        Copia de respaldo y restauración de la carpeta de configuración de Hamachi\n      \n      &lt;em&gt;Tenga en cuenta: Requiere una instalación de Hamachi en el sistema para poder usarlo.&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Gestione sus redes de Hamachi"
         },
         "fr": {
-          "description": "Fonctionnalités :\n      \n        liste de réseau consultable et triable ;\n        barre latérale pour un accès facile aux détails et aux actions ;\n      \n    ",
-          "name": "Haguichi"
+          "description": "Fonctionnalités :\n      \n        liste de réseau consultable et triable ;\n        barre latérale pour un accès facile aux détails et aux actions ;\n      \n    "
         },
         "id": {
-          "description": "Fitur:\n      \n        Senarai Jaringan yang dapat ditelusuri, diurutkan dan diciutkan\n        Bilah samping untuk memudahkan akses ke detail dan tindakan\n      \n    ",
-          "name": "Haguichi"
+          "description": "Fitur:\n      \n        Senarai Jaringan yang dapat ditelusuri, diurutkan dan diciutkan\n        Bilah samping untuk memudahkan akses ke detail dan tindakan\n        Perintah yang dapat dikustomisasi sepenuhnya\n        Cadangkan dan pulihkan folder konfigurasi Hamachi Anda\n      \n      &lt;em&gt;Harap diperhatikan: Membutuhkan pemasangan Hamachi pada sistem agar dapat digunakan.&lt;/em&gt;\n    ",
+          "summary": "Kelola jaringan Hamachi Anda"
         },
         "it": {
-          "description": "Funzionalità:\n      \n        Cerca, ordina e compatta la lista delle reti\n        Barra laterale per l'accesso a dettagli e azioni\n      \n    ",
-          "name": "Haguichi"
+          "description": "Funzionalità:\n      \n        Cerca, ordina e compatta la lista delle reti\n        Barra laterale per l'accesso a dettagli e azioni\n      \n    "
         },
         "ja": {
           "description": "Haguichi を使うことで、Hamachi ネットワークへの参加・作成・管理が簡単になります。\n      機能:\n      \n        検索・並べ替え・折りたたみ可能なネットワークリスト\n        詳細やアクションに簡単にアクセスできるサイドバー\n        主要なアクションに素早くアクセスできるインジケーター\n        最新のネットワークイベントを確認できるデスクトップ通知\n        完全にカスタマイズ可能なコマンド\n        Hamachi 設定フォルダーのバックアップと復元\n      \n      &lt;em&gt;ご注意ください: このアプリを使用するには、システムに Hamachi をインストールする必要があります。&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Hamachi ネットワークを管理します"
         },
         "lt": {
           "description": "Haguichi palengvina Hamachi tinklų kūrimą, administravimą bei prisijungimą prie jų.\n      Ypatybės:\n      \n        Randamas, rikiuojamas ir suskleidžiamas tinklų sąrašas\n        Šoninė juosta, skirta lengvai prieigai prie išsamesnės informacijos ir veiksmų\n        Indikatoriaus palaikymas, skirtas greitai prieigai prie pirminių veiksmų\n        Darbalaukio pranešimai, kad neatitrūktumėte nuo tinklo įvykių\n        Visiškai tinkinamos komandos\n        Hamachi konfigūracijos aplanko atsarginės kopijos darymas ir atkūrimas\n      \n      &lt;em&gt;Turėkite omenyje: Tam, kad galima būtų naudotis, yra reikalaujama, kad sistemoje būtų įdiegta Hamachi.&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Tvarkyti Hamachi tinklus"
         },
         "nl": {
           "description": "Haguichi maakt het een fluitje van een cent om aan Hamachi-netwerken deel te nemen, of zelf aan te maken en te beheren.\n      Eigenschappen:\n      \n        Doorzoekbare, sorteerbare en inklapbare netwerklijst\n        Zijbalk voor snelle toegang tot details and acties\n        Indicatorondersteuning voor snelle toegang tot primaire acties\n        Bureaubladnotificaties om op de hoogte te blijven van gebeurtenissen binnen het netwerk\n        Opdrachten die volledig aangepast kunnen worden\n        Backup en herstel van uw Hamachi-configuratiemap\n      \n      &lt;em&gt;Let op: Vereist installatie van Hamachi op het systeem om volledig te kunnen gebruiken.&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Beheer uw Hamachi-netwerken"
         },
         "pl": {
-          "description": "Funkcje:\n      \n        Lista sieci, którą można przeszukiwać, porządkować i zwijać\n        Panel boczny z łatwym dostępem do informacji i działań\n      \n      &lt;em&gt;Proszę zauważyć: do użycia wymagana jest instalacja programu Hamachi na komputerze.&lt;/em&gt;\n    ",
-          "name": "Haguichi"
+          "description": "Funkcje:\n      \n        Lista sieci, którą można przeszukiwać, porządkować i zwijać\n        Panel boczny z łatwym dostępem do informacji i działań\n      \n      &lt;em&gt;Proszę zauważyć: do użycia wymagana jest instalacja programu Hamachi na komputerze.&lt;/em&gt;\n    "
         },
         "pt": {
-          "description": "Funcionalidades:\n      \n        Lista de redes com pesquisa, ordenação e agrupamento\n        Barra lateral para um acesso fácil aos detalhes e ações\n      \n      &lt;em&gt;Nota: É necessária a instalação do Hamachi no sistema para ser usado.&lt;/em&gt;\n    ",
-          "name": "Haguichi"
+          "description": "Funcionalidades:\n      \n        Lista de redes com pesquisa, ordenação e agrupamento\n        Barra lateral para um acesso fácil aos detalhes e ações\n      \n      &lt;em&gt;Nota: É necessária a instalação do Hamachi no sistema para ser usado.&lt;/em&gt;\n    "
         },
         "pt-BR": {
           "description": "Haguichi facilita muito a participação, criação e administração de redes Hamachi.\n      Funcionalidades:\n      \n        Lista de redes com busca, ordenação e agrupamento\n        Barra lateral para acesso fácil aos detalhes e ações\n        Suporte para indicadores para acesso rápido às principais ações\n        Notificações na área de trabalho para se manter atualizado sobre os eventos da rede\n        Comandos que podem ser completamente personalizados\n        Backup e restauração da sua pasta de configuração do Hamachi\n      \n      &lt;em&gt;Observação: Requer a instalação do Hamachi no sistema para usar.&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Gerencie suas redes Hamachi"
         },
         "ru": {
-          "description": "Возможности:\n      \n        Список сетей с возможностью поиска, сортировки и складывания\n        Боковая панель для быстрого доступа к деталям и действиям\n      \n      &lt;em&gt;Важно: Для использования необходим установленный Hamachi&lt;/em&gt;\n    ",
-          "name": "Haguichi"
+          "description": "Haguichi позволяет легко присоединяться, создавать и администрировать сети Hamachi.\n      Возможности:\n      \n        Список сетей с возможностью поиска, сортировки и складывания\n        Боковая панель для быстрого доступа к деталям и действиям\n        Поддержка индикаторов для быстрого доступа к первичным действиям\n        Уведомления на рабочем столе, чтобы всегда быть в курсе событий в сети\n        Команды, которые можно полностью настроить под себя\n        Резервное копирование и восстановление папки конфигурации Hamachi\n      \n      &lt;em&gt;Важно: Для использования необходим установленный Hamachi&lt;/em&gt;\n    ",
+          "summary": "Управляйте сетями Hamachi"
         },
         "sv": {
-          "description": "Funktioner:\n      \n        Sökbar, sorterbar och utfällbar nätverkslista\n        Sidorad för enkel åtkomst till information och åtgärder\n      \n    ",
-          "name": "Haguichi"
+          "description": "Funktioner:\n      \n        Sökbar, sorterbar och utfällbar nätverkslista\n        Sidorad för enkel åtkomst till information och åtgärder\n      \n    "
         },
         "uk": {
           "description": "Haguichi допомагає з легкістю приєднуватись, створювати, та адмініструвати мережі Hamachi.\n      Можливості:\n      \n        Список мереж з можливістю пошуку, сортування, складання\n        Бічна панель для швидкого доступу до деталей та дій\n        Підтримка індикаторів для швидкого доступу до основних дій\n        Сповіщення на робочому столі, щоб бути в курсі подій у мережі\n        Команди які можна налаштовувати під себе\n        Резервне копіювання та відновлення каталогу з налаштуваннями Hamachi\n      \n      &lt;em&gt;Зверніть увагу: Для використання, Hamachi має бути встановленно&lt;/em&gt;\n    ",
-          "name": "Haguichi",
           "summary": "Керування мережами Hamachi"
         },
-        "cs": {
-          "name": "Haguichi"
-        },
-        "de": {
-          "name": "Haguichi"
-        },
-        "tr": {
-          "name": "Haguichi"
+        "fi": {
+          "summary": "Hallitse Hamachi-verkkojasi"
         }
       },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.github.ztefn.haguichi",
-      "icon": "https://dl.flathub.org/media/com/github/ztefn.haguichi/d4793f0a6b4d65d02f0af25dc31261df/icons/128x128/com.github.ztefn.haguichi.png",
+      "icon": "https://dl.flathub.org/media/com/github/ztefn.haguichi/6c5fc81616a9c6d4a6033d2524d1d8d6/icons/128x128/com.github.ztefn.haguichi.png",
       "categories": [
         "Network",
         "P2P"
@@ -23220,7 +23202,7 @@
       "verification_login_is_organization": "true",
       "verification_website": null,
       "verification_timestamp": "1676138146",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.583185865220338,
       "installs_last_month": 1523,
       "added_at": 1577116401
@@ -23500,7 +23482,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

@@ -3698,7 +3698,7 @@
       "summary": "Private messenger",
       "description": "\n      To use the Signal desktop app, Signal must first be installed on your phone.\n    \n      \n      Millions of people use Signal every day for free and instantaneous communication \n      anywhere in the world. Send and receive high-fidelity messages, participate in \n      HD voice/video calls, and explore a growing set of new features that help you \n      stay connected. Signal’s advanced privacy-preserving technology is always enabled, \n      so you can focus on sharing the moments that matter with the people who matter to you. \n    \n      \n      Signal is an independent 501c3 nonprofit. The complete source code for \n      the Signal clients and the Signal server is available on GitHub.\n    \n      \n      This flatpak is maintained by the Flathub community, and is not necessarily \n      endorsed or officially maintained by the upstream developers.\n    \n    ",
       "id": "org_signal_Signal",
-      "updated_at": 1732139098,
+      "updated_at": 1733072239,
       "arches": [
         "x86_64"
       ],
@@ -4796,7 +4796,7 @@
       "summary": "Software for running Windows games.",
       "description": "\n\t\t\tPortProton is a project designed to make it easy and convenient to run Windows games on Linux for both beginners and advanced users. The project strives to make running games (and other software) as easy as possible, but at the same time provides flexible settings for advanced users.\n\t\t\n    ",
       "id": "ru_linux_gaming_PortProton",
-      "updated_at": 1730469142,
+      "updated_at": 1733054396,
       "arches": [
         "x86_64"
       ],
@@ -9687,7 +9687,7 @@
       "summary": "Gathers information on CPU, motherboard and more",
       "description": "CPU-X is a Free software that gathers information on CPU, motherboard and more.\n\t\tCPU-X is similar to CPU-Z (Windows), but CPU-X is a Free and Open Source software designed for GNU/Linux; also, it works on *BSD.\n\t\tThis software is written in C++ and built with CMake tool.\n\t\tIt can be used in graphical mode by using GTK or in text-based mode by using NCurses. A dump mode is present from command line.\n    ",
       "id": "io_github_thetumultuousunicornofdarkness_cpu-x",
-      "updated_at": 1728305764,
+      "updated_at": 1733056976,
       "arches": [
         "aarch64",
         "x86_64"
@@ -9697,7 +9697,7 @@
       "project_license": "GPL-3.0+",
       "is_free_license": true,
       "app_id": "io.github.thetumultuousunicornofdarkness.cpu-x",
-      "icon": "https://dl.flathub.org/media/io/github/thetumultuousunicornofdarkness.cpu-x/910481e02c1c0553fd51fcb097c3f217/icons/128x128/io.github.thetumultuousunicornofdarkness.cpu-x.png",
+      "icon": "https://dl.flathub.org/media/io/github/thetumultuousunicornofdarkness.cpu-x/580207a828c0ccb408f8d14423d96831/icons/128x128/io.github.thetumultuousunicornofdarkness.cpu-x.png",
       "categories": [
         "System"
       ],
@@ -22484,7 +22484,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

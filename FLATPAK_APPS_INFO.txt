@@ -1682,6 +1682,10 @@ NAME: SyncThingy
 APP_ID: com.github.zocker_160.SyncThingy
 Descr: SyncThingy = Syncthing + simple tray indicator
 -----------------------------
+NAME: Haguichi
+APP_ID: com.github.ztefn.haguichi
+Descr: Manage your Hamachi networks
+-----------------------------
 NAME: MellowPlayer
 APP_ID: com.gitlab.ColinDuquesnoy.MellowPlayer
 Descr: Cloud music integration for your desktop
@@ -5915,24 +5919,12 @@ APP_ID: io.jor.nanosaur
 Descr: Send dinosaur eggs to the future before a meteor hits the Earth!
 -----------------------------
 NAME: Nanosaur 2: Hatchling
-APP_ID: io.jor.nanosaur.desktop
-Descr: Fly a pterodactyl who’s loaded with hi-tech weaponry
------------------------------
-NAME: Nanosaur 2: Hatchling
 APP_ID: io.jor.nanosaur2
 Descr: Fly a pterodactyl who’s loaded with hi-tech weaponry
 -----------------------------
 NAME: Otto Matic
-APP_ID: io.jor.nanosaur2.desktop
-Descr: Save the Earth from the clutches of the Giant Brain from Planet X
------------------------------
-NAME: Otto Matic
 APP_ID: io.jor.ottomatic
 Descr: Save the Earth from the clutches of the Giant Brain from Planet X
------------------------------
-NAME: S3Drive
-APP_ID: io.jor.ottomatic.desktop
-Descr: Convert S3, SFTP, WebDAV or Rclone back-end into your encrypted storage
 -----------------------------
 NAME: S3Drive
 APP_ID: io.kapsa.drive
