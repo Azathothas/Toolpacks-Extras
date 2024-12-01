@@ -690,6 +690,10 @@ NAME: oneko
 APP_ID: com.daidouji.oneko
 Descr: kitty that follows your mouse pointer toy on desktop
 -----------------------------
+NAME: WebCamControl
+APP_ID: com.daniel15.wcc
+Descr: Control webcam pan/tilt/zoom settings and more
+-----------------------------
 NAME: syncBackup
 APP_ID: com.darhon.syncbackup
 Descr: Backup and mirror your drives
