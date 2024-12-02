@@ -2736,7 +2736,7 @@ Descr: Download, upload or stream files from MEGA
 -----------------------------
 NAME: Folio
 APP_ID: com.toolstack.Folio
-Descr: A beautiful markdown note-taking app for GNOME
+Descr: Beautiful markdown note-taking app
 -----------------------------
 NAME: Waveform11
 APP_ID: com.tracktion.Waveform
