@@ -806,8 +806,7 @@
 | qemu-x86_64-static | machine & userspace emulator and virtualizer | https://github.com/qemu/qemu | https://bin.pkgforge.dev/x86_64/qemu-x86_64-static | 5064c01b394d |
 | qemu-xtensa-static | machine & userspace emulator and virtualizer | https://github.com/qemu/qemu | https://bin.pkgforge.dev/x86_64/qemu-xtensa-static | f2a6333ce992 |
 | qemu-xtensaeb-static | machine & userspace emulator and virtualizer | https://github.com/qemu/qemu | https://bin.pkgforge.dev/x86_64/qemu-xtensaeb-static | 92dabe31d1ff |
-| qsreplace | Accept URLs on stdin, replace all query string values with a user-supplied value | https://github.com/tomnomnom/qsreplace | https://bin.pkgforge.dev/x86_64/qsreplace | cae29666607d |
-| qsv | CSVs sliced, diced & analyzed. | https://github.com/jqnatividad/qsv | https://bin.pkgforge.dev/x86_64/qsv | e3a544f9c66a |
+| qsv | Blazing-fast Data-Wrangling toolkit | https://github.com/dathere/qsv | https://bin.pkgforge.dev/x86_64/qsv | 08d92e897d1a |
 | quickcert | Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol | https://github.com/c3l3si4n/quickcert | https://bin.pkgforge.dev/x86_64/quickcert | 0a42a3af94ce |
 | quotes-escaper | Escape Single | Double Quotes | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/x86_64/quotes-escaper | f308f3b4deec |
 | rage | A simple, secure and modern file encryption tool with small explicit keys, no config options, and UNIX-style composability. | https://github.com/str4d/rage | https://bin.pkgforge.dev/x86_64/rage | ba5f507e412c |
@@ -1115,6 +1114,7 @@
 | wlancap2wpasec | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/x86_64/wlancap2wpasec | cbcf0a7350d4 |
 | wormhole-rs | Rust implementation of Magic Wormhole, with new features and enhancements | https://github.com/magic-wormhole/magic-wormhole.rs | https://bin.pkgforge.dev/x86_64/wormhole-rs | 0b9e2788a524 |
 | wps-office.appimage | Office suite, formerly Kingsoft Office | https://github.com/ivan-hc/WPS-Office-appimage | https://pkgcache.pkgforge.dev/x86_64/wps-office.appimage | 11.1.0.11723 |
+| wrappe | Packer for creating self-contained single-binary applications from executables and directories | https://github.com/Systemcluster/wrappe | https://bin.pkgforge.dev/x86_64/wrappe | a78471573ec9 |
 | wstunnel | Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI | https://github.com/erebe/wstunnel | https://bin.pkgforge.dev/x86_64/wstunnel | dc9ef8e9a53f |
 | wtf | The personal information dashboard for your terminal | https://github.com/wtfutil/wtf | https://bin.pkgforge.dev/x86_64/wtf | 97fe52ef58a9 |
 | wth | What The Heck  The better personal information dashboard for your terminal | https://github.com/mrusme/wth | https://bin.pkgforge.dev/x86_64/wth | 9260f30a5aec |

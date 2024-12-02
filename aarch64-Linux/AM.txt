@@ -1878,7 +1878,7 @@
 | qemu-xtensa-static | machine & userspace emulator and virtualizer | https://github.com/qemu/qemu | https://bin.pkgforge.dev/aarch64/qemu-xtensa-static | e219598b46c8 |
 | qemu-xtensaeb-static | machine & userspace emulator and virtualizer | https://github.com/qemu/qemu | https://bin.pkgforge.dev/aarch64/qemu-xtensaeb-static | b855a4b15781 |
 | qsreplace | Accept URLs on stdin, replace all query string values with a user-supplied value | https://github.com/tomnomnom/qsreplace | https://bin.pkgforge.dev/aarch64/qsreplace | 3785d3d65477 |
-| qsv | CSVs sliced, diced & analyzed. | https://github.com/jqnatividad/qsv | https://bin.pkgforge.dev/aarch64/qsv | 4b79662083a2 |
+| qsv | Blazing-fast Data-Wrangling toolkit | https://github.com/dathere/qsv | https://bin.pkgforge.dev/aarch64/qsv | 56e6f44957df |
 | quickcert | Query crtsh via pgsl server --> postgres //guest@crt.sh 5432/certwatch?sslmode=disable&default_query_exec_mode=simple_protocol | https://github.com/c3l3si4n/quickcert | https://bin.pkgforge.dev/aarch64/quickcert | bbb8f6c1f877 |
 | quotes-escaper | Escape Single | Double Quotes | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/aarch64/quotes-escaper | cd637bfb4911 |
 | r2r | UNIX-like reverse engineering framework and command-line toolset | https://github.com/radareorg/radare2 | https://bin.pkgforge.dev/aarch64/Baseutils/radare2/r2r | 753ad3e2b646 |
@@ -2812,6 +2812,7 @@
 | wiretap | ransparent, VPN-like proxy server that tunnels traffic via WireGuard and requires no special privileges to run | https://github.com/sandialabs/wiretap | https://bin.pkgforge.dev/aarch64/wiretap | 4cc920406b35 |
 | wlancap2wpasec | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/wlancap2wpasec | 4760dbdd65a4 |
 | wormhole-rs | Rust implementation of Magic Wormhole, with new features and enhancements | https://github.com/magic-wormhole/magic-wormhole.rs | https://bin.pkgforge.dev/aarch64/wormhole-rs | 502abec3e710 |
+| wrappe | Packer for creating self-contained single-binary applications from executables and directories | https://github.com/Systemcluster/wrappe | https://bin.pkgforge.dev/aarch64/wrappe | 9ac9aab20ec2 |
 | write | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/write | 5519302e343a |
 | wstunnel | Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI | https://github.com/erebe/wstunnel | https://bin.pkgforge.dev/aarch64/wstunnel | 8e4201fe0a6c |
 | wtf | The personal information dashboard for your terminal | https://github.com/wtfutil/wtf | https://bin.pkgforge.dev/aarch64/wtf | e5f470883a6a |

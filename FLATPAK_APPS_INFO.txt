@@ -4784,7 +4784,7 @@ Descr: A powerful, scriptable, modular calculator aimed at scientific, engineeri
 -----------------------------
 NAME: Bella
 APP_ID: io.github.josephmawa.Bella
-Descr: Pick color from the screen in any format
+Descr: Pick a color from the screen
 -----------------------------
 NAME: Gods Deluxe
 APP_ID: io.github.jotd666.gods-deluxe

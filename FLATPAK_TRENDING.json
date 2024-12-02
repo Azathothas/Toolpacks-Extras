@@ -8490,9 +8490,9 @@
       "name": "Japachar",
       "keywords": null,
       "summary": "Learn Japanese characters",
-      "description": "\n      This application helps you to learn Japanese characters using a gradual learning algorithm which makes you test-like questions.\n    \n      \n      It keeps a inner score of how much you know a character to give priority to ask you again about it if needed and introduces new characters when you are ready.\n    \n      It works now without having to install any third party font.\n    ",
+      "description": "This application helps you to learn Japanese characters using a gradual learning algorithm which makes you test-like questions.\n      You are expected to fail while starting, look up the correct answer when you fail, it helps you to learn faster. You can use this app even if you do not know anything.\n      \n      It keeps a inner score of how much you know a character to give priority to ask you again about it if needed and introduces new characters when you are ready.\n    \n      BETA Kanji support available.\n      It works now without having to install any third party font.\n    ",
       "id": "me_sergiotarxz_JapaChar",
-      "updated_at": 1732727805,
+      "updated_at": 1733143377,
       "arches": [
         "x86_64",
         "aarch64"
@@ -8502,7 +8502,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "me.sergiotarxz.JapaChar",
-      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/072a91bf25dca720ff0ea5e019bccbee/icons/128x128/me.sergiotarxz.JapaChar.png",
+      "icon": "https://dl.flathub.org/media/me/sergiotarxz/JapaChar/90eba71c1346ed3af92e93e1d9682283/icons/128x128/me.sergiotarxz.JapaChar.png",
       "categories": [
         "Education",
         "Game"
@@ -23541,7 +23541,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
