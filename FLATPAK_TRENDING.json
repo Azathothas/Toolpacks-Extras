@@ -20,8 +20,8 @@
       "id": "net_nokyan_Resources",
       "updated_at": 1732876574,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -134,8 +134,8 @@
       "id": "org_gnome_design_Lorem",
       "updated_at": 1727100730,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -301,8 +301,8 @@
       "id": "org_kde_granatier",
       "updated_at": 1731058203,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -478,8 +478,8 @@
       "id": "com_github_cassidyjames_clairvoyant",
       "updated_at": 1727150476,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -604,8 +604,8 @@
       "id": "app_drey_Dialect",
       "updated_at": 1728265624,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -643,8 +643,8 @@
       "id": "de_swsnr_turnon",
       "updated_at": 1732874077,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -701,8 +701,8 @@
       "id": "io_gitlab_elescoute_password",
       "updated_at": 1731692378,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -768,8 +768,8 @@
       "id": "io_github_nokse22_trivia-quiz",
       "updated_at": 1726702042,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -869,8 +869,8 @@
       "id": "io_github_giantpinkrobots_varia",
       "updated_at": 1732885060,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -950,8 +950,8 @@
       "id": "org_gnome_design_IconLibrary",
       "updated_at": 1732608960,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1117,8 +1117,8 @@
       "id": "com_github_vikdevelop_timer",
       "updated_at": 1732779369,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -1165,8 +1165,8 @@
       "id": "io_github_nokse22_inspector",
       "updated_at": 1716644675,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1237,8 +1237,8 @@
       "id": "io_github_ronniedroid_concessio",
       "updated_at": 1732106857,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1308,8 +1308,8 @@
       "id": "de_schmidhuberj_DieBahn",
       "updated_at": 1728303323,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1468,8 +1468,8 @@
       "id": "org_freedesktop_Bustle",
       "updated_at": 1726869256,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1572,8 +1572,8 @@
       "id": "com_github_johnfactotum_Foliate",
       "updated_at": 1732767958,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1689,8 +1689,8 @@
       "id": "io_github_alainm23_planify",
       "updated_at": 1730784623,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -1743,8 +1743,8 @@
       "id": "nl_v0yd_Capsule",
       "updated_at": 1715927767,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -1790,8 +1790,8 @@
       "id": "com_belmoussaoui_Decoder",
       "updated_at": 1729290692,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -1960,8 +1960,8 @@
       "id": "com_github_ryonakano_konbucase",
       "updated_at": 1731142404,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2060,8 +2060,8 @@
       "id": "com_github_ztefn_haguichi",
       "updated_at": 1733060520,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2154,8 +2154,8 @@
       "id": "com_netxms_NetXMSClient",
       "updated_at": 1723240366,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -2199,8 +2199,8 @@
       "id": "org_gnome_dspy",
       "updated_at": 1727220070,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2438,8 +2438,8 @@
       "id": "io_github_jacalz_rymdport",
       "updated_at": 1713111006,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -2486,8 +2486,8 @@
       "id": "io_github_nate_xyz_Conjure",
       "updated_at": 1716548360,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2549,8 +2549,8 @@
       "id": "dev_geopjr_Tuba",
       "updated_at": 1725969088,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2740,8 +2740,8 @@
       "id": "org_gnome_gitlab_cheywood_Buffer",
       "updated_at": 1728976017,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2804,8 +2804,8 @@
       "id": "io_gitlab_news_flash_NewsFlash",
       "updated_at": 1727173775,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2903,8 +2903,8 @@
       "id": "io_frama_tractor_carburetor",
       "updated_at": 1732562158,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -2950,8 +2950,8 @@
       "id": "org_gnome_World_Secrets",
       "updated_at": 1731366405,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -3182,8 +3182,8 @@
       "id": "cz_krupkat_Xpano",
       "updated_at": 1728118758,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -3225,8 +3225,8 @@
       "id": "de_haeckerfelix_Fragments",
       "updated_at": 1726916699,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -3355,8 +3355,8 @@
       "id": "org_gnome_Builder",
       "updated_at": 1729295200,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -3551,8 +3551,8 @@
       "id": "com_github_geigi_cozy",
       "updated_at": 1732286511,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -3598,8 +3598,8 @@
       "id": "com_github_huluti_Curtail",
       "updated_at": 1728632782,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -3706,8 +3706,8 @@
       "id": "net_lugsole_bible_gui",
       "updated_at": 1718469212,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -3749,8 +3749,8 @@
       "id": "re_sonny_Tangram",
       "updated_at": 1716819636,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -3882,8 +3882,8 @@
       "id": "de_schmidhuberj_tubefeeder",
       "updated_at": 1730816925,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4021,8 +4021,8 @@
       "id": "org_gnome_design_Contrast",
       "updated_at": 1727088615,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4204,8 +4204,8 @@
       "id": "app_drey_EarTag",
       "updated_at": 1731143502,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4366,8 +4366,8 @@
       "id": "io_gitlab_azymohliad_WatchMate",
       "updated_at": 1731261610,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -4409,8 +4409,8 @@
       "id": "io_bassi_Amberol",
       "updated_at": 1729877494,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4615,8 +4615,8 @@
       "id": "de_wagnermartin_Plattenalbum",
       "updated_at": 1728732411,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4694,8 +4694,8 @@
       "id": "net_natesales_Aviator",
       "updated_at": 1730269761,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4754,8 +4754,8 @@
       "id": "space_rirusha_Cassette",
       "updated_at": 1727724547,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4826,8 +4826,8 @@
       "id": "com_dz4k_FruitCredits",
       "updated_at": 1730772573,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "project_license": "GPL-3.0-or-later",
@@ -4871,8 +4871,8 @@
       "id": "com_ranfdev_Geopard",
       "updated_at": 1721069876,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -4929,8 +4929,8 @@
       "id": "me_iepure_devtoolbox",
       "updated_at": 1732718454,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5019,8 +5019,8 @@
       "id": "io_gitlab_leesonwai_Tactics",
       "updated_at": 1728681953,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -5067,8 +5067,8 @@
       "id": "org_gnome_Cheese",
       "updated_at": 1718207436,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5321,8 +5321,8 @@
       "id": "io_github_tfuxu_Halftone",
       "updated_at": 1726847039,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5390,8 +5390,8 @@
       "id": "org_gnome_gitlab_YaLTeR_VideoTrimmer",
       "updated_at": 1727863114,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5591,8 +5591,8 @@
       "id": "io_gitlab_adhami3310_Converter",
       "updated_at": 1713552616,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5664,8 +5664,8 @@
       "id": "org_sugarlabs_ReadETexts",
       "updated_at": 1718840269,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -5706,8 +5706,8 @@
       "id": "io_github_nokse22_asciidraw",
       "updated_at": 1727112378,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5782,8 +5782,8 @@
       "id": "org_gnome_Snapshot",
       "updated_at": 1732378508,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -5996,8 +5996,8 @@
       "id": "io_github_sigmasd_stimulator",
       "updated_at": 1727451689,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -6039,8 +6039,8 @@
       "id": "im_bernard_Memorado",
       "updated_at": 1728660745,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6099,8 +6099,8 @@
       "id": "co_logonoff_awakeonlan",
       "updated_at": 1730063686,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "project_license": "GPL-3.0-or-later",
@@ -6144,8 +6144,8 @@
       "id": "org_learningequality_Kolibri",
       "updated_at": 1732660359,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6189,8 +6189,8 @@
       "id": "io_github_seadve_Breathing",
       "updated_at": 1711267880,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6378,8 +6378,8 @@
       "id": "dev_geopjr_Collision",
       "updated_at": 1727747036,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6559,8 +6559,8 @@
       "id": "com_github_dariasteam_cowsrevenge",
       "updated_at": 1664575411,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6601,8 +6601,8 @@
       "id": "org_gnome_design_Typography",
       "updated_at": 1727976777,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6714,8 +6714,8 @@
       "id": "me_sergiotarxz_Exd",
       "updated_at": 1732075037,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -6759,8 +6759,8 @@
       "id": "org_kde_dolphin",
       "updated_at": 1732906106,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -6981,8 +6981,8 @@
       "id": "io_github_lawstorant_boxflat",
       "updated_at": 1732105080,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7025,8 +7025,8 @@
       "id": "com_felipekinoshita_Kana",
       "updated_at": 1730782912,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7075,8 +7075,8 @@
       "id": "com_github_cassidyjames_dippi",
       "updated_at": 1724194107,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7137,8 +7137,8 @@
       "id": "xyz_safeworlds_hiit",
       "updated_at": 1731293791,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7216,8 +7216,8 @@
       "id": "org_kde_audiotube",
       "updated_at": 1732999492,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7384,8 +7384,8 @@
       "id": "so_libdb_dissent",
       "updated_at": 1726742395,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7426,8 +7426,8 @@
       "id": "com_github_ADBeveridge_Raider",
       "updated_at": 1721876446,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7540,8 +7540,8 @@
       "id": "io_gitlab_adhami3310_Impression",
       "updated_at": 1726966579,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7630,8 +7630,8 @@
       "id": "de_hummdudel_Libellus",
       "updated_at": 1726909212,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7667,8 +7667,8 @@
       "id": "org_gnome_Extensions",
       "updated_at": 1732575623,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -7853,8 +7853,8 @@
       "id": "io_github_tfuxu_floodit",
       "updated_at": 1728227185,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7900,8 +7900,8 @@
       "id": "fr_sgued_ten_forward",
       "updated_at": 1729716836,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -7945,8 +7945,8 @@
       "id": "io_github_seadve_Kooha",
       "updated_at": 1711147852,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8168,8 +8168,8 @@
       "id": "nl_emphisia_icon",
       "updated_at": 1730194564,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8220,8 +8220,8 @@
       "id": "io_github_mike632t_x11-calc",
       "updated_at": 1722334279,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8264,8 +8264,8 @@
       "id": "com_github_neithern_g4music",
       "updated_at": 1732975785,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8389,8 +8389,8 @@
       "id": "garden_jamie_Morphosis",
       "updated_at": 1726680273,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8437,8 +8437,8 @@
       "id": "io_github_dlippok_photometric-viewer",
       "updated_at": 1732462073,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8494,8 +8494,8 @@
       "id": "me_sergiotarxz_JapaChar",
       "updated_at": 1732727805,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8535,8 +8535,8 @@
       "id": "xyz_tytanium_DoorKnocker",
       "updated_at": 1726832072,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8633,8 +8633,8 @@
       "id": "com_github_tchx84_Flatseal",
       "updated_at": 1727731481,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -8766,8 +8766,8 @@
       "id": "org_sugarlabs_FotoToon",
       "updated_at": 1717629332,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8803,8 +8803,8 @@
       "id": "org_sugarlabs_Sliderule",
       "updated_at": 1718840730,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8840,8 +8840,8 @@
       "id": "it_mijorus_whisper",
       "updated_at": 1716988327,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8915,8 +8915,8 @@
       "id": "org_photoqt_PhotoQt",
       "updated_at": 1732961322,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -8958,8 +8958,8 @@
       "id": "io_github_dagargo_Elektroid",
       "updated_at": 1728491823,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -9005,8 +9005,8 @@
       "id": "io_github_lainsce_DotMatrix",
       "updated_at": 1717723986,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9073,8 +9073,8 @@
       "id": "dev_serebit_Waycheck",
       "updated_at": 1728841876,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -9114,8 +9114,8 @@
       "id": "org_sugarlabs_Chart",
       "updated_at": 1717707088,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -9153,8 +9153,8 @@
       "id": "xyz_parlatype_Parlatype",
       "updated_at": 1717579979,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9302,8 +9302,8 @@
       "id": "com_rafaelmardojai_SharePreview",
       "updated_at": 1712203845,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9420,8 +9420,8 @@
       "id": "dev_tchx84_Gameeky",
       "updated_at": 1714575908,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9470,8 +9470,8 @@
       "id": "im_bernard_Funkcio",
       "updated_at": 1731541403,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9521,8 +9521,8 @@
       "id": "io_github_philippkosarev_bmi",
       "updated_at": 1731871613,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -9566,8 +9566,8 @@
       "id": "io_github_lainsce_Notejot",
       "updated_at": 1716547991,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9657,8 +9657,8 @@
       "id": "art_taunoerik_tauno-monitor",
       "updated_at": 1730912755,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9714,8 +9714,8 @@
       "id": "org_gnome_DejaDup",
       "updated_at": 1727652439,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -9920,8 +9920,8 @@
       "id": "net_krafting_HexColordle",
       "updated_at": 1731758589,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -9961,8 +9961,8 @@
       "id": "io_github_getnf_embellish",
       "updated_at": 1732105410,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -10004,8 +10004,8 @@
       "id": "com_github_childishgiant_mixer",
       "updated_at": 1723500625,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10059,8 +10059,8 @@
       "id": "com_lynnmichaelmartin_TimeTracker",
       "updated_at": 1730908709,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -10099,8 +10099,8 @@
       "id": "com_pojtinger_felicitas_Multiplex",
       "updated_at": 1723780252,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -10139,8 +10139,8 @@
       "id": "io_github_idevecore_Valuta",
       "updated_at": 1721163776,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10220,8 +10220,8 @@
       "id": "org_nickvision_tubeconverter",
       "updated_at": 1732036760,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -10328,8 +10328,8 @@
       "id": "io_gitlab_liferooter_TextPieces",
       "updated_at": 1722162736,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10441,8 +10441,8 @@
       "id": "com_github_finefindus_eyedropper",
       "updated_at": 1726681318,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10564,8 +10564,8 @@
       "id": "org_gnome_World_PikaBackup",
       "updated_at": 1727115573,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10737,8 +10737,8 @@
       "id": "org_gnome_Showtime",
       "updated_at": 1726668014,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10876,8 +10876,8 @@
       "id": "org_nickvision_money",
       "updated_at": 1706889560,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -10984,8 +10984,8 @@
       "id": "com_cassidyjames_plausible",
       "updated_at": 1716604806,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -11021,8 +11021,8 @@
       "id": "com_beavernotes_beavernotes",
       "updated_at": 1726929022,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -11072,8 +11072,8 @@
       "id": "net_mkiol_Jupii",
       "updated_at": 1729784001,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -11116,8 +11116,8 @@
       "id": "app_fotema_Fotema",
       "updated_at": 1733056094,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -11169,8 +11169,8 @@
       "id": "org_gnome_Fractal",
       "updated_at": 1730298214,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -11337,8 +11337,8 @@
       "id": "com_cassidyjames_butler",
       "updated_at": 1726766408,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -11377,8 +11377,8 @@
       "id": "com_github_hugolabe_Wike",
       "updated_at": 1723653590,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -11562,8 +11562,8 @@
       "id": "info_febvre_Komikku",
       "updated_at": 1732578422,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -11691,8 +11691,8 @@
       "id": "io_github_dubstar_04_design",
       "updated_at": 1717521725,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -11753,8 +11753,8 @@
       "id": "com_jeffser_Alpaca",
       "updated_at": 1732826697,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -11861,8 +11861,8 @@
       "id": "de_haeckerfelix_AudioSharing",
       "updated_at": 1712007172,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12014,8 +12014,8 @@
       "id": "me_sanchezrodriguez_passes",
       "updated_at": 1720304600,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12090,8 +12090,8 @@
       "id": "app_drey_Elastic",
       "updated_at": 1727199839,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12228,8 +12228,8 @@
       "id": "re_sonny_Retro",
       "updated_at": 1713166095,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -12272,8 +12272,8 @@
       "id": "io_github_nokse22_teleprompter",
       "updated_at": 1727623294,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12338,8 +12338,8 @@
       "id": "io_github_realmazharhussain_GdmSettings",
       "updated_at": 1732736645,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12513,8 +12513,8 @@
       "id": "edu_berkeley_BOINC",
       "updated_at": 1722952434,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -12565,8 +12565,8 @@
       "id": "dev_bragefuglseth_Keypunch",
       "updated_at": 1726663139,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12721,8 +12721,8 @@
       "id": "org_sugarlabs_StoryActivity",
       "updated_at": 1719882424,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -12844,8 +12844,8 @@
       "id": "com_mardojai_ForgeSparks",
       "updated_at": 1728309518,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -12927,8 +12927,8 @@
       "id": "net_kuribo64_melonDS",
       "updated_at": 1719852180,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -12972,8 +12972,8 @@
       "id": "org_gnome_Decibels",
       "updated_at": 1729548571,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13090,8 +13090,8 @@
       "id": "com_github_rafostar_Clapper",
       "updated_at": 1719865465,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -13135,8 +13135,8 @@
       "id": "org_gnome_SimpleScan",
       "updated_at": 1731109218,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13356,8 +13356,8 @@
       "id": "io_gitlab_theevilskeleton_Upscaler",
       "updated_at": 1732482896,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13448,8 +13448,8 @@
       "id": "com_konstantintutsch_Caffeine",
       "updated_at": 1729926832,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13506,8 +13506,8 @@
       "id": "org_turbowarp_TurboWarp",
       "updated_at": 1717357529,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -13543,8 +13543,8 @@
       "id": "org_beeref_BeeRef",
       "updated_at": 1727652096,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -13588,8 +13588,8 @@
       "id": "org_gnunet_Messenger",
       "updated_at": 1728583467,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -13639,8 +13639,8 @@
       "id": "io_github_amit9838_mousam",
       "updated_at": 1719754034,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13712,8 +13712,8 @@
       "id": "com_github_johnfactotum_QuickLookup",
       "updated_at": 1731214365,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -13752,8 +13752,8 @@
       "id": "app_drey_Blurble",
       "updated_at": 1717784999,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13857,8 +13857,8 @@
       "id": "io_github_diegoivan_pdf_metadata_editor",
       "updated_at": 1723494908,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -13954,8 +13954,8 @@
       "id": "net_kirgroup_confy",
       "updated_at": 1706481452,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14014,8 +14014,8 @@
       "id": "dev_geopjr_Calligraphy",
       "updated_at": 1727750267,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14092,8 +14092,8 @@
       "id": "org_gnome_Podcasts",
       "updated_at": 1730326171,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14275,8 +14275,8 @@
       "id": "org_gnome_Boxes",
       "updated_at": 1727086643,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14517,8 +14517,8 @@
       "id": "org_gnome_World_Iotas",
       "updated_at": 1731634748,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14610,8 +14610,8 @@
       "id": "dev_geopjr_Archives",
       "updated_at": 1727753826,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -14653,8 +14653,8 @@
       "id": "com_github_unrud_VideoDownloader",
       "updated_at": 1732931797,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14852,8 +14852,8 @@
       "id": "io_github_nokse22_Exhibit",
       "updated_at": 1727571010,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14931,8 +14931,8 @@
       "id": "io_github_vikdevelop_SaveDesktop",
       "updated_at": 1731862648,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -14977,8 +14977,8 @@
       "id": "net_codelogistics_webapps",
       "updated_at": 1732435117,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15073,8 +15073,8 @@
       "id": "io_github_bytezz_IPLookup",
       "updated_at": 1716501604,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15186,8 +15186,8 @@
       "id": "im_dino_Dino",
       "updated_at": 1719838029,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15344,8 +15344,8 @@
       "id": "com_rafaelmardojai_Blanket",
       "updated_at": 1712583195,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15556,8 +15556,8 @@
       "id": "ca_vlacroix_Tally",
       "updated_at": 1732803896,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -15636,8 +15636,8 @@
       "id": "com_github_tenderowl_frog",
       "updated_at": 1724785648,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15784,8 +15784,8 @@
       "id": "io_missioncenter_MissionCenter",
       "updated_at": 1730022563,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -15976,8 +15976,8 @@
       "id": "org_gnome_design_Emblem",
       "updated_at": 1727100912,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16143,8 +16143,8 @@
       "id": "io_github_nokse22_ultimate-tic-tac-toe",
       "updated_at": 1732918287,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16211,8 +16211,8 @@
       "id": "de_k_bo_Televido",
       "updated_at": 1719311874,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16274,8 +16274,8 @@
       "id": "org_libvips_vipsdisp",
       "updated_at": 1731671595,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -16325,8 +16325,8 @@
       "id": "io_github_mrvladus_List",
       "updated_at": 1728557576,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16482,8 +16482,8 @@
       "id": "io_gitlab_gregorni_Letterpress",
       "updated_at": 1714817091,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16595,8 +16595,8 @@
       "id": "org_kde_kcolorchooser",
       "updated_at": 1731035981,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16820,8 +16820,8 @@
       "id": "re_sonny_Workbench",
       "updated_at": 1714435384,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -16864,8 +16864,8 @@
       "id": "io_github_flattool_Warehouse",
       "updated_at": 1730092093,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -16956,8 +16956,8 @@
       "id": "org_gottcode_Peg-E",
       "updated_at": 1713191693,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17080,8 +17080,8 @@
       "id": "net_base_art_Glide",
       "updated_at": 1729253227,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -17120,8 +17120,8 @@
       "id": "io_gitlab_elescoute_spacelaunch",
       "updated_at": 1718095689,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17174,8 +17174,8 @@
       "id": "io_github_lo2dev_Echo",
       "updated_at": 1731089267,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17236,8 +17236,8 @@
       "id": "org_kde_tokodon",
       "updated_at": 1733017442,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17388,8 +17388,8 @@
       "id": "org_nickvision_tagger",
       "updated_at": 1717535742,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17480,8 +17480,8 @@
       "id": "io_github_nokse22_minitext",
       "updated_at": 1726701368,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17564,8 +17564,8 @@
       "id": "io_github_lainsce_Colorway",
       "updated_at": 1718430218,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17636,8 +17636,8 @@
       "id": "se_sjoerd_Graphs",
       "updated_at": 1731079086,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17763,8 +17763,8 @@
       "id": "com_github_joseexposito_touche",
       "updated_at": 1724421377,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -17800,8 +17800,8 @@
       "id": "com_github_alexhuntley_Plots",
       "updated_at": 1683077691,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -17905,8 +17905,8 @@
       "id": "org_gnome_World_Citations",
       "updated_at": 1731572895,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18086,8 +18086,8 @@
       "id": "tv_kodi_Kodi",
       "updated_at": 1731547752,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -18130,8 +18130,8 @@
       "id": "xyz_slothlife_Jogger",
       "updated_at": 1727126839,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18217,8 +18217,8 @@
       "id": "org_tabos_saldo",
       "updated_at": 1732826580,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18266,8 +18266,8 @@
       "id": "com_belmoussaoui_Authenticator",
       "updated_at": 1729326137,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18464,8 +18464,8 @@
       "id": "de_haeckerfelix_Shortwave",
       "updated_at": 1729268590,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18658,8 +18658,8 @@
       "id": "io_github_seadve_Mousai",
       "updated_at": 1727233150,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -18873,8 +18873,8 @@
       "id": "page_codeberg_Imaginer_Imaginer",
       "updated_at": 1717962965,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19197,8 +19197,8 @@
       "id": "io_github_roseblume_rosary",
       "updated_at": 1730239476,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -19239,8 +19239,8 @@
       "id": "io_github_adenlall_salatok-gtk",
       "updated_at": 1732918433,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19294,8 +19294,8 @@
       "id": "io_github_fsobolev_TimeSwitch",
       "updated_at": 1719825147,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19405,8 +19405,8 @@
       "id": "io_github_fkinoshita_Telegraph",
       "updated_at": 1730824476,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19493,8 +19493,8 @@
       "id": "com_ranfdev_Lobjur",
       "updated_at": 1714232886,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -19537,8 +19537,8 @@
       "id": "io_github_vmkspv_netsleuth",
       "updated_at": 1731438643,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19588,8 +19588,8 @@
       "id": "dev_ters_Chordcat",
       "updated_at": 1731420160,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -19671,8 +19671,8 @@
       "id": "hu_irl_cameractrls",
       "updated_at": 1725895285,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -19725,8 +19725,8 @@
       "id": "io_github_zefr0x_hashes",
       "updated_at": 1728225909,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19815,8 +19815,8 @@
       "id": "app_devsuite_Ptyxis",
       "updated_at": 1732661503,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -19949,8 +19949,8 @@
       "id": "io_github_kelvinnovais_Kasasa",
       "updated_at": 1732099120,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20012,8 +20012,8 @@
       "id": "io_github_sss_says_snek_diurnals",
       "updated_at": 1729148921,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -20055,8 +20055,8 @@
       "id": "app_drey_KeyRack",
       "updated_at": 1729338227,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -20096,8 +20096,8 @@
       "id": "org_gnome_eog",
       "updated_at": 1725289193,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20325,8 +20325,8 @@
       "id": "org_gnome_Mahjongg",
       "updated_at": 1726682859,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20553,8 +20553,8 @@
       "id": "page_kramo_Cartridges",
       "updated_at": 1728671319,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20733,8 +20733,8 @@
       "id": "com_github_huluti_Coulr",
       "updated_at": 1730883950,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20799,8 +20799,8 @@
       "id": "org_sugarlabs_Maze",
       "updated_at": 1717799204,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -20836,8 +20836,8 @@
       "id": "io_github_cleomenezesjr_aurea",
       "updated_at": 1726954504,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20879,8 +20879,8 @@
       "id": "org_kde_calligra",
       "updated_at": 1733017993,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -20972,8 +20972,8 @@
       "id": "de_schmidhuberj_Flare",
       "updated_at": 1732376769,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21111,8 +21111,8 @@
       "id": "io_github_mezoahmedii_Picker",
       "updated_at": 1729639160,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21170,8 +21170,8 @@
       "id": "com_prusa3d_PrusaSlicer",
       "updated_at": 1731522737,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -21217,8 +21217,8 @@
       "id": "eu_fortysixandtwo_chessclock",
       "updated_at": 1729316568,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21377,8 +21377,8 @@
       "id": "org_kde_lokalize",
       "updated_at": 1731509756,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21585,8 +21585,8 @@
       "id": "com_konstantintutsch_Lock",
       "updated_at": 1732988710,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21672,8 +21672,8 @@
       "id": "io_github_fizzyizzy05_binary",
       "updated_at": 1727362738,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21765,8 +21765,8 @@
       "id": "org_gnome_Crosswords_Editor",
       "updated_at": 1716443245,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -21831,8 +21831,8 @@
       "id": "io_github_diegoivan_GaticTacToe",
       "updated_at": 1716243709,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -21868,8 +21868,8 @@
       "id": "ml_mdwalters_Lemonade",
       "updated_at": 1698603469,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -22013,8 +22013,8 @@
       "id": "com_boxy_svg_BoxySVG",
       "updated_at": 1732990996,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22081,8 +22081,8 @@
       "id": "org_gnome_Loupe",
       "updated_at": 1732630531,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22306,8 +22306,8 @@
       "id": "org_gabmus_gfeeds",
       "updated_at": 1731169568,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22452,8 +22452,8 @@
       "id": "app_drey_Warp",
       "updated_at": 1729529255,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22670,8 +22670,8 @@
       "id": "io_github_diegoivanme_flowtime",
       "updated_at": 1711430686,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22755,8 +22755,8 @@
       "id": "io_github_lainsce_Countdown",
       "updated_at": 1717724011,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -22792,8 +22792,8 @@
       "id": "io_gitlab_guillermop_Counters",
       "updated_at": 1731957613,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22843,8 +22843,8 @@
       "id": "dev_bragefuglseth_Fretboard",
       "updated_at": 1726666540,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -22980,8 +22980,8 @@
       "id": "rs_ruffle_Ruffle",
       "updated_at": 1732990381,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -23088,8 +23088,8 @@
       "id": "net_codelogistics_clicker",
       "updated_at": 1722586562,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -23134,8 +23134,8 @@
       "id": "it_mijorus_smile",
       "updated_at": 1731875406,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {},
@@ -23182,8 +23182,8 @@
       "id": "org_gnome_Papers",
       "updated_at": 1726740260,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -23326,8 +23326,8 @@
       "id": "app_drey_MultiplicationPuzzle",
       "updated_at": 1726928738,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
@@ -23448,8 +23448,8 @@
       "id": "page_codeberg_libre_menu_editor_LibreMenuEditor",
       "updated_at": 1732719941,
       "arches": [
-        "aarch64",
-        "x86_64"
+        "x86_64",
+        "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
