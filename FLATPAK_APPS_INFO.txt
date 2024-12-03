@@ -784,7 +784,7 @@ Descr: An RPG like puzzle solving dungeon crawling game, and more!
 -----------------------------
 NAME: Fablemaker
 APP_ID: com.endlessnetwork.fablemaker
-Descr: Enter the world of Aesop&apos;s fables like never before! Interactive stories where you can customize characters, texts and sounds, hacking into its code in this absorbing and educational app.
+Descr: Hack Aesop’s fables
 -----------------------------
 NAME: Frog Squash
 APP_ID: com.endlessnetwork.frogsquash
@@ -1237,10 +1237,6 @@ Descr: Listen to audio books
 NAME: Writernote
 APP_ID: com.github.giacomogroppi.writernote-qt
 Descr: Writernote is a multiplatform application that allows you to take notes by recording audio, translate it later into text, and listen to it in an intelligent way.
------------------------------
-NAME: Image Optimizer
-APP_ID: com.github.gijsgoudzwaard.image-optimizer
-Descr: Simple lossless image compression
 -----------------------------
 NAME: Git Cola
 APP_ID: com.github.git_cola.git-cola
@@ -5334,6 +5330,10 @@ NAME: ReTux
 APP_ID: io.github.retux_game.retux
 Descr: Action platformer starring the Linux mascot, Tux
 -----------------------------
+NAME: Drum Machine
+APP_ID: io.github.revisto.drum-machine
+Descr: Create and play drum beats
+-----------------------------
 NAME: IntelPy
 APP_ID: io.github.riftr.intelpy
 Descr: IntelPy is a cross-platform chat log monitor and alert system for the game Eve Online
@@ -5378,9 +5378,13 @@ NAME: Search and Rescue II
 APP_ID: io.github.searchandrescue2.sar2
 Descr: Rescue Helicopter Simulator
 -----------------------------
-NAME: PsychEngine
+NAME: Vipster
 APP_ID: sar2.desktop
-Descr: Desktop implementation of Friday Night Funkin&apos;
+Descr: Visualization of various molecular structure files
+-----------------------------
+NAME: Vipster
+APP_ID: io.github.sgsaenger.vipster
+Descr: Visualization of various molecular structure files
 -----------------------------
 NAME: PsychEngine
 APP_ID: io.github.shadowmario.fnf-psychengine

@@ -108,7 +108,7 @@
 | basenc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/basenc | 3833e534f69b |
 | basenc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/basenc | 1a6cff5699fd |
 | basenc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/basenc | 4ec961bab0d4 |
-| bash | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/bash | 73ddaddf366f |
+| bash | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/bash | d53218711cc9 |
 | bat | cat with colors & syntax highlights | https://github.com/sharkdp/bat | https://bin.pkgforge.dev/aarch64/bat | 0744c9269bb7 |
 | batcat | cat with colors & syntax highlights | https://github.com/sharkdp/bat | https://bin.pkgforge.dev/aarch64/batcat | 0744c9269bb7 |
 | bb_arch | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/bb_arch | e4e7362799cd |
@@ -168,13 +168,13 @@
 | btrfs-image | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfs-image | 952aba7cf2e0 |
 | btrfs-map-logical | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfs-map-logical | 55b3e336c474 |
 | btrfs-select-super | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfs-select-super | 7d67620b51a3 |
-| btrfs-snap | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfs-snap | c888006931fe |
+| btrfs-snap | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfs-snap | c1f90de9b3b6 |
 | btrfsck | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfsck | 6dcc3199a0b5 |
 | btrfstune | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/btrfstune | 606baf67722f |
 | bubblewrap | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bubblewrap | 5e6d322e0ca3 |
 | bucketloot | Automated S3-compatible bucket inspector | https://github.com/redhuntlabs/BucketLoot | https://bin.pkgforge.dev/aarch64/bucketloot | 8417ffdaf9fb |
 | bunzip2 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/bunzip2 | 79976c5a0431 |
-| busybox | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/busybox | 6f92aea9c88c |
+| busybox | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/busybox | 51767a459252 |
 | bwrap | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bwrap | 5e6d322e0ca3 |
 | bwrap-patched | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bwrap-patched | ca6a75e9eac8 |
 | byp4xx | 40X/HTTP bypasser in Go. Features  Verb tampering, headers, | https://github.com/lobuhi/byp4xx | https://bin.pkgforge.dev/aarch64/byp4xx | 63bd5e8649da |
@@ -715,7 +715,7 @@
 | fscan | A comprehensive intranet scanning tool that facilitates one-click automated, all-round missed scanning. | https://github.com/shadow1ng/fscan | https://bin.pkgforge.dev/aarch64/fscan | 81a661078254 |
 | fsck | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck | 0e32df885e07 |
 | fsck | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck | a13a1dac928f |
-| fsck.btrfs | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/fsck.btrfs | cf901f37af86 |
+| fsck.btrfs | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/fsck.btrfs | 2743e96c5614 |
 | fsck.cramfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.cramfs | fa9b12e18ee6 |
 | fsck.exfat | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/fsck.exfat | c3bdde3453ad |
 | fsck.exfat | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/fsck.exfat | 4d33a150a25b |
@@ -723,7 +723,7 @@
 | fsck.ext3 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext3 | 6ed8dc521c03 |
 | fsck.ext4 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext4 | 6ed8dc521c03 |
 | fsck.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.minix | 347d6274ebed |
-| fsck_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck_minix | ca4d7cd66693 |
+| fsck_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck_minix | 879a99ac3c34 |
 | fsec-optimize | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-optimize | 8f1e016ace6e |
 | fsec-print | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-print | 407cb9ec6c32 |
 | fseccomp | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fseccomp | d5b891cb0b22 |
@@ -1170,7 +1170,7 @@
 | ifconfig | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/ifconfig | bc26721c15bb |
 | ifdown | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifdown | 06726d040db1 |
 | ifenslave | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifenslave | 80e510dd1f2f |
-| ifplugd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifplugd | cc50e23fa272 |
+| ifplugd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifplugd | 1326b29cc4cb |
 | ifstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/ifstat | 1708659e72c6 |
 | ifup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifup | e70e9dbe8c80 |
 | imagemagick.dwfs.appbundle | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.appbundle | 7.1.1.39 |
@@ -1278,7 +1278,7 @@
 | killall5 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/killall5 | 2b8080810dab |
 | killport | A command-line tool to easily kill processes running on a specified port. | https://github.com/jkfran/killport | https://bin.pkgforge.dev/aarch64/killport | f638dccb528b |
 | kitten | Cross-platform, fast, feature-rich, GPU based terminal | https://github.com/kovidgoyal/kitty | https://bin.pkgforge.dev/aarch64/kitten | 9f923156aca4 |
-| klogd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/klogd | 3c3eea7799f4 |
+| klogd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/klogd | f38dd4036cfb |
 | kmod | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/aarch64/Baseutils/kmod/kmod | ec109bd93b24 |
 | kmon | Linux Kernel Manager and Activity Monitor 🐧💻 | https://github.com/orhun/kmon | https://bin.pkgforge.dev/aarch64/kmon | 9b138ffaefc4 |
 | knoxssme | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/knoxssme | 478b5ad0134a |
@@ -2265,8 +2265,8 @@
 | setuidgid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setuidgid | 0b9010eb6ff4 |
 | sf | signature-based file format identification | https://github.com/richardlehane/siegfried | https://bin.pkgforge.dev/aarch64/sf | 8fa0586db8a5 |
 | sfdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sfdisk | f19fb59487f7 |
-| sh | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh | dfde850b4075 |
-| sh | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/sh | 73ddaddf366f |
+| sh | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh | 82a2f7298d21 |
+| sh | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/sh | d53218711cc9 |
 | sh_is_ash | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh_is_ash | 6a9afdaa0b68 |
 | sha1 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/sha1 | 674078f73911 |
 | sha1sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sha1sum | a6d2c7093e5e |
