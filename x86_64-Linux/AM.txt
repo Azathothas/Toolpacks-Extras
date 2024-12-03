@@ -565,7 +565,6 @@
 | logtimer | Enhance your output with a timer / date | https://github.com/Eun/logtimer | https://bin.pkgforge.dev/x86_64/logtimer | 138cb6b94a1d |
 | loki | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/x86_64/loki | eee334e1975b |
 | loki-canary | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/x86_64/loki-canary | 68a75cc735a3 |
-| loksh | Linux port of OpenBSDs ksh | https://github.com/dimkr/loksh | https://bin.pkgforge.dev/x86_64/loksh | ac3e974c9299 |
 | lsd | The next gen ls command | https://github.com/lsd-rs/lsd | https://bin.pkgforge.dev/x86_64/lsd | 9428b489f2c1 |
 | lsix | Like ls, but for images. Shows thumbnails in terminal using sixel graphics. | https://github.com/hackerb9/lsix | https://bin.pkgforge.dev/x86_64/lsix | ae7056473309 |
 | lsof | A tool to list open files | https://github.com/lsof-org/lsof | https://bin.pkgforge.dev/x86_64/lsof | 00ffdd03f694 |

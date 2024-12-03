@@ -644,7 +644,7 @@
       "summary": "GameCube / Wii / Triforce Emulator",
       "description": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!\n    ",
       "id": "org_DolphinEmu_dolphin-emu",
-      "updated_at": 1731116107,
+      "updated_at": 1733180782,
       "arches": [
         "x86_64",
         "aarch64"
@@ -654,7 +654,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "org.DolphinEmu.dolphin-emu",
-      "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/73d18d1066a8e4bc594304a0c23433b1/icons/128x128/org.DolphinEmu.dolphin-emu.png",
+      "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/0788ad24f16dd824bd39692d58c89c6f/icons/128x128/org.DolphinEmu.dolphin-emu.png",
       "categories": [
         "Game",
         "Emulator"
@@ -9685,7 +9685,7 @@
       "summary": "High-performance code editor",
       "description": "\n      *NOTE*: This is the official release of Zed, packaged into a Flatpak by the community. This repackaging is not yet supported by Zed Industries, Inc.\n    \n      \n      Productive coding starts with a tool that stays out of your way. Zed blends the power of an IDE with the speed of a lightweight editor for productivity you can feel under your fingertips.\n    \n      Features:\n      \n        Performance: Efficiently uses every CPU core and your GPU for instant startup, quick file loading, and responsive keystrokes.\n        Language-aware: Maintains a syntax tree for precise highlighting, and auto-indent, with LSP support for autocompletion and refactoring.\n        Collaboration: Real-time editing and navigation for multiple developers in a shared workspace.\n        AI Integration: Integrates GitHub Copilot and GPT-4 for natural language code generation.\n      \n    ",
       "id": "dev_zed_Zed",
-      "updated_at": 1732733260,
+      "updated_at": 1733183109,
       "arches": [
         "x86_64",
         "aarch64"
@@ -9695,7 +9695,7 @@
       "project_license": "AGPL-3.0-or-later and Apache-2.0 and GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "dev.zed.Zed",
-      "icon": "https://dl.flathub.org/media/dev/zed/Zed/3c3a06981462dc89b54b0544241aa96d/icons/128x128/dev.zed.Zed.png",
+      "icon": "https://dl.flathub.org/media/dev/zed/Zed/cf2bbdebfc79a7818e583b90000420c3/icons/128x128/dev.zed.Zed.png",
       "categories": [
         "Development",
         "Utility"
