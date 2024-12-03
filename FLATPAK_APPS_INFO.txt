@@ -7950,6 +7950,10 @@ NAME: Ghidra
 APP_ID: org.ghidra_sre.Ghidra
 Descr: Ghidra Reverse Engineering Suite
 -----------------------------
+NAME: GitFourchette
+APP_ID: org.gitfourchette.gitfourchette
+Descr: The comfortable Git UI
+-----------------------------
 NAME: gmusicbrowser
 APP_ID: org.gmusicbrowser.gmusicbrowser
 Descr: Jukebox for large collection of music

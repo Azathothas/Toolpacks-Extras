@@ -2034,6 +2034,7 @@ org.getoutline.OutlineManager
 org.getzola.zola
 org.ghidra_sre.Ghidra
 org.gimp.GIMP
+org.gitfourchette.gitfourchette
 org.gmusicbrowser.gmusicbrowser
 org.gna.Warmux
 org.gnode.NixView
