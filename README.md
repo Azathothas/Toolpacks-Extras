@@ -35,7 +35,7 @@
   </a>
   <a href="https://github.com/sherlock-project/sherlock/issues/2011" target="_blank">
     <img src="https://github.com/user-attachments/assets/5a08ecaa-a412-4eaf-a9e8-1214455a6368" alt="Inspiration Image">
-  </a>    
+  </a>
 </details>
 
 ---
