@@ -650,7 +650,7 @@
       "summary": "GameCube / Wii / Triforce Emulator",
       "description": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!\n    ",
       "id": "org_DolphinEmu_dolphin-emu",
-      "updated_at": 1733180782,
+      "updated_at": 1733246543,
       "arches": [
         "x86_64",
         "aarch64"
@@ -1393,7 +1393,7 @@
       "summary": "Video game preservation platform",
       "description": "Lutris helps you install and play video games from all eras and from most gaming systems. By leveraging and combining existing emulators, engine re-implementations and compatibility layers, it gives you a central interface to launch all your games.\n    ",
       "id": "net_lutris_Lutris",
-      "updated_at": 1712882715,
+      "updated_at": 1733263272,
       "arches": [
         "x86_64"
       ],
@@ -1401,38 +1401,52 @@
       "translations": {
         "ar": {
           "description": "يتيح لك لوترس تثبيت ولعب الألعاب من كلِّ حقبة ومن أغلب أنظمة الألعاب. يوفِّر لك لوترس منصَّةً موحَّدةً لتشغيل كلِّ ألعابك، وذلك عن طريق تجميع المحاكيات الموجودة مسبقًا وإعادة صناعة محرِّكات الألعاب واستخدام طبقات التكامل.\n    ",
+          "name": "لوترس",
           "summary": "منصَّة حفظ ألعاب الفيديو"
         },
         "de": {
           "description": "Lutris hilft Ihnen Videospiele aus jeder Ära und von den meisten Spielsystemen zu installieren und zu spielen. Durch die Nutzung und Kombinierung von vorhandenen Emulatoren, Neuimplementierungen von Engines und Kompatibilitätsschichten, gibt es Ihnen eine zentrale Benutzeroberfläche um all Ihre Spiele auszuführen.\n    ",
+          "name": "Lutris",
           "summary": "Die Plattform zur Archivierung von Videospielen"
         },
         "el": {
           "description": "Tο Lutris σας βοηθά να εγκαταστήσετε και να παίξετε βιντεοπαιχνίδια από όλες τις εποχές και από τα περισσότερα συστήματα παιχνιδιών. Αξιοποιώντας και συνδυάζοντας υπάρχοντες εξομοιωτές, επανεφαρμογές μηχανών και επίπεδα συμβατότητας, σας παρέχει ένα κεντρικό περιβάλλον για την εκκίνηση όλων των παιχνιδιών σας.\n    ",
+          "name": "Lutris",
           "summary": "Πλατφόρμα διατήρησης βιντεοπαιχνιδιών"
         },
         "es": {
-          "description": "Lutris facilita instalar y jugar a videojuegos de todas las épocas y casi todos los sistemas. Ofrece un interfaz centralizado para lanzar todos tus juegos al aprovechar y combinar emuladores existentes, reimplementaciones de motores y capas de compatibilidad.\n    ",
+          "description": "Lutris facilita instalar y jugar a videojuegos de todas las épocas y casi todos los sistemas. Proporciona un interfaz centralizado para lanzar todos tus juegos al aprovechar y combinar emuladores existentes, reimplementaciones de motores y capas de compatibilidad.\n    ",
+          "name": "Lutris",
           "summary": "Plataforma de preservación de videojuegos"
         },
         "fr": {
           "description": "Lutris est une interface centrale qui vous aide à installer et à jouer à des jeux vidéo de toutes les époques, en exploitant et en combinant les émulateurs, les réimplémentations de moteurs et les couches de compatibilité de la plupart des systèmes de jeu existants.\n    ",
+          "name": "Lutris",
           "summary": "Plateforme de préservation de jeux vidéo"
         },
         "hr": {
           "description": "Lutris vam pomaže pri instalaciji i igranju video igara iz svih razdoblja i većine sustava za igre. Koristeći i kombinirajući postojeće emulatore, reimplementacije pogona i slojeva kompatibilnosti, omogućuje vam središnje sučelje za pokretanje svih vaših igara.\n    ",
+          "name": "Lutris",
           "summary": "Platforma za očuvanje videoigara"
         },
         "it": {
           "description": "Lutris ti aiuta a installare e giocare i videogiochi di tutte le epoche e della maggior parte dei sistemi di gioco. Sfruttando e combinando emulatori, reimplementazioni di engine e layer di compatibilità esistenti, offrendoti un'interfaccia centralizzata per avviare tutti i tuoi giochi.\n    ",
+          "name": "Lutris",
           "summary": "Piattaforma di preservazione di videogiochi"
+        },
+        "ko": {
+          "description": "Lutris는 다양한 게이밍 시스템과 모든 시대로부터 온 비디오 게임을 설치하고 즐길 수 있는 플랫폼입니다.\n    ",
+          "name": "Lutris",
+          "summary": "오픈소스 비디오 게임 플랫폼"
         },
         "nl": {
           "description": "Lutris helpt je bij het installeren en spelen van games, of het nu oude of nieuwe spellen zijn en ongeacht op welk platform ze zijn uitgebracht. Door het combineren van bestaande emulators, herimplementaties van aandrijvingen en compatibiliteitslagen, hebben we één overzichtelijk venster voor al je games weten te creëren.\n    ",
+          "name": "Lutris",
           "summary": "Videogame-bewaarplatform"
         },
         "pt-BR": {
           "description": "Lutris ajuda você a instalar e jogar videogames de todas as épocas e da maioria dos sistemas de jogos. Ao alavancar e combinar emuladores existentes, reimplementações de mecanismos e camadas de compatibilidade, ele oferece uma interface central para iniciar todos os seus jogos.\n    ",
+          "name": "Lutris",
           "summary": "Plataforma de preservação de video games"
         },
         "tr": {
@@ -1441,17 +1455,21 @@
         },
         "zh-Hans": {
           "description": "Lutris 可帮您安装和运行大多数平台上几乎所有时代的电子游戏。通过对现有的模拟器、兼容层、第三方游戏引擎等进行整合利用，Lutris 可为您提供一个统一的界面来启动您的所有游戏。\n    ",
+          "name": "Lutris",
           "summary": "电子游戏保管平台"
         },
-        "pl": {},
+        "pl": {
+          "name": "Lutris"
+        },
         "ru": {
+          "name": "Lutris",
           "summary": "Площадка для сохранения видеоигр"
         }
       },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.lutris.Lutris",
-      "icon": "https://dl.flathub.org/media/net/lutris/Lutris/0179e0908ed754d744f33dc13e5dd6b3/icons/128x128/net.lutris.Lutris.png",
+      "icon": "https://dl.flathub.org/media/net/lutris/Lutris/d7e26a0667cb20bd9142a71dd222ddc7/icons/128x128/net.lutris.Lutris.png",
       "categories": [
         "Game"
       ],
@@ -1467,7 +1485,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "lutris.net",
       "verification_timestamp": "1679863034",
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 12.121756010050142,
       "installs_last_month": 54814,
       "added_at": 1559591101
@@ -2104,7 +2122,7 @@
       "summary": "Markdown-based knowledge base",
       "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files. In Obsidian, making and following connections is frictionless, and with the connections in place, you can explore all of your knowledge in the interactive graph view. Obsidian supports CommonMark and GitHub Flavored Markdown (GFM), along with other useful notetaking features such as tags, LaTeX mathematical expressions, mermaid diagrams, footnotes, internal links and embedding Obsidian notes or external files. Obsidian also has a plugin system with 20+ supported plugins to expand its capabilities.\n      The documentation can be accessed by opening the demo vault that is shipped in Obsidian.\n      Obsidian will always remain free for personal use, no account or license is required for qualifying use cases described in the End User License Agreement. However, commercial users should purchase a license on Obsidian's website. Users also have the option to purchase a Catalyst license to get early access to insider builds and support the development. Additionally, Obsidian offers an optional paid hosting service for your notes. Details about this optional hosting service can be found on the Obsidian website.\n      This distribution is verified by the Obsidian team but isn't supported\n      Wayland support can enabled with --socket=wayland in Flatseal which can enable features like pinch zoom\n      GPU acceleration can be disabled if necessary by setting OBSIDIAN_DISABLE_GPU=1 in Flatseal\n      Pdflatex support in pandoc currently requires installing the org.freedesktop.Sdk.Extension.texlive SDK\n      Note: Regular users should disable \"Automatic Updates\" within Obsidian as public release updates are handled by Flatpak itself. Insiders should keep this enabled to receive insider builds, as those will not be made available on Flathub.\n      This flatpak goes into great lengths to provide a nice experience for end users. In order for the Git plugin to work it requires permission to the ssh-auth socket (--socket=ssh-auth). It also exposes the home directory in the sandbox (required for Drag and Drop operations). If you don't use the Git plugin you can disable the ssh-auth socket permission, e.g. using Flatseal. You can also remove access to the home directory if you want and the flatpak will continue to work, albeit with reduced functionality. In case you do remove access to the homedir, note that in order for things to not break for the Git plugin, --persist=.ssh flag has been passed and a bind mount to ~/.var/app/md.obsidian.Obsidian/ is created by flatpak, allowing that location to be used for persistent data (but your home directory's .ssh remains unaccessible)\n    ",
       "id": "md_obsidian_Obsidian",
-      "updated_at": 1732747801,
+      "updated_at": 1733280877,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2188,7 +2206,7 @@
       "summary": "Office productivity suite",
       "description": "ONLYOFFICE Desktop Editors is a free and open-source office suite pack that comprises editors for text documents, spreadsheets, presentations, PDFs and PDF forms. It allows you to create, view and edit office docs stored on your Windows/Linux PC or Mac without an Internet connection. The suite is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.\n      Thanks to the tab-based user interface, you can deal with multiple files within one and the same window. Multiple plugins allow adding any extra functionality you might need. Password protection and digital signatures ensure a higher level of security while working with files.\n      Switch between various interface themes to comfortably work in any environment. Extend your editing capabilities by using plugins: work faster with the AI helper, translate, recognize text from pictures, convert your docs to Markdown, etc.\n      Along with offline work, it’s possible to connect the application to the cloud for online document collaboration. Available options include ONLYOFFICE cloud, Moodle, Nextcloud, Seafile, ownCloud, kDrive, and Liferay.\n    ",
       "id": "org_onlyoffice_desktopeditors",
-      "updated_at": 1732183931,
+      "updated_at": 1733217164,
       "arches": [
         "x86_64"
       ],
@@ -2197,7 +2215,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.onlyoffice.desktopeditors",
-      "icon": "https://dl.flathub.org/media/org/onlyoffice/desktopeditors/9dfc59ed4c0ab43e5dd2e14b7394131b/icons/128x128/org.onlyoffice.desktopeditors.png",
+      "icon": "https://dl.flathub.org/media/org/onlyoffice/desktopeditors/7785bf63e95da27e54c17c54b12ec0e0/icons/128x128/org.onlyoffice.desktopeditors.png",
       "categories": [
         "Office",
         "WordProcessor",
@@ -2614,7 +2632,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1732931797,
+      "updated_at": 1733271142,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3124,7 +3142,7 @@
       "summary": "Secures your internet and protects your online privacy",
       "description": "\n        \n                NOTE: This app is built from Proton VPN's official open-source code,\n                but it is not an official Proton app.\n                It is not affiliated with or supported by Proton AG.\n            \n      \n      \n            Browse privately and take back control of your personal information with Proton VPN.\n            Connect to one of our high-speed servers to hide your IP address,\n            bypass digital borders, and stream from popular websites and platforms.\n        \n      \n            Used by millions worldwide, our secure no-logs VPN does not record your browsing history,\n            display ads, sell your data to third parties, or limit downloads.\n        \n      \n            Proton VPN is brought to you by the\n            CERN scientists behind Proton Mail — the world's largest encrypted email service. \n        \n      Free VPN features\n      \n        Strict no-logs policy\n        Zero-access, end-to-end encryption\n        Full-disk encrypted servers\n        No bandwidth restrictions\n        Strong, secure protocols: WireGuard and OpenVPN\n        IPv6 support\n        Perfect forward secrecy: Encrypted traffic cannot be captured and decrypted later\n        DNS leak protection: Ensures DNS queries are never accidentally sent to third-party resolvers\n        Kill switch: Protects you against IP leaks caused by accidental disconnections\n      \n      Premium VPN features\n      \n        Connect to 8500+ high speed servers across 110+ countries\n        Lightning-fast VPN speeds (up to 10 Gbps)\n        Connect up to 10 devices at the same time\n        \n                Stream films, sports events, and videos on any streaming service\n                (Netflix, Hulu, Amazon Prime Video, Disney+, BBC iplayer, and more)\n            \n        P2P (peer-to-peer) servers: Fast torrenting, gaming, and file sharing\n        Secure Core servers: Enhance your protection with double hop VPN\n        Tor servers: Connect to onion sites with your regular browser\n        \n                NetShield Ad-blocker: Protect yourself from ads, trackers,\n                and malware on websites and apps\n            \n        VPN Accelerator: Unique technology increases VPN speeds by up to 400%\n      \n      Why Proton VPN?\n      \n        No personal data required to sign up\n        Easy-to-use VPN apps for iOS, Android, MacOS, Windows, iPad, Linux, Apple TV, and Android TV\n        Our high-strength encryption provides a more secure connection than an internet proxy\n        Independently audited by third-party security experts\n        Trusted open-source code that anyone can review\n        Data protection using AES-256 and 4096 RSA encryption\n      \n      Join the privacy revolution\n      \n            Your support helps us bring online freedom to people around the globe.\n            Join Proton today to protect yourself online and help create a secure,\n            private, and free internet for everyone.\n        \n      Experts' opinion\n      \n            PCMag: “[Proton VPN's] is a slick VPN with an excellent collection of advanced features,\n            and it has the best free subscription plan we've seen.\n            Few competitors can match its mix of affordability, features, and design.\n            For all that, it gets a rare five-star rating and earns our Editors' Choice award”\n        \n      \n            Mozilla: “There are many VPN vendors out there, but not all of them are created equal.\n            Proton VPN offers a secure, reliable, and easy-to-use VPN service and is operated by the makers of ProtonMail,\n            a respected, privacy-oriented email service...\n            As a company they have a track record of fighting for online privacy and they share our dedication\n            to internet safety and security.”\n        \n      Required dependencies\n      \n        NetworkManager-openvpn\n        KWallet or GNOME Keyring\n        systemd\n      \n    ",
       "id": "com_protonvpn_www",
-      "updated_at": 1732282249,
+      "updated_at": 1733216974,
       "arches": [
         "x86_64",
         "aarch64"
@@ -3134,7 +3152,7 @@
       "project_license": "GPL-3.0",
       "is_free_license": true,
       "app_id": "com.protonvpn.www",
-      "icon": "https://dl.flathub.org/media/com/protonvpn/www/987139d6f986105ab3da693696ea1df5/icons/128x128/com.protonvpn.www.png",
+      "icon": "https://dl.flathub.org/media/com/protonvpn/www/1ea132fbc1f8dc9cd3843d3e46ad67a6/icons/128x128/com.protonvpn.www.png",
       "categories": [
         "Network"
       ],
@@ -4048,7 +4066,7 @@
       "summary": "Manage AppImages",
       "description": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.\n    ",
       "id": "it_mijorus_gearlever",
-      "updated_at": 1732803846,
+      "updated_at": 1733219136,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4089,7 +4107,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "it.mijorus.gearlever",
-      "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/79ee46aaf2920671101db48b16cf3f3e/icons/128x128/it.mijorus.gearlever.png",
+      "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/2cab184cd7fe3ba620a68ead5829cbcb/icons/128x128/it.mijorus.gearlever.png",
       "categories": [
         "Utility"
       ],
@@ -4116,7 +4134,7 @@
       "summary": "View and annotate documents",
       "description": "\n   Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited to Linux, Windows, Mac OS X, *BSD, etc.\n  \n      Features:\n      \n        Supported Formats: PDF, PS, Tiff, CHM, DjVu, Images, DVI, XPS, Fiction Book, Comic Book, Plucker, EPub, Fax\n        Sidebar with contents, thumbnails, reviews and bookmarks\n        Annotations support\n      \n    ",
       "id": "org_kde_okular",
-      "updated_at": 1731065207,
+      "updated_at": 1733219504,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6173,7 +6191,7 @@
       "summary": "Free and Open Source Client for PlayStation Remote Play modified for Steam Deck",
       "description": "\n      chiaki-ng is the next-generation of Chiaki, adding new features and ongoing support as the original project (Chiaki) is in maintenance mode. It is a free and Open Source Client for PlayStation 4 and PlayStation 5 Remote Play. It can be used to play in real time on a PlayStation as long as there is a network connection.\n    \n    ",
       "id": "io_github_streetpea_Chiaki4deck",
-      "updated_at": 1730781322,
+      "updated_at": 1733281035,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6183,7 +6201,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.streetpea.Chiaki4deck",
-      "icon": "https://dl.flathub.org/media/io/github/streetpea.Chiaki4deck/831452deef3750f2b8d20b7d75beba41/icons/128x128/io.github.streetpea.Chiaki4deck.png",
+      "icon": "https://dl.flathub.org/media/io/github/streetpea.Chiaki4deck/1e5cd87359c768458a8d6307d447e5f6/icons/128x128/io.github.streetpea.Chiaki4deck.png",
       "categories": [
         "Game"
       ],
@@ -7829,7 +7847,7 @@
       "summary": "IDE for Android app development",
       "description": "Android Studio is the official Integrated Development Environment (IDE) for Android app development. Based on the powerful code editor and developer tools from IntelliJ IDEA, Android Studio offers even more features that enhance your productivity when building Android apps, such as:\n      \n        A flexible Gradle-based build system\n        A fast and feature-rich emulator\n        A unified environment where you can develop for all Android devices\n        Live Edit to update composables in emulators and physical devices in real time\n        Code templates and GitHub integration to help you build common app features and import sample code\n        Extensive testing tools and frameworks\n        Lint tools to catch performance, usability, version compatibility, and other problems\n        C++ and NDK support\n        Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine\n      \n    ",
       "id": "com_google_AndroidStudio",
-      "updated_at": 1731704299,
+      "updated_at": 1733233585,
       "arches": [
         "x86_64"
       ],
@@ -7838,7 +7856,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.google.AndroidStudio",
-      "icon": "https://dl.flathub.org/media/com/google/AndroidStudio.desktop/1ef643f1f0a780076a313741c4acf8f4/icons/128x128/com.google.AndroidStudio.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/google/AndroidStudio.desktop/2e7ac45e6fbf8424eede5ad1402960ee/icons/128x128/com.google.AndroidStudio.desktop.png",
       "categories": [
         "Development",
         "IDE"
@@ -7922,7 +7940,7 @@
       "summary": "Merge, shuffle, and crop PDFs",
       "description": "\n      PDF Arranger is a small application, which helps the user to merge or split pdf\n      documents and rotate, crop and rearrange their pages using an interactive and\n      intuitive graphical interface.\n    \n      \n      It is a frontend for pikepdf.\n    \n    ",
       "id": "com_github_jeromerobert_pdfarranger",
-      "updated_at": 1731683421,
+      "updated_at": 1733219378,
       "arches": [
         "x86_64",
         "aarch64"
@@ -8530,7 +8548,7 @@
       "summary": "Media player",
       "description": "Open source media player built with Qt/QML and libmpv.\n      Features\n      \n        play online videos, through youtube-dl\n        supports youtube playlists\n        toggle playlist with mouse-over, playlist overlays the video\n        auto skip chapter containing certain words\n        configurable shortcuts and mouse buttons\n        quick jump to next chapter by middle click on progress bar\n      \n    ",
       "id": "org_kde_haruna",
-      "updated_at": 1731925780,
+      "updated_at": 1733270094,
       "arches": [
         "x86_64",
         "aarch64"
@@ -11185,7 +11203,7 @@
       "summary": "Take handwritten notes",
       "description": "\n      Xournal++ is a hand note-taking software written in C++ with the target of\n      flexibility, functionality and speed. Stroke recognizer and other parts are\n      based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux\n      (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input\n      from devices such as Wacom Tablets.\n    \n      \n      Xournal++ features:\n    \n      \n        Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)\n        Paper backgrounds for note-taking, scratch paper, or whiteboarding\n        Annotate on top of PDFs\n        Select text from the background PDF, copy, highlight or underline it or strike it through\n        Follow links from the background PDF\n        Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line\n        Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)\n        Shape drawing (line, arrow, circle, rectangle, spline)\n        Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii\n        Fill shape functionality\n        Shape resizing and rotation\n        Rotation and grid snapping for precise alignment of objects\n        Input stabilization for smoother writing/drawing\n        Text tool for adding text in different fonts, colors, and sizes\n        Enhanced support for image insertion\n        Eraser with multiple configurations\n        LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting\n        Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)\n        Allows mapping different tools/colors etc. to stylus/mouse buttons\n        Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape\n        Custom color palette support using the .gpl format\n        Page template definitions\n        Bug reporting, autosave, and auto backup tools\n        Audio recording and playback alongside with handwritten notes\n        Multi language support (over 20 languages supported)\n        Plugins using Lua scripting\n      \n      \n    ",
       "id": "com_github_xournalpp_xournalpp",
-      "updated_at": 1732347329,
+      "updated_at": 1733250362,
       "arches": [
         "x86_64",
         "aarch64"
@@ -11577,7 +11595,7 @@
       "summary": "The Leading Java and Kotlin IDE",
       "description": "IntelliJ IDEA Community is a free and open-source edition of IntelliJ IDEA, the commercial Java IDE by JetBrains. IntelliJ IDEA Community provides all the tools you need for Java, Groovy, Kotlin, Scala, and Android. It offers instant and clever code completion, on-the-fly code analysis, and reliable refactoring tools.\n      Mission-critical tools such as integrated version controls systems and a wide variety of supported languages and frameworks are at hand — no plugin hustle included.\n      IntelliJ IDEA Community can be downloaded at no cost and is open for contributions by community members. The product is built on top of the IntelliJ Platform, which is fully open source.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by JetBrains s.r.o.\n    ",
       "id": "com_jetbrains_IntelliJ-IDEA-Community",
-      "updated_at": 1732613849,
+      "updated_at": 1733259642,
       "arches": [
         "x86_64",
         "aarch64"
@@ -11587,7 +11605,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "com.jetbrains.IntelliJ-IDEA-Community",
-      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/c25137c8a73fb7f12ab4f97582b48944/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
+      "icon": "https://dl.flathub.org/media/com/jetbrains/IntelliJ-IDEA-Community/2a420bd209264614ddc81b84bf6a42f2/icons/128x128/com.jetbrains.IntelliJ-IDEA-Community.png",
       "categories": [
         "Development",
         "IDE"
@@ -13387,7 +13405,7 @@
       "summary": "Create and share diagrams",
       "description": "\n      draw.io is the most flexible and privacy-focused of any production\n      grade diagramming tool. Create flowcharts, process diagrams, org\n      charts, UML, ER diagrams, network diagrams and much more.\n    \n    ",
       "id": "com_jgraph_drawio_desktop",
-      "updated_at": 1727888778,
+      "updated_at": 1733232827,
       "arches": [
         "x86_64",
         "aarch64"
@@ -13406,7 +13424,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "com.jgraph.drawio.desktop",
-      "icon": "https://dl.flathub.org/media/com/jgraph/drawio.desktop/2c6414c5ab4d299109c72688e128f3e1/icons/128x128/com.jgraph.drawio.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/jgraph/drawio.desktop/3e96bede055ad4b69d838d1c7710edaa/icons/128x128/com.jgraph.drawio.desktop.png",
       "categories": [
         "Graphics"
       ],
@@ -15957,7 +15975,7 @@
       "summary": "Secure communications platform built around you",
       "description": "More than group chat: communication\n      \n        Communicate with your team and out of network colleagues more efficiently: use dedicated rooms which persist information from their creation and forever.\n        Forget group emails: join or create rooms per topic, per team, per event… Decide the level of transparency you want to provide across the organisation or project.\n        Cut through the noise by creating notifications that are customised by you and for you.\n        Grab the attention of your colleague by calling out their name and don’t miss a thing with keyword alerts.\n        Deploy bots for fun or practical use with our integrations store.\n      \n      Preliminary Wayland support since 1.7.25.\n      To try running Element natively under Wayland, run:\n      flatpak run im.riot.Riot --enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\n      For GNOME, window decorations are currently missing and you'll have to use keyboard shortcuts instead to resize the window.\n    ",
       "id": "im_riot_Riot",
-      "updated_at": 1732052641,
+      "updated_at": 1733243467,
       "arches": [
         "x86_64",
         "aarch64"
@@ -15967,7 +15985,7 @@
       "project_license": "Apache-2.0",
       "is_free_license": true,
       "app_id": "im.riot.Riot",
-      "icon": "https://dl.flathub.org/media/im/riot/Riot/8ec9953759013c3d6b9173c6b2ba8977/icons/128x128/im.riot.Riot.png",
+      "icon": "https://dl.flathub.org/media/im/riot/Riot/5c5d0dccde7952a1b2cbcaac314b9567/icons/128x128/im.riot.Riot.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -18845,7 +18863,7 @@
       "summary": "IPTV player with EPG support",
       "description": "\n      IPTV player with many features, such as:\n    \n      \n        M3U / XSPF playlists support\n        XTream API support\n        TV program (EPG) support\n        Stream recording\n        Playlist editor\n        TV archive / catchup\n        and many more...\n      \n    ",
       "id": "io_github_yuki_iptv_yuki-iptv",
-      "updated_at": 1732662003,
+      "updated_at": 1733273450,
       "arches": [
         "x86_64",
         "aarch64"
@@ -20850,7 +20868,7 @@
       "summary": "The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration",
       "description": "The Eclipse IDE delivers what you need to rapidly innnovate.\n      \n        Polyglot language support: First class support for Java, JavaScript/TypeScript, C/C++, PHP, Rust, and others\n        Community powered: More and more the Eclipse IDE is being powered by individual contributors all around the world\n        Improved Java development tooling: Improved code templates and added various quick fixes\n        Better UI: Streamlined the UI through inline rename, a brand new Quick Search dialog and a better dark theme\n        Proven extensibility: A huge variety of platform plug-ins\n        Free and open source: Free and open source released under the terms of the Eclipse Public License 2.0\n      \n    ",
       "id": "org_eclipse_Java",
-      "updated_at": 1728982282,
+      "updated_at": 1733248709,
       "arches": [
         "x86_64",
         "aarch64"
@@ -20860,7 +20878,7 @@
       "project_license": "EPL-2.0",
       "is_free_license": true,
       "app_id": "org.eclipse.Java",
-      "icon": "https://dl.flathub.org/media/org/eclipse/Java/b42dd37ba693af84d7698ae82c345f7d/icons/128x128/org.eclipse.Java.png",
+      "icon": "https://dl.flathub.org/media/org/eclipse/Java/f986b1a937ad646876117265993490a0/icons/128x128/org.eclipse.Java.png",
       "categories": [
         "Development",
         "IDE"
@@ -21030,7 +21048,7 @@
       "summary": "An EDA suite for schematic and circuit board design",
       "description": "KiCad is a free and open-source electronics design automation (EDA) suite. It features schematic capture, integrated circuit simulation, printed circuit board (PCB) layout, 3D rendering, and plotting/data export to numerous formats. KiCad also includes a high-quality component library featuring thousands of symbols, footprints, and 3D models. KiCad has minimal system requirements and runs on Linux, Windows, and macOS.\n    ",
       "id": "org_kicad_KiCad",
-      "updated_at": 1728950150,
+      "updated_at": 1733217213,
       "arches": [
         "x86_64",
         "aarch64"
@@ -21039,7 +21057,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "org.kicad.KiCad",
-      "icon": "https://dl.flathub.org/media/org/kicad/KiCad/89e954578afc18d1a1df9afc432f2790/icons/128x128/org.kicad.KiCad.png",
+      "icon": "https://dl.flathub.org/media/org/kicad/KiCad/53089a6fddd296a55bba0601a6199e11/icons/128x128/org.kicad.KiCad.png",
       "categories": [
         "Electronics",
         "Engineering",
@@ -23085,7 +23103,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 50,
+  "processingTimeMs": 51,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

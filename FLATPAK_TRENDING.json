@@ -3793,7 +3793,7 @@
       "summary": "YouTube Music app",
       "description": "AudioTube can search YouTube Music, list albums and artists, play automatically generated playlists, albums and allows to put your own playlist together. It is adapted to mobile phones and desktop computers.\n    ",
       "id": "org_kde_audiotube",
-      "updated_at": 1732999492,
+      "updated_at": 1733263607,
       "arches": [
         "x86_64",
         "aarch64"
@@ -7909,7 +7909,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1732931797,
+      "updated_at": 1733271142,
       "arches": [
         "x86_64",
         "aarch64"
@@ -16264,13 +16264,18 @@
       "summary": "Translate and localize applications and libraries",
       "description": "\n      Gtranslator is an enhanced gettext po file editor for the GNOME desktop\n      environment.\n      It handles all forms of gettext po files and includes very useful features\n      like find/replace, translation memory, different translator profiles,\n      messages table (for having an overview of the translations/messages in the\n      po file), easy navigation and editing of translation messages and comments\n      of the translation where accurate.\n    \n      \n      Gtranslator includes also a plugin system with many interesting plugins like alternate language, insert tags, integration with subversion and a source code viewer.\n    \n    ",
       "id": "org_gnome_Gtranslator",
-      "updated_at": 1732393927,
+      "updated_at": 1733298660,
       "arches": [
         "x86_64",
         "aarch64"
       ],
       "type": "desktop-application",
       "translations": {
+        "bg": {
+          "description": "„Gtranslator“ е подобрен редактор на po-файлове на gettext за работната среда GNOME. Той работи с всички варианти на po-файлове на gettext и включва много полезни функции като търсене/замяна, памет за преводи, различни профили за преводача, таблица със съобщения (за преглед на преводите/съобщенията в po-файла), лесна навигация и редактиране на съобщенията за превод и коментари на превода.\n      „Gtranslator“ включва и система за приставки, която вече предлага алтернативен език, вмъкване на етикети, интеграция със Subversion и преглед на изходния код.\n    ",
+          "name": "Редактор на преводи",
+          "summary": "Превеждане и локализиране на програми и библиотеки"
+        },
         "ca": {
           "description": "Gtranslator és un editor de fitxers PO del gettext millorat per a l'entorn d'escriptori GNOME. Gestiona totes les formes de fitxers po de gettext i inclou característiques molt útils com cerca/reemplaça, memòria de traducció, diferents perfils de traductors, taula de missatges (per a tenir una visió general de les traduccions/missatges al fitxer po), una fàcil navegació i edició de missatges de traducció i comentaris de la traducció.\n      Gtranslator inclou també un sistema de connectors amb molts connectors interessants com ara idioma alternatiu, etiquetes d'inserció, integració amb Subversion i un visor de codi font.\n    ",
           "summary": "Traduïu i localitzeu aplicacions i biblioteques"
@@ -16429,6 +16434,10 @@
           "name": "Рэдактар перакладаў",
           "summary": "Пераклад i лакалізацыя праграм і бібліятэк"
         },
+        "kab": {
+          "name": "Amaẓrag n tsuqilt",
+          "summary": "Asuqel d usideg n yisnasen d temkarḍiyin"
+        },
         "oc": {
           "name": "Editor de traduccion",
           "summary": "Traduire e adaptar d'aplicacions e de bibliotècas"
@@ -16452,7 +16461,7 @@
       "project_license": "GPL-2.0+ AND GPL-3.0+",
       "is_free_license": true,
       "app_id": "org.gnome.Gtranslator",
-      "icon": "https://dl.flathub.org/media/org/gnome/Gtranslator/1c7c1c2b1933bb5fcf193e864fb0b180/icons/128x128/org.gnome.Gtranslator.png",
+      "icon": "https://dl.flathub.org/media/org/gnome/Gtranslator/6a790e081c0c306b756f1f73cbe8617c/icons/128x128/org.gnome.Gtranslator.png",
       "categories": [
         "Development",
         "Utility",
@@ -21000,7 +21009,7 @@
       "summary": "Merge, shuffle, and crop PDFs",
       "description": "\n      PDF Arranger is a small application, which helps the user to merge or split pdf\n      documents and rotate, crop and rearrange their pages using an interactive and\n      intuitive graphical interface.\n    \n      \n      It is a frontend for pikepdf.\n    \n    ",
       "id": "com_github_jeromerobert_pdfarranger",
-      "updated_at": 1731683421,
+      "updated_at": 1733219378,
       "arches": [
         "x86_64",
         "aarch64"
@@ -25886,7 +25895,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 49,
+  "processingTimeMs": 50,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

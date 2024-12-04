@@ -1840,7 +1840,6 @@ one.flipperzero.qFlipper
 one.jiri.easydict-gtk
 one.jwr.interstellar
 one.mixin.messenger
-online.athn.browser.gnome
 online.hatsune_miku.tachidesk-vaadinui
 org.DolphinEmu.dolphin-emu
 org.KekikAkademi.BTKSorgu

@@ -6610,10 +6610,6 @@ NAME: Bible
 APP_ID: net.lugsole.bible_gui.desktop
 Descr: Bible app that supports multiple translations
 -----------------------------
-NAME: Lutris
-APP_ID: net.lutris.Lutris
-Descr: Video game preservation platform
------------------------------
 NAME: SLADE
 APP_ID: net.mancubus.SLADE
 Descr: It&apos;s a Doom editor
@@ -7229,10 +7225,6 @@ Descr: Connect with the fediverse
 NAME: Mixin Messenger
 APP_ID: one.mixin.messenger
 Descr: Mixin Messenger
------------------------------
-NAME: ATHN reference browser
-APP_ID: online.athn.browser.gnome
-Descr: Browse ATHN sites
 -----------------------------
 NAME: Tachidesk-VaadinUI
 APP_ID: online.hatsune_miku.tachidesk-vaadinui
