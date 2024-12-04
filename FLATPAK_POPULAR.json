@@ -2392,7 +2392,7 @@
       "summary": "A secure and free password manager for all of your devices",
       "description": "\n      Bitwarden is the easiest and safest way to store all of your logins and\n      passwords while conveniently keeping them synced between all of your\n      devices.\n    \n      \n      Password theft is a serious problem. The websites and apps that you use\n      are under attack every day. Security breaches occur and your passwords\n      are stolen. When you reuse the same passwords across apps and websites\n      hackers can easily access your email, bank, and other important\n      accounts.\n    \n      \n      Security experts recommend that you use a different, randomly generated\n      password for every account that you create. But how do you manage all\n      those passwords? Bitwarden makes it easy for you to create, store, and\n      access your passwords.\n    \n      \n      Bitwarden stores all of your logins in an encrypted vault that syncs\n      across all of your devices. Since it's fully encrypted before it ever\n      leaves your device, only you have access to your data. Not even the\n      team at Bitwarden can read your data, even if we wanted to. Your data\n      is sealed with AES-256 bit encryption, salted hashing, and PBKDF2\n      SHA-256.\n    \n      \n      Bitwarden is 100% open source software. The source code for Bitwarden\n      is hosted on GitHub and everyone is free to review, audit, and\n      contribute to the Bitwarden codebase.\n    \n    ",
       "id": "com_bitwarden_desktop",
-      "updated_at": 1732536311,
+      "updated_at": 1733301997,
       "arches": [
         "x86_64",
         "aarch64"
@@ -13214,7 +13214,7 @@
       "summary": "Screencasting for GNOME",
       "description": "\n\t\tGNOME Network Displays allows you to cast your desktop to a remote display.\n\t\tSupports the Miracast and Chromecast protocols.\n\t\t\n    ",
       "id": "org_gnome_NetworkDisplays",
-      "updated_at": 1731527554,
+      "updated_at": 1733298903,
       "arches": [
         "x86_64",
         "aarch64"
@@ -23103,7 +23103,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 51,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
