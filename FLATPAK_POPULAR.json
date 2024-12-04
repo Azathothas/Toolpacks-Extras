@@ -93,7 +93,7 @@
       "summary": "Fast Internet, AI, Adblock",
       "description": "Brave is on a mission to fix the web by giving users a safer, faster and better browsing\n      experience while growing support for content creators through a new attention-based ecosystem\n      of rewards.\n      Browse faster by blocking ads and trackers that violate your privacy and cost you time and\n      money.\n    ",
       "id": "com_brave_Browser",
-      "updated_at": 1732125371,
+      "updated_at": 1733335525,
       "arches": [
         "x86_64",
         "aarch64"
@@ -103,7 +103,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "com.brave.Browser",
-      "icon": "https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/icons/128x128/com.brave.Browser.png",
+      "icon": "https://dl.flathub.org/media/com/brave/Browser/9ea406357b19b851d6d2072fd9f00a24/icons/128x128/com.brave.Browser.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -4894,7 +4894,7 @@
       "summary": "Feature-packed web browser",
       "description": "\n      The web browser for techies and people who need a browser that helps them get things done.\n      The user interface is fully customizable, including keyboard shortcuts, mouse gestures, and programmable macros.\n    \n      \n        Seize back control of your tabs with features like Workspaces, Tab Stacks, and Tab Tiling.\n        Stay on top of all your emails, appointments, to-dos, and news with Mail, Calendar, Tasks, and Feed Reader. (Compatible with IMAP, POP3, CalDAV, and Atom/RSS.)\n        Jot down ideas and inspiration with the integrated Notes manager.\n        End-to-end encrypted (E2EE) sync of bookmarks, passwords, notes, and more with Vivaldi for desktop, iOS, and Android.\n        Efficient built-in Tracker and Ad Blocker.\n        Compatible with most browser extensions from the Google Chrome Web Store.\n      \n      \n      NOTE: This package is maintained by but not yet officially endorsed or supported by Vivaldi Technologies.\n    \n    ",
       "id": "com_vivaldi_Vivaldi",
-      "updated_at": 1732917475,
+      "updated_at": 1733313764,
       "arches": [
         "x86_64",
         "aarch64"
@@ -4904,7 +4904,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.vivaldi.Vivaldi",
-      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/d27d89dc33fea9d99c5a992fcc7ce1da/icons/128x128/com.vivaldi.Vivaldi.png",
+      "icon": "https://dl.flathub.org/media/com/vivaldi/Vivaldi/06acc2a849b00c73b180b545da7e1c2c/icons/128x128/com.vivaldi.Vivaldi.png",
       "categories": [
         "Network",
         "WebBrowser",
@@ -7164,7 +7164,7 @@
       "summary": "A Graphical Distrobox Manager",
       "description": "BoxBuddy is a graphical user interface for Distrobox.\n      Distrobox allows users to create container images of many different Linux distributions which are nicely integrated with your host system, but still completely separate.\n      BoxBuddy makes creating and using these containers simple and convenient by providing a simple UI for many common tasks.\n      NOTE: BoxBuddy does not package Distrobox, it must be installed on your system separately.\n    ",
       "id": "io_github_dvlv_boxbuddyrs",
-      "updated_at": 1732378969,
+      "updated_at": 1733307623,
       "arches": [
         "x86_64",
         "aarch64"
@@ -7174,7 +7174,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "io.github.dvlv.boxbuddyrs",
-      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/34b6c60f81cd91034fdcd7b1e75da351/icons/128x128/io.github.dvlv.boxbuddyrs.png",
+      "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/3f46f6ff5b5de9f48cd795742beeb33b/icons/128x128/io.github.dvlv.boxbuddyrs.png",
       "categories": [
         "Utility"
       ],
@@ -23103,7 +23103,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

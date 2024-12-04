@@ -4826,9 +4826,9 @@ NAME: MindMate
 APP_ID: io.github.koromelodev.mindmate
 Descr: Unofficial application for ChatGPT
 -----------------------------
-NAME: Kotatogram Desktop
+NAME: Kotatogram
 APP_ID: io.github.kotatogram
-Descr: Kotatogram Desktop messenger
+Descr: Experimental Telegram messenger
 -----------------------------
 NAME: bibref
 APP_ID: io.github.kovzol.bibref
