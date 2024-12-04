@@ -204,6 +204,16 @@
           "name": "Неперервний",
           "summary": "Елегантне відтворення вашої музики"
         },
+        "zh-Hans": {
+          "description": "无暇（又名：G4Music）是一款用 GTK4 编写的轻量级音乐播放器，专注于大型音乐收藏。\n      特点\n      \n        支持大多数音乐文件类型、Samba 和任何其他远程协议（取决于 GIO 和 GStreamer）。\n        在数秒内快速加载和解析数千个音乐文件，监控本地文件变化。\n        对于带有专辑封面（嵌入式和外置式）的大型音乐收藏，内存使用率低，无需存储缩略图缓存。\n        按专辑/艺术家/标题分组和排序、随机播放列表、全文搜索。\n        针对不同屏幕（台式机、平板电脑、手机）的流畅自适应用户界面。\n        高斯模糊封面作为背景，跟随 GNOME 亮色/暗色模式。\n        支持创建和编辑播放列表，拖拽封面更改排序或添加到另一个播放列表。\n        支持通过其它应用拖放文件。\n        支持音频峰值可视化。\n        支持无缝播放。\n        支持通过回放增益实现音量平衡。\n        支持指定音频输出。\n        支持 MPRIS 控制。\n      \n    ",
+          "name": "无暇",
+          "summary": "优雅地播放您的音乐"
+        },
+        "zh-Hant": {
+          "description": "無暇 (又名: G4Music) 是以 GTK4 寫成的輕量級音樂播放器，專注於大型音樂收藏。\n      特點\n      \n        支援大多數音樂檔案類型、Samba 及任何其他遠端通訊協定 (取決於 GIO 及 GStreamer)。\n        在幾秒鐘內快速載入和解析數以千計的音樂檔案，監控本機變更。\n        對於包含專輯封面 (內嵌與外接) 的大型音樂收藏，記憶體使用量低，無須儲存縮圖快取。\n        依專輯/歌手/標題分類與排序、隨機播放清單、全文檢索。\n        適用於不同螢幕 (桌上型電腦、平板電腦、行動裝置) 的流暢自適應使用者介面。\n        高斯模糊封面作為背景，遵循 GNOME 明暗模式。\n        支援建立與編輯播放清單，拖曳封面可變更順序或加入另一個播放清單。\n        支援與其他應用拖放功能。\n        支援音訊峰值顯示器。\n        支援無間隙播放。\n        支援使用 ReplayGain 將音量正常化。\n        支援指定的音訊輸出。\n        支援 MPRIS 控制。\n      \n    ",
+          "name": "無暇",
+          "summary": "優雅地播放您的音樂"
+        },
         "hi": {
           "name": "गैपलेस"
         },
@@ -476,6 +486,11 @@
           "name": "Sao lưu dự phòng Pika",
           "summary": "Giữ dữ liệu của bạn được an toàn"
         },
+        "zh-Hans": {
+          "description": "以简单的方式进行备份。插入您的 USB 驱动器并让 Pika 为您做其余的事情。\n      \n        创建本地和远程备份\n        为常规备份设置计划\n        节省时间和磁盘空间，因为 Pika 备份不需要再次复制已知数据\n        加密您的备份\n        列出已创建的归档文件并浏览其内容\n        通过您的文件浏览器来恢复文件或文件夹\n      \n      Pika 备份被设计用来保存您的私人数据并且不支持完整系统恢复。Pika 备份由经过良好测试的 BorgBackup 软件强力支持。\n    ",
+          "name": "Pika 备份",
+          "summary": "保护您的数据安全"
+        },
         "oc": {
           "name": "Pika Backup"
         }
@@ -689,6 +704,16 @@
           "description": "Déjà Dup là một công cụ sao lưu đơn giản. Nó ẩn sự phức tạp của sao lưu đúng cách (mã hóa, off-site, và thường xuyên) và sử dụng duplicity là ứng dụng chạy phía sau.\n      \n        Hỗ trợ các vị trí sao lưu cục bộ, từ xa hoặc đám mây như Google Drive\n        Mã hóa và nén dữ liệu của bạn một cách an toàn\n        Sao lưu dần dần, cho phép bạn khôi phục từ bất kỳ bản sao lưu cụ thể nào\n        Lên lịch sao lưu dự phòng thường xuyên\n        Tích hợp tốt với môi trường máy tính để bàn GNOME của bạn\n      \n      Déjà Dup hướng đến sử dụng và khôi phục dễ dàng từ mất dữ liệu do tai nạn, chủ quan. Nếu bạn cần một sao lưu dự phòng hệ thống đầy đủ hoặc một chương trình lưu trữ, bạn nên xem xét đến các ứng dụng sao lưu dự phòng khác.\n    ",
           "name": "Sao lưu dự phòng Déjà Dup",
           "summary": "Bảo vệ bản thân bạn không bị mất dữ liệu"
+        },
+        "zh-Hans": {
+          "description": "Déjà Dup 是一个简易备份工具。它隐藏了合理备份的复杂机制（加密、异地和定期），并使用 dupicity 作为后端。\n      \n        支持本地、远程或云端备份位置，例如 Google Drive\n        安全地加密并压缩您的数据\n        增量式备份，让您可以从任何特定备份点恢复\n        计划定期备份\n        与您的 GNOME 桌面无缝集成\n      \n      Déjà Dup 注重于简化个人从意外数据丢失中的恢复和工具使用。如果您需要整个系统的备份或归档程序，则可能需要其他备份应用。\n    ",
+          "name": "Déjà Dup 备份",
+          "summary": "保护您免受数据丢失困扰"
+        },
+        "zh-Hant": {
+          "description": "Déjà Dup 是個簡易備份工具。其將備份背後的複雜性 (加密、離站、定期) 隱藏得很好，並以 dupicity 作為後端程式。\n      \n        支援本機、遠端備份，以及 Google Drive 之類的雲端備份\n        安全地加密並儲存您的資料\n        增量式備份，讓您可從任何一個備份還原資料\n        定期備份\n        與 GNOME 桌面緊密整合\n      \n      Déjà Dup 的目標是要讓使用者可以在個人資料遺失，或資料意外遺失的狀況下輕鬆還原。如果您需要完整的系統備份功能，或是封存檔案用的程式，您可能要參考其他備份軟體。\n    ",
+          "name": "Déjà Dup 備份",
+          "summary": "保護您的資料不流失"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -894,6 +919,11 @@
           "description": "监控您的CPU、内存、硬盘、网络和GPU使用情况\n      功能：\n      \n        监控整体或每个核心的CPU使用情况\n        查看系统进程、线程和句柄数量、运行时间、时钟频率（基本频率和当前频率）、缓存大小\n        监控 RAM 和 Swap 使用情況\n        查看系统使用内存的详细信息\n        监控磁盘使用情况和传输速率\n        监控网络使用情况和传输速度\n        查看网络接口信息，如网卡名称、连接类型（Wi-Fi 或 Ethernet）、无线速度和频率、硬件地址、IP 地址\n        监控GPU整体使用情况，视频编码器和解码器使用情况，内存使用情况和功耗，由受欢迎项目NVTOP提供支持\n        查看应用程序和进程的资源使用详细信息\n        支持缩小的摘要视图以进行简单监控\n        使用 GTK4 和 Libadwaita\n        使用 Rust 编写\n      \n      限制（目前正在努力克服这些限制）：\n      \n        没有单个进程网络使用情况\n        GPU支持是实验性的\n      \n      欢迎提供评论、建议、bug报告和贡献\n    ",
           "name": "任务中心",
           "summary": "监控系统资源使用情况"
+        },
+        "zh-Hant": {
+          "description": "監控您的 CPU、記憶體、磁碟、網路和 GPU 使用情況\n      功能：\n      \n        監控整體或每個執行緒的 CPU 使用情況\n        檢視系統進程、執行緒和控制代碼數量、運作時間、時脈（基礎及目前）、快取大小\n        監控 RAM 和 Swap 使用情況\n        檢視系統如何使用記憶體的詳細資訊\n        監控磁碟使用情況和傳輸速率\n        監控網路使用情況和傳輸速度\n        檢視網路介面資訊，如網路卡名稱、連線類型（Wi-Fi 或 Ethernet）、無線速度和頻率、硬體位址、IP 位址\n        監控整體 GPU 使用情況、視訊編碼器和解碼器使用情況、記憶體使用情況和功耗，由熱門的 NVTOP 專案提供支援\n        檢視應用程式和進程的資源使用詳細資訊\n        支援以精簡的摘要視圖進行簡單監控\n        使用硬體加速渲染所有圖表，以盡可能減少 CPU 和整體資源使用\n        使用 GTK4 和 Libadwaita\n        使用 Rust 撰寫\n      \n      限制（目前正在努力克服這些限制）：\n      \n        沒有每個進程的網路使用情況\n        GPU 支援是實驗性的\n        僅 Broadwell 及更高版本的 GPU 支援 Intel GPU 監控；且不支援 VRAM、電源或溫度監控\n        使用 Linux Mint/Cinnamon 時，啟動的應用程式可能不會顯示在「應用程式」部分（上游問題：https://github.com/linuxmint/cinnamon/issues/12015）\n      \n      歡迎提供評論、建議、錯誤報告和貢獻\n    ",
+          "name": "任務中心",
+          "summary": "監控系統資源使用情況"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -1033,6 +1063,16 @@
           "description": "Універсальна програма-будильник для робочих станцій та мобільних пристроїв. Реалізовано таймер та загальносвітовий годинник, можна встановлювати декілька нагадувань та таймерів.\n      Передбачено будильник, таймер та секундомір, а також функціональні можливості з роботи у різних часових поясах. Будильники і таймери здатні пробуджувати пристрій зі стану сну, якщо на ньому використовується Плазма.\n    ",
           "name": "Годинник",
           "summary": "Розклад та встановлення нагадувань"
+        },
+        "zh-Hans": {
+          "description": "一款同时支持桌面和手机环境的时钟应用。带有秒表和世界时钟，还可以设置多个闹钟和计时器。\n      它包含闹钟、计时器、秒表和时区功能。闹钟和计时器能够在 Plasma 上唤醒设备。\n    ",
+          "name": "时钟",
+          "summary": "显示时间和设置闹钟"
+        },
+        "zh-Hant": {
+          "description": "桌面與手機通用的時鐘應用程式。《時鐘》包含碼錶與世界時鐘功能，也讓您設定多個鬧鐘和計時器。\n      它包含鬧鐘、計時器、碼錶與時區的功能。鬧鐘和計時器在使用 Plasma 時可以將裝置從睡眠中喚醒。\n    ",
+          "name": "時鐘",
+          "summary": "看時間並設定鬧鐘"
         },
         "ar": {
           "name": "الساعة"
@@ -1410,6 +1450,16 @@
           "description": "Warp cho phép bạn gửi các tập tin một cách an toàn cho nhau qua mạng internet hoặc nội bộ bằng cách trao đổi mã dựa-trên-từ.\n      Phương thức truyền tải tốt nhất sẽ được quyết định sử dụng giao thức “Magic Wormhole”, cái mà bao gồm truyền tải mạng nội bộ nếu được.\n      Các tính năng\n      \n        Gửi các tập tin giữa nhiều thiết bị\n        Mọi tập tin truyền đi đều được mã hóa\n        Truyền tập tin trực tiếp trong mạng nội bộ nếu được\n        Cần kết nối Internet\n      \n    ",
           "name": "Warp",
           "summary": "Truyền tập tin nhanh và bảo mật"
+        },
+        "zh-Hans": {
+          "description": "使用 Warp 可以基于文本代码在互联网或局域网中安全地进行文件交换。\n      好的文件传输方式应当致力于尽可能使用具有本地网络传输功能的“魔法虫洞”协议。\n      特性\n      \n        多设备间发送文件\n        所传输的每个文件都进行了加密\n        如果可能的话在局域网中使用直传方式\n        请先连接网络\n        支持二维码\n        与“魔法虫洞”命令行客户端以及其它同类应用保持兼容\n      \n    ",
+          "name": "Warp",
+          "summary": "快捷、安全的文件传输工具"
+        },
+        "zh-Hant": {
+          "description": "《傳送門》讓您可以透過交換由單字構成的代碼，就能在網際網路或本地端網路上，安全傳送檔案給彼此。\n      最佳的傳輸方法會使用「Magic Wormhole」協定來判斷，也會把本地端網路傳輸包含在內。\n      功能\n      \n        在多個裝置之間傳送檔案\n        每次檔案傳輸都有加密\n        如果可行就直接在本地端網路傳送檔案\n        需要網際網路連線\n        QR 圖碼支援\n        與神奇蟲洞 (Magic Wormhole) 命令列客戶端及其他所有相容應用程式之間皆相容\n      \n    ",
+          "name": "傳送門",
+          "summary": "快速且安全的檔案傳輸"
         }
       },
       "project_license": "GPL-3.0",
@@ -1624,6 +1674,11 @@
           "name": "Подкасти",
           "summary": "Слухайте ваші улюблені радіопрограми"
         },
+        "zh-Hans": {
+          "description": "通过与 GNOME 无缝集成的轻量界面来播放、更新和管理您的播客。博客支持播放多种音频格式和记住您停止收听的位置。您可以通过 RSS/Atom、iTunes 和 Soundcloud 链接来订阅节目。可以通过 OPML 文件导入其它应用的订阅。\n    ",
+          "name": "播客",
+          "summary": "收听您最爱的节目"
+        },
         "it": {
           "name": "Podcast"
         },
@@ -1768,6 +1823,11 @@
           "description": "Disk görüntülerini sürücülerinize kolaylıkla yazın. Bir görüntü seçin, sürücünüzü takın ve işlem tamam! Impression, hem dağıtım denemeyi seven, hem de günlük bilgisayar kullanıcıları için kullanışlı bir araçtır.\n    ",
           "name": "Impression",
           "summary": "Önyüklenebilir USB sürücü oluştur"
+        },
+        "zh-Hans": {
+          "description": "轻松地将磁盘映像写入驱动器。选择一个镜像，插入驱动器，就可以开始了！Impression对于狂热的发行版爱好者和普通的计算机用户来说都是一个有用的工具。\n    ",
+          "name": "Impression",
+          "summary": "创建可引导驱动器"
         },
         "it": {
           "name": "Impression",
@@ -2053,6 +2113,16 @@
           "description": "Duyệt xem ảnh của bạn và xem siêu dữ liệu của chúng với:\n      \n        Dùng GPU để tăng tốc vẽ ảnh\n        Vẽ dạng lát gạch cho đồ họa véc-tơ\n        Giải mã hình ảnh mở rộng được và chạy trong hộp cát được\n        Tiếp cận được phần trình chiếu của siêu dữ liệu quan trọng nhất.\n      \n    ",
           "name": "Bộ xem ảnh",
           "summary": "Xem ảnh"
+        },
+        "zh-Hans": {
+          "description": "浏览您的图像并检查其元数据：\n      \n        快速的 GPU 加速图像渲染\n        分块渲染矢量图形\n        可扩展和沙盒化的图像解码\n        对最重要元数据的可访问呈现。\n      \n    ",
+          "name": "图像查看器",
+          "summary": "查看图像"
+        },
+        "zh-Hant": {
+          "description": "《影像檢視器》是用於瀏覽影像及查看其中介資料的應用程式；本程式具備下述特點：\n      \n        使用「GPU 加速」技術縮短影像算繪時間\n        以高效率「圖塊架構」算繪向量圖形\n        採用具「可擴展性」與「沙盒機制」的影像解碼器\n        便用於呈現數種重要影像中介資料。\n      \n    ",
+          "name": "影像檢視器",
+          "summary": "檢視各種影像檔案"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -2161,6 +2231,12 @@
         },
         "pt": {
           "summary": "Interface em GTK para o editor de texto xi"
+        },
+        "zh-Hans": {
+          "summary": "文本编辑器 xi 的 GTK 前端"
+        },
+        "zh-Hant": {
+          "summary": "文本編輯器 xi 的 GTK 前端"
         }
       },
       "project_license": "MIT",
@@ -2441,6 +2517,15 @@
         "uk": {
           "description": "Також може допомогти вам заснути в гамірному середовищі.\n      Можливості:\n      \n        Зберегти поєднання\n        Додати власні звуки\n        Автозапуск у фоновому режимі\n        Інтеграція MPRIS\n      \n      \n        Птахи\n        Човен\n        Місто\n        Кав'ярня\n        Камін\n        Рожевий шум\n        Дощ\n        Літня ніч\n        Буря\n        Потічок\n        Потяг\n        Хвилі\n        Білий шум\n        Вітер\n      \n    ",
           "name": "Blanket"
+        },
+        "zh-Hans": {
+          "description": "通过白噪音使您集中注意力并提高生产力\n      也能使您在嘈杂的环境中安然入睡。\n      功能特性：\n      \n        保存预设\n        添加自定义音频\n        系统启动后自动运行\n        MPRIS集成\n      \n      应用包含以下声音：\n      \n        鸟鸣\n        轮船\n        城市\n        咖啡厅\n        壁炉\n        粉红噪音\n        雨\n        夏夜\n        风暴\n        小溪\n        火车\n        海浪\n        白噪音\n        大风\n      \n    ",
+          "name": "Blanket",
+          "summary": "聆听环境声音"
+        },
+        "zh-Hant": {
+          "description": "\n        鳥鳴\n        船隻\n        城市\n        咖啡廳\n        壁爐\n        粉紅噪音\n        下雨\n        夏夜\n        暴風\n        水流\n        火車\n        波浪\n        白噪音\n        風吹\n      \n    ",
+          "name": "Blanket"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -2688,8 +2773,15 @@
           "description": "Досліджуйте новий розділ читаючи з Foliate - сучасною читалкою електронних книг адаптованою для GNOME. Заглибтеся у читання з не відволікаючим інтерфейсом з налаштуваннями функцій під ваші особисті уподобання.\n      Можливості:\n      \n        Вміє відкривати EPUB, Mobipocket, Kindle, FB2, CBZ, та PDF файли\n        Посторінковий і режим гортання\n        Налаштування шрифтів та міжстрочний інтервал\n        Світлий, сепія, темний та інвертовані стилі\n        Прогрес читання з підтримкою закладок\n        Примітки та нотатки\n        Пошук в книзі\n        Швидкий пошук у словнику\n      \n    ",
           "summary": "Читайте електронні книги у стилі"
         },
+        "zh-Hans": {
+          "description": "使用 Foliate 这一为 GNOME 量身定做的现代电子书阅读器在阅读中发现新的篇章。通过设计为匹配您独特首选项的自定义特性，将您自己沉浸在无干扰的界面中。\n      特性包括：\n      \n        打开 EPUB、Mobipocket、Kindle、FB2、CBZ 和 PDF 文件\n        分页模式和滚动模式\n        自定义字体和行间距\n        亮色、褐色、暗色和反转模式\n        带有章节标记的阅读进度滑动条\n        书签和笔记\n        书籍中查找\n        快速的词典查询\n      \n    ",
+          "summary": "别具风格地阅读电子书"
+        },
         "ar": {
           "summary": "اقرأ الكتب الإلكترونية بأسلوب أنيق"
+        },
+        "zh-Hant": {
+          "summary": "風格化的電子書閱讀"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -2796,6 +2888,16 @@
           "description": "Ruffle це емулятор Flash Player, написаний на Rust. Використовуючи гарантії безпеки Rust, ми можемо впевнено уникнути всі підводні камені безпеки, якими славиться Flash. Ruffle повертає Flash в інтернет, де йому й місце!\n      Цей застосунок дає змогу запускати Flash контент на вашому комп’ютері без проміжного браузера та повністю використовувати переваги вашого GPU та системних ресурсів, щоб отримати додаткові кадри під час відтворення інтенсивних ігор.\n      Ruffle це проект з повністю відкритим кодом, який підтримується волонтерами. Ми всі захоплені збереженням історії інтернету, і ми залучені в роботу над цим проектом, щоб допомогти зберегти багато вебсайтів і велику кількість контенту, який більше не доступний, якщо користувачі більше не можуть запускати офіційний Flash Player. Якщо ви бажаєте допомогти підтримати цей проект, ми вітаємо будь-які внески, навіть якщо це просто гра в старі ігри та спостереження за тим, як добре вони працюють.\n    ",
           "name": "Ruffle",
           "summary": "Відтворюйте Flash ігри та фільми"
+        },
+        "zh-Hans": {
+          "description": "Ruffle 是一个用 Rust 编写的 Flash Player 模拟器，借助 Rust 的安全性保证，我们确信可以避免 Flash 众所周知的各种安全漏洞。Ruffle 将 Flash 重新带回网络，它原本所在的地方！\n      这款应用程序让您可以在电脑上直接运行 Flash 内容，无需浏览器作为中介，并充分利用您的 GPU 和系统资源，在游玩高负载游戏时获得更高的帧数。\n      Ruffle 是一个完全开源的项目，由志愿者维护。我们热衷于保存互联网的历史，因此参与这个项目，以帮助保存将在官方的 Flash 播放器时无法运行后不可使用的众多网站和丰富内容。如果您想支持这个项目，我们欢迎任何形式的贡献——即使只是玩一些老游戏，看看它们的运行效果如何。\n    ",
+          "name": "Ruffle",
+          "summary": "播放 Flash 游戏和动画"
+        },
+        "zh-Hant": {
+          "description": "Ruffle 是用 Rust 寫成的 Flash Player 模擬器。利用 Rust 的安全保證，我們可以放心地避免 Flash 聲名狼藉的所有安全隱患。Ruffle 將 Flash 放回屬於它的網頁上！\n      此應用程式可讓您在電腦上執行 Flash 內容，中間無需瀏覽器，並可充分利用 GPU 和系統資源，在玩激烈遊戲時獲得額外的畫面。\n      Ruffle 是一個完全由志願者維護的開放原始碼專案。我們都熱衷於網際網路歷史的保存，我們被吸引參與這個專案，以幫助保存許多網站和大量的內容，當使用者無法再執行官方的 Flash Player 時，這些網站和內容就無法再被存取。如果您願意協助支持此專案，我們歡迎任何形式的貢獻 - 即使只是玩一些舊遊戲，看看它們運行得有多好。\n    ",
+          "name": "Ruffle",
+          "summary": "播放 Flash 遊戲和 & 動畫"
         }
       },
       "project_license": "MIT OR Apache-2.0",
@@ -2944,6 +3046,11 @@
         "uk": {
           "description": "Flatseal — це графічна утиліта для перегляду та зміни дозволів ваших додатків Flatpak.\n    ",
           "summary": "Керуйте дозволами Flatpak"
+        },
+        "zh-Hans": {
+          "description": "Flatseal 是一个可以查看并修改 Flatpak 程序权限的图形工具。\n    ",
+          "name": "Flatseal",
+          "summary": "管理 Flatpak 权限"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -3039,6 +3146,10 @@
         "tr": {
           "description": "Iotas, mobil öncelikli tasarımıyla dikkat dağıtmayan not alma imkanı sunmayı amaçlıyor.\n      Öne çıkanlar\n      \n        Nextcloud Notes ile isteğe bağlı hızlı eşzamanlama\n        Çevrim dışı not düzenleme, çevrim içi olunca eşzamanlama\n        Kategori düzenleme ve süzme\n        Gözdeler\n        Yazım denetimi\n        Derleme içinde ya da tek tek notlarda arama\n        Odak kipi ve editör başlık çubuğunu gizleme seçeneği\n        Ön izlemede: PDF, ODT ve HTML olarak dışa aktarma\n        Masaüstünde olduğu kadar mobil aygıtlarda da güzel görünen yakınsak tasarım\n        GNOME Shell'den Ara\n        Not yedekleme ve geri yükleme (komut satırından, eşzamanlama olmadan kullanmak için)\n        Yazı tipi boyutunu değiştirme ve eş aralıklı biçemi değiştirme yeteneği\n      \n      Markdown ile yazmak desteklenmektedir ancak isteğe bağlıdır\n      \n        Temalarla söz dizimi vurgulama\n        Biçimlendirilmiş görünüm\n        Biçimlendirilmiş görünümden görev listelerini işaretleme yeteneği\n      \n      Bu tür şeylere meraklı olanlar için biraz daha teknik detaylar\n      \n        Nextcloud Notlar eşzamanlaması WebDAV değil, REST API aracılığıyladır, bu da onu çok daha hızlı yapar\n        Temel eşzamanlama çakışması algılandı\n        Notlar düzenli kaydedilir\n        Büyük not koleksiyonları başlatmayı hızlandırmak için parçalı yüklenir\n        Notlar SQLite olarak saklanır ve hızlı arama sağlar. Düz dosyalar yedekleme (CLI) yapılarak geri alınabilir.\n      \n    ",
           "summary": "Basit not alma"
+        },
+        "zh-Hans": {
+          "description": "Iotas 通过其移动应用优先的设计来提供无干扰的笔记编写体验。\n      特性\n      \n        可选的与 Nextcloud 笔记快速同步\n        离线笔记编辑，恢复在线时同步\n        编辑和筛选分类\n        最爱\n        拼写检查\n        在集合或单独笔记中搜索\n        专注模式和隐藏编辑器标头栏的选项\n        预览中：导出为 PDF、ODT 和 HTML\n        趋同设计，在桌面应用中获得如同移动应用的家的体验\n        从 GNOME Shell 中搜索\n        笔记备份和恢复（来自命令行，用于不使用同步的情况）\n        可以更改字体大小和切换等宽样式\n      \n      提供了对 Markdown 编写的可选支持\n      \n        通过工具栏和快捷键格式化\n        带主题的语法高亮\n        格式化的视图\n        可从格式化视图核对任务列表\n      \n      对专业人士有更多的技术细节\n      \n        Nextcloud 笔记同步是通过 REST 接口实现的而不是 WebDAV，这使其更加简洁\n        具有基本的同步冲突检测\n        笔记会时常保存\n        大型笔记集合会部分加载来加快启动速度\n        笔记存储在 SQLite 中，不需要重复造轮子即可提供快速搜索功能。纯文本文件可通过备份取回（命令行）。\n      \n    ",
+          "summary": "简单的笔记应用"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -3332,6 +3443,16 @@
           "description": "Video Trimmer вирізає фрагмент відеозапису з урахуванням часових позначок початку та кінця. Відео ніколи не перекодовується, тому процес дуже швидкий і не знижує якість відеозапису.\n    ",
           "name": "Video Trimmer",
           "summary": "Обрізати відеозаписи швидко"
+        },
+        "zh-Hans": {
+          "description": "视频剪裁器根据指定的开始和结束时间戳来剪裁出视频片段。视频不会被重新编码，所以这个过程非常快且不会降低视频质量。\n    ",
+          "name": "视频剪裁器",
+          "summary": "快速剪裁视频"
+        },
+        "zh-Hant": {
+          "description": "Video Trimmer 會剪掉影片開頭和結尾額外的部分。提供開頭和結尾的時間戳之後，Video Trimmer 就會將不在範圍內的部分剪掉。影片不會被重新編碼，所以整個流程非常快也不會降低影片品質。\n    ",
+          "name": "Video Trimmer",
+          "summary": "快速修剪影片"
         },
         "ar": {
           "name": "قاطع الفيديو",
@@ -3772,6 +3893,11 @@
           "name": "AudioTube",
           "summary": "Музична програма для YouTube"
         },
+        "zh-Hant": {
+          "description": "AudioTube 可以搜尋 YouTube Music、列出專輯與藝人、播放專輯或自動產生的播放清單，也讓您建立自己的播放清單。它同時設計給行動裝置與桌面電腦使用。\n    ",
+          "name": "AudioTube",
+          "summary": "YouTube Music 應用程式"
+        },
         "ar": {
           "name": "تيوب الصوتي"
         },
@@ -3798,6 +3924,9 @@
           "name": "AudioTube"
         },
         "ro": {
+          "name": "AudioTube"
+        },
+        "zh-Hans": {
           "name": "AudioTube"
         }
       },
@@ -4056,6 +4185,11 @@
           "name": "Візуалізатор Massif",
           "summary": "Засіб візуалізації файлів даних Massif Valgrind"
         },
+        "zh-Hant": {
+          "description": "《Massif 視覺化工具》顧名思義是用來視覺化 Massif 資料的工具。首先透過 Valgrind 利用 --tool=massif 選項執行您的應用程式，然後用這個視覺化工具開啟產生的 massif.out.%pid。也支援直接開啟以 Gzip 或 Bzip2 壓縮的 Massif 檔案。\n      功能：\n      \n        記憶體消耗量變化的互動式圖表。\n        詳細的快照分析，視覺化顯示呼叫圖（需要 KGraphViewer）。\n        所有會配置記憶體的函式的記憶體用量高峰摘要。\n      \n    ",
+          "name": "Massif 視覺化工具",
+          "summary": "Valgrind 的 Massif 資料檔用的視覺化工具。"
+        },
         "cs": {
           "name": "Massif-Visualizer"
         },
@@ -4065,6 +4199,10 @@
         "ru": {
           "name": "Визуализатор Massif",
           "summary": "Программа для наглядного представления файлов данных Valgrind Massif"
+        },
+        "zh-Hans": {
+          "name": "Massif-Visualizer",
+          "summary": "用于 Valgrind Massif 数据文件的可视化工具"
         }
       },
       "project_license": "GPL-2.0+",
@@ -4271,6 +4409,10 @@
           "description": "Простий у користуванні клієнт BitTorrent. «Fragments» можна скористатися для передавання файлів за допомогою міжвузлового протоколу поширення файлів BitTorrent, зокрема відео, музики та образів для встановлення дистрибутивів Linux.\n      \n        Огляд усіх торентів з групуванням за станом\n        Планування порядку отримання за допомогою черги\n        Автоматичне виявлення посилань на торенти або маґнети у буфері обміну даними\n        Керування отриманням і доступ до окремих файлів торента\n        Встановлення з'єднання із віддаленими сеансами «Fragments» або «Transmission»\n      \n      Основою «Fragments» є проєкт Transmission BitTorrent.\n    ",
           "summary": "Керування торентами"
         },
+        "zh-Hans": {
+          "description": "一个简单易用的 BitTorrent 客户端。Fragments 可以用来通过 BitTorrent P2P 文件共享协议传输文件，比如视频、音乐或 Linux 发行版的安装镜像。\n      \n        概览按状态分组的所有种子\n        使用队列安排下载顺序\n        自动检测来自剪贴板的种子或磁力链接\n        管理和访问种子的单独文件\n        连接远程 Fragments 或 Transmission 会话\n      \n      Fragments 使用 Transmission BitTorrent 项目作为程序后端。\n    ",
+          "summary": "管理种子"
+        },
         "el": {
           "name": "Fragments"
         },
@@ -4281,6 +4423,9 @@
           "name": "Fragments"
         },
         "vi": {
+          "name": "Fragments"
+        },
+        "zh-Hant": {
           "name": "Fragments"
         }
       },
@@ -4435,6 +4580,14 @@
         "tr": {
           "description": "Dino masaüstü bilgisayarlar için modern, açık kaynaklı bir sohbet uygulamasıdır. Gizlilik hassasiyetinizi göz önünde bulundurarak temiz ve güvenilir bir Jabber/XMPP deneyimi sunmaya odaklanır.\n      OMEMO ve OpenPGP ile baştan sona şifreleme destekler ve \"okundu\" bilgisi, \"yazıyor...\" bildirimi gibi gizlilikle alakalı özelliklerin ayarlanabilmesini sağlar.\n      Dino sunucudan konuşma geçmişini sunucudan çeker ve diğer cihazlara senkronize eder.\n    ",
           "summary": "Modern XMPP Sohbet İstemcisi"
+        },
+        "zh-Hans": {
+          "description": "Dino 是一个现代的开源聊天桌面客户端。它致力于提供一个清爽又可靠的 Jabber/XMPP 体验，同时又保护您的隐私。\n      它支持 OMEMO 和 OpenPGP 端对端加密并允许配置隐私相关的特性比如已读回执和输入提醒。\n      Dino 从服务器获取消息并和其他设备同步。\n    ",
+          "summary": "现代 XMPP 聊天客户端"
+        },
+        "zh-Hant": {
+          "description": "Dino 是一個爲桌面打造的現代化開放原始碼用戶端聊天軟件。它致力於提供一份簡洁而可靠的 Jabber/XMPP 體驗，同時亦尊重您的私隱。\n      它支持 OMEMO 和 OpenPGP 兩種端到端加密方式，並且容許設定私隱相關的特性譬如已讀回條和正在輸入提示。\n      Dino 從伺服器取得訊息並與其他裝置同步。\n    ",
+          "summary": "現代化的 XMPP 用戶端聊天軟件"
         }
       },
       "project_license": "GPL-3.0+",
@@ -4593,6 +4746,16 @@
           "description": "Поточні можливості:\n      \n        Показує звукову хвилю треку\n        Регулювання швидкості відтворення\n        Просте керування позицією відтворення\n      \n    ",
           "name": "Децибели",
           "summary": "Відтворювач аудіо файлів"
+        },
+        "zh-Hans": {
+          "description": "目前的功能：\n      \n        显示音频波形\n        调整播放速度\n        定位控制\n      \n    ",
+          "name": "Decibels",
+          "summary": "播放音频文件"
+        },
+        "zh-Hant": {
+          "description": "目前的功能：\n      \n        顯示音軌的波形\n        調整播放速度\n        簡易搜尋控制\n      \n    ",
+          "name": "Decibels",
+          "summary": "播放音訊檔案"
         }
       },
       "project_license": "GPL-3.0",
@@ -4864,6 +5027,11 @@
           "description": "Якщо ви працювали з LaTeX, вам відомі ці проблеми із запам'ятовуванням назв усіх символів. За допомогою «Ієрогліфік» ви зможете виконувати пошук за ескізом серед понад 1000 різних символів LaTeX.\n    ",
           "name": "Ієрогліфік",
           "summary": "Пошук символів LaTeX"
+        },
+        "zh-Hans": {
+          "description": "如果您使用 LaTeX 则应知道记忆所有符号的名称非常困难。Hieroglyphic 可让您通过画草图来搜索 1000 多种不同的 LaTeX 符号。\n    ",
+          "name": "Hieroglyphic",
+          "summary": "查找 LaTeX 符号"
         },
         "hu": {
           "name": "Hieroglyphic",
@@ -5234,6 +5402,16 @@
           "name": "Tokodon",
           "summary": "Навігація Fediverse"
         },
+        "zh-Hans": {
+          "description": "Tokodon 是一个 Mastodon 客户端。它允许您与 Fediverse 社区进行交互。\n    ",
+          "name": "Tokodon",
+          "summary": "浏览Fediverse"
+        },
+        "zh-Hant": {
+          "description": "Tokodon 是一個 Mastodon 用戶端。它讓您與聯邦宇宙社群進行互動。\n    ",
+          "name": "Tokodon",
+          "summary": "瀏覽聯邦宇宙"
+        },
         "cs": {
           "name": "Tokodon"
         },
@@ -5475,6 +5653,15 @@
           "description": "«Будівник» є комплексним середовищем розробки (IDE) для GNOME із інтенсивним процесом розробляння. У програмі поєднано інтегровану підтримку основних технологій GNOME, зокрема GTK+, GLib, та програмних інтерфейсів GNOME, із можливостями, які подобаються усім розробникам, зокрема підсвічуванням синтаксичних конструкцій та фрагментами.\n      Випуски «Будівника» стабільно синхронізовано із випусками GNOME, які відбуваються кожні шість місяців.\n      Можливості:\n      \n        Вбудоване підсвічування синтаксичних конструкцій для багатьох мов програмування\n        Панелі паралельного редагування коду\n        Підтримка конфігурацій із багатьма моніторами\n        Мінікарта для огляду коду\n        Інтеграція із Git\n        Інтеграція із Autotools, Cargo, CMake, Gradle, Meson, Maven, Make, PHPize та Waf\n        Автоматичне доповнення коду на основі Clang, семантичне підсвічування та діагностика\n        Автоматичне доповнення коду на основі Python, семантичне підсвічування та діагностика\n        Автоматичне доповнення та діагностика коду Vala\n        Підтримка автоматичних відступів у коді для C, Python, Vala та XML\n        Інтерактивний перегляд результатів обробки коду HTML, Markdown, reStructuredText та Sphinx\n        Можливе редагування коду у стилі Vim, Emacs та SublimeText\n        Інтегрований засіб профілювання для «рідних» програм\n        Інтегрований засіб діагностики для «рідних» програм\n        Підтримка збирання пакунків-комплектів jhbuild та flatpak\n        Підтримка перегляду записів TODO у коді\n        Швидкий нечіткий пошук тексту у файлах та символах\n      \n    ",
           "name": "Будівник",
           "summary": "Створення програм для GNOME"
+        },
+        "zh-Hans": {
+          "description": "构建器是一个为 GNOME 打造的集成开发环境，目前正在积极开发中。它集成了对 GNOME 所必需的技术的支持，如 GTK+、GLib 和 GNOME API 等，并结合了像语法高亮和代码片段等任何开发者都会重视的特性。\n      按 GNOME 每六个月的发布周期，您可以预见每次构建器的发布时间。\n      特性：\n      \n        为许多语言内置的语法高亮\n        分栏式代码编辑器\n        多显示器支持\n        代码概览图\n        Git 集成\n        Autotools、Cargo、CMake、Gradle、Meson、Maven、Make、PHPize 和 waf 集成\n        基于 Clang 的自动补全、语义高亮和诊断\n        基于 Python 的自动补全、语义高亮和诊断\n        基于 Vala 的自动补全和语法诊断\n        支持 C、Python、Vala 和 XML 的自动缩进\n        HTML、Markdown、重组织文本和 Sphinx 实时预览\n        可选的 Vim、Emacs 和 SublimeText 编辑风格\n        为本地应用程序集成的软件分析器\n        一个集成的本地应用程序调试工具\n        支持用 jhbuild 和 flatpak 运行时进行构建\n        支持查看您的代码里发现的待办事项\n        跨越文件和符号的快速模糊文本搜索\n      \n    ",
+          "name": "构建器",
+          "summary": "为 GNOME 创建应用程序"
+        },
+        "zh-Hant": {
+          "description": "Builder 是 積極開發的 GNOME 整合式開發環境。它結合 GTK +、Glib 和 GNOME API 等基本的 GNOME 技術整合的支援，以及任何開發人員都讚賞，像語法標示和文字片段的功能。\n      您可以預期 Builder 會隨著 GNOME 每六個月的更新周期推出新的釋出版本。\n      功能：\n      \n        內建許多語言的語法標示\n        同步程式碼編輯器\n        整合 Git\n        基於 Clang 的自動補齊、語義標示和診斷\n        基於 Python 的自動補齊、語義標示和診斷\n        基於 Vala 的自動補齊和診斷\n        C、Python、Vala 和 XML 的自動縮排支援\n        對原生應用程式整合的軟體效能分析器\n      \n    ",
+          "name": "Builder"
         },
         "ja": {
           "name": "ビルダー"
@@ -6421,6 +6608,16 @@
           "name": "Очищувач метаданих",
           "summary": "Переглянути й очистити метадані у файлах"
         },
+        "zh-Hans": {
+          "description": "文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档和电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。\n      此工具可以用来尽可能地查看或删除文件里的元数据。\n    ",
+          "name": "属性信息删除器",
+          "summary": "查看、删除文件里的元数据"
+        },
+        "zh-Hant": {
+          "description": "檔案中的元資料可以告訴您很多關於您的資訊。相機會記錄拍照時的時間、地點以及使用的設備。辦公套件會自動將作者和公司資訊添加到檔案和電子試算表檔中。這是敏感信息，您可能不想透露它。\n      該工具可讓您查看並儘可能的刪除檔案中的元資料。\n    ",
+          "name": "元資料刪除器",
+          "summary": "查看並刪除檔案中的元資料"
+        },
         "be": {
           "name": "Ачышчальнік метаданых"
         },
@@ -6530,6 +6727,11 @@
           "description": "Bustle малює діаграми послідовностей дій D-Bus. Програма показує місця видання сигналів, виклики методів та відповідні результати з часовими позначками для кожної окремої події та тривалостями для кожного виклику методу. Це допоможе вам стежити за небажаним обміном даними D-Bus та визначати точні причини того, що ваша заснована на D-Bus програма поводить себе не так, як ви сподівалися. Також програма надає статистичні дані, зокрема частоти сигналів та середні тривалості викликів методів.\n    ",
           "name": "Bustle",
           "summary": "Візуалізація дій D-Bus"
+        },
+        "zh-Hans": {
+          "description": "Bustle 绘制 D-Bus 活动的序列图表。它显示了信号发射、方法调用和它们相应的返回，带有时间戳的每个独立事件和每个方法调用的时长。这可以帮助您检查不需要的 D-Bus 交流，以及您基于 D-Bus 的应用程序为什么未按照预期良好运行的精确位置。它也提供了诸如信号频率和平均方法调用时间等的统计信息。\n    ",
+          "name": "Bustle",
+          "summary": "可视化 D-Bus 活动"
         }
       },
       "project_license": "LGPL-2.1-or-later",
@@ -6691,6 +6893,16 @@
           "description": "Elisa — музичний програвач, який розроблено спільнотою KDE. Автори програми прагнуть зробити її простою та приємною у користуванні.\n      За допомогою Elisa ви можете здійснювати навігацію вашою музичною збіркою за жанром, виконавцем, альбомом або композицією, прослуховувати інтернет-радіо, створювати списки відтворення та керувати ними, переглядати тексти пісень тощо.\n      В Elisa передбачено підтримку усієї вашої схеми кольорів KDE, якщо програму запущено у стільниці Плазми. Інакше буде використано стандартні світлий або темний режими.\n      Розслабтеся у режимі вечірки, коли супровідні зображення вашого музичного альбому буде розташовано спереду і у центрі.\n    ",
           "name": "Elisa",
           "summary": "Відтворення музичних творів та прослуховування інтернет-радіостанцій"
+        },
+        "zh-Hans": {
+          "description": "Elisa 是 KDE 社区开发的一款以简单易用为出发点的音乐播放器。\n      您可以通过 Elisa 按照流派、艺人、专辑、曲目等条件浏览您的本地音乐。它还支持收听网络电台、创建并管理播放列表、显示歌词等功能。\n      Elisa 在 Plasma 桌面环境下支持完整的 KDE 配色方案，在其他环境下也能支持标准的浅色和深色模式。\n      在聚会模式下，Elisa 将把专辑封面显示在画面中间最显眼的位置。\n    ",
+          "name": "Elisa 音乐播放器",
+          "summary": "播放音乐和收听网络电台"
+        },
+        "zh-Hant": {
+          "description": "Elisa 音樂播放器由 KDE 社群所開發，以簡潔好用為目標。\n      利用 Elisa，您可以依曲風、藝人、專輯，或音軌來瀏覽您的本機音樂收藏、聆聽線上廣播電台、建立與管理播放清單、檢視歌詞，還有更多功能。\n      Elisa 在 Plasma 桌面上使用時支援您的完整 KDE 配色方案，其他時候也支援標準的亮色與暗色模式。\n      用派對模式放鬆，這個模式將您的音樂的專輯封面最大化。\n    ",
+          "name": "Elisa",
+          "summary": "播放音樂或聆聽線上廣播電台"
         },
         "az": {
           "name": "Elisa"
@@ -7173,6 +7385,11 @@
           "description": "Програма для перегляду документів у середовищі GNOME. За її допомогою ви зможете переглядати документи у багатьох форматах, шукати у них дані та анотувати ці документи.\n      У «Паперах» передбачено підтримку документів у таких форматах: PDF, PS, EPS, XPS, DjVu, TIFF, а також архіви коміксів (CBR, CBT, CBZ, CB7).\n    ",
           "name": "Папери",
           "summary": "Читання документів"
+        },
+        "zh-Hans": {
+          "description": "GNOME 文档查看器。你可以查看、搜索或注释不同格式的文档。\n      Papers 支持的文档格式为：PDF、PS、EPS、XPS、DjVu、TIFF 和漫画书归档（CBR、CBT、CBZ、CB7）。\n    ",
+          "name": "Papers",
+          "summary": "阅读文档"
         }
       },
       "project_license": "GPL-2.0-or-later",
@@ -7595,6 +7812,11 @@
           "description": "Оберіть будь-який колір на вашому екрані та переглядайте його значення у різних кольорових форматах. Змініть обраний колір або поверніться до старого із списку історії обраних кольорів. Генеруйте різні відтінки із обраних кольорів.\n      Можливості\n      \n        Обирання кольорів\n        Ввід кольорів у шістнадцятковому форматі\n        Ввід кольорів у будь-якому форматі\n        Перегляд кольорів у шістнадцятковому, RGB, HSV, HSL, CMYK, XYZ і CIE-Lab форматах\n        Налаштування які формати будуть відображатися і у якому порядку\n        Генрування палітри різних відтінків\n      \n    ",
           "name": "Піпетка",
           "summary": "Обирайте та форматуйте кольори"
+        },
+        "zh-Hans": {
+          "description": "从您的屏幕上拾取任意颜色并以不同格式查看它。更改拾取的颜色或从历史列表返回至上个拾取的颜色。基于拾取的颜色生成不同暗调的列表。\n      特性\n      \n        拾取颜色\n        以 16 进制格式输入颜色\n        以不同格式输入颜色\n        以 16 进制、RGB、HSV、HSL、CMYK、XYZ 和 CIE-Lab 格式查看颜色\n        自定义显示的格式和它们的顺序\n        生成不同暗调的色板\n      \n    ",
+          "name": "Eyedropper",
+          "summary": "拾取并格式化颜色"
         }
       },
       "project_license": "GPL-3.0",
@@ -8446,6 +8668,16 @@
           "description": "Kết nối cho phép bạn kết nối và sử dụng các máy tính để bàn khác. Đây có thể là một cách tuyệt vời để truy cập nội dung hoặc phần mềm trên một hệ điều hành máy tính để bàn khác. Nó cũng có thể được sử dụng như một cách để cung cấp hỗ trợ cho những người dùng có thể cần giúp đỡ.\n      Một loạt các hệ điều hành khác nhau có thể được kết nối, bao gồm cả máy tính để bàn Linux và Windows. Bạn cũng có thể kết nối với các máy ảo.\n      Kết nối sử dụng các giao thức VNC và RDP được hỗ trợ rộng rãi và một trong số này phải được bật trên máy tính để bàn mà bạn muốn kết nối.\n    ",
           "name": "Kết nối",
           "summary": "Xem và sử dụng màn hình làm việc từ máy khác"
+        },
+        "zh-Hans": {
+          "description": "“连接”应用程序能够帮助您连接并使用其他桌面，从而方便地访问另一个桌面操作系统上的内容和软件。它也能作为向需要帮助的用户提供协助的方式。\n      程序可连接到不同的操作系统，包括 Linux 和 Windows 桌面。您也可以连接至虚拟机。\n      “连接”应用程序使用广泛支持的 VNC 和 RDP 协议，您想要连接的计算机必须预先启用其中的某个协议。\n    ",
+          "name": "连接",
+          "summary": "查看并使用其他桌面"
+        },
+        "zh-Hant": {
+          "description": "《連線》讓您能連線並使用其他桌面，可以方便地存取不同桌面作業系統上的內容或軟體，也能為需要求助的人提供支援。\n      除了能連線到 Linux 及 Windows 桌面，也能連線到虛擬主機。\n      《連線》用的是被廣泛支援的通訊協定：VNC 和 RDP，您需在欲連線的遠端桌面啟用上述其中一種通訊協定。\n    ",
+          "name": "連線",
+          "summary": "檢視和使用其他桌面"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -8829,6 +9061,11 @@
           "name": "Шрифти",
           "summary": "Переглянути шрифти на вашій системі"
         },
+        "zh-Hans": {
+          "description": "GNOME 字体 以缩略图的形式显示安装在您系统中的字体。选择任意一个缩略图可以完整查看该字体在不同字号下的显示效果。\n      GNOME 字体 还支持安装 .ttf 或其他格式下载的新字体文件。字体可以只为您一人安装使用，亦可为使用此计算机的所有用户安装。\n    ",
+          "name": "字体",
+          "summary": "查看您系统中的字体"
+        },
         "ar": {
           "name": "الخطوط",
           "summary": "اعرض الخطوط على نظامك"
@@ -8844,6 +9081,10 @@
         "vi": {
           "name": "Xem phông chữ",
           "summary": "Ứng dụng xem phông chữ trên hệ thống của bạn"
+        },
+        "zh-Hant": {
+          "name": "字型",
+          "summary": "檢視您系統上的字型"
         },
         "et": {
           "summary": "Kuva selles arvutis olevaid kirjatüüpe"
@@ -9130,6 +9371,16 @@
           "name": "Nhật ký máy",
           "summary": "Xem nhật ký sự kiện chi tiết của hệ thống"
         },
+        "zh-Hans": {
+          "description": "日志查看器 显示来自 systemd 的日志并按“硬件”、“应用程序”等进行分类。\n      使用 日志查看器 时您可以输入条件在日志中搜索，点击某个事件可以查看它的详细信息。\n    ",
+          "name": "日志",
+          "summary": "查看系统详细的事件日志"
+        },
+        "zh-Hant": {
+          "description": "《紀錄檔》能檢視 systemd 日誌事件，並將事件依據「硬體」或「應用程式」等類別排序。\n      《紀錄檔》能透過關鍵字來尋找特定的日誌訊息，點一下搜尋結果便能查看詳細資訊。\n    ",
+          "name": "紀錄檔",
+          "summary": "檢視詳細的系統事件紀錄檔"
+        },
         "ga": {
           "name": "Logaí"
         }
@@ -9302,6 +9553,11 @@
           "description": "Зіграйте у вкрай захопливу гру 2048. GNOME 2048 є клоном популярної гри для одного гравця. Гра полягає у поєднанні чисел на плитках у ґратці з метою отримання плитки із числом 2048.\n      Скористайтеся клавішами зі стрілками на вашій клавіатурі для пересування усіх плиток у бажаному напрямку. Будьте обережні: усі плитки пересуваються до найвіддаленішої можливої позиції — не можна пересунути лише одну плитку або один рядок чи стовпчик плиток. Плитки із однаковими числами під час пересування об'єднуються одна з одною.\n      Із отриманням нових плиток зростатиме ваш результат. Якщо вам здається, що отримати плитку 2048 надто просто, ви можете не зупинятися — гра не закінчується на цій плитці — ви можете продовжувати поєднувати плитки і поліпшувати ваш результат.\n      Першу версію гри було створено Габіелем Чіруллі. 2048 набула популярності через простоту і захопливість ігрового процесу. 2048 Чіруллі є клоном гри 1024, до якого включено ідеї, запозичені у інших клонів цієї гри.\n    ",
           "name": "GNOME 2048",
           "summary": "Отримайте плитку 2048"
+        },
+        "zh-Hans": {
+          "description": "玩很容易上瘾的游戏 2048。 GNOME 2048 是一款热门单机益智游戏的克隆版本。游戏玩法是将数字合并到一个网格中而获得2048。\n      使用键盘上的箭头键往所需方向滑动所有的方块。要小心：所有的方块将会尽可能滑到最远的位置，你不能滑动单独一个、一行或一列方块。具有相同值的方块在被滑动时将会被合并。\n      随着每一个新方块产生，你的分数都将会增加。如果你认为你可以轻松获得值为 2048 的方块，比赛还没有结束，你可以继续合并方块和来提高你的分数。\n      2048 最初由 Gabriele Cirulli 编写的，由于本身极容易上瘾，这款游戏已经获得相当的人气。Cirulli 的2048又是游戏1024的模仿品，也借鉴了其他模仿品的思路。\n    ",
+          "name": "GNOME 2048",
+          "summary": "获得值为 2048 的方块"
         },
         "ckb": {
           "name": "GNOME 2048"
@@ -9526,6 +9782,16 @@
           "description": "Зручна програма для показу прогнозів погоди для Плазми. Передбачено простий і динамічний/анімований режими перегляду для показу прогнозів погоди та іншої інформації.\n    ",
           "name": "Погода",
           "summary": "Перегляд інтерактивних прогнозів погоди та інших даних"
+        },
+        "zh-Hans": {
+          "description": "一款针对 Plasma 设计的桌面/移动平台通用天气预报应用。它可通过扁平视图、动态/动画视图来展示天气预报以及其他信息。\n    ",
+          "name": "天气",
+          "summary": "查看实时天气预报和其他信息"
+        },
+        "zh-Hant": {
+          "description": "一個 Plasma 用的跨平台天氣應用程式。提供天氣預報和其他資訊的扁平及動態檢視。\n    ",
+          "name": "天氣",
+          "summary": "檢視實時天氣預報和其他資訊"
         },
         "cs": {
           "name": "Počasí"
@@ -9993,6 +10259,16 @@
           "name": "Máy tính bỏ túi",
           "summary": "Chạy phép tính kiểu số học, khoa học hay tài chính"
         },
+        "zh-Hans": {
+          "description": "计算器是解决数学算式的应用程序。虽然一眼看上去它只是个简单的计算器，只有基本的算数运算功能，但您要是切换到高级、金融或者编程模式，就会惊讶地发现它有这么多功能。\n      高级计算器支持多种运算，包括：对数，阶乘，三角函数和双曲函数，取模、复数，随机数生成，分解质因数和单位转换。\n      财务模式支持多种计算，包括定期利率、现值和未来值、双倍余额递减和直线折旧等。\n      编程模式支持数制间转换（二进制、八进制、十进制和十六进制）、逻辑运算、二进制反码或补码运算、逐字符的编码转换，等等。\n    ",
+          "name": "计算器",
+          "summary": "执行算术、科学或财务计算"
+        },
+        "zh-Hant": {
+          "description": "計算機是用來解決數學算式的應用程式。看似只能進行基本的運算，一旦切換至進階模式、財務模式或程式設計模式，就會被它強大的功能所震撼。\n      進階模式支援許多運算方式，包含：對數、階乘、三角函數和雙曲函數、模數除法、複數、隨機數生成、質因數分解和單位轉換。\n      財務模式支援多種運算，包含定期利率、現值和終值、雙倍餘額遞減法和直線法折舊等運算方式。\n      程式設計模式支援許多常用的基礎換算（二進位、八進位、十進位和十六進位）、布林代數、一補數與二補數、字元碼轉換等等。\n    ",
+          "name": "計算機",
+          "summary": "進行數字、科學或財務計算"
+        },
         "kab": {
           "name": "Tamsiḍent"
         },
@@ -10273,6 +10549,16 @@
           "description": "Chụp ảnh và quay phim trên máy tính, máy tính bảng hoặc điện thoại của bạn.\n    ",
           "name": "Máy ảnh",
           "summary": "Chụp ảnh và quay phim"
+        },
+        "zh-Hans": {
+          "description": "在你的计算机、平板设备或手机上拍摄照片和视频。\n    ",
+          "name": "相机",
+          "summary": "拍摄照片和视频"
+        },
+        "zh-Hant": {
+          "description": "用您的電腦、平板、手機等拍攝照片與錄製影片。\n    ",
+          "name": "相機",
+          "summary": "拍攝照片與錄製影片"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -10560,6 +10846,16 @@
           "name": "Thời tiết",
           "summary": "Xem tình hình thời tiết và dự báo"
         },
+        "zh-Hans": {
+          "description": "一个允许你监视所在城市或世界各地的当前天气状况的小应用。\n      它使用各种不同的网络服务，提供非常具体的 7 天的天气预报，包括当天和第二天的每个小时的具体天气。\n      它也可选与 GNOME Shell 集成，允许你通过在活动概览中输入名字来查看最近搜索的城市的当前状况。\n    ",
+          "name": "天气",
+          "summary": "显示天气状况和天气预报"
+        },
+        "zh-Hant": {
+          "description": "《天氣》是一款能顯示您的所在地或世界任一地區之即時天氣情況的小型應用程式。\n      藉由網路服務能提供 7 天內的詳細天氣預報，或是 24 小時內每小時的天氣情況。\n      將《GNOME Shell》的整合選項開啟後，只需在概覽中輸入城市名稱即可查看即時天氣情況。\n    ",
+          "name": "天氣",
+          "summary": "顯示天氣情況與天氣預報"
+        },
         "ar": {
           "name": "الطقس",
           "summary": "اعرض حالة الطقس و النشرة الجوية"
@@ -10804,6 +11100,15 @@
           "name": "Akregator",
           "summary": "Стежте за вашими стрічками новин"
         },
+        "zh-Hans": {
+          "description": "Akregator 是新闻源阅读器。 它使您能够关注新闻网站、博客和其他启用 RSS/Atom 的网站，而无需使用网络浏览器手动检查更新。 Akregator 的设计既易于使用，又足够强大以方便地阅读数以百计的新闻源。 它带有快速搜索、强大的存档功能和内部浏览器以方便阅读新闻。\n    ",
+          "name": "Akregator"
+        },
+        "zh-Hant": {
+          "description": "Akregator 是一款新聞 feed 閱讀器。它讓您可以輕鬆取得新聞網站、部落格與其它 RSS/Atom 文章來源，不需要自己親自去每個網站看看有沒有新文章。Akregator 設計成非常易用，並且夠強大，方便讀取上百個新聞來源。它也有快速搜尋與進階文章收集功能，以及內部瀏覽器以供簡易閱讀新聞。\n    ",
+          "name": "Akregator",
+          "summary": "跟上您的訂閱來源的更新"
+        },
         "nb": {
           "name": "Akregator"
         },
@@ -10938,6 +11243,15 @@
           "description": "'Ресурси' дозволяє вам перевірити утилізацію ресурсів вашої системи і контролювати запущені процеси та додатки. Цей додаток створено бути зручним для користувача і гарно виглядати на сучасних робочих столах, дякуючи бібліотеці libadwaita від GNOME.\n      'Ресурси' підтримує моніторинг наступних компонентів:\n      \n        Процесору\n        Оперативна пам'ять\n        Відеокарта\n        Мережевих інтерфейсів\n        Накопичувачів даних\n        Акумулятори\n      \n    ",
           "name": "Ресурси",
           "summary": "Слідкуйте за системними ресурсами"
+        },
+        "zh-Hans": {
+          "description": "Resources 能够查看系统资源的使用情况，并控制正在运行的应用与进程。GNOME 的 libadwaita 使其拥有现代化的界面且易于使用。\n      Resources 支持监控以下组件：\n      \n        CPU\n        内存\n        GPU\n        网络接口\n        存储设备\n        电池\n      \n    ",
+          "name": "Resources",
+          "summary": "随时关注系统资源"
+        },
+        "zh-Hant": {
+          "description": "「Resources」支援監控以下元件：\n      \n        CPU\n        記憶體\n        GPU\n        網路介面\n        儲存裝置\n      \n    ",
+          "name": "Resources"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -11162,6 +11476,16 @@
           "description": "Maps giúp bạn truy cập bản đồ trên toàn thế giới. Nó cho phép bạn nhanh chóng tìm đến chỗ mà bạn đang tìm bằng cách tìm thành phố hay đường, hoặc vị trí địa điểm để gặp mặt bạn bè.\n      Maps dùng cơ sở dữ liệu OpenStreetMap cộng tác, được tạo bởi hàng trăm ngàn người trên toàn cầu.\n    ",
           "name": "Bản đồ",
           "summary": "Tìm các địa điểm trên khắp thế giới"
+        },
+        "zh-Hans": {
+          "description": "地图应用帮您快速访问世界各地的地图。允许您快速定位到城市、街道或约会地点。\n      地图应用使用了 OpenStreetMap 数据库，该数据库由全球成千上万的人们协同制作。\n    ",
+          "name": "地图",
+          "summary": "寻找世界各地的地点"
+        },
+        "zh-Hant": {
+          "description": "《地圖》讓您可以快速存取世界上的地圖。它讓您快速的找到想找的位置，只要搜尋城市或街道，也可以定位要與朋友見面的場所。\n      《地圖》使用共同協作的 OpenStreetMap 資料庫，由全球各地難以計數的人們共同製作。\n    ",
+          "name": "地圖",
+          "summary": "尋找世界上各個地方"
         },
         "et": {
           "name": "Kaardid"
@@ -11626,6 +11950,16 @@
           "description": "\n        Hiển thị thời gian ở các thành phố khác nhau trên thế giới\n        Đặt giờ báo thức\n        Đo thời gian đã đi qua bằng đồng hồ bấm giờ chính xác\n        Đặt thời gian nấu nướng thức ăn phù hợp\n      \n    ",
           "name": "Đồng hồ"
         },
+        "zh-Hans": {
+          "description": "一款简单优雅的时钟应用程序。包括世界时间，闹钟，秒表和定时功能。\n      \n        显示世界各地不同城市的时间\n        设置闹钟叫您起床\n        用精确的秒表计量花费的时间\n        设置定时帮您做好饭\n      \n    ",
+          "name": "时钟",
+          "summary": "保持时间追踪"
+        },
+        "zh-Hant": {
+          "description": "簡單優雅的時鐘應用程式。包含世界時間、鬧鈴、碼表和計時器功能。\n      \n        顯示世界不同城市的時間\n        設定鬧鈴以將您喚醒\n        以精準碼表測量花費的時間\n        用計時器協助烹飪料理\n      \n    ",
+          "name": "時鐘",
+          "summary": "追蹤時間"
+        },
         "ga": {
           "name": "Cloig"
         }
@@ -11809,6 +12143,11 @@
           "description": "Lock, GnuPG (GPG) için güzel LibAdwaita ara yüzünü kullanan grafiksel bir ön uçtur.\n      Metin ve dosyaları işle:\n      \n        Şifreleme\n        Şifre Çözme\n        İmzalama\n        Doğrulama\n      \n      GnuPG anahtarlığınızı yönetin:\n      \n        Yeni anahtar çiftleri oluşturun\n        Anahtarları içe aktarın\n        Genel anahtarları dışa aktarın\n        Son geçerlilik tarihlerini görüntüleyin\n        Anahtarları kaldırın\n      \n    ",
           "name": "Kilitle",
           "summary": "GnuPG ile veri işleme"
+        },
+        "zh-Hans": {
+          "description": "Lock 是使用了漂亮的 LibAdwaita 图形用户界面用于 GnuPG（GPG）的图形前端。\n      处理文本和文件：\n      \n        加密\n        解密\n        签署\n        校验\n      \n      管理您的 GnuPG 密钥串：\n      \n        生成密钥对\n        导入密钥\n        导出公钥\n        查看到期日期\n        移除密钥\n      \n    ",
+          "name": "Lock",
+          "summary": "使用 GnuPG 处理数据"
         },
         "et": {
           "summary": "Töötle andmeid GnuPG abil"
@@ -12121,6 +12460,11 @@
           "name": "Шоутайм",
           "summary": "Перегляд без завад"
         },
+        "zh-Hans": {
+          "description": "无干扰播放您最爱的电影和视频文件。Showtime 提供了可以在您观看时淡出您视线的简易播放控制，具有全屏、播放速度调节、多个语言和字幕轨道以及截图等直观观看体验所需的一切功能。\n    ",
+          "name": "Showtime",
+          "summary": "沉浸式观看"
+        },
         "oc": {
           "name": "Showtime",
           "summary": "Agachar sens cap de distraccion"
@@ -12302,6 +12646,16 @@
           "description": "За допомогою Kontact ви зможете одночасно працювати із вашою електронною поштою, календарем, записами контактів та іншими особистими даними. Kontact об'єднує усі ці можливості і допомагає вам керувати вашим спілкування, упорядковувати робочий графік та працювати із колегами.\n      Kontact — об'єднує можливості декількох програм для керування особистими даними під одним дахом і надає вам широкі робочі можливості, збільшуючи вашу продуктивність. За допомогою Kontact ви зможете скористатися усіма засобами нашого потужного комплексу програм. На відміну від вебпрограм із закритим кодом, ми цінуємо вашу конфіденційність та підтримуємо відкриті стандарти зберігання та передавання даних. Ось чому Kontact надає у ваше розпорядження усі можливості з керування вашими даними. Звичайно ж, перевагою програми є і те, що ви зможете працювати зі своїми даними там, де немає з'єднання із інтернетом.\n      Kontact складається із декількох добре інтегрованих компонентів:\n      \n        KMail — потужної і багатої на можливості програми для роботи з електронною поштою, у якій передбачено підтримку широкого діапазону служб надання послуг електронної пошти.\n        KOrganizer — компонента для роботи з календарем і планування Kontact, який здатен працювати із NextCloud, Kolab, Календарем Google та іншими службами роботи з календарями у інтернеті.\n        KAddressBook — простого засобу керування записами контактів, який може синхронізувати дані із багатьма популярними службами.\n        Akregator — програми для читання новин із потужними можливостями із пошуку та архівування даних.\n      \n    ",
           "name": "Kontact",
           "summary": "Єдине вікно для роботи із вашою електронною поштою, календарями, записами контактів тощо"
+        },
+        "zh-Hans": {
+          "description": "Kontact 可以帮助您管理电子邮件、日程表、联系人和其他个人数据。它将所有功能集约在单个窗口之中，让您可以高效通信、组织日程并与同事进行协作。\n      Kontact 通过将多种不同的个人信息管理工具整合到单个窗口中来提高您的工作效率。它提供的丰富的功能可在触手可及的距离内轻松访问。与专有网站服务不同，我们尊重您的隐私并支持开放标准，让您可以完全掌控自己的数据。您还可以离线访问自己的数据。\n      Kontact 包括以下高度整合的功能组件：\n      \n        KMail - 一款功能齐全的电子邮件客户端程序，支持各种电子邮件服务提供商。\n        KOrganizer - 一款日历和日程安排调度工具，支持 NextCloud、Kolab、Google Calendar 以及其他的日历服务。\n        KAddressBook - 一款简单易用的联系人管理工具，可以同步到各种常用的网络服务。\n        Akregator - 一款具备强大搜索和存档功能的新闻阅读器。\n      \n    ",
+          "name": "Kontact",
+          "summary": "在单个窗口中同时管理电子邮件、日程表和联系人"
+        },
+        "zh-Hant": {
+          "description": "用 Kontact 管理您的電子郵件、行事曆、聯絡人及其他個人資料。Kontact 將所有資訊聚集在同一個地方，幫助您管理您的通訊、規劃您的日子、與您的同事進行您的工作。\n      Kontact 將數個個人資訊管理應用程式集合在同一個視窗裡，提供最好的使用體驗並提升您的生產力。使用 Kontact 您可以在同一個地方使用所有來自我們強大的套裝軟體的工具。不像私有的網頁版應用程式，我們重視您的隱私，並支援開放標準，這也是為什麼 Kontact 提供您對您的資料的完整控制。您希望的話當然也可以離線存取您的資料。\n      Kontact 由數個整合得很好的元件所構成：\n      \n        KMail - 一個強大且功能豐富的電子郵件用戶端，支援非常多的電子郵件提供者。\n        KOrganizer - Kontact 中的行事曆與行程規劃元件，支援 NextCloud、Kolab、Google Calendar 及其他行事曆服務。\n        KAddressBook（KDE 通訊錄） - 一個容易使用的聯絡人管理工具，並且可與很多知名的服務同步聯絡人。\n        Akregator - 一個新聞閱讀器，提供強大的搜尋與封存功能。\n      \n    ",
+          "name": "Kontact",
+          "summary": "在一個視窗裡管理您的所有電子郵件、行事曆、聯絡人等等"
         },
         "cs": {
           "name": "Kontact"
@@ -12529,6 +12883,11 @@
           "description": "Створення аватарів проєктів для ваших кімнат Matrix та форджів git на основі символічної піктограми.\n    ",
           "name": "Емблема",
           "summary": "Створення аватарів проєкту"
+        },
+        "zh-Hans": {
+          "description": "为您的 Matrix 聊天室和 git 协作平台从符号图标生成工程头像。\n    ",
+          "name": "徽章",
+          "summary": "生成项目头像"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -12840,6 +13199,16 @@
           "description": "Trình soạn thảo văn bản GNOME là bộ soạn thảo văn bản đơn giản nhắm vào đối tượng người dùng ít kinh nghiệm.\n    ",
           "name": "Soạn thảo văn bản"
         },
+        "zh-Hans": {
+          "description": "GNOME 文本编辑器是一个简单的文本编辑器，专注于令人满意的默认体验。\n    ",
+          "name": "文本编辑器",
+          "summary": "编辑文本文件"
+        },
+        "zh-Hant": {
+          "description": "《文字編輯器》旨在提供給您舒適的預裝應用程式使用經驗。\n    ",
+          "name": "文字編輯器",
+          "summary": "編輯文字檔"
+        },
         "ja": {
           "name": "テキストエディター"
         },
@@ -13012,6 +13381,11 @@
           "name": "Ясновидець",
           "summary": "Ставте запитання - отримуйте психічні відповіді"
         },
+        "zh-Hant": {
+          "description": "他喜歡你嗎？晚餐要吃滷肉飯嗎有問題的是人還是問題本身？Clairvoyant 算命師即將幫你解答你的問題\n      \n        先想好一個問題，然後開啟 Clairvoyant 取得答案\n        不滿意得到的答案嗎？你可以按\"再問一次\"。\n        你可以不相信你得到的答案，但請不要罵這位可憐的算命師\n      \n    ",
+          "name": "Clairvoyant",
+          "summary": "問問題，得答案"
+        },
         "oc": {
           "name": "Clairvoyant",
           "summary": "Pausatz de questions, obtenètz de responsa d’endevinaire"
@@ -13117,6 +13491,9 @@
         "uk": {
           "name": "Шредер файлів",
           "summary": "Назавжди видаляйте ваші файли"
+        },
+        "zh-Hans": {
+          "name": "文件粉碎机"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -13579,6 +13956,15 @@
           "description": "Додаток для керуваннями списками справ для тих хто віддає перевагу простоті.\n      Можливості:\n      \n        Підтримка кількох списків задач\n        Додавання, видалення і редагування для задач і підзадач\n        Позначити задачу і підзадачу як завершену\n        Додавання акцентованих кольорів для кожної задачі\n        Синхронізація з Nextcloud та іншими постачальниками CalDAV\n        Підтримка перетягування до вікна\n        Імпортуват .ics файлів\n      \n    ",
           "name": "Errands",
           "summary": "Керуйте вашими задачами"
+        },
+        "zh-Hans": {
+          "description": "适合喜欢简洁的人的待办事项应用。\n      \n        支持多任务列表\n        添加、移除、编辑任务和子任务\n        将任务和子任务标记为完成\n        为每个任务添加强调色\n        与 Nextcloud 或其他 CalDAV 提供者同步任务\n        支持拖放操作\n        导入 .ics 文件\n      \n    ",
+          "name": "Errands",
+          "summary": "管理您的任务"
+        },
+        "zh-Hant": {
+          "description": "為簡潔而生的待辦事項軟體\n      功能：\n      \n        新增、移除、編輯待辦事項和子項目\n        把待辦事項和子項目標記爲已完成\n        為每個待辦事項新增強調色\n        透過 Nextcloud 或其他 CalDAV 服務同步待辦事項\n        支援拖拉\n      \n    ",
+          "summary": "管理待辦事項"
         }
       },
       "project_license": "MIT",
@@ -14218,6 +14604,16 @@
           "name": "Календар",
           "summary": "Керування вашим розкладом"
         },
+        "zh-Hans": {
+          "description": "GNOME 日历是一个帮助您计划并对未来几天和几周的日程安排保持关注的优雅工具，无论您的月份里是否填满了会面预约、公共事件、旅行规划或您生活中的其它义务。\n      使用 GNOME 日历的无限滚动月份视图、周时间表和日程列表视图来容易地创建和管理无限制的日历和事件。\n      集成了最新的 GNOME 技术和最佳的设计实践，GNOME 日历构建于成熟的 Evolution 数据服务器之上来管理大量事件和提供与其它应用的集成。您可以从多种在线日历服务（如 NextCloud、谷歌日历和 CalDAV / WebDAV 服务器）添加日历，可使您跨多个设备和平台来同步事件。GNOME 日历同样支持本地和离线日历，所以您可以在旅行时的任何地点与任何时间使用它（或在文明崩溃之后）。\n    ",
+          "name": "日历",
+          "summary": "管理您的日程计划"
+        },
+        "zh-Hant": {
+          "description": "GNOME 行事曆是一個優雅的工具，可以協助您計劃並掌握未來幾天和幾週的行程安排，無論您這個月安排了會議和約會、公開活動、旅行安排還是生活中的其他承諾。\n      使用 GNOME 行事曆的無限捲動月份檢視、週時程表和行程安排列表檢視，輕鬆建立和管理無限制的日曆和事件。\n      GNOME 行事曆整合了最新的 GNOME 技術和設計最佳實踐，建立在成熟的 Evolution 資料伺服器之上，可以管理大量事件並提供與其他應用程式的整合。您可以從各種線上日曆服務（如 NextCloud、Google 日曆和 CalDAV/WebDAV 伺服器）添加日曆，使您能夠在多個設備和平臺上同步您的事件。GNOME 行事曆還支援本地和離線日曆，因此您可以在旅行時（或文明崩潰后）隨時隨地使用它。\n    ",
+          "name": "行事曆",
+          "summary": "管理您的行程"
+        },
         "ar": {
           "name": "التقويم"
         },
@@ -14508,6 +14904,12 @@
         },
         "oc": {
           "name": "Dessenh"
+        },
+        "zh-Hans": {
+          "name": "Drawing"
+        },
+        "zh-Hant": {
+          "name": "Drawing"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -15034,6 +15436,15 @@
           "description": "Sổ danh bạ giúp bạn lưu giữ và tổ chức các liên hệ của mình. Bạn có thể tạo, sửa, xóa và liên kết các liên lạc của mình thành nhóm. Các liên lạc được tập hợp từ mọi nguồn và cung cấp cho bạn một nơi tập trung để quản lý các liên lạc của mình.\n      Sổ danh bạ cũng được kết hợp với các sổ địa chỉ trên mạng khác và tự động liên kết các liên lạc từ các nguồn khác nhau trên mạng.\n    ",
           "name": "Danh bạ"
         },
+        "zh-Hans": {
+          "description": "联系人可以保存和管理您的联系人信息。您可以创建、编辑、删除联系人，以及将您联系人的各种信息归拢在一起。联系人可以整合各方面的联系人资料，集中管理您的联系人。\n      联系人也可以整合在线地址簿，并自动链接到各种在线账号的联系人。\n    ",
+          "name": "联系人",
+          "summary": "管理您的联系人"
+        },
+        "zh-Hant": {
+          "description": "《聯絡人》能儲存及管理您的聯絡人資訊。您可以建立、編輯、刪除聯絡人，並將散落於各處的聯絡人資訊連結在一起。《聯絡人》還能整合本機與線上服務等各種來源的通訊錄，提供您集中管理聯絡人的地方。\n      《聯絡人》會在您加入線上帳號後，自動整合線上服務的通訊錄，並將同一位聯絡人散落於不同通訊錄的聯絡資訊連結在一起。\n    ",
+          "name": "聯絡人"
+        },
         "ar": {
           "name": "المتراسلين"
         },
@@ -15197,6 +15608,14 @@
         "uk": {
           "description": "За допомогою «Оприлюднення звуку» ви можете оприлюднити звук, який відтворюється вашим комп'ютером, у формі потоку даних RTSP. Цей потік даних може бути відтворено іншими пристроями за допомогою, наприклад, VLC.\n      Оприлюдненням звукових даних як потоку даних мережі надає змогу скористатися типовими пристроями, які не призначено для використання як приймачів звуку, (наприклад смартфонами) для отримання таких даних. Наприклад, існують звукові прилади, які є несумісними із робочими станціями (наприклад, через те, що на комп'ютері не встановлено модуль Bluetooth). За допомогою цієї програми звук з комп'ютера може бути відтворено на смартфоні, який може бути з'єднано із приладом за допомогою протоколу Bluetooth.\n    ",
           "summary": "Оприлюдніть звукові дані з вашого комп'ютера"
+        },
+        "zh-Hans": {
+          "description": "使用 Audio Sharing 您可以将当前计算机的音频播放以 RTSP 流的方式分享。RTSP 流可以在其它设备使用例如 VLC 等软件播放。\n      通过网络流分享音频，您可以使用通常并不作为音频接收端的常见设备（如智能手机）来接收它。例如，目前有一些和计算机不兼容的音频配件（例如计算机没有安装蓝牙模块）。有了这个应用的帮助，计算机音频可以在智能手机上播放，而蓝牙配件可以连接到智能手机上，从而间接实现在配件上进行播放。\n    ",
+          "summary": "分享您计算机的音频"
+        },
+        "zh-Hant": {
+          "description": "有了《音訊分享》，您可以用 RTSP 串流的形式分享您目前電腦的音訊播放。這道串流也可以透過其他裝置來操作播放，例如用 VLC。\n      藉由網路串流的形式分享音訊，您也可以讓一般不用作音效承接的裝置（例如智慧型手機）來接收音訊。例如，有些音效配件與桌面電腦不相容（例如，電腦沒有安裝藍牙模組）。而在這個程式的幫助之下，您可以透過智慧型手機播放電腦音訊，接著再讓手機連到藍牙配件上播放。\n    ",
+          "summary": "分享您的電腦音訊"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -15795,6 +16214,11 @@
           "name": "Ear Tag",
           "summary": "Редагування міток звукових файлів"
         },
+        "zh-Hans": {
+          "description": "Ear Tag 是一个简约的音频文件标签编辑器。它主要设计为快速编辑或大批量编辑专辑/唱片中的曲目。不像其它标签编辑程序，Ear Tag 不需要用户设置一个音乐库文件夹。它可以：\n      \n        编辑 MP3、WAV、M4A、FLAC、OGG 和 WMA 文件的标签\n        同时修改多个文件的元数据\n        使用来自呈现标签的信息重命名文件\n        使用 AcoustID 识别文件\n      \n      网络访问仅用于“识别选中文件”选项。\n    ",
+          "name": "Ear Tag",
+          "summary": "编辑音频文件标签"
+        },
         "id": {
           "name": "Ear Tag"
         }
@@ -15990,6 +16414,16 @@
           "description": "Gtranslator là ứng dụng dịch tập tin po của gettext cao cấp dành cho môi trường GNOME. Nó xử lý mọi kiểu tập tin po và bao gồm các tính năng hữu dụng như là tìm kiếm và thay thế, dịch từ bộ nhớ có sẵn, dùng nhiều hồ sơ người dịch, bảng chuỗi (để xem chuỗi gốc và bản dịch của tập tin po), dễ dàng di chuyển và sửa đổi chuỗi bản dịch và lời ghi chú của bản dịch.\n      Gtranslator cũng bao gồm một hệ thống phần bổ sung với nhiều tính năng thú vị như là ngôn ngữ thay thế, thêm thẻ, tích hợp với subversion và bộ xem mã nguồn.\n    ",
           "name": "Trình sửa bản dịch",
           "summary": "Dịch và bản địa hóa các ứng dụng và thư viện"
+        },
+        "zh-Hans": {
+          "description": "Gtranslator 是一个为 GNOME 桌面环境开发的增强型 gettext po 文件编辑器。它能处理所有形式的 gettext po 文件，并且包含如查找/替换，翻译记忆，不同翻译者配置文件，消息表格（为 po 文件中的翻译/消息提供一个概览），对翻译消息和注释易于使用的精确导览和编辑等很有用的特性。\n      Gtranslator 也包含一个集合如替换语言、插入标签、open tran、与 subversion 和源代码查看器集成等许多有趣插件的插件系统。\n    ",
+          "name": "翻译编辑器",
+          "summary": "对应用程序和库进行翻译和本地化"
+        },
+        "zh-Hant": {
+          "description": "Gtranslator 是 GNOME 桌面環境的增強型 gettext PO 檔編輯器。它支援所有類型的 gettext PO 檔，並包含多項實用功能；例如尋找與取代、翻譯記憶、譯者設定檔切換、條目視窗（概覽 PO 檔中的譯文/訊息），並能方便的移動與精準的編輯譯文訊息、評註。\n      Gtranslator 支援擴充套件，能提供如語言替換、標記插入、subversion 整合以及源始碼檢視等功能。\n    ",
+          "name": "翻譯編輯器",
+          "summary": "將應用程式與函式庫作翻譯與在地化"
         },
         "be": {
           "name": "Рэдактар перакладаў",
@@ -16338,6 +16772,11 @@
           "description": "«Амберол» — програма для відтворення музики без особливих претензій на грандіозність. Якщо вам потрібно лише відтворити вашу музику у вашій локальній системі, «Амберол» — саме той програвач, який вам потрібен.\n      Поточні можливості:\n      \n        адаптивний інтерфейс користувача\n        перефарбовування інтерфейсу на основі обкладинки альбому\n        підтримка перетягування зі скиданням для створення черги відтворення композицій\n        перемішування і повторення\n        Інтеграція із MPRIS\n      \n    ",
           "name": "Амберол",
           "summary": "Відтворює музику, нічого більше"
+        },
+        "zh-Hans": {
+          "description": "Amberol 是一个没有宏伟妄想的音乐播放器。如果您只想播放您的本地系统上可用的音乐，那么 Amberol 就是您正在寻找的音乐播放器。\n      当前功能：\n      \n        自适应用户界面\n        使用专辑封面为用户界面重新着色\n        支持拖放将歌曲添加到队列\n        乱序和重复\n        MPRIS 集成\n      \n    ",
+          "name": "Amberol",
+          "summary": "播放音乐，别无其他"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -16702,6 +17141,11 @@
           "name": "Балаканина",
           "summary": "Спілкування у IRC"
         },
+        "zh-Hans": {
+          "description": "一款简单的网络中继聊天（IRC）客户端，与 GNOME 无缝整合；它的特性是界面简洁美观，使您可以专注于聊天。\n      您可以使用 Polari 在聊天室里与大家交谈，也可以进行一对一的私人谈话。通知推送可以确保您不会漏掉任何重要的消息。\n    ",
+          "name": "Polari",
+          "summary": "和 IRC 上的朋友聊天"
+        },
         "ar": {
           "name": "پولاري"
         },
@@ -16724,6 +17168,9 @@
           "name": "ਪੋਲਾਰੀ"
         },
         "vi": {
+          "name": "Polari"
+        },
+        "zh-Hant": {
           "name": "Polari"
         }
       },
@@ -16916,6 +17363,16 @@
           "description": "Các tính năng:\n      \n        Tạo thư viện của riêng bạn, nơi bạn có thể thêm các đài yêu thích của mình\n        Dễ dàng tìm kiếm và khám phá các đài phát thanh mới\n        Tự động nhận dạng các bài hát, với khả năng lưu chúng riêng lẻ\n        Bố cục ứng dụng thích ứng, tương thích với cả màn hình nhỏ và lớn\n        Phát âm thanh trên các thiết bị mạng được hỗ trợ (ví dụ: Google Chromecasts)\n        Tích hợp liên thông vào môi trường máy tính để bàn GNOME\n      \n    ",
           "name": "Sóng ngắn",
           "summary": "Nghe đài phát qua mạng internet"
+        },
+        "zh-Hans": {
+          "description": "短波是个提供对具有超过 50000 个电台的电台数据库访问的互联网广播播放器。\n      特性：\n      \n        创建您自己的媒体库，可以在其中添加最喜欢的电台\n        轻松搜索并发现新电台\n        自动识别歌曲，并可以将其分别保存\n        响应式应用程序布局，兼容小型屏幕和大型屏幕\n        在受支持的网络设备（例如 Google Chromecasts）上播放音频\n        与 GNOME 桌面环境无缝集成\n      \n    ",
+          "name": "短波",
+          "summary": "收听互联网广播"
+        },
+        "zh-Hant": {
+          "description": "特色：\n      \n        將您喜愛的電臺加入您的專屬電臺庫\n        輕而易舉便能搜尋與探索新電臺\n        自動錄下歌曲以便您在需要時能夠儲存\n        響應式程式佈局，不論熒幕尺寸大小皆可相容\n        在支援的網路裝置上播放音訊（譬如 Google Chromecasts）\n        與 GNOME 桌面環境無縫結合\n      \n    ",
+          "name": "Shortwave",
+          "summary": "收聽網路電臺"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -17139,6 +17596,11 @@
           "name": "Secrets",
           "summary": "Quản lý các mật khẩu của bạn"
         },
+        "zh-Hans": {
+          "description": "秘密是一个使用 KeePass v.4 格式的密码管理器。与 GNOME 桌面完美集成并提供简易、整洁的界面来管理密码数据库。\n    ",
+          "name": "秘密",
+          "summary": "管理您的密码"
+        },
         "oc": {
           "name": "Secrets",
           "summary": "Gerissètz vòstres senhals"
@@ -17357,10 +17819,18 @@
           "name": "Kasts",
           "summary": "Програма для трансляцій"
         },
+        "zh-Hant": {
+          "description": "Kasts 是一個跨平台的 Podcast 應用程式，在桌面上或手機上都好看。\n      它的主要功能有：\n      \n        透過播放佇列管理集數\n        透過 gpodder.net 或 gpodder-nextcloud 與其他用戶端同步播放位置\n        可變動的播放速度\n        搜尋 Podcast\n        完整系統整合：例如聆聽時阻擋系統暫停\n      \n    ",
+          "name": "Kasts",
+          "summary": "Podcast 應用程式"
+        },
         "pa": {
           "name": "ਕਾਸਟਸ"
         },
         "pt-BR": {
+          "name": "Kasts"
+        },
+        "zh-Hans": {
           "name": "Kasts"
         }
       },
@@ -17882,6 +18352,16 @@
           "name": "Filelight",
           "summary": "Показ даних щодо використання диска і вилучення зайвих файлів"
         },
+        "zh-Hans": {
+          "description": "Filelight 是一款以图形化方式显示电脑磁盘使用情况的应用程序。它通过多层同心圆示意图来显示文件夹结构，易于理解。Filelight 让释放存储空间变得简单易行！\n      功能：\n      \n        扫描本地、远程或可移动磁盘\n        查看文件和文件夹的详细信息\n        删除占用过多存储空间的文件和文件夹\n        与 Dolphin、Konqueror 和 Krusader 等文件管理器集成使用\n        可自定义的配色方案\n      \n    ",
+          "name": "Filelight 磁盘占用查看器",
+          "summary": "显示磁盘使用情况并删除未使用的文件"
+        },
+        "zh-Hant": {
+          "description": "Filelight 是以視覺化方式顯示您的電腦的磁碟用量的應用程式，資料夾以容易理解的同心圓方式呈現。Filelight 讓清理空間變得簡單！\n      功能：\n      \n        掃描本機、遠端或可移除的磁碟\n        檢視檔案或資料夾的詳細資訊\n        刪除佔用太多空間的檔案或資料夾\n        與 Dolphin、Konqueror 和 Krusader 等檔案管理員的整合\n        配色方案可以自行設定\n      \n    ",
+          "name": "Filelight",
+          "summary": "顯示磁碟用量、刪除不需要的檔案"
+        },
         "az": {
           "name": "Filelight"
         },
@@ -18043,6 +18523,16 @@
           "description": "Minuet — програма для навчання музиці. У ній передбачено набір вправ для розвитку слуху, зокрема вивчення інтервалів, акордів, гами тощо.\n    ",
           "name": "Minuet",
           "summary": "Програмне забезпечення для навчання музики"
+        },
+        "zh-Hans": {
+          "description": "Minuet 是款音乐教育应用，具有一系列有关音程、和弦、音阶等的视听练耳测试。\n    ",
+          "name": "Minuet",
+          "summary": "音乐教育软件"
+        },
+        "zh-Hant": {
+          "description": "Minuet 是一款音樂教育用的應用程式。裡面有一些關於音程、和弦、音階等的聽力訓練課程。\n    ",
+          "name": "Minuet",
+          "summary": "音樂教育軟體"
         },
         "ro": {
           "name": "Minuet",
@@ -18328,6 +18818,11 @@
           "description": "Sau khi tải xong hay nhận được tập tin, người dùng thường bỏ qua khâu kiểm tra xem tập tin có còn nguyên vẹn hay không. Khi cần kiểm, họ phải tốn rất nhiều thì giờ và công sức. Đồng thời, khả năng tải về những tập tin đã bị can thiệp ngày càng cao do số lượng website và hacker ngày một gia tăng.\n      Công cụ này là nhằm giải quyết vấn đề trên. Trùng khóa là một ứng dụng tiện lợi &amp;amp; đẹp mắt, tạo điều kiện cho mọi người từ mọi lứa tuổi và chuyên ngành dễ dàng tạo, so sánh và kiểm tra tập tin thông qua các thuật toán băm như MD5, SHA-256, SHA-512, SHA-1, Blake3, CRC32 hay Adler32.\n    ",
           "name": "Trùng khóa",
           "summary": "Kiểm băm cho tập tin"
+        },
+        "zh-Hans": {
+          "description": "校验您下载或接收的文件以确定与您的预期相符经常是被忽略或太耗费时间的事情。与此同时，由于大量增加的恶意网页和其它攻击者，让您经手被篡改文件已经变得非常容易。\n      这款工具旨在解决这一问题。Collision 的用户界面简洁明了，允许任何年龄和经验的人生成、比较和验证 MD5、SHA-256、SHA-512、SHA-1、Blake3、CRC32 和 Adler32 哈希值。\n    ",
+          "name": "Collision",
+          "summary": "检查您文件的哈希值"
         },
         "ar": {
           "name": "تصادم",
@@ -18654,6 +19149,11 @@
           "description": "Công cụ để xem bảng màu GNOME theo định nghĩa từ hướng dẫn thiết kế.\n    ",
           "name": "Bảng chọn màu sắc",
           "summary": "Công cụ Bảng màu"
+        },
+        "zh-Hans": {
+          "description": "用于查看设计指南中定义的 GNOME 调色板的工具。\n    ",
+          "name": "调色板",
+          "summary": "调色板工具"
         }
       },
       "project_license": "GPL-3.0",
@@ -18957,6 +19457,16 @@
           "description": "Kalk — потужний калькулятор для Плазми.\n    ",
           "name": "Калькулятор",
           "summary": "Калькулятор із широкими можливостями"
+        },
+        "zh-Hans": {
+          "description": "Kalk 是 Plasma 的桌面与移动设备通用计算器。\n    ",
+          "name": "计算器",
+          "summary": "一款功能丰富的计算器"
+        },
+        "zh-Hant": {
+          "description": "Kalk 是一個 Plasma 用的跨平台計算機。\n    ",
+          "name": "計算機",
+          "summary": "功能豐富的計算機"
         },
         "cs": {
           "name": "Kalkulačka"
@@ -19699,6 +20209,11 @@
           "name": "Графіки",
           "summary": "Креслення і робота з даними"
         },
+        "zh-Hans": {
+          "description": "Graphs 是一个让您容易绘制和处理数据的简约但强大的工具。新数据可以从广泛的文件类型中导入，或通过方程式生成。所有数据都可使用多种操作进行处理，如选择、剪切、平移、相乘、置中和平滑数据，或者对数据应用任意自定义转换。\n      此外，Graphs 还支持在导入的数据上进行曲线拟合且为绘制样式提供了扩展的自定义选项。您可以随自己喜好来调整和个性化样式表。\n      Graphs 很适合用来绘制和处理数据。使用 Graphs 创建的示意图可保存为适合用来向广大观众分享和呈现的多种格式，比如在科学出版物或演讲中。另外，保存为矢量图像的选项可使其在像 Inkscape 的软件中做进一步调整。图表是以 GNOME 环境为标准编写的，但应同样适用于其它任何桌面环境。\n      若有任何反馈、问题或常规议题，请在 GitLab 页面上提交议案。\n    ",
+          "name": "Graphs",
+          "summary": "绘制和处理数据"
+        },
         "he": {
           "name": "תרשימים",
           "summary": "שרטוט וניהול של נתונים"
@@ -20084,6 +20599,10 @@
         "pt-BR": {
           "description": "SaveDesktop permite que você salve sua configuração atual (temas, ícones, papéis de parede, todas as configurações da área de trabalho, extensões, etc.) com um único clique.\n    ",
           "summary": "Salve a configuração da sua área de trabalho"
+        },
+        "zh-Hans": {
+          "description": "SaveDesktop 可让您一键保存当前配置（主题、图标、壁纸、所有桌面环境设置、扩展等）。\n    ",
+          "summary": "保存您的桌面环境配置"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -20435,6 +20954,9 @@
           "description": "Với giao diện đơn giản, thân thuộc và dễ làm quen, trình đọc này cho phép bạn tìm kiếm, sắp xếp và đọc bộ truyện của mình một cách dễ dàng.\n      Vì sao bạn yêu thích Komikku?\n      \n        Đọc trực tuyến và ngoại tuyến từ hàng chục máy chủ\n        Hỗ trợ các chuỗi được lưu trữ cục bộ (ở định dạng CBZ hoặc CBR)\n        Chế độ đọc RTL, LTR, Dọc và Webtoon\n        Hỗ trợ một số loại điều hướng: phím mũi tên trên bàn phím, bố cục điều hướng phải và trái thông qua nhấp chuột hoặc chạm (bàn di chuột/màn hình cảm ứng), con lăn chuột, cử chỉ vuốt 2 ngón tay (bàn di chuột), cử chỉ vuốt (màn hình cảm ứng)\n        Tạo các danh mục trong thư viện của bạn\n        Tự động cập nhật tất cả các chương\n        Tự động tải xuống các chương mới\n        Xem lại lịch sử đọc\n        Chủ đề sáng và tối\n      \n    ",
           "summary": "Khám phá, đọc manga và truyện tranh"
         },
+        "zh-Hans": {
+          "description": "为什么你会喜欢Komikku？\n      \n        从几十个服务器进行在线和离线阅读\n        从右至左、从左至右、垂直和 Webtoon 阅读模式\n        支持多种到导航类型：键盘方向键、鼠标点击或（触摸板/屏）触击的左右导航布局、鼠标滚轮、（触摸板）两指滑动、（触摸屏）滑动手势\n        用于组织你收藏库的类别\n        自动下载新章节\n        阅读历史\n        亮色/暗色主题\n      \n    "
+        },
         "zh-Hant": {
           "description": "你會愛上 Komikku 的理由？\n      \n        在線或離線閱讀來自各個伺服器的漫畫\n        從右至左，從左至右，垂直，以及 Webtoon 閱讀模式\n        支援多種類型的導航：鍵盤方向鍵，透過滑鼠或觸控點擊左右導航布局，滑鼠滾輪，兩雙滑動（觸控板），滑動手勢（觸控熒幕）\n        用於組織書櫃的類別\n        自動下載新章節\n        閱讀歷史\n        亮色與暗色主題\n      \n    "
         }
@@ -20742,6 +21264,11 @@
           "description": "«Elastic» надає змогу розробляти і експортувати  allows to design and export spring physics-based animations to use with libadwaita.\n      Можливості:\n      \n        Попередній перегляд перетворень перенесення, обертання та масштабування.\n        Перегляд кривої анімації та тривалості на графіку.\n        Перетягніть елемент керування, щоб переглянути, як він повернеться у початковий стан у результаті фізики пружини.\n        Експортувати код C, JavaScript, Python, Vala або Rust.\n      \n    ",
           "name": "Еластік",
           "summary": "Розробка пружинних анімацій"
+        },
+        "zh-Hans": {
+          "description": "Elastic 允许设计和导出基于物理的弹簧动画以配合 libadwaita 使用。\n      特性：\n      \n        预览平移、旋转和缩放变换。\n        在图表上查看动画曲线和时长。\n        拖拽手柄来查看基于弹簧物理的回弹。\n        导出 C、JavaScript、Python、Vala 或 Rust 代码。\n      \n    ",
+          "name": "Elastic",
+          "summary": "设计弹簧动画"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -21411,6 +21938,11 @@
           "name": "Фрактал",
           "summary": "Спілкування у Matrix"
         },
+        "zh-Hans": {
+          "description": "Fractal 是一个用 Rust 为 GNOME 编写的 Matrix 聊天应用。它的界面是为如自由软件工程等大型合作团队优化的，且可以适配所有屏幕，无论大屏或小屏。\n      亮点：\n      \n        查找聊天室来讨论您最爱的主题，或与他人私密聊天，全都具有得益于端到端加密的安全性\n        发送富文本格式的消息、文件或您的当前位置\n        回复特定的消息，用表情来回应，提及用户或聊天室，编辑或移除消息\n        直接在对话中查看图像和播放音频与视频\n        看看谁阅读了消息以及谁正在输入\n        同时登录多个账号（支持单点登录）\n      \n    ",
+          "name": "Fractal",
+          "summary": "在 Matrix 上聊天"
+        },
         "he": {
           "name": "פרקטל",
           "summary": "התכתבות על גבי Matrix"
@@ -22001,6 +22533,14 @@
           "name": "Мікропрограма",
           "summary": "Встановлення мікропрограм на пристрої"
         },
+        "zh-Hans": {
+          "name": "固件",
+          "summary": "在设备上安装固件"
+        },
+        "zh-Hant": {
+          "name": "韌體",
+          "summary": "安裝韌體到裝置上"
+        },
         "it": {
           "summary": "Installa firmware su dispositivi"
         }
@@ -22106,6 +22646,9 @@
         },
         "uk": {
           "description": "\n        Рендеринг markdown майже як WYSIWYG\n        Можливий для пошуку через пошук GNOME\n        Смітник\n        Документ Markdown\n      \n    "
+        },
+        "zh-Hans": {
+          "description": "\n        所见即所得 markdown 渲染\n        GNOME search 可搜索\n        垃圾桶\n        Markdown 文件\n      \n    "
         }
       },
       "project_license": "GPL-3.0+",
@@ -22355,6 +22898,11 @@
           "description": "Máy gõ nhịp gõ nhịp cho bạn, bạn đơn giản chỉ cần cho nó biết nhịp và tốc độ gõ mỗi phút.\n      Bạn cũng có thể bấm chuột theo nhịp và ứng dụng sẽ đoán được tốc độ gõ mỗi phút.\n    ",
           "name": "Máy gõ nhịp",
           "summary": "Giữ nhịp độ"
+        },
+        "zh-Hans": {
+          "description": "节拍器可以为您奏出节拍，您只需要告诉它需要的拍子记号和每分钟节拍。\n      您也可以轻击让应用程序猜测每分钟需要的节拍。\n    ",
+          "name": "节拍器",
+          "summary": "保持该节奏"
         }
       },
       "project_license": "GPL-3.0+",
@@ -22520,6 +23068,15 @@
           "description": "Програма для пошуку та встановлення розширень для стільниці GNOME.\n      Функції:\n      \n        Шукайте розширення з extensions.gnome.org прямо у додатку\n        Керуйте встановленими розширеннями\n      \n    ",
           "name": "Менеджер розширень",
           "summary": "Шукайте, встановлюйте та керуйте розширеннями для стільниці GNOME"
+        },
+        "zh-Hans": {
+          "description": "一款浏览和安装 GNOME 扩展的实用程序。\n      功能：\n      \n        在应用中浏览 extensions.gnome.org\n        管理您已经安装的扩展\n      \n    ",
+          "name": "扩展管理器",
+          "summary": "浏览、安装并管理 GNOME Shell 扩展"
+        },
+        "zh-Hant": {
+          "description": "一個用來搜尋及安裝 GNOME Shell 擴充套件的工具程式。\n      功能：\n      \n        在應用程式內瀏覽 extensions.gnome.org\n        管理已安裝的擴充套件\n      \n    ",
+          "name": "擴充套件管理員"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -22759,6 +23316,10 @@
         "uk": {
           "description": "Оптимізуйте ваші зображення за допомогою Curtail - корисного додатку для стискання зображень, який підтримує PNG, JPEG, WebP і SVG розширення файлів.\n      Він підтримує як стискання без втрат якості, так із втратами; також є опція, чи треба зберігати метадані зображень чи ні.\n    ",
           "summary": "Стискайте ваші зображення"
+        },
+        "zh-Hans": {
+          "description": "使用Curtail优化您的图像，Curtail是一种有用的图像压缩器，支持PNG、JPEG、WebP和SVG文件类型。\n      它支持无损和有损压缩模式，并可以选择是否保留图像的元数据。\n    ",
+          "summary": "压缩图像"
         },
         "cs": {
           "summary": "Komprimujte své obrázky"
@@ -23208,6 +23769,16 @@
           "name": "Bộ phân tích đĩa",
           "summary": "Kiểm tra kích cỡ của thư mục và chỗ trống trên đĩa"
         },
+        "zh-Hans": {
+          "description": "一个简单的应用程序，保持你的磁盘使用情况和可用空间处于控制。\n      磁盘占用分析器可以扫描指定的文件夹、存储设备和在线账号。它同时提供了树形和图形展示来显示每个文件夹的大小，因此可以很容易的识别出哪里的磁盘空间被浪费了。\n    ",
+          "name": "磁盘占用分析器",
+          "summary": "检查文件夹大小和可用磁盘空间"
+        },
+        "zh-Hant": {
+          "description": "一款能控管磁碟用量及可用空間的簡單應用程式。\n      《磁碟用量分析器》能掃描特定資料夾、儲存裝置、線上帳號等位置，並提供環狀與樹狀兩種圖表來呈現個別資料夾所佔用的空間，藉此來分析磁碟空間是否有妥善利用。\n    ",
+          "name": "磁碟用量分析器",
+          "summary": "檢查資料夾大小與可用的磁碟空間"
+        },
         "bn": {
           "name": "ডিস্ক ব্যবহারের বিশ্লেষণ ব্যবস্থা",
           "summary": "ফোল্ডারের মাপ ও ডিস্কে বিদ্যমান স্থান পরীক্ষা করা হবে"
@@ -23444,6 +24015,11 @@
           "description": "Проста програма для створення добре відомого тексту-замінника Lorem Ipsum.\n    ",
           "name": "Lorem",
           "summary": "Створення тексту-замінника"
+        },
+        "zh-Hans": {
+          "description": "用来生成广为人知的乱数假文占位符文本的简单应用。\n    ",
+          "name": "乱数假文",
+          "summary": "生成占位符文本"
         }
       },
       "project_license": "GPL-3.0-or-later",
@@ -23565,6 +24141,12 @@
           "name": "Varia"
         },
         "tr": {
+          "name": "Varia"
+        },
+        "zh-Hans": {
+          "name": "Varia"
+        },
+        "zh-Hant": {
           "name": "Varia"
         }
       },
@@ -23941,6 +24523,16 @@
           "description": "Kate là trình biên tập văn bản đa tài liệu, đa khung xem của KDE. Nó bao gồm các tính năng như gập mã, tô sáng cú pháp, bọc từ động, dòng lệnh tích hợp, một giao diện phần cài cắm toàn diện và một số hỗ trợ sơ bộ cho lập kịch bản.\n      Tính năng:\n      \n        MDI (Giao diện đa tài liệu - Multiple Document Interface), chia cửa sổ, tạo thẻ trong cửa sổ\n        Kiểm tra đánh vần\n        Hỗ trợ dòng mới kiểu CR, CRLF, LF\n        Hỗ trợ mã hoá (utf-8, utf-16, ascii, v.v.)\n        Chuyển đổi mã hoá\n        Tìm &amp; thay thế dựa trên biểu thức chính quy\n        Tô sáng cú pháp và tìm dấu ngoặc cùng cặp hiệu quả\n        Gập mã và văn bản\n        Hỗ trợ đảo ngược / làm lại không giới hạn\n        Chế độ chọn khối\n        Thụt lề tự động\n        Hỗ trợ hoàn tất tự động\n        Tích hợp hệ vỏ\n        Hỗ trợ nhiều giao thức (http, ftp, ssh, webdav, v.v.)\n        Kiến trúc phần cài cắm cho ứng dụng và thành phần trình biên tập\n        Các phím tắt có thể tuỳ biến\n        Dòng lệnh tích hợp\n        Lập kịch bản được bằng JavaScript\n      \n    ",
           "name": "Kate",
           "summary": "Trình biên tập văn bản nâng cao"
+        },
+        "zh-Hans": {
+          "description": "Kate 是一款支持多文档、多视图的文本编辑器，由 KDE 社区开发。它具备丰富的功能，例如代码折叠、语法高亮、动态折行、嵌入式命令行终端、功能强大的插件接口和简易脚本支持等。\n      功能特性：\n      \n        多文档界面 (MDI)、窗口拆分、标签页\n        拼写检查\n        CR、CRLF、LF 换行支持\n        编码支持 (UTF-8、UTF-16、ASCII 等)\n        编码转换\n        基于正则表达式的查找和替换\n        强大的语法高亮和括号配对\n        代码和文本折叠\n        无限撤销/重做支持\n        块选择模式\n        自动缩进\n        自动补全支持\n        系统外壳程序集成\n        支持多种类型的协议 (HTTP、FTP、SSH、WebDAV 等)\n        面向应用程序和编辑器组件设计的插件架构\n        自定义快捷键\n        集成命令行\n        基于 JavaScript 实现的脚本编程\n      \n    ",
+          "name": "Kate 文本编辑器",
+          "summary": "多功能文本编辑器"
+        },
+        "zh-Hant": {
+          "description": "Kate 是 KDE 內的進階編輯器，可同時編輯多個文件。它的功能包括像是源碼封裝，語法突顯，動態折行，嵌入主控台，延伸外掛程式介面與一些基本的文稿支援等等。\n      功能：\n      \n        MDI，視窗分割，視窗分頁\n        拼字檢查\n        CR, CRLF, LF 等換行符號支援\n        編碼支援（UTF-8，UTF-16，ASCII 等）\n        編碼轉換\n        搜尋與取代支援正則表達式\n        強大的語法突顯與括號對應\n        程式碼與文字封裝\n        無限的復原/重做支援\n        區塊選擇模式\n        自動縮排\n        自動補完支援\n        Shell 整合\n        廣泛的協定支援（http, ftp, ssh, webdav 等等）\n        用於應用程式與編輯器組件的外掛架構\n        自訂快捷鍵\n        整合指令行\n        可使用 JavaScript\n      \n    ",
+          "name": "Kate",
+          "summary": "進階文字編輯器"
         }
       },
       "project_license": "LGPL-2.1+",
@@ -24070,6 +24662,16 @@
           "description": "Kdenlive — програма для редагування відео із підтримкою багатьох форматів даних відео та звуку. У ній реалізовано широкі можливості з редагування, спектр ефектів та переходів, виправлення кольорів, остаточну обробку звуку та засоби субтитрування. Крім того, програма здатна гнучко обробляти дані практично до будь-якого вибраного вами формату.\n      Можливості:\n      \n        Вкладені послідовності\n        Можливість налаштовування інтерфейсу та клавіатурних скорочень\n        Області: гістограма, векторскоп, розкладка RGB, форма хвилі та рівень звуку\n        Редагування із проміжними кліпами\n        Безкоштовні ресурси та шаблони в інтернеті\n        Стеження за рухом\n        Інструменти на основі ШІ\n      \n    ",
           "name": "Kdenlive",
           "summary": "Відеоредактор"
+        },
+        "zh-Hans": {
+          "description": "Kdenlive 是一款视频编辑应用程序，支持多种音视频格式。它提供了各种高级编辑功能、种类丰富的效果和转场、色彩校正、音频后处理和字幕工具。它还能灵活地将视频输出为您需要的任意格式。\n      程序功能：\n      \n        嵌套序列\n        可定制的界面和快捷键\n        示波器：直方图、矢量示波器、RGB Parade 直方图、波形图、音量计\n        代理剪辑编辑\n        自由免费的在线资源和模板\n        运动跟踪功能\n        基于 AI 的工具\n      \n    ",
+          "name": "Kdenlive",
+          "summary": "视频编辑器"
+        },
+        "zh-Hant": {
+          "description": "Kdenlive 是支援許多音訊與影片格式的影片編輯軟體。它提供進階的剪輯功能、許多的效果、轉場特效、顏色校正、音效後製與字幕工具等等。它也支援輸出到基本上任何您所想要使用的格式。\n      功能：\n      \n        巢狀序列\n        可調整的介面與快捷鍵\n        示波器：直方圖、向量示波器、RGB 檢視、波形以及音訊音量測量\n        代理編輯\n        免費線上資源與範本\n        動態追蹤\n        利用 AI 的工具\n      \n    ",
+          "name": "Kdenlive",
+          "summary": "影片編輯軟體"
         },
         "cs": {
           "name": "Kdenlive",
@@ -24247,6 +24849,11 @@
           "description": "Kronometer — програма-секундомір. У ній передбачено основні можливості секундоміра (призупинення відліку, відновлення відліку, скидання відліку, відлік часу за колами), а також можливість збереження даних щодо часу і відновлення збережених даних із файла. Kronometer є частиною збірки додаткового програмного забезпечення KDE, а саме, модуля Utils.\n      Можливості:\n      \n        Віджет запуску, призупинення та поновлення відліку секундоміра.\n        Запис даних щодо проходження кіл: ви можете записувати дані секундоміра у довільні моменти часу.\n        Упорядковування за часом проходження кола: ви легко можете встановити найкращий і найгірший часи проходження.\n        Скидання значення на віджеті секундоміра та скидання часу проходження кіл.\n        Можливість зміни форматування часу: ви можете вибрати значення параметрів так, щоб було показано лише потрібні вам дані.\n        Збереження та відновлення записаних даних щодо часу: ви можете записати стан секундоміра на диск і згодом відновити його.\n        Можливість налаштовування шрифтів: ви можете вибрати шрифт для кожного з компонентів числових даних секундоміра.\n        Можливість налаштовування кольорів: ви можете вибрати колір для числових даних секундоміра та колір тла.\n        Експортування даних щодо часу проходження кіл: ви можете експортувати дані до файла у форматі XML або CSV.\n      \n    ",
           "name": "Kronometer",
           "summary": "Хронометр"
+        },
+        "zh-Hans": {
+          "description": "Kronometer 是一个秒表应用程序。它具有基本的秒表功能 (暂停/恢复/归零/圈数)，也有保存时间和稍后恢复的功能。Kronmeter 是 KDE Extragear 集合的一部分，属于小工具模块。\n      功能：\n      \n        开始/暂停/恢复秒表部件\n        圈数记录：您可以随时捕获秒表时间\n        圈时排序：您可以轻松地找出最短和最长的圈时间\n        重置秒表部件和单圈时间\n        时间格式设置： 您可以选择秒表粒度\n        保存和恢复时间： 您可以保存秒表状态并在以后继续\n        自定义字体： 您可以为每个秒表数字选择字体\n        颜色自定义功能： 您可以选择秒表位数和秒表背景的颜色\n        圈时间导出：您可以将各圈时间导出为 JSON 格式或 CSV 格式的文件\n      \n    ",
+          "name": "Kronometer 计时器",
+          "summary": "计时器"
         },
         "cs": {
           "name": "Kronometer",
@@ -24451,6 +25058,16 @@
           "description": "Програма для запису образів ISO на флешки USB\n    ",
           "name": "Записувач образів ISO",
           "summary": "Програма для запису образів ISO на флешки USB"
+        },
+        "zh-Hans": {
+          "description": "将 ISO 镜像写入 U 盘\n    ",
+          "name": "ISO 镜像文件写入器",
+          "summary": "将 ISO 镜像写入 U 盘"
+        },
+        "zh-Hant": {
+          "description": "將 ISO 映像寫入 USB 裝置\n    ",
+          "name": "ISO 映像寫入工具",
+          "summary": "將 ISO 映像寫入 USB 裝置"
         }
       },
       "project_license": "GPL-3.0",
@@ -24598,6 +25215,16 @@
           "description": "«Око GNOME» — переглядач зображень, який розроблено для стільничного середовища GNOME. Він інтегрований з GTK і GNOME, підтримує чимало форматів для переглядання зображень або збірок.\n      «Око GNOME» також надає змогу переглядати зображення у повноекранному режимі показу слайдів або встановлювати зображення як стільничні шпалери. Він читає мітки камери для автоматичного обертання зображення в правильній орієнтації.\n    ",
           "name": "Око GNOME",
           "summary": "Перегляд та обертання зображень"
+        },
+        "zh-Hans": {
+          "description": "GNOME 之眼（Eye of GNOME）是为 GNOME 桌面设计的官方图片查看器。它融合了 GNOME 的 GTK 外观风格，支持多种图片格式的单图及相册查看。\n      它也可以支持以全屏幻灯片播放的方式查看图片，或者将图片设置为桌面壁纸。它会自动读取相机的标签来自动旋转您的照片，从而正确的横向/纵向显示它们。\n    ",
+          "name": "GNOME 之眼",
+          "summary": "浏览及旋转图像"
+        },
+        "zh-Hant": {
+          "description": "《GNOME 之眼》是為 GNOME 桌面設計的影像檢視器。它整合了 GNOME 的 GTK 外觀與感覺，並支援許多影像格式，適合檢視單張影像或收藏圖集中的影像。\n      它也允許全螢幕投影片模式檢視影像，或是將影像設定為桌面的桌布。它會讀取數位相機的標記，並自動將您的影像旋轉到正確的直式或橫式方向。\n    ",
+          "name": "GNOME 之眼",
+          "summary": "瀏覽及更改影像的方向"
         },
         "ar": {
           "name": "عين جنوم",
@@ -24890,6 +25517,11 @@
           "name": "Бібліотека піктограм",
           "summary": "Символічні піктограми для ваших програм"
         },
+        "zh-Hans": {
+          "description": "查找适合在您的 GNOME 应用程序上使用的图标。\n    ",
+          "name": "图标库",
+          "summary": "用于您的应用的符号图标"
+        },
         "el": {}
       },
       "project_license": "GPL-3.0+",
@@ -25149,6 +25781,11 @@
           "description": "«Стрічки» — мінімалістична програма для читання стрічок новин RSS/Atom. Акцент зроблено на швидкість і простоту.\n      Програма пропонує вам скористатися простим інтерфейсом користувача, у якому показано лише найсвіжіші новини з ваших підписок.\n      Типово, статті показано на вебпанелі із вимкненим javascript для пришвидшення та меншого втручання у дії користувача. Також реалізовано режим читача, який побудовано на основі того, що використовується у «Тенетах GNOME»/Epiphany.\n      Стрічки можна імпортувати або експортувати у форматі OPML.\n    ",
           "name": "Стрічки",
           "summary": "Програма для читання новин у GNOME"
+        },
+        "zh-Hans": {
+          "description": "订阅是以速度和简便为设计思想构建的最小化 RSS/Atom 订阅阅读器。\n      它提供了仅显示从您的订阅中获取最新内容的简单用户界面。\n      文章默认显示在网页视图中，禁用 JavaScript 以获得更快速和更少干扰的用户体验。同时包含了来自 GNOME Web/Epiphany 使用的阅读模式。\n      订阅可以通过 OPML 来导入和导出。\n    ",
+          "name": "订阅",
+          "summary": "用于 GNOME 的新闻阅读器"
         }
       },
       "project_license": "GPL-3.0+",
@@ -25249,7 +25886,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
