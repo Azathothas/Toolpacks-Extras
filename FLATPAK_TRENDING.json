@@ -11641,7 +11641,7 @@
       "summary": "Private messenger",
       "description": "\n      To use the Signal desktop app, Signal must first be installed on your phone.\n    \n      \n      Millions of people use Signal every day for free and instantaneous communication \n      anywhere in the world. Send and receive high-fidelity messages, participate in \n      HD voice/video calls, and explore a growing set of new features that help you \n      stay connected. Signal’s advanced privacy-preserving technology is always enabled, \n      so you can focus on sharing the moments that matter with the people who matter to you. \n    \n      \n      Signal is an independent 501c3 nonprofit. The complete source code for \n      the Signal clients and the Signal server is available on GitHub.\n    \n      \n      This flatpak is maintained by the Flathub community, and is not necessarily \n      endorsed or officially maintained by the upstream developers.\n    \n    ",
       "id": "org_signal_Signal",
-      "updated_at": 1733088315,
+      "updated_at": 1733390412,
       "arches": [
         "x86_64"
       ],
@@ -11650,7 +11650,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.signal.Signal",
-      "icon": "https://dl.flathub.org/media/org/signal/Signal/fd8ab4a2db7c887d11927b60a266fc58/icons/128x128/org.signal.Signal.png",
+      "icon": "https://dl.flathub.org/media/org/signal/Signal/12382eee7ece834e92586401adb94b4c/icons/128x128/org.signal.Signal.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -24559,7 +24559,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
