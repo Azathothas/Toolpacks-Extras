@@ -2683,7 +2683,7 @@
       "summary": "Keep track of your treatments",
       "description": "Easily manage track treatments with Dosage: Notifications, History, Multiple Doses, Flexible Frequency, Customization, Stock Monitoring, and Duration Control\n      Features:\n      \n        Notifications — Get reminders at the right time\n        History — See which medications you took, skipped or missed\n        Dosage management — Multiple doses with different times\n        Frequency modes — Every day, specific days, cycle or just when necessary\n        Color and icon — Give a shape for your treatment\n        Inventory tracking — Monitor your stock and get reminded when it's low\n        Duration — Define the start and end dates\n      \n    ",
       "id": "io_github_diegopvlk_Dosage",
-      "updated_at": 1731518038,
+      "updated_at": 1733408041,
       "arches": [
         "x86_64",
         "aarch64"
@@ -2797,7 +2797,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "io.github.diegopvlk.Dosage",
-      "icon": "https://dl.flathub.org/media/io/github/diegopvlk.Dosage.desktop/0760803e615e904abce30e96f9d87aa7/icons/128x128/io.github.diegopvlk.Dosage.desktop.png",
+      "icon": "https://dl.flathub.org/media/io/github/diegopvlk.Dosage.desktop/01230c28afc1d2551c485c9c9290036a/icons/128x128/io.github.diegopvlk.Dosage.desktop.png",
       "categories": [
         "Utility",
         "MedicalSoftware",
@@ -24559,7 +24559,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
