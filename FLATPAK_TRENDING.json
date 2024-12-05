@@ -2416,7 +2416,7 @@
       "summary": "Private and secure communication",
       "description": "Messenger-GTK is a convergent GTK messaging application using the GNUnet Messenger service. The goal is to provide private and secure communication between any group of devices.\n      The application provides the following features:\n      \n        Creating direct chats and group chats\n        Managing your contacts and groups\n        Invite contacts to a group\n        Sending text messages\n        Sending voice recordings\n        Sharing files privately\n        Deleting messages with any custom delay\n        Renaming contacts\n        Exchanging contact details physically\n        Verifying contact identities\n        Switching between different accounts\n      \n      Chats will generally created as opt-in. So you can decide who may contact you directly and who does not, accepting to a direct chat. Leaving a chat is also always possible.\n    ",
       "id": "org_gnunet_Messenger",
-      "updated_at": 1728583467,
+      "updated_at": 1733348699,
       "arches": [
         "x86_64",
         "aarch64"
@@ -24559,7 +24559,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

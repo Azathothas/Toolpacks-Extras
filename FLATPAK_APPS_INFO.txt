@@ -4854,7 +4854,7 @@ NAME: CutePeaks
 APP_ID: io.github.labsquare.CutePeaks
 Descr: Standalone Sanger trace viewer
 -----------------------------
-NAME: lada
+NAME: Lada
 APP_ID: io.github.ladaapp.lada
 Descr: Recover pixelated adult videos
 -----------------------------
@@ -9222,9 +9222,9 @@ NAME: Taisei Project
 APP_ID: org.taisei_project.Taisei
 Descr: Bullet hell shoot &apos;em up game set in the Tōhō universe
 -----------------------------
-NAME: Telegram Desktop
+NAME: Telegram
 APP_ID: org.telegram.desktop
-Descr: Fast. Secure. Powerful.
+Descr: New era of messaging
 -----------------------------
 NAME: TeleSculptor
 APP_ID: org.telesculptor.TeleSculptor
