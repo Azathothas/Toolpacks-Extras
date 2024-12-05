@@ -11203,7 +11203,7 @@
       "summary": "Take handwritten notes",
       "description": "\n      Xournal++ is a hand note-taking software written in C++ with the target of\n      flexibility, functionality and speed. Stroke recognizer and other parts are\n      based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux\n      (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input\n      from devices such as Wacom Tablets.\n    \n      \n      Xournal++ features:\n    \n      \n        Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)\n        Paper backgrounds for note-taking, scratch paper, or whiteboarding\n        Annotate on top of PDFs\n        Select text from the background PDF, copy, highlight or underline it or strike it through\n        Follow links from the background PDF\n        Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line\n        Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)\n        Shape drawing (line, arrow, circle, rectangle, spline)\n        Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii\n        Fill shape functionality\n        Shape resizing and rotation\n        Rotation and grid snapping for precise alignment of objects\n        Input stabilization for smoother writing/drawing\n        Text tool for adding text in different fonts, colors, and sizes\n        Enhanced support for image insertion\n        Eraser with multiple configurations\n        LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting\n        Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)\n        Allows mapping different tools/colors etc. to stylus/mouse buttons\n        Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape\n        Custom color palette support using the .gpl format\n        Page template definitions\n        Bug reporting, autosave, and auto backup tools\n        Audio recording and playback alongside with handwritten notes\n        Multi language support (over 20 languages supported)\n        Plugins using Lua scripting\n      \n      \n    ",
       "id": "com_github_xournalpp_xournalpp",
-      "updated_at": 1733250362,
+      "updated_at": 1733383626,
       "arches": [
         "x86_64",
         "aarch64"
@@ -11239,7 +11239,7 @@
       "project_license": "GPL-2.0",
       "is_free_license": true,
       "app_id": "com.github.xournalpp.xournalpp",
-      "icon": "https://dl.flathub.org/media/com/github/xournalpp.xournalpp/f0627c91c7d2575dc0ef5fa2a8d6b296/icons/128x128/com.github.xournalpp.xournalpp.png",
+      "icon": "https://dl.flathub.org/media/com/github/xournalpp.xournalpp/227dbd1a546fa0498986ad2713821670/icons/128x128/com.github.xournalpp.xournalpp.png",
       "categories": [
         "Office"
       ],
@@ -23240,7 +23240,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
