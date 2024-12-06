@@ -1584,7 +1584,7 @@
       "summary": "Browse, install, and manage GNOME Shell Extensions",
       "description": "A utility for browsing and installing GNOME Shell Extensions.\n      Features:\n      \n        Browse extensions.gnome.org right inside the app\n        Manage the extensions you already have installed\n      \n    ",
       "id": "com_mattjakeman_ExtensionManager",
-      "updated_at": 1714374900,
+      "updated_at": 1733474892,
       "arches": [
         "x86_64",
         "aarch64"
@@ -1592,17 +1592,29 @@
       "type": "desktop-application",
       "translations": {
         "ar": {
-          "description": "أداة مساعدة لتصفح وتثبيت إضافات جنوم شل.\n      الميزات:\n      \n        تصفح extension.gnome.org داخل التطبيق مباشرة\n        إدارة الإضافات التي قمت بتثبيتها بالفعل\n      \n    ",
-          "name": "مدير الإضافة",
-          "summary": "تصفح، تثبيت، وإدارة إضافات جنوم شل"
+          "description": "أداة تصفح وتنصيب امتدادت جنوم شل.\n      الميزات:\n      \n        تصفح الامتدادات الموجودة في extensions.gnome.org من داخل التطبيق\n        أدِر الامتدادات التي نصَّبتها\n      \n    ",
+          "name": "مدير الامتدادات",
+          "summary": "تصفح ونصِّب وأدِر امتدادات جنوم شل"
+        },
+        "be": {
+          "description": "Утыліта для прагляду і ўсталявання пашырэнняў абалонкі GNOME.\n      Асаблівасці:\n      \n        Прагляд сайта extensions.gnome.org прама ў дадатку\n        Кіруйце пашырэннямі, якія вы ўжо ўсталявалі\n      \n    ",
+          "name": "Менеджэр пашырэнняў",
+          "summary": "Праглядайце, усталёўвайце і кіруйце пашырэннямі абалонкі GNOME"
+        },
+        "bg": {
+          "description": "Помощна програма за преглеждане и инсталиране на разширенията на GNOME Shell.\n      Характеристики:\n      \n        Разглеждане extensions.gnome.org направо в приложението\n        Управлявай разширенията, които вече сте инсталирали\n      \n    ",
+          "name": "Мениджър на разширения",
+          "summary": "Разглеждане, инсталиране и управление на разширенията на GNOME Shell"
         },
         "ca": {
           "description": "Una utilitat per navegar i instal·lar les extensions del GNOME Shell.\n      Característiques:\n      \n        Explora extensions.gnome.org dins de l'aplicació\n        Gestiones les extensions que ja tens instal·lades\n      \n    ",
-          "name": "Gestor d'extensions"
+          "name": "Gestor d'extensions",
+          "summary": "Navega, instal·la i gestiona les extensions del GNOME Shell"
         },
         "cs": {
           "description": "Jednoduchá aplikace, jež vám usnadní procházení a instalaci rozšíření GNOME Shellu.\n      Funkce:\n      \n        Procházejte web extensions.gnome.org přímo v aplikaci\n        Spravujte rozšíření, která již máte nainstalovaná\n      \n    ",
-          "name": "Správce rozšíření"
+          "name": "Správce Rozšíření",
+          "summary": "Procházejte, instalujte a spravujte rozšíření GNOME Shellu"
         },
         "da": {
           "description": "Et værktøj til at gennemse og installere GNOME Skaludvidelser.\n      Funktioner:\n      \n        Gennemse extensions.gnome.org inde i app'en\n        Administrer de udvidelser du allerede har installeret\n      \n    ",
@@ -1624,22 +1636,33 @@
           "summary": "Explorar, instalar y gestionar extensiones de GNOME Shell"
         },
         "et": {
-          "description": "GNOME töölaua laienduste sirvimiseks ning paigaldamiseks tööriist.\n      Funktsioonid:\n      \n        Sirvi extensions.gnome.org kohe rakenduse seest\n        Halda laiendusi, mis sul on paigaldatud\n      \n    ",
-          "name": "Laiendushaldur"
+          "description": "Tööriist GNOME töölaua laienduste sirvimiseks ja paigaldamiseks.\n      Funktsioonid:\n      \n        Sirvi extensions.gnome.org-i otse rakenduse seest\n        Halda juba paigaldatud laiendusi\n      \n    ",
+          "name": "Laiendushaldur",
+          "summary": "Sirvi, paigalda ja halda GNOME töölaua laiendusi"
         },
         "fa": {
           "description": "ابزاری برای مرور و نصب افزونه‌های گنوم.\n      قابلیت‌ها:\n      \n        مرور افزونه‌ها از extensions.gnome.org در خود برنامه\n        مدیریت افزونه‌های نصب شده\n      \n    ",
           "name": "مدیر افزونه‌ها"
         },
+        "fi": {
+          "description": "Apuohjelma Gnome Shell -laajennusten selaamiseen ja asentamiseen.\n      Ominaisuudet:\n      \n        Selaa extensions.gnome.org-palvelun sisältöä sovelluksesta\n        Hallitse jo asennettuja laajennuksia\n      \n    ",
+          "name": "Laajennusten hallinta",
+          "summary": "Selaa, asenna ja hallitse Gnome Shell -laajennuksia"
+        },
         "fr": {
-          "description": "Un outil pour parcourir et installer les extensions GNOME Shell.\n      Caractéristiques :\n      \n        Utilisez directement extensions.gnome.org dans l’application\n        Gérez les extensions que vous avez déjà installées\n      \n    ",
+          "description": "Un outil pour parcourir et installer les extensions GNOME Shell.\n      Caractéristiques :\n      \n        Utilisez directement extensions.gnome.org dans l’application\n        Gérez les extensions que vous avez déjà installées\n      \n    ",
           "name": "Gestionnaire d’extensions",
           "summary": "Parcourez, installez et gérez les extensions GNOME Shell"
         },
-        "hi": {
-          "description": "GNOME Shell एक्सटेंशन ब्राउज़ करने और स्थापित करने के लिए एक उपयोगिता।\n      विशेषताएँ:\n      \n        ऐप के ठीक अंदर extensions.gnome.org ब्राउज़ करें\n        आपके द्वारा पहले से इंस्टॉल किए गए एक्सटेंशन प्रबंधित करें\n      \n    ",
+        "ga": {
+          "description": "Fóntais chun síntí bhlaosc gnome a bhrabhsáil agus a shuiteáil.\n      Gnéithe:\n      \n        Brabhsáil Extensions.gnome.org ar dheis taobh istigh den aip\n        Bainistigh na síntí atá suiteáilte agat cheana féin\n      \n    ",
           "name": "Extension Manager",
-          "summary": "GNOME Shell एक्सटेंशन ब्राउज़ करें, इंस्टॉल करें और प्रबंधित करें"
+          "summary": "Brabhsáil, suiteáil, agus bainistiú a dhéanamh ar shíneadh sliogáin gnome"
+        },
+        "hi": {
+          "description": "गनोम शैल एक्सटेंशन ब्राउज़ करने और स्थापित करने के लिए एक उपयोगिता।\n      विशेषताएं:\n      \n        ऐप के ठीक अंदर extensions.gnome.org ब्राउज़ करें\n        आपके द्वारा पहले से स्थापित किए गए एक्सटेंशन प्रबंधित करें\n      \n    ",
+          "name": "एक्सटेंशन मैनेजर",
+          "summary": "गनोम शैल एक्सटेंशन ब्राउज़ करें, स्थापित करें और प्रबंधित करें"
         },
         "hr": {
           "description": "Pomagalo za pregledavanje i instalaciju proširenja GNOME ljuske.\n      Značajke:\n      \n        Pregledajte extensions.gnome.org unutar aplikacije\n        Upravljajte već instaliranim proširenjima\n      \n    ",
@@ -1653,23 +1676,23 @@
         },
         "it": {
           "description": "Uno strumento per cercare e installare estensioni per GNOME.\n      Funzionalità:\n      \n        Sfoglia extensions.gnome.org direttamente nell'applicazione\n        Gestisci le estensioni già installate\n      \n    ",
-          "name": "Gestore di estensioni",
+          "name": "Gestore delle estensioni",
           "summary": "Sfoglia, installa e gestisci le estensioni di GNOME"
         },
         "ja": {
-          "description": "GNOME Shell 拡張機能 を探せてインストールできるユーティリティです。\n      機能:\n      \n        アプリ内で extensions.gnome.org を探索できます\n        今までにインストールした拡張機能も管理できます\n      \n    ",
+          "description": "GNOME Shell 拡張機能を探せてインストールできるユーティリティです。\n      機能:\n      \n        アプリ内で extensions.gnome.org を探索できます\n        今までにインストールした拡張機能も管理できます\n      \n    ",
           "name": "Extension Manager",
-          "summary": "GNOME Shell 拡張機能 を検索、インストール、管理します"
+          "summary": "GNOME Shell 拡張機能を検索、インストール、管理します"
         },
         "ko": {
-          "description": "GNOME Shell 확장 검색과 설치를 위한 프로그램.\n      특징:\n      \n        앱 내에서 extensions.gnome.org를 검색할 수 있습니다\n        이미 설치한 확장 관리\n      \n    ",
+          "description": "GNOME Shell 확장 검색과 설치를 위한 프로그램.\n      특징:\n      \n        앱에서 바로 extensions.gnome.org 찾아보기\n        이미 설치한 확장 관리\n      \n    ",
           "name": "확장 관리자",
           "summary": "GNOME Shell 확장을 검색, 설치, 관리합니다"
         },
         "nb": {
           "description": "Ønsker du å endre oppførselen eller utseendet til GNOME-systemet ditt? Det kan du gjøre med utvidelser.\n      Med Extension Manager er det lett å komme i gang:\n      \n        Utforsk og last ned nye utvidelser\n        Administrer og still inn allerede installerte utvidelser\n      \n    ",
           "name": "Extension Manager",
-          "summary": "Installer og administrer utvidelser"
+          "summary": "Søk, installer og administrer GNOME Shell utvidelser"
         },
         "nl": {
           "description": "Een app voor het ontdekken en installeren van GNOME Shell-uitbreidingen.\n      Functies:\n      \n        Blader door uitbreidingen van extensions.gnome.org recht­streeks in de app\n        Beheer de reeds geïnstalleerde uitbreidingen\n      \n    ",
@@ -1683,7 +1706,8 @@
         },
         "pl": {
           "description": "Narzędzie do przeglądania i instalowania rozszerzeń powłoki GNOME.\n      Funkcje:\n      \n        Przeglądaj extensions.gnome.org bezpośrednio w aplikacji\n        Zarządzaj już zainstalowanymi rozszerzeniami\n      \n    ",
-          "name": "Menedżer Rozszerzeń"
+          "name": "Menedżer rozszerzeń",
+          "summary": "Przeglądaj, instaluj i zarządzaj rozszerzeniami powłoki GNOME"
         },
         "pt": {
           "description": "Um utilitário para explorar e instalar as extensões do GNOME Shell.\n      Funcionalidades:\n      \n        Explorar em extensões.gnome.org por dentro da aplicação\n        Gerir as extensões que já estão instaladas\n      \n    ",
@@ -1710,9 +1734,9 @@
           "summary": "GNOME Shell Uzantılarını keşfedin, kurun ve yönetin"
         },
         "uk": {
-          "description": "Програма для пошуку та встановлення розширень для стільниці GNOME.\n      Функції:\n      \n        Шукайте розширення з extensions.gnome.org прямо у додатку\n        Керуйте встановленими розширеннями\n      \n    ",
+          "description": "Програма для пошуку та встановлення розширень оболонки GNOME.\n      Функції:\n      \n        Шукайте розширення з extensions.gnome.org прямо у додатку\n        Керуйте уже встановленими розширеннями\n      \n    ",
           "name": "Менеджер розширень",
-          "summary": "Шукайте, встановлюйте та керуйте розширеннями для стільниці GNOME"
+          "summary": "Шукайте, встановлюйте та керуйте розширеннями оболонки GNOME"
         },
         "zh-Hans": {
           "description": "一款浏览和安装 GNOME 扩展的实用程序。\n      功能：\n      \n        在应用中浏览 extensions.gnome.org\n        管理您已经安装的扩展\n      \n    ",
@@ -1720,14 +1744,15 @@
           "summary": "浏览、安装并管理 GNOME Shell 扩展"
         },
         "zh-Hant": {
-          "description": "一個用來搜尋及安裝 GNOME Shell 擴充套件的工具程式。\n      功能：\n      \n        在應用程式內瀏覽 extensions.gnome.org\n        管理已安裝的擴充套件\n      \n    ",
-          "name": "擴充套件管理員"
+          "description": "一個用來搜尋及安裝 GNOME Shell 擴充功能的工具程式。\n      功能：\n      \n        在應用程式內瀏覽 extensions.gnome.org\n        管理已安裝的擴充功能\n      \n    ",
+          "name": "擴充功能管理員",
+          "summary": "瀏覽、安裝和管理 GNOME Shell 擴充功能"
         }
       },
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "com.mattjakeman.ExtensionManager",
-      "icon": "https://dl.flathub.org/media/com/mattjakeman/ExtensionManager/e153ab9e06c62d3439bf51da47362ffb/icons/128x128/com.mattjakeman.ExtensionManager.png",
+      "icon": "https://dl.flathub.org/media/com/mattjakeman/ExtensionManager/642ebd691ce858e8981e4c7ab6d8ff13/icons/128x128/com.mattjakeman.ExtensionManager.png",
       "categories": [
         "Utility"
       ],
@@ -1743,7 +1768,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "mattjakeman.com",
       "verification_timestamp": "1679789301",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 12.636954755314612,
       "installs_last_month": 53270,
       "added_at": 1641905612
@@ -7413,7 +7438,7 @@
       "summary": "A feature-packed small and fast bootstrapper for Roblox",
       "description": "Vinegar is a fast and robust bootstrapper for Roblox that has many ease-of-use features.\n    ",
       "id": "org_vinegarhq_Vinegar",
-      "updated_at": 1728490945,
+      "updated_at": 1733469349,
       "arches": [
         "x86_64"
       ],
@@ -7422,7 +7447,7 @@
       "project_license": "GPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.vinegarhq.Vinegar",
-      "icon": "https://dl.flathub.org/media/org/vinegarhq/Vinegar/9c4a6cdee78d30fd2027098a952a3e48/icons/128x128/org.vinegarhq.Vinegar.png",
+      "icon": "https://dl.flathub.org/media/org/vinegarhq/Vinegar/0b680557d7fba18a9e4ddba00f60325f/icons/128x128/org.vinegarhq.Vinegar.png",
       "categories": [
         "Game"
       ],
@@ -18981,7 +19006,7 @@
       "summary": "IPTV player with EPG support",
       "description": "\n      IPTV player with many features, such as:\n    \n      \n        M3U / XSPF playlists support\n        XTream API support\n        TV program (EPG) support\n        Stream recording\n        Playlist editor\n        TV archive / catchup\n        and many more...\n      \n    ",
       "id": "io_github_yuki_iptv_yuki-iptv",
-      "updated_at": 1733273450,
+      "updated_at": 1733465340,
       "arches": [
         "x86_64",
         "aarch64"
@@ -18991,7 +19016,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "io.github.yuki_iptv.yuki-iptv",
-      "icon": "https://dl.flathub.org/media/io/github/yuki_iptv.yuki-iptv/ec4e904c830918f00e20717cbd723b63/icons/128x128/io.github.yuki_iptv.yuki-iptv.png",
+      "icon": "https://dl.flathub.org/media/io/github/yuki_iptv.yuki-iptv/a54609e7659a58eb18ecb27bdb40ac91/icons/128x128/io.github.yuki_iptv.yuki-iptv.png",
       "categories": [
         "AudioVideo",
         "Video",
@@ -22704,7 +22729,7 @@
       "summary": "Discover and read manga & comics",
       "description": "With its simple, elegant and adaptive interface, this reader lets you search, sort and read your series with ease.\n      Why you will love Komikku?\n      \n        Online and offline reading from dozens of servers\n        Support for locally stored series (in CBZ or CBR formats)\n        RTL, LTR, Vertical and Webtoon reading modes\n        Support several types of navigation: keyboard arrow keys, right and left navigation layout via mouse click or tapping (touchpad/touch screen), mouse wheel, 2-fingers swipe gesture (touchpad), swipe gesture (touch screen)\n        Categories to organize your library\n        Automatic tracking of series with MyAnimeList and AniList\n        Automatic update of series\n        Automatic download of new chapters\n        Reading history\n        Light and dark themes\n      \n    ",
       "id": "info_febvre_Komikku",
-      "updated_at": 1732578422,
+      "updated_at": 1733485187,
       "arches": [
         "x86_64",
         "aarch64"
@@ -22726,7 +22751,7 @@
           "summary": "Mangas &amp; comics entdecken und lesen"
         },
         "es": {
-          "description": "Con su interfaz sencilla, elegante y adaptable, este lector te permite buscar, ordenar y leer tus series con facilidad.\n      ¿Por qué te encantará Komikku?\n      \n        Lectura en línea y fuera de línea desde decenas de servidores\n        Compatibilidad con series almacenadas localmente (en formatos CBZ o CBR)\n        Modos de lectura RTL, LTR, vertical y Webtoon\n        Admite varios tipos de navegación: teclas de flecha del teclado, disposición de la navegación a la derecha y a la izquierda mediante un clic del ratón o un toque (panel/pantalla táctil), rueda del ratón, gesto de deslizamiento con dos dedos (panel táctil), gesto de deslizamiento (pantalla táctil)\n        Categorías para organizar su biblioteca\n        Actualización automática de series\n        Descarga automática de nuevos capítulos\n        Historial de lectura\n        Temas claro y oscuro\n      \n    ",
+          "description": "Con su interfaz sencilla, elegante y adaptable, este lector te permite buscar, ordenar y leer tus series con facilidad.\n      ¿Por qué te encantará Komikku?\n      \n        Lectura en línea y fuera de línea desde decenas de servidores\n        Compatibilidad con series almacenadas localmente (en formatos CBZ o CBR)\n        Modos de lectura RTL, LTR, vertical y Webtoon\n        Admite varios tipos de navegación: teclas de flecha del teclado, disposición de la navegación a la derecha y a la izquierda mediante un clic del ratón o un toque (panel/pantalla táctil), rueda del ratón, gesto de deslizamiento con dos dedos (panel táctil), gesto de deslizamiento (pantalla táctil)\n        Categorías para organizar su biblioteca\n        Seguimiento automático de series con MyAnimeList y AniList\n        Actualización automática de series\n        Descarga automática de nuevos capítulos\n        Historial de lectura\n        Temas claro y oscuro\n      \n    ",
           "summary": "Descubrir y leer manga y cómics"
         },
         "fi": {
@@ -22769,7 +22794,7 @@
           "summary": "Descubra e leia mangás &amp; HQs"
         },
         "ru": {
-          "description": "Благодаря простому, элегантному и адаптивному интерфейсу это приложение для чтения позволяет с легкостью выполнять поиск, сортировку и чтение ваших циклов.\n      Почему вы полюбите Komikku?\n      \n        Онлайн и офлайн чтение с десятков серверов\n        Поддержка локально сохраненных циклов (в форматах CBZ или CBR)\n        Режимы чтения RTL, LTR, Vertical и Webtoon\n        Поддержка различных типов навигации: клавиши-стрелки, навигация вправо и влево с помощью щелчка мыши или касания (тачпад/сенсорный экран), колесо прокрутки, жест пролистывания двумя пальцами (тачпад), жест смахивания (сенсорный экран)\n        Категории для организации вашей библиотеки\n        Автоматическое обновление циклов\n        Автоматическая загрузка новых глав\n        История чтения\n        Светлая и тёмная темы\n      \n    ",
+          "description": "Благодаря простому, элегантному и адаптивному интерфейсу это приложение для чтения позволяет с легкостью выполнять поиск, сортировку и чтение ваших циклов.\n      Почему вы полюбите Komikku?\n      \n        Онлайн и офлайн чтение с десятков серверов\n        Поддержка локально сохраненных циклов (в форматах CBZ или CBR)\n        Режимы чтения RTL, LTR, Vertical и Webtoon\n        Поддержка различных типов навигации: клавиши-стрелки, навигация вправо и влево с помощью щелчка мыши или касания (тачпад/сенсорный экран), колесо прокрутки, жест пролистывания двумя пальцами (тачпад), жест смахивания (сенсорный экран)\n        Категории для организации вашей библиотеки\n        Автоматические отслеживание циклов с помощью MyAnimeList и AniList\n        Автоматическое обновление циклов\n        Автоматическая загрузка новых глав\n        История чтения\n        Светлая и тёмная темы\n      \n    ",
           "summary": "Откройте для себя и читайте мангу и комиксы"
         },
         "sv": {
@@ -22781,7 +22806,7 @@
           "summary": "Manga ve çizgi romanları keşfedip oku"
         },
         "uk": {
-          "description": "Ця читалка із простим, елегантним та адаптивним інтерфейсом, дозволяє шукати, сортувати та читати ваші мальописи з легкістю.\n      Чому вам сподобається Komikku?\n      \n        Онлайн та офлайн читання з десятків серверів\n        Підтримка мальописів на жорсткому диску (в форматах CBZ або СBR)\n        Режими читання RTL, LTR, вертикальний та Webtoon\n        Підтримує кілька типів навігації: клавіші зі стрілками на клавіатурі, праве та ліве розташування навігації за допомогою клацання мишею або торкання (тачпад/сенсорний екран), колесо мишки, жест проведення двома пальцями (тачпад), жест проведення (сенсорний екран)\n        Категорії для організації вашої бібліотеки\n        Автоматичне оновлення мальописів\n        Автоматичне завантаження нових розділів\n        Історія читання\n        Світлі та темні теми\n      \n    ",
+          "description": "Ця читалка із простим, елегантним та адаптивним інтерфейсом, дозволяє шукати, сортувати та читати ваші мальописи з легкістю.\n      Чому вам сподобається Komikku?\n      \n        Онлайн та офлайн читання з десятків серверів\n        Підтримка мальописів на жорсткому диску (в форматах CBZ або СBR)\n        Режими читання RTL, LTR, вертикальний та Webtoon\n        Підтримує кілька типів навігації: клавіші зі стрілками на клавіатурі, праве та ліве розташування навігації за допомогою клацання мишею або торкання (тачпад/сенсорний екран), колесо мишки, жест проведення двома пальцями (тачпад), жест проведення (сенсорний екран)\n        Категорії для організації вашої бібліотеки\n        Автоматичне відстеження серіалів за допомогою MyAnimeList та AniList\n        Автоматичне оновлення мальописів\n        Автоматичне завантаження нових розділів\n        Історія читання\n        Світлі та темні теми\n      \n    ",
           "summary": "Досліджуй і читай манґу &amp; мальопис"
         },
         "vi": {
@@ -22798,7 +22823,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "info.febvre.Komikku",
-      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/c287c6c8b370c199f11ce8b40bbd3e59/icons/128x128/info.febvre.Komikku.png",
+      "icon": "https://dl.flathub.org/media/info/febvre/Komikku/3b2fd3c88a832ccebb8319a50c0e3b7b/icons/128x128/info.febvre.Komikku.png",
       "categories": [
         "Graphics",
         "Network",
@@ -23244,7 +23269,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 57,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

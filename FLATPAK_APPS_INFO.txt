@@ -6400,7 +6400,7 @@ Descr: Make annotations on the screen
 -----------------------------
 NAME: MultiVNC
 APP_ID: net.christianbeier.MultiVNC
-Descr: Cross-platform Multicast-enabled VNC viewer
+Descr: Multicast-enabled VNC viewer
 -----------------------------
 NAME: Master PDF Editor
 APP_ID: net.codeindustry.MasterPDFEditor
