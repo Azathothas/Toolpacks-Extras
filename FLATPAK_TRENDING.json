@@ -5167,7 +5167,7 @@
       "summary": "Listen to your mic",
       "description": "Whisper allows you to listen to your microphone through your speakers using Pipewire\n    ",
       "id": "it_mijorus_whisper",
-      "updated_at": 1716988327,
+      "updated_at": 1733491245,
       "arches": [
         "aarch64",
         "x86_64"
@@ -5193,7 +5193,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "mijorus.it",
       "verification_timestamp": "1677793088",
-      "runtime": "org.gnome.Platform/x86_64/45",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 15.434350523854508,
       "installs_last_month": 584,
       "added_at": 1675684701
@@ -16423,7 +16423,7 @@
       "summary": "Process data with GnuPG",
       "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1733384367,
+      "updated_at": 1733510514,
       "arches": [
         "aarch64",
         "x86_64"
@@ -16482,7 +16482,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/3fc5e3e357a6dfcbb0d95b9dc511c9a8/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/c308f94457a54aac2cb698a59a2355d6/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -24843,7 +24843,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 47,
+  "processingTimeMs": 50,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

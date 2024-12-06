@@ -2652,7 +2652,7 @@
       "summary": "A tool to create a live USB drive with an edition of Fedora",
       "description": "A tool to create a bootable live USB drive with an edition of Fedora. Not only can Fedora Media Writer write an image to your flash drive, it can also download it for you. It offers official editions (Server, Workstation), Fedora spins (KDE Plasma Desktop, Xfce Desktop, Cinnamon Desktop,...), and Fedora Labs (Design Suite, Security Lab,...). It provides basic information about each of them to help you make the right choice.\n      Fedora Media Writer can also write other bootable ISOs loaded from your local disk, but keep in mind that it's only tested with Fedora images.\n    ",
       "id": "org_fedoraproject_MediaWriter",
-      "updated_at": 1732887263,
+      "updated_at": 1733500092,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2832,7 +2832,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "fedoraproject.org",
       "verification_timestamp": "1682168789",
-      "runtime": "org.kde.Platform/x86_64/6.7",
+      "runtime": "org.kde.Platform/x86_64/6.8",
       "trending": 11.019944977647258,
       "installs_last_month": 28736,
       "added_at": 1510825665
@@ -7922,7 +7922,7 @@
       "summary": "IDE for Android app development",
       "description": "Android Studio is the official Integrated Development Environment (IDE) for Android app development. Based on the powerful code editor and developer tools from IntelliJ IDEA, Android Studio offers even more features that enhance your productivity when building Android apps, such as:\n      \n        A flexible Gradle-based build system\n        A fast and feature-rich emulator\n        A unified environment where you can develop for all Android devices\n        Live Edit to update composables in emulators and physical devices in real time\n        Code templates and GitHub integration to help you build common app features and import sample code\n        Extensive testing tools and frameworks\n        Lint tools to catch performance, usability, version compatibility, and other problems\n        C++ and NDK support\n        Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine\n      \n    ",
       "id": "com_google_AndroidStudio",
-      "updated_at": 1733233585,
+      "updated_at": 1733498893,
       "arches": [
         "x86_64"
       ],
@@ -7931,7 +7931,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.google.AndroidStudio",
-      "icon": "https://dl.flathub.org/media/com/google/AndroidStudio.desktop/2e7ac45e6fbf8424eede5ad1402960ee/icons/128x128/com.google.AndroidStudio.desktop.png",
+      "icon": "https://dl.flathub.org/media/com/google/AndroidStudio.desktop/dbd66f747b6dd26f756f03770d40953a/icons/128x128/com.google.AndroidStudio.desktop.png",
       "categories": [
         "Development",
         "IDE"
@@ -19419,7 +19419,7 @@
       "summary": "The essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration",
       "description": "The Eclipse IDE delivers what you need to rapidly innnovate.\n      \n        Polyglot language support: First class support for Java, JavaScript/TypeScript, C/C++, PHP, Rust, and others\n        Community powered: More and more the Eclipse IDE is being powered by individual contributors all around the world\n        Improved Java development tooling: Improved code templates and added various quick fixes\n        Better UI: Streamlined the UI through inline rename, a brand new Quick Search dialog and a better dark theme\n        Proven extensibility: A huge variety of platform plug-ins\n        Free and open source: Free and open source released under the terms of the Eclipse Public License 2.0\n      \n    ",
       "id": "org_eclipse_Java",
-      "updated_at": 1733486001,
+      "updated_at": 1733494702,
       "arches": [
         "aarch64",
         "x86_64"

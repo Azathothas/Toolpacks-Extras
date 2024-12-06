@@ -2667,7 +2667,7 @@ APP_ID: com.teamspeak.TeamSpeak3
 Descr: TeamSpeak VoIP application
 -----------------------------
 NAME: Teeworlds
-APP_ID: com.teeworlds.Teeworlds.desktop
+APP_ID: com.teeworlds.Teeworlds
 Descr: Online multiplayer shooter game
 -----------------------------
 NAME: WeChat
