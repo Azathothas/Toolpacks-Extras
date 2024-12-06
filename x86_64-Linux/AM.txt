@@ -357,6 +357,7 @@
 | gh | GitHub’s official command line tool | https://github.com/cli/cli | https://bin.pkgforge.dev/x86_64/gh | aa1a6d9a7543 |
 | gh-dash | A beautiful CLI dashboard for GitHub 🚀 | https://github.com/dlvhdr/gh-dash | https://bin.pkgforge.dev/x86_64/gh-dash | 5e4e5b33f296 |
 | ghfetch | octocat  ghfetch is a CLI tool to fetch GitHub user information and show like neofetch. | https://github.com/orangekame3/ghfetch | https://bin.pkgforge.dev/x86_64/ghfetch | aea5b900425d |
+| ghorg | Quickly clone or backup an entire org/users repositories into one directory | https://github.com/gabrie30/ghorg | https://bin.pkgforge.dev/x86_64/ghorg | 6cb25b4de950 |
 | gickup | Backup all the repositories. | https://github.com/cooperspencer/gickup | https://bin.pkgforge.dev/x86_64/gickup | 02bb5d75547d |
 | gimp.appimage | The GNU Image Manipulation Program | https://gitlab.gnome.org/GNOME/gimp | https://pkgcache.pkgforge.dev/x86_64/gimp.appimage | 2.10.38 |
 | gip | command-line tool to get global IP address | https://github.com/dalance/gip | https://bin.pkgforge.dev/x86_64/gip | 9f2db30f2218 |

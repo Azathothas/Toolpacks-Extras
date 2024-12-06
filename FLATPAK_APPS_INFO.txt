@@ -908,7 +908,7 @@ Descr: Platform for building and using APIs
 -----------------------------
 NAME: Ghostery Private Browser
 APP_ID: com.ghostery.browser
-Descr: A completely private browsing experience from Ghostery
+Descr: Ghostery Private Browser is no longer supported. Please switch to an alternative browser for continued security updates.
 -----------------------------
 NAME: Giada
 APP_ID: com.giadamusic.Giada
@@ -1900,7 +1900,7 @@ Descr: The Leading Java and Kotlin IDE
 -----------------------------
 NAME: IntelliJ IDEA Ultimate
 APP_ID: com.jetbrains.IntelliJ-IDEA-Ultimate
-Descr: The Leading Java and Kotlin IDE
+Descr: Leading Java and Kotlin IDE
 -----------------------------
 NAME: PhpStorm
 APP_ID: com.jetbrains.PhpStorm
