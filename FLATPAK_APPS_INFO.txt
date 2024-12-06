@@ -3592,7 +3592,7 @@ Descr: A thermogram viewer
 -----------------------------
 NAME: Mirror Hall
 APP_ID: eu.nokun.MirrorHall
-Descr: Use Linux devices as virtual displays in a peer-to-peer fashion
+Descr: Use Linux devices as second screens
 -----------------------------
 NAME: Quteqoin
 APP_ID: eu.ototu.Quteqoin
@@ -6521,6 +6521,10 @@ Descr: Program for SPM (scanning probe microscopy) data visualization and analys
 NAME: Gwyddion
 APP_ID: net.gwyddion.Gwyddion
 Descr: Program for SPM (scanning probe microscopy) data visualization and analysis
+-----------------------------
+NAME: ROTA
+APP_ID: net.hhoney.rota
+Descr: Gravity bends beneath your feet
 -----------------------------
 NAME: Stretchly
 APP_ID: net.hovancik.Stretchly

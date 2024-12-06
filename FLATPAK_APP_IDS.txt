@@ -1674,6 +1674,7 @@ net.gpro.gproapp
 net.gradator.gtkatlantic
 net.granjow.slowmovideo
 net.gwyddion.Gwyddion
+net.hhoney.rota
 net.hovancik.Stretchly
 net.huitsi.ParallelOverhead
 net.imaginaryinfinity.Squiid
