@@ -1377,6 +1377,7 @@ io.github.rdybka.vht
 io.github.realmazharhussain.GdmSettings
 io.github.retgal.Dayon
 io.github.retux_game.retux
+io.github.revisto.drum-machine
 io.github.riftr.intelpy
 io.github.rinigus.OSMScoutServer
 io.github.rinigus.PureMaps
@@ -1392,6 +1393,7 @@ io.github.seadve.Delineate
 io.github.seadve.Kooha
 io.github.seadve.Mousai
 io.github.searchandrescue2.sar2
+io.github.sgsaenger.vipster
 io.github.shadowmario.fnf-psychengine
 io.github.sharkwouter.Minigalaxy
 io.github.sharkwouter.oceanpop
@@ -1672,6 +1674,7 @@ net.gpro.gproapp
 net.gradator.gtkatlantic
 net.granjow.slowmovideo
 net.gwyddion.Gwyddion
+net.hhoney.rota
 net.hovancik.Stretchly
 net.huitsi.ParallelOverhead
 net.imaginaryinfinity.Squiid
@@ -1838,7 +1841,6 @@ one.flipperzero.qFlipper
 one.jiri.easydict-gtk
 one.jwr.interstellar
 one.mixin.messenger
-online.athn.browser.gnome
 online.hatsune_miku.tachidesk-vaadinui
 org.DolphinEmu.dolphin-emu
 org.KekikAkademi.BTKSorgu
@@ -2032,6 +2034,7 @@ org.getoutline.OutlineManager
 org.getzola.zola
 org.ghidra_sre.Ghidra
 org.gimp.GIMP
+org.gitfourchette.gitfourchette
 org.gmusicbrowser.gmusicbrowser
 org.gna.Warmux
 org.gnode.NixView

@@ -784,7 +784,7 @@ Descr: An RPG like puzzle solving dungeon crawling game, and more!
 -----------------------------
 NAME: Fablemaker
 APP_ID: com.endlessnetwork.fablemaker
-Descr: Enter the world of Aesop&apos;s fables like never before! Interactive stories where you can customize characters, texts and sounds, hacking into its code in this absorbing and educational app.
+Descr: Hack Aesop’s fables
 -----------------------------
 NAME: Frog Squash
 APP_ID: com.endlessnetwork.frogsquash
@@ -1237,10 +1237,6 @@ Descr: Listen to audio books
 NAME: Writernote
 APP_ID: com.github.giacomogroppi.writernote-qt
 Descr: Writernote is a multiplatform application that allows you to take notes by recording audio, translate it later into text, and listen to it in an intelligent way.
------------------------------
-NAME: Image Optimizer
-APP_ID: com.github.gijsgoudzwaard.image-optimizer
-Descr: Simple lossless image compression
 -----------------------------
 NAME: Git Cola
 APP_ID: com.github.git_cola.git-cola
@@ -3596,7 +3592,7 @@ Descr: A thermogram viewer
 -----------------------------
 NAME: Mirror Hall
 APP_ID: eu.nokun.MirrorHall
-Descr: Use Linux devices as virtual displays in a peer-to-peer fashion
+Descr: Use Linux devices as second screens
 -----------------------------
 NAME: Quteqoin
 APP_ID: eu.ototu.Quteqoin
@@ -4784,7 +4780,7 @@ Descr: A powerful, scriptable, modular calculator aimed at scientific, engineeri
 -----------------------------
 NAME: Bella
 APP_ID: io.github.josephmawa.Bella
-Descr: Pick color from the screen in any format
+Descr: Pick a color from the screen
 -----------------------------
 NAME: Gods Deluxe
 APP_ID: io.github.jotd666.gods-deluxe
@@ -4830,9 +4826,9 @@ NAME: MindMate
 APP_ID: io.github.koromelodev.mindmate
 Descr: Unofficial application for ChatGPT
 -----------------------------
-NAME: Kotatogram Desktop
+NAME: Kotatogram
 APP_ID: io.github.kotatogram
-Descr: Kotatogram Desktop messenger
+Descr: Experimental Telegram messenger
 -----------------------------
 NAME: bibref
 APP_ID: io.github.kovzol.bibref
@@ -4858,7 +4854,7 @@ NAME: CutePeaks
 APP_ID: io.github.labsquare.CutePeaks
 Descr: Standalone Sanger trace viewer
 -----------------------------
-NAME: lada
+NAME: Lada
 APP_ID: io.github.ladaapp.lada
 Descr: Recover pixelated adult videos
 -----------------------------
@@ -5334,6 +5330,10 @@ NAME: ReTux
 APP_ID: io.github.retux_game.retux
 Descr: Action platformer starring the Linux mascot, Tux
 -----------------------------
+NAME: Drum Machine
+APP_ID: io.github.revisto.drum-machine
+Descr: Create and play drum beats
+-----------------------------
 NAME: IntelPy
 APP_ID: io.github.riftr.intelpy
 Descr: IntelPy is a cross-platform chat log monitor and alert system for the game Eve Online
@@ -5378,9 +5378,13 @@ NAME: Search and Rescue II
 APP_ID: io.github.searchandrescue2.sar2
 Descr: Rescue Helicopter Simulator
 -----------------------------
-NAME: PsychEngine
+NAME: Vipster
 APP_ID: sar2.desktop
-Descr: Desktop implementation of Friday Night Funkin&apos;
+Descr: Visualization of various molecular structure files
+-----------------------------
+NAME: Vipster
+APP_ID: io.github.sgsaenger.vipster
+Descr: Visualization of various molecular structure files
 -----------------------------
 NAME: PsychEngine
 APP_ID: io.github.shadowmario.fnf-psychengine
@@ -6396,7 +6400,7 @@ Descr: Make annotations on the screen
 -----------------------------
 NAME: MultiVNC
 APP_ID: net.christianbeier.MultiVNC
-Descr: Cross-platform Multicast-enabled VNC viewer
+Descr: Multicast-enabled VNC viewer
 -----------------------------
 NAME: Master PDF Editor
 APP_ID: net.codeindustry.MasterPDFEditor
@@ -6518,6 +6522,10 @@ NAME: Gwyddion
 APP_ID: net.gwyddion.Gwyddion
 Descr: Program for SPM (scanning probe microscopy) data visualization and analysis
 -----------------------------
+NAME: ROTA
+APP_ID: net.hhoney.rota
+Descr: Gravity bends beneath your feet
+-----------------------------
 NAME: Stretchly
 APP_ID: net.hovancik.Stretchly
 Descr: The break time reminder app
@@ -6605,10 +6613,6 @@ Descr: Develop Your Civilization from Humble Roots to a Global Empire
 NAME: Bible
 APP_ID: net.lugsole.bible_gui.desktop
 Descr: Bible app that supports multiple translations
------------------------------
-NAME: Lutris
-APP_ID: net.lutris.Lutris
-Descr: Video game preservation platform
 -----------------------------
 NAME: SLADE
 APP_ID: net.mancubus.SLADE
@@ -7225,10 +7229,6 @@ Descr: Connect with the fediverse
 NAME: Mixin Messenger
 APP_ID: one.mixin.messenger
 Descr: Mixin Messenger
------------------------------
-NAME: ATHN reference browser
-APP_ID: online.athn.browser.gnome
-Descr: Browse ATHN sites
 -----------------------------
 NAME: Tachidesk-VaadinUI
 APP_ID: online.hatsune_miku.tachidesk-vaadinui
@@ -7945,6 +7945,10 @@ Descr: A fast static site generator in a single binary with everything built-in
 NAME: Ghidra
 APP_ID: org.ghidra_sre.Ghidra
 Descr: Ghidra Reverse Engineering Suite
+-----------------------------
+NAME: GitFourchette
+APP_ID: org.gitfourchette.gitfourchette
+Descr: The comfortable Git UI
 -----------------------------
 NAME: gmusicbrowser
 APP_ID: org.gmusicbrowser.gmusicbrowser
@@ -9222,9 +9226,9 @@ NAME: Taisei Project
 APP_ID: org.taisei_project.Taisei
 Descr: Bullet hell shoot &apos;em up game set in the Tōhō universe
 -----------------------------
-NAME: Telegram Desktop
+NAME: Telegram
 APP_ID: org.telegram.desktop
-Descr: Fast. Secure. Powerful.
+Descr: New era of messaging
 -----------------------------
 NAME: TeleSculptor
 APP_ID: org.telesculptor.TeleSculptor
