@@ -1994,7 +1994,7 @@
       "summary": "Introducing the new Microsoft Edge web browser. It’s time to expect more. More privacy. More control. More productivity. More value.",
       "description": "\n    NOTE: This wrapper is not verified by, affiliated with, or supported by Microsoft.\n    \n      \n    Browse the web anywhere with one seamless experience from your phone to your computer and other signed-in devices.\n   \n      \n    Organize the web in a way that cuts through the clutter, making it easier to find, view, and manage your content on the go.\n   \n      \n    With world class compatibility, performance, and new features, Microsoft Edge is the only web browser you’ll ever need.\n   \n    ",
       "id": "com_microsoft_Edge",
-      "updated_at": 1732590123,
+      "updated_at": 1733436940,
       "arches": [
         "x86_64"
       ],
@@ -2003,7 +2003,7 @@
       "project_license": "LicenseRef-proprietary",
       "is_free_license": false,
       "app_id": "com.microsoft.Edge",
-      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/fcb8ddb357db0b9213f6bfc231507b95/icons/128x128/com.microsoft.Edge.png",
+      "icon": "https://dl.flathub.org/media/com/microsoft/Edge/06021369aea5a0f71636e6aba69a19bb/icons/128x128/com.microsoft.Edge.png",
       "categories": [
         "Network",
         "WebBrowser"
@@ -6369,7 +6369,7 @@
       "summary": "Keep an eye on system resources",
       "description": "\n      Resources allows you to check the utilization of your system resources and control your running processes and apps. It’s designed to be user-friendly and feel right at home on a modern desktop by using GNOME’s libadwaita.\n    \n      \n      Resources supports monitoring the following components:\n    \n      \n        CPU\n        Memory\n        GPU\n        Network Interfaces\n        Storage Devices\n        Batteries\n      \n    ",
       "id": "net_nokyan_Resources",
-      "updated_at": 1732876574,
+      "updated_at": 1733447384,
       "arches": [
         "x86_64",
         "aarch64"
@@ -6463,7 +6463,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.nokyan.Resources",
-      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/c7fd297eca8855e746e658a2ebac0186/icons/128x128/net.nokyan.Resources.png",
+      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/f5ec37221e65efafca072eb91d32cc63/icons/128x128/net.nokyan.Resources.png",
       "categories": [
         "System"
       ],
@@ -23244,7 +23244,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

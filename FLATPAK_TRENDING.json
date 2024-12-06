@@ -17739,7 +17739,7 @@
       "summary": "Keep an eye on system resources",
       "description": "\n      Resources allows you to check the utilization of your system resources and control your running processes and apps. It’s designed to be user-friendly and feel right at home on a modern desktop by using GNOME’s libadwaita.\n    \n      \n      Resources supports monitoring the following components:\n    \n      \n        CPU\n        Memory\n        GPU\n        Network Interfaces\n        Storage Devices\n        Batteries\n      \n    ",
       "id": "net_nokyan_Resources",
-      "updated_at": 1732876574,
+      "updated_at": 1733447384,
       "arches": [
         "x86_64",
         "aarch64"
@@ -17833,7 +17833,7 @@
       "project_license": "GPL-3.0-or-later",
       "is_free_license": true,
       "app_id": "net.nokyan.Resources",
-      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/c7fd297eca8855e746e658a2ebac0186/icons/128x128/net.nokyan.Resources.png",
+      "icon": "https://dl.flathub.org/media/net/nokyan/Resources/f5ec37221e65efafca072eb91d32cc63/icons/128x128/net.nokyan.Resources.png",
       "categories": [
         "System"
       ],
