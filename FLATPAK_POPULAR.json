@@ -16910,7 +16910,7 @@
       "summary": "Nextcloud desktop synchronization client",
       "description": "The Nextcloud desktop client allows you to keep one or more folders full of\nyour photos, videos and documents synchronized with your server. Any file you\nadd, modify or delete in the synced folders on your desktop or laptop will show\nup, change or disappear on the server and all other connected devices. Thanks\nto the client, you can work with your files even when you are not online!\n    ",
       "id": "com_nextcloud_desktopclient_nextcloud",
-      "updated_at": 1731583053,
+      "updated_at": 1733589026,
       "arches": [
         "aarch64",
         "x86_64"
@@ -16920,7 +16920,7 @@
       "project_license": "GPL-2.0+",
       "is_free_license": true,
       "app_id": "com.nextcloud.desktopclient.nextcloud",
-      "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/2a7dfb652dbdf614143e3d632d7d2b1a/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
+      "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/346ff4a4379e4200d3771286d8463eed/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
       "categories": [
         "Utility"
       ],
@@ -17398,7 +17398,7 @@
       "summary": "Nintendo Wii U Emulator",
       "description": "Cemu is a Nintendo Wii U emulator that is able to run most Wii U games and homebrew in a playable state. Created by Exzap, and written in C/C++.\n      This emulator aims at providing both high-accuracy and performance, and is actively being developed with new features and fixes to increase compatibility, convenience and usability.\n      It was written from scratch and development on the project began roughly early 2015.\n    ",
       "id": "info_cemu_Cemu",
-      "updated_at": 1726839092,
+      "updated_at": 1733573117,
       "arches": [
         "x86_64"
       ],
@@ -17440,7 +17440,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "info.cemu.Cemu",
-      "icon": "https://dl.flathub.org/media/info/cemu/Cemu/194f56e1af1a2f4042c6d6b1ea56b9bf/icons/128x128/info.cemu.Cemu.png",
+      "icon": "https://dl.flathub.org/media/info/cemu/Cemu/7d061266e293cb932a765ac402e33715/icons/128x128/info.cemu.Cemu.png",
       "categories": [
         "Game",
         "Emulator"
@@ -23489,7 +23489,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 44,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
