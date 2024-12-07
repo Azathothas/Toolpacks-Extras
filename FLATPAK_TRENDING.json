@@ -21658,7 +21658,7 @@
       "summary": "Manage your tasks",
       "description": "Todo application for those who prefer simplicity.\n      Features:\n      \n        Multiple task lists support\n        Add, remove, edit tasks and sub-tasks\n        Mark task and sub-tasks as completed\n        Add accent color for each task\n        Sync tasks with Nextcloud or other CalDAV providers\n        Drag and Drop support\n        Import .ics files\n      \n    ",
       "id": "io_github_mrvladus_List",
-      "updated_at": 1728557576,
+      "updated_at": 1733564944,
       "arches": [
         "aarch64",
         "x86_64"
@@ -21706,7 +21706,7 @@
           "summary": "Halda oma ülesandeid"
         },
         "fa": {
-          "description": "برنامهٔ تکلیف‌ها برای آنان که سادگی را ترجیح می دهند.\n      ویژگی‌ها:\n      \n        پشتیبانی از چندین سیاههٔ تکلیف\n        افزودن، برداشتن و ویرایش تکلیف‌ها و زیرتکلیف‌ها\n        علامت زدن تکلیف‌ها و زیرتکلیف‌ها به کامل شده\n        افزودن لهجهٔ رنگی برای هر تکلیف\n        همگام سازی تکلیف‌ها با نکست‌کلود یا دیگر فراهم‌کنندگان CalDAV\n        پشتیبانی از کشیدن و رها کردن\n        درون‌ریزی پرونده‌های ‪.ics\n      \n    ",
+          "description": "برنامهٔ فهرست کارهای برای آن‌هایی که سادگی را می‌پسندند..\n      ویژگی‌ها:\n      \n        پشتیبانی از چندین سیاههٔ تکلیف\n        افزودن، برداشتن و ویرایش تکلیف‌ها و زیرتکلیف‌ها\n        علامت زدن تکلیف‌ها و زیرتکلیف‌ها به کامل شده\n        افزودن لهجهٔ رنگی برای هر تکلیف\n        هم‌گام‌سازی تکلیف‌ها با نکست‌کلود یا دیگر فراهم‌کنندگان CalDAV\n        پشتیبانی از کشیدن و رها کردن\n        درون‌ریزی پرونده‌های .ics\n      \n    ",
           "name": "مأموریت‌ها",
           "summary": "مدیریت تکلیف‌هایتان"
         },
@@ -21791,7 +21791,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "io.github.mrvladus.List",
-      "icon": "https://dl.flathub.org/media/io/github/mrvladus.List/128dd38fe4a3ebae99e787c8f349acb5/icons/128x128/io.github.mrvladus.List.png",
+      "icon": "https://dl.flathub.org/media/io/github/mrvladus.List/76328bab7b71d05e494e2946235e5b24/icons/128x128/io.github.mrvladus.List.png",
       "categories": [
         "Utility"
       ],

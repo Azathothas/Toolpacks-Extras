@@ -19342,7 +19342,7 @@
       "summary": "A front-end to glxinfo, vulkaninfo, clinfo and es2_info",
       "description": "\n            This project aims to capture all the important details of glxinfo, vulkaninfo and clinfo in a GUI. The project is being developed using python 3 pygobject with GTK4. All the important details are extracted using glxinfo/vulkaninfo/clinfo with the combination of grep, CAT , AWK commands and displayed in the front-end. There is no hard OpenGL Programming involved, until glxinfo, vulkaninfo and clinfo works the GPU-viewer will also work.\n        \n    ",
       "id": "io_github_arunsivaramanneo_GPUViewer",
-      "updated_at": 1733346708,
+      "updated_at": 1733570813,
       "arches": [
         "aarch64",
         "x86_64"
@@ -23489,7 +23489,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 44,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
