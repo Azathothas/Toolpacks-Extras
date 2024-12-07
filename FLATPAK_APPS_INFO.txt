@@ -6306,6 +6306,10 @@ NAME: Emby Theater
 APP_ID: media.emby.EmbyTheater
 Descr: The open media solution
 -----------------------------
+NAME: Kando
+APP_ID: menu.kando.Kando
+Descr: Cross-Platform Pie Menu
+-----------------------------
 NAME: Lemonade
 APP_ID: ml.mdwalters.Lemonade
 Descr: Follow discussions on Lemmy
