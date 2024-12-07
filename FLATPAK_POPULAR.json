@@ -2457,7 +2457,7 @@
       "summary": "Download web videos",
       "description": "\n      Download videos from websites with an easy-to-use interface.\n      Provides the following features:\n    \n      \n        Convert videos to MP3\n        Supports password-protected and private videos\n        Download single videos or whole playlists\n        Automatically selects a video format based on your quality demands\n      \n      \n      Based on yt-dlp.\n    \n    ",
       "id": "com_github_unrud_VideoDownloader",
-      "updated_at": 1733271142,
+      "updated_at": 1733533680,
       "arches": [
         "aarch64",
         "x86_64"
@@ -23489,7 +23489,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
