@@ -3736,7 +3736,7 @@
       "summary": "Private messenger",
       "description": "\n      To use the Signal desktop app, Signal must first be installed on your phone.\n    \n      \n      Millions of people use Signal every day for free and instantaneous communication \n      anywhere in the world. Send and receive high-fidelity messages, participate in \n      HD voice/video calls, and explore a growing set of new features that help you \n      stay connected. Signal’s advanced privacy-preserving technology is always enabled, \n      so you can focus on sharing the moments that matter with the people who matter to you. \n    \n      \n      Signal is an independent 501c3 nonprofit. The complete source code for \n      the Signal clients and the Signal server is available on GitHub.\n    \n      \n      This flatpak is maintained by the Flathub community, and is not necessarily \n      endorsed or officially maintained by the upstream developers.\n    \n    ",
       "id": "org_signal_Signal",
-      "updated_at": 1733390412,
+      "updated_at": 1733521750,
       "arches": [
         "x86_64"
       ],
@@ -3745,7 +3745,7 @@
       "project_license": "AGPL-3.0-only",
       "is_free_license": true,
       "app_id": "org.signal.Signal",
-      "icon": "https://dl.flathub.org/media/org/signal/Signal/12382eee7ece834e92586401adb94b4c/icons/128x128/org.signal.Signal.png",
+      "icon": "https://dl.flathub.org/media/org/signal/Signal/d4228da05a626c95b77a8d15dc8dff54/icons/128x128/org.signal.Signal.png",
       "categories": [
         "Network",
         "InstantMessaging",
@@ -8111,9 +8111,9 @@
       "name": "Adobe Reader",
       "keywords": null,
       "summary": "PDF viewer",
-      "description": "Adobe Reader software is the official Adobe software for viewing, printing, and annotating PDF documents.NOTE: This software is unmaintained by the vendor and may contain security vulnerabilities.NOTE: This wrapper is not verified by, affiliated with, or supported by Adobe.",
+      "description": "\n      Adobe Reader software is the official Adobe software for viewing, printing, and annotating PDF documents.\n    \n      NOTE: This software is unmaintained by the vendor and may contain security vulnerabilities.\n      NOTE: This wrapper is not verified by, affiliated with, or supported by Adobe.\n    ",
       "id": "com_adobe_Reader",
-      "updated_at": 1695651792,
+      "updated_at": 1733518189,
       "arches": [
         "x86_64"
       ],
@@ -8122,7 +8122,7 @@
       "project_license": "LicenseRef-proprietary=https://www.adobe.com/products/eulas/pdfs/Reader_Player_AIR_WWEULA-Combined-20080204_1313.pdf",
       "is_free_license": false,
       "app_id": "com.adobe.Reader",
-      "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.adobe.Reader.png",
+      "icon": "https://dl.flathub.org/media/com/adobe/Reader/beded05b6321463b9a6f52365cface9b/icons/128x128/com.adobe.Reader.png",
       "categories": [
         "Office",
         "Viewer"
@@ -8133,7 +8133,7 @@
       "sub_categories": [
         "Viewer"
       ],
-      "developer_name": null,
+      "developer_name": "Adobe Inc.",
       "verification_verified": false,
       "verification_method": null,
       "verification_login_name": null,
@@ -8141,7 +8141,7 @@
       "verification_login_is_organization": null,
       "verification_website": null,
       "verification_timestamp": null,
-      "runtime": "org.freedesktop.Platform/x86_64/23.08",
+      "runtime": "org.freedesktop.Platform/x86_64/24.08",
       "trending": 12.523367956482572,
       "installs_last_month": 9930,
       "added_at": 1681977273
@@ -23489,7 +23489,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 48,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
