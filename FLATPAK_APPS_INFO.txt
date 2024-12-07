@@ -906,10 +906,6 @@ NAME: Postman
 APP_ID: com.getpostman.Postman
 Descr: Platform for building and using APIs
 -----------------------------
-NAME: Ghostery Private Browser
-APP_ID: com.ghostery.browser
-Descr: Ghostery Private Browser is no longer supported. Please switch to an alternative browser for continued security updates.
------------------------------
 NAME: Giada
 APP_ID: com.giadamusic.Giada
 Descr: Your hardcore loop machine

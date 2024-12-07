@@ -234,7 +234,6 @@ com.georgefb.mangareader
 com.georgefb.quickaccess
 com.getmailspring.Mailspring
 com.getpostman.Postman
-com.ghostery.browser
 com.giadamusic.Giada
 com.gigitux.youp
 com.gitbutler.gitbutler
