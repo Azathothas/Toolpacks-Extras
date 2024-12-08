@@ -772,7 +772,7 @@ Descr: Track work time and tasks
 -----------------------------
 NAME: MQTT X
 APP_ID: com.emqx.MQTTX
-Descr: An Elegant Cross-platform MQTT 5.0 Desktop Client
+Descr: Your All-in-One MQTT Client Toolbox
 -----------------------------
 NAME: Midnightmare Teddy
 APP_ID: com.endlessnetwork.MidnightmareTeddy

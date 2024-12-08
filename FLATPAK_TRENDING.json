@@ -10148,7 +10148,7 @@
       "summary": "Manage torrents",
       "description": "\n      An easy to use BitTorrent client. Fragments can be used to transfer files via the BitTorrent peer-to-peer file-sharing protocol, such as videos, music or installation images for Linux distributions.\n    \n      \n        Overview of all torrents grouped by status\n        Schedule the order of downloads with a queue\n        Automatic detection of torrent or magnet links from the clipboard\n        Manage and access individual files of a torrent\n        Connect to remote Fragments or Transmission sessions\n      \n      \n      Fragments uses the Transmission BitTorrent project under the hood.\n    \n    ",
       "id": "de_haeckerfelix_Fragments",
-      "updated_at": 1726916699,
+      "updated_at": 1733662297,
       "arches": [
         "aarch64",
         "x86_64"
@@ -25013,7 +25013,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 48,
+  "processingTimeMs": 46,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
