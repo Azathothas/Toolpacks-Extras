@@ -2745,9 +2745,9 @@
         "verify"
       ],
       "summary": "Process data with GnuPG",
-      "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Remove keys\n      \n    ",
+      "description": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.\n      Process text and files:\n      \n        Encryption\n        Decryption\n        Signing\n        Verification\n      \n      Manage your GnuPG keyring:\n      \n        Generate new keypairs\n        Import keys\n        Export public keys\n        View expiry dates\n        Update expiry dates of expired keys\n        Remove keys\n      \n    ",
       "id": "com_konstantintutsch_Lock",
-      "updated_at": 1733510514,
+      "updated_at": 1733669450,
       "arches": [
         "aarch64",
         "x86_64"
@@ -2765,7 +2765,7 @@
           "summary": "Spravujte data s GnuPG"
         },
         "de": {
-          "description": "Schloss ist eine grafische Oberfläche für GnuPG (PGP) welche ein wunderschönes LibAdwaita GUI nutzt.\n      Verarbeiten Sie Text und Dateien:\n      \n        Verschlüsselung\n        Entschlüsselung\n        Signierung\n        Verifikation\n      \n      Verwalten Sie Ihren GnuPG Schlüsselbund:\n      \n        Neue Schlüsselpaare generieren\n        Schlüssel importieren\n        Öffentliche Schlüssel exportieren\n        Ablaufzeitpunkte ansehen\n        Schlüssel entfernen\n      \n    ",
+          "description": "Schloss ist eine grafische Oberfläche für GnuPG (PGP) welche ein wunderschönes LibAdwaita GUI nutzt.\n      Verarbeiten Sie Text und Dateien:\n      \n        Verschlüsselung\n        Entschlüsselung\n        Signierung\n        Verifikation\n      \n      Verwalten Sie Ihren GnuPG Schlüsselbund:\n      \n        Neue Schlüsselpaare generieren\n        Schlüssel importieren\n        Öffentliche Schlüssel exportieren\n        Ablaufzeitpunkte ansehen\n        Ablaufzeitpunkte von abgelaufenen Schlüsseln aktualisieren\n        Schlüssel entfernen\n      \n    ",
           "name": "Schloss",
           "summary": "Verarbeiten Sie Daten mit GnuPG"
         },
@@ -2806,7 +2806,7 @@
       "project_license": "MIT",
       "is_free_license": true,
       "app_id": "com.konstantintutsch.Lock",
-      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/c308f94457a54aac2cb698a59a2355d6/icons/128x128/com.konstantintutsch.Lock.png",
+      "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/908563a7716f645c90a601cfb3e11d00/icons/128x128/com.konstantintutsch.Lock.png",
       "categories": [
         "Utility"
       ],
@@ -25013,7 +25013,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 48,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,

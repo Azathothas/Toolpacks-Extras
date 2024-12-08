@@ -16360,7 +16360,7 @@
       "summary": "Nintendo Game Boy Advance Emulator",
       "description": "\n      mGBA is an emulator for running Game Boy Advance games. It aims to be\n      faster and more accurate than many existing Game Boy Advance emulators, as\n      well as adding features that other emulators lack. It also supports Game\n      Boy and Game Boy Color games.\n    \n    ",
       "id": "io_mgba_mGBA",
-      "updated_at": 1725119940,
+      "updated_at": 1733653143,
       "arches": [
         "aarch64",
         "x86_64"
@@ -16370,7 +16370,7 @@
       "project_license": "MPL-2.0",
       "is_free_license": true,
       "app_id": "io.mgba.mGBA",
-      "icon": "https://dl.flathub.org/media/io/mgba/mGBA/3ca22744fe73b0b767ea8f33bbf17796/icons/128x128/io.mgba.mGBA.png",
+      "icon": "https://dl.flathub.org/media/io/mgba/mGBA/ed7d1b4effd3240376ec2ed151d9c443/icons/128x128/io.mgba.mGBA.png",
       "categories": [
         "Game",
         "Emulator"
@@ -23123,7 +23123,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 45,
+  "processingTimeMs": 47,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
