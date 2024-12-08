@@ -506,6 +506,10 @@ NAME: ATLauncher
 APP_ID: com.atlauncher.ATLauncher
 Descr: A launcher for Minecraft which integrates multiple different modpacks to allow you to download and install modpacks easily and quickly.
 -----------------------------
+NAME: Penpot Desktop
+APP_ID: com.authormore.penpotdesktop
+Descr: Design and code beautiful products together
+-----------------------------
 NAME: GitKraken
 APP_ID: com.axosoft.GitKraken
 Descr: For repo management, in-app code editing &amp; issue tracking.
@@ -2318,6 +2322,10 @@ NAME: PowerISO
 APP_ID: com.poweriso.PowerISO
 Descr: A all-in-one CD/DVD/Blu-Ray tool
 -----------------------------
+NAME: Journey to the Center of Hawkthorne
+APP_ID: com.projecthawkthorne.Hawkthorne
+Descr: 2D platformer based on Community&apos;s Digital Estate Planning episode
+-----------------------------
 NAME: Proton VPN
 APP_ID: com.protonvpn.www
 Descr: Secures your internet and protects your online privacy
@@ -2601,6 +2609,10 @@ Descr: Sublime Merge is a Git client, from the makers of Sublime Text
 NAME: Sublime Text
 APP_ID: com.sublimetext.three
 Descr: Sophisticated text editor for code, markup and prose
+-----------------------------
+NAME: Super Productivity
+APP_ID: com.super_productivity.SuperProductivity
+Descr: Advanced to-do list app with timeboxing, time tracking, and third-party integration
 -----------------------------
 NAME: Supermodel
 APP_ID: com.supermodel3.Supermodel
@@ -6165,6 +6177,10 @@ Descr: Your plan for improving personal life and workflow
 NAME: Pacman Log Viewer
 APP_ID: it.cuteworks.pacmanlogviewer
 Descr: Inspect pacman log
+-----------------------------
+NAME: Cauldron
+APP_ID: it.dottorblaster.cauldron
+Descr: A Pocket client for Linux
 -----------------------------
 NAME: Antares SQL
 APP_ID: it.fabiodistasio.AntaresSQL
@@ -11245,6 +11261,10 @@ Descr: A compiler for the closely related programming-language dialects Pascal a
 NAME: GNAT 13
 APP_ID: org.freedesktop.Sdk.Extension.gnat13
 Descr: GNU Ada/SPARK compiler and build environment
+-----------------------------
+NAME: GNAT 14
+APP_ID: org.freedesktop.Sdk.Extension.gnat14
+Descr: GNU Ada/SPARK compiler 14.x and build environment
 -----------------------------
 NAME: Go programming language Sdk extension
 APP_ID: org.freedesktop.Sdk.Extension.golang

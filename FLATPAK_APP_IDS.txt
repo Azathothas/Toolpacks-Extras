@@ -129,6 +129,7 @@ com.ampl.ide
 com.anydesk.Anydesk
 com.arviceblot.eso-addon-manager
 com.atlauncher.ATLauncher
+com.authormore.penpotdesktop
 com.axosoft.GitKraken
 com.baidu.NetDisk
 com.bambulab.BambuStudio
@@ -601,6 +602,7 @@ com.pokemmo.PokeMMO
 com.polyphone_soundfonts.polyphone
 com.pot_app.pot
 com.poweriso.PowerISO
+com.projecthawkthorne.Hawkthorne
 com.protonvpn.www
 com.prusa3d.PrusaSlicer
 com.pypyrev.linuxdcpp
@@ -671,6 +673,7 @@ com.stremio.Stremio
 com.strlen.TreeSheets
 com.sublimemerge.App
 com.sublimetext.three
+com.super_productivity.SuperProductivity
 com.supermodel3.Supermodel
 com.surfshark.Surfshark
 com.sweethome3d.Sweethome3d
@@ -1585,6 +1588,7 @@ io.wavebox.Wavebox
 io.webtorrent.WebTorrent
 ir.imansalmani.IPlan
 it.cuteworks.pacmanlogviewer
+it.dottorblaster.cauldron
 it.fabiodistasio.AntaresSQL
 it.mijorus.collector
 it.mijorus.gearlever
