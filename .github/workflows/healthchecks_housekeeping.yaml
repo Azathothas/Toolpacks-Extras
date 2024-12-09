@@ -219,12 +219,12 @@ jobs:
           set +x ; set +e
           #--------------#
           #Generate Flatpak Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/fetch_flatpak.sh")
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_flatpak.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
           #Generate HomeBrew Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh" &
@@ -308,7 +308,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh")
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
@@ -461,7 +461,7 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh")
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
@@ -698,7 +698,7 @@ jobs:
           #--------------#
           #touch "${HOME}/.rclone.conf"
           echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "${HOME}/.rclone.conf"
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/upload_to_r2.sh")
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/upload_to_r2.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"

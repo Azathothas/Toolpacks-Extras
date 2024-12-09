@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ## <DO NOT RUN STANDALONE, meant for CI Only>
 ## Meant to Update our R2
-## Self: https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/upload_to_r2.sh
-# bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/upload_to_r2.sh")
+## Self: https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/upload_to_r2.sh
+# bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/upload_to_r2.sh")
 #-------------------------------------------------------#
 
 

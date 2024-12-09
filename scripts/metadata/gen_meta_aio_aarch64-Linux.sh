@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 ## <DO NOT RUN STANDALONE, meant for CI Only>
 ## Meant to generate METADATA AIO for aarch64-Linux
-## Self: https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh
-# bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh")
+## Self: https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh
+# bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh")
 #-------------------------------------------------------#
 
 
