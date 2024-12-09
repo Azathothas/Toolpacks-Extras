@@ -73,7 +73,7 @@ export -f func_formula
 #-------------------------------------------------------#
 ##Gui Apps (https://formulae.brew.sh/cask/)
 ##Analytics
-curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/analytics/cask-install/homebrew-cask/30d.json" | jq -r '.formulae[] | .[] | {rank: (if (.count | type) == "string" then (.count | gsub(","; "")) else .count end), pkg: .cask}' | jq -s . > "${TMPDIR}/CASK_ANALYTICS.json"
+curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/analytics/cask-install/homebrew-cask/30d.json" | jq -r '.formulae[] | .[] | {rank: (if (.count | type) == "string" then (.count | gsub(","; "")) | tonumber else .count end), pkg: .cask}' | jq -s 'sort_by(-.rank) | [range(length) as $i | .[$i] | .rank = ($i + 1)] | sort_by(.pkg)' > "${TMPDIR}/CASK_ANALYTICS.json"
 if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/CASK_ANALYTICS.json" | wc -l)" -le 5000 ]]; then
    echo -e "\n[-] FATAL: Something is wrong with Cask Analytics Data\n"
    echo "${TMPDIR}/CASK_ANALYTICS.json" | xargs -I {} sh -c 'realpath "{}"; file "{}"; du -sh "{}"; jq . "{}"'
