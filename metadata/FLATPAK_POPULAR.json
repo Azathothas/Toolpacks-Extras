@@ -2880,12 +2880,12 @@
     "app_id": "ru.yandex.Browser",
     "description": "Web browser from Yandex",
     "description_long": "New Yandex Browser with AI search and Alisa voice assistant is a modern fast web browser with familiar user interface.\n    ",
-    "build_date": "2024-11-12T08:44:44",
+    "build_date": "2024-12-09T08:11:46",
     "category": [
       "Network",
       "WebBrowser"
     ],
-    "icon": "https://dl.flathub.org/media/ru/yandex/Browser/13a34a462e13152913f04b1f0630386e/icons/128x128/ru.yandex.Browser.png",
+    "icon": "https://dl.flathub.org/media/ru/yandex/Browser/7dbda3ae6dcd975db9e390440ec40561/icons/128x128/ru.yandex.Browser.png",
     "license": "LicenseRef-proprietary=https://yandex.ru/legal/browser_agreement",
     "tag": [],
     "rank": 148
