@@ -37,7 +37,7 @@ ls "/var/lib/flatpak/appstream/flathub/x86_64/active/" -lah
 if command -v flatpak &> /dev/null; then
    FLATPAK_APPSTREAM="$(sudo find "/var/lib/flatpak" -type f -name "appstream.xml" -print 2>/dev/null | xargs realpath | head -n 1)" && export FLATPAK_APPSTREAM="${FLATPAK_APPSTREAM}"
    if [[ -f "${FLATPAK_APPSTREAM}" ]] && [[ $(stat -c%s "${FLATPAK_APPSTREAM}") -gt 10000 ]]; then
-     cp -fv "${FLATPAK_APPSTREAM}" >  "${SYSTMP}/FLATPAK_APPSTREAM.xml"
+     cp -fv "${FLATPAK_APPSTREAM}" "${SYSTMP}/FLATPAK_APPSTREAM.xml"
      rm -rvf "${TMPDIR}/FLATPAK_APPS.tmp.txt" 2>/dev/null
      clean_xml() {
          local LINE="$1"

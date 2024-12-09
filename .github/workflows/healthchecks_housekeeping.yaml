@@ -13,6 +13,8 @@ env:
   HF_TOKEN: "${{ secrets.TOOLPACKS_HFRO }}"
   RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"
   R2_PUB_REPO: "https://pub.ajam.dev/repos/pkgforge/pkgcache"
+  SKIP_AARCH64: "NO" #YES--> SKip Generating HF Metadata for aarch64-Linux
+  SKIP_X86_64: "NO" #YES--> SKip Generating HF Metadata for x86_64-Linux
 jobs:
 #------------------------------------------------------------------------------------#
   check_build_status:
@@ -150,6 +152,7 @@ jobs:
         continue-on-error: true
 
       - name: Gen Metadata (aarch64-Linux)
+        if: env.SKIP_AARCH64 != 'YES'
         run: |
           #Presets
           set +x ; set +e
@@ -182,6 +185,7 @@ jobs:
         continue-on-error: true
 
       - name: Gen Metadata (x86_64-Linux)
+        if: env.SKIP_X86_64 != 'YES'
         run: |
           #Presets
           set +x ; set +e
