@@ -506,6 +506,10 @@ NAME: ATLauncher
 APP_ID: com.atlauncher.ATLauncher
 Descr: A launcher for Minecraft which integrates multiple different modpacks to allow you to download and install modpacks easily and quickly.
 -----------------------------
+NAME: Penpot Desktop
+APP_ID: com.authormore.penpotdesktop
+Descr: Design and code beautiful products together
+-----------------------------
 NAME: GitKraken
 APP_ID: com.axosoft.GitKraken
 Descr: For repo management, in-app code editing &amp; issue tracking.
@@ -768,7 +772,7 @@ Descr: Track work time and tasks
 -----------------------------
 NAME: MQTT X
 APP_ID: com.emqx.MQTTX
-Descr: An Elegant Cross-platform MQTT 5.0 Desktop Client
+Descr: Your All-in-One MQTT Client Toolbox
 -----------------------------
 NAME: Midnightmare Teddy
 APP_ID: com.endlessnetwork.MidnightmareTeddy
@@ -905,10 +909,6 @@ Descr: The best email app for people and teams at work
 NAME: Postman
 APP_ID: com.getpostman.Postman
 Descr: Platform for building and using APIs
------------------------------
-NAME: Ghostery Private Browser
-APP_ID: com.ghostery.browser
-Descr: A completely private browsing experience from Ghostery
 -----------------------------
 NAME: Giada
 APP_ID: com.giadamusic.Giada
@@ -1900,7 +1900,7 @@ Descr: The Leading Java and Kotlin IDE
 -----------------------------
 NAME: IntelliJ IDEA Ultimate
 APP_ID: com.jetbrains.IntelliJ-IDEA-Ultimate
-Descr: The Leading Java and Kotlin IDE
+Descr: Leading Java and Kotlin IDE
 -----------------------------
 NAME: PhpStorm
 APP_ID: com.jetbrains.PhpStorm
@@ -2322,6 +2322,10 @@ NAME: PowerISO
 APP_ID: com.poweriso.PowerISO
 Descr: A all-in-one CD/DVD/Blu-Ray tool
 -----------------------------
+NAME: Journey to the Center of Hawkthorne
+APP_ID: com.projecthawkthorne.Hawkthorne
+Descr: 2D platformer based on Community&apos;s Digital Estate Planning episode
+-----------------------------
 NAME: Proton VPN
 APP_ID: com.protonvpn.www
 Descr: Secures your internet and protects your online privacy
@@ -2606,6 +2610,10 @@ NAME: Sublime Text
 APP_ID: com.sublimetext.three
 Descr: Sophisticated text editor for code, markup and prose
 -----------------------------
+NAME: Super Productivity
+APP_ID: com.super_productivity.SuperProductivity
+Descr: Advanced to-do list app with timeboxing, time tracking, and third-party integration
+-----------------------------
 NAME: Supermodel
 APP_ID: com.supermodel3.Supermodel
 Descr: A Sega Model 3 Arcade Emulator
@@ -2667,7 +2675,7 @@ APP_ID: com.teamspeak.TeamSpeak3
 Descr: TeamSpeak VoIP application
 -----------------------------
 NAME: Teeworlds
-APP_ID: com.teeworlds.Teeworlds.desktop
+APP_ID: com.teeworlds.Teeworlds
 Descr: Online multiplayer shooter game
 -----------------------------
 NAME: WeChat
@@ -4100,7 +4108,7 @@ Descr: An efficient, user-friendly solver for nonlinear light-matter interaction
 -----------------------------
 NAME: Oku
 APP_ID: io.github.OkuBrowser.oku
-Descr: A Web browser with an emphasis on local-first data storage
+Descr: Browse &amp; express yourself
 -----------------------------
 NAME: OpenToonz
 APP_ID: io.github.OpenToonz
@@ -5020,7 +5028,7 @@ Descr: 2D animation
 -----------------------------
 NAME: Picker
 APP_ID: io.github.mezoahmedii.Picker
-Descr: Randomly pick somthing to do
+Descr: Randomly pick something to do
 -----------------------------
 NAME: vengi VoxEdit
 APP_ID: io.github.mgerhardy.vengi.voxedit
@@ -6170,6 +6178,10 @@ NAME: Pacman Log Viewer
 APP_ID: it.cuteworks.pacmanlogviewer
 Descr: Inspect pacman log
 -----------------------------
+NAME: Cauldron
+APP_ID: it.dottorblaster.cauldron
+Descr: A Pocket client for Linux
+-----------------------------
 NAME: Antares SQL
 APP_ID: it.fabiodistasio.AntaresSQL
 Descr: A modern, fast and productivity driven SQL client with a focus in UX
@@ -6309,6 +6321,10 @@ Descr: The open media solution
 NAME: Emby Theater
 APP_ID: media.emby.EmbyTheater
 Descr: The open media solution
+-----------------------------
+NAME: Kando
+APP_ID: menu.kando.Kando
+Descr: Cross-Platform Pie Menu
 -----------------------------
 NAME: Lemonade
 APP_ID: ml.mdwalters.Lemonade
@@ -11245,6 +11261,10 @@ Descr: A compiler for the closely related programming-language dialects Pascal a
 NAME: GNAT 13
 APP_ID: org.freedesktop.Sdk.Extension.gnat13
 Descr: GNU Ada/SPARK compiler and build environment
+-----------------------------
+NAME: GNAT 14
+APP_ID: org.freedesktop.Sdk.Extension.gnat14
+Descr: GNU Ada/SPARK compiler 14.x and build environment
 -----------------------------
 NAME: Go programming language Sdk extension
 APP_ID: org.freedesktop.Sdk.Extension.golang

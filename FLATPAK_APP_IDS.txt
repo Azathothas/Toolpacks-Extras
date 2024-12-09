@@ -129,6 +129,7 @@ com.ampl.ide
 com.anydesk.Anydesk
 com.arviceblot.eso-addon-manager
 com.atlauncher.ATLauncher
+com.authormore.penpotdesktop
 com.axosoft.GitKraken
 com.baidu.NetDisk
 com.bambulab.BambuStudio
@@ -234,7 +235,6 @@ com.georgefb.mangareader
 com.georgefb.quickaccess
 com.getmailspring.Mailspring
 com.getpostman.Postman
-com.ghostery.browser
 com.giadamusic.Giada
 com.gigitux.youp
 com.gitbutler.gitbutler
@@ -602,6 +602,7 @@ com.pokemmo.PokeMMO
 com.polyphone_soundfonts.polyphone
 com.pot_app.pot
 com.poweriso.PowerISO
+com.projecthawkthorne.Hawkthorne
 com.protonvpn.www
 com.prusa3d.PrusaSlicer
 com.pypyrev.linuxdcpp
@@ -672,6 +673,7 @@ com.stremio.Stremio
 com.strlen.TreeSheets
 com.sublimemerge.App
 com.sublimetext.three
+com.super_productivity.SuperProductivity
 com.supermodel3.Supermodel
 com.surfshark.Surfshark
 com.sweethome3d.Sweethome3d
@@ -1586,6 +1588,7 @@ io.wavebox.Wavebox
 io.webtorrent.WebTorrent
 ir.imansalmani.IPlan
 it.cuteworks.pacmanlogviewer
+it.dottorblaster.cauldron
 it.fabiodistasio.AntaresSQL
 it.mijorus.collector
 it.mijorus.gearlever
@@ -1623,6 +1626,7 @@ me.timschneeberger.GalaxyBudsClient
 me.timschneeberger.jdsp4linux
 media.emby.EmbyServer
 media.emby.EmbyTheater
+menu.kando.Kando
 ml.mdwalters.Lemonade
 ml.prevete.Daty
 mobi.snowball.Snowball

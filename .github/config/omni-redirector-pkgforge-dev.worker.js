@@ -60,17 +60,28 @@ const DOMAIN_CONFIG = new Map([
       //  ['amd64_Linux', 'https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/x86_64-Linux']
       ])
     }
-  ],  
+  ],
   [
     /^https?:\/\/soar\.pkgforge\.dev/i,
     {
       defaultTarget: SOAR_DEFAULT,
       pathMappings: new Map([
-        ['docs', 'https://soar.qaidvoid.dev']
+        ['docs', 'https://soar.qaidvoid.dev'],
+        ['gif', 'https://bin.pkgforge.dev/list.gif']
       ])
     }
   ]
 ]);
+
+// Generate a random string
+function generateRandomString(length = 16) {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
 
 // Unified handler for all domains
 function handleDomain(pathname, search, config) {
@@ -82,6 +93,12 @@ function handleDomain(pathname, search, config) {
       const remainingPath = pathname.slice(prefix.length + 2); // +2 for both slashes
       const baseUrl = target.endsWith('/') ? target.slice(0, -1) : target;
       return `${baseUrl}/${remainingPath}${search}`;
+    }
+    
+    // Special handling for 'gif' path
+    if (prefix === 'gif' && pathname === '/' + prefix) {
+      const randomStr = generateRandomString();
+      return `${target}?${randomStr}=${randomStr}`;
     }
   }
   
