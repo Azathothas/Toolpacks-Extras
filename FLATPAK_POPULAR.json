@@ -13853,7 +13853,7 @@
       "summary": "Listen to ambient sounds",
       "description": "Improve focus and increase your productivity by listening to different ambient sounds\n      Also can help you to fall asleep in a noisy environment.\n      Features:\n      \n        Save presets\n        Add custom sounds\n        Auto start in background\n        MPRIS integration\n      \n      Included Sounds in the App:\n      \n        Birds\n        Boat\n        City\n        Coffee Shop\n        Fireplace\n        Pink Noise\n        Rain\n        Summer Night\n        Storm\n        Stream\n        Train\n        Waves\n        White Noise\n        Wind\n      \n    ",
       "id": "com_rafaelmardojai_Blanket",
-      "updated_at": 1712583195,
+      "updated_at": 1733702105,
       "arches": [
         "aarch64",
         "x86_64"
@@ -14059,7 +14059,7 @@
       "verification_login_is_organization": "false",
       "verification_website": "rafaelmardojai.com",
       "verification_timestamp": "1675743789",
-      "runtime": "org.gnome.Platform/x86_64/46",
+      "runtime": "org.gnome.Platform/x86_64/47",
       "trending": 13.615402229364362,
       "installs_last_month": 6597,
       "added_at": 1598973317
@@ -21665,7 +21665,7 @@
       "summary": "Collect, organize, cite, and share research",
       "description": "\n      Zotero [zoh-TAIR-oh] is a free, easy-to-use tool to help you collect,\n      organize, cite, and share your research sources.\n    \n      \n      NOTE: This wrapper is not verified by, affiliated with, or supported by the Zotero project.\n      Please confirm that problems are reproducible using the official tarball before reporting in the Zotero Forums.\n    \n      \n      NOTE: The user home permission is provided for compatiblity purpose.\n      Home access permission can be safely removed as follows:\n      First, move folders \"~/.zotero\" and \"~/Zotero\" to the app sandbox, typically in \"~/.var/app/org.zotero.Zotero/\";\n      then, remove home access premission in flatseal, Plasma settings, \n      or with the command \"flatpak override --user --nofilesystem=home org.zotero.Zotero\"; and restart zotero.\n    \n      \n      The drag and drop functionality might break after rejecting the permission for home directory,\n      please use file chooser instead, or grant permission to the drag and drop location via \n      \"flatpak override --user --filesystem=/PATH/TO/DragAndDrop org.zotero.Zotero\" or flatseal.\n    \n      \n      NOTE: If your Zotero folder is not located inside your home directory, please grant permission to access that\n      folder via \"flatpak override --user --filesystem=/PATH/TO/ZOTEROFOLDER org.zotero.Zotero\".\n    \n    ",
       "id": "org_zotero_Zotero",
-      "updated_at": 1732635333,
+      "updated_at": 1733694529,
       "arches": [
         "x86_64"
       ],
@@ -21674,7 +21674,7 @@
       "project_license": "AGPL-3.0",
       "is_free_license": true,
       "app_id": "org.zotero.Zotero",
-      "icon": "https://dl.flathub.org/media/org/zotero/Zotero/f230a7d7a846301204b1c5684338a67a/icons/128x128/org.zotero.Zotero.png",
+      "icon": "https://dl.flathub.org/media/org/zotero/Zotero/e509c054bf2e28eb2e2d246b3896053b/icons/128x128/org.zotero.Zotero.png",
       "categories": [
         "Office"
       ],
@@ -23156,7 +23156,7 @@
     }
   ],
   "query": "",
-  "processingTimeMs": 46,
+  "processingTimeMs": 45,
   "hitsPerPage": 250,
   "page": 1,
   "totalPages": 4,
