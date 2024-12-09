@@ -5,7 +5,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-   - cron: "0 */4 * * *"  # Every 04 Hrs
+   - cron: "0 */6 * * *"  # Every 06 Hrs
 
 env:
   GITHUB_TOKEN: "${{ secrets.TOOLPACKS_GHRO }}"
@@ -682,5 +682,10 @@ jobs:
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          #Upload to Pub
+          echo -e "[+] Syncing ${GITHUB_REPOSITORY} to pub.ajam.dev/repos/${GITHUB_REPOSITORY} \n"
+          rclone sync "." "r2:/pub/repos/${GITHUB_REPOSITORY}/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
         continue-on-error: true
 #------------------------------------------------------------------------------------#
