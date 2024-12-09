@@ -23,11 +23,11 @@ rm -rvf "${SYSTMP}/BREW_FORMULA.json" "${SYSTMP}/BREW_CASK.json" 2>/dev/null
 
 #-------------------------------------------------------#
 ##Analytics
-curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/analytics/install/30d.json" | jq -r '.items[] | {rank: .number, pkg: .formula}' | jq -s . > "${TMPDIR}/BREW_ANALYTICS.json"
-if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/BREW_ANALYTICS.json" | wc -l)" -le 7000 ]]; then
-   echo -e "\n[-] FATAL: Something is wrong with Analytics Data\n"
-   echo "${TMPDIR}/BREW_ANALYTICS.json" | xargs -I {} sh -c 'realpath "{}"; file "{}"; du -sh "{}"; jq . "{}"'
-  exit 1 
+curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/analytics/install/30d.json" | jq -r '.items[] | {rank: (if (.number | type) == "string" then (.number | gsub(","; "")) else .number end), pkg: .formula}' | jq -s . > "${TMPDIR}/FORMULA_ANALYTICS.json"
+if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/FORMULA_ANALYTICS.json" | wc -l)" -le 7000 ]]; then
+   echo -e "\n[-] FATAL: Something is wrong with Formula Analytics Data\n"
+   echo "${TMPDIR}/FORMULA_ANALYTICS.json" | xargs -I {} sh -c 'realpath "{}"; file "{}"; du -sh "{}"; jq . "{}"'
+  exit 1
 fi
 ##Formula
 #Fetch
@@ -49,12 +49,12 @@ func_formula(){
     cp -fv "${TMPDIR}/BREW_FORMULA.json" "${TMPDIR}/BREW_FORMULA.json.raw"
    #Generate Ranked 
     echo -e "\n[+] Generating Ranked Formulae...\n"
-    rank_map=$(jq -r 'map({(.pkg): .rank}) | add' "${TMPDIR}/BREW_ANALYTICS.json")
+    rank_map=$(jq -r 'map({(.pkg): .rank}) | add' "${TMPDIR}/FORMULA_ANALYTICS.json")
     jq -c '.[]' "${TMPDIR}/BREW_FORMULA.json.raw" | while read -r formula; do
         pkg_name="$(echo "$formula" | jq -r '.pkg')"
         rank="$(echo "$rank_map" | jq -r --arg pkg "$pkg_name" '.[$pkg]')"
         if [ -n "$rank" ]; then
-            formula=$(echo "$formula" | jq --argjson rank "$rank" '. + {rank: $rank}')
+            formula=$(echo "$formula" | jq --argjson rank "$rank" '. + {rank: ($rank // "")}')
         fi
         echo "$formula" >> "${TMPDIR}/BREW_FORMULA.json.rank"
     done
@@ -72,6 +72,13 @@ export -f func_formula
 
 #-------------------------------------------------------#
 ##Gui Apps (https://formulae.brew.sh/cask/)
+##Analytics
+curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/analytics/cask-install/homebrew-cask/30d.json" | jq -r '.formulae[] | .[] | {rank: (if (.count | type) == "string" then (.count | gsub(","; "")) else .count end), pkg: .cask}' | jq -s . > "${TMPDIR}/CASK_ANALYTICS.json"
+if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/CASK_ANALYTICS.json" | wc -l)" -le 5000 ]]; then
+   echo -e "\n[-] FATAL: Something is wrong with Cask Analytics Data\n"
+   echo "${TMPDIR}/CASK_ANALYTICS.json" | xargs -I {} sh -c 'realpath "{}"; file "{}"; du -sh "{}"; jq . "{}"'
+  exit 1
+fi
 #Fetch
 func_casks(){
  curl -A "${USER_AGENT}" -qfsSL "https://formulae.brew.sh/api/cask.json" | jq '
@@ -89,12 +96,12 @@ func_casks(){
     cp -fv "${TMPDIR}/BREW_CASK.json" "${TMPDIR}/BREW_CASK.json.raw"
    #Generate Ranked
     echo -e "\n[+] Generating Ranked Casks...\n"
-    rank_map=$(jq -r 'map({(.pkg): .rank}) | add' "${TMPDIR}/BREW_ANALYTICS.json")
+    rank_map=$(jq -r 'map({(.pkg): .rank}) | add' "${TMPDIR}/CASK_ANALYTICS.json")
     jq -c '.[]' "${TMPDIR}/BREW_CASK.json.raw" | while read -r formula; do
         pkg_name="$(echo "$formula" | jq -r '.pkg')"
         rank="$(echo "$rank_map" | jq -r --arg pkg "$pkg_name" '.[$pkg]')"
         if [ -n "$rank" ]; then
-            formula=$(echo "$formula" | jq --argjson rank "$rank" '. + {rank: $rank}')
+            formula=$(echo "$formula" | jq --argjson rank "$rank" '. + {rank: ($rank // "")}')
         fi
         echo "$formula" >> "${TMPDIR}/BREW_CASK.json.rank"
     done
