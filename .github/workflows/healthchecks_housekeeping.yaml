@@ -84,10 +84,11 @@ jobs:
           #-------------#
           #tmp
           SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
-          echo "SYSTMP=${SYSTMP}" >> "$GITHUB_ENV"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
           #GH Dirs
-          mkdir -p "${GITHUB_WORKSPACE}/main/aarch64-Linux"
-          mkdir -p "${GITHUB_WORKSPACE}/main/x86_64-Linux"
+          mkdir -pv "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -pv "${GITHUB_WORKSPACE}/main/x86_64-Linux"
+          mkdir -pv "${GITHUB_WORKSPACE}/main/metadata"
           #Setup Flatpak
           sudo apt update -y -qq
           sudo apt install flatpak -y
@@ -212,68 +213,50 @@ jobs:
           popd >/dev/null 2>&1
         continue-on-error: true
 
-      - name: Generate Flatpak Metdata
+      - name: Generate Third Party Metadata
         run: |
           #Presets
           set +x ; set +e
           #--------------#
-          #Generate Data
-          sudo flatpak remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo"
-          flatpak --user remote-add --if-not-exists flathub "https://dl.flathub.org/repo/flathub.flatpakrepo" 2>/dev/null
-          sudo flatpak search "cpu-x"
-          sudo flatpak install --noninteractive --or-update --assumeyes flathub "io.github.thetumultuousunicornofdarkness.cpu-x"
-          ls "/var/lib/flatpak/appstream/flathub/x86_64/active/" -lah
-          if command -v flatpak &> /dev/null; then
-             FLATPAK_APPSTREAM="$(sudo find "/var/lib/flatpak" -type f -name "appstream.xml" -print 2>/dev/null | xargs realpath | head -n 1)" && export FLATPAK_APPSTREAM="${FLATPAK_APPSTREAM}"
-             if [[ -f "${FLATPAK_APPSTREAM}" ]] && [[ $(stat -c%s "${FLATPAK_APPSTREAM}") -gt 10000 ]]; then
-               cat "${FLATPAK_APPSTREAM}" >  "${GITHUB_WORKSPACE}/main/FLATPAK_APPSTREAM.xml"
-               rm -rvf "/tmp/FLATPAK_APPS.tmp.txt" 2>/dev/null
-               clean_xml() {
-                   local LINE="$1"
-                   local TAG="$2"
-                   echo "${LINE}" | sed -n "s|.*<${TAG}>\(.*\)</${TAG}>.*|\1|p"
-               }
-               declare -A STORED_ID
-               readarray -t XML_LINES < "${FLATPAK_APPSTREAM}"
-               TOTAL_LINES=${#XML_LINES[@]}
-               for ((i = 0; i < TOTAL_LINES; i++)); do
-                   LINE="${XML_LINES[i]}"
-                   if [[ $LINE =~ \<id\> ]]; then
-                       APP_ID=$(clean_xml "${LINE}" "id")
-                       [[ -n "${STORED_ID[${APP_ID}]}" ]] && continue
-                       NAME=""
-                       SUMMARY=""
-                       for ((j = i + 1; j < i + 10 && j < TOTAL_LINES; j++)); do
-                           NEXT_LINE="${XML_LINES[j]}"
-                           if [[ -z "${NAME}" && ${NEXT_LINE} =~ \<name\> ]]; then
-                               NAME=$(clean_xml "${NEXT_LINE}" "name")
-                           elif [[ -z "${SUMMARY}" && ${NEXT_LINE} =~ \<summary\> ]]; then
-                               SUMMARY=$(clean_xml "${NEXT_LINE}" "summary")
-                           fi
-                           [[ -n "${NAME}" && -n "${SUMMARY}" ]] && break
-                       done
-                       if [[ -n "${APP_ID}" && -n "${NAME}" && -n "${SUMMARY}" ]]; then
-                           STORED_ID["${APP_ID}"]=1
-                           printf "NAME: %s\nAPP_ID: %s\nDescr: %s\n-----------------------------\n" \
-                               "${NAME}" "${APP_ID}" "${SUMMARY}"
-                       fi
-                   fi
-               done | tee -a "/tmp/FLATPAK_APPS.tmp.txt"
-             fi
+          #Generate Flatpak Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/fetch_flatpak.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
+          #Generate HomeBrew Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh" &
+          #Sanity Check & Update
+          wait
+          if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/BREW_FORMULA.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json"
           fi
-          #Sanity Check & Append
-          if [[ -f "/tmp/FLATPAK_APPS.tmp.txt" ]] && [[ $(stat -c%s "/tmp/FLATPAK_APPS.tmp.txt") -gt 1000 ]]; then
-             N_NAME="$(grep -o "NAME" "/tmp/FLATPAK_APPS.tmp.txt" | wc -l)"
-             N_APPID="$(grep -o "APP_ID" "/tmp/FLATPAK_APPS.tmp.txt" | wc -l)"
-             N_DESCR="$(grep -o "Descr" "/tmp/FLATPAK_APPS.tmp.txt" | wc -l)"
-             if [ "${N_NAME}" -ge 100 ] && [ "${N_APPID}" -ge 100 ] && [ "${N_DESCR}" -ge 100 ]; then
-               cat "/tmp/FLATPAK_APPS.tmp.txt" > "${GITHUB_WORKSPACE}/main/FLATPAK_APPS_INFO.txt"
-             fi
+          if [[ -s "${SYSTMP}/BREW_CASK.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_CASK.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/BREW_CASK.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json"
           fi
-          #Fetch API Stuff
-          curl -A "${USER_AGENT}" -qfsSL "https://flathub.org/api/v2/appstream" | jq -r '.[]' > "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt"
-          curl -A "${USER_AGENT}" -qfsSL "https://flathub.org/api/v2/popular/last-month?locale=en" | jq '.' > "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json"
-          curl -A "${USER_AGENT}" -qfsSL "https://flathub.org/api/v2/trending/last-two-weeks?locale=en" | jq '.' > "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json"
+          if [[ -s "${SYSTMP}/FLATPAK_APPSTREAM.xml" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPSTREAM.xml") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPSTREAM.xml" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPSTREAM.xml"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.json"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APP_IDS.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APP_IDS.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APP_IDS.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APP_IDS.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_POPULAR.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_POPULAR.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_POPULAR.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_TRENDING.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_TRENDING.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_TRENDING.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json"
+          fi
         continue-on-error: true
 
       - name: Sync Metadata (ROOT)
@@ -289,14 +272,14 @@ jobs:
            #x86_64-Linux
             curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/METADATA.json" -o "${SYSTMP}/x86_64-Linux-METADATA.json" || echo '{}' > "${SYSTMP}/x86_64-Linux-METADATA.json"
            ##Merge
-            jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "${SYSTMP}/aarch64-Linux-METADATA.json" "${SYSTMP}/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/METADATA.json"
-            sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkgcache.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/METADATA.json" | sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkgcache.pkgforge.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/METADATA.min.json"
+            jq -s '[{ "host": "aarch64-Linux", "main": .[0] },{ "host": "x86_64-Linux", "main": .[1] }]' "${SYSTMP}/aarch64-Linux-METADATA.json" "${SYSTMP}/x86_64-Linux-METADATA.json" | jq . > "${GITHUB_WORKSPACE}/main/metadata/METADATA.json"
+            sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux|https://pkgcache.pkgforge.dev/aarch64-Linux|g" "${GITHUB_WORKSPACE}/main/metadata/METADATA.json" | sed "s|https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux|https://pkgcache.pkgforge.dev/x86_64-Linux|g" | jq -r tostring > "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.json"
            #Gen Yaml
-            cat "${GITHUB_WORKSPACE}/main/METADATA.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/METADATA.yaml"
-            cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/METADATA.min.yaml"
+            cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/metadata/METADATA.yaml"
+            cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.json" | yj -jy | yq . > "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.yaml"
           popd >/dev/null 2>&1
           ##Sync
-           if jq --exit-status . "${GITHUB_WORKSPACE}/main/METADATA.json" >/dev/null 2>&1; then
+           if jq --exit-status . "${GITHUB_WORKSPACE}/main/metadata/METADATA.json" >/dev/null 2>&1; then
              pushd "$(mktemp -d)" >/dev/null 2>&1 && git clone --depth="1" --filter="blob:none" --no-checkout "https://huggingface.co/datasets/pkgforge/pkgcache" && cd "./pkgcache"
                git lfs install
                huggingface-cli lfs-enable-largefiles "." ; df -h
@@ -304,15 +287,15 @@ jobs:
                git sparse-checkout set ""
                git sparse-checkout set --no-cone --sparse-index "/FLATPAK_APPSTREAM.xml" "/FLATPAK_APPS_INFO.txt" "/FLATPAK_APP_IDS.txt" "/FLATPAK_POPULAR.json" "/FLATPAK_TRENDING.json" "/METADATA.json" "/METADATA.min.json" "/METADATA.yaml" "/METADATA.min.yaml"
                git checkout ; ls -lah "."
-               cat "${GITHUB_WORKSPACE}/main/FLATPAK_APPSTREAM.xml" > "./FLATPAK_APPSTREAM.xml"
-               cat "${GITHUB_WORKSPACE}/main/FLATPAK_APPS_INFO.txt" > "./FLATPAK_APPS_INFO.txt"
-               cat "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt" > "./FLATPAK_APP_IDS.txt"
-               cat "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" | jq . > "./FLATPAK_POPULAR.json"
-               cat "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" | jq . > "./FLATPAK_TRENDING.json"
-               cat "${GITHUB_WORKSPACE}/main/METADATA.json" | jq . > "./METADATA.json"
-               cat "${GITHUB_WORKSPACE}/main/METADATA.min.json" | jq . > "./METADATA.min.json"
-               cat "${GITHUB_WORKSPACE}/main/METADATA.yaml" | yq . > "./METADATA.yaml"
-               cat "${GITHUB_WORKSPACE}/main/METADATA.min.yaml" | yq . > "./METADATA.min.yaml"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPSTREAM.xml" > "./FLATPAK_APPSTREAM.xml"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt" > "./FLATPAK_APPS_INFO.txt"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APP_IDS.txt" > "./FLATPAK_APP_IDS.txt"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq . > "./FLATPAK_POPULAR.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq . > "./FLATPAK_TRENDING.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.json" | jq . > "./METADATA.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.json" | jq . > "./METADATA.min.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.yaml" | yq . > "./METADATA.yaml"
+               cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.yaml" | yq . > "./METADATA.min.yaml"
                find "." -type f -size -3c -delete
                git add --all --verbose && git commit -m "[+] METADATA (ROOT) $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h
                git pull origin main ; git push origin main
@@ -325,135 +308,10 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          ##Main (bin.pkgforge.dev)
-          curl -qfsSL "https://bin.pkgforge.dev/aarch64/METADATA.json" -o "${SYSTMP}/METADATA.json.src"
-          if [ "$(jq '. | length' "${SYSTMP}/METADATA.json.src")" -gt 1000 ]; then
-             cat "${SYSTMP}/METADATA.json.src" |\
-             jq -r '
-               .[] | 
-               "[[bin]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name | gsub("\\.no_strip"; ""))\"\n" +
-               "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
-               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.pkgforge.dev/aarch64/")) + "\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.b3sum)\"\n" +
-               "shasum = \"\(.sha256)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "src_url = \"\(.repo_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"https://bin.pkgforge.dev/aarch64/\(.name).log.txt\"\n" +
-               "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://bin.pkgforge.dev/aarch64/bin.default.png" else .icon end) + "\"\n" +
-               "provides = \"\(.extra_bins)\"\n"
-             ' 2>/dev/null > "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             ##BaseUtils (bin.pkgforge.dev)
-             curl -qfsSL "https://bin.pkgforge.dev/aarch64/Baseutils/METADATA.json" |\
-             jq -r '
-               .[] | 
-               "[[base]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\( if (.build_script | type) == "string" and (.build_script | length > 0) then (.build_script | split("/") | .[-1] | split(".") | .[0] ) else (.name | gsub("\\.no_strip"; "")) end )\"\n" +
-               "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
-               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/aarch64_arm64_Linux/"; "https://bin.pkgforge.dev/aarch64/")) + "\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.b3sum)\"\n" +
-               "shasum = \"\(.sha256)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "src_url = \"\(.repo_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"https://bin.pkgforge.dev/x86_64/" + (if (.build_script | type) == "string" and (.build_script | test(".*/.*\\..+")) then (.build_script | split("/") | last | split(".") | .[0]) else .name end) + ".log\"\n" +
-               "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://bin.pkgforge.dev/aarch64/base.default.png" else .icon end) + "\"\n" +
-               "provides = \"\(.extra_bins)\"\n"
-             ' 2>/dev/null >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             ##Main (pkgcache.pkgforge.dev)
-             curl -qfsSL "https://pkgcache.pkgforge.dev/aarch64/METADATA.min.json" |\
-             jq -r '
-               .[] |
-               "[[pkg]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name)\"\n" +
-               "pkg_id = \"\(.bin_id)\"\n" +
-               "pkg_name = \"\(.bin_name)\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"\(.version)\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.bsum)\"\n" +
-               "shasum = \"\(.shasum)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "repology = \"\(.repology)\"\n" +
-               "src_url = \"\(.src_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"\(.build_log)\"\n" +
-               "appstream = \"\(.appstream)\"\n" +
-               "category = \"\(.category)\"\n" +
-               "desktop = \"\(.desktop)\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://pkgcache.pkgforge.dev/aarch64/pkg.default.png" else .icon end) + "\"\n" +
-               "screenshots = [" +
-                 ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
-               "]\n" +
-               "provides = \"\(.provides)\"\n" +
-               "snapshots = [" +
-                 ( .snapshots // [] | map("\"" + . + "\"") | join(", ")) +
-               "]\n"
-             ' 2>/dev/null >> "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             validtoml "${SYSTMP}/aarch64-Linux-METADATA.toml"
-             #TOML
-             taplo check "${SYSTMP}/aarch64-Linux-METADATA.toml" && cp "${SYSTMP}/aarch64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.zstd.bsum"
-             #JSON
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -tj | jq 'to_entries | sort_by(.key) | from_entries' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd.bsum"
-             #JSON (capnp)
-             #to-capnp -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp"
-             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum"
-             #7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
-             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
-             #zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd"
-             #b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
-             #JSON (MIN)
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd.bsum"
-             #YAML
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd.bsum"
-             #AM
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.bin[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' > "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" 
-             cat "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -r '.pkg[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \(if .version and ((.version|tostring) | test("^[a-zA-Z0-9.-]+$")) then .version else (.bsum // "latest")[:12] end) |"' >> "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
-             sort -u "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" -o "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
-             sed '/|[[:space:]]*|/d' -i "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt"
-          fi
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux.sh"
         continue-on-error: true
 
       - name: Generate Sqlite (aarch64-Linux)
@@ -490,19 +348,19 @@ jobs:
           set +x ; set +e
           #--------------#
           #Popular
-          POPULAR="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
+          POPULAR="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
           jq --argjson POPULAR "${POPULAR}" '
-            .pkg[] | select((.bin_id | ascii_downcase) as $id | $POPULAR | index($id)) |
-            {name: .name, bin_id: .bin_id, description: .description, icon: .icon}
+            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $POPULAR | index($id)) |
+            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
           ' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/POPULAR.json.tmp"
           if jq --exit-status . "${SYSTMP}/POPULAR.json.tmp" >/dev/null 2>&1; then
              cat "${SYSTMP}/POPULAR.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json"
           fi
           #Trending
-          TRENDING="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
+          TRENDING="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
           jq --argjson TRENDING "${TRENDING}" '
-            .pkg[] | select((.bin_id | ascii_downcase) as $id | $TRENDING | index($id)) |
-            {name: .name, bin_id: .bin_id, description: .description, icon: .icon}
+            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $TRENDING | index($id)) |
+            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
           ' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/TRENDING.json.tmp"
           if jq --exit-status . "${SYSTMP}/TRENDING.json.tmp" >/dev/null 2>&1; then
              cat "${SYSTMP}/TRENDING.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json"
@@ -526,7 +384,7 @@ jobs:
              done | sed 's|.*/||' | sort -u | jq -R '.' | jq -s '.' > "${SYSTMP}/LATEST.json.tmp"
              if jq --exit-status . "${SYSTMP}/LATEST.json.tmp" >/dev/null 2>&1; then
                 LATEST="$(cat "${SYSTMP}/LATEST.json.tmp")"
-                jq --argjson LATEST "${LATEST}" '.pkg[] | select((.name | ascii_downcase) as $name | ($LATEST | map(ascii_downcase) | index($name))) | {name: .name, bin_id: .bin_id, description: .description, icon: .icon}' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/LATEST.json"
+                jq --argjson LATEST "${LATEST}" '.pkg[] | select((.name | ascii_downcase) as $name | ($LATEST | map(ascii_downcase) | index($name))) | {name: .name, bin_id: .pkg_id, description: .description, icon: .icon}' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/LATEST.json"
                 if jq --exit-status . "${SYSTMP}/LATEST.json" >/dev/null 2>&1; then
                   cat "${SYSTMP}/LATEST.json" | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json"
                 fi
@@ -603,134 +461,10 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          ##Main (bin.pkgforge.dev)
-          curl -qfsSL "https://bin.pkgforge.dev/x86_64/METADATA.json" -o "${SYSTMP}/METADATA.json.src"
-          if [ "$(jq '. | length' "${SYSTMP}/METADATA.json.src")" -gt 1000 ]; then
-             cat "${SYSTMP}/METADATA.json.src" |\
-             jq -r '
-               .[] | 
-               "[[bin]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name | gsub("\\.no_strip"; ""))\"\n" +
-               "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
-               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.pkgforge.dev/x86_64/")) + "\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.b3sum)\"\n" +
-               "shasum = \"\(.sha256)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "src_url = \"\(.repo_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"https://bin.pkgforge.dev/x86_64/\(.name).log.txt\"\n" +
-               "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://bin.pkgforge.dev/x86_64/bin.default.png" else .icon end) + "\"\n" +
-               "provides = \"\(.extra_bins)\"\n"
-             ' 2>/dev/null > "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             ##BaseUtils (bin.pkgforge.dev)
-             curl -qfsSL "https://bin.pkgforge.dev/x86_64/Baseutils/METADATA.json" |\
-             jq -r '
-               .[] | 
-               "[[base]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\( if (.build_script | type) == "string" and (.build_script | length > 0) then (.build_script | split("/") | .[-1] | split(".") | .[0] ) else (.name | gsub("\\.no_strip"; "")) end )\"\n" +
-               "pkg_name = \"\(.name | gsub("\\.no_strip"; ""))\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"" + (if has("repo_version") then (if .repo_version == "" then "latest" else .repo_version end) else "latest" end) + "\"\n" +
-               "download_url = \"" + (.download_url | sub("https://bin.ajam.dev/x86_64_Linux/"; "https://bin.pkgforge.dev/x86_64/")) + "\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.b3sum)\"\n" +
-               "shasum = \"\(.sha256)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "src_url = \"\(.repo_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"https://bin.pkgforge.dev/x86_64/" + (if (.build_script | type) == "string" and (.build_script | test(".*/.*\\..+")) then (.build_script | split("/") | last | split(".") | .[0]) else .name end) + ".log\"\n" +
-               "category = \"" + (if .repo_topics == "" then "utility" else .repo_topics end) + "\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://bin.pkgforge.dev/x86_64/base.default.png" else .icon end) + "\"\n" +
-               "provides = \"\(.extra_bins)\"\n"
-             ' 2>/dev/null >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             validtoml "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             ##Main (pkgcache.pkgforge.dev)
-             curl -qfsSL "https://pkgcache.pkgforge.dev/x86_64/METADATA.min.json" |\
-             jq -r '
-               .[] |
-               "[[pkg]]\n" +
-               "pkg = \"\(.name)\"\n" +
-               "pkg_family = \"\(.pkg_family // .name)\"\n" +
-               "pkg_id = \"\(.bin_id)\"\n" +
-               "pkg_name = \"\(.bin_name)\"\n" +
-               "description = \"\(.description)\"\n" +
-               "note = \"\(.note)\"\n" +
-               "version = \"\(.version)\"\n" +
-               "download_url = \"\(.download_url)\"\n" +
-               "size = \"\(.size | ascii_upcase)\"\n" +
-               "bsum = \"\(.bsum)\"\n" +
-               "shasum = \"\(.shasum)\"\n" +
-               "build_date = \"\(.build_date)\"\n" +
-               "repology = \"\(.repology)\"\n" +
-               "src_url = \"\(.src_url)\"\n" +
-               "homepage = \"\(.web_url)\"\n" +
-               "build_script = \"\(.build_script)\"\n" +
-               "build_log = \"\(.build_log)\"\n" +
-               "appstream = \"\(.appstream)\"\n" +
-               "category = \"\(.category)\"\n" +
-               "desktop = \"\(.desktop)\"\n" +
-               "icon = \"" + (if .icon == null or .icon == "" then "https://pkgcache.pkgforge.dev/x86_64/pkg.default.png" else .icon end) + "\"\n" +
-               "screenshots = [" +
-                 ( .screenshots // [] | map("\"" + . + "\"") | join(", ")) +
-               "]\n" +
-               "provides = \"\(.provides)\"\n" +
-               "snapshots = [" +
-                 ( .snapshots // [] | map("\"" + . + "\"") | join(", ")) +
-               "]\n"
-             ' 2>/dev/null >> "${SYSTMP}/x86_64-Linux-METADATA.toml"
-             #TOML
-             taplo check "${SYSTMP}/x86_64-Linux-METADATA.toml" && cp "${SYSTMP}/x86_64-Linux-METADATA.toml" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.zstd.bsum"
-             #JSON
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -tj | jq 'to_entries | sort_by(.key) | from_entries' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd.bsum"
-             #JSON (capnp)
-             #to-capnp -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp"
-             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum"
-             #7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" 2>/dev/null
-             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum"
-             #zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd"
-             #b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum"
-             #JSON (MIN)
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r tostring > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd.bsum"
-             #YAML
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" | yj -ty | yq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.bsum"
-             7z a -t7z -mx="9" -mmt="$(($(nproc)+1))" -bsp1 -bt "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" 2>/dev/null
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz.bsum"
-             zstd --ultra -22 --force "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd"
-             b3sum "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd.bsum"
-             #AM
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.bin[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' > "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-             #cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.base[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \((.bsum // "latest")[:12]) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-             cat "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -r '.pkg[] | "| \(.pkg) | \(.description) | \((.src_url | select(. != "")) // .homepage) | \(.download_url) | \(if .version and ((.version|tostring) | test("^[a-zA-Z0-9.-]+$")) then .version else (.bsum // "latest")[:12] end) |"' >> "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-             sort -u "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-             sed '/|[[:space:]]*|/d' -i "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt"
-          fi
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux.sh"
         continue-on-error: true
 
       - name: Generate Sqlite (x86_64-Linux)
@@ -767,19 +501,19 @@ jobs:
           set +x ; set +e
           #--------------#
           #Popular
-          POPULAR="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
+          POPULAR="$(jq -r '.[] | .app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
           jq --argjson POPULAR "${POPULAR}" '
-            .pkg[] | select((.bin_id | ascii_downcase) as $id | $POPULAR | index($id)) |
-            {name: .name, bin_id: .bin_id, description: .description, icon: .icon}
+            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $POPULAR | index($id)) |
+            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
           ' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/POPULAR.json.tmp"
           if jq --exit-status . "${SYSTMP}/POPULAR.json.tmp" >/dev/null 2>&1; then
              cat "${SYSTMP}/POPULAR.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json"
           fi
           #Trending
-          TRENDING="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
+          TRENDING="$(jq -r '.[] | .app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
           jq --argjson TRENDING "${TRENDING}" '
-            .pkg[] | select((.bin_id | ascii_downcase) as $id | $TRENDING | index($id)) |
-            {name: .name, bin_id: .bin_id, description: .description, icon: .icon}
+            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $TRENDING | index($id)) |
+            {pkg: .name, pkg_id: .pkg_id, description: .description, icon: .icon}
           ' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/TRENDING.json.tmp"
           if jq --exit-status . "${SYSTMP}/TRENDING.json.tmp" >/dev/null 2>&1; then
              cat "${SYSTMP}/TRENDING.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json"
@@ -803,7 +537,7 @@ jobs:
              done | sed 's|.*/||' | sort -u | jq -R '.' | jq -s '.' > "${SYSTMP}/LATEST.json.tmp"
              if jq --exit-status . "${SYSTMP}/LATEST.json.tmp" >/dev/null 2>&1; then
                 LATEST="$(cat "${SYSTMP}/LATEST.json.tmp")"
-                jq --argjson LATEST "${LATEST}" '.pkg[] | select((.name | ascii_downcase) as $name | ($LATEST | map(ascii_downcase) | index($name))) | {name: .name, bin_id: .bin_id, description: .description, icon: .icon}' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/LATEST.json"
+                jq --argjson LATEST "${LATEST}" '.pkg[] | select((.name | ascii_downcase) as $name | ($LATEST | map(ascii_downcase) | index($name))) | {name: .name, bin_id: .pkg_id, description: .description, icon: .icon}' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/LATEST.json"
                 if jq --exit-status . "${SYSTMP}/LATEST.json" >/dev/null 2>&1; then
                   cat "${SYSTMP}/LATEST.json" | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json"
                 fi
@@ -943,7 +677,7 @@ jobs:
           set +x ; set +e
           #--------------#
           UTC_TIME="$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')"
-          echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
+          echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
           #Purge
           find "${GITHUB_WORKSPACE}/main" -path "${GITHUB_WORKSPACE}/main/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
         continue-on-error: true
@@ -962,110 +696,11 @@ jobs:
           # Presets
           set +x ; set +e
           #--------------#
-          #touch "$HOME/.rclone.conf"
-          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "$HOME/.rclone.conf"
-          #chdir to Repo
-          cd "${GITHUB_WORKSPACE}/main"
-          #Git pull
-          git pull origin main --no-edit 2>/dev/null
-          #Del Bloat
-          rm -rf "$(pwd)/.git"
-          #Upload to Pub
-          echo -e "[+] Syncing ${GITHUB_REPOSITORY} to pub.ajam.dev/repos/${GITHUB_REPOSITORY} \n"
-          rclone sync "." "r2:/pub/repos/${GITHUB_REPOSITORY}/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
-          #Upload AIO files (aarch64-Linux) ==> (https://bin.ajam.dev/aarch64_arm64_Linux/)
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APPSTREAM.xml" "r2:/bin/aarch64_arm64_Linux/FLATPAK_APPSTREAM.xml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APPS_INFO.txt" "r2:/bin/aarch64_arm64_Linux/FLATPAK_APPS_INFO.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt" "r2:/bin/aarch64_arm64_Linux/FLATPAK_APP_IDS.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" "r2:/bin/aarch64_arm64_Linux/FLATPAK_POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" "r2:/bin/aarch64_arm64_Linux/FLATPAK_TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" "r2:/bin/aarch64_arm64_Linux/AM.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json" "r2:/bin/aarch64_arm64_Linux/LATEST.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json" "r2:/bin/aarch64_arm64_Linux/POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json" "r2:/bin/aarch64_arm64_Linux/TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.min.json.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.min.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.toml.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.toml.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          wait
-          #Upload AIO files (x86_64-Linux) ==> (https://bin.ajam.dev/x86_64_Linux/)
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APPSTREAM.xml" "r2:/bin/x86_64_Linux/FLATPAK_APPSTREAM.xml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APPS_INFO.txt" "r2:/bin/x86_64_Linux/FLATPAK_APPS_INFO.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_APP_IDS.txt" "r2:/bin/x86_64_Linux/FLATPAK_APP_IDS.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_POPULAR.json" "r2:/bin/x86_64_Linux/FLATPAK_POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/FLATPAK_TRENDING.json" "r2:/bin/x86_64_Linux/FLATPAK_TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" "r2:/bin/x86_64_Linux/AM.txt" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json" "r2:/bin/x86_64_Linux/LATEST.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json" "r2:/bin/x86_64_Linux/POPULAR.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json" "r2:/bin/x86_64_Linux/TRENDING.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db" "r2:/bin/x86_64_Linux/METADATA.AIO.db" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.db.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.db.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.db.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.db.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.db.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "r2:/bin/x86_64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.min.json.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.min.json.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          #rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.soar.capnp.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.soar.capnp.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml" "r2:/bin/x86_64_Linux/METADATA.AIO.toml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.toml.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.toml.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
-          rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.yaml.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.yaml.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
-          wait
+          #touch "${HOME}/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "${HOME}/.rclone.conf"
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/soarpkgs/refs/heads/main/scripts/metadata/upload_to_r2.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
         continue-on-error: true
 #------------------------------------------------------------------------------------#
