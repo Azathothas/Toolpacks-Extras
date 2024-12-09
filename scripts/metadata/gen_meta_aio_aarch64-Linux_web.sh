@@ -16,7 +16,7 @@ export TZ="UTC"
 SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
 TMPDIR="$(mktemp -d)" && export TMPDIR="${TMPDIR}" ; echo -e "\n[+] Using TEMP: ${TMPDIR}\n"
 #Fetch Files
-rm -rvf "${SYSTMP}/METADATA.WEB.json" 2>/dev/null
+rm -rvf "${SYSTMP}/aarch64-Linux.METADATA.WEB.json" 2>/dev/null
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/BREW_CASK.json" -o "${TMPDIR}/BREW_CASK.json"
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/BREW_FORMULA.json" -o "${TMPDIR}/BREW_FORMULA.json"
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/FLATPAK_APPS_INFO.json" -o "${TMPDIR}/FLATPAK_APPS_INFO.json"
@@ -46,7 +46,8 @@ merge_from_brew_formula()
     fi
    #Add rank    
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
-    rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_FORMULA.json)"
+    #rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_FORMULA.json)"
+    rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_FORMULA.json | sort --numeric-sort | head -n 1)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg rank "$rank" --arg description "$description" '. + {rank: $rank, description: $description}'
@@ -97,7 +98,11 @@ merge_from_brew_cask()
     fi
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
-    rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_CASK.json)"
+    #rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_CASK.json)"
+    rank="$(jq -r --arg pkg "${pkg_name%%.*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort | head -n 1)"
+    if [ -z "$rank" ] || [ "$rank" == "null" ]; then
+     rank="$(jq -r --arg pkg "${pkg_name%%-*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort | head -n 1)"
+    fi
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg rank "$rank" --arg description "$description" '. + {rank: $rank, description: $description}'
@@ -151,7 +156,8 @@ merge_from_flatpak_popular()
     flaticon="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .icon // null' ${TMPDIR}/FLATPAK_POPULAR.json)"
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
-    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json)"
+    #rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json)"
+    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json | sort --numeric-sort | head -n 1)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg description "$description" --arg flaticon "$flaticon" --arg rank "$rank" '. + {rank: $rank, flaticon: $flaticon, description: $description}'
@@ -205,7 +211,8 @@ merge_from_flatpak_trending()
     flaticon="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .icon // null' ${TMPDIR}/FLATPAK_TRENDING.json)"
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
-    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json)"
+    #rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json)"
+    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json | sort --numeric-sort | head -n 1)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg description "$description" --arg flaticon "$flaticon" --arg rank "$rank" '. + {rank: $rank, flaticon: $flaticon, description: $description}'
@@ -247,6 +254,7 @@ if jq --exit-status . "${TMPDIR}/merged.json.tmp" >/dev/null 2>&1; then
 unset PKG_COUNT ; PKG_COUNT="$(cat "${TMPDIR}/merged.json.tmp" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
   if [[ "${PKG_COUNT}" -gt 2900 ]]; then
     jq 'walk(if type == "object" then with_entries(select(.value != null and .value != "")) else . end)' "${TMPDIR}/merged.json.tmp" | jq . > "${SYSTMP}/aarch64-Linux.METADATA.WEB.json"
+    realpath "${SYSTMP}/aarch64-Linux.METADATA.WEB.json"
   else
     echo -e "\n[+] Fatal: Failed to Generate Web Metadata\n"
   fi
