@@ -2520,7 +2520,7 @@
   web_url: https://docs.xfce.org/apps/xfce4-terminal/start
   build_script: https://github.com/pkgforge/pkgcache/blob/main/.github/scripts/x86_64-Linux/pkgs/xfce4-terminal.appbundle.sh
   build_log: https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/xfce4-terminal.appbundle.log
-  appstream: ""
+  appstream: https://pkgcache.pkgforge.dev/x86_64/xfce4-terminal.debian.appdata.xml
   category: Core,TerminalEmulator
   desktop: ""
   icon: https://pkgcache.pkgforge.dev/x86_64/xfce4-terminal.dwfs.appbundle.icon.png
