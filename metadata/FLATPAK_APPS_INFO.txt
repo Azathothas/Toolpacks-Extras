@@ -4890,10 +4890,6 @@ NAME: Notejot
 APP_ID: io.github.lainsce.Notejot
 Descr: Jot your ideas
 -----------------------------
-NAME: Quilter
-APP_ID: io.github.lainsce.Quilter
-Descr: Focus on your writing
------------------------------
 NAME: LibreQuake
 APP_ID: io.github.lavenderdotpet.LibreQuake
 Descr: Cosmic horror first-person shooter
