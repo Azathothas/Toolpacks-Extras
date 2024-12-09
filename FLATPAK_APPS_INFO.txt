@@ -4108,7 +4108,7 @@ Descr: An efficient, user-friendly solver for nonlinear light-matter interaction
 -----------------------------
 NAME: Oku
 APP_ID: io.github.OkuBrowser.oku
-Descr: A Web browser with an emphasis on local-first data storage
+Descr: Browse &amp; express yourself
 -----------------------------
 NAME: OpenToonz
 APP_ID: io.github.OpenToonz
@@ -5028,7 +5028,7 @@ Descr: 2D animation
 -----------------------------
 NAME: Picker
 APP_ID: io.github.mezoahmedii.Picker
-Descr: Randomly pick somthing to do
+Descr: Randomly pick something to do
 -----------------------------
 NAME: vengi VoxEdit
 APP_ID: io.github.mgerhardy.vengi.voxedit
