@@ -47,7 +47,7 @@ merge_from_brew_formula()
    #Add rank    
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
     #rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_FORMULA.json)"
-    rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_FORMULA.json | sort --numeric-sort | head -n 1)"
+    rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_FORMULA.json | sort --numeric-sort 2>/dev/null | head -n 1 2>/dev/null)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg rank "$rank" --arg description "$description" '. + {rank: $rank, description: $description}'
@@ -99,9 +99,9 @@ merge_from_brew_cask()
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
     #rank="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .rank // null' ${TMPDIR}/BREW_CASK.json)"
-    rank="$(jq -r --arg pkg "${pkg_name%%.*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort | head -n 1)"
+    rank="$(jq -r --arg pkg "${pkg_name%%.*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort 2>/dev/null | head -n 1 2>/dev/null)"
     if [ -z "$rank" ] || [ "$rank" == "null" ]; then
-     rank="$(jq -r --arg pkg "${pkg_name%%-*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort | head -n 1)"
+     rank="$(jq -r --arg pkg "${pkg_name%%-*}" '.[] | select(.pkg | test($pkg; "i")) | .rank // null' ${TMPDIR}/BREW_CASK.json | sort --numeric-sort 2>/dev/null | head -n 1 2>/dev/null)"
     fi
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
@@ -157,7 +157,7 @@ merge_from_flatpak_popular()
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
     #rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json)"
-    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json | sort --numeric-sort | head -n 1)"
+    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_POPULAR.json | sort --numeric-sort 2>/dev/null | head -n 1 2>/dev/null)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg description "$description" --arg flaticon "$flaticon" --arg rank "$rank" '. + {rank: $rank, flaticon: $flaticon, description: $description}'
@@ -212,7 +212,7 @@ merge_from_flatpak_trending()
    #Add Rank
     current_rank="$(echo "$pkg" | jq -r 'if has("rank") and (.rank == "") then null else .rank end')"
     #rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id == $app_id) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json)"
-    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json | sort --numeric-sort | head -n 1)"
+    rank="$(jq -r --arg app_id "$app_id" '.[] | select(.app_id | test($app_id; "i")) | .rank // null' ${TMPDIR}/FLATPAK_TRENDING.json | sort --numeric-sort 2>/dev/null | head -n 1 2>/dev/null)"
    #Append 
     if [ "$rank" != "null" ] && [ "$current_rank" == "null" ]; then
         echo "$pkg" | jq --arg description "$description" --arg flaticon "$flaticon" --arg rank "$rank" '. + {rank: $rank, flaticon: $flaticon, description: $description}'
