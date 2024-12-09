@@ -1,1 +1,254 @@
-[]
+[
+  {
+    "pkg": "anydesk.appimage",
+    "pkg_id": "com.anydesk.Anydesk",
+    "description": "Desktop sharing application, providing remote support and online meetings",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/anydesk.appimage.icon.png"
+  },
+  {
+    "pkg": "bottles.appimage",
+    "pkg_id": "com.usebottles.bottles",
+    "description": "An easy-to-use wineprefix manager to Run Windows software and games on Linux",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/bottles.appimage.icon.png"
+  },
+  {
+    "pkg": "brave.appimage",
+    "pkg_id": "com.brave.Browser",
+    "description": "Privacy-oriented browser for Desktop and Laptop computers",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/brave.appimage.icon.png"
+  },
+  {
+    "pkg": "cemu.appimage",
+    "pkg_id": "info.cemu.Cemu",
+    "description": "Wii U emulator",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/cemu.appimage.icon.png"
+  },
+  {
+    "pkg": "chromium.dwfs.appbundle",
+    "pkg_id": "org.chromium.Chromium",
+    "description": "Open source web browser from Google",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/chromium.dwfs.appbundle.icon.png"
+  },
+  {
+    "pkg": "chromium-alpine.flatimage",
+    "pkg_id": "org.chromium.Chromium",
+    "description": "Open source web browser from Google",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/pkg.default.png"
+  },
+  {
+    "pkg": "chromium.nixappimage",
+    "pkg_id": "org.chromium.Chromium",
+    "description": "Open source web browser from Google",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/chromium.nixappimage.icon.png"
+  },
+  {
+    "pkg": "cpu-x.appimage",
+    "pkg_id": "io.github.thetumultuousunicornofdarkness.cpu-x",
+    "description": "A FOSS tool to gather information on CPU, motherboard and more",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/cpu-x.appimage.icon.png"
+  },
+  {
+    "pkg": "desktopeditors.appimage",
+    "pkg_id": "org.onlyoffice.desktopeditors",
+    "description": "Office suite with text, spreadsheet and presentation editors",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/desktopeditors.appimage.icon.png"
+  },
+  {
+    "pkg": "discord.appimage",
+    "pkg_id": "com.discordapp.Discord",
+    "description": "All-in-one cross-platform voice and text chat for gamers",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/discord.appimage.icon.png"
+  },
+  {
+    "pkg": "dolphin-emu.appimage",
+    "pkg_id": "org.DolphinEmu.dolphin-emu",
+    "description": "A GameCube / Wii emulator",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/dolphin-emu.appimage.icon.png"
+  },
+  {
+    "pkg": "duckstation.appimage",
+    "pkg_id": "org.duckstation.DuckStation",
+    "description": "A fast Simulator/Emulator of the Sony PlayStation(TM) Console",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/duckstation.appimage.icon.png"
+  },
+  {
+    "pkg": "firefox-dev.appimage",
+    "pkg_id": "org.mozilla.firefox",
+    "description": "A web browser built from Firefox source tree (Developer Edition)",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/firefox-dev.appimage.icon.png"
+  },
+  {
+    "pkg": "firefox-esr.appimage",
+    "pkg_id": "org.mozilla.firefox",
+    "description": "A web browser built from Firefox source tree (ESR)",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/firefox-esr.appimage.icon.png"
+  },
+  {
+    "pkg": "firefox-nightly.appimage",
+    "pkg_id": "org.mozilla.firefox",
+    "description": "A web browser built from Firefox source tree (Nightly)",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/firefox-nightly.appimage.icon.png"
+  },
+  {
+    "pkg": "firefox.dwfs.appbundle",
+    "pkg_id": "org.mozilla.firefox",
+    "description": "A web browser built from Firefox source tree",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/firefox.dwfs.appbundle.icon.png"
+  },
+  {
+    "pkg": "freetube.appimage",
+    "pkg_id": "io.freetubeapp.FreeTube",
+    "description": "An Open Source YouTube app for privacy",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/freetube.appimage.icon.png"
+  },
+  {
+    "pkg": "gimp.appimage",
+    "pkg_id": "org.gimp.GIMP",
+    "description": "The GNU Image Manipulation Program",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/gimp.appimage.icon.png"
+  },
+  {
+    "pkg": "heroic.appimage",
+    "pkg_id": "com.heroicgameslauncher.hgl",
+    "description": "A Native GOG, Epic, and Amazon Games Launcher",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/heroic.appimage.icon.png"
+  },
+  {
+    "pkg": "inkscape-dev.appimage",
+    "pkg_id": "org.inkscape.Inkscape",
+    "description": "FOSS Vector Graphics Editor",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/inkscape-dev.appimage.icon.png"
+  },
+  {
+    "pkg": "inkscape.appimage",
+    "pkg_id": "org.inkscape.Inkscape",
+    "description": "FOSS Vector Graphics Editor",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/inkscape.appimage.icon.png"
+  },
+  {
+    "pkg": "kdenlive.appimage",
+    "pkg_id": "org.kde.kdenlive",
+    "description": "FOSS video editor, based on MLT Framework and KDE Frameworks",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/kdenlive.appimage.icon.png"
+  },
+  {
+    "pkg": "krita.appimage",
+    "pkg_id": "org.kde.krita",
+    "description": "A free and open source painting application",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/krita.appimage.icon.png"
+  },
+  {
+    "pkg": "librewolf-cachyos.flatimage",
+    "pkg_id": "io.gitlab.librewolf-community",
+    "description": "A custom version of Firefox, focused on privacy, security and freedom",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/librewolf.flatimage.icon.png"
+  },
+  {
+    "pkg": "microsoft-edge-stable.appimage",
+    "pkg_id": "com.microsoft.Edge",
+    "description": "The web browser from Microsoft (Stable)",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/microsoft-edge-stable.appimage.icon.png"
+  },
+  {
+    "pkg": "mpv.appimage",
+    "pkg_id": "io.mpv.Mpv",
+    "description": "🎥 Command line video player",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/mpv.appimage.icon.png"
+  },
+  {
+    "pkg": "obs-studio.appimage",
+    "pkg_id": "com.obsproject.Studio",
+    "description": "FOSS cross-platform screencasting and streaming app (AppImage|NixAppImage)",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/obs-studio.appimage.icon.png"
+  },
+  {
+    "pkg": "obsidian.appimage",
+    "pkg_id": "md.obsidian.Obsidian",
+    "description": "A powerful knowledge base that works on top of a local folder of plain text Markdown files",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/obsidian.appimage.icon.png"
+  },
+  {
+    "pkg": "opera.appimage",
+    "pkg_id": "com.opera.Opera",
+    "description": "Faster, safer and smarter web browser",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/pkg.default.png"
+  },
+  {
+    "pkg": "ppsspp.dwfs.appbundle",
+    "pkg_id": "org.ppsspp.PPSSPP",
+    "description": "A Fast and Portable PSP emulator",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/ppsspp.dwfs.appbundle.icon.png"
+  },
+  {
+    "pkg": "prismlauncher.appimage",
+    "pkg_id": "org.prismlauncher.PrismLauncher",
+    "description": "Free, open source launcher for Minecraft",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/prismlauncher.appimage.icon.png"
+  },
+  {
+    "pkg": "protonup-qt.appimage",
+    "pkg_id": "net.davidotek.pupgui2",
+    "description": "Install and manage Proton-GE and Luxtorpeda for Steam and Wine-GE for Lutris",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/protonup-qt.appimage.icon.png"
+  },
+  {
+    "pkg": "qbittorrent-enhanced.appimage",
+    "pkg_id": "org.qbittorrent.qBittorrent",
+    "description": "A qBittorrent for with Enhanced Features",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/qbittorrent-enhanced.appimage.icon.png"
+  },
+  {
+    "pkg": "ryujinx.appimage",
+    "pkg_id": "org.ryujinx.Ryujinx",
+    "description": "A simple, experimental Nintendo Switch emulator",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/ryujinx.appimage.icon.png"
+  },
+  {
+    "pkg": "signal-desktop.appimage",
+    "pkg_id": "org.signal.Signal",
+    "description": "A private messenger for Windows, macOS, and Linux",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/signal-desktop.appimage.icon.png"
+  },
+  {
+    "pkg": "spotify.appimage",
+    "pkg_id": "com.spotify.Client",
+    "description": "Play music from the Spotify music service",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/spotify.appimage.icon.png"
+  },
+  {
+    "pkg": "steam.appimage",
+    "pkg_id": "com.valvesoftware.Steam",
+    "description": "A video game digital distribution service and storefront from Valve",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/steam.appimage.icon.png"
+  },
+  {
+    "pkg": "steam-cachyos.flatimage",
+    "pkg_id": "com.valvesoftware.Steam",
+    "description": "A video game digital distribution service and storefront from Valve",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/pkg.default.png"
+  },
+  {
+    "pkg": "vlc.appimage",
+    "pkg_id": "org.videolan.VLC",
+    "description": "Cross-platform media player and streaming server",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/vlc.appimage.icon.png"
+  },
+  {
+    "pkg": "vscode.appimage",
+    "pkg_id": "com.visualstudio.code",
+    "description": "Open source source code editor developed by Microsoft",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/vscode.appimage.icon.png"
+  },
+  {
+    "pkg": "wps-office.appimage",
+    "pkg_id": "com.wps.Office",
+    "description": "Office suite, formerly Kingsoft Office",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/wps-office.appimage.icon.png"
+  },
+  {
+    "pkg": "xemu.appimage",
+    "pkg_id": "app.xemu.xemu",
+    "description": "Original Xbox emulator",
+    "icon": "https://pkgcache.pkgforge.dev/x86_64/xemu.appimage.icon.png"
+  }
+]
