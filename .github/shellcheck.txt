@@ -1,0 +1,7 @@
+
+In .github/scripts/metadata/fetch_flatpak.sh line 40:
+     cp -fv "${FLATPAK_APPSTREAM}" >  "${SYSTMP}/FLATPAK_APPSTREAM.xml"
+     ^-- SC2225 (error): This cp has no destination. Check the arguments.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2225 -- This cp has no destination. Check...
