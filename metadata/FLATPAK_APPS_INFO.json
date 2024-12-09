@@ -10305,11 +10305,6 @@
     "description": "A global menu giving you quick access to folders and custom commands."
   },
   {
-    "pkg": "Quilter",
-    "app_id": "io.github.lainsce.Quilter",
-    "description": "Focus on your writing"
-  },
-  {
     "pkg": "Quixel Bridge",
     "app_id": "com.quixel.Bridge",
     "description": "The perfect Bridge between Megascans and your favorite tools"
