@@ -34,6 +34,7 @@ if command -v rclone &> /dev/null && [ -s "${HOME}/.rclone.conf" ] && [ -d "${GI
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.zstd" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.db.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.db.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.WEB.json" "r2:/bin/aarch64_arm64_Linux/METADATA.WEB.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json.xz.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
@@ -81,6 +82,7 @@ if command -v rclone &> /dev/null && [ -s "${HOME}/.rclone.conf" ] && [ -d "${GI
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.zstd" "r2:/bin/x86_64_Linux/METADATA.AIO.db.zstd" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.db.zstd.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.db.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "r2:/bin/x86_64_Linux/METADATA.AIO.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.WEB.json" "r2:/bin/x86_64_Linux/METADATA.WEB.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.json.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz" "r2:/bin/x86_64_Linux/METADATA.AIO.json.xz" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json.xz.bsum" "r2:/bin/x86_64_Linux/METADATA.AIO.json.xz.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &

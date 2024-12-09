@@ -351,23 +351,12 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #Popular
-          POPULAR="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
-          jq --argjson POPULAR "${POPULAR}" '
-            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $POPULAR | index($id)) |
-            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
-          ' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/POPULAR.json.tmp"
-          if jq --exit-status . "${SYSTMP}/POPULAR.json.tmp" >/dev/null 2>&1; then
-             cat "${SYSTMP}/POPULAR.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json"
-          fi
-          #Trending
-          TRENDING="$(jq -r '.hits[].app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
-          jq --argjson TRENDING "${TRENDING}" '
-            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $TRENDING | index($id)) |
-            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
-          ' "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/TRENDING.json.tmp"
-          if jq --exit-status . "${SYSTMP}/TRENDING.json.tmp" >/dev/null 2>&1; then
-             cat "${SYSTMP}/TRENDING.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json"
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_aarch64-Linux_web.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux_web.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux_web.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_aarch64-Linux_web.sh"
+          if [[ -s "${SYSTMP}/aarch64-Linux.METADATA.WEB.json" ]] && [[ $(stat -c%s "${SYSTMP}/aarch64-Linux.METADATA.WEB.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/aarch64-Linux.METADATA.WEB.json" "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.WEB.json"
           fi
         continue-on-error: true
 
@@ -417,9 +406,8 @@ jobs:
              #copy json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
                cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.json" "./aarch64-Linux/METADATA.AIO.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.WEB.json" "./aarch64-Linux/METADATA.WEB.json"
                cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/LATEST.json" "./aarch64-Linux/LATEST.json"
-               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/POPULAR.json" ".aarch64-Linux/POPULAR.json"
-               cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/TRENDING.json" "./aarch64-Linux/TRENDING.json"
                #AM
                cp -fv "${GITHUB_WORKSPACE}/main/aarch64-Linux/AM.txt" "./aarch64-Linux/AM.txt"
              fi
@@ -504,23 +492,12 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #Popular
-          POPULAR="$(jq -r '.[] | .app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq -R . | jq -s .)"
-          jq --argjson POPULAR "${POPULAR}" '
-            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $POPULAR | index($id)) |
-            {pkg: .pkg, pkg_id: .pkg_id, description: .description, icon: .icon}
-          ' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/POPULAR.json.tmp"
-          if jq --exit-status . "${SYSTMP}/POPULAR.json.tmp" >/dev/null 2>&1; then
-             cat "${SYSTMP}/POPULAR.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json"
-          fi
-          #Trending
-          TRENDING="$(jq -r '.[] | .app_id | ascii_downcase' "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq -R . | jq -s .)"
-          jq --argjson TRENDING "${TRENDING}" '
-            .pkg[] | select((.pkg_id | ascii_downcase) as $id | $TRENDING | index($id)) |
-            {pkg: .name, pkg_id: .pkg_id, description: .description, icon: .icon}
-          ' "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" | jq -s '.' > "${SYSTMP}/TRENDING.json.tmp"
-          if jq --exit-status . "${SYSTMP}/TRENDING.json.tmp" >/dev/null 2>&1; then
-             cat "${SYSTMP}/TRENDING.json.tmp" | jq . > "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json"
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/gen_meta_aio_x86_64-Linux_web.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux_web.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux_web.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/gen_meta_aio_x86_64-Linux_web.sh"
+          if [[ -s "${SYSTMP}/x86_64-Linux.METADATA.WEB.json" ]] && [[ $(stat -c%s "${SYSTMP}/x86_64-Linux.METADATA.WEB.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/x86_64-Linux.METADATA.WEB.json" "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.WEB.json"
           fi
         continue-on-error: true
 
@@ -570,9 +547,8 @@ jobs:
              #copy json
              if jq --exit-status . "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" >/dev/null 2>&1; then
                cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.AIO.json" "./x86_64-Linux/METADATA.AIO.json"
+               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/METADATA.WEB.json" "./x86_64-Linux/METADATA.WEB.json"
                cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/LATEST.json" "./x86_64-Linux/LATEST.json"
-               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/POPULAR.json" "./x86_64-Linux/POPULAR.json"
-               cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/TRENDING.json" "./x86_64-Linux/TRENDING.json"
                #AM
                cp -fv "${GITHUB_WORKSPACE}/main/x86_64-Linux/AM.txt" "./x86_64-Linux/AM.txt"
              fi

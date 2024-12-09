@@ -108,7 +108,18 @@ curl -A "${USER_AGENT}" -qfsSL "https://flathub.org/api/v2/popular/last-month?lo
   pkg: (.name // ""),
   app_id: (.app_id // ""),
   description: (.summary // ""),
-  description_long: (.description // ""),
+  description_long: (
+    .description // "" 
+    | gsub("\\n[ \t]+"; "<br>")
+    | gsub("<br>$"; "")
+    | gsub("<br>\\s*<br>"; "<br>")
+    | gsub("<br>\\s*<br>+"; "<br>")
+    | gsub("\".*?\""; "")
+    | gsub("\\s{2,}"; " ")
+    | select(
+        (. | test("flatpak|flathub|flatseal"; "i")) | not
+      )
+  ),
   build_date: (.updated_at | if . then (todateiso8601 | sub("Z$"; "")) else "" end),
   category: (.categories // []),
   icon: (.icon // ""),
@@ -125,7 +136,18 @@ curl -A "${USER_AGENT}" -qfsSL "https://flathub.org/api/v2/trending/last-two-wee
   pkg: (.name // ""),
   app_id: (.app_id // ""),
   description: (.summary // ""),
-  description_long: (.description // ""),
+  description_long: (
+    .description // "" 
+    | gsub("\\n[ \t]+"; "<br>")
+    | gsub("<br>$"; "")
+    | gsub("<br>\\s*<br>"; "<br>")
+    | gsub("<br>\\s*<br>+"; "<br>")
+    | gsub("\".*?\""; "")
+    | gsub("\\s{2,}"; " ")
+    | select(
+        (. | test("flatpak|flathub|flatseal"; "i")) | not
+      )
+  ),
   build_date: (.updated_at | if . then (todateiso8601 | sub("Z$"; "")) else "" end),
   category: (.categories // []),
   icon: (.icon // ""),
