@@ -227,6 +227,11 @@ jobs:
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
+          #Generate Alpine Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh" &
           #Generate HomeBrew Data
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
@@ -239,6 +244,9 @@ jobs:
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh" &
           #Sanity Check & Update
           wait
+          if [[ -s "${SYSTMP}/ALPINE.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/ALPINE.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json"
+          fi
           if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/BREW_FORMULA.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json"
           fi
@@ -299,8 +307,13 @@ jobs:
                git sparse-checkout set ""
                git sparse-checkout set --no-cone --sparse-index "/FLATPAK_APPSTREAM.xml" "/FLATPAK_APPS_INFO.txt" "/FLATPAK_APP_IDS.txt" "/FLATPAK_POPULAR.json" "/FLATPAK_TRENDING.json" "/METADATA.json" "/METADATA.min.json" "/METADATA.yaml" "/METADATA.min.yaml"
                git checkout ; ls -lah "."
+               cat "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json" | jq . > "./ALPINE.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json" | jq . > "./BREW_FORMULA.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json" | jq . > "./BREW_CASK.json"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq . > "./FLATPAK_POPULAR.json"
                cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPSTREAM.xml" > "./FLATPAK_APPSTREAM.xml"
                cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt" > "./FLATPAK_APPS_INFO.txt"
+               cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.json" > "./FLATPAK_APPS_INFO.json"
                cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APP_IDS.txt" > "./FLATPAK_APP_IDS.txt"
                cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json" | jq . > "./FLATPAK_POPULAR.json"
                cat "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json" | jq . > "./FLATPAK_TRENDING.json"
@@ -308,6 +321,7 @@ jobs:
                cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.json" | jq . > "./METADATA.min.json"
                cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.yaml" | yq . > "./METADATA.yaml"
                cat "${GITHUB_WORKSPACE}/main/metadata/METADATA.min.yaml" | yq . > "./METADATA.min.yaml"
+               cat "${GITHUB_WORKSPACE}/main/metadata/PKGSRC.json" | jq . > "./PKGSRC.json"
                find "." -type f -size -3c -delete
                git add --all --verbose && git commit -m "[+] METADATA (ROOT) $(TZ='UTC' date +'%Y_%m_%d')]" ; df -h
                git pull origin main ; git push origin main

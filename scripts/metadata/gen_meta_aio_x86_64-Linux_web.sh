@@ -22,6 +22,7 @@ curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/FLATPAK_APPS_INFO.json" -o "${TMPDIR}/FLATPAK_APPS_INFO.json"
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/FLATPAK_POPULAR.json" -o "${TMPDIR}/FLATPAK_POPULAR.json"
 curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/FLATPAK_TRENDING.json" -o "${TMPDIR}/FLATPAK_TRENDING.json"
+curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/metadata/PKGSRC.json" -o "${TMPDIR}/PKGSRC.json"
 curl -qfsSL "https://bin.pkgforge.dev/x86_64-Linux/METADATA.AIO.json" -o "${TMPDIR}/METADATA.AIO.json"
 #-------------------------------------------------------#
 
@@ -244,11 +245,60 @@ export -f merge_from_flatpak_trending
 
 
 #-------------------------------------------------------#
+merge_from_pkgsrc()
+{
+ pushd "$(mktemp -d)" >/dev/null 2>&1
+ echo -e "\n[+] Syncing with PkgSrc\n"
+ rm -rvf "${TMPDIR}/merged.json" "${TMPDIR}/output_base.json" "${TMPDIR}/output_bin.json" "${TMPDIR}/output_pkg.json" 2>/dev/null
+ echo '{"base": [], "bin": [], "pkg": []}' > "${TMPDIR}/merged.json"
+ process_array()
+ {
+   local array=$1
+   local output_file="${TMPDIR}/output_${array}.json"
+   jq -c ".${array}[]" "${TMPDIR}/METADATA.AIO.json" | while read -r pkg; do
+    pkg_name="$(echo "$pkg" | jq -r '.pkg_family')"
+   #Add Description (Long)
+    description_long="$(echo "$pkg" | jq -r '.description_long // ""')"
+    if [ "$description_long" == "" ] || [ "$description_long" == "null" ]; then
+     description_long="$(jq -r --arg pkg "$pkg_name" '.[] | select(.pkg == $pkg) | .description_long // .description' ${TMPDIR}/PKGSRC.json)"
+    fi
+   #Append 
+    if [ "$description_long" != "" ] && [ "$description_long" != "null" ]; then
+        echo "$pkg" | jq --arg description_long "$description_long" '. + { description_long: $description_long}'
+    else
+        echo "$pkg"
+    fi
+   done | jq -s '.' > "$output_file"
+ }
+ for array in base bin pkg; do
+   process_array "$array" &
+ done
+ wait
+ jq -s '.[0] * {"base": .[1], "bin": .[2], "pkg": .[3]}' \
+   "${TMPDIR}/merged.json" \
+   "${TMPDIR}/output_base.json" \
+   "${TMPDIR}/output_bin.json" \
+   "${TMPDIR}/output_pkg.json" > "${TMPDIR}/merged.json.tmp"
+ if jq --exit-status . "${TMPDIR}/merged.json.tmp" >/dev/null 2>&1; then
+  unset PKG_COUNT ; PKG_COUNT="$(cat "${TMPDIR}/merged.json.tmp" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
+  if [[ "${PKG_COUNT}" -gt 2900 ]]; then
+    cp -fv "${TMPDIR}/merged.json.tmp" "${TMPDIR}/METADATA.AIO.json"
+  else
+    echo -e "\n[+] Fatal: Failed to Sync with PkgSrc\n"
+  fi
+ fi
+}
+export -f merge_from_pkgsrc
+#-------------------------------------------------------#
+
+
+#-------------------------------------------------------#
 pushd "${TMPDIR}" >/dev/null 2>&1
 merge_from_brew_formula
 merge_from_brew_cask
 merge_from_flatpak_popular
 merge_from_flatpak_trending
+merge_from_pkgsrc
 #Final cleanup
 if jq --exit-status . "${TMPDIR}/merged.json.tmp" >/dev/null 2>&1; then
 unset PKG_COUNT ; PKG_COUNT="$(cat "${TMPDIR}/merged.json.tmp" | jq -r '(.base[], .bin[], .pkg[]) | .pkg' | wc -l | tr -d '[:space:]')"
