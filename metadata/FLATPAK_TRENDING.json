@@ -2854,11 +2854,11 @@
     "app_id": "com.konstantintutsch.Lock",
     "description": "Process data with GnuPG",
     "description_long": "Lock is a graphical front-end for GnuPG (GPG) making use of a beautiful LibAdwaita GUI.<br>Process text and files:<br>Encryption<br>Decryption<br>Signing<br>Verification<br>Manage your GnuPG keyring:<br>Generate new keypairs<br>Import keys<br>Export public keys<br>View expiry dates<br>Update expiry dates of expired keys<br>Remove keys<br>",
-    "build_date": "2024-12-08T14:50:50",
+    "build_date": "2024-12-10T15:33:01",
     "category": [
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/908563a7716f645c90a601cfb3e11d00/icons/128x128/com.konstantintutsch.Lock.png",
+    "icon": "https://dl.flathub.org/media/com/konstantintutsch/Lock/21430b2faf02f646ba25ea10d2978def/icons/128x128/com.konstantintutsch.Lock.png",
     "license": "MIT",
     "tag": [
       "gpg",
