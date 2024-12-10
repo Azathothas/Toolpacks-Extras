@@ -1261,13 +1261,13 @@
     "app_id": "com.github.IsmaelMartinez.teams_for_linux",
     "description": "Unofficial Microsoft Teams client for Linux",
     "description_long": "Experience seamless integration with the Microsoft Teams Web App in a standalone Electron application.<br>This application is an unofficial client for Microsoft Teams.",
-    "build_date": "2024-11-19T08:09:50",
+    "build_date": "2024-12-09T17:42:48",
     "category": [
       "Chat",
       "Network",
       "Office"
     ],
-    "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/288f106994ae62aae542071f736dce01/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
+    "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/57eb9aa36f81af40079dbc295cc077cb/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
     "license": "GPL-3.0",
     "tag": [],
     "rank": 64
@@ -3458,12 +3458,12 @@
     "app_id": "io.github.hmlendea.geforcenow-electron",
     "description": "Unofficial GeForce NOW application written in Electron",
     "description_long": "Unofficial Linux Desktop client for Nvidia's GeForce NOW game streaming service.",
-    "build_date": "2024-07-24T08:04:17",
+    "build_date": "2024-12-10T14:44:51",
     "category": [
       "Network",
       "Game"
     ],
-    "icon": "https://dl.flathub.org/media/io/github/hmlendea.geforcenow-electron/69715fd1e52e72d290bd3c057073b8b0/icons/128x128/io.github.hmlendea.geforcenow-electron.png",
+    "icon": "https://dl.flathub.org/media/io/github/hmlendea.geforcenow-electron/4c5d0ce03238716e999d3aa0c788957e/icons/128x128/io.github.hmlendea.geforcenow-electron.png",
     "license": "GPL-3.0",
     "tag": [
       "Game",

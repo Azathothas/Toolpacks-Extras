@@ -2612,7 +2612,7 @@ Descr: Sophisticated text editor for code, markup and prose
 -----------------------------
 NAME: Super Productivity
 APP_ID: com.super_productivity.SuperProductivity
-Descr: Advanced to-do list app with timeboxing, time tracking, and third-party integration
+Descr: Advanced to-do list
 -----------------------------
 NAME: Supermodel
 APP_ID: com.supermodel3.Supermodel
