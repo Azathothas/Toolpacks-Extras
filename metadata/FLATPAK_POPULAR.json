@@ -998,7 +998,7 @@
     "app_id": "org.kde.okular",
     "description": "View and annotate documents",
     "description_long": "<br>Okular is a universal document viewer developed by KDE. Okular works on multiple platforms, including but not limited to Linux, Windows, Mac OS X, *BSD, etc.<br>Features:<br>Supported Formats: PDF, PS, Tiff, CHM, DjVu, Images, DVI, XPS, Fiction Book, Comic Book, Plucker, EPub, Fax<br>Sidebar with contents, thumbnails, reviews and bookmarks<br>Annotations support<br>",
-    "build_date": "2024-12-03T09:51:44",
+    "build_date": "2024-12-09T21:50:08",
     "category": [
       "Graphics",
       "Office",
