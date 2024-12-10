@@ -8270,10 +8270,6 @@ NAME: SymbolEditor
 APP_ID: org.kde.SymbolEditor.desktop
 Descr: A cross stitch symbol editor
 -----------------------------
-NAME: Choqok
-APP_ID: org.kde.choqok.desktop
-Descr: Micro-blogging client
------------------------------
 NAME: Kaffeine
 APP_ID: org.kde.kaffeine.desktop
 Descr: Multimedia Player

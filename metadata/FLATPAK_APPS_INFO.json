@@ -1590,11 +1590,6 @@
     "description": "Conservative source port"
   },
   {
-    "pkg": "Choqok",
-    "app_id": "org.kde.choqok.desktop",
-    "description": "Micro-blogging client"
-  },
-  {
     "pkg": "Chordcat",
     "app_id": "dev.ters.Chordcat",
     "description": "Chord naming app with midi support"
