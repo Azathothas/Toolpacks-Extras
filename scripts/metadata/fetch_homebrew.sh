@@ -60,7 +60,7 @@ func_formula(){
     done
     jq -s '.' "${TMPDIR}/BREW_FORMULA.json.rank" > "${TMPDIR}/BREW_FORMULA.json.tmp"
    #Copy
-   if [[ "$( jq -r '.[] | .pkg' "${TMPDIR}/BREW_FORMULA.json.tmp" | wc -l)" -gt 7000 ]]; then
+   if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/BREW_FORMULA.json.tmp" | wc -l)" -gt 7000 ]]; then
       cp -fv "${TMPDIR}/BREW_FORMULA.json.tmp" "${SYSTMP}/BREW_FORMULA.json"
    else
      echo -e "\n[-] FATAL: Failed to Generate Ranked Formulae\n"   
@@ -107,7 +107,7 @@ func_casks(){
     done
     jq -s '.' "${TMPDIR}/BREW_CASK.json.rank" > "${TMPDIR}/BREW_CASK.json.tmp"
    #Copy
-   if [[ "$( jq -r '.[] | .pkg' "${TMPDIR}/BREW_CASK.json.tmp" | wc -l)" -gt 7000 ]]; then
+   if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/BREW_CASK.json.tmp" | wc -l)" -gt 7000 ]]; then
       cp -fv "${TMPDIR}/BREW_CASK.json.tmp" "${SYSTMP}/BREW_CASK.json"
    else
      echo -e "\n[-] FATAL: Failed to Generate Ranked Casks\n"   

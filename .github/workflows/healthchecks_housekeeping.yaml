@@ -232,6 +232,11 @@ jobs:
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh" &
+          #Generate PkgSrc Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_pkgsrc.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh" &
           #Sanity Check & Update
           wait
           if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
@@ -260,6 +265,9 @@ jobs:
           fi
           if [[ -s "${SYSTMP}/FLATPAK_TRENDING.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_TRENDING.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/FLATPAK_TRENDING.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json"
+          fi
+          if [[ -s "${SYSTMP}/PKGSRC.json" ]] && [[ $(stat -c%s "${SYSTMP}/PKGSRC.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/PKGSRC.json" "${GITHUB_WORKSPACE}/main/metadata/PKGSRC.json"
           fi
         continue-on-error: true
 
