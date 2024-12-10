@@ -5320,11 +5320,6 @@
     "description": "Multimedia Player"
   },
   {
-    "pkg": "Kaidan",
-    "app_id": "im.kaidan.kaidan",
-    "description": "User-friendly and modern chat app for every device"
-  },
-  {
     "pkg": "Kalba",
     "app_id": "com.kalbareader.Kalba",
     "description": "Seamlessly integrate media consumption, getting definitions, and adding flashcards for language learning"

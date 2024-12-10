@@ -3826,10 +3826,6 @@ NAME: Gitter
 APP_ID: im.gitter.Gitter.desktop
 Descr: Communication product for communities and teams on GitHub.
 -----------------------------
-NAME: Kaidan
-APP_ID: im.kaidan.kaidan
-Descr: User-friendly and modern chat app for every device
------------------------------
 NAME: nheko
 APP_ID: im.nheko.Nheko
 Descr: Desktop client for the Matrix protocol
