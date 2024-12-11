@@ -41,6 +41,7 @@ jobs:
     needs: check_build_status
     if: needs.check_build_status.outputs.should_run == 'true'  
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     permissions:
       contents: write
       
@@ -215,68 +216,6 @@ jobs:
            curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/SHA256SUM.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/SHA256SUM.json"
            curl -qfsSL "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/x86_64-Linux/SIZE.json" -o "${GITHUB_WORKSPACE}/main/x86_64-Linux/SIZE.json"
           popd >/dev/null 2>&1
-        continue-on-error: true
-
-      - name: Generate Third Party Metadata
-        run: |
-          #Presets
-          set +x ; set +e
-          #--------------#
-          #Generate Flatpak Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_flatpak.sh")
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
-          #Generate Alpine Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine.sh")
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh" &
-          #Generate HomeBrew Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh" &
-          #Generate PkgSrc Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_pkgsrc.sh")
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh" &
-          #Sanity Check & Update
-          wait
-          if [[ -s "${SYSTMP}/ALPINE.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/ALPINE.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json"
-          fi
-          if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/BREW_FORMULA.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json"
-          fi
-          if [[ -s "${SYSTMP}/BREW_CASK.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_CASK.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/BREW_CASK.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_APPSTREAM.xml" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPSTREAM.xml") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_APPSTREAM.xml" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPSTREAM.xml"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.json"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_APP_IDS.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APP_IDS.txt") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_APP_IDS.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APP_IDS.txt"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_POPULAR.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_POPULAR.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_POPULAR.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json"
-          fi
-          if [[ -s "${SYSTMP}/FLATPAK_TRENDING.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_TRENDING.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/FLATPAK_TRENDING.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json"
-          fi
-          if [[ -s "${SYSTMP}/PKGSRC.json" ]] && [[ $(stat -c%s "${SYSTMP}/PKGSRC.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/PKGSRC.json" "${GITHUB_WORKSPACE}/main/metadata/PKGSRC.json"
-          fi
         continue-on-error: true
 
       - name: Sync Metadata (ROOT)

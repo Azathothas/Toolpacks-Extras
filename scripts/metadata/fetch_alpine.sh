@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ## <DO NOT RUN STANDALONE, meant for CI Only>
-## Meant to Fetch FlatPak data
+## Meant to Fetch Alpine data
 ## Files:
 #   "${SYSTMP}/ALPINE.json"
 ## Requires: https://github.com/Azathothas/Arsenal/blob/main/misc/Linux/install_dev_tools.sh

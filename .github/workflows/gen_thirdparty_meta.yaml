@@ -1,0 +1,181 @@
+name: ♻️ Generate ThirdParty Metadat ♻️
+
+on:
+  workflow_dispatch:
+  schedule:
+   - cron: "0 3 * * *"  #UTC 03:00 AM --> 08:45 AM NPT @everyday
+env:
+  RCLONE_CF_R2_PUB: "${{ secrets.RCLONE_CF_R2_PUB }}"   
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none"
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
+        continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
+          #GH Dirs
+          mkdir -pv "${GITHUB_WORKSPACE}/main/aarch64-Linux"
+          mkdir -pv "${GITHUB_WORKSPACE}/main/x86_64-Linux"
+          mkdir -pv "${GITHUB_WORKSPACE}/main/metadata"
+          #Setup Flatpak
+          sudo apt update -y -qq
+          sudo apt install flatpak -y
+          sudo usermod -aG "_flatpak" "runner"
+          #-------------#
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
+          echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - name: Generate Alpine & Brew
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Generate Alpine Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh" &
+          #Generate HomeBrew Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh" &
+          wait ; echo
+        continue-on-error: true
+
+      - name: Generate Debian
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Generate Debian Data
+          ##bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_debian.sh")
+          #dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_debian.sh"
+          #chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_debian.sh"
+          #bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_debian.sh"
+          #Docker
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           docker run --privileged --name "debian" -v "${GITHUB_WORKSPACE}:/workspace" "debian:latest" bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_debian.sh" && "/workspace/main/scripts/metadata/fetch_debian.sh"'
+           docker cp "debian:/tmp/DEBIAN.json" "$(pwd)/DEBIAN.json"
+           cp -fv "./DEBIAN.json" "${SYSTMP}/DEBIAN.json"
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
+      - name: Generate FlatPak & PkgSrc
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Generate Flatpak Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_flatpak.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
+          #Generate PkgSrc Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_pkgsrc.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh" &
+          wait ; echo
+        continue-on-error: true
+
+      - name: Copy (Repo)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          if [[ -s "${SYSTMP}/ALPINE.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/ALPINE.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json"
+          fi
+          if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/BREW_FORMULA.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json"
+          fi
+          if [[ -s "${SYSTMP}/BREW_CASK.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_CASK.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/BREW_CASK.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json"
+          fi
+          if [[ -s "${SYSTMP}/DEBIAN.json" ]] && [[ $(stat -c%s "${SYSTMP}/DEBIAN.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/DEBIAN.json" "${GITHUB_WORKSPACE}/main/metadata/DEBIAN.json"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPSTREAM.xml" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPSTREAM.xml") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPSTREAM.xml" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPSTREAM.xml"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APPS_INFO.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APPS_INFO.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APPS_INFO.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APPS_INFO.json"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_APP_IDS.txt" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_APP_IDS.txt") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_APP_IDS.txt" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_APP_IDS.txt"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_POPULAR.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_POPULAR.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_POPULAR.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_POPULAR.json"
+          fi
+          if [[ -s "${SYSTMP}/FLATPAK_TRENDING.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_TRENDING.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/FLATPAK_TRENDING.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json"
+          fi
+          if [[ -s "${SYSTMP}/PKGSRC.json" ]] && [[ $(stat -c%s "${SYSTMP}/PKGSRC.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/PKGSRC.json" "${GITHUB_WORKSPACE}/main/metadata/PKGSRC.json"
+          fi
+        continue-on-error: true
+
+      - name: Get DateTime & Purge files (=> 95 MB)
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          UTC_TIME="$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')"
+          echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
+          #Sync
+          cd "${GITHUB_WORKSPACE}/main"
+          git pull origin main --no-edit 2>/dev/null
+          #Purge
+          find "${GITHUB_WORKSPACE}/main" -path "${GITHUB_WORKSPACE}/main/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
+        continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "✅ Updated (ThirdParty Metadata) 🛍️"
+          #push_options: '--force'
+        continue-on-error: true
+
+      - name: Upload (R2)
+        run: |
+          # Presets
+          set +x ; set +e
+          #--------------#
+          #touch "${HOME}/.rclone.conf"
+          echo "${{ secrets.RCLONE_CF_R2_PUB }}" > "${HOME}/.rclone.conf"
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/upload_to_r2.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/upload_to_r2.sh"
+        continue-on-error: true
