@@ -11,12 +11,12 @@
 | actionlint | octocat  Static checker for GitHub Actions workflow files | https://github.com/rhysd/actionlint | https://bin.pkgforge.dev/aarch64/actionlint | a1b1d7844c23 |
 | add_shell | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/add_shell | a54eacb9c09b |
 | addgroup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/addgroup | 7c3e6469207d |
-| addpart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/addpart | 75d5d1d34fcf |
+| addpart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/addpart | 30d5577cfdd0 |
 | adduser | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/adduser | 4c56d0810c9f |
 | adjtimex | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/adjtimex | 4e89a3bcd577 |
 | age | A simple, modern and secure encryption tool | https://github.com/FiloSottile/age | https://bin.pkgforge.dev/aarch64/age | 3b8129b632bf |
 | age-keygen | A simple, modern and secure encryption tool | https://github.com/FiloSottile/age | https://bin.pkgforge.dev/aarch64/age-keygen | 0c2c15db29e0 |
-| agetty | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/agetty | bb364a00207f |
+| agetty | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/agetty | 9fb8c5feff21 |
 | agg | asciinema gif generator | https://github.com/asciinema/agg | https://bin.pkgforge.dev/aarch64/agg | 762f26573ea7 |
 | agg-speed | Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links. | https://github.com/surban/aggligator | https://bin.pkgforge.dev/aarch64/agg-speed | 9b33135cadb1 |
 | agg-tunnel | Aggregates multiple links (TCP, Bluetooth, USB or similar) into one connection having their combined bandwidth and provides resiliency against failure of individual links. | https://github.com/surban/aggligator | https://bin.pkgforge.dev/aarch64/agg-tunnel | 5dcc76f99256 |
@@ -132,13 +132,13 @@
 | bita | Differential file synchronization over http | https://github.com/oll3/bita | https://bin.pkgforge.dev/aarch64/bita | fd87d588f273 |
 | bleve | A modern text indexing library for go | https://github.com/blevesearch/bleve | https://bin.pkgforge.dev/aarch64/bleve | 378924a1b288 |
 | blkdiscard | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/blkdiscard | a44e13c9dbc9 |
-| blkdiscard | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkdiscard | a5fc6574a908 |
+| blkdiscard | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkdiscard | f85133742bdc |
 | blkid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/blkid | 865d760f5fac |
-| blkid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkid | 6298d3ef9a49 |
-| blkpr | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkpr | 0533868ae26d |
-| blkzone | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkzone | 1395bc42ec1f |
+| blkid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkid | 39b90a6eecb8 |
+| blkpr | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkpr | fe09b9e988a4 |
+| blkzone | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blkzone | 06774d1544af |
 | blockdev | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/blockdev | e744e99ac6f1 |
-| blockdev | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blockdev | 3746cb741e00 |
+| blockdev | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/blockdev | 894c351a9b5d |
 | blueprint-flatimage.no_strip | A hybrid of Flatpak sandboxing with AppImage portability | https://github.com/ruanformigoni/flatimage | https://bin.pkgforge.dev/aarch64/blueprint-flatimage.no_strip | 31d118d766ee |
 | bluetuith | A TUI bluetooth manager for Linux. | https://github.com/darkhz/bluetuith | https://bin.pkgforge.dev/aarch64/bluetuith | 592bd43be712 |
 | boltconn | Transparent and flexible L4/L7 networking manager, supporting WireGuard, firewall and scripted MitM | https://github.com/XOR-op/BoltConn | https://bin.pkgforge.dev/aarch64/boltconn | 171082a4350b |
@@ -185,7 +185,7 @@
 | caido-cli | A lightweight web security auditing toolkit | https://github.com/caido/caido | https://bin.pkgforge.dev/aarch64/caido-cli | c49323bd2427 |
 | cal | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cal | 1a0bd9bf0b48 |
 | cal | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/cal | dd431906a963 |
-| cal | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/cal | f8d5908f3125 |
+| cal | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/cal | 6c6ace4819a0 |
 | calendar | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/calendar | 8beb2780acca |
 | cap2hccapx | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/cap2hccapx | 8be3cf7e1b33 |
 | cargo-unlock | Remove Cargo.lock lockfile | https://github.com/dtolnay/cargo-unlock | https://bin.pkgforge.dev/aarch64/cargo-unlock | 903c3c313677 |
@@ -206,7 +206,7 @@
 | certstream-server-go | drop-in replacement for Calidogs outdated server | https://github.com/d-Rickyy-b/certstream-server-go | https://bin.pkgforge.dev/aarch64/certstream-server-go | 7c8258958c46 |
 | certwatcher | CertWatcher is a tool for capture and tracking certificate transparency logs, using YAML templates based DSL. | https://github.com/drfabiocastro/certwatcher | https://bin.pkgforge.dev/aarch64/certwatcher | f562ced3d694 |
 | cexec | Execute any command, cache its output and get cached output on subsequent execution | https://github.com/mrusme/cexec | https://bin.pkgforge.dev/aarch64/cexec | 037fd732206c |
-| cfdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/cfdisk | 2913cc22e06b |
+| cfdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/cfdisk | 027f527769f0 |
 | cfspeed | GO CLI-based implementation of speed.cloudflare.com | https://github.com/makotom/cfspeed | https://bin.pkgforge.dev/aarch64/cfspeed | 57609d63c3df |
 | cfspeedtest | Unofficial CLI for speed.cloudflare.com | https://github.com/code-inflation/cfspeedtest | https://bin.pkgforge.dev/aarch64/cfspeedtest | 9062f36c5016 |
 | cfssl | Cloudflares PKI and TLS toolkit | https://github.com/cloudflare/cfssl | https://bin.pkgforge.dev/aarch64/cfssl | 4e8f3734f821 |
@@ -223,23 +223,23 @@
 | chattr | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/chattr | 2411148acce3 |
 | chcon | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chcon | 8ff162ad7d20 |
 | chcon | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chcon | ca434917183b |
-| chcpu | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chcpu | 1cfaa5a6e2d1 |
+| chcpu | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chcpu | 01bcc04bc5a7 |
 | cheat | create and view interactive cheatsheets on the command-line | https://github.com/cheat/cheat | https://bin.pkgforge.dev/aarch64/cheat | 7330ec3351dd |
 | checkbypass | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/checkbypass | 64ec3141cdd7 |
 | checkfs | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/checkfs | 117fd75ce265 |
 | cherrybomb | Validating and Testing APIs using an OpenAPI file | https://github.com/blst-security/cherrybomb | https://bin.pkgforge.dev/aarch64/cherrybomb | 88ce83bfa7e3 |
-| chfn | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chfn | 69bcedbad5a0 |
+| chfn | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chfn | c17d72e20569 |
 | chgrp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chgrp | 076632e88d63 |
 | chgrp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chgrp | 04bbe34ebf07 |
 | chgrp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chgrp | d07f57589af5 |
 | chgrp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chgrp | 2c84e5e932c5 |
 | chisel | A fast TCP/UDP tunnel over HTTP | https://github.com/jpillora/chisel | https://bin.pkgforge.dev/aarch64/chisel | df2a7b7be522 |
-| chmem | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chmem | a19c900ca934 |
+| chmem | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chmem | 7115b26bda49 |
 | chmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chmod | f4999be4e637 |
 | chmod | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chmod | ccf8fe928e58 |
 | chmod | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chmod | 1e9e8e3d4ea9 |
 | chmod | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chmod | 15c94e6417a1 |
-| choom | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/choom | 86b06f3a75ca |
+| choom | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/choom | 4d0b3a1a1cf1 |
 | chown | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chown | 6ff072741da6 |
 | chown | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chown | a1c052cfb8d8 |
 | chown | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chown | 7edf53bfd6b6 |
@@ -254,11 +254,11 @@
 | chroot | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chroot | 460898d31e35 |
 | chroot | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chroot | e50c86de9798 |
 | chrt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chrt | 788c8d049360 |
-| chrt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chrt | f195b45047aa |
-| chsh | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chsh | 718c7532f5a0 |
+| chrt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chrt | 2b9a1103d540 |
+| chsh | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chsh | b5966454dcc9 |
 | chvt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chvt | 3c6953d8e56e |
 | cidr | CLI to perform various actions on CIDR ranges | https://github.com/bschaatsbergen/cidr | https://bin.pkgforge.dev/aarch64/cidr | a7659025a4bc |
-| cifsiostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/cifsiostat | 8c0540a16367 |
+| cifsiostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/cifsiostat | 0652e6551f1d |
 | ciopfs | A fuse file system that mounts a directory on a regular file system in case insensitive fashion | https://github.com/martanne/ciopfs | https://bin.pkgforge.dev/aarch64/ciopfs | 11ac27998163 |
 | circumflex | 🌿 Its Hacker News in your terminal | https://github.com/bensadeh/circumflex | https://bin.pkgforge.dev/aarch64/circumflex | ced31862b61f |
 | cksum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cksum | acd6d738629c |
@@ -288,10 +288,10 @@
 | cntb | Contabo Command Line Interface | https://github.com/contabo/cntb | https://bin.pkgforge.dev/aarch64/cntb | 568d02893607 |
 | cobalt-cli | Command-line interface wrapper for https://cobalt.tools | https://github.com/lostdusty/cobalt | https://bin.pkgforge.dev/aarch64/cobalt-cli | 3c0ace4ddc13 |
 | cog | The Conventional Commits toolbox | https://github.com/cocogitto/cocogitto | https://bin.pkgforge.dev/aarch64/cog | e912bef014b8 |
-| col | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/col | ced2a0e1cf4a |
-| colcrt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/colcrt | c479d4dec8f8 |
-| colrm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/colrm | 32692f54c9c9 |
-| column | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/column | afa30fc2b0c8 |
+| col | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/col | e6b8b8de98ea |
+| colcrt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/colcrt | 32a587f6ff11 |
+| colrm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/colrm | 4ebfb4e412f5 |
+| column | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/column | 453cb02700be |
 | comb | Combine the lines from two files in every combination. | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/aarch64/comb | 573203f1ffef |
 | combinator | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/combinator | 36dd3eb3cb3c |
 | combinator3 | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/combinator3 | dffa67218d72 |
@@ -344,7 +344,7 @@
 | ct_monitor | Certificate Transparency log monitor | https://github.com/crtsh/ct_monitor | https://bin.pkgforge.dev/aarch64/ct_monitor | 68f9a3d77861 |
 | ctlwatcher | Monitor Certificate Transparency logs for domains matching regexes. | https://github.com/Azathothas/ctlwatcher | https://bin.pkgforge.dev/aarch64/ctlwatcher | 1a26310bca3e |
 | ctr | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/aarch64/ctr | 03ba678bab0f |
-| ctrlaltdel | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ctrlaltdel | a49f1a2ea492 |
+| ctrlaltdel | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ctrlaltdel | d18b2f597006 |
 | ctrsploit | A Penetration Toolkit for Container Environments | https://github.com/ctrsploit/ctrsploit | https://bin.pkgforge.dev/aarch64/ctrsploit | 8c4c6ea9a16e |
 | ctrsploit-checksec | A Penetration Toolkit for Container Environments | https://github.com/ctrsploit/ctrsploit | https://bin.pkgforge.dev/aarch64/ctrsploit-checksec | 01565cb0d82e |
 | ctrsploit-env | A Penetration Toolkit for Container Environments | https://github.com/ctrsploit/ctrsploit | https://bin.pkgforge.dev/aarch64/ctrsploit-env | 44888fb4bb0a |
@@ -361,7 +361,7 @@
 | cutb | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/cutb | 937d44a59a30 |
 | cutlines | Cut & Paste Lines (from|to) file without $TEMPFILE even if another process is writing to it | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/aarch64/cutlines | 7b47fd629227 |
 | cvemap | Navigate the CVE jungle with ease. | https://github.com/projectdiscovery/cvemap | https://bin.pkgforge.dev/aarch64/cvemap | 3775bf9309ac |
-| cvtsudoers | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/cvtsudoers | 80e29933a500 |
+| cvtsudoers | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/cvtsudoers | 942d9cd137d2 |
 | cwe_checker | cwe_checker finds vulnerable patterns in binary executables | https://github.com/fkie-cad/cwe_checker | https://bin.pkgforge.dev/aarch64/cwe_checker | cf0f895c4b52 |
 | czkawka-cli | Multi functional app to find duplicates, empty folders, similar images etc. | https://github.com/qarmin/czkawka | https://bin.pkgforge.dev/aarch64/czkawka-cli | 8e94014cf229 |
 | czkawka_cli | Multi functional app to find duplicates, empty folders, similar images etc. | https://github.com/qarmin/czkawka | https://bin.pkgforge.dev/aarch64/czkawka_cli | 8e94014cf229 |
@@ -417,7 +417,7 @@
 | decpu | cpu command in Go, inspired by the Plan 9 cpu command | https://github.com/u-root/cpu | https://bin.pkgforge.dev/aarch64/decpu | 78ec7ca50c5d |
 | decpud | cpu command in Go, inspired by the Plan 9 cpu command | https://github.com/u-root/cpu | https://bin.pkgforge.dev/aarch64/decpud | 71a784acfbea |
 | delgroup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/delgroup | 97cbfd91b648 |
-| delpart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/delpart | da0fd551268a |
+| delpart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/delpart | 8b783add4332 |
 | delta | A syntax-highlighting pager for git, diff, and grep output | https://github.com/dandavison/delta | https://bin.pkgforge.dev/aarch64/delta | 3b475131534f |
 | deluser | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/deluser | b4da70366d96 |
 | deoptimizer | Machine code de-optimizer to bypass AV | https://github.com/EgeBalci/deoptimizer | https://bin.pkgforge.dev/aarch64/deoptimizer | 5ba4929f9c6c |
@@ -457,7 +457,7 @@
 | dizi | Server-client music player written in Rust | https://github.com/kamiyaa/dizi | https://bin.pkgforge.dev/aarch64/dizi | 1a155e332b87 |
 | dizi-server | Server-client music player written in Rust | https://github.com/kamiyaa/dizi | https://bin.pkgforge.dev/aarch64/dizi-server | fa9914fe3d0a |
 | dmesg | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dmesg | ff0ce8cedb14 |
-| dmesg | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/dmesg | c879baeb9b2e |
+| dmesg | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/dmesg | c58958e195af |
 | dns-doctor | Runs dig +trace and dig +norecurse , parses the output, and tries to diagnose some problems | https://github.com/jvns/dns-doctor | https://bin.pkgforge.dev/aarch64/dns-doctor | 285a7f234094 |
 | dnsd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dnsd | c0ce9ce7698d |
 | dnsdomainname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dnsdomainname | f1c004220819 |
@@ -546,7 +546,7 @@
 | ehole | vulnerability detection & exploitation | https://github.com/lemonlove7/EHole_magic | https://bin.pkgforge.dev/aarch64/ehole | 8b8e0c8428e2 |
 | ein | An idiomatic, lean, fast & safe pure Rust implementation of Git | https://github.com/Byron/gitoxide | https://bin.pkgforge.dev/aarch64/ein | 696048debf5e |
 | eject | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/eject | cc280e4a381b |
-| eject | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/eject | ee7e4dda8fcd |
+| eject | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/eject | dd513e624b5b |
 | elfcat | ELF visualizer. Generates HTML files from ELF binaries. | https://github.com/ruslashev/elfcat | https://bin.pkgforge.dev/aarch64/elfcat | b64f3886f19f |
 | elvish | Elvish = Expressive Programming Language + Versatile Interactive Shell | https://github.com/elves/elvish | https://bin.pkgforge.dev/aarch64/elvish | 530a3457fd2e |
 | enc | 🔑🔒 A modern and friendly CLI alternative to GnuPG | https://github.com/life4/enc | https://bin.pkgforge.dev/aarch64/enc | 8daa22972e2d |
@@ -573,7 +573,7 @@
 | etcdutl | Distributed reliable key-value store for the most critical data of a distributed system | https://github.com/etcd-io/etcd | https://bin.pkgforge.dev/aarch64/etcdutl | 2ef557556653 |
 | ether_wake | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ether_wake | b96607a88325 |
 | eweos.no_strip | An musl-based, lightweight, general-purpose Linux distribution with a rolling-release model (DockerC) | https://github.com/orgs/eweOS | https://bin.pkgforge.dev/aarch64/eweos.no_strip | 50bad625a53a |
-| ex | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/ex | dfa5c0748057 |
+| ex | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/ex | b85b85a867a4 |
 | exatorrent | 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player | https://github.com/varbhat/exatorrent | https://bin.pkgforge.dev/aarch64/exatorrent | cce82bd03699 |
 | exatorrent-noui | 🧲 Self-Hostable easy to use Torrent Client which allows direct stream  in Browser/Media Player | https://github.com/varbhat/exatorrent | https://bin.pkgforge.dev/aarch64/exatorrent-noui | 2fe25f3b16a3 |
 | exfat2img | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/exfat2img | 01b4e0ac9e72 |
@@ -599,12 +599,12 @@
 | factor | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/factor | 631ca3b4cea6 |
 | factor | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/factor | cc804f73f685 |
 | factor | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/factor | 313a1cd64098 |
-| fadvise | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fadvise | 6f93235c6ff1 |
+| fadvise | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fadvise | 5b7ae9b19f9e |
 | fakeidentd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fakeidentd | 35b4b50cd2cd |
 | falconhound | FalconHound is a blue team multi-tool | https://github.com/FalconForceTeam/FalconHound | https://bin.pkgforge.dev/aarch64/falconhound | 6408d9c9b1a6 |
 | falkon.dwfs.appbundle | A KDE web browser with the QtWebEngine Rendering Engine | https://invent.kde.org/network/falkon | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/falkon.dwfs.appbundle | 24.08.2 |
 | fallocate | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fallocate | 3c96bd597749 |
-| fallocate | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fallocate | e289e9854c56 |
+| fallocate | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fallocate | eadfa6a75134 |
 | false | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/false | b8ce2ab6199b |
 | false | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/false | 7a655b7546df |
 | false | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/false | ad530d53c702 |
@@ -624,7 +624,7 @@
 | fdflush | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fdflush | 025c3b44476a |
 | fdformat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fdformat | 5e3cad914114 |
 | fdisk | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fdisk | 3e2ca439e4bf |
-| fdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fdisk | f7cf75f65451 |
+| fdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fdisk | 49f5d2caa254 |
 | fdupes | FDUPES is a program for identifying or deleting duplicate files residing within specified directories. | https://github.com/adrianlopezroche/fdupes | https://bin.pkgforge.dev/aarch64/fdupes | 5c04faa9f09c |
 | fectest | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/fectest | 7f5aa35c33b2 |
 | fedora.no_strip | Portable Ephemeral Fedora Linux Docker Image (DockerC) | https://github.com/docker-library/repo-info/tree/master/repos/fedora | https://bin.pkgforge.dev/aarch64/fedora.no_strip | c44011f5cfc6 |
@@ -645,14 +645,14 @@
 | filefrag | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/filefrag | e31d8b33f2db |
 | filljffs2.sh | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/filljffs2.sh | 58515309fe83 |
 | fin | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/fin | null |
-| fincore | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fincore | 0522c7a66b74 |
+| fincore | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fincore | cb2ea657ba3c |
 | find | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/find | 852291cef4f6 |
 | find | GNU Find Utilities, the basic directory searching utilities of the GNU operating system | https://savannah.gnu.org/git/?group=findutils | https://bin.pkgforge.dev/aarch64/Baseutils/findutils/find | 1522262359a0 |
 | find-rs | Rust implementation of findutils | https://github.com/uutils/findutils | https://bin.pkgforge.dev/aarch64/find-rs | e63c127ee466 |
 | findfs | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/findfs | 2bcac17d4961 |
-| findfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/findfs | d5f0f74ce571 |
+| findfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/findfs | 784327de8dc3 |
 | findlargedir | quickly find all blackhole directories with a huge amount of filesystem entries in a flat structure | https://github.com/dkorunic/findlargedir | https://bin.pkgforge.dev/aarch64/findlargedir | 32cc6663fa56 |
-| findmnt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/findmnt | 4a35f11d2b65 |
+| findmnt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/findmnt | 41a2c6931720 |
 | findomain | Subdomains Finder | https://github.com/Findomain/Findomain | https://bin.pkgforge.dev/aarch64/findomain | 68100c8fcbc6 |
 | fingerprintx | Standalone utility for service discovery on open ports! | https://github.com/praetorian-inc/fingerprintx | https://bin.pkgforge.dev/aarch64/fingerprintx | 76e8c04cf521 |
 | fio | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/fio | 1db9e1720920 |
@@ -682,7 +682,7 @@
 | flawz | A Terminal UI for browsing security vulnerabilities (CVEs) | https://github.com/orhun/flawz | https://bin.pkgforge.dev/aarch64/flawz | 1b98d2428e5c |
 | fldd | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fldd | cac358c6bf74 |
 | flock | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/flock | a80938ac4242 |
-| flock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/flock | e4f72c690943 |
+| flock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/flock | 13b8a34669eb |
 | fmt | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/fmt | 8fca8616cfc7 |
 | fmt | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/fmt | 3e3ca75711d5 |
 | fmt | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/fmt | 77d15bef8d1b |
@@ -714,24 +714,24 @@
 | fs_stress01.sh | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/fs_stress01.sh | cddd0c50969b |
 | fscan | A comprehensive intranet scanning tool that facilitates one-click automated, all-round missed scanning. | https://github.com/shadow1ng/fscan | https://bin.pkgforge.dev/aarch64/fscan | 81a661078254 |
 | fsck | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck | 0e32df885e07 |
-| fsck | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck | 79890f6c4850 |
+| fsck | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck | c7f10504b46c |
 | fsck.btrfs | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/fsck.btrfs | d2c1184c47ad |
-| fsck.cramfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.cramfs | 4b46a6c3cb17 |
+| fsck.cramfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.cramfs | 39413aab3533 |
 | fsck.exfat | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/fsck.exfat | c3bdde3453ad |
 | fsck.exfat | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/fsck.exfat | 4d33a150a25b |
 | fsck.ext2 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext2 | 3613af512d32 |
 | fsck.ext3 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext3 | 3613af512d32 |
 | fsck.ext4 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext4 | 3613af512d32 |
-| fsck.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.minix | 0c7dd26c6095 |
+| fsck.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.minix | 08c9155fde3e |
 | fsck_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck_minix | 8a25d9950d79 |
 | fsec-optimize | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-optimize | 5272f8e57c34 |
 | fsec-print | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-print | aca4f5f60d00 |
 | fseccomp | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fseccomp | 64c3c529f2e1 |
 | fsfreeze | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsfreeze | 562e2da7e714 |
-| fsfreeze | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsfreeze | 8ac85277249a |
+| fsfreeze | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsfreeze | 522be712d0dc |
 | fstest_monitor | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/fstest_monitor | 593cbff929cf |
 | fstrim | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fstrim | bbfa05b985ff |
-| fstrim | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fstrim | fd862d4f7229 |
+| fstrim | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fstrim | d26993a2c9aa |
 | fsync | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsync | b2b3f180dad0 |
 | ftee | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/ftee | bd78b6e32d10 |
 | ftl_check | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/ftl_check | 7401af2f18e8 |
@@ -782,7 +782,7 @@
 | getlimits | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/getlimits | null |
 | getlimits | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/getlimits | null |
 | getopt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/getopt | cbc17c6cc12b |
-| getopt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/getopt | 858f80a89c5f |
+| getopt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/getopt | 523decfe34e8 |
 | gettext | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/gettext | d3767f32b9aa |
 | gettext.sh | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/gettext.sh | bcf710c153ca |
 | gettextize | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/gettextize | 99f69edb22b7 |
@@ -1059,7 +1059,7 @@
 | halt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/halt | cf2b14e33542 |
 | handlr | A better xdg-utils | https://github.com/Anomalocaridid/handlr-regex | https://bin.pkgforge.dev/aarch64/handlr | e7416f9850ba |
 | hardeningmeter_staticx | comprehensively assess the security hardening of binaries and systems. | https://github.com/OfriOuzan/HardeningMeter | https://bin.pkgforge.dev/aarch64/hardeningmeter_staticx | cdd86ade5036 |
-| hardlink | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hardlink | 764d19b5538a |
+| hardlink | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hardlink | 9172f18616dd |
 | hashsum | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/hashsum | cd66b6234769 |
 | hcloud | A command-line interface for Hetzner Cloud | https://github.com/hetznercloud/cli | https://bin.pkgforge.dev/aarch64/hcloud | 08676dccd375 |
 | hcstat2gen | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/hcstat2gen | a2e2b472cedc |
@@ -1083,7 +1083,7 @@
 | headtail | head and tail simultaneously | https://github.com/CleanCut/headtail | https://bin.pkgforge.dev/aarch64/headtail | f2af86c72187 |
 | hednsextractor | Raw html extractor from Hurricane Electric portal | https://github.com/HuntDownProject/HEDnsExtractor | https://bin.pkgforge.dev/aarch64/hednsextractor | 803d2b2e75f0 |
 | hexdump | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hexdump | 552162717c26 |
-| hexdump | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hexdump | 6372c433a10b |
+| hexdump | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hexdump | 709ad58b04aa |
 | hexedit | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hexedit | 610c62be7ed2 |
 | hexyl | A command-line hex viewer | https://github.com/sharkdp/hexyl | https://bin.pkgforge.dev/aarch64/hexyl | 2a1afb4d2a09 |
 | hf-cli | The official Python client for the Huggingface Hub | https://github.com/huggingface/huggingface_hub | https://bin.pkgforge.dev/aarch64/hf-cli | 5eea22cbae9a |
@@ -1118,7 +1118,7 @@
 | hush | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hush | 5fc7ad1b0854 |
 | hwatch | A modern alternative to the watch command, records the differences in execution results and can check this differences at after. | https://github.com/blacknon/hwatch | https://bin.pkgforge.dev/aarch64/hwatch | 85fb0028d662 |
 | hwclock | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hwclock | 9a8069ae747a |
-| hwclock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hwclock | 1016656bec0b |
+| hwclock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hwclock | 4953eabd07fc |
 | hx | 🔮 Futuristic take on hexdump, made in Rust. | https://github.com/sitkevij/hex | https://bin.pkgforge.dev/aarch64/hx | 283fd258862e |
 | hxaddid | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxaddid | 92f8edaa5768 |
 | hxcite | Utilities for manipulating HTML and XML files | https://www.w3.org/Tools/HTML-XML-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/html-xml-utils/hxcite | b919d49d214f |
@@ -1204,20 +1204,20 @@
 | io_update | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/io_update | 1faa35f4349e |
 | io_uring | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/io_uring | dd13237f64ce |
 | ionice | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ionice | 13d03c896146 |
-| ionice | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ionice | 3c84f8011241 |
+| ionice | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ionice | 14c1cda0008c |
 | iostat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/iostat | 0c92292f097e |
-| iostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/iostat | 94ff7d78132a |
+| iostat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/iostat | 2eaa5c9349de |
 | iotop | A top utility for IO | https://github.com/Tomas-M/iotop | https://bin.pkgforge.dev/aarch64/iotop | d39f572c9e5a |
 | iotop-c | A top utility for IO | https://github.com/Tomas-M/iotop | https://bin.pkgforge.dev/aarch64/iotop-c | d39f572c9e5a |
 | ip | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/ip | 6ca63b99b021 |
 | ip | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ip | dc64ca4d5192 |
 | ipaddr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ipaddr | d29f934bae38 |
 | ipcalc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ipcalc | 9d35b33a4733 |
-| ipcmk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcmk | 2b88d784e9e1 |
+| ipcmk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcmk | 63ab82d69c43 |
 | ipcrm | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ipcrm | 61a31787bd28 |
-| ipcrm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcrm | ee1721dce929 |
+| ipcrm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcrm | 560ec12fec50 |
 | ipcs | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ipcs | 5524135333e6 |
-| ipcs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcs | 86c71265eb78 |
+| ipcs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ipcs | 2b20d2ae07a5 |
 | iperf | A TCP, UDP, and SCTP network bandwidth measurement tool | https://github.com/esnet/iperf | https://bin.pkgforge.dev/aarch64/iperf | 06f360b5fdf9 |
 | iperf3 | A tool for network performance measurement and tuning | https://github.com/userdocs/iperf3-static | https://bin.pkgforge.dev/aarch64/iperf3 | 06f360b5fdf9 |
 | ipinfo | Official Command Line Interface for the IPinfo API | https://github.com/ipinfo/cli | https://bin.pkgforge.dev/aarch64/ipinfo | 6fd0aaf7dad2 |
@@ -1228,9 +1228,9 @@
 | iprule | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/iprule | 1cb446c9f93b |
 | ipt2socks | convert iptables/nftables transparent proxy traffic to socks5 | https://github.com/zfl9/ipt2socks | https://bin.pkgforge.dev/aarch64/ipt2socks | c57ede29ccfc |
 | iptunnel | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/iptunnel | c1037f361ee7 |
-| irqtop | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/irqtop | 5a9888e6ab00 |
+| irqtop | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/irqtop | 25856ec59559 |
 | isainfo | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/isainfo | null |
-| isosize | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/isosize | 552a46aa19d8 |
+| isosize | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/isosize | 310b838bfcd8 |
 | issue | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/issue | ade963496698 |
 | istioctl | Connect, secure, control, and observe services. | https://github.com/istio/istio | https://bin.pkgforge.dev/aarch64/istioctl | a5e4d149136d |
 | jaeles | The Swiss Army knife for automated Web Application Testing | https://github.com/jaeles-project/jaeles | https://bin.pkgforge.dev/aarch64/jaeles | 252b0ccf7ab3 |
@@ -1274,7 +1274,7 @@
 | kill | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/kill | ad0e7172cccb |
 | kill | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/kill | 50aa67f9f9cf |
 | kill | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/kill | 1b5913953dcc |
-| kill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/kill | 5670abe4f1cd |
+| kill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/kill | 2b5d13da7766 |
 | killall | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/killall | 13f9decf3a48 |
 | killall | A set of small useful utilities that use the proc filesystem | https://gitlab.com/psmisc/psmisc | https://bin.pkgforge.dev/aarch64/Baseutils/psmisc/killall | bc886d47ef5a |
 | killall5 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/killall5 | 2b8080810dab |
@@ -1292,11 +1292,11 @@
 | ladder | Selfhosted alternative to 12ft.io. and 1ft.io | https://github.com/everywall/ladder | https://bin.pkgforge.dev/aarch64/ladder | da998888862e |
 | lam | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/lam | b4cd75aabb14 |
 | last | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/last | 9a67c4b7e3d2 |
-| last | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/last | 27b8cab15c99 |
-| lastb | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lastb | 27b8cab15c99 |
+| last | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/last | 6fc3f907215d |
+| lastb | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lastb | 6fc3f907215d |
 | lazydocker | The lazier way to manage everything docker | https://github.com/jesseduffield/lazydocker | https://bin.pkgforge.dev/aarch64/lazydocker | c564c72abd70 |
 | lazygit | simple terminal UI for git commands | https://github.com/jesseduffield/lazygit | https://bin.pkgforge.dev/aarch64/lazygit | 1ecd16c8d7f9 |
-| ldattach | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ldattach | de470c706378 |
+| ldattach | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ldattach | d0b7737508ec |
 | lddtree | ELF utils that can check files for security relevant properties | https://anongit.gentoo.org/git/proj/pax-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/pax-utils/lddtree | 1fa41d0a8046 |
 | len | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/len | 18a42996a751 |
 | less | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/less | 0f498d18a5d3 |
@@ -1315,9 +1315,9 @@
 | link | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/link | 014ea7d5d8f1 |
 | linutil | Chris Titus Tech's Distro-agnostic Toolbox designed to simplify everyday Linux tasks | https://github.com/ChrisTitusTech/linutil | https://bin.pkgforge.dev/aarch64/linutil | 56b9c06756ac |
 | linux32 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/linux32 | 69a8a70f9ea2 |
-| linux32 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/linux32 | 2fe70c895ffd |
+| linux32 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/linux32 | a6b8bc486b02 |
 | linux64 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/linux64 | dee16a6aaebc |
-| linux64 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/linux64 | 2fe70c895ffd |
+| linux64 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/linux64 | a6b8bc486b02 |
 | linuxdeploy.no_strip | AppDir creation and maintenance tool. Featuring flexible plugin system | https://github.com/linuxdeploy/linuxdeploy | https://bin.pkgforge.dev/aarch64/linuxdeploy.no_strip | 89d853549de6 |
 | linuxrc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/linuxrc | a127b882d1f0 |
 | linuxwave | Generate music from the entropy of Linux 🐧🎵 | https://github.com/orhun/linuxwave | https://bin.pkgforge.dev/aarch64/linuxwave | a7016081bfd5 |
@@ -1340,9 +1340,9 @@
 | logcli | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/aarch64/logcli | e698809701b5 |
 | logdy | Web based real-time log viewer | https://github.com/logdyhq/logdy-core | https://bin.pkgforge.dev/aarch64/logdy | b1e53ad11768 |
 | logger | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/logger | 4fc81b633c7e |
-| logger | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/logger | 5214624c401a |
+| logger | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/logger | e715d9bd3ae4 |
 | login | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/login | 88abaf655b4a |
-| login | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/login | 577943002bd1 |
+| login | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/login | 0ec92ed41c97 |
 | logname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/logname | 46a595e8e38a |
 | logname | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/logname | 11fdd2f69114 |
 | logname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/logname | 0d1cc20ce47a |
@@ -1355,9 +1355,9 @@
 | loki | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/aarch64/loki | c796a9013460 |
 | loki-canary | Like Prometheus, but for logs. | https://github.com/grafana/loki | https://bin.pkgforge.dev/aarch64/loki-canary | 42f2d21d9484 |
 | loksh | Linux port of OpenBSDs ksh | https://github.com/dimkr/loksh | https://bin.pkgforge.dev/aarch64/loksh | e2b5d499586d |
-| look | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/look | 794238d23d88 |
+| look | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/look | 227f93dc68cb |
 | losetup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/losetup | 26f3953f97e1 |
-| losetup | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/losetup | 88f0674402cb |
+| losetup | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/losetup | 89c8d6485c4c |
 | lpd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lpd | 87ce38742ae7 |
 | lpq | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lpq | a4c0277b01ce |
 | lpr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lpr | 31b910fbd0e8 |
@@ -1368,20 +1368,20 @@
 | ls | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/ls | 618a908c19b9 |
 | lsattr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lsattr | 3b1f6266c2b4 |
 | lsattr | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/lsattr | 5341ab3c3931 |
-| lsblk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsblk | dbe5a054a261 |
-| lscpu | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lscpu | 57ebafd3f5fd |
+| lsblk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsblk | ba3aa2f64107 |
+| lscpu | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lscpu | 11eff9f28045 |
 | lsd | The next gen ls command | https://github.com/lsd-rs/lsd | https://bin.pkgforge.dev/aarch64/lsd | 217f43175174 |
-| lsfd | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsfd | 4b248db7b544 |
-| lsipc | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsipc | dd3a8d9da8d5 |
-| lsirq | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsirq | 4b4d90108efa |
+| lsfd | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsfd | 4f3dc99c0a9a |
+| lsipc | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsipc | 6356e44c896a |
+| lsirq | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsirq | cf94c447a26d |
 | lsix | Like ls, but for images. Shows thumbnails in terminal using sixel graphics. | https://github.com/hackerb9/lsix | https://bin.pkgforge.dev/aarch64/lsix | ae7056473309 |
-| lslocks | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lslocks | 825e8305af56 |
-| lslogins | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lslogins | 747abad12c7b |
-| lsmem | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsmem | d8c82307b8c4 |
+| lslocks | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lslocks | a9f45dc3907d |
+| lslogins | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lslogins | 70d94d5183a7 |
+| lsmem | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsmem | b956e42006ed |
 | lsmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lsmod | c9f206138ca3 |
 | lsmod | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/aarch64/Baseutils/kmod/lsmod | ec109bd93b24 |
 | lsmtd | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/lsmtd | a5045797da54 |
-| lsns | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsns | 199fe0de1274 |
+| lsns | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/lsns | 45178ba86bb3 |
 | lsof | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lsof | ec8aefabe645 |
 | lsof | A tool to list open files | https://github.com/lsof-org/lsof | https://bin.pkgforge.dev/aarch64/lsof | 097954b82100 |
 | lspci | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lspci | eab90a9bccf7 |
@@ -1390,7 +1390,7 @@
 | luet | 📦 🐳 0-dependency Container-based Package Manager | https://github.com/mudler/luet | https://bin.pkgforge.dev/aarch64/luet | 2b893ad664d1 |
 | lux | 👾 Fast and simple video download library and CLI tool written in Go | https://github.com/iawia002/lux | https://bin.pkgforge.dev/aarch64/lux | 83428784c8b3 |
 | lzcat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lzcat | 116a783d0fef |
-| lzcat | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzcat | bf2f42a6b29f |
+| lzcat | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzcat | 926c468dc1c1 |
 | lzcmp | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzcmp | 99e7ef3efb13 |
 | lzdiff | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzdiff | 99e7ef3efb13 |
 | lzegrep | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzegrep | c9b825ce417b |
@@ -1398,9 +1398,9 @@
 | lzgrep | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzgrep | c9b825ce417b |
 | lzless | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzless | 7a8dd332d2d7 |
 | lzma | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lzma | 9d24e1917470 |
-| lzma | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzma | bf2f42a6b29f |
+| lzma | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzma | 926c468dc1c1 |
 | lzmadec | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzmadec | 1bd96ec89c6f |
-| lzmainfo | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzmainfo | 0a506e10d6b7 |
+| lzmainfo | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzmainfo | e32b799d1bf3 |
 | lzmore | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/lzmore | 05d9d73db3a7 |
 | lzop | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lzop | a704a07dd2d7 |
 | mabel | A fancy BitTorrent client for the terminal. | https://github.com/smmr-software/mabel | https://bin.pkgforge.dev/aarch64/mabel | 143c69d9b15f |
@@ -1428,7 +1428,7 @@
 | mawk | Interpreter for the AWK Programming Language | https://github.com/ThomasDickey/mawk-snapshots | https://bin.pkgforge.dev/aarch64/mawk | 37b3d1e0009b |
 | mc | Drive performance measurement tool | https://github.com/minio/mc | https://bin.pkgforge.dev/aarch64/mc | dad34dddacea |
 | mcfly | Fly through your shell history. | https://github.com/cantino/mcfly | https://bin.pkgforge.dev/aarch64/mcfly | a1615bf00f08 |
-| mcookie | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mcookie | 35bf414a2491 |
+| mcookie | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mcookie | 6f72c12043e6 |
 | md5 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/md5 | 674078f73911 |
 | md5sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/md5sum | 05751ce36632 |
 | md5sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/md5sum | e4731e62326a |
@@ -1444,7 +1444,7 @@
 | memlock | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/memlock | eb6a3e8f7153 |
 | mergerfs | A featureful union filesystem | https://github.com/trapexit/mergerfs | https://bin.pkgforge.dev/aarch64/mergerfs | 92cd4c83e184 |
 | mesg | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mesg | 5ac63a9e436b |
-| mesg | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mesg | 116857d1a60e |
+| mesg | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mesg | 032a1ea5c203 |
 | mgwls | Combine words from two wordlist files and concatenate them with an optional delimiter | https://github.com/trickest/mgwls | https://bin.pkgforge.dev/aarch64/mgwls | f99d098ee7e6 |
 | micro | A modern and intuitive terminal-based text editor | https://github.com/zyedidia/micro | https://bin.pkgforge.dev/aarch64/micro | db6e3c4d84ec |
 | microcom | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/microcom | 8fb31f2c34d5 |
@@ -1478,17 +1478,17 @@
 | mkfifo | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mkfifo | 3add632ed44c |
 | mkfifo | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mkfifo | 49730231440f |
 | mkfifo | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/mkfifo | a86abdba12f2 |
-| mkfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs | 4e7f905ffb68 |
-| mkfs.bfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.bfs | ac7fd2b3af16 |
+| mkfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs | a67ca9becfcf |
+| mkfs.bfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.bfs | 05734f3a8783 |
 | mkfs.btrfs | Utilities for the btrfs filesystem | https://github.com/kdave/btrfs-progs | https://bin.pkgforge.dev/aarch64/Baseutils/btrfs-progs/mkfs.btrfs | 40ec907e3b75 |
-| mkfs.cramfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.cramfs | 9d39f6122df0 |
+| mkfs.cramfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.cramfs | 883431891df5 |
 | mkfs.exfat | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/mkfs.exfat | 460e58cbea3a |
 | mkfs.exfat | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/mkfs.exfat | 2149df88a8d6 |
 | mkfs.ext2 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/mkfs.ext2 | 9e20e9e8132a |
 | mkfs.ext3 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/mkfs.ext3 | 9e20e9e8132a |
 | mkfs.ext4 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/mkfs.ext4 | 9e20e9e8132a |
 | mkfs.jffs2 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/mkfs.jffs2 | a14bf109435c |
-| mkfs.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.minix | bb855b461681 |
+| mkfs.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.minix | 3d0b8f75d988 |
 | mkfs.ubifs | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/mkfs.ubifs | 4837417fd1f4 |
 | mkfs_ext2 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkfs_ext2 | 57265e534c19 |
 | mkfs_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkfs_minix | d417ede6b3a6 |
@@ -1501,7 +1501,7 @@
 | mksquashfs | Tool for creating and unpacking squashfs filesystems | https://github.com/plougher/squashfs-tools | https://bin.pkgforge.dev/aarch64/Baseutils/squashfstools/mksquashfs | c798895442a0 |
 | mksub | Generate tens of thousands of subdomain combinations in a matter of seconds | https://github.com/trickest/mksub | https://bin.pkgforge.dev/aarch64/mksub | 17c698178245 |
 | mkswap | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkswap | f8ca7ecd3e5b |
-| mkswap | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkswap | fdff57b3d744 |
+| mkswap | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkswap | 845190ef1ffa |
 | mktemp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mktemp | f1194056a113 |
 | mktemp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mktemp | 52b417ca4577 |
 | mktemp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mktemp | 96272c17e826 |
@@ -1522,12 +1522,12 @@
 | monolith | ⬛️ CLI tool for saving complete web pages as a single HTML file | https://github.com/Y2Z/monolith | https://bin.pkgforge.dev/aarch64/monolith | 220a52fe0484 |
 | more | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/more | 1c6e859e4f9e |
 | more | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/more | 7b8601d6c8b7 |
-| more | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/more | c50c4d088c96 |
+| more | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/more | 4edc9f70a8ff |
 | morph | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/morph | 97ffb0e4f517 |
 | mosh-client | the mobile shell | https://github.com/mobile-shell/mosh | https://bin.pkgforge.dev/aarch64/mosh-client | b2577a2d476c |
 | mosh-server | the mobile shell | https://github.com/mobile-shell/mosh | https://bin.pkgforge.dev/aarch64/mosh-server | 3388fb2a8cf3 |
 | mount | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mount | 5d945c4a9c27 |
-| mount | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mount | f699c75cf373 |
+| mount | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mount | f1f141981756 |
 | mount.exfat | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/mount.exfat | 8efb4e006491 |
 | mount.exfat-fuse | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/mount.exfat-fuse | 8efb4e006491 |
 | mount.fuse | The reference implementation of the Linux FUSE (Filesystem in Userspace) interface | https://github.com/libfuse/libfuse | https://bin.pkgforge.dev/aarch64/Baseutils/fuse/mount.fuse | 00601af7d660 |
@@ -1536,10 +1536,10 @@
 | mount.unionfs | Tools for union filesystem using fuse | https://github.com/rpodgorny/unionfs-fuse | https://bin.pkgforge.dev/aarch64/Baseutils/unionfs-fuse/mount.unionfs | null |
 | mount.unionfs | Tools for union filesystem using fuse3 | https://github.com/rpodgorny/unionfs-fuse | https://bin.pkgforge.dev/aarch64/Baseutils/unionfs-fuse3/mount.unionfs | null |
 | mountpoint | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mountpoint | e6a7ff4f66fb |
-| mountpoint | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mountpoint | a4f880de3946 |
+| mountpoint | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mountpoint | 2e6a2800dce1 |
 | mousepad.dwfs.appbundle | An easy-to-use, Fast & Simple Editor | https://gitlab.xfce.org/apps/mousepad | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/mousepad.dwfs.appbundle | 0.6.3 |
 | mpstat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mpstat | d56a8b43a2e7 |
-| mpstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/mpstat | a94e7546ce7d |
+| mpstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/mpstat | 1a8d5df4e256 |
 | mqttui | Subscribe to a MQTT Topic or publish something quickly from the terminal | https://github.com/EdJoPaTo/mqttui | https://bin.pkgforge.dev/aarch64/mqttui | f7846b17787e |
 | msgattrib | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/msgattrib | 6a6908a3173f |
 | msgcat | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/msgcat | fa864b0fce2b |
@@ -1571,7 +1571,7 @@
 | naabu | A fast port scanner written in go with a focus on reliability and simplicity | https://github.com/projectdiscovery/naabu | https://bin.pkgforge.dev/aarch64/naabu | 916f03880d8c |
 | naabu_staticx | A fast port scanner written in go with a focus on reliability and simplicity | https://github.com/projectdiscovery/naabu | https://bin.pkgforge.dev/aarch64/naabu_staticx | 4537846ea573 |
 | namegen | A unique(ish) random name and id generator | https://github.com/anandvarma/namegen | https://bin.pkgforge.dev/aarch64/namegen | 6503baedc03e |
-| namei | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/namei | 804dbf349ae9 |
+| namei | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/namei | d1e63d0269c5 |
 | nameif | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nameif | 58fe35e7e972 |
 | nameif | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/nameif | 4732676ffe4b |
 | nandbiterrs | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/nandbiterrs | 476d199038bc |
@@ -1642,7 +1642,7 @@
 | nohup | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/nohup | 1eee03968764 |
 | noir | ♠️ Noir is an attack surface detector that identifies endpoints by static analysis | https://github.com/hahwul/noir | https://bin.pkgforge.dev/aarch64/noir | e280609938a3 |
 | nologin | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nologin | 6c376ecbf939 |
-| nologin | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/nologin | a311a27083b1 |
+| nologin | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/nologin | 871733130f90 |
 | nomore403 | Tool to bypass 403/40X response codes. | https://github.com/devploit/nomore403 | https://bin.pkgforge.dev/aarch64/nomore403 | cdf072e34153 |
 | noroot-do | Wrapper around bwrap to do various things in chroots | https://github.com/xplshn/a-utils | https://bin.pkgforge.dev/aarch64/noroot-do | de240548bb96 |
 | noseyparker | command-line program that finds secrets and sensitive information in textual data and Git history. | https://github.com/praetorian-inc/noseyparker | https://bin.pkgforge.dev/aarch64/noseyparker | d5a945441869 |
@@ -1657,7 +1657,7 @@
 | nproc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/nproc | e6f827385e8e |
 | nrp | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/nrp | ed5f96080fa1 |
 | nsenter | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nsenter | 56cdfdb1cdeb |
-| nsenter | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/nsenter | 216d846ce95d |
+| nsenter | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/nsenter | 3db38b736db7 |
 | nslookup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nslookup | 3b9819751abc |
 | nstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/nstat | 7b78e4477c96 |
 | ntpd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ntpd | 0fd108991093 |
@@ -1703,7 +1703,7 @@
 | p9cpu | cpu command in Go, inspired by the Plan 9 cpu command | https://github.com/u-root/cpu | https://bin.pkgforge.dev/aarch64/p9cpu | 6ac9c01e8547 |
 | p9cpud | cpu command in Go, inspired by the Plan 9 cpu command | https://github.com/u-root/cpu | https://bin.pkgforge.dev/aarch64/p9cpud | 34d8a406be48 |
 | partprobe | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/partprobe | 35e756bf5a26 |
-| partx | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/partx | 7e44954bab7e |
+| partx | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/partx | 0abdf5c09341 |
 | passdetective | PassDetective is a command-line tool that scans shell command history to detect mistakenly written passwords, API keys, and secrets | https://github.com/aydinnyunus/PassDetective | https://bin.pkgforge.dev/aarch64/passdetective | 37f1130841a5 |
 | passwd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/passwd | 0a5ff9488596 |
 | paste | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/paste | 7e1ebe12ac40 |
@@ -1739,7 +1739,7 @@
 | php-fpm | Standalone PHP binary | https://github.com/crazywhalecc/static-php-cli | https://bin.pkgforge.dev/aarch64/php-fpm | afcdeca701b5 |
 | pidof | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pidof | c14804c3b1b3 |
 | pidof | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/pidof | 0d5303cd90c8 |
-| pidstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/pidstat | 3f1a7c51ef8e |
+| pidstat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/pidstat | aab2634e6bae |
 | pidwait | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/pidwait | null |
 | pier | A Linux script management CLI written in Rust | https://github.com/pier-cli/pier | https://bin.pkgforge.dev/aarch64/pier | f105b3db6487 |
 | pigz | A parallel implementation of gzip for multi-core machines | https://github.com/madler/pigz | https://bin.pkgforge.dev/aarch64/pigz | a9d550815410 |
@@ -1753,10 +1753,10 @@
 | pinky | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pinky | 2d22c23cfcf7 |
 | pinky | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pinky | def61f3c49ef |
 | pipe_progress | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pipe_progress | 70b9e5f6d1d0 |
-| pipesz | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/pipesz | 219966a82dd3 |
+| pipesz | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/pipesz | 0842ca02c0ae |
 | pipetty | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/aarch64/pipetty | e8504d8b0091 |
 | pivot_root | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pivot_root | 8e724f405e41 |
-| pivot_root | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/pivot_root | 7a5c9496c95f |
+| pivot_root | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/pivot_root | 0aae6d772a64 |
 | pixi | Conda Package management made easy | https://github.com/prefix-dev/pixi | https://bin.pkgforge.dev/aarch64/pixi | 32959c36222e |
 | pixterm | Draw images in your ANSI terminal with true color | https://github.com/eliukblau/pixterm | https://bin.pkgforge.dev/aarch64/pixterm | ed3ee5918d7b |
 | pkgtop | Interactive package manager and resource monitor designed for the GNU/Linux. | https://github.com/orhun/pkgtop | https://bin.pkgforge.dev/aarch64/pkgtop | 920affbc9941 |
@@ -1796,7 +1796,7 @@
 | printf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/printf | 07bcefe7208d |
 | printf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/printf | 67cd345b9ff0 |
 | printf | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/printf | da42dd36fac0 |
-| prlimit | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/prlimit | b75ff1f5209a |
+| prlimit | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/prlimit | 8dec7791c6c6 |
 | procan | socat is a program for identifying or deleting duplicate files residing within specified directories. | https://github.com/adrianlopezroche/socat | https://bin.pkgforge.dev/aarch64/procan | b10a1951eef9 |
 | procs | A modern replacement for ps written in Rust | https://github.com/dalance/procs | https://bin.pkgforge.dev/aarch64/procs | b44a0867691b |
 | profstats | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/profstats | d820c2d98219 |
@@ -1910,7 +1910,7 @@
 | readlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/readlink | 81bc10e672f1 |
 | readlink | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/readlink | 459dd182d1cc |
 | readprofile | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/readprofile | 8b4d1d726a75 |
-| readprofile | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/readprofile | 595bb76ba7ef |
+| readprofile | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/readprofile | 645083b8f9d4 |
 | realm | A network relay tool | https://github.com/zhboner/realm | https://bin.pkgforge.dev/aarch64/realm | 34561bbc0e2a |
 | realpath | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/realpath | e53ba03ec565 |
 | realpath | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/realpath | b99998938076 |
@@ -1936,9 +1936,9 @@
 | remove_shell | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/remove_shell | 068f3daf7e1b |
 | removehost | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/removehost | a4ea56c31001 |
 | removepro | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/removepro | 3ef751227dbc |
-| rename | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rename | b2b710e85634 |
+| rename | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rename | 1978589e865f |
 | renice | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/renice | e407f63c1c8e |
-| renice | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/renice | 23dbc342e611 |
+| renice | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/renice | 07aa819948d2 |
 | reptyr | Reparent a running program to a new terminal | https://github.com/nelhage/reptyr | https://bin.pkgforge.dev/aarch64/reptyr | bd7ed4667034 |
 | req-exclude | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/req-exclude | 430444c705c1 |
 | req-include | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/req-include | 70899edb1e68 |
@@ -1947,20 +1947,20 @@
 | reset | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/reset | 01575fb0c9f7 |
 | resize | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/resize | 247a7b980d87 |
 | resize2fs | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/resize2fs | a77791505e2c |
-| resizepart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/resizepart | 8719b57d93a8 |
+| resizepart | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/resizepart | 4bc61b0076aa |
 | resperf | DNS Performance Testing Tools | https://github.com/DNS-OARC/dnsperf | https://bin.pkgforge.dev/aarch64/resperf | b64a520de683 |
 | restic | Fast, secure, efficient backup program | https://github.com/restic/restic | https://bin.pkgforge.dev/aarch64/restic | 41827b088a88 |
 | resto | 🔗 Send pretty HTTP & API requests with TUI. | https://github.com/abdfnx/resto | https://bin.pkgforge.dev/aarch64/resto | 4b9ca7ffb64d |
 | resume | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/resume | d1a6575cefe0 |
 | rev | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rev | b3f30314188c |
-| rev | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rev | 20c78323e0af |
+| rev | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rev | cd2bb27b4c19 |
 | reviewdog | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language | https://github.com/reviewdog/reviewdog | https://bin.pkgforge.dev/aarch64/reviewdog | 98c45671daea |
 | revit | A command-line utility for performing reverse DNS lookups | https://github.com/devanshbatham/revit | https://bin.pkgforge.dev/aarch64/revit | 28b6b051a82a |
 | revive | 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint | https://github.com/mgechev/revive | https://bin.pkgforge.dev/aarch64/revive | f8b6b8350284 |
 | rewritepkg | Tools for compiling many Go commands into one binary to save space | https://github.com/u-root/gobusybox | https://bin.pkgforge.dev/aarch64/rewritepkg | f27d79f05792 |
 | rfddump | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rfddump | c8dd5feb3d9a |
 | rfdformat | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rfdformat | 590b4f2494e5 |
-| rfkill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rfkill | 1e3a2b1037d2 |
+| rfkill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rfkill | 410544be16af |
 | ripgen | Rust-based high performance domain permutation generator | https://github.com/resyncgg/ripgen | https://bin.pkgforge.dev/aarch64/ripgen | 34d0507cf02e |
 | ristretto.dwfs.appbundle | An Image Viewer | https://gitlab.xfce.org/apps/ristretto | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.dwfs.appbundle | 0.13.2 |
 | rli | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/rli | 084a31341d46 |
@@ -1978,7 +1978,7 @@
 | rmdir00 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rmdir00 | e8ad77125c13 |
 | rmmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rmmod | 4480e2e7ad25 |
 | rmmod | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/aarch64/Baseutils/kmod/rmmod | ec109bd93b24 |
-| rmt | create/manipulate tar archives | https://git.savannah.gnu.org/cgit/tar.git | https://bin.pkgforge.dev/aarch64/Baseutils/tar/rmt | bb52feb3ab61 |
+| rmt | create/manipulate tar archives | https://git.savannah.gnu.org/cgit/tar.git | https://bin.pkgforge.dev/aarch64/Baseutils/tar/rmt | 53ea6db81137 |
 | rndrm00 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rndrm00 | 1e2ea795f5b1 |
 | rndrm99 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rndrm99 | 38045789a2f2 |
 | rndwrite00 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rndwrite00 | d90ea8a36bba |
@@ -2008,7 +2008,7 @@
 | rsync-ssl | An open source utility that provides fast incremental file transfer. | https://github.com/WayneD/rsync | https://bin.pkgforge.dev/aarch64/rsync-ssl | c2d83a07cb29 |
 | rtacct | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/rtacct | 99fd93a66def |
 | rtcwake | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rtcwake | 9d936eeef9d5 |
-| rtcwake | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rtcwake | 58525c769d81 |
+| rtcwake | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/rtcwake | 525570cc2b9d |
 | rtmon | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/rtmon | bca91668e627 |
 | rtstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/rtstat | 5b8bd3e7ce24 |
 | ruff | An extremely fast Python linter and code formatter, written in Rust. | https://github.com/astral-sh/ruff | https://bin.pkgforge.dev/aarch64/ruff | d42b56644221 |
@@ -2026,7 +2026,7 @@
 | runsv | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/runsv | 96e96aacdcc8 |
 | runsvdir | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/runsvdir | e39dbfca61b2 |
 | runubitests.sh | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/runubitests.sh | f4132229ed33 |
-| runuser | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/runuser | 0a78fabecd9d |
+| runuser | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/runuser | 9b4de40d6093 |
 | ruri | Lightweight, User-friendly Linux-container Implementation | https://github.com/Moe-hacker/ruri | https://bin.pkgforge.dev/aarch64/ruri | c8d6e0af5bf0 |
 | rush | A cross-platform command-line tool for executing jobs in parallel | https://github.com/shenwei356/rush | https://bin.pkgforge.dev/aarch64/rush | 89a74c8b785a |
 | rust-hypervisor-firmware | cloud-hypervisors firmware in rust | https://github.com/cloud-hypervisor/rust-hypervisor-firmware | https://bin.pkgforge.dev/aarch64/rust-hypervisor-firmware | d01e73ace5ee |
@@ -2034,8 +2034,8 @@
 | rustcan | 🤖 The Modern Port Scanner 🤖 | https://github.com/RustScan/RustScan | https://bin.pkgforge.dev/aarch64/rustcan | 40e6965243f0 |
 | rustcat | Rustcat(rcat) - The modern Port listener and Reverse shell | https://github.com/robiot/rustcat | https://bin.pkgforge.dev/aarch64/rustcat | 9681f1c6bcb9 |
 | rustypaste | A minimal file upload/pastebin service. | https://github.com/orhun/rustypaste | https://bin.pkgforge.dev/aarch64/rustypaste | 65c874e62b80 |
-| rview | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/rview | dfa5c0748057 |
-| rvim | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/rvim | dfa5c0748057 |
+| rview | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/rview | b85b85a867a4 |
+| rvim | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/rvim | b85b85a867a4 |
 | rx | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rx | 9bc2929690c3 |
 | rye | A Hassle-Free Python Experience | https://github.com/astral-sh/rye | https://bin.pkgforge.dev/aarch64/rye | af524792af7b |
 | ryelang | Interpreter for RyeLang | https://github.com/astral-sh/ryelang | https://bin.pkgforge.dev/aarch64/ryelang | d00757bf918b |
@@ -2213,10 +2213,10 @@
 | s6-unquote-filter | A set of tiny general Unix utilities optimized for simplicity and small size | https://github.com/skarnet/s6-portable-utils | https://bin.pkgforge.dev/aarch64/Baseutils/s6-portable-utils/s6-unquote-filter | 8a4d3764d7d9 |
 | s6-update-symlinks | A set of tiny general Unix utilities optimized for simplicity and small size | https://github.com/skarnet/s6-portable-utils | https://bin.pkgforge.dev/aarch64/Baseutils/s6-portable-utils/s6-update-symlinks | 8180dace221c |
 | s6-usertree-maker | small & secure supervision software suite | https://github.com/skarnet/s6 | https://bin.pkgforge.dev/aarch64/Baseutils/s6/s6-usertree-maker | 15b809a75120 |
-| sadc | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sadc | 532e4cbc6f47 |
-| sadf | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sadf | b72bf7ab42ad |
+| sadc | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sadc | ad3b9bb8d858 |
+| sadf | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sadf | 8984f59f2620 |
 | sake | 🤖 Task runner for local and remote hosts via ssh & more | https://github.com/alajmo/sake | https://bin.pkgforge.dev/aarch64/sake | 9ba4e9944b86 |
-| sar | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sar | 5b403147bd3a |
+| sar | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/sar | 4b409456fc69 |
 | sbctl | 💻 🔒 🔑 Secure Boot key manager | https://github.com/Foxboron/sbctl | https://bin.pkgforge.dev/aarch64/sbctl | 5a53b5eee035 |
 | sbuild-linter | Utilities for linting and building SBUILD packages | https://github.com/pkgforge/sbuilder | https://bin.pkgforge.dev/aarch64/sbuild-linter | e6209f57e245 |
 | scalar | Free and Open Source Distributed Version Control System (VCS) | https://github.com/git/git | https://bin.pkgforge.dev/aarch64/Baseutils/git/scalar | 1b113296a985 |
@@ -2228,10 +2228,10 @@
 | scp | A smallish SSH server and client | https://github.com/mkj/dropbear | https://bin.pkgforge.dev/aarch64/Baseutils/dropbear/scp | 1298bf3a0f84 |
 | screenfetch | bash neofetch alt | https://github.com/KittyKatt/screenFetch | https://bin.pkgforge.dev/aarch64/screenfetch | 98b2427958f3 |
 | script | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/script | 8f25e3271827 |
-| script | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/script | 55da071be5aa |
-| scriptlive | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/scriptlive | 03bae726c103 |
+| script | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/script | 2667824d6fc0 |
+| scriptlive | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/scriptlive | f460b842ee28 |
 | scriptreplay | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/scriptreplay | 12192b39c5b5 |
-| scriptreplay | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/scriptreplay | 928ce5aa0e5d |
+| scriptreplay | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/scriptreplay | 91019b0b3b65 |
 | sd | Intuitive find & replace CLI (sed alternative) | https://github.com/chmln/sd | https://bin.pkgforge.dev/aarch64/sd | 5407519e0fa2 |
 | sed | (stream editor) is a non-interactive command-line text editor | https://www.gnu.org/software/sed/ | https://bin.pkgforge.dev/aarch64/sed | 147efa003b6f |
 | sed | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sed | 98cccaa82e27 |
@@ -2252,21 +2252,21 @@
 | serverstatus-status.sh | Multi Server, Multi Cloud Probing & Server Monitoring | https://github.com/zdz/ServerStatus-Rust | https://bin.pkgforge.dev/aarch64/serverstatus-status.sh | b2be58fd03de |
 | sessionprobe | evaluates user privileges in web applications by taking a session token and checking access across a list of URLs | https://github.com/dub-flow/sessionprobe | https://bin.pkgforge.dev/aarch64/sessionprobe | 045ec8b48ce2 |
 | setarch | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setarch | c3b21b00e7e3 |
-| setarch | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setarch | 2fe70c895ffd |
+| setarch | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setarch | a6b8bc486b02 |
 | setconsole | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setconsole | e39ffa88a01a |
 | setfattr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setfattr | 4b5c9d0999a5 |
 | setfont | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setfont | 6d5f59e9ce61 |
 | setkeycodes | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setkeycodes | 6165f14a216c |
 | setlogcons | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setlogcons | 8bd1aeb70ddf |
 | setpriv | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setpriv | 73bb7af7ecc3 |
-| setpriv | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setpriv | 6ddda7c9f406 |
+| setpriv | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setpriv | 9ac8a7f647f9 |
 | setserial | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setserial | 3f64451e5807 |
 | setsid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setsid | 992fd5e9cac0 |
-| setsid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setsid | 13a194f5aa05 |
-| setterm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setterm | f231390eeb9f |
+| setsid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setsid | 93a529150eaa |
+| setterm | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/setterm | e94515575f6b |
 | setuidgid | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/setuidgid | 0b9010eb6ff4 |
 | sf | signature-based file format identification | https://github.com/richardlehane/siegfried | https://bin.pkgforge.dev/aarch64/sf | 39725cf9a5d7 |
-| sfdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sfdisk | ea1fa35e2191 |
+| sfdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sfdisk | 62642634a1be |
 | sh | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh | f5da220aa03b |
 | sh | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/sh | 80290736d8cd |
 | sh_is_ash | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh_is_ash | 6539e070db9a |
@@ -2292,7 +2292,7 @@
 | sha512sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha512sum | eb8090e366f0 |
 | sha512sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha512sum | 48b2f7af3207 |
 | sha512sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha512sum | 3c6f18471c9a |
-| shar | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/shar | 7d5d5249fe48 |
+| shar | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/shar | 8e377c154e1c |
 | sharun | Run shared binary everywhere | https://github.com/VHSgunzo/sharun | https://bin.pkgforge.dev/aarch64/sharun | e862dd0469cd |
 | sharun-lib4bin | Run shared binary everywhere | https://github.com/VHSgunzo/sharun | https://bin.pkgforge.dev/aarch64/sharun-lib4bin | a6a9ea7b02a0 |
 | shc | Shell script compiler | https://github.com/neurobin/shc | https://bin.pkgforge.dev/aarch64/shc | 6088d566f2d8 |
@@ -2417,18 +2417,18 @@
 | subfinder | Fast passive subdomain enumeration tool | https://github.com/projectdiscovery/subfinder | https://bin.pkgforge.dev/aarch64/subfinder | 5cc33eefffcb |
 | subjs | Fetches javascript file from a list of URLS or subdomains | https://github.com/lc/subjs | https://bin.pkgforge.dev/aarch64/subjs | 811d5d529629 |
 | subxtract | Public-Suffix based TLDs (Top-Level-Domains) & Root Domain Extractor | https://github.com/Azathothas/Arsenal | https://bin.pkgforge.dev/aarch64/subxtract | 0d085c811e20 |
-| sudo | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo | 031cb05a1353 |
+| sudo | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo | 3a64929d0ef4 |
 | sudo-rs | A memory safe implementation of sudo and su. | https://github.com/memorysafety/sudo-rs | https://bin.pkgforge.dev/aarch64/sudo-rs | 3405f3295a4b |
-| sudo.conf | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo.conf | f3980128cc49 |
-| sudo_logsrvd | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo_logsrvd | 02ccafc1676f |
+| sudo.conf | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo.conf | d5948e280b99 |
+| sudo_logsrvd | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo_logsrvd | 589fd169a1d1 |
 | sudo_logsrvd.conf | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo_logsrvd.conf | 5dafc8022d02 |
-| sudo_sendlog | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo_sendlog | 139705804361 |
-| sudoedit | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoedit | 031cb05a1353 |
-| sudoers | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoers | 679f8ce2b9fc |
-| sudoers.dist | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoers.dist | 679f8ce2b9fc |
-| sudoreplay | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoreplay | d14fca06d12a |
+| sudo_sendlog | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudo_sendlog | 78e6d5cf35d2 |
+| sudoedit | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoedit | 3a64929d0ef4 |
+| sudoers | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoers | 553f45c520aa |
+| sudoers.dist | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoers.dist | 553f45c520aa |
+| sudoreplay | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/sudoreplay | c2ba64076946 |
 | sulogin | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sulogin | 7ff5e9829d33 |
-| sulogin | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sulogin | 4300eb0de9c2 |
+| sulogin | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sulogin | 445ab4e92175 |
 | sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sum | 47adf7aaa0ee |
 | sum | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sum | 3f2fda12edc3 |
 | sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sum | 481a70502047 |
@@ -2444,13 +2444,13 @@
 | svg-hush | Make it safe to serve untrusted SVG files | https://github.com/cloudflare/svg-hush | https://bin.pkgforge.dev/aarch64/svg-hush | 66a9501919cc |
 | svlogd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/svlogd | 04273711a00d |
 | svok | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/svok | 5011e75bebda |
-| swaplabel | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swaplabel | 76b25beafe5f |
+| swaplabel | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swaplabel | 4f44576bd010 |
 | swapoff | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/swapoff | cc59fd775171 |
-| swapoff | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swapoff | 9e3bdca58b9f |
+| swapoff | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swapoff | 2566a6247ccd |
 | swapon | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/swapon | 3948eb064fc5 |
-| swapon | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swapon | 2d6ef2ff01f1 |
+| swapon | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/swapon | 25cd456735c9 |
 | switch_root | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/switch_root | eeac7b2b9e0b |
-| switch_root | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/switch_root | e5541286b370 |
+| switch_root | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/switch_root | 9a5ac7bf0f73 |
 | symtree | ELF utils that can check files for security relevant properties | https://anongit.gentoo.org/git/proj/pax-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/pax-utils/symtree | 935f2095a742 |
 | sync | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sync | b586f8fe9872 |
 | sync | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sync | 591d4b1069f1 |
@@ -2484,13 +2484,13 @@
 | tailscale_bb | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/aarch64/tailscale_bb | af5eea54ff4c |
 | tailscaled | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/aarch64/tailscaled | 6f3ae15a7c78 |
 | tailspin | 🌀 A log file highlighter | https://github.com/bensadeh/tailspin | https://bin.pkgforge.dev/aarch64/tailspin | 96b3346cbaa7 |
-| tapestat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/tapestat | e89db87ba43c |
+| tapestat | Performance monitoring tools for Linux | https://github.com/sysstat/sysstat | https://bin.pkgforge.dev/aarch64/Baseutils/sysstat/tapestat | 0a252d73a7f7 |
 | taplo | A TOML toolkit written in Rust | https://github.com/tamasfe/taplo | https://bin.pkgforge.dev/aarch64/taplo | 1dd0086a5bf4 |
 | tar | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tar | b70f2b56202b |
-| tar | create/manipulate tar archives | https://git.savannah.gnu.org/cgit/tar.git | https://bin.pkgforge.dev/aarch64/Baseutils/tar/tar | a09507320563 |
+| tar | create/manipulate tar archives | https://git.savannah.gnu.org/cgit/tar.git | https://bin.pkgforge.dev/aarch64/Baseutils/tar/tar | 2b5075bf63ef |
 | tar2sqfs | New Set of Tools for working with SquashFS Images | https://github.com/AgentD/squashfs-tools-ng | https://bin.pkgforge.dev/aarch64/Baseutils/squashfs-tools-ng/tar2sqfs | fce752c60b5c |
 | taskset | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/taskset | fc3a8ad11c66 |
-| taskset | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/taskset | f26c2ec01f7c |
+| taskset | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/taskset | 3c881302e06a |
 | tavern | parallel | xargs in rust | https://github.com/spellshift/realm | https://bin.pkgforge.dev/aarch64/tavern | 9b882f958822 |
 | tc | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/tc | 441abbbb80dc |
 | tc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tc | 1d5f72d374a3 |
@@ -2545,10 +2545,10 @@
 | top | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/top | 36dd69ccad2b |
 | top | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/top | 4e15966d68b7 |
 | topmorph.pl | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/topmorph.pl | 8396aa9e18de |
-| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor | 28d1706ff9dd |
-| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-gencert | 7dc981e36a0a |
-| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-print-ed-signing-cert | fe829c9beb7f |
-| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-resolve | 9745cbd31d6f |
+| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor | 20ada623dd71 |
+| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-gencert | b648501653ba |
+| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-print-ed-signing-cert | 35b946476831 |
+| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-resolve | f1701c67e6d7 |
 | torify | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/torify | 49453cad50a0 |
 | torsocks | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/torsocks | b4d64c6dd269 |
 | toru | Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads. | https://github.com/sweetbbak/toru | https://bin.pkgforge.dev/aarch64/toru | 31fe3d5d6c4c |
@@ -2606,11 +2606,11 @@
 | tune2fs | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/tune2fs | e545ca614e3b |
 | tusd | Server for tus, the open protocol for resumable file uploads | https://github.com/tus/tusd | https://bin.pkgforge.dev/aarch64/tusd | 1601f4922f14 |
 | tut | TUI for Mastodon with vim inspired keys | https://github.com/RasmusLindroth/tut | https://bin.pkgforge.dev/aarch64/tut | 13f5e2b937b3 |
-| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate | 58283f09132f |
-| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connector | 46797b4473a4 |
-| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connectorctl | f2abb9fadb52 |
-| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-notifier | 9f0d2aac602a |
-| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingated | c33cf7f6e953 |
+| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate | 9248f16983a2 |
+| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connector | eba206b4645a |
+| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connectorctl | 5011a65964eb |
+| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-notifier | 3972a4e8b7b4 |
+| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingated | 7c82cb1bf490 |
 | txeh | CLI utility for /etc/hosts management. | https://github.com/txn2/txeh | https://bin.pkgforge.dev/aarch64/txeh | aa062e346180 |
 | tz | 🌐 A time zone helper | https://github.com/oz/tz | https://bin.pkgforge.dev/aarch64/tz | dc9aaee88b98 |
 | u-root | create a one-binary root file system (initramfs) containing a busybox-like set of tools | https://github.com/u-root/u-root | https://bin.pkgforge.dev/aarch64/u-root | 392183e00190 |
@@ -2640,7 +2640,7 @@
 | ubiupdatevol | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/ubiupdatevol | ce9aaf013ede |
 | ubuntu-flatimage.no_strip | A hybrid of Flatpak sandboxing with AppImage portability | https://github.com/ruanformigoni/flatimage | https://bin.pkgforge.dev/aarch64/ubuntu-flatimage.no_strip | 01937eabde19 |
 | ubuntu.no_strip | Portable Ephemeral Ubuntu Linux Docker Image (DockerC) | https://github.com/docker-library/docs/tree/master/ubuntu | https://bin.pkgforge.dev/aarch64/ubuntu.no_strip | 816b7cb9de8f |
-| uclampset | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uclampset | 6717c840987a |
+| uclampset | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uclampset | 83f36ffcc2ea |
 | ucspilogd | small & secure supervision software suite | https://github.com/skarnet/s6 | https://bin.pkgforge.dev/aarch64/Baseutils/s6/ucspilogd | 7f9fcc832848 |
 | udhcpc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/udhcpc | d0e458f845bc |
 | udhcpc6 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/udhcpc6 | 4bc7026940db |
@@ -2649,17 +2649,17 @@
 | udpx | a single-packet UDP port scanner | https://github.com/nullt3r/udpx | https://bin.pkgforge.dev/aarch64/udpx | 43bb97ddc6a0 |
 | uevent | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uevent | 82dca590e553 |
 | uip | A tool to obtain your public IP address with the help of STUN servers | https://github.com/dndx/uip | https://bin.pkgforge.dev/aarch64/uip | e49ea17ff5e2 |
-| ul | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ul | 710c1c0b7082 |
+| ul | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/ul | cd910a4ea341 |
 | ulexec | A tool for loading and executing PE/ELF from memory | https://github.com/VHSgunzo/ulexec | https://bin.pkgforge.dev/aarch64/ulexec | 0de1967f3bef |
 | ulockmgr_server | The reference implementation of the Linux FUSE (Filesystem in Userspace) interface | https://github.com/libfuse/libfuse | https://bin.pkgforge.dev/aarch64/Baseutils/fuse/ulockmgr_server | 664cd791b9fb |
 | umount | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/umount | e8a7fcc38cdd |
-| umount | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/umount | ec6137611342 |
+| umount | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/umount | 34e31c47c8f3 |
 | uname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uname | 4afb47155c5d |
 | uname | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/uname | f9db4440cbab |
 | uname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uname | 1255c9906fdb |
 | uname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uname | 9b57c3970d91 |
 | uname | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/uname | f0c8db766870 |
-| uname26 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uname26 | 2fe70c895ffd |
+| uname26 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uname26 | a6b8bc486b02 |
 | uncompress | data compression program | https://git.savannah.gnu.org/cgit/gzip.git | https://bin.pkgforge.dev/aarch64/Baseutils/gzip/uncompress | 1902e7114630 |
 | uncover | Quickly discover exposed hosts on the internet using multiple search engines | https://github.com/projectdiscovery/uncover | https://bin.pkgforge.dev/aarch64/uncover | 4bcdd8b050a2 |
 | unexpand | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unexpand | 56d4ea14a6f2 |
@@ -2688,14 +2688,14 @@
 | unlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/unlink | e4696a510ceb |
 | unlink | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/unlink | 848c002bf5a2 |
 | unlzma | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unlzma | f67bf64b25f3 |
-| unlzma | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unlzma | bf2f42a6b29f |
-| unshar | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/unshar | b187e27c1a4e |
+| unlzma | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unlzma | 926c468dc1c1 |
+| unshar | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/unshar | a1136a1cccb7 |
 | unshare | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unshare | 14c3b6a5c2a3 |
-| unshare | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/unshare | ce508f690d27 |
+| unshare | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/unshare | f31b662f8bf7 |
 | unsquashfs | Tool for creating and unpacking squashfs filesystems | https://github.com/plougher/squashfs-tools | https://bin.pkgforge.dev/aarch64/Baseutils/squashfstools/unsquashfs | b813821a7b4a |
 | unvis | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/unvis | 007de116a01a |
 | unxz | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unxz | d0ce287be05c |
-| unxz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unxz | bf2f42a6b29f |
+| unxz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unxz | 926c468dc1c1 |
 | unzip | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unzip | 85aa6d3e0073 |
 | unzstd | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/unzstd | 30166f687f41 |
 | update-desktop-database | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/update-desktop-database | f5b720a3a3a1 |
@@ -2714,14 +2714,14 @@
 | users | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/users | 7adcf745c717 |
 | usleep | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/usleep | b5ba8850d8f1 |
 | usql | Universal command-line interface for SQL databases | https://github.com/xo/usql | https://bin.pkgforge.dev/aarch64/usql | c06eaf714a62 |
-| utmpdump | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/utmpdump | 087817bdc59f |
+| utmpdump | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/utmpdump | a39fa507d97c |
 | uudecode | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uudecode | 6109150662de |
-| uudecode | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/uudecode | 4abfc09bbd6c |
+| uudecode | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/uudecode | 93d6d4d9013a |
 | uuencode | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uuencode | b43dc306abf5 |
-| uuencode | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/uuencode | 12d9d1edbcb5 |
-| uuidd | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidd | 9c402c2d31e2 |
-| uuidgen | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidgen | 5a2057a9185e |
-| uuidparse | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidparse | 2be80a83b3f7 |
+| uuencode | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/uuencode | 7b8fadb06fd6 |
+| uuidd | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidd | 9d5584d4ab54 |
+| uuidgen | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidgen | c0f0971a9053 |
+| uuidparse | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uuidparse | 0f2f365e2db3 |
 | v2raya | A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀 | https://github.com/v2rayA/v2rayA | https://bin.pkgforge.dev/aarch64/v2raya | e375195e4dda |
 | v6run | Old Unix programs running on modern computers. | https://github.com/rsc/unix | https://bin.pkgforge.dev/aarch64/v6run | 205b3751930b |
 | validtoml | simple toml validitor | https://github.com/martinlindhe/validtoml | https://bin.pkgforge.dev/aarch64/validtoml | 894f7c73006d |
@@ -2735,15 +2735,15 @@
 | vfox | A cross-platform and extendable version manager with support for Java, Node.js, Flutter, .Net & more | https://github.com/version-fox/vfox | https://bin.pkgforge.dev/aarch64/vfox | 85411b68faa3 |
 | vhs | CLI home video recorder 📼 | https://github.com/charmbracelet/vhs | https://bin.pkgforge.dev/aarch64/vhs | 086b26403916 |
 | vi | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/vi | d2a12090b80b |
-| vi | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vi | dfa5c0748057 |
+| vi | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vi | b85b85a867a4 |
 | viddy | 👀 A modern watch command. Time machine and pager etc. | https://github.com/sachaos/viddy | https://bin.pkgforge.dev/aarch64/viddy | 64b37758ead3 |
-| view | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/view | dfa5c0748057 |
+| view | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/view | b85b85a867a4 |
 | viewgen_staticx | ViewState tool capable of generating both signed and encrypted payloads with leaked validation keys | https://github.com/0xacb/viewgen | https://bin.pkgforge.dev/aarch64/viewgen_staticx | 0bee93fd6ac3 |
-| vim | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vim | dfa5c0748057 |
-| vimdiff | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vimdiff | dfa5c0748057 |
-| vimtutor | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vimtutor | 20f8242086f1 |
+| vim | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vim | b85b85a867a4 |
+| vimdiff | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vimdiff | b85b85a867a4 |
+| vimtutor | The most popular clone of the VI editor | https://github.com/vim/vim | https://bin.pkgforge.dev/aarch64/Baseutils/vim/vimtutor | b791f91a6fb1 |
 | vis | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/vis | b8a68064898b |
-| visudo | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/visudo | 0f4e45124169 |
+| visudo | A command to run commands as root | https://github.com/sudo-project/sudo | https://bin.pkgforge.dev/aarch64/Baseutils/sudo/visudo | a684b1412760 |
 | visudo-rs | A memory safe implementation of sudo and su. | https://github.com/memorysafety/sudo-rs | https://bin.pkgforge.dev/aarch64/visudo-rs | 0dcc41e429ee |
 | viu | Terminal image viewer with native support for iTerm and Kitty | https://github.com/atanunq/viu | https://bin.pkgforge.dev/aarch64/viu | 143ec0aa6b1e |
 | vlock | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/vlock | f753f226e162 |
@@ -2763,11 +2763,11 @@
 | vultr-cli | Official command line tool for Vultr services | https://github.com/vultr/vultr-cli | https://bin.pkgforge.dev/aarch64/vultr-cli | 796d443e8efd |
 | w | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/w | bb8d25b9379d |
 | wadl-dumper | Dump all available paths and/or endpoints on WADL file | https://github.com/dwisiswant0/wadl-dumper | https://bin.pkgforge.dev/aarch64/wadl-dumper | dde7e1fd5cb6 |
-| waitpid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/waitpid | d09f96f4d71b |
+| waitpid | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/waitpid | fe9c5d2d44ca |
 | walk | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/walk | null |
 | walk | Terminal file manager | https://github.com/antonmedv/walk | https://bin.pkgforge.dev/aarch64/walk | 2b929e5890a7 |
 | wall | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/wall | ded3939ac773 |
-| wall | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wall | c89310777c67 |
+| wall | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wall | 0b505067e530 |
 | warp | S3 benchmarking tool | https://github.com/minio/warp | https://bin.pkgforge.dev/aarch64/warp | ccf4a18d947f |
 | warp-cli | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-cli | b9df2f4810a7 |
 | warp-dex | cloudflare warp | https://pkg.cloudflareclient.com | https://bin.pkgforge.dev/aarch64/warp-dex | 6253d5662764 |
@@ -2784,7 +2784,7 @@
 | wc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/wc | b67680882f88 |
 | wc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/wc | 1f6d34458d3c |
 | wc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/wc | 9a9392b8eda6 |
-| wdctl | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wdctl | 3f4d5cf40e4b |
+| wdctl | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wdctl | 94471c9a8e82 |
 | web-cache-vulnerability-scanner | CLI tool for testing for web cache poisoning | https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner | https://bin.pkgforge.dev/aarch64/web-cache-vulnerability-scanner | 0d328a4f56ac |
 | websocat | netcat (or curl) for ws // with advanced socat-like functions | https://github.com/vi/websocat | https://bin.pkgforge.dev/aarch64/websocat | 2ee997c21100 |
 | wego | weather app for the terminal | https://github.com/schachmat/wego | https://bin.pkgforge.dev/aarch64/wego | 0cc85db4ae21 |
@@ -2794,7 +2794,7 @@
 | wg-quick | tools for configuring WireGuard | https://git.zx2c4.com/wireguard-tools | https://bin.pkgforge.dev/aarch64/wg-quick | 6ef6d820c6a7 |
 | wget | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/wget | 7bff2bd9aeb3 |
 | what | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/what | 28f505143097 |
-| whereis | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/whereis | d1b24a4c02fa |
+| whereis | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/whereis | 798279422cb1 |
 | which | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/which | 10965d87467a |
 | which | Shows the full path of (shell) commands | https://www.gnu.org/software/which/ | https://bin.pkgforge.dev/aarch64/which | bb5189d65b69 |
 | who | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/who | 0130d96ec46f |
@@ -2808,7 +2808,7 @@
 | whoami | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/whoami | 19a054fb1917 |
 | whois | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/whois | 3a21856a1b71 |
 | whoismac | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/whoismac | 3096873e3aaa |
-| wipefs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wipefs | 36fdde25fb77 |
+| wipefs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wipefs | 73e8f135c002 |
 | wireguard-go | Go Implementation of WireGuard | https://git.zx2c4.com/wireguard-go | https://bin.pkgforge.dev/aarch64/wireguard-go | cce0ae7afee7 |
 | wireguard-rs | Rust Implementation of WireGuard | https://git.zx2c4.com/wireguard-rs | https://bin.pkgforge.dev/aarch64/wireguard-rs | bd29fe01c6f9 |
 | wireproxy | Wireguard client that exposes itself as a socks5 proxy | https://github.com/pufferffish/wireproxy | https://bin.pkgforge.dev/aarch64/wireproxy | 5e466f2d1c74 |
@@ -2816,7 +2816,7 @@
 | wlancap2wpasec | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/wlancap2wpasec | 4e2959881b05 |
 | wormhole-rs | Rust implementation of Magic Wormhole, with new features and enhancements | https://github.com/magic-wormhole/magic-wormhole.rs | https://bin.pkgforge.dev/aarch64/wormhole-rs | 8e56789653da |
 | wrappe | Packer for creating self-contained single-binary applications from executables and directories | https://github.com/Systemcluster/wrappe | https://bin.pkgforge.dev/aarch64/wrappe | 404b46ac2eda |
-| write | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/write | 8369c52010e7 |
+| write | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/write | 0abb59157b7b |
 | wstunnel | Tunnel all your traffic over websocket protocol - Bypass firewalls/DPI | https://github.com/erebe/wstunnel | https://bin.pkgforge.dev/aarch64/wstunnel | 8e4201fe0a6c |
 | wtf | The personal information dashboard for your terminal | https://github.com/wtfutil/wtf | https://bin.pkgforge.dev/aarch64/wtf | e5f470883a6a |
 | wth | What The Heck  The better personal information dashboard for your terminal | https://github.com/mrusme/wth | https://bin.pkgforge.dev/aarch64/wth | b712d1d60687 |
@@ -2860,9 +2860,9 @@
 | xurls | Extract urls from text | https://github.com/mvdan/xurls | https://bin.pkgforge.dev/aarch64/xurls | 7c708aaf4304 |
 | xxd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xxd | 4de66f53ebc4 |
 | xz | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xz | 67af608844a1 |
-| xz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xz | bf2f42a6b29f |
+| xz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xz | 926c468dc1c1 |
 | xzcat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xzcat | d6d99c47d103 |
-| xzcat | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xzcat | bf2f42a6b29f |
+| xzcat | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xzcat | 926c468dc1c1 |
 | xzcmp | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xzcmp | 99e7ef3efb13 |
 | xzdec | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xzdec | 0c6123de9df4 |
 | xzdiff | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xzdiff | 99e7ef3efb13 |
@@ -2914,12 +2914,12 @@
 | zmore | data compression program | https://git.savannah.gnu.org/cgit/gzip.git | https://bin.pkgforge.dev/aarch64/Baseutils/gzip/zmore | 08f9d1e76b02 |
 | znew | data compression program | https://git.savannah.gnu.org/cgit/gzip.git | https://bin.pkgforge.dev/aarch64/Baseutils/gzip/znew | 06fc0cd45c7a |
 | zoxide | A smarter cd command. | https://github.com/ajeetdsouza/zoxide | https://bin.pkgforge.dev/aarch64/zoxide | 3516e51b2ab8 |
-| zramctl | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/zramctl | 25d325276a93 |
+| zramctl | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/zramctl | e4ba4e2c6434 |
 | zsh | The Z shell | https://github.com/zsh-users/zsh | https://bin.pkgforge.dev/aarch64/zsh | bebe9848bf11 |
 | zstd | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstd | 30166f687f41 |
 | zstdcat | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdcat | 30166f687f41 |
-| zstdgrep | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdgrep | 6799025c2b27 |
-| zstdless | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdless | dd8e9f32588f |
+| zstdgrep | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdgrep | f6781f3b5359 |
+| zstdless | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdless | 37aa43fba92d |
 | zstdmt | Zstandard - Fast real-time compression algorithm | https://github.com/facebook/zstd | https://bin.pkgforge.dev/aarch64/Baseutils/zstd/zstdmt | 30166f687f41 |
 | zt-encodings | z-tokens -- random tokens generation and related tools | https://github.com/volution/z-tokens | https://bin.pkgforge.dev/aarch64/zt-encodings | b7106d4c8b6f |
 | zt-exchange | z-tokens -- random tokens generation and related tools | https://github.com/volution/z-tokens | https://bin.pkgforge.dev/aarch64/zt-exchange | 7473ab8818d7 |

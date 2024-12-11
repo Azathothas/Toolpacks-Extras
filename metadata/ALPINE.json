@@ -3378,7 +3378,7 @@
   {
     "pkg": "aws-c-s3",
     "description": "AWS C99 library implementation for communicating with the S3 service",
-    "version": "0.7.4",
+    "version": "0.7.5",
     "homepage": "https:github.com/awslabs/aws-c-s3",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/aws-c-s3/APKBUILD"
@@ -3402,7 +3402,7 @@
   {
     "pkg": "aws-cli",
     "description": "Universal Command Line Interface for Amazon Web Services (v2)",
-    "version": "2.22.12",
+    "version": "2.22.13",
     "homepage": "https:github.com/aws/aws-cli",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/aws-cli/APKBUILD"
@@ -3410,7 +3410,7 @@
   {
     "pkg": "aws-crt-cpp",
     "description": "C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++",
-    "version": "0.29.6",
+    "version": "0.29.7",
     "homepage": "https:github.com/awslabs/aws-crt-cpp",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/aws-crt-cpp/APKBUILD"
@@ -8858,7 +8858,7 @@
   {
     "pkg": "dar",
     "description": "Disk ARchive",
-    "version": "2.7.15",
+    "version": "2.7.16",
     "homepage": "http:dar.linux.free.fr/",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/dar/APKBUILD"
@@ -26946,7 +26946,7 @@
   {
     "pkg": "lagrange",
     "description": "Beautiful Gemini client",
-    "version": "1.18.3",
+    "version": "1.18.4",
     "homepage": "https:gmi.skyjake.fi/lagrange",
     "license": "BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/lagrange/APKBUILD"
@@ -30018,7 +30018,7 @@
   {
     "pkg": "libmsquic",
     "description": "Cross-platform, C implementation of the IETF QUIC protocol, exposed to C, C++, C# and Rust.",
-    "version": "2.4.5",
+    "version": "2.4.7",
     "homepage": "https:github.com/microsoft/msquic",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/libmsquic/APKBUILD"
@@ -32274,7 +32274,7 @@
   {
     "pkg": "libthreadar",
     "description": "a C++ library that provides several classes to manipulate threads",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "homepage": "https:libthreadar.sourceforge.net/",
     "license": "LGPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/libthreadar/APKBUILD"
@@ -60314,7 +60314,7 @@
   {
     "pkg": "py3-awscrt",
     "description": "Python bindings for the AWS Common Runtime",
-    "version": "0.23.3",
+    "version": "0.23.4",
     "homepage": "https:github.com/awslabs/aws-crt-python",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-awscrt/APKBUILD"
@@ -71234,7 +71234,7 @@
   {
     "pkg": "py3-rasterio",
     "description": "Fast and direct raster I/O for use with Numpy and SciPy",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "homepage": "https:pypi.org/project/rasterio",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-rasterio/APKBUILD"
