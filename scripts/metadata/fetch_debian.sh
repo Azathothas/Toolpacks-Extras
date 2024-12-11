@@ -102,8 +102,8 @@ export -f process_package
 #Generate
 apt-cache pkgnames | sort -u | xargs -P "$(($(nproc)+1))" -I "{}" bash -c 'process_package "$@"' _ "{}" >> "${TMPDIR}/DEBIAN.json.raw"
 jq -s '.' "${TMPDIR}/DEBIAN.json.raw" > "${TMPDIR}/DEBIAN.json.tmp"
-cp -fv "${TMPDIR}/DEBIAN.json.tmp" "${TMPDIR}/DEBIAN.json"
-#'sort_by(.pkg)' | jq . > "${TMPDIR}/DEBIAN.json"
+if jq --exit-status . "${TMPDIR}/DEBIAN.json.tmp" >/dev/null 2>&1; then
+ cp -fv "${TMPDIR}/DEBIAN.json.tmp" "${TMPDIR}/DEBIAN.json"
 fi
 #Copy
 if [[ "$(jq -r '.[] | .pkg' "${TMPDIR}/DEBIAN.json" | wc -l)" -gt 10000 ]]; then

@@ -9,7 +9,7 @@ env:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -82,6 +82,19 @@ jobs:
            cp -fv "./DEBIAN.json" "${SYSTMP}/DEBIAN.json"
           popd >/dev/null 2>&1
         continue-on-error: true
+
+      #- name: Generate ArchLinux
+      #  run: |
+      #    #Presets
+      #    set +x ; set +e
+      #    #--------------#
+      #    #Docker
+      #    pushd "$(mktemp -d)" >/dev/null 2>&1
+      #     docker run --privileged --name "archlinux" -u "runner" -v "${GITHUB_WORKSPACE}:/workspace" "azathothas/archlinux-builder:latest  bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_archlinux.sh" && "/workspace/main/scripts/metadata/fetch_archlinux.sh"'
+      #     docker cp "archlinux:/tmp/ARCHLINUX.json" "$(pwd)/ARCHLINUX.json"
+      #     cp -fv "./ARCHLINUX.json" "${SYSTMP}/ARCHLINUX.json"
+      #    popd >/dev/null 2>&1
+      #  continue-on-error: true
 
       - name: Generate FlatPak & PkgSrc
         run: |
