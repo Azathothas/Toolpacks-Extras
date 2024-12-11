@@ -23,8 +23,6 @@ rm -rvf "${SYSTMP}/ALPINE.json" 2>/dev/null
 #Fetch repo
 pushd "${TMPDIR}" >/dev/null 2>&1
 git clone --filter="blob:none" --depth="1" "https://gitlab.alpinelinux.org/alpine/aports.git"
-find "./aports" -type f -name "*.desktop" 
-
 find "./aports" -type f -name "APKBUILD" | xargs -P "$(($(nproc)+1))" -I {} sh -c '
     PKG=$(basename "$(dirname "{}")");
     DESCR=$(sed -n '"'"'s/^pkgdesc="\(.*\)"/\1/p'"'"' "{}" | jq -aRs '"'"'gsub("\n";"<br>")'"'"');

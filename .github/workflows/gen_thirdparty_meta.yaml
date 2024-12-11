@@ -1,4 +1,4 @@
-name: ♻️ Generate ThirdParty Metadat ♻️
+name: ♻️ Generate ThirdParty Metadata ♻️
 
 on:
   workflow_dispatch:
