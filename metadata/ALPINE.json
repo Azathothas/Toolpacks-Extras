@@ -1216,6 +1216,14 @@
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/alligator/APKBUILD"
   },
   {
+    "pkg": "alloy",
+    "description": "OpenTelemetry Collector distribution with programmable pipelines",
+    "version": "1.5.0",
+    "homepage": "https:grafana.com/oss/alloy",
+    "license": "Apache-2.0",
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/alloy/APKBUILD"
+  },
+  {
     "pkg": "alpine",
     "description": "Text-based email client, friendly for novices but powerful",
     "version": "2.26",
@@ -15370,7 +15378,7 @@
   {
     "pkg": "freetds",
     "description": "Tabular Datastream Library",
-    "version": "1.4.23",
+    "version": "1.4.24",
     "homepage": "https:www.freetds.org/",
     "license": "GPL-2.0-or-later OR LGPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/freetds/APKBUILD"

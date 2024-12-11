@@ -478,10 +478,6 @@ NAME: Nexuiz Classic
 APP_ID: com.alientrap.nexuiz-classic
 Descr: A multiplayer first-person shooter
 -----------------------------
-NAME: Alovoa
-APP_ID: com.alovoa.alovoa-electron
-Descr: Open-source online dating application
------------------------------
 NAME: Alpine Client
 APP_ID: com.alpineclient.AlpineClient
 Descr: Elevate your Minecraft gameplay
@@ -8293,10 +8289,6 @@ Descr: Breaking News in Turkish from NTV.com.tr
 NAME: Kiwix
 APP_ID: org.kiwix.desktop
 Descr: View offline content
------------------------------
-NAME: Yakblt
-APP_ID: org.kosmospredanie.Yakblt
-Descr: A simple bullet-dodging game
 -----------------------------
 NAME: Pick
 APP_ID: org.kryogenix.Pick
