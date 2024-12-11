@@ -320,11 +320,6 @@
     "description": "The Open Virtual Assistant"
   },
   {
-    "pkg": "Alovoa",
-    "app_id": "com.alovoa.alovoa-electron",
-    "description": "Open-source online dating application"
-  },
-  {
     "pkg": "Alpaca AMD Support",
     "app_id": "com.jeffser.Alpaca.Plugins.AMD",
     "description": "Support for GPU acceleration with AMD GPUs"
@@ -12097,7 +12092,7 @@
   {
     "pkg": "Super Productivity",
     "app_id": "com.super_productivity.SuperProductivity",
-    "description": "Advanced to-do list app with timeboxing, time tracking, and third-party integration"
+    "description": "Advanced to-do list"
   },
   {
     "pkg": "Super Tux Party",
@@ -14193,11 +14188,6 @@
     "pkg": "YUView",
     "app_id": "de.rwth_aachen.ient.YUView",
     "description": "QT based, cross-platform YUV player with an advanced analytic toolset"
-  },
-  {
-    "pkg": "Yakblt",
-    "app_id": "org.kosmospredanie.Yakblt",
-    "description": "A simple bullet-dodging game"
   },
   {
     "pkg": "Yamagi Quake II",

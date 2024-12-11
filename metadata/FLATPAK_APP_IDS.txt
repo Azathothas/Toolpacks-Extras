@@ -122,7 +122,6 @@ com.agateau.nanonote
 com.airtame.Client
 com.albiononline.AlbionOnline
 com.alientrap.nexuiz-classic
-com.alovoa.alovoa-electron
 com.alpineclient.AlpineClient
 com.amazon.Workspaces
 com.ampl.ide
@@ -2396,7 +2395,6 @@ org.kekikakademi.eFatura
 org.kekikakademi.ntvHaber
 org.kicad.KiCad
 org.kiwix.desktop
-org.kosmospredanie.Yakblt
 org.kryogenix.Pick
 org.kryogenix.hushboard
 org.kryogenix.utm_no
