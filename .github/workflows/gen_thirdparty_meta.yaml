@@ -65,6 +65,19 @@ jobs:
           wait ; echo
         continue-on-error: true
 
+      - name: Generate ArchLinux
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Docker
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           docker run --privileged --name "archlinux" -u "runner" -v "${GITHUB_WORKSPACE}:/workspace" "azathothas/archlinux-builder:latest  bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_archlinux.sh" && "/workspace/main/scripts/metadata/fetch_archlinux.sh"'
+           docker cp "archlinux:/tmp/ARCHLINUX.json" "$(pwd)/ARCHLINUX.json"
+           cp -fv "./ARCHLINUX.json" "${SYSTMP}/ARCHLINUX.json"
+          popd >/dev/null 2>&1
+        continue-on-error: true
+
       - name: Generate Debian
         run: |
           #Presets
@@ -80,19 +93,6 @@ jobs:
            docker run --privileged --name "debian" -v "${GITHUB_WORKSPACE}:/workspace" "debian:latest" bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_debian.sh" && "/workspace/main/scripts/metadata/fetch_debian.sh"'
            docker cp "debian:/tmp/DEBIAN.json" "$(pwd)/DEBIAN.json"
            cp -fv "./DEBIAN.json" "${SYSTMP}/DEBIAN.json"
-          popd >/dev/null 2>&1
-        continue-on-error: true
-
-      - name: Generate ArchLinux
-        run: |
-          #Presets
-          set +x ; set +e
-          #--------------#
-          #Docker
-          pushd "$(mktemp -d)" >/dev/null 2>&1
-           docker run --privileged --name "archlinux" -u "runner" -v "${GITHUB_WORKSPACE}:/workspace" "azathothas/archlinux-builder:latest  bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_archlinux.sh" && "/workspace/main/scripts/metadata/fetch_archlinux.sh"'
-           docker cp "archlinux:/tmp/ARCHLINUX.json" "$(pwd)/ARCHLINUX.json"
-           cp -fv "./ARCHLINUX.json" "${SYSTMP}/ARCHLINUX.json"
           popd >/dev/null 2>&1
         continue-on-error: true
 
