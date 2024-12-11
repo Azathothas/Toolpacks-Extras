@@ -9,7 +9,7 @@ env:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 200
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -83,20 +83,20 @@ jobs:
           popd >/dev/null 2>&1
         continue-on-error: true
 
-      #- name: Generate ArchLinux
-      #  run: |
-      #    #Presets
-      #    set +x ; set +e
-      #    #--------------#
-      #    #Docker
-      #    pushd "$(mktemp -d)" >/dev/null 2>&1
-      #     docker run --privileged --name "archlinux" -u "runner" -v "${GITHUB_WORKSPACE}:/workspace" "azathothas/archlinux-builder:latest  bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_archlinux.sh" && "/workspace/main/scripts/metadata/fetch_archlinux.sh"'
-      #     docker cp "archlinux:/tmp/ARCHLINUX.json" "$(pwd)/ARCHLINUX.json"
-      #     cp -fv "./ARCHLINUX.json" "${SYSTMP}/ARCHLINUX.json"
-      #    popd >/dev/null 2>&1
-      #  continue-on-error: true
+      - name: Generate ArchLinux
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          #Docker
+          pushd "$(mktemp -d)" >/dev/null 2>&1
+           docker run --privileged --name "archlinux" -u "runner" -v "${GITHUB_WORKSPACE}:/workspace" "azathothas/archlinux-builder:latest  bash -l -c 'chmod +x "/workspace/main/scripts/metadata/fetch_archlinux.sh" && "/workspace/main/scripts/metadata/fetch_archlinux.sh"'
+           docker cp "archlinux:/tmp/ARCHLINUX.json" "$(pwd)/ARCHLINUX.json"
+           cp -fv "./ARCHLINUX.json" "${SYSTMP}/ARCHLINUX.json"
+          popd >/dev/null 2>&1
+        continue-on-error: true
 
-      - name: Generate FlatPak & PkgSrc
+      - name: Generate FlatPak & NixPkgs & PkgSrc
         run: |
           #Presets
           set +x ; set +e
@@ -106,6 +106,11 @@ jobs:
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh"
           bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_flatpak.sh" &
+          #Generate NixPkgs Data
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_nixpkgs.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_nixpkgs.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_nixpkgs.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_nixpkgs.sh" &
           #Generate PkgSrc Data
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_pkgsrc.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_pkgsrc.sh"
@@ -121,6 +126,9 @@ jobs:
           #--------------#
           if [[ -s "${SYSTMP}/ALPINE.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/ALPINE.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json"
+          fi
+          if [[ -s "${SYSTMP}/ARCHLINUX.json" ]] && [[ $(stat -c%s "${SYSTMP}/ARCHLINUX.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/ARCHLINUX.json" "${GITHUB_WORKSPACE}/main/metadata/ARCHLINUX.json"
           fi
           if [[ -s "${SYSTMP}/BREW_FORMULA.json" ]] && [[ $(stat -c%s "${SYSTMP}/BREW_FORMULA.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/BREW_FORMULA.json" "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json"
@@ -151,6 +159,9 @@ jobs:
           fi
           if [[ -s "${SYSTMP}/FLATPAK_TRENDING.json" ]] && [[ $(stat -c%s "${SYSTMP}/FLATPAK_TRENDING.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/FLATPAK_TRENDING.json" "${GITHUB_WORKSPACE}/main/metadata/FLATPAK_TRENDING.json"
+          fi
+          if [[ -s "${SYSTMP}/NIXPKGS.json" ]] && [[ $(stat -c%s "${SYSTMP}/NIXPKGS.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/NIXPKGS.json" "${GITHUB_WORKSPACE}/main/metadata/NIXPKGS.json"
           fi
           if [[ -s "${SYSTMP}/PKGSRC.json" ]] && [[ $(stat -c%s "${SYSTMP}/PKGSRC.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/PKGSRC.json" "${GITHUB_WORKSPACE}/main/metadata/PKGSRC.json"
