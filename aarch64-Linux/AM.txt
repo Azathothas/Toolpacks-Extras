@@ -1300,6 +1300,9 @@
 | lddtree | ELF utils that can check files for security relevant properties | https://anongit.gentoo.org/git/proj/pax-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/pax-utils/lddtree | 1fa41d0a8046 |
 | len | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/len | 18a42996a751 |
 | less | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/less | 0f498d18a5d3 |
+| less | More advanced file pager than more | https://github.com/gwsw/less | https://bin.pkgforge.dev/aarch64/Baseutils/less/less | f82d2a213cac |
+| lessecho | More advanced file pager than more | https://github.com/gwsw/less | https://bin.pkgforge.dev/aarch64/Baseutils/less/lessecho | a8c8a032e69e |
+| lesskey | More advanced file pager than more | https://github.com/gwsw/less | https://bin.pkgforge.dev/aarch64/Baseutils/less/lesskey | c34f8e4f31c6 |
 | lf | Terminal file manager | https://github.com/gokcehan/lf | https://bin.pkgforge.dev/aarch64/lf | e65b255d5640 |
 | lfsr-test | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/lfsr-test | cd878e56a36d |
 | libaws | A simpler way to declare aws infrastructure that is easy to use and extend | https://github.com/nathants/libaws | https://bin.pkgforge.dev/aarch64/libaws | d0abac493f04 |
