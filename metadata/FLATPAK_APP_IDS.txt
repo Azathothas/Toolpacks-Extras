@@ -627,7 +627,6 @@ com.retrodev.blastem
 com.revolutionarygamesstudio.ThriveLauncher
 com.richwhitehouse.BigPEmu
 com.rocksandpaper.syndic
-com.roguetemple.HyperRogue
 com.rosegardenmusic.rosegarden
 com.rq3.Reaction
 com.rtosta.zapzap
@@ -1240,7 +1239,6 @@ io.github.jorchube.monitorets
 io.github.jordanl2.ModularCalculator
 io.github.josephmawa.Bella
 io.github.jotd666.gods-deluxe
-io.github.jtdx_project.JTDX
 io.github.julian_hochhaus.LG4X_V2
 io.github.kaii_lb.hgui
 io.github.kalaksi.Lightkeeper
@@ -2777,6 +2775,7 @@ social.whalebird.WhalebirdDesktop
 space.fips.Fips
 space.nouspiro.tenmon
 space.rirusha.Cassette
+studio.assetmanager.ams
 studio.eufonia.EufoniaClient
 studio.kx.carla
 surf.deckr.deckr

@@ -575,6 +575,11 @@
     "description": "First-person-shooter game"
   },
   {
+    "pkg": "Asset Manager Studio",
+    "app_id": "studio.assetmanager.ams",
+    "description": "The asset manager and launcher for the rest of us..."
+  },
+  {
     "pkg": "Asteroids Revenge",
     "app_id": "io.github.mlm_games.asteroids_revenge",
     "description": "Evade lasers as an enigmatic entity"
@@ -4775,11 +4780,6 @@
     "description": "Play Windows and Linux Games"
   },
   {
-    "pkg": "HyperRogue",
-    "app_id": "com.roguetemple.HyperRogue",
-    "description": "Non-euclidean graphical rogue-like game"
-  },
-  {
     "pkg": "Hüma Browser",
     "app_id": "com.humatarayici.od",
     "description": "Hüma is an open source, freedom and privacy orientated experimental web browser."
@@ -5083,11 +5083,6 @@
     "pkg": "JSymphonic Revival",
     "app_id": "io.github.georgewoodall82.jsymphonic",
     "description": "A Manager for Sony digital players"
-  },
-  {
-    "pkg": "JTDX",
-    "app_id": "io.github.jtdx_project.JTDX",
-    "description": "jtdx (forked WSJT-X for amateur radio communication)"
   },
   {
     "pkg": "JabRef",
@@ -5563,11 +5558,6 @@
     "pkg": "LDView",
     "app_id": "io.github.tcobbs.LDView",
     "description": "LDraw model viewer"
-  },
-  {
-    "pkg": "LG4X-V2",
-    "app_id": "jtdx.desktop",
-    "description": "Python package for XPS curve fitting analysis"
   },
   {
     "pkg": "LG4X-V2",
@@ -6063,6 +6053,11 @@
     "pkg": "Lunar Client",
     "app_id": "com.lunarclient.LunarClient",
     "description": "A modpack for all modern versions of Minecraft!"
+  },
+  {
+    "pkg": "Lutris",
+    "app_id": "net.lutris.Lutris",
+    "description": "Video game preservation platform"
   },
   {
     "pkg": "LyX",
@@ -15267,7 +15262,7 @@
   {
     "pkg": "lfy",
     "app_id": "cool.ldr.lfy",
-    "description": "Translation software for read paper"
+    "description": "Translation software designed for reading scientific research literature"
   },
   {
     "pkg": "libretile",

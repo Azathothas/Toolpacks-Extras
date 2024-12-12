@@ -1218,7 +1218,7 @@
   {
     "pkg": "alloy",
     "description": "OpenTelemetry Collector distribution with programmable pipelines",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "homepage": "https:grafana.com/oss/alloy",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/alloy/APKBUILD"
@@ -1674,7 +1674,7 @@
   {
     "pkg": "ansible-lint",
     "description": "check ansible playbooks",
-    "version": "24.10.0",
+    "version": "24.12.1",
     "homepage": "https:github.com/ansible/ansible-lint",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/ansible-lint/APKBUILD"
@@ -2330,7 +2330,7 @@
   {
     "pkg": "argocd",
     "description": "Declarative continuous deployment for Kubernetes",
-    "version": "2.13.0",
+    "version": "2.13.1",
     "homepage": "https:argo-cd.readthedocs.io/",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/argocd/APKBUILD"
@@ -4538,7 +4538,7 @@
   {
     "pkg": "blender",
     "description": "3D Creation/Animation/Publishing System",
-    "version": "4.3.0",
+    "version": "4.3.1",
     "homepage": "https:www.blender.org/",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/blender/APKBUILD"
@@ -7458,7 +7458,7 @@
   {
     "pkg": "code-oss",
     "description": "Visual Studio Code (OSS, with VSX)",
-    "version": "1.95.3",
+    "version": "1.96.0",
     "homepage": "https:github.com/microsoft/vscode",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/code-oss/APKBUILD"
@@ -7658,7 +7658,7 @@
   {
     "pkg": "composer",
     "description": "Dependency manager for PHP",
-    "version": "2.8.3",
+    "version": "2.8.4",
     "homepage": "https:getcomposer.org/",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/composer/APKBUILD"
@@ -8634,7 +8634,7 @@
   {
     "pkg": "curl",
     "description": "URL retrival utility and library",
-    "version": "8.11.0",
+    "version": "8.11.1",
     "homepage": "https:curl.se/",
     "license": "curl",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/curl/APKBUILD"
@@ -12490,7 +12490,7 @@
   {
     "pkg": "erlang",
     "description": "General-purpose programming language and runtime environment",
-    "version": "26.2.5.5",
+    "version": "26.2.5.6",
     "homepage": "https:www.erlang.org/",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/erlang/APKBUILD"
@@ -12850,7 +12850,7 @@
   {
     "pkg": "eza",
     "description": "ls replacement written in Rust",
-    "version": "0.20.7",
+    "version": "0.20.11",
     "homepage": "https:github.com/eza-community/eza",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/eza/APKBUILD"
@@ -16674,7 +16674,7 @@
   {
     "pkg": "git-cola",
     "description": "GUI application for git built on Python & Qt",
-    "version": "4.9.0",
+    "version": "4.10.0",
     "homepage": "https:git-cola.github.io",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/git-cola/APKBUILD"
@@ -16834,7 +16834,7 @@
   {
     "pkg": "gitea",
     "description": "Self-hosted Git service written in Go",
-    "version": "1.22.4",
+    "version": "1.22.5",
     "homepage": "https:about.gitea.com/",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/gitea/APKBUILD"
@@ -18954,8 +18954,8 @@
   {
     "pkg": "gspell",
     "description": "Flexible API to add spell checking to a GTK+ application",
-    "version": "1.12.2",
-    "homepage": "https:wiki.gnome.org/Projects/gspell",
+    "version": "1.14.0",
+    "homepage": "https:gitlab.gnome.org/GNOME/gspell",
     "license": "LGPL-2.1-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/gspell/APKBUILD"
   },
@@ -20490,7 +20490,7 @@
   {
     "pkg": "hledger",
     "description": "Command-line interface for the hledger accounting system",
-    "version": "1.40",
+    "version": "1.41",
     "homepage": "https:hledger.org/hledger.html",
     "license": "GPL-3.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/hledger/APKBUILD"
@@ -23130,7 +23130,7 @@
   {
     "pkg": "json-glib",
     "description": "JSON library built on GLib",
-    "version": "1.10.0",
+    "version": "1.10.6",
     "homepage": "https:wiki.gnome.org/Projects/JsonGlib",
     "license": "LGPL-2.1-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/json-glib/APKBUILD"
@@ -23586,7 +23586,7 @@
   {
     "pkg": "kapp",
     "description": "deployment tool focused on the concept of a kubernetes application",
-    "version": "0.63.3",
+    "version": "0.64.0",
     "homepage": "https:carvel.dev/kapp",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/kapp/APKBUILD"
@@ -33546,7 +33546,7 @@
   {
     "pkg": "linux-starfive",
     "description": "starfive (development kernel)",
-    "version": "6.11.9",
+    "version": "6.12.4",
     "homepage": "https:www.kernel.org",
     "license": "GPL-2.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/linux-starfive/APKBUILD"
@@ -33874,7 +33874,7 @@
   {
     "pkg": "localsearch",
     "description": "Data miners for tracker",
-    "version": "3.8.1",
+    "version": "3.8.2",
     "homepage": "https:gitlab.gnome.org/GNOME/localsearch",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/localsearch/APKBUILD"
@@ -36018,7 +36018,7 @@
   {
     "pkg": "lvm2",
     "description": "Logical Volume Manager 2 utilities",
-    "version": "2.03.28",
+    "version": "2.03.29",
     "homepage": "https:sourceware.org/lvm2/",
     "license": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/lvm2/APKBUILD"
@@ -36050,7 +36050,7 @@
   {
     "pkg": "lxc-templates-legacy",
     "description": "Legacy LXC container templates",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "homepage": "https:linuxcontainers.org",
     "license": "LGPL-2.1-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/lxc-templates-legacy/APKBUILD"
@@ -43778,7 +43778,7 @@
   {
     "pkg": "openfortivpn",
     "description": "Openfortivpn is a client for PPP+SSL VPN tunnel services",
-    "version": "1.21.0",
+    "version": "1.22.1",
     "homepage": "https:github.com/adrienverge/openfortivpn",
     "license": "GPL-3.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/openfortivpn/APKBUILD"
@@ -43962,7 +43962,7 @@
   {
     "pkg": "openjpeg",
     "description": "Open-source implementation of JPEG2000 image codec",
-    "version": "2.5.2",
+    "version": "2.5.3",
     "homepage": "https:www.openjpeg.org/",
     "license": "BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/openjpeg/APKBUILD"
@@ -46082,7 +46082,7 @@
   {
     "pkg": "perl-app-cpm",
     "description": "Fast CPAN module installer",
-    "version": "0.997020",
+    "version": "0.997021",
     "homepage": "https:metacpan.org/release/App-cpm/",
     "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/perl-app-cpm/APKBUILD"
@@ -51082,7 +51082,7 @@
   {
     "pkg": "perl-net-async-redis",
     "description": "Redis support for IO::Async",
-    "version": "6.005",
+    "version": "6.006",
     "homepage": "https:metacpan.org/release/Net-Async-Redis/",
     "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/perl-net-async-redis/APKBUILD"
@@ -56914,7 +56914,7 @@
   {
     "pkg": "pike",
     "description": "Pike programming language",
-    "version": "8.0.1940",
+    "version": "8.0.1950",
     "homepage": "https:pike.lysator.liu.se/",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/pike/APKBUILD"
@@ -57634,7 +57634,7 @@
   {
     "pkg": "pmbootstrap",
     "description": "Sophisticated chroot/build/flash tool to develop and install postmarketOS",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "homepage": "https:gitlab.postmarketos.org/postmarketOS/pmbootstrap",
     "license": "GPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/pmbootstrap/APKBUILD"
@@ -59338,7 +59338,7 @@
   {
     "pkg": "pv",
     "description": "CLI tool for monitoring the progress of data through a pipeline",
-    "version": "1.9.0",
+    "version": "1.9.15",
     "homepage": "https:www.ivarch.com/programs/pv.shtml",
     "license": "Artistic-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/pv/APKBUILD"
@@ -63330,7 +63330,7 @@
   {
     "pkg": "py3-eventlet",
     "description": "Python library for seamless coroutine-based concurrency",
-    "version": "0.38.0",
+    "version": "0.38.1",
     "homepage": "https:eventlet.net/",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/py3-eventlet/APKBUILD"
@@ -63962,7 +63962,7 @@
   {
     "pkg": "py3-flask-qrcode",
     "description": "Simple flask extension to render QR codes on template",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "homepage": "https:github.com/marcoagner/Flask-QRcode",
     "license": "GPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/py3-flask-qrcode/APKBUILD"
@@ -65634,7 +65634,7 @@
   {
     "pkg": "py3-jellyfish",
     "description": "Python library for approximate and phonetic string matching",
-    "version": "1.0.3",
+    "version": "1.1.2",
     "homepage": "https:github.com/jamesturk/jellyfish",
     "license": "BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-jellyfish/APKBUILD"
@@ -66986,7 +66986,7 @@
   {
     "pkg": "py3-mizani",
     "description": "A scales package for python",
-    "version": "0.13.0",
+    "version": "0.13.1",
     "homepage": "https:github.com/has2k1/mizani",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-mizani/APKBUILD"
@@ -68306,7 +68306,7 @@
   {
     "pkg": "py3-parsing",
     "description": "Object-oriented approach to text processing",
-    "version": "3.1.4",
+    "version": "3.2.0",
     "homepage": "https:github.com/pyparsing/pyparsing",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/py3-parsing/APKBUILD"
@@ -74658,7 +74658,7 @@
   {
     "pkg": "py3-warcio",
     "description": "Streaming WARC/ARC library for fast web archive IO",
-    "version": "1.7.4",
+    "version": "1.7.5",
     "homepage": "https:github.com/webrecorder/warcio",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-warcio/APKBUILD"
@@ -78434,7 +78434,7 @@
   {
     "pkg": "rqlite",
     "description": "Lightweight, distributed relational database built on SQLite",
-    "version": "8.34.3",
+    "version": "8.35.0",
     "homepage": "https:github.com/rqlite/rqlite",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/rqlite/APKBUILD"
@@ -79714,7 +79714,7 @@
   {
     "pkg": "runc",
     "description": "CLI tool for spawning and running containers according to the OCI specification",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "homepage": "https:www.opencontainers.org",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/runc/APKBUILD"
@@ -79826,7 +79826,7 @@
   {
     "pkg": "rustypaste",
     "description": "Minimal file upload/pastebin service",
-    "version": "0.15.1",
+    "version": "0.16.0",
     "homepage": "https:github.com/orhun/rustypaste",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/rustypaste/APKBUILD"
@@ -79834,7 +79834,7 @@
   {
     "pkg": "rustypaste-cli",
     "description": "CLI tool for rustypaste",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "homepage": "https:github.com/orhun/rustypaste-cli",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/rustypaste-cli/APKBUILD"
@@ -84458,7 +84458,7 @@
   {
     "pkg": "synapse",
     "description": "Matrix reference homeserver",
-    "version": "1.120.2",
+    "version": "1.121.1",
     "homepage": "https:github.com/element-hq/synapse",
     "license": "AGPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/synapse/APKBUILD"
@@ -84690,7 +84690,7 @@
   {
     "pkg": "tailscale",
     "description": "The easiest, most secure way to use WireGuard and 2FA",
-    "version": "1.76.6",
+    "version": "1.78.1",
     "homepage": "https:tailscale.com/",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/tailscale/APKBUILD"
@@ -84866,7 +84866,7 @@
   {
     "pkg": "tcl",
     "description": "The Tcl scripting language",
-    "version": "8.6.15",
+    "version": "8.6.16",
     "homepage": "https:www.tcl-lang.org/",
     "license": "TCL",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/tcl/APKBUILD"
@@ -85050,7 +85050,7 @@
   {
     "pkg": "telegraf",
     "description": "A plugin-driven server agent for collecting & reporting metrics, part of the InfluxDB project",
-    "version": "1.32.3",
+    "version": "1.33.0",
     "homepage": "https:www.influxdata.com/time-series-platform/telegraf/",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/telegraf/APKBUILD"
@@ -85946,7 +85946,7 @@
   {
     "pkg": "tk",
     "description": "GUI toolkit for the Tcl scripting language",
-    "version": "8.6.15",
+    "version": "8.6.16",
     "homepage": "https:www.tcl-lang.org/",
     "license": "TCL",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/tk/APKBUILD"
@@ -88426,7 +88426,7 @@
   {
     "pkg": "varlink",
     "description": "Varlink C library and command-line tool",
-    "version": "23",
+    "version": "24",
     "homepage": "https:github.com/varlink/libvarlink",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/varlink/APKBUILD"
@@ -88450,7 +88450,7 @@
   {
     "pkg": "vaultwarden",
     "description": "Bitwarden alternative backend",
-    "version": "1.32.5",
+    "version": "1.32.6",
     "homepage": "https:github.com/dani-garcia/vaultwarden",
     "license": "AGPL-3.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/vaultwarden/APKBUILD"
@@ -89802,7 +89802,7 @@
   {
     "pkg": "weasyprint",
     "description": "A visual rendering engine for HTML and CSS that can export to PDF",
-    "version": "63.0",
+    "version": "63.1",
     "homepage": "https:weasyprint.org",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/weasyprint/APKBUILD"
@@ -90146,7 +90146,7 @@
   {
     "pkg": "wine",
     "description": "Compatibility layer for running Windows programs",
-    "version": "9.17",
+    "version": "9.21",
     "homepage": "https:www.winehq.org",
     "license": "LGPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/wine/APKBUILD"
@@ -90402,7 +90402,7 @@
   {
     "pkg": "wlroots",
     "description": "Modular Wayland compositor library",
-    "version": "0.18.1",
+    "version": "0.18.2",
     "homepage": "https:gitlab.freedesktop.org/wlroots/wlroots",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/wlroots/APKBUILD"
@@ -93074,7 +93074,7 @@
   {
     "pkg": "yazi",
     "description": "Blazing fast terminal file manager written in Rust, based on async I/O",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "homepage": "https:yazi-rs.github.io",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/yazi/APKBUILD"

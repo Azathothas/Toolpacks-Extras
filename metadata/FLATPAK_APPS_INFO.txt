@@ -2414,10 +2414,6 @@ NAME: Syndic
 APP_ID: com.rocksandpaper.syndic
 Descr: Feed reader for casual browsing
 -----------------------------
-NAME: HyperRogue
-APP_ID: com.roguetemple.HyperRogue
-Descr: Non-euclidean graphical rogue-like game
------------------------------
 NAME: Rosegarden
 APP_ID: com.rosegardenmusic.rosegarden
 Descr: MIDI and Audio Sequencer and Notation Editor
@@ -3084,7 +3080,7 @@ Descr: Path of Building (Community) - A powerful build planner for Path of Exile
 -----------------------------
 NAME: lfy
 APP_ID: cool.ldr.lfy
-Descr: Translation software for read paper
+Descr: Translation software designed for reading scientific research literature
 -----------------------------
 NAME: RISC-V CPU simulator
 APP_ID: cz.cvut.edu.comparch.qtrvsim
@@ -4785,14 +4781,6 @@ Descr: Pick a color from the screen
 NAME: Gods Deluxe
 APP_ID: io.github.jotd666.gods-deluxe
 Descr: A remake of the platform game
------------------------------
-NAME: JTDX
-APP_ID: io.github.jtdx_project.JTDX
-Descr: jtdx (forked WSJT-X for amateur radio communication)
------------------------------
-NAME: LG4X-V2
-APP_ID: jtdx.desktop
-Descr: Python package for XPS curve fitting analysis
 -----------------------------
 NAME: LG4X-V2
 APP_ID: io.github.julian_hochhaus.LG4X_V2
@@ -6617,6 +6605,10 @@ Descr: Develop Your Civilization from Humble Roots to a Global Empire
 NAME: Bible
 APP_ID: net.lugsole.bible_gui.desktop
 Descr: Bible app that supports multiple translations
+-----------------------------
+NAME: Lutris
+APP_ID: net.lutris.Lutris
+Descr: Video game preservation platform
 -----------------------------
 NAME: SLADE
 APP_ID: net.mancubus.SLADE
@@ -9793,6 +9785,10 @@ Descr: OpenGL-based FITS image viewer
 NAME: Tenmon
 APP_ID: space.nouspiro.tenmon
 Descr: FITS/XISF image viewer, converter, index and search
+-----------------------------
+NAME: Asset Manager Studio
+APP_ID: studio.assetmanager.ams
+Descr: The asset manager and launcher for the rest of us...
 -----------------------------
 NAME: Eufonia Client
 APP_ID: studio.eufonia.EufoniaClient
