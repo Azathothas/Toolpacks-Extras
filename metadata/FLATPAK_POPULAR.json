@@ -58,11 +58,11 @@
     "app_id": "com.usebottles.bottles",
     "description": "Run Windows Software",
     "description_long": "Bottles lets you run Windows software on Linux, such as applications and games. It introduces a workflow that helps you organize by categorizing each software to your liking. Bottles provides several tools and integrations to help you manage and optimize your applications.<br>Features:<br>Use pre-configured environments as a base<br>Change runners for any bottle<br>Various optimizations and options for gaming<br>Repair in case software or bottle is broken<br>Install various known dependencies<br>Integrated task manager to manage and monitor processes<br>Backup and restore<br>",
-    "build_date": "2024-10-15T09:01:59",
+    "build_date": "2024-12-13T04:48:10",
     "category": [
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/media/com/usebottles/bottles/e2bfd999892b4faa7a3251cd9a7513ff/icons/128x128/com.usebottles.bottles.png",
+    "icon": "https://dl.flathub.org/media/com/usebottles/bottles/568382ac8104c08a761a74263827d05f/icons/128x128/com.usebottles.bottles.png",
     "license": "GPL-3.0-only",
     "tag": [
       "wine",
@@ -482,7 +482,7 @@
       "AudioVideo",
       "Video"
     ],
-    "icon": "https://dl.flathub.org/media/io/freetubeapp/FreeTube/e5e3516496052976cb03bb1675e32d17/icons/128x128/io.freetubeapp.FreeTube.png",
+    "icon": "https://dl.flathub.org/media/io/freetubeapp/FreeTube/1903f7616826dfa3a08e6d64ce6a4654/icons/128x128/io.freetubeapp.FreeTube.png",
     "license": "AGPL-3.0+",
     "tag": [],
     "rank": 26
@@ -1175,7 +1175,7 @@
       "AudioVideo",
       "Audio"
     ],
-    "icon": "https://dl.flathub.org/media/org/audacityteam/Audacity/16022ed38a8bc470aa3182288b2599a7/icons/128x128/org.audacityteam.Audacity.png",
+    "icon": "https://dl.flathub.org/media/org/audacityteam/Audacity/e3b7bcec1d992bcec6dfea86b70a5833/icons/128x128/org.audacityteam.Audacity.png",
     "license": "GPL-3.0-only",
     "tag": [
       "sound",
