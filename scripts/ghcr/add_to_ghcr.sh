@@ -71,7 +71,7 @@ upload_to_ghcr()
      echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${ARCH}]"
      oras push --concurrency "100" --disable-path-validation \
      --config "/dev/null:application/vnd.oci.empty.v1+json" \
-     --annotation "org.opencontainers.image.description=${DESCRIPTION}" \
+     --annotation "org.opencontainers.image.description=${PKG_DESCRIPTION}" \
      --annotation "org.opencontainers.image.documentation=${BUILD_SCRIPT}" \
      --annotation "org.opencontainers.image.licenses=blessing" \
      --annotation "org.opencontainers.image.ref.name=${GHCR_PKGVER}" \

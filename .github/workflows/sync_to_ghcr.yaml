@@ -1,4 +1,4 @@
-name: ♻️ Sync to GHCR ♻️
+name: ♻️🐬 Sync to GHCR 🐬♻️
 
 on:
   workflow_dispatch:
