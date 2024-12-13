@@ -20,6 +20,8 @@ rm -rvf "${SYSTMP}/PKGSRC.json" 2>/dev/null
 
 #-------------------------------------------------------#
 ##Generate Data
+# https://cdn.netbsd.org/pub/pkgsrc/packages/NetBSD/amd64/10.0/All/
+# https://cdn.netbsd.org/pub/pkgsrc/packages/NetBSD/amd64/10.0/All/pkg_summary.gz
 #Fetch repo
 pushd "${TMPDIR}" >/dev/null 2>&1
 git clone --filter="blob:none" --depth="1" "https://github.com/NetBSD/pkgsrc"

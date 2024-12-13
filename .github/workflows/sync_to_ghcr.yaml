@@ -1,0 +1,58 @@
+name: ♻️ Sync to GHCR ♻️
+
+on:
+  workflow_dispatch:
+  schedule:
+   - cron: "0 1 */2 * *"  #UTC 01:00 AM --> 06:45 AM NPT @every 2days
+#env:
+#  GITHUB_TOKEN: "${{ secrets.GHCR_PKG }}"   
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 200
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          filter: "blob:none"
+
+      - name: Install Addons
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          bash <(curl -qfsSL "https://pub.ajam.dev/repos/Azathothas/Arsenal/misc/Linux/install_dev_tools.sh")
+        continue-on-error: true
+
+      - name: Setup Env
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          #tmp
+          SYSTMP="$(dirname $(mktemp -u))" && export SYSTMP="${SYSTMP}"
+          echo "SYSTMP=${SYSTMP}" >> "${GITHUB_ENV}"
+          #-------------#
+          ##User-Agent
+          USER_AGENT="$(curl -qfsSL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')" && export USER_AGENT="${USER_AGENT}"
+          echo "USER_AGENT=${USER_AGENT}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      - name: Sync
+        run: |
+          #Presets
+          set +x ; set +e
+          #--------------#
+          ##Login
+          echo "${{ secrets.GHCR_PKG }}" | oras login --username "Azathothas" --password-stdin "ghcr.io"
+          ##Sync
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/ghcr/add_to_ghcr.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/ghcr/add_to_ghcr.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/ghcr/add_to_ghcr.sh"
+          export PARALLEL_LIMIT="10"
+          bash "${GITHUB_WORKSPACE}/main/scripts/ghcr/add_to_ghcr.sh"
+          wait ; echo
+        continue-on-error: true
