@@ -18,7 +18,8 @@ if command -v rclone &> /dev/null && [ -s "${HOME}/.rclone.conf" ] && [ -d "${GI
    echo -e "[+] Syncing ${GITHUB_REPOSITORY} to pub.ajam.dev/repos/${GITHUB_REPOSITORY} \n"
    rclone sync "." "r2:/pub/repos/${GITHUB_REPOSITORY}/" --user-agent="${USER_AGENT}" --buffer-size="100M" --s3-upload-concurrency="500" --s3-chunk-size="100M" --multi-thread-streams="500" --checkers="2000" --transfers="1000" --check-first --checksum --copy-links --fast-list --progress
    #Upload AIO files (aarch64-Linux) ==> (https://bin.ajam.dev/aarch64_arm64_Linux/)
-   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json" "r2:/bin/aarch64_arm64_Linux/ALPINE.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE_GIT.json" "r2:/bin/aarch64_arm64_Linux/ALPINE_GIT.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE_PKG.json" "r2:/bin/aarch64_arm64_Linux/ALPINE_PKG.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ARCHLINUX.json" "r2:/bin/aarch64_arm64_Linux/ARCHLINUX.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json" "r2:/bin/aarch64_arm64_Linux/BREW_FORMULA.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json" "r2:/bin/aarch64_arm64_Linux/BREW_CASK.json" --checksum --check-first --user-agent="${USER_AGENT}" &
@@ -74,7 +75,8 @@ if command -v rclone &> /dev/null && [ -s "${HOME}/.rclone.conf" ] && [ -d "${GI
    rclone copyto "${GITHUB_WORKSPACE}/main/aarch64-Linux/METADATA.AIO.yaml.zstd.bsum" "r2:/bin/aarch64_arm64_Linux/METADATA.AIO.yaml.zstd.bsum" --checksum --check-first --user-agent="${USER_AGENT}" &
    wait
    #Upload AIO files (x86_64-Linux) ==> (https://bin.ajam.dev/x86_64_Linux/)
-   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json" "r2:/bin/x86_64_Linux/ALPINE.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE_GIT.json" "r2:/bin/x86_64_Linux/ALPINE_GIT.json" --checksum --check-first --user-agent="${USER_AGENT}" &
+   rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ALPINE_PKG.json" "r2:/bin/x86_64_Linux/ALPINE_PKG.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/ARCHLINUX.json" "r2:/bin/x86_64_Linux/ARCHLINUX.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/BREW_FORMULA.json" "r2:/bin/x86_64_Linux/BREW_FORMULA.json" --checksum --check-first --user-agent="${USER_AGENT}" &
    rclone copyto "${GITHUB_WORKSPACE}/main/metadata/BREW_CASK.json" "r2:/bin/x86_64_Linux/BREW_CASK.json" --checksum --check-first --user-agent="${USER_AGENT}" &

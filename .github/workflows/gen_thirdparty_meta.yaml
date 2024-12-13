@@ -52,11 +52,16 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          #Generate Alpine Data
-          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine.sh")
-          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
-          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh"
-          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine.sh" &
+          #Generate Alpine Data (Git)
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine_git.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_git.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_git.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_git.sh" &
+          #Generate Alpine Data (Pkg)
+          #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_alpine_pkg.sh")
+          dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_pkg.sh"
+          chmod +x "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_pkg.sh"
+          bash "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_alpine_pkg.sh" &
           #Generate HomeBrew Data
           #bash <(curl -qfsSL "https://raw.githubusercontent.com/pkgforge/pkgcache/refs/heads/main/scripts/metadata/fetch_homebrew.sh")
           dos2unix --quiet "${GITHUB_WORKSPACE}/main/scripts/metadata/fetch_homebrew.sh"
@@ -126,8 +131,11 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          if [[ -s "${SYSTMP}/ALPINE.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE.json") -gt 1000 ]]; then
-           cp -fv "${SYSTMP}/ALPINE.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE.json"
+          if [[ -s "${SYSTMP}/ALPINE_GIT.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE_GIT.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/ALPINE_GIT.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE_GIT.json"
+          fi
+          if [[ -s "${SYSTMP}/ALPINE_PKG.json" ]] && [[ $(stat -c%s "${SYSTMP}/ALPINE_PKG.json") -gt 1000 ]]; then
+           cp -fv "${SYSTMP}/ALPINE_PKG.json" "${GITHUB_WORKSPACE}/main/metadata/ALPINE_PKG.json"
           fi
           if [[ -s "${SYSTMP}/ARCHLINUX.json" ]] && [[ $(stat -c%s "${SYSTMP}/ARCHLINUX.json") -gt 1000 ]]; then
            cp -fv "${SYSTMP}/ARCHLINUX.json" "${GITHUB_WORKSPACE}/main/metadata/ARCHLINUX.json"
