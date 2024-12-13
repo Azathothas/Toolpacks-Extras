@@ -4654,6 +4654,10 @@ NAME: Mingle
 APP_ID: io.github.halfmexican.Mingle
 Descr: Combine emojis with Google&apos;s Emoji Kitchen
 -----------------------------
+NAME: go-minesweeper
+APP_ID: io.github.heathcliff26.go-minesweeper
+Descr: A minesweeper implementation in golang
+-----------------------------
 NAME: Gyre
 APP_ID: io.github.helpseeker.Gyre
 Descr: A downloader for videos from Coub
@@ -5448,11 +5452,11 @@ Descr: Multi-platform Atari 2600 VCS emulator
 -----------------------------
 NAME: chiaki-ng
 APP_ID: stella.desktop
-Descr: Free and Open Source Client for PlayStation Remote Play modified for Steam Deck
+Descr: Free and Open Source Client for PlayStation Remote Play
 -----------------------------
 NAME: chiaki-ng
 APP_ID: io.github.streetpea.Chiaki4deck
-Descr: Free and Open Source Client for PlayStation Remote Play modified for Steam Deck
+Descr: Free and Open Source Client for PlayStation Remote Play
 -----------------------------
 NAME: Muon
 APP_ID: io.github.subhra74.Muon

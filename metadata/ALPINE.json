@@ -810,7 +810,7 @@
   {
     "pkg": "adguardhome",
     "description": "Network-wide ads & trackers blocking DNS server",
-    "version": "0.107.54",
+    "version": "0.107.55",
     "homepage": "https:adguard.com/adguard-home.html",
     "license": "GPL-3.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/adguardhome/APKBUILD"
@@ -1674,7 +1674,7 @@
   {
     "pkg": "ansible-lint",
     "description": "check ansible playbooks",
-    "version": "24.12.1",
+    "version": "24.12.2",
     "homepage": "https:github.com/ansible/ansible-lint",
     "license": "MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/ansible-lint/APKBUILD"
@@ -2010,7 +2010,7 @@
   {
     "pkg": "apk-tools",
     "description": "Alpine Package Keeper - package manager for alpine",
-    "version": "2.14.6",
+    "version": "2.14.7",
     "homepage": "https:gitlab.alpinelinux.org/alpine/apk-tools",
     "license": "GPL-2.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/apk-tools/APKBUILD"
@@ -2045,7 +2045,7 @@
     "version": "0.2.3",
     "homepage": "https:gitlab.com/tychosoft/apollo",
     "license": "GPL-3.0-or-later",
-    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/apollo/APKBUILD"
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/apollo/APKBUILD"
   },
   {
     "pkg": "aports-build",
@@ -7456,6 +7456,14 @@
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/cocogitto/APKBUILD"
   },
   {
+    "pkg": "code-minimap",
+    "description": "A high performance code minimap render",
+    "version": "0.6.7",
+    "homepage": "https:github.com/wfxr/code-minimap",
+    "license": "MIT AND Apache-2.0",
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/code-minimap/APKBUILD"
+  },
+  {
     "pkg": "code-oss",
     "description": "Visual Studio Code (OSS, with VSX)",
     "version": "1.96.0",
@@ -12578,7 +12586,7 @@
   {
     "pkg": "etckeeper",
     "description": "Store /etc in git.",
-    "version": "1.18.21",
+    "version": "1.18.22",
     "homepage": "https:etckeeper.branchable.com/",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/etckeeper/APKBUILD"
@@ -13466,7 +13474,7 @@
   {
     "pkg": "ffmpegthumbnailer",
     "description": "Lightweight video thumbnailer that can be used by file managers",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "homepage": "https:github.com/dirkvdb/ffmpegthumbnailer",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/ffmpegthumbnailer/APKBUILD"
@@ -16986,7 +16994,7 @@
   {
     "pkg": "glib",
     "description": "Common C routines used by Gtk+ and other libs",
-    "version": "2.82.3",
+    "version": "2.82.4",
     "homepage": "https:developer.gnome.org/glib/",
     "license": "LGPL-2.1-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/glib/APKBUILD"
@@ -22674,7 +22682,7 @@
   {
     "pkg": "java-libsignal-client",
     "description": "libsignal-client contains platform-agnostic APIs useful for Signal client apps",
-    "version": "0.58.2",
+    "version": "0.62.0",
     "homepage": "https:github.com/signalapp/libsignal",
     "license": "AGPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/java-libsignal-client/APKBUILD"
@@ -27502,6 +27510,14 @@
     "homepage": "https:www.antlr.org/",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/libantlr3c/APKBUILD"
+  },
+  {
+    "pkg": "libantlr4",
+    "description": "C runtime for the ANTLR parsing library",
+    "version": "4.13.2",
+    "homepage": "https:www.antlr.org/",
+    "license": "BSD-3-Clause",
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/libantlr4/APKBUILD"
   },
   {
     "pkg": "libao",
@@ -33490,7 +33506,7 @@
   {
     "pkg": "linux-lts",
     "description": "Linux lts kernel",
-    "version": "6.12.3",
+    "version": "6.12.4",
     "homepage": "https:www.kernel.org",
     "license": "GPL-2.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/linux-lts/APKBUILD"
@@ -33522,7 +33538,7 @@
   {
     "pkg": "linux-rpi",
     "description": "Linux kernel with Raspberry Pi patches",
-    "version": "6.12.1",
+    "version": "6.12.4",
     "homepage": "",
     "license": "GPL-2.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/linux-rpi/APKBUILD"
@@ -34477,7 +34493,7 @@
     "version": "0.2.0",
     "homepage": "https:git.sr.ht/~martijnbraam/lsip6",
     "license": "MIT",
-    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/lsip6/APKBUILD"
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/lsip6/APKBUILD"
   },
   {
     "pkg": "lsix",
@@ -39962,7 +39978,7 @@
   {
     "pkg": "nats-server",
     "description": "High-Performance server for NATS.io",
-    "version": "2.10.21",
+    "version": "2.10.23",
     "homepage": "https:github.com/nats-io/nats-server",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/nats-server/APKBUILD"
@@ -40290,7 +40306,7 @@
   {
     "pkg": "neomutt",
     "description": "Mutt with miscellaneous fixes and feature patches",
-    "version": "20241114",
+    "version": "20241212",
     "homepage": "https:neomutt.org/",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/neomutt/APKBUILD"
@@ -45722,7 +45738,7 @@
   {
     "pkg": "pdfjs",
     "description": "A general-purpose, web standards-based platform for parsing and rendering PDFs.",
-    "version": "4.9.124",
+    "version": "4.9.155",
     "homepage": "https:mozilla.github.io/pdf.js/",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/pdfjs/APKBUILD"
@@ -58413,7 +58429,7 @@
     "version": "0.9.0",
     "homepage": "https:gitlab.com/MartijnBraam/powersupply",
     "license": "MIT",
-    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/powersupply/APKBUILD"
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/powersupply/APKBUILD"
   },
   {
     "pkg": "powertop",
@@ -58650,7 +58666,7 @@
   {
     "pkg": "proftpd",
     "description": "Highly configurable FTP server software",
-    "version": "1.3.8b",
+    "version": "1.3.8c",
     "homepage": "https:github.com/proftpd/proftpd",
     "license": "GPL-2.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/proftpd/APKBUILD"
@@ -62098,7 +62114,7 @@
   {
     "pkg": "py3-dbusmock",
     "description": "Mock D-Bus objects for tests",
-    "version": "0.32.2",
+    "version": "0.33.0",
     "homepage": "https:github.com/martinpitt/python-dbusmock",
     "license": "LGPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-dbusmock/APKBUILD"
@@ -65218,7 +65234,7 @@
   {
     "pkg": "py3-inform",
     "description": "Print & Logging Utilities",
-    "version": "1.32",
+    "version": "1.33",
     "homepage": "https:inform.readthedocs.io/",
     "license": "GPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/py3-inform/APKBUILD"
@@ -76922,7 +76938,7 @@
   {
     "pkg": "radsecproxy",
     "description": "Generic RADIUS proxy that supports both UDP and TLS (RadSec) RADIUS transports",
-    "version": "1.11.0",
+    "version": "1.11.1",
     "homepage": "https:github.com/radsecproxy/radsecproxy",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/radsecproxy/APKBUILD"
@@ -81418,7 +81434,7 @@
   {
     "pkg": "signal-cli",
     "description": "commandline interface for libsignal-service-java",
-    "version": "0.13.9",
+    "version": "0.13.10",
     "homepage": "https:github.com/AsamK/signal-cli",
     "license": "GPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/signal-cli/APKBUILD"
@@ -82026,7 +82042,7 @@
   {
     "pkg": "snappy",
     "description": "Fast compression and decompression library",
-    "version": "1.1.10",
+    "version": "1.2.1",
     "homepage": "https:github.com/google/snappy",
     "license": "BSD-3-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/snappy/APKBUILD"
@@ -82890,7 +82906,7 @@
   {
     "pkg": "spotify-qt",
     "description": "Lightweight Spotify client using Qt",
-    "version": "3.11",
+    "version": "3.12",
     "homepage": "https:github.com/kraxarn/spotify-qt",
     "license": "GPL-3.0-or-later",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/spotify-qt/APKBUILD"
@@ -84573,7 +84589,7 @@
     "version": "2",
     "homepage": "https:git.sr.ht/~martijnbraam/sysls",
     "license": "GPL-3.0-only",
-    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/sysls/APKBUILD"
+    "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/sysls/APKBUILD"
   },
   {
     "pkg": "sysprof",
@@ -84618,7 +84634,7 @@
   {
     "pkg": "systeroid",
     "description": "A more powerful alternative to sysctl(8)",
-    "version": "0.4.4",
+    "version": "0.4.5",
     "homepage": "https:systeroid.cli.rs/",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/systeroid/APKBUILD"
@@ -84658,7 +84674,7 @@
   {
     "pkg": "tacacs+ng",
     "description": "TACACS+ NG authentication daemon",
-    "version": "0_git20230214",
+    "version": "0_git20241212",
     "homepage": "https:www.pro-bono-publico.de/projects/tac_plus-ng.html",
     "license": "MIT AND BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/tacacs+ng/APKBUILD"
@@ -86970,7 +86986,7 @@
   {
     "pkg": "trippy",
     "description": "combines the functionality of traceroute and ping and is designed to assist with the analysis of networking issues.",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "homepage": "https:github.com/fujiapple852/trippy/",
     "license": "Apache-2.0",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/trippy/APKBUILD"
@@ -88242,7 +88258,7 @@
   {
     "pkg": "uv",
     "description": "Extremely fast Python package installer and resolver, written in Rust",
-    "version": "0.5.7",
+    "version": "0.5.8",
     "homepage": "https:github.com/astral-sh/uv",
     "license": "Apache-2.0 MIT",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/uv/APKBUILD"
@@ -92266,7 +92282,7 @@
   {
     "pkg": "xml2rfc",
     "description": "tool for converting XML documents into internet drafts and RFCs",
-    "version": "3.24.0",
+    "version": "3.25.0",
     "homepage": "https:github.com/ietf-tools/xml2rfc",
     "license": "BSD-2-Clause",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/testing/xml2rfc/APKBUILD"
@@ -93138,7 +93154,7 @@
   {
     "pkg": "yggdrasil",
     "description": "An experiment in scalable routing as an encrypted IPv6 overlay network",
-    "version": "0.5.9",
+    "version": "0.5.10",
     "homepage": "https:yggdrasil-network.github.io/",
     "license": "LGPL-3.0-only",
     "build_script": "https:gitlab.alpinelinux.org/alpine/aports/-/blob/master/community/yggdrasil/APKBUILD"

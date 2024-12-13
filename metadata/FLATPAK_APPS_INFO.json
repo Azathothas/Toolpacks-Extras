@@ -14782,12 +14782,12 @@
   {
     "pkg": "chiaki-ng",
     "app_id": "stella.desktop",
-    "description": "Free and Open Source Client for PlayStation Remote Play modified for Steam Deck"
+    "description": "Free and Open Source Client for PlayStation Remote Play"
   },
   {
     "pkg": "chiaki-ng",
     "app_id": "io.github.streetpea.Chiaki4deck",
-    "description": "Free and Open Source Client for PlayStation Remote Play modified for Steam Deck"
+    "description": "Free and Open Source Client for PlayStation Remote Play"
   },
   {
     "pkg": "choria",
@@ -14998,6 +14998,11 @@
     "pkg": "gmusicbrowser",
     "app_id": "org.gmusicbrowser.gmusicbrowser",
     "description": "Jukebox for large collection of music"
+  },
+  {
+    "pkg": "go-minesweeper",
+    "app_id": "io.github.heathcliff26.go-minesweeper",
+    "description": "A minesweeper implementation in golang"
   },
   {
     "pkg": "godotGem",
