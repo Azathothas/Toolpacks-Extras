@@ -77,6 +77,13 @@ upload_to_ghcr()
      fi
      PKG_TAG="$(jq -r 'if .tag | type == "array" then .tag[0] else .tag end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_VERSION="$(jq -r '.version' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     if [[ "${PKG_VERSION}" == "latest" ]]; then
+       if [[ -n "${PKG_DATE}" ]]; then
+         PKG_VERSION="$(echo ${PKG_DATE} | tr -cd '0-9')"
+       else
+         PKG_VERSION="$(date --utc +'%y%m%dT%H%M%S')"
+       fi
+     fi
      BUILD_SCRIPT="$(jq -r '.build_script' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      BUILD_LOG="$(jq -r '.build_log' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      GHCR_PKG="$(realpath .)/${PKG_NAME}"
