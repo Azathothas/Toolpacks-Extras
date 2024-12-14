@@ -1695,6 +1695,7 @@
 | openssl | A cryptographic library that implements the SSL and TLS protocols | https://github.com/openssl/openssl | https://bin.pkgforge.dev/aarch64/Baseutils/openssl/openssl | 7a7a98b1de91 |
 | openvpn | A robust and highly flexible tunneling application | https://github.com/OpenVPN/openvpn | https://bin.pkgforge.dev/aarch64/openvpn | f7b6d0b26793 |
 | openvt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/openvt | 469a52447f67 |
+| oras | OCI registry client - managing content like artifacts, images, packages | https://github.com/oras-project/oras | https://bin.pkgforge.dev/aarch64/oras | 0126f149382c |
 | orbiton | Fast and config-free text editor and IDE limited to VT100 | https://github.com/xyproto/orbiton | https://bin.pkgforge.dev/aarch64/orbiton | 5e8346673425 |
 | orph | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/orph | 66d5a0b6f228 |
 | osmedeus | A Workflow Engine for Offensive Security | https://github.com/j3ssie/osmedeus | https://bin.pkgforge.dev/aarch64/osmedeus | 085e0d8f905c |
