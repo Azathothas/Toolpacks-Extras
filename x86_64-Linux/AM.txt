@@ -702,6 +702,7 @@
 | openrisk | Generates a risk score based on the results of a Nuclei scan | https://github.com/projectdiscovery/openrisk | https://bin.pkgforge.dev/x86_64/openrisk | a0d4889a35c5 |
 | openvpn | A robust and highly flexible tunneling application | https://github.com/OpenVPN/openvpn | https://bin.pkgforge.dev/x86_64/openvpn | 860a74f5b61a |
 | opera.appimage | Faster, safer and smarter web browser | https://github.com/ivan-hc/Opera-appimage | https://pkgcache.pkgforge.dev/x86_64/opera.appimage | 116.0.5341.0 |
+| oras | OCI registry client - managing content like artifacts, images, packages | https://github.com/oras-project/oras | https://bin.pkgforge.dev/x86_64/oras | 098e5380cf73 |
 | orbiton | Fast and config-free text editor and IDE limited to VT100 | https://github.com/xyproto/orbiton | https://bin.pkgforge.dev/x86_64/orbiton | c58e595b5b8d |
 | osmedeus | A Workflow Engine for Offensive Security | https://github.com/j3ssie/osmedeus | https://bin.pkgforge.dev/x86_64/osmedeus | efb20cfead95 |
 | otree | A command line tool to view objects (JSON/YAML/TOML) in TUI tree widget | https://github.com/fioncat/otree | https://bin.pkgforge.dev/x86_64/otree | ac93ab0d0959 |
