@@ -57,25 +57,32 @@ upload_to_ghcr()
      fi
      PKG_BSUM="$(jq -r '.bsum' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_CATEGORY="$(jq -r 'if .category | type == "array" then .category[0] else .category end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_CATEGORY}" == "null" ]] && PKG_CATEGORY=""
      PKG_DATE="$(jq -r '.build_date' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_DATE="${PKG_DATE:-$(date --utc +%Y-%m-%dT%H:%M:%S)}Z"
      PKG_DESCRIPTION="$(jq -r '.description' "${TMPDIR}/${TMPJSON}")"
      PKG_FAMILY="$(jq -r '.pkg_family' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_HOMEPAGE="$(jq -r 'if .homepage | type == "array" then .homepage[0] else .homepage end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_HOMEPAGE}" == "null" ]] && PKG_HOMEPAGE=""
      PKG_ICON="$(jq -r 'if .icon | type == "array" then .icon[0] else .icon end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_ICON}" == "null" ]] && PKG_ICON=""
      PKG_NAME="$(jq -r '.pkg_name' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_NOTE="$(jq -r 'if .note | type == "array" then .note[0] else .note end' "${TMPDIR}/${TMPJSON}")"
+     [[ "${PKG_NOTE}" == "null" ]] && PKG_NOTE=""
      PKG_ORIG="$(jq -r '.pkg' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_REPOLOGY="$(jq -r 'if .repology | type == "array" then .repology[0] else .repology end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_REPOLOGY}" == "null" ]] && PKG_REPOLOGY=""
      PKG_SCREENSHOT="$(jq -r 'if .screenshots | type == "array" then .screenshots[0] else .screenshots end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_SHASUM="$(jq -r '.shasum' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_SRCURL="$(jq -r 'if .src_url | type == "array" then .src_url[0] else .src_url end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_SRCURL}" == "null" ]] && PKG_SRCURL=""
      if [[ -n "${PKG_SRCURL}" ]]; then
        [ -z "${PKG_HOMEPAGE}" ] && PKG_HOMEPAGE="${PKG_SRCURL}"
      elif [[ -n "${PKG_HOMEPAGE}" ]]; then
        PKG_SRCURL="${PKG_HOMEPAGE}"
      fi
      PKG_TAG="$(jq -r 'if .tag | type == "array" then .tag[0] else .tag end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_TAG}" == "null" ]] && PKG_TAG=""
      PKG_VERSION="$(jq -r '.version' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      if [[ "${PKG_VERSION}" == "latest" ]]; then
        if [[ -n "${PKG_DATE}" ]]; then
