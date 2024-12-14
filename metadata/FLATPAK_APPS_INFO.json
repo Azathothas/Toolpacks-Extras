@@ -4967,7 +4967,7 @@
   {
     "pkg": "IntelliJ IDEA Community",
     "app_id": "com.jetbrains.IntelliJ-IDEA-Community",
-    "description": "The Leading Java and Kotlin IDE"
+    "description": "Leading Java and Kotlin editor"
   },
   {
     "pkg": "IntelliJ IDEA Ultimate",
@@ -6103,11 +6103,6 @@
     "pkg": "MDA",
     "app_id": "org.freedesktop.LinuxAudio.Plugins.MDA",
     "description": "MDA Piano LV2 plugin"
-  },
-  {
-    "pkg": "MEGAsync",
-    "app_id": "nz.mega.MEGAsync",
-    "description": "Easy automated syncing"
   },
   {
     "pkg": "MFEKglif",
@@ -10813,6 +10808,11 @@
     "pkg": "Rue",
     "app_id": "org.darkdimension.rue",
     "description": "A card game about deduction, love and regret."
+  },
+  {
+    "pkg": "Rune",
+    "app_id": "ci.not.Rune",
+    "description": "The player that blends classic design with modern technology"
   },
   {
     "pkg": "RuneLite",

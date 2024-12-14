@@ -89,6 +89,7 @@ chat.rocket.RocketChat
 chat.schildi.desktop
 chat.simplex.simplex
 chat.tandem.Client
+ci.not.Rune
 cn.apipost.apipost
 cn.feishu.Feishu
 cn.lceda.LCEDAPro
@@ -1835,7 +1836,6 @@ nl.openoffice.bluefish
 nl.sarine.gpx-viewer
 nl.v0yd.Capsule
 no.mifi.losslesscut
-nz.mega.MEGAsync
 one.ablaze.floorp
 one.alynx.FlipClock
 one.flipperzero.qFlipper
