@@ -1460,11 +1460,6 @@
     "description": "Medication tracker"
   },
   {
-    "pkg": "Carburetor",
-    "app_id": "io.frama.tractor.carburetor",
-    "description": "Browse anonymously"
-  },
-  {
     "pkg": "Cardinal",
     "app_id": "org.freedesktop.LinuxAudio.Plugins.Cardinal",
     "description": "Cardinal is a free and open-source LV2/VST/VST3 virtual modular synthesizer plugin"
@@ -8890,6 +8885,11 @@
     "description": "Install and run Outer Wilds mods"
   },
   {
+    "pkg": "Outfly",
+    "app_id": "page.codeberg.outfly.outfly",
+    "description": "Breathtaking 3D space game in the rings of Jupiter"
+  },
+  {
     "pkg": "Outline",
     "app_id": "org.getoutline.OutlineClient",
     "description": "Access to the free and open Internet"
@@ -9318,6 +9318,11 @@
     "pkg": "Pinegrow",
     "app_id": "com.pinegrow.Pinegrow",
     "description": "Visual web editor for professionals"
+  },
+  {
+    "pkg": "Pinepods",
+    "app_id": "com.gooseberrydevelopment.pinepods",
+    "description": "A complete, self-hosted podcast management system"
   },
   {
     "pkg": "Pinpoint",
@@ -11557,7 +11562,7 @@
   {
     "pkg": "Snux",
     "app_id": "page.codeberg.ilijaculap.snux",
-    "description": "Simple Snake Game"
+    "description": "Simple snake game"
   },
   {
     "pkg": "So Synth LV2",
@@ -15293,6 +15298,11 @@
     "pkg": "mMass",
     "app_id": "org.mmass.mMass",
     "description": "Open Source Mass Spectrometry Tool"
+  },
+  {
+    "pkg": "madamiru",
+    "app_id": "com.mtkennerly.madamiru",
+    "description": "Dynamic multi-multimedia player"
   },
   {
     "pkg": "master_me",

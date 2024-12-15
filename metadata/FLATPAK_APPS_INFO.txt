@@ -1762,6 +1762,10 @@ NAME: Google Earth Pro
 APP_ID: com.google.EarthPro
 Descr: 3D planet viewer
 -----------------------------
+NAME: Pinepods
+APP_ID: com.gooseberrydevelopment.pinepods
+Descr: A complete, self-hosted podcast management system
+-----------------------------
 NAME: Gopeed
 APP_ID: com.gopeed.Gopeed
 Descr: A modern download manager
@@ -2157,6 +2161,10 @@ Descr: Stream games and other applications from another PC running Sunshine or G
 NAME: Omission
 APP_ID: com.mousepawmedia.omission
 Descr: A deceptively simple word puzzle.
+-----------------------------
+NAME: madamiru
+APP_ID: com.mtkennerly.madamiru
+Descr: Dynamic multi-multimedia player
 -----------------------------
 NAME: Whakarere
 APP_ID: com.mudeprolinux.whakarere
@@ -3977,10 +3985,6 @@ Descr: FOSS, cross-platform 2FA app
 NAME: Exodus
 APP_ID: io.exodus.Exodus.desktop
 Descr: All-in-one app to secure, manage, and exchange blockchain assets
------------------------------
-NAME: Carburetor
-APP_ID: io.frama.tractor.carburetor
-Descr: Browse anonymously
 -----------------------------
 NAME: Books
 APP_ID: io.frappe.books
@@ -9552,7 +9556,7 @@ Descr: A puzzle game
 -----------------------------
 NAME: Snux
 APP_ID: page.codeberg.ilijaculap.snux
-Descr: Simple Snake Game
+Descr: Simple snake game
 -----------------------------
 NAME: When Penguins Fly
 APP_ID: page.codeberg.imbev.WhenPenguinsFly
@@ -9565,6 +9569,10 @@ Descr: Manage blood pressure data
 NAME: Pfeilspiel TNG international
 APP_ID: page.codeberg.maerchenfeeimgarten.Pfeilspiel
 Descr: A game about arrows that requires a close look
+-----------------------------
+NAME: Outfly
+APP_ID: page.codeberg.outfly.outfly
+Descr: Breathtaking 3D space game in the rings of Jupiter
 -----------------------------
 NAME: Find Billy!
 APP_ID: page.codeberg.papojari.Find_Billy
