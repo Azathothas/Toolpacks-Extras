@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+6
+# VERSION=0.0.8+7
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -183,7 +183,9 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
       #End
        export SBUILD_SUCCESSFUL="YES"
        echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}] [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
-       echo "LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" > "./LOGPATH"
+       if [ -d "${OCWD}" ]; then
+         echo "export LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" > "${OCWD}/LOGPATH"
+       fi
      else
        echo -e "\n[✗] FATAL: Could NOT Build ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]\n"
        cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" 2>/dev/null
