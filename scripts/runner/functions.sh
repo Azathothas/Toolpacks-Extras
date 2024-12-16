@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+3
+# VERSION=0.0.8+4
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -95,9 +95,6 @@ gen_json_from_sbuild()
        export CONTINUE_SBUILD="YES"
       else
        echo -e '#!/usr/bin/env '"${SBUILD_SHELL}"'\n\n' > "${TMPXVER}"
-       if [[ "${DEBUG_BUILD}" != "NO" ]]; then
-         echo 'set -x' >> "${TMPXVER}"
-       fi
        yq '.x_exec.pkgver' "${INPUT_SBUILD}" >> "${TMPXVER}"
        if [[ -s "${TMPXVER}" && $(stat -c%s "${TMPXVER}") -gt 10 ]]; then
          chmod +x "${TMPXVER}"
@@ -123,6 +120,9 @@ gen_json_from_sbuild()
       fi
      #Run      
       echo -e '#!/usr/bin/env '"${SBUILD_SHELL}"'\n\n' > "${TMPXRUN}"
+      if [[ "${DEBUG_BUILD}" != "NO" ]]; then
+       echo 'set -x' >> "${TMPXRUN}"
+      fi
       yq '.x_exec.run' "${INPUT_SBUILD}" >> "${TMPXRUN}"
       if [[ -s "${TMPXRUN}" && $(stat -c%s "${TMPXRUN}") -gt 10 ]]; then
        chmod +x "${TMPXRUN}"
@@ -185,6 +185,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]"
      else
        echo -e "\n[✗] FATAL: Could NOT Build ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]\n"
+       cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" 2>/dev/null
        ls "${SBUILD_OUTDIR}" -lah
        return 1 || exit 1
        export SBUILD_SUCCESSFUL="NO"
