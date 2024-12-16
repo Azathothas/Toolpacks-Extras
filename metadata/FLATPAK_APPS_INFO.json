@@ -4185,6 +4185,11 @@
     "description": "Go compiler and tools"
   },
   {
+    "pkg": "Go2TV",
+    "app_id": "app.go2tv.go2tv",
+    "description": "Cast media files to UPnP/DLNA Media Renderers and Smart TVs"
+  },
+  {
     "pkg": "GoForIt!",
     "app_id": "de.manuel_kehl.go-for-it",
     "description": "A stylish to-do list with built-in productivity timer"
@@ -14797,7 +14802,7 @@
   {
     "pkg": "choria",
     "app_id": "io.gitlab.jazztickets.choria",
-    "description": "Finally, an MMORPG that&apos;s all about grinding and doing chores."
+    "description": "Finally, an MMORPG that&apos;s all about grinding and doing chores"
   },
   {
     "pkg": "coppwr",
@@ -15007,7 +15012,7 @@
   {
     "pkg": "go-minesweeper",
     "app_id": "io.github.heathcliff26.go-minesweeper",
-    "description": "A minesweeper implementation in golang"
+    "description": "A minesweeper game"
   },
   {
     "pkg": "godotGem",

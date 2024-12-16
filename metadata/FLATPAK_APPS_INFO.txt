@@ -50,6 +50,10 @@ NAME: Space
 APP_ID: app.getspace.Space
 Descr: Spaced Repetition for Flashcards
 -----------------------------
+NAME: Go2TV
+APP_ID: app.go2tv.go2tv
+Descr: Cast media files to UPnP/DLNA Media Renderers and Smart TVs
+-----------------------------
 NAME: Gummi
 APP_ID: app.gummi.gummi
 Descr: The simple LaTeX editor
@@ -4664,7 +4668,7 @@ Descr: Combine emojis with Google&apos;s Emoji Kitchen
 -----------------------------
 NAME: go-minesweeper
 APP_ID: io.github.heathcliff26.go-minesweeper
-Descr: A minesweeper implementation in golang
+Descr: A minesweeper game
 -----------------------------
 NAME: Gyre
 APP_ID: io.github.helpseeker.Gyre
@@ -5776,7 +5780,7 @@ Descr: Transfer your applications across installations
 -----------------------------
 NAME: choria
 APP_ID: io.gitlab.jazztickets.choria
-Descr: Finally, an MMORPG that&apos;s all about grinding and doing chores.
+Descr: Finally, an MMORPG that&apos;s all about grinding and doing chores
 -----------------------------
 NAME: Empty Clip
 APP_ID: io.gitlab.jazztickets.emptyclip
