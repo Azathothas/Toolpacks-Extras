@@ -625,6 +625,7 @@
 | fdformat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fdformat | 5e3cad914114 |
 | fdisk | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fdisk | 3e2ca439e4bf |
 | fdisk | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fdisk | 49f5d2caa254 |
+| fdupes | FDUPES is a program for identifying or deleting duplicate files residing within specified directories. | https://github.com/adrianlopezroche/fdupes | https://bin.pkgforge.dev/aarch64/fdupes | 9ff8d967b876 |
 | fectest | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/fectest | 7f5aa35c33b2 |
 | fedora.no_strip | Portable Ephemeral Fedora Linux Docker Image (DockerC) | https://github.com/docker-library/repo-info/tree/master/repos/fedora | https://bin.pkgforge.dev/aarch64/fedora.no_strip | 4fb0fbbaa970 |
 | feroxbuster | A fast, simple, recursive content discovery tool written in Rust. | https://github.com/epi052/feroxbuster | https://bin.pkgforge.dev/aarch64/feroxbuster | 320cb1b877d5 |
