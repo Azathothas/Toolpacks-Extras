@@ -18,6 +18,7 @@ app.feeddeck.feeddeck
 app.fotema.Fotema
 app.getclipboard.Clipboard
 app.getspace.Space
+app.go2tv.go2tv
 app.gummi.gummi
 app.lith.Lith
 app.midterm.MidtermDesktop
@@ -461,6 +462,7 @@ com.google.AndroidStudio
 com.google.Chrome
 com.google.ChromeDev
 com.google.EarthPro
+com.gooseberrydevelopment.pinepods
 com.gopeed.Gopeed
 com.hack_computer.Clubhouse
 com.hack_computer.OperatingSystemApp
@@ -561,6 +563,7 @@ com.mojang.Minecraft
 com.mongodb.Compass
 com.moonlight_stream.Moonlight
 com.mousepawmedia.omission
+com.mtkennerly.madamiru
 com.mudeprolinux.whakarere
 com.musixmatch.Musixmatch
 com.napster.napster-bigscreen-electron
@@ -2717,6 +2720,7 @@ page.codeberg.imbev.WhenPenguinsFly
 page.codeberg.lazyt.ubpm
 page.codeberg.libre_menu_editor.LibreMenuEditor
 page.codeberg.maerchenfeeimgarten.Pfeilspiel
+page.codeberg.outfly.outfly
 page.codeberg.papojari.Find_Billy
 page.codeberg.terratactician_expandoria.game
 page.codeberg.tpikonen.geobug

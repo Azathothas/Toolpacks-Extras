@@ -1460,11 +1460,6 @@
     "description": "Medication tracker"
   },
   {
-    "pkg": "Carburetor",
-    "app_id": "io.frama.tractor.carburetor",
-    "description": "Browse anonymously"
-  },
-  {
     "pkg": "Cardinal",
     "app_id": "org.freedesktop.LinuxAudio.Plugins.Cardinal",
     "description": "Cardinal is a free and open-source LV2/VST/VST3 virtual modular synthesizer plugin"
@@ -4188,6 +4183,11 @@
     "pkg": "Go programming language Sdk extension",
     "app_id": "org.freedesktop.Sdk.Extension.golang",
     "description": "Go compiler and tools"
+  },
+  {
+    "pkg": "Go2TV",
+    "app_id": "app.go2tv.go2tv",
+    "description": "Cast media files to UPnP/DLNA Media Renderers and Smart TVs"
   },
   {
     "pkg": "GoForIt!",
@@ -8890,6 +8890,11 @@
     "description": "Install and run Outer Wilds mods"
   },
   {
+    "pkg": "Outfly",
+    "app_id": "page.codeberg.outfly.outfly",
+    "description": "Breathtaking 3D space game in the rings of Jupiter"
+  },
+  {
     "pkg": "Outline",
     "app_id": "org.getoutline.OutlineClient",
     "description": "Access to the free and open Internet"
@@ -9318,6 +9323,11 @@
     "pkg": "Pinegrow",
     "app_id": "com.pinegrow.Pinegrow",
     "description": "Visual web editor for professionals"
+  },
+  {
+    "pkg": "Pinepods",
+    "app_id": "com.gooseberrydevelopment.pinepods",
+    "description": "A complete, self-hosted podcast management system"
   },
   {
     "pkg": "Pinpoint",
@@ -11557,7 +11567,7 @@
   {
     "pkg": "Snux",
     "app_id": "page.codeberg.ilijaculap.snux",
-    "description": "Simple Snake Game"
+    "description": "Simple snake game"
   },
   {
     "pkg": "So Synth LV2",
@@ -14792,7 +14802,7 @@
   {
     "pkg": "choria",
     "app_id": "io.gitlab.jazztickets.choria",
-    "description": "Finally, an MMORPG that&apos;s all about grinding and doing chores."
+    "description": "Finally, an MMORPG that&apos;s all about grinding and doing chores"
   },
   {
     "pkg": "coppwr",
@@ -15002,7 +15012,7 @@
   {
     "pkg": "go-minesweeper",
     "app_id": "io.github.heathcliff26.go-minesweeper",
-    "description": "A minesweeper implementation in golang"
+    "description": "A minesweeper game"
   },
   {
     "pkg": "godotGem",
@@ -15293,6 +15303,11 @@
     "pkg": "mMass",
     "app_id": "org.mmass.mMass",
     "description": "Open Source Mass Spectrometry Tool"
+  },
+  {
+    "pkg": "madamiru",
+    "app_id": "com.mtkennerly.madamiru",
+    "description": "Dynamic multi-multimedia player"
   },
   {
     "pkg": "master_me",

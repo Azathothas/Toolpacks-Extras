@@ -50,6 +50,10 @@ NAME: Space
 APP_ID: app.getspace.Space
 Descr: Spaced Repetition for Flashcards
 -----------------------------
+NAME: Go2TV
+APP_ID: app.go2tv.go2tv
+Descr: Cast media files to UPnP/DLNA Media Renderers and Smart TVs
+-----------------------------
 NAME: Gummi
 APP_ID: app.gummi.gummi
 Descr: The simple LaTeX editor
@@ -1762,6 +1766,10 @@ NAME: Google Earth Pro
 APP_ID: com.google.EarthPro
 Descr: 3D planet viewer
 -----------------------------
+NAME: Pinepods
+APP_ID: com.gooseberrydevelopment.pinepods
+Descr: A complete, self-hosted podcast management system
+-----------------------------
 NAME: Gopeed
 APP_ID: com.gopeed.Gopeed
 Descr: A modern download manager
@@ -2157,6 +2165,10 @@ Descr: Stream games and other applications from another PC running Sunshine or G
 NAME: Omission
 APP_ID: com.mousepawmedia.omission
 Descr: A deceptively simple word puzzle.
+-----------------------------
+NAME: madamiru
+APP_ID: com.mtkennerly.madamiru
+Descr: Dynamic multi-multimedia player
 -----------------------------
 NAME: Whakarere
 APP_ID: com.mudeprolinux.whakarere
@@ -3978,10 +3990,6 @@ NAME: Exodus
 APP_ID: io.exodus.Exodus.desktop
 Descr: All-in-one app to secure, manage, and exchange blockchain assets
 -----------------------------
-NAME: Carburetor
-APP_ID: io.frama.tractor.carburetor
-Descr: Browse anonymously
------------------------------
 NAME: Books
 APP_ID: io.frappe.books
 Descr: Free Desktop book-keeping software for small businesses and freelancers
@@ -4660,7 +4668,7 @@ Descr: Combine emojis with Google&apos;s Emoji Kitchen
 -----------------------------
 NAME: go-minesweeper
 APP_ID: io.github.heathcliff26.go-minesweeper
-Descr: A minesweeper implementation in golang
+Descr: A minesweeper game
 -----------------------------
 NAME: Gyre
 APP_ID: io.github.helpseeker.Gyre
@@ -5772,7 +5780,7 @@ Descr: Transfer your applications across installations
 -----------------------------
 NAME: choria
 APP_ID: io.gitlab.jazztickets.choria
-Descr: Finally, an MMORPG that&apos;s all about grinding and doing chores.
+Descr: Finally, an MMORPG that&apos;s all about grinding and doing chores
 -----------------------------
 NAME: Empty Clip
 APP_ID: io.gitlab.jazztickets.emptyclip
@@ -9552,7 +9560,7 @@ Descr: A puzzle game
 -----------------------------
 NAME: Snux
 APP_ID: page.codeberg.ilijaculap.snux
-Descr: Simple Snake Game
+Descr: Simple snake game
 -----------------------------
 NAME: When Penguins Fly
 APP_ID: page.codeberg.imbev.WhenPenguinsFly
@@ -9565,6 +9573,10 @@ Descr: Manage blood pressure data
 NAME: Pfeilspiel TNG international
 APP_ID: page.codeberg.maerchenfeeimgarten.Pfeilspiel
 Descr: A game about arrows that requires a close look
+-----------------------------
+NAME: Outfly
+APP_ID: page.codeberg.outfly.outfly
+Descr: Breathtaking 3D space game in the rings of Jupiter
 -----------------------------
 NAME: Find Billy!
 APP_ID: page.codeberg.papojari.Find_Billy
