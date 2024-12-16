@@ -159,7 +159,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
       #Strip
        find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -exec file -i "{}" \; |\
        grep "application/.*executable" | cut -d":" -f1 | xargs realpath |\
-       xargs -I {} sh -c '
+       xargs -I "{}" bash -c '
          base=$(basename "{}")
          if [[ "$base" != *.no_strip ]]; then 
              objcopy --remove-section=".comment" --remove-section=".note.*" "{}"
@@ -205,14 +205,15 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    PKG_SIZE_RAW="$(stat --format="%s" "${GHCR_PKG}" | tr -d '[:space:]')"
    #PKG_SIZE="$(echo "${PKG_SIZE_RAW}" | awk '{byte=$1; if (byte<1024) printf "%.2f B\n", byte; else if (byte<1024**2) printf "%.2f KB\n", byte/1024; else if (byte<1024**3) printf "%.2f MB\n", byte/(1024**2); else printf "%.2f GB\n", byte/(1024**3)}')"
    PKG_SIZE="$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
-   export GHCR_PKG PROG PKG_BSUM PKG_DATE PKG_SIZE PKG_SIZE_RAW PKG_SHASUM
+   SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]')" ; export SBUILD_PKGVER
+   export GHCR_PKG PROG PKG_BSUM PKG_DATE PKG_SIZE PKG_SIZE_RAW PKG_SHASUM SBUILD_PKGVER
    cat "${TMPJSON}" | jq -r \
    '{
-    "_disabled": (._disabled // "unknown"),
+    "_disabled": (._disabled | tostring // "unknown"),
     "pkg": (env.PROG // .pkg // ""),
     "pkg_family": (env.PKG_FAMILY // ""),
     "pkg_id": (.pkg_id // ""),
-    "pkg_name": (env.PKG // .pkg // ""),
+    "pkg_name": (env.PROG // .pkg // ""),
     "app_id": (.app_id // ""),
     "appstream": (.appstream // ""),
     "category": (.category // []),
@@ -250,7 +251,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
     "size_raw": (env.PKG_SIZE_RAW // ""),
     "rank": (env.RANK // "")
   }' | jq . > "${SBUILD_OUTDIR}/${PROG}.json"
-  fi  
+  fi
  done
 fi
 }
