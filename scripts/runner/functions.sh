@@ -157,11 +157,18 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        sudo chown -R "$(whoami):$(whoami)" "${SBUILD_OUTDIR}"
        find "${SBUILD_OUTDIR}" -type f -exec sudo chmod +xwr "{}" \;
       #Strip
-       find "${SBUILD_OUTDIR}" -type f -exec objcopy --remove-section=".comment" --remove-section=".note.*" "{}" \;
-       find "${SBUILD_OUTDIR}" -type f ! -name "*.no_strip" -exec strip --strip-debug --strip-dwo --strip-unneeded "{}" \;
+       find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -exec file -i "{}" \; |\
+       grep "application/.*executable" | cut -d":" -f1 | xargs realpath |\
+       xargs -I {} sh -c '
+         base=$(basename "{}")
+         if [[ "$base" != *.no_strip ]]; then 
+             objcopy --remove-section=".comment" --remove-section=".note.*" "{}"
+             strip --strip-debug --strip-dwo --strip-unneeded "{}"
+         fi
+       '
       #Sanity
        find "${SBUILD_OUTDIR}" -type f -exec touch "{}" \;
-       find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'echo -e "\nFile: {}\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)"'
+       find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'printf "\nFile: {}\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)\n"'
       #End
        export SBUILD_SUCCESSFUL="YES"
        echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]"
@@ -190,6 +197,15 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
  #Generate Json for each $progs
  for PROG in "${SBUILD_PKGS[@]}"; do
   if [[ -s "${SBUILD_OUTDIR}/${PROG}" && $(stat -c%s "${SBUILD_OUTDIR}/${PROG}") -gt 10 ]]; then
+   GHCR_PKG="$(realpath ${SBUILD_OUTDIR}/${PROG})"
+   PKG_DATE="$(date --utc +%Y-%m-%dT%H:%M:%S)Z"
+   PKG_DESCRIPTION="$(jq -r 'if (.description | has(env.PROG) and .description[env.PROG] != "") then .description[env.PROG] else (.description // "") end' ${TMPJSON})"
+   PKG_BSUM="$(b3sum "${GHCR_PKG}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+   PKG_SHASUM="$(sha256sum "${GHCR_PKG}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
+   PKG_SIZE_RAW="$(stat --format="%s" "${GHCR_PKG}" | tr -d '[:space:]')"
+   #PKG_SIZE="$(echo "${PKG_SIZE_RAW}" | awk '{byte=$1; if (byte<1024) printf "%.2f B\n", byte; else if (byte<1024**2) printf "%.2f KB\n", byte/1024; else if (byte<1024**3) printf "%.2f MB\n", byte/(1024**2); else printf "%.2f GB\n", byte/(1024**3)}')"
+   PKG_SIZE="$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
+   export GHCR_PKG PROG PKG_BSUM PKG_DATE PKG_SIZE PKG_SIZE_RAW PKG_SHASUM
    cat "${TMPJSON}" | jq -r \
    '{
     "_disabled": (._disabled // "unknown"),
@@ -200,7 +216,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
     "app_id": (.app_id // ""),
     "appstream": (.appstream // ""),
     "category": (.category // []),
-    "description": (env.DESCRIPTION // (.description[env.PROG] // .description // "")),
+    "description": (env.PKG_DESCRIPTION // (.description[env.PROG] // .description // "")),
     "desktop": (.desktop // ""),
     "homepage": (.homepage // []),
     "icon": (.icon // ""),
@@ -225,13 +241,13 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
     "src_url": (.src_url // []),
     "tag": (.tag // []),
     "version": (env.SBUILD_PKGVER // ""),
-    "bsum": (env.BSUM // ""),
-    "build_date": (env.BUILD_DATE // ""),
-    "build_script": (env.BUILD_SCRIPT // ""),
+    "bsum": (env.PKG_BSUM // ""),
+    "build_date": (env.PKG_DATE // ""),
+    "build_script": (env.SBUILD_SCRIPT // ""),
     "download_url": (env.DOWNLOAD_URL // ""),
-    "shasum": (env.SHASUM // ""),
-    "size": (env.SIZE // ""),
-    "size_raw": (env.SIZE_RAW // ""),
+    "shasum": (env.PKG_SHASUM // ""),
+    "size": (env.PKG_SIZE // ""),
+    "size_raw": (env.PKG_SIZE_RAW // ""),
     "rank": (env.RANK // "")
   }' | jq . > "${SBUILD_OUTDIR}/${PROG}.json"
   fi  
@@ -378,7 +394,7 @@ cleanup_env()
 {
 #Cleanup Dir  
  if [[ "${KEEP_LOGS}" != "YES" ]]; then
-  echo -e "[-]\n Removing ALL Logs & Files\n"
+  echo -e "\n[-] Removing ALL Logs & Files\n"
   rm -rvf "${BUILD_DIR}" 2>/dev/null
  fi
 #Cleanup Env
