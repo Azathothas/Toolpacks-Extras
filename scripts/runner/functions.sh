@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# VERSION=0.0.7
+
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
 ## Meant to Set Env for Build
@@ -210,6 +212,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    cat "${TMPJSON}" | jq -r \
    '{
     "_disabled": (._disabled | tostring // "unknown"),
+    "host": (env.HOST_TRIPLET // ""),
     "pkg": (env.PROG // .pkg // ""),
     "pkg_family": (env.PKG_FAMILY // ""),
     "pkg_id": (.pkg_id // ""),
