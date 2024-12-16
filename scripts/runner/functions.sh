@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.7
+# VERSION=0.0.8
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -209,6 +209,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    PKG_SIZE="$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')"
    SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]')" ; export SBUILD_PKGVER
    export GHCR_PKG PROG PKG_BSUM PKG_DATE PKG_SIZE PKG_SIZE_RAW PKG_SHASUM SBUILD_PKGVER
+   echo "[+] Generating Json for ${SBUILD_PKG} (PROG=${PROG}) ==> ${SBUILD_OUTDIR}/${PROG}.json"
    cat "${TMPJSON}" | jq -r \
    '{
     "_disabled": (._disabled | tostring // "unknown"),
