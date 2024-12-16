@@ -73,6 +73,7 @@ upload_to_ghcr()
      PKG_REPOLOGY="$(jq -r 'if .repology | type == "array" then .repology[0] else .repology end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      [[ "${PKG_REPOLOGY}" == "null" ]] && PKG_REPOLOGY=""
      PKG_SCREENSHOT="$(jq -r 'if .screenshots | type == "array" then .screenshots[0] else .screenshots end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
+     [[ "${PKG_SCREENSHOT}" == "null" ]] && PKG_SCREENSHOT=""
      PKG_SHASUM="$(jq -r '.shasum' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      PKG_SRCURL="$(jq -r 'if .src_url | type == "array" then .src_url[0] else .src_url end' "${TMPDIR}/${TMPJSON}" | tr -d '[:space:]')"
      [[ "${PKG_SRCURL}" == "null" ]] && PKG_SRCURL=""
@@ -110,7 +111,7 @@ upload_to_ghcr()
      echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${ARCH}]"
      oras push --concurrency "100" --disable-path-validation \
      --config "/dev/null:application/vnd.oci.empty.v1+json" \
-     --annotation "com.github.package.type=soar_${REPO}" \
+     --annotation "com.github.package.type=soar_pkg" \
      --annotation "dev.pkgforge.discord=https://discord.gg/djJUs48Zbu" \
      --annotation "dev.pkgforge.soar.build_date=${PKG_DATE}" \
      --annotation "dev.pkgforge.soar.build_log=${BUILD_LOG}" \
@@ -126,7 +127,7 @@ upload_to_ghcr()
      --annotation "dev.pkgforge.soar.pkg=${PKG_ORIG}" \
      --annotation "dev.pkgforge.soar.pkg_family=${PKG_FAMILY}" \
      --annotation "dev.pkgforge.soar.pkg_name=${PKG_NAME}" \
-     --annotation "dev.pkgforge.soar.pkg_webindex=https://pkgs.pkgforge.dev/staging/${ARCH}-Linux/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
+     --annotation "dev.pkgforge.soar.pkg_webindex=https://pkgs.pkgforge.dev/stable/${ARCH}-Linux/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
      --annotation "dev.pkgforge.soar.repology=${PKG_REPOLOGY}" \
      --annotation "dev.pkgforge.soar.screenshot=${PKG_SCREENSHOT}" \
      --annotation "dev.pkgforge.soar.shasum=${PKG_SHASUM}" \
@@ -136,7 +137,7 @@ upload_to_ghcr()
      --annotation "org.opencontainers.image.authors=https://docs.pkgforge.dev/contact/chat" \
      --annotation "org.opencontainers.image.created=${PKG_DATE}" \
      --annotation "org.opencontainers.image.description=${PKG_DESCRIPTION}" \
-     --annotation "org.opencontainers.image.documentation=${BUILD_SCRIPT}" \
+     --annotation "org.opencontainers.image.documentation=https://pkgs.pkgforge.dev/stable/${ARCH}-Linux/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
      --annotation "org.opencontainers.image.licenses=blessing" \
      --annotation "org.opencontainers.image.ref.name=${GHCR_PKGVER}" \
      --annotation "org.opencontainers.image.revision=${PKG_SHASUM:-GHCR_PKGVER}" \
