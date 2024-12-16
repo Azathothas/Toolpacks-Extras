@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+8
+# VERSION=0.0.9
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -34,6 +34,10 @@ setup_env()
  mkdir -pv "${SBUILD_TMPDIR}"
  export BUILD_DIR INPUT_SBUILD SBUILD_OUTDIR SBUILD_TMPDIR
  echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+ echo "export INPUT_SBUILD='${INPUT_SBUILD}'" > "${OCWD}/ENVPATH"
+ echo "export BUILD_DIR='${BUILD_DIR}'" >> "${OCWD}/ENVPATH"
+ echo "export SBUILD_OUTDIR='${SBUILD_OUTDIR}'" >> "${OCWD}/ENVPATH"
+ echo "export SBUILD_TMPDIR='${SBUILD_TMPDIR}'" >> "${OCWD}/ENVPATH"
 }
 export -f setup_env
 #-------------------------------------------------------#
@@ -44,6 +48,7 @@ check_sane_env()
 {
   unset CONTINUE_SBUILD
   if [[ -z "${INPUT_SBUILD//[[:space:]]/}" ]] || \
+   [[ ! -d "${OCWD}" ]] || \
    [[ ! -d "${SBUILD_TMPDIR}" ]]; then
    echo -e "\n[✗] FATAL: CAN NOT CONTINUE\n"
    export CONTINUE_SBUILD="NO"
@@ -79,6 +84,7 @@ gen_json_from_sbuild()
        pkg_type="$(jq -r '"\(.pkg_type | select(. != "null") // "")"' "${TMPJSON}" | sed 's/\.$//' | tr -d '[:space:]')" ; export PKG_TYPE="${pkg_type}"
        SBUILD_PKG="$(echo "${pkg}.${pkg_type}" | sed 's/\.$//' | tr -d '[:space:]')"
        export pkg pkg_id pkg_type SBUILD_PKG
+       echo "export SBUILD_PKG='${SBUILD_PKG}'" >> "${OCWD}/ENVPATH"
        if [ "$(echo "${SBUILD_PKG}" | tr -d '[:space:]' | wc -c | tr -cd '0-9')" -le 1 ]; then
          echo -e "\n[✗] FATAL: ${SBUILD_PKG} ('.pkg+.pkg_type') is less than 1 Character\n"
          export CONTINUE_SBUILD="NO"
@@ -184,8 +190,9 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        export SBUILD_SUCCESSFUL="YES"
        echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}] [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
        if [ -d "${OCWD}" ]; then
-         echo -e "[+] LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log' (${OCWD}/LOGPATH)"
-         echo "export LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" > "${OCWD}/LOGPATH"
+         echo -e "[+] LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'"
+         echo -e "[+] ENVPATH=$(realpath "${OCWD}/ENVPATH")"
+         echo "export LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" >> "${OCWD}/ENVPATH"
        fi
      else
        echo -e "\n[✗] FATAL: Could NOT Build ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]\n"
