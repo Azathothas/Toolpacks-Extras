@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8
+# VERSION=0.0.8+1
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -199,6 +199,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
  #Generate Json for each $progs
  for PROG in "${SBUILD_PKGS[@]}"; do
   if [[ -s "${SBUILD_OUTDIR}/${PROG}" && $(stat -c%s "${SBUILD_OUTDIR}/${PROG}") -gt 10 ]]; then
+   export PROG SBUILD_PKGVER
    GHCR_PKG="$(realpath ${SBUILD_OUTDIR}/${PROG})"
    PKG_DATE="$(date --utc +%Y-%m-%dT%H:%M:%S)Z"
    PKG_DESCRIPTION="$(jq -r 'if (.description | has(env.PROG) and .description[env.PROG] != "") then .description[env.PROG] else (.description // "") end' ${TMPJSON})"
