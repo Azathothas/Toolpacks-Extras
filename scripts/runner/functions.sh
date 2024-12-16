@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+2
+# VERSION=0.0.9+3
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -300,6 +300,9 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    export GHCR_PKG PKG_JSON
    echo "export PKG_JSON='${PKG_JSON}'" >> "${OCWD}/ENVPATH"
    if [[ -s "${GHCR_PKG}" && $(stat -c%s "${GHCR_PKG}") -gt 100 ]]; then
+     BUILD_LOG="$(jq -r '.build_log' "${PKG_JSON}" | tr -d '[:space:]')"
+     [[ "${BUILD_LOG}" == "null" ]] && BUILD_LOG=""
+     BUILD_SCRIPT="$(jq -r '.build_script' "${PKG_JSON}" | tr -d '[:space:]')"
      PKG_BSUM="$(jq -r '.bsum' "${PKG_JSON}" | tr -d '[:space:]')"
      [ -z "${PKG_BSUM}" ] && PKG_BSUM="$(b3sum "${GHCR_PKG}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
      PKG_CATEGORY="$(jq -r 'if .category | type == "array" then .category[0] else .category end' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -312,6 +315,8 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      [[ "${PKG_HOMEPAGE}" == "null" ]] && PKG_HOMEPAGE=""
      PKG_ICON="$(jq -r 'if .icon | type == "array" then .icon[0] else .icon end' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_ICON}" == "null" ]] && PKG_ICON=""
+     PKG_ID="$(jq -r '.pkg_id' "${PKG_JSON}" | tr -d '[:space:]')"
+     [[ "${PKG_ID}" == "null" ]] && PKG_ID="${PKG_FAMILY}"
      PKG_NAME="$(jq -r '.pkg_name' "${PKG_JSON}" | tr -d '[:space:]')"
      PKG_NOTE="$(jq -r 'if .note | type == "array" then .note[0] else .note end' "${PKG_JSON}")"
      [[ "${PKG_NOTE}" == "null" ]] && PKG_NOTE=""
@@ -340,13 +345,11 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
        fi
      fi
      echo "export PKG_VERSION='${PKG_VERSION}'" >> "${OCWD}/ENVPATH"
-     BUILD_SCRIPT="$(jq -r '.build_script' "${PKG_JSON}" | tr -d '[:space:]')"
-     BUILD_LOG="$(jq -r '.build_log' "${PKG_JSON}" | tr -d '[:space:]')"
    else
      echo -e "\n[✗] No Valid \$GHCR_PKG was Provided\n"
     return
    fi
-   GHCRPKG_URL="ghcr.io/pkgforge/${PKG_REPO}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" ; export GHCRPKG_URL
+   GHCRPKG_URL="ghcr.io/pkgforge/${PKG_REPO}/${PKG_FAMILY:-PKG_NAME}/${PKG_ID:-${PKG_FAMILY:-PKG_NAME}}" ; export GHCRPKG_URL
    echo "export GHCRPKG_URL='${GHCRPKG_URL}'" >> "${OCWD}/ENVPATH"
    PKG_SIZE="$(jq -r '.size' "${PKG_JSON}" | tr -d '[:space:]')"
    PKG_SIZE="${PKG_SIZE:-$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')}"
