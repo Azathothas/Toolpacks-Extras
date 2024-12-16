@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+1
+# VERSION=0.0.8+2
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -89,6 +89,9 @@ gen_json_from_sbuild()
        export CONTINUE_SBUILD="YES"
       else
        echo -e '#!/usr/bin/env '"${SBUILD_SHELL}"'\n\n' > "${TMPXVER}"
+       if [[ "${DEBUG_BUILD}" != "NO" ]]; then
+         echo 'set -x' >> "${TMPXVER}"
+       fi
        yq '.x_exec.pkgver' "${INPUT_SBUILD}" >> "${TMPXVER}"
        if [[ -s "${TMPXVER}" && $(stat -c%s "${TMPXVER}") -gt 10 ]]; then
          chmod +x "${TMPXVER}"
