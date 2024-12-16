@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+2
+# VERSION=0.0.8+3
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -23,10 +23,15 @@ setup_env()
 {
  INPUT_SBUILD="${1:-$(echo "$@" | tr -d '[:space:]')}"
  INPUT_SBUILD_PATH="$(realpath ${INPUT_SBUILD})" ; export INPUT_SBUILD="${INPUT_SBUILD_PATH}"
+ if [[ ! -s "${INPUT_SBUILD}" || $(stat -c%s "${INPUT_SBUILD}") -le 10 ]]; then
+   echo -e "\n[✗] FATAL: SBUILD (${INPUT_SBUILD}) seems Broken\n"
+   export CONTINUE_SBUILD="NO"
+  return 1 || exit 1 
+ fi
  BUILD_DIR="$(mktemp -d --tmpdir=${SYSTMP}/pkgforge XXXXXXX_$(basename ${INPUT_SBUILD}))"
  SBUILD_OUTDIR="${BUILD_DIR}/SBUILD_OUTDIR"
  SBUILD_TMPDIR="${SBUILD_OUTDIR}/SBUILD_TMPDIR"
- mkdir -p "${SBUILD_TMPDIR}"
+ mkdir -pv "${SBUILD_TMPDIR}"
  export BUILD_DIR INPUT_SBUILD SBUILD_OUTDIR SBUILD_TMPDIR
  echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR}"
 }
@@ -37,6 +42,7 @@ export -f setup_env
 ##Checks if needed vars,files & dirs exist
 check_sane_env()
 {
+  unset CONTINUE_SBUILD
   if [[ -z "${INPUT_SBUILD//[[:space:]]/}" ]] || \
    [[ ! -d "${SBUILD_TMPDIR}" ]]; then
    echo -e "\n[✗] FATAL: CAN NOT CONTINUE\n"
