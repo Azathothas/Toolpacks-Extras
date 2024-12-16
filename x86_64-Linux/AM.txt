@@ -302,7 +302,6 @@
 | fastfetch | Like neofetch, but much faster because written in C. | https://github.com/fastfetch-cli/fastfetch | https://bin.pkgforge.dev/x86_64/fastfetch | 37031dea4c7f |
 | fastfetch-staticx | Like neofetch, but much faster because written in C. | https://github.com/fastfetch-cli/fastfetch | https://bin.pkgforge.dev/x86_64/fastfetch-staticx | c95b11e8dffc |
 | fasttld | go-fasttld is a high performance effective top level domains (eTLD) extraction module | https://github.com/elliotwutingfeng/go-fasttld | https://bin.pkgforge.dev/x86_64/fasttld | d2994bc144e3 |
-| fblog | Small command-line JSON Log viewer | https://github.com/brocode/fblog | https://bin.pkgforge.dev/x86_64/fblog | 9d99d22dba9e |
 | fclones | Efficient Duplicate File Finder | https://github.com/pkolaczk/fclones | https://bin.pkgforge.dev/x86_64/fclones | 82d35025e3c0 |
 | fd | A simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd | https://bin.pkgforge.dev/x86_64/fd | acddbe65f3b7 |
 | fd-find | A simple, fast and user-friendly alternative to find | https://github.com/sharkdp/fd | https://bin.pkgforge.dev/x86_64/fd-find | acddbe65f3b7 |
