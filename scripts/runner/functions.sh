@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9
+# VERSION=0.0.9+1
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -31,7 +31,7 @@ setup_env()
  BUILD_DIR="$(mktemp -d --tmpdir=${SYSTMP}/pkgforge XXXXXXX_$(basename ${INPUT_SBUILD}))"
  SBUILD_OUTDIR="${BUILD_DIR}/SBUILD_OUTDIR"
  SBUILD_TMPDIR="${SBUILD_OUTDIR}/SBUILD_TMPDIR"
- mkdir -pv "${SBUILD_TMPDIR}"
+ mkdir -p "${SBUILD_TMPDIR}"
  export BUILD_DIR INPUT_SBUILD SBUILD_OUTDIR SBUILD_TMPDIR
  echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
  echo "export INPUT_SBUILD='${INPUT_SBUILD}'" > "${OCWD}/ENVPATH"
@@ -168,7 +168,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
  #Run
    check_sane_env
    pushd "${SBUILD_OUTDIR}" >/dev/null 2>&1
-     timeout -k 60m 5m "${TMPXRUN}"
+     printf "\n" && timeout -k 60m 5m "${TMPXRUN}" ; printf "\n"
      if [ -d "${SBUILD_OUTDIR}" ] && [ $(du -s "${SBUILD_OUTDIR}" | cut -f1) -gt 100 ]; then
       #Perms
        sudo chown -R "$(whoami):$(whoami)" "${SBUILD_OUTDIR}"
