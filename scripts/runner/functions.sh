@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.8+4
+# VERSION=0.0.8+5
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -33,7 +33,7 @@ setup_env()
  SBUILD_TMPDIR="${SBUILD_OUTDIR}/SBUILD_TMPDIR"
  mkdir -pv "${SBUILD_TMPDIR}"
  export BUILD_DIR INPUT_SBUILD SBUILD_OUTDIR SBUILD_TMPDIR
- echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR}"
+ echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
 }
 export -f setup_env
 #-------------------------------------------------------#
@@ -182,7 +182,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'printf "\nFile: {}\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)\n"'
       #End
        export SBUILD_SUCCESSFUL="YES"
-       echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]"
+       echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}] [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
      else
        echo -e "\n[✗] FATAL: Could NOT Build ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]\n"
        cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" 2>/dev/null
