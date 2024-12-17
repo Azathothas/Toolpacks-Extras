@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.1
+# VERSION=0.0.2
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -55,6 +55,7 @@ if [[ -s "${TEMP_LOG}" && $(stat -c%s "${TEMP_LOG}") -gt 10 && -n "${LOGPATH}" ]
     -e '/.*access_key_id.*/Id' \
     -e '/.*secret_access_key.*/Id' \
     -e '/.*cloudflarestorage.*/Id' -i "${TEMP_LOG}"
+ sed '/.*\[+\] Total Size.*/I,$ { /.*\[+\] Total Size.*/I p; d }' -i "${TEMP_LOG}"
     #grep -viE 'github_pat|ghp_|glpat|hf_|token|access_key_id|secret_access_key|cloudflarestorage' "${TEMP_LOG}" | tee "${LOGPATH}" && rm "${TEMP_LOG}" 2>/dev/null
     grep -viE 'github_pat|ghp_|glpat|hf_|token|access_key_id|secret_access_key|cloudflarestorage' "${TEMP_LOG}" > "${LOGPATH}" && rm "${TEMP_LOG}" 2>/dev/null
     #mv -fv "${TEMP_LOG}" "${LOGPATH}" && rm "${TEMP_LOG}" 2>/dev/null
@@ -90,7 +91,7 @@ export -f sanitize_logs
    for ((i=0; i<${#RECIPES[@]}; i++)); do
     pushd "$($TMPDIRS)" >/dev/null 2>&1
     OCWD="$(realpath .)" ; export OCWD
-    unset CONTINUE_SBUILD KEEP_LOGS LOGPATH PUSH_SUCCESSFUL SBUILD_SUCCESSFUL
+    unset CONTINUE_SBUILD GHCRPKG KEEP_LOGS LOGPATH PKG_FAMILY PUSH_SUCCESSFUL SBUILD_SUCCESSFUL
     TEMP_LOG="./BUILD.log"
     #Init
      START_TIME="$(date +%s)" && export START_TIME="${START_TIME}"
@@ -102,6 +103,7 @@ export -f sanitize_logs
     #Run
     if [[ -s "${BUILDSCRIPT}" && $(stat -c%s "${BUILDSCRIPT}") -gt 10 ]]; then
      SBUILD_SCRIPT="${RECIPE}" && export SBUILD_SCRIPT
+     GHCRPKG="$(jq -r '.[] | select(.build_script == env.SBUILD_SCRIPT) | .ghcrpkg' "${SYSTMP}/pkgforge/SBUILD_LIST.json" | tr -d '[:space:]')" && export GHCRPKG
      PKG_FAMILY="$(jq -r '.[] | select(.build_script == env.SBUILD_SCRIPT) | .pkg_family' "${SYSTMP}/pkgforge/SBUILD_LIST.json" | tr -d '[:space:]')" && export PKG_FAMILY
      #Main
       {
@@ -110,27 +112,25 @@ export -f sanitize_logs
        gen_json_from_sbuild
        build_progs
        if [ -d "${SBUILD_OUTDIR}" ] && [ "$(du -s "${SBUILD_OUTDIR}" | cut -f1)" -gt 100 ]; then
-         generate_json 
-       #Upload
-         #upload_to_ghcr
-         if [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
-           echo 'KEEP_LOGS="YES"' >> "${OCWD}/ENVPATH"
-         fi
+         generate_json
        else
          echo 'KEEP_LOGS="YES"' >> "${OCWD}/ENVPATH"
        fi
       #} 2>&1 | ts '[%Y-%m-%dT%Hh%Mm%Ss]➜ ' | tee "${TEMP_LOG}"
       } 2>&1 | ts -s '[%H:%M:%S]➜ ' | tee "${TEMP_LOG}"
-      source "${OCWD}/ENVPATH"
+      source "${OCWD}/ENVPATH" ; SBUILD_PKGS=($SBUILD_PKGS)
       sanitize_logs
-      attach_to_ghcr
+      printf '%s\n' "${SBUILD_PKGS[@]}" | xargs -P "$(($(nproc)+1))" -I "{}" bash -c 'upload_to_ghcr "$@"' _ "{}"
+      if [[ "${PUSH_SUCCESSFUL}" != "YES" ]]; then
+       export KEEP_LOGS="YES"
+      fi
       cleanup_env
     fi
     if [[ "${KEEP_LOGS}" != "YES" ]]; then
-     rm "$(realpath .)" && popd >/dev/null 2>&1
+     rm -rf "$(realpath .)" && popd >/dev/null 2>&1
     else
      popd >/dev/null 2>&1
-    fi 
+    fi
     END_TIME="$(date +%s)" && export END_TIME="${END_TIME}"
     ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")" 
    done

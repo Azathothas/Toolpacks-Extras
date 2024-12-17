@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+8
+# VERSION=0.0.9+9
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -165,6 +165,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
    SBUILD_PKGS=("${PKG}") ; export SBUILD_PKGS
    echo -e "[+] Progs: ${SBUILD_PKGS[*]}"
   fi
+  printf "export SBUILD_PKGS='%s'\n" "${SBUILD_PKGS[*]}" >> "${OCWD}/ENVPATH"
  #Run
    check_sane_env
    pushd "${SBUILD_OUTDIR}" >/dev/null 2>&1
@@ -367,7 +368,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      echo "export PKG_VERSION='${PKG_VERSION}'" >> "${OCWD}/ENVPATH"
    else
      echo -e "\n[✗] No Valid \$GHCR_PKG was Provided\n"
-    return
+    return 1 || exit 1
    fi
    if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG##*[[:space:]]}" ]; then
      GHCRPKG_URL="$(echo "${GHCRPKG}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
@@ -383,59 +384,67 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    PKG_SIZE_RAW="$(jq -r '.size_raw' "${PKG_JSON}" | tr -d '[:space:]')"
    PKG_SIZE_RAW="${PKG_SIZE_RAW:-$(stat --format="%s" "${GHCR_PKG}" | tr -d '[:space:]')}"
   #Upload
-   echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${PKG_REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${ARCH}]"
-   oras push --concurrency "100" --disable-path-validation \
-   --config "/dev/null:application/vnd.oci.empty.v1+json" \
-   --annotation "com.github.package.type=soar_pkg" \
-   --annotation "dev.pkgforge.discord=https://discord.gg/djJUs48Zbu" \
-   --annotation "dev.pkgforge.soar.build_date=${PKG_DATE}" \
-   --annotation "dev.pkgforge.soar.build_log=${BUILD_LOG}" \
-   --annotation "dev.pkgforge.soar.build_script=${BUILD_SCRIPT}" \
-   --annotation "dev.pkgforge.soar.bsum=${PKG_BSUM}" \
-   --annotation "dev.pkgforge.soar.category=${PKG_CATEGORY}" \
-   --annotation "dev.pkgforge.soar.description=${PKG_DESCRIPTION}" \
-   --annotation "dev.pkgforge.soar.download_url=${GHCRPKG_URL}:${PKG_VERSION}" \
-   --annotation "dev.pkgforge.soar.ghcrpkg=${GHCRPKG_URL}:${GHCRPKG_TAG}" \
-   --annotation "dev.pkgforge.soar.homepage=${PKG_HOMEPAGE:-PKG_SRCURL}" \
-   --annotation "dev.pkgforge.soar.icon=${PKG_ICON}" \
-   --annotation "dev.pkgforge.soar.json=$(jq . ${PKG_JSON})" \
-   --annotation "dev.pkgforge.soar.note=${PKG_NOTE}" \
-   --annotation "dev.pkgforge.soar.pkg=${SBUILD_PKG:-PKG_ORIG}" \
-   --annotation "dev.pkgforge.soar.pkg_family=${PKG_FAMILY}" \
-   --annotation "dev.pkgforge.soar.pkg_name=${PKG_NAME}" \
-   --annotation "dev.pkgforge.soar.pkg_webindex=https://pkgs.pkgforge.dev/stable/${HOST_TRIPLET}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
-   --annotation "dev.pkgforge.soar.repology=${PKG_REPOLOGY}" \
-   --annotation "dev.pkgforge.soar.screenshot=${PKG_SCREENSHOT}" \
-   --annotation "dev.pkgforge.soar.shasum=${PKG_SHASUM}" \
-   --annotation "dev.pkgforge.soar.size=${PKG_SIZE}" \
-   --annotation "dev.pkgforge.soar.size_raw=${PKG_SIZE_RAW}" \
-   --annotation "dev.pkgforge.soar.src_url=${PKG_SRCURL:-PKG_HOMEPAGE}" \
-   --annotation "org.opencontainers.image.authors=https://docs.pkgforge.dev/contact/chat" \
-   --annotation "org.opencontainers.image.created=${PKG_DATE}" \
-   --annotation "org.opencontainers.image.description=${PKG_DESCRIPTION}" \
-   --annotation "org.opencontainers.image.documentation=https://pkgs.pkgforge.dev/stable/${HOST_TRIPLET}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
-   --annotation "org.opencontainers.image.licenses=blessing" \
-   --annotation "org.opencontainers.image.ref.name=${PKG_VERSION}" \
-   --annotation "org.opencontainers.image.revision=${PKG_SHASUM:-PKG_VERSION}" \
-   --annotation "org.opencontainers.image.source=https://github.com/pkgforge/${PKG_REPO}" \
-   --annotation "org.opencontainers.image.title=${PKG_NAME}" \
-   --annotation "org.opencontainers.image.url=${PKG_SRCURL}" \
-   --annotation "org.opencontainers.image.vendor=pkgforge" \
-   --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
-   "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./$(basename ${GHCR_PKG})" "./$(basename ${LOGPATH})"
-   if [[ "$(oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq -r '.annotations["org.opencontainers.image.created"]')" == "${PKG_DATE}" ]]; then
-     echo -e "\n[+] Registry --> https://${GHCRPKG_URL}\n"
-     export PUSH_SUCCESSFUL="YES"
-     #rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
-   else
-     echo -e "\n[✗] Failed to Push Artifact to {GHCRPKG_URL}:${GHCRPKG_TAG}\n"
-     export PUSH_SUCCESSFUL="NO"
-   fi
-   echo "export PUSH_SUCCESSFUL='${PUSH_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
+   [[ ! -s "./${PROG}" ]] && echo -e "\n[✗] \${GHCR_PKG} ${PROG} was NOT Found at CWD\n" && return 1
+   [[ ! -s "./${PROG}.json" ]] && echo -e "\n[✗] \${GHCR_PKG}.json ${PROG} was NOT Found at CWD\n" && return 1
+    if [[ ! -s "${LOGPATH}" ]]; then
+     echo -e "\n[✗] \${LOGPATH} was NOT Found at CWD\n"
+     return 1 || exit 1
+    else
+     cp -fv "${LOGPATH}" "${SBUILD_OUTDIR}/${PROG}.log"
+     echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${PKG_REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${ARCH}]"
+     oras push --concurrency "100" --disable-path-validation \
+     --config "/dev/null:application/vnd.oci.empty.v1+json" \
+     --annotation "com.github.package.type=soar_pkg" \
+     --annotation "dev.pkgforge.discord=https://discord.gg/djJUs48Zbu" \
+     --annotation "dev.pkgforge.soar.build_date=${PKG_DATE}" \
+     --annotation "dev.pkgforge.soar.build_log=${BUILD_LOG}" \
+     --annotation "dev.pkgforge.soar.build_script=${BUILD_SCRIPT}" \
+     --annotation "dev.pkgforge.soar.bsum=${PKG_BSUM}" \
+     --annotation "dev.pkgforge.soar.category=${PKG_CATEGORY}" \
+     --annotation "dev.pkgforge.soar.description=${PKG_DESCRIPTION}" \
+     --annotation "dev.pkgforge.soar.download_url=${GHCRPKG_URL}:${PKG_VERSION}" \
+     --annotation "dev.pkgforge.soar.ghcrpkg=${GHCRPKG_URL}:${GHCRPKG_TAG}" \
+     --annotation "dev.pkgforge.soar.homepage=${PKG_HOMEPAGE:-PKG_SRCURL}" \
+     --annotation "dev.pkgforge.soar.icon=${PKG_ICON}" \
+     --annotation "dev.pkgforge.soar.json=$(jq . ${PKG_JSON})" \
+     --annotation "dev.pkgforge.soar.note=${PKG_NOTE}" \
+     --annotation "dev.pkgforge.soar.pkg=${SBUILD_PKG:-PKG_ORIG}" \
+     --annotation "dev.pkgforge.soar.pkg_family=${PKG_FAMILY}" \
+     --annotation "dev.pkgforge.soar.pkg_name=${PKG_NAME}" \
+     --annotation "dev.pkgforge.soar.pkg_webindex=https://pkgs.pkgforge.dev/stable/${HOST_TRIPLET}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
+     --annotation "dev.pkgforge.soar.repology=${PKG_REPOLOGY}" \
+     --annotation "dev.pkgforge.soar.screenshot=${PKG_SCREENSHOT}" \
+     --annotation "dev.pkgforge.soar.shasum=${PKG_SHASUM}" \
+     --annotation "dev.pkgforge.soar.size=${PKG_SIZE}" \
+     --annotation "dev.pkgforge.soar.size_raw=${PKG_SIZE_RAW}" \
+     --annotation "dev.pkgforge.soar.src_url=${PKG_SRCURL:-PKG_HOMEPAGE}" \
+     --annotation "org.opencontainers.image.authors=https://docs.pkgforge.dev/contact/chat" \
+     --annotation "org.opencontainers.image.created=${PKG_DATE}" \
+     --annotation "org.opencontainers.image.description=${PKG_DESCRIPTION}" \
+     --annotation "org.opencontainers.image.documentation=https://pkgs.pkgforge.dev/stable/${HOST_TRIPLET}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
+     --annotation "org.opencontainers.image.licenses=blessing" \
+     --annotation "org.opencontainers.image.ref.name=${PKG_VERSION}" \
+     --annotation "org.opencontainers.image.revision=${PKG_SHASUM:-PKG_VERSION}" \
+     --annotation "org.opencontainers.image.source=https://github.com/pkgforge/${PKG_REPO}" \
+     --annotation "org.opencontainers.image.title=${PKG_NAME}" \
+     --annotation "org.opencontainers.image.url=${PKG_SRCURL}" \
+     --annotation "org.opencontainers.image.vendor=pkgforge" \
+     --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
+     "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./${PROG}" "./${PROG}.json" "./${PROG}.log"
+     if [[ "$(oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq -r '.annotations["org.opencontainers.image.created"]')" == "${PKG_DATE}" ]]; then
+       echo -e "\n[+] Registry --> https://${GHCRPKG_URL}\n"
+       export PUSH_SUCCESSFUL="YES"
+       #rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
+     else
+       echo -e "\n[✗] Failed to Push Artifact to {GHCRPKG_URL}:${GHCRPKG_TAG}\n"
+       export PUSH_SUCCESSFUL="NO"
+     fi
+     echo "export PUSH_SUCCESSFUL='${PUSH_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
+    fi
    else
     echo -e "\n[-] FAILED to Parse ${PKG_FAMILY}/${PKG_NAME} Metadata <-- ["${SBUILD_OUTDIR}/${PROG}.json"]\n"
     cat "${PKG_JSON}"
-    return
+    return 1 || exit 1
    fi
 fi
 popd >/dev/null 2>&1
