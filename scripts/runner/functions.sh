@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+5
+# VERSION=0.0.9+6
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -309,11 +309,19 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      [[ "${BUILD_LOG}" == "null" ]] && BUILD_LOG=""
      BUILD_SCRIPT="$(jq -r '.build_script' "${PKG_JSON}" | tr -d '[:space:]')"
      PKG_BSUM="$(jq -r '.bsum' "${PKG_JSON}" | tr -d '[:space:]')"
+     [[ "${PKG_BSUM}" == "null" ]] && unset PKG_BSUM
      [ -z "${PKG_BSUM}" ] && PKG_BSUM="$(b3sum "${GHCR_PKG}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
      PKG_CATEGORY="$(jq -r 'if .category | type == "array" then .category[0] else .category end' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_CATEGORY}" == "null" ]] && PKG_CATEGORY=""
      PKG_DATE="$(jq -r '.build_date' "${PKG_JSON}" | tr -d '[:space:]')"
-     PKG_DATE="${PKG_DATE:-$(date --utc +%Y-%m-%dT%H:%M:%S)}Z"
+     [[ "${PKG_DATE}" == "null" ]] && unset PKG_DATE
+     if [ -z "${PKG_DATE+x}" ] || [ -z "${PKG_DATE##*[[:space:]]}" ]; then
+       PKG_DATETMP="$(date --utc +%Y-%m-%dT%H:%M:%S)Z"
+       PKG_DATE="$(echo "${PKG_DATETMP}" | sed 's/ZZ\+/Z/Ig')" ; unset PKG_DATETMP
+     else
+       PKG_DATETMP="${PKG_DATE}"
+       PKG_DATE="$(echo "${PKG_DATETMP}" | sed 's/ZZ\+/Z/Ig')" ; unset PKG_DATETMP
+     fi
      PKG_DESCRIPTION="$(jq -r '.description' "${PKG_JSON}")"
      if [ -z "${PKG_FAMILY+x}" ] || [ -z "${PKG_FAMILY##*[[:space:]]}" ]; then
        PKG_FAMILY="$(jq -r '.pkg_family' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -333,9 +341,10 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      PKG_SCREENSHOT="$(jq -r 'if .screenshots | type == "array" then .screenshots[0] else .screenshots end' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_SCREENSHOT}" == "null" ]] && PKG_SCREENSHOT=""
      PKG_SHASUM="$(jq -r '.shasum' "${PKG_JSON}" | tr -d '[:space:]')"
+     [[ "${PKG_SHASUM}" == "null" ]] && unset PKG_SHASUM
      [ -z "${PKG_SHASUM}" ] && PKG_SHASUM="$(sha256sum "${GHCR_PKG}" | grep -oE '^[a-f0-9]{64}' | tr -d '[:space:]')"
      PKG_SRCURL="$(jq -r 'if .src_url | type == "array" then .src_url[0] else .src_url end' "${PKG_JSON}" | tr -d '[:space:]')"
-     [[ "${PKG_SRCURL}" == "null" ]] && PKG_SRCURL=""
+     [[ "${PKG_SRCURL}" == "null" ]] && unset PKG_SRCURL
      if [[ -n "${PKG_SRCURL}" ]]; then
        [ -z "${PKG_HOMEPAGE}" ] && PKG_HOMEPAGE="${PKG_SRCURL}"
      elif [[ -n "${PKG_HOMEPAGE}" ]]; then
