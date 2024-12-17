@@ -6398,6 +6398,10 @@ NAME: Pineapple Pictures
 APP_ID: net.blumia.pineapple-pictures
 Descr: Image Viewer
 -----------------------------
+NAME: Frigoligo
+APP_ID: net.casimirlab.frigoligo
+Descr: Your articles with you
+-----------------------------
 NAME: Basilisk II
 APP_ID: net.cebix.basilisk
 Descr: A 68k Macintosh emulator
