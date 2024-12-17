@@ -3710,6 +3710,11 @@
     "description": "Frets on Fire is a game of musical skill and fast fingers. The aim of the game is to play guitar with the keyboard as accurately as possible."
   },
   {
+    "pkg": "Frigoligo",
+    "app_id": "net.casimirlab.frigoligo",
+    "description": "Your articles with you"
+  },
+  {
     "pkg": "Fritzing",
     "app_id": "org.fritzing.Fritzing.desktop",
     "description": "Electronic Design Tool"
