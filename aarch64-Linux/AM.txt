@@ -83,30 +83,30 @@
 | aws-wire-lengths | simple command line for various AWS management tasks | https://github.com/oxidecomputer/aws-wire-lengths | https://bin.pkgforge.dev/aarch64/aws-wire-lengths | f29731a689f3 |
 | axel | Lightweight CLI download accelerator | https://github.com/axel-download-accelerator/axel | https://bin.pkgforge.dev/aarch64/axel | 43ed5606d3a7 |
 | axmap | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/axmap | a07f91b04dc2 |
-| b2sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/b2sum | 5f4d542ce459 |
-| b2sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/b2sum | 6a738d88b0ba |
+| b2sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/b2sum | c3a49a270313 |
+| b2sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/b2sum | adae40dba824 |
 | b2sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/b2sum | e1cd01b0d653 |
 | b3sum | the official Rust and C implementations of the BLAKE3 cryptographic hash function | https://github.com/BLAKE3-team/BLAKE3 | https://bin.pkgforge.dev/aarch64/b3sum | ab416846544c |
 | badblocks | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/badblocks | e198c7f8aa32 |
 | bandwhich | Terminal bandwidth utilization tool | https://github.com/imsnif/bandwhich | https://bin.pkgforge.dev/aarch64/bandwhich | 874a15577023 |
 | base32 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/base32 | 79c406c25110 |
 | base32 | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/base32 | 3779bc2026b4 |
-| base32 | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/base32 | 7ae81bdc53fc |
-| base32 | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/base32 | 24fb5900e932 |
+| base32 | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/base32 | cc07cdc2a56f |
+| base32 | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/base32 | 5a4413eaa964 |
 | base32 | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/base32 | c0c8ec3b0054 |
 | base64 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/base64 | 769d5577853d |
 | base64 | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/base64 | 867e556ad152 |
-| base64 | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/base64 | 9e94e9a5bae1 |
-| base64 | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/base64 | 4694ceddb225 |
+| base64 | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/base64 | d669e2f9a1f3 |
+| base64 | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/base64 | 9af939b8488f |
 | base64 | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/base64 | d5fa76debd08 |
 | basename | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/basename | 3f223c12730e |
 | basename | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/basename | 84be638182b1 |
-| basename | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/basename | 7ad8fa5dbde3 |
-| basename | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/basename | 42e2803f775b |
+| basename | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/basename | 41d3aa88d99e |
+| basename | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/basename | 5808a56bf59d |
 | basename | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/basename | f289fca7bf48 |
 | basenc | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/basenc | cc04c6b01b79 |
-| basenc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/basenc | c6fc5e02543c |
-| basenc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/basenc | 5dfa1aaedfdd |
+| basenc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/basenc | acc370dd4865 |
+| basenc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/basenc | f13d5da9fa84 |
 | basenc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/basenc | 1fafa03facfe |
 | bash | GNU Bourne-Again Shell, the de facto standard shell on Linux | https://git.savannah.gnu.org/cgit/bash.git | https://bin.pkgforge.dev/aarch64/Baseutils/bash/bash | 80290736d8cd |
 | bat | cat with colors & syntax highlights | https://github.com/sharkdp/bat | https://bin.pkgforge.dev/aarch64/bat | 2124e45d38e6 |
@@ -174,7 +174,7 @@
 | bubblewrap | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bubblewrap | 86ec3919b5c9 |
 | bucketloot | Automated S3-compatible bucket inspector | https://github.com/redhuntlabs/BucketLoot | https://bin.pkgforge.dev/aarch64/bucketloot | fda2a49c194a |
 | bunzip2 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/bunzip2 | 52abb047a5cc |
-| busybox | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/busybox | 84d55a3b0229 |
+| busybox | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/busybox | ee5e46d67f72 |
 | bwrap | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bwrap | 86ec3919b5c9 |
 | bwrap-patched | Unprivileged sandboxing tool | https://github.com/containers/bubblewrap | https://bin.pkgforge.dev/aarch64/bwrap-patched | 47eac48b0348 |
 | byp4xx | 40X/HTTP bypasser in Go. Features  Verb tampering, headers, | https://github.com/lobuhi/byp4xx | https://bin.pkgforge.dev/aarch64/byp4xx | 68fabfd3f139 |
@@ -191,8 +191,8 @@
 | cargo-unlock | Remove Cargo.lock lockfile | https://github.com/dtolnay/cargo-unlock | https://bin.pkgforge.dev/aarch64/cargo-unlock | 6b635acbe47d |
 | cat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cat | 5b5b227719c6 |
 | cat | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/cat | 233696e449c0 |
-| cat | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cat | 80ca2fee04fa |
-| cat | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cat | 8d8ab5731168 |
+| cat | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cat | 4ce6f3740ea0 |
+| cat | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cat | cb18b8b87445 |
 | cat | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/cat | 4b51b97198fd |
 | catatonit | A container init that is so simple its effectively brain-dead. | https://github.com/openSUSE/catatonit | https://bin.pkgforge.dev/aarch64/catatonit | f9a972682263 |
 | catv | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/catv | e21f0bf6280d |
@@ -221,8 +221,8 @@
 | chat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chat | 5996371ca8d6 |
 | chattr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chattr | 55a22a977771 |
 | chattr | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/chattr | 2411148acce3 |
-| chcon | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chcon | 8ff162ad7d20 |
-| chcon | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chcon | ca434917183b |
+| chcon | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chcon | 6730cb84661d |
+| chcon | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chcon | 5ed40b73215d |
 | chcpu | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chcpu | 01bcc04bc5a7 |
 | cheat | create and view interactive cheatsheets on the command-line | https://github.com/cheat/cheat | https://bin.pkgforge.dev/aarch64/cheat | ea159dbd2b95 |
 | checkbypass | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/checkbypass | a5575a73a97a |
@@ -231,19 +231,19 @@
 | chfn | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chfn | c17d72e20569 |
 | chgrp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chgrp | 076632e88d63 |
 | chgrp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chgrp | 04bbe34ebf07 |
-| chgrp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chgrp | d07f57589af5 |
-| chgrp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chgrp | 2c84e5e932c5 |
+| chgrp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chgrp | 5683e97feb1e |
+| chgrp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chgrp | dba7af0852d9 |
 | chisel | A fast TCP/UDP tunnel over HTTP | https://github.com/jpillora/chisel | https://bin.pkgforge.dev/aarch64/chisel | df2a7b7be522 |
 | chmem | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chmem | 7115b26bda49 |
 | chmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chmod | f4999be4e637 |
 | chmod | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chmod | ccf8fe928e58 |
-| chmod | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chmod | 1e9e8e3d4ea9 |
-| chmod | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chmod | 15c94e6417a1 |
+| chmod | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chmod | 9885ceee56d5 |
+| chmod | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chmod | 23c0d704df01 |
 | choom | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/choom | 4d0b3a1a1cf1 |
 | chown | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chown | 6ff072741da6 |
 | chown | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chown | a1c052cfb8d8 |
-| chown | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chown | 7edf53bfd6b6 |
-| chown | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chown | c914a6655f36 |
+| chown | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chown | e7b2e406b83c |
+| chown | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chown | 08a6425caf53 |
 | chpasswd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chpasswd | b06fdcd8c2d6 |
 | chpst | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chpst | f36e2ed1359b |
 | chromium-alpine.flatimage | Open source web browser from Google | https://chromium.googlesource.com/chromium/src.git | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium-alpine.flatimage | 130.0.6723.116 |
@@ -251,8 +251,8 @@
 | chromium.nixappimage | Open source web browser from Google | https://chromium.googlesource.com/chromium/src.git | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/chromium.nixappimage | 130.0.6723.91 |
 | chroot | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chroot | c622216bf22a |
 | chroot | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/chroot | 08bb9cbb7481 |
-| chroot | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chroot | 460898d31e35 |
-| chroot | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chroot | e50c86de9798 |
+| chroot | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/chroot | ffa82ea43bc4 |
+| chroot | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/chroot | 0bfa4d259234 |
 | chrt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/chrt | 788c8d049360 |
 | chrt | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chrt | 2b9a1103d540 |
 | chsh | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/chsh | b5966454dcc9 |
@@ -263,8 +263,8 @@
 | circumflex | 🌿 Its Hacker News in your terminal | https://github.com/bensadeh/circumflex | https://bin.pkgforge.dev/aarch64/circumflex | ced31862b61f |
 | cksum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cksum | acd6d738629c |
 | cksum | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/cksum | 9bdb8bb212af |
-| cksum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cksum | 52d9d3cc716f |
-| cksum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cksum | 6cd840f18405 |
+| cksum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cksum | c542b1b4dd8b |
+| cksum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cksum | 7c5939047b7b |
 | cksum | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/cksum | 674078f73911 |
 | cksum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/cksum | 4234c4d8045f |
 | cleanpath | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/cleanpath | 7b3d14d653aa |
@@ -298,24 +298,24 @@
 | combipow | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/combipow | 14672a64fce0 |
 | comm | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/comm | 90ea8105b4bf |
 | comm | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/comm | 4e5db20d0b66 |
-| comm | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/comm | 4506129b9d3f |
-| comm | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/comm | 8783dc78eceb |
+| comm | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/comm | 8d6f9459a9c3 |
+| comm | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/comm | 665a4062670b |
 | compile_et | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/compile_et | 89b80cd9cdb0 |
 | conspy | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/conspy | 94dd71b186bb |
 | containerd | An open and reliable container runtime | https://github.com/containerd/containerd | https://bin.pkgforge.dev/aarch64/containerd | b7d893064319 |
 | containerd | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/aarch64/containerd | b7d893064319 |
 | containerd-shim-runc-v2 | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/aarch64/containerd-shim-runc-v2 | 62f1fad95a68 |
 | coreutils | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/coreutils | a9ec80b5c9a4 |
-| coreutils | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/coreutils | a93d5172a64f |
-| coreutils | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/coreutils | 39620c7355b4 |
+| coreutils | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/coreutils | 83a106012842 |
+| coreutils | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/coreutils | 3d449b87e5a8 |
 | cotp | Trustworthy, encrypted, command-line TOTP/HOTP authenticator app with import functionality. | https://github.com/replydev/cotp | https://bin.pkgforge.dev/aarch64/cotp | 694794432318 |
 | cowitness | mimic an HTTP server and a DNS server, providing complete responses | https://github.com/stolenusername/cowitness | https://bin.pkgforge.dev/aarch64/cowitness | 94b3fe76885c |
 | cowsay | complete rewrite of cowsay in Go | https://gitlab.com/nmyk/cowsay | https://bin.pkgforge.dev/aarch64/cowsay | 058e7b69b4a2 |
 | cowthink | complete rewrite of cowsay in Go | https://gitlab.com/nmyk/cowsay | https://bin.pkgforge.dev/aarch64/cowthink | eb6a86904db7 |
 | cp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cp | f892b7c39610 |
 | cp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/cp | 0887e18e8f35 |
-| cp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cp | 3cd1f4cfbcac |
-| cp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cp | ab861ccae753 |
+| cp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cp | 129233e56307 |
+| cp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cp | 933c9417d617 |
 | cp | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/cp | 404b23910630 |
 | cpio | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cpio | d83dfc156863 |
 | cpu | cpu command in Go, inspired by the Plan 9 cpu command | https://github.com/u-root/cpu | https://bin.pkgforge.dev/aarch64/cpu | 4ee1b1665cf4 |
@@ -335,8 +335,8 @@
 | cryptpw | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cryptpw | cef95323473c |
 | cryptsetup | LUKS for dm-crypt | https://gitlab.com/cryptsetup/cryptsetup | https://bin.pkgforge.dev/aarch64/Baseutils/cryptsetup/cryptsetup | 94252ec5b8e6 |
 | csplit | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/csplit | 7456231114c6 |
-| csplit | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/csplit | 28858ecf165c |
-| csplit | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/csplit | 2b82e0ca1478 |
+| csplit | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/csplit | e23db74d17e6 |
+| csplit | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/csplit | df54add569a9 |
 | csprecon | Discover new target domains using Content Security Policy | https://github.com/edoardottt/csprecon | https://bin.pkgforge.dev/aarch64/csprecon | 2b4482c4f59e |
 | csview | 📠 Pretty and fast csv viewer for cli with cjk/emoji support. | https://github.com/wfxr/csview | https://bin.pkgforge.dev/aarch64/csview | b4f457320c9f |
 | csvtk | A cross-platform, efficient and practical CSV/TSV toolkit | https://github.com/shenwei356/csvtk | https://bin.pkgforge.dev/aarch64/csvtk | ad23efe7f474 |
@@ -352,10 +352,10 @@
 | cttyhack | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cttyhack | e0dc8f9fa2df |
 | curl | A command line tool for transferring files with URL syntax | https://github.com/stunnel/static-curl | https://bin.pkgforge.dev/aarch64/curl | 9d0df8785c0b |
 | curlie | The power of curl, the ease of use of httpie. | https://github.com/rs/curlie | https://bin.pkgforge.dev/aarch64/curlie | d77ae66d8cce |
-| cut | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cut | 6b90d99480dc |
+| cut | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/cut | 5609b6716e0d |
 | cut | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/cut | 0541b1e6fb0f |
-| cut | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cut | 6f59d8057718 |
-| cut | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cut | 6ea90034bc20 |
+| cut | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/cut | 4240480e5772 |
+| cut | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/cut | 3633dea020b4 |
 | cut | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/cut | 400a00417b3f |
 | cut-cdn | ✂️ Removing CDN IPs from the list of IP addresses | https://github.com/ImAyrix/cut-cdn | https://bin.pkgforge.dev/aarch64/cut-cdn | d3cdd3a3809e |
 | cutb | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/cutb | 937d44a59a30 |
@@ -374,8 +374,8 @@
 | datadash | Visualize and graph data in the terminal | https://github.com/keithknott26/datadash | https://bin.pkgforge.dev/aarch64/datadash | 25ea7a8349d4 |
 | date | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/date | 2f16ff6fb54e |
 | date | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/date | 7b7bcd706f1e |
-| date | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/date | 59e275f9732d |
-| date | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/date | d2efd7c16099 |
+| date | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/date | 2ba32cb75c69 |
+| date | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/date | 06825335a7c9 |
 | dateadd | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/dateadd | 8f1787231e57 |
 | dateconv | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/dateconv | 6984256cbdd5 |
 | datediff | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/datediff | 124e224567e6 |
@@ -404,8 +404,8 @@
 | dconv | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/dconv | 6984256cbdd5 |
 | dd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dd | bdfff927e922 |
 | dd | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/dd | 3c026e09d5f1 |
-| dd | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dd | 22f990f87e85 |
-| dd | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dd | c0eeb3523c92 |
+| dd | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dd | 8273d1d9faa7 |
+| dd | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dd | 844fe6e2be53 |
 | ddiff | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/ddiff | 124e224567e6 |
 | ddns-go | Simple and easy to use DDNS. | https://github.com/jeessy2/ddns-go | https://bin.pkgforge.dev/aarch64/ddns-go | 4740b772aa7b |
 | deallocvt | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/deallocvt | b9e35878ba86 |
@@ -433,8 +433,8 @@
 | devpod | Codespaces but open-source, client-only and unopinionated | https://github.com/loft-sh/devpod | https://bin.pkgforge.dev/aarch64/devpod | 6a60e80191f5 |
 | df | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/df | d8219095a3ac |
 | df | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/df | 6a73afcce19d |
-| df | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/df | afc327897fd1 |
-| df | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/df | 2ee5fd88b2d7 |
+| df | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/df | f380a60200c7 |
+| df | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/df | 64d1ac0cc3d8 |
 | dgrep | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/dgrep | 76ceace7d190 |
 | dhcprelay | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dhcprelay | 32330d332fdf |
 | dial | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/dial | null |
@@ -442,16 +442,16 @@
 | diffoci | diff for Docker and OCI container images | https://github.com/reproducible-containers/diffoci | https://bin.pkgforge.dev/aarch64/diffoci | 5ee56aaddcea |
 | diffutils-rs | Dropped in replacement of diffutils in Rust | https://github.com/uutils/diffutils | https://bin.pkgforge.dev/aarch64/diffutils-rs | 8c65b4fa9f85 |
 | dir | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/dir | 358ca523c914 |
-| dir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dir | 549664318382 |
-| dir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dir | 85a4cc8619f3 |
+| dir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dir | 5259a4c27ce7 |
+| dir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dir | a930fae366ca |
 | dircolors | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/dircolors | 783bdf28bddb |
-| dircolors | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dircolors | b375012b4b37 |
-| dircolors | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dircolors | b10146a84752 |
+| dircolors | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dircolors | 59a90d5ba6a1 |
+| dircolors | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dircolors | 252968669f3a |
 | direnv | unclutter your .profile | https://github.com/direnv/direnv | https://bin.pkgforge.dev/aarch64/direnv | cf63c2d74c6e |
 | dirname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/dirname | f20d19a7e363 |
 | dirname | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/dirname | 560556a1cde1 |
-| dirname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dirname | 7800e7f00981 |
-| dirname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dirname | 94c6d467f034 |
+| dirname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/dirname | f92d73ad12ea |
+| dirname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/dirname | e083f743ed86 |
 | dirname | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/dirname | 6d6d72f827b1 |
 | dive | A tool for exploring each layer in a docker image | https://github.com/wagoodman/dive | https://bin.pkgforge.dev/aarch64/dive | 5a14cdb8107c |
 | dizi | Server-client music player written in Rust | https://github.com/kamiyaa/dizi | https://bin.pkgforge.dev/aarch64/dizi | 1a155e332b87 |
@@ -498,8 +498,8 @@
 | dtest | A bunch of tools that revolve around fiddling with dates and times in the command line | https://github.com/hroptatyr/dateutils | https://bin.pkgforge.dev/aarch64/Baseutils/dateutils/dtest | 7cae077dc2ea |
 | du | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/du | cda0cbe14bf1 |
 | du | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/du | cd1021380764 |
-| du | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/du | a985b7317ee9 |
-| du | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/du | 6790e2bc2f11 |
+| du | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/du | 443b7ea2c31e |
+| du | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/du | a2890b33062d |
 | duf | Disk Usage/Free Utility - a better df alternative | https://github.com/muesli/duf | https://bin.pkgforge.dev/aarch64/duf | ab893ad66369 |
 | dufs | A file server that supports static serving, uploading, searching, accessing control, webdav | https://github.com/sigoden/dufs | https://bin.pkgforge.dev/aarch64/dufs | e7430667a108 |
 | dump.exfat | exFAT filesystem userspace utilities | https://github.com/exfatprogs/exfatprogs | https://bin.pkgforge.dev/aarch64/Baseutils/exfatprogs/dump.exfat | 69c18133a349 |
@@ -531,8 +531,8 @@
 | earh | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/earh | a3967088e363 |
 | echo | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/echo | 473f5a2b996e |
 | echo | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/echo | 2332e9d3a6a8 |
-| echo | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/echo | e859be57218c |
-| echo | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/echo | a3f1176f806e |
+| echo | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/echo | 08f184b19116 |
+| echo | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/echo | 7892d01a3d46 |
 | echo | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/echo | 761b2d4fa446 |
 | ecoji | Encodes (and decodes) data as emojis | https://github.com/keith-turner/ecoji | https://bin.pkgforge.dev/aarch64/ecoji | f5b8594ea343 |
 | ed | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ed | 30d1792622a5 |
@@ -558,8 +558,8 @@
 | enumerepo | List all public repositories for (valid) GitHub usernames | https://github.com/trickest/enumerepo | https://bin.pkgforge.dev/aarch64/enumerepo | 98ed3c4ea27e |
 | env | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/env | ed9300376da5 |
 | env | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/env | 0cca80555ba2 |
-| env | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/env | 528a456fd0cd |
-| env | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/env | d1b223f54294 |
+| env | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/env | 12e350115985 |
+| env | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/env | dd326929eff6 |
 | env | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/env | 6ac3d19650cf |
 | envdir | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/envdir | 70d0465cc6be |
 | envsubst | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/envsubst | null |
@@ -584,20 +584,20 @@
 | exiflooter | ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap | https://github.com/aydinnyunus/exifLooter | https://bin.pkgforge.dev/aarch64/exiflooter | 6adf29319a07 |
 | expand | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/expand | 14326ead3e69 |
 | expand | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/expand | f65a96b630dc |
-| expand | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/expand | 735712376e83 |
-| expand | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/expand | 29b472bacf1f |
+| expand | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/expand | 05504d4137c3 |
+| expand | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/expand | 3d78fb753e6a |
 | expand | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/expand | 195a221f1996 |
 | expander | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/expander | e6ef3d67b61a |
 | expr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/expr | e8b1093bd607 |
 | expr | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/expr | fa9d1301d426 |
-| expr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/expr | 4e13c7482bbd |
-| expr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/expr | 655b1474fbdd |
+| expr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/expr | b31a711a27bf |
+| expr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/expr | 578dc37f8419 |
 | expr | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/expr | 3c90d7d0ab30 |
 | eza | A modern replacement for ‘ls’. (Fork of exa) | https://github.com/eza-community/eza | https://bin.pkgforge.dev/aarch64/eza | d3586266a27a |
 | factor | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/factor | 48638082ed8a |
 | factor | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/factor | e5c30267022e |
-| factor | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/factor | 631ca3b4cea6 |
-| factor | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/factor | cc804f73f685 |
+| factor | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/factor | 44518ce2f5d8 |
+| factor | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/factor | 2feeb10fcfd4 |
 | factor | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/factor | 313a1cd64098 |
 | fadvise | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fadvise | 5b7ae9b19f9e |
 | fakeidentd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fakeidentd | 35b4b50cd2cd |
@@ -607,8 +607,8 @@
 | fallocate | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fallocate | eadfa6a75134 |
 | false | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/false | b8ce2ab6199b |
 | false | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/false | 7a655b7546df |
-| false | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/false | ad530d53c702 |
-| false | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/false | d95c5fb7599a |
+| false | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/false | 140c60926b7c |
+| false | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/false | 7fb44770c965 |
 | false | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/false | 0387ba0dbd73 |
 | fastfetch | Like neofetch, but much faster because written in C. | https://github.com/fastfetch-cli/fastfetch | https://bin.pkgforge.dev/aarch64/fastfetch | 67f781b78284 |
 | fasttld | go-fasttld is a high performance effective top level domains (eTLD) extraction module | https://github.com/elliotwutingfeng/go-fasttld | https://bin.pkgforge.dev/aarch64/fasttld | ab4114ae989a |
@@ -684,8 +684,8 @@
 | flock | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/flock | a80938ac4242 |
 | flock | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/flock | 13b8a34669eb |
 | fmt | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/fmt | 8fca8616cfc7 |
-| fmt | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/fmt | 3e3ca75711d5 |
-| fmt | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/fmt | 77d15bef8d1b |
+| fmt | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/fmt | 2c23b4482981 |
+| fmt | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/fmt | 1f3dd924c11d |
 | fmt | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/fmt | 5209b5d9e136 |
 | fnet | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fnet | 916e0ea811ce |
 | fnetfilter | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fnetfilter | e38581ea0eb2 |
@@ -697,8 +697,8 @@
 | fnm | 🚀 Fast and simple Node.js version manager, built in Rust | https://github.com/Schniz/fnm | https://bin.pkgforge.dev/aarch64/fnm | 6143358716f6 |
 | fold | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fold | 0b6db1dd06ff |
 | fold | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/fold | f4ff34140a3f |
-| fold | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/fold | d2286a837b0f |
-| fold | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/fold | 5f065b587cbf |
+| fold | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/fold | 7d090d20f47a |
+| fold | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/fold | 96413edf102b |
 | fold | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/fold | 00df80049c2a |
 | fortune | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/fortune | 62278f29dee2 |
 | fq | jq for binary formats - tool, language and decoders for working with binary and text formats | https://github.com/wader/fq | https://bin.pkgforge.dev/aarch64/fq | 8240de27abbf |
@@ -723,7 +723,7 @@
 | fsck.ext3 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext3 | 3613af512d32 |
 | fsck.ext4 | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/fsck.ext4 | 3613af512d32 |
 | fsck.minix | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/fsck.minix | 08c9155fde3e |
-| fsck_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck_minix | 8a25d9950d79 |
+| fsck_minix | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/fsck_minix | aa9ffdff38c4 |
 | fsec-optimize | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-optimize | 5272f8e57c34 |
 | fsec-print | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fsec-print | aca4f5f60d00 |
 | fseccomp | Linux namespaces and seccomp-bpf sandbox Tools | https://github.com/netblue30/firejail | https://bin.pkgforge.dev/aarch64/Baseutils/firejail/fseccomp | 64c3c529f2e1 |
@@ -1036,8 +1036,8 @@
 | gronx-tasker | Lightweight, fast and dependency-free Cron expression parser, task runner, job scheduler and/or daemon | https://github.com/adhocore/gronx | https://bin.pkgforge.dev/aarch64/gronx-tasker | 6550b06aa5af |
 | groups | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/groups | b55178e9b989 |
 | groups | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/groups | cf2bbf57eb59 |
-| groups | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/groups | 502d8dea9abb |
-| groups | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/groups | 09253a4fd8c9 |
+| groups | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/groups | 0aa56a0bcd84 |
+| groups | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/groups | d7fa1ec9bfc9 |
 | groups | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/groups | bb35e85dc7f6 |
 | grpcurl | Like cURL, but for gRPC  Command-line tool for interacting with gRPC servers | https://github.com/fullstorydev/grpcurl | https://bin.pkgforge.dev/aarch64/grpcurl | c223ac815821 |
 | gs-netcat | Connect like there is no firewall. Securely. | https://github.com/hackerschoice/gsocket | https://bin.pkgforge.dev/aarch64/gs-netcat | b434b1f46676 |
@@ -1071,18 +1071,18 @@
 | hcxpmktool | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/hcxpmktool | ffddebf13da4 |
 | hcxpsktool | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/hcxpsktool | d24f4ca195c4 |
 | hcxwltool | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/hcxwltool | eae2472de7cb |
-| hd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hd | aa199bad7402 |
+| hd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hd | 998ea307ed6f |
 | hd | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hd | null |
 | hdparm | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hdparm | 2b5fb51fa486 |
 | heacoll | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/heacoll | 2dc2f548b39d |
 | head | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/head | 1ede07fe859e |
 | head | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/head | 49f4dcced5d5 |
-| head | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/head | f6b805cb27f2 |
-| head | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/head | e2cda9113b8d |
+| head | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/head | 4c1d399cb3de |
+| head | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/head | de2516ea423a |
 | head | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/head | 92810a094b91 |
 | headtail | head and tail simultaneously | https://github.com/CleanCut/headtail | https://bin.pkgforge.dev/aarch64/headtail | c96b2797384f |
 | hednsextractor | Raw html extractor from Hurricane Electric portal | https://github.com/HuntDownProject/HEDnsExtractor | https://bin.pkgforge.dev/aarch64/hednsextractor | acb469329ab0 |
-| hexdump | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hexdump | 552162717c26 |
+| hexdump | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hexdump | 38b76d7ed595 |
 | hexdump | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/hexdump | 709ad58b04aa |
 | hexedit | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/hexedit | 610c62be7ed2 |
 | hexyl | A command-line hex viewer | https://github.com/sharkdp/hexyl | https://bin.pkgforge.dev/aarch64/hexyl | 2d5e4e58c938 |
@@ -1161,8 +1161,8 @@
 | iamb | A Matrix client for Vim addicts | https://github.com/ulyssa/iamb | https://bin.pkgforge.dev/aarch64/iamb | 3ef82d4b5403 |
 | id | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/id | f643a50e1f35 |
 | id | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/id | 62b78a14b480 |
-| id | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/id | 5abb7f6e7b00 |
-| id | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/id | 4a2780a1b8e4 |
+| id | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/id | 9e1cd4257533 |
+| id | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/id | 452ba1b40c9c |
 | id | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/id | 012c019619d7 |
 | idle | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/aarch64/Baseutils/python3/idle | 63e8ac42354e |
 | idle3 | A high-level dynamically-typed programming language | https://github.com/python/cpython | https://bin.pkgforge.dev/aarch64/Baseutils/python3/idle3 | 63e8ac42354e |
@@ -1172,7 +1172,7 @@
 | ifconfig | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/ifconfig | bc26721c15bb |
 | ifdown | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifdown | 06726d040db1 |
 | ifenslave | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifenslave | 80e510dd1f2f |
-| ifplugd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifplugd | 330c2c421ffc |
+| ifplugd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifplugd | 4e20c73b00f6 |
 | ifstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/ifstat | 7c6a27ecc954 |
 | ifup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ifup | e70e9dbe8c80 |
 | imagemagick.dwfs.appbundle | FOSS suite for editing and manipulating Digital Images & Files | https://github.com/ImageMagick/ImageMagick | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/imagemagick.dwfs.appbundle | 7.1.1.39 |
@@ -1246,8 +1246,8 @@
 | jnv | interactive JSON filter using jq | https://github.com/ynqa/jnv | https://bin.pkgforge.dev/aarch64/jnv | c3c7f129f812 |
 | jobs | job control from anywhere! | https://github.com/yshui/job-security | https://bin.pkgforge.dev/aarch64/jobs | da044a3a6e8c |
 | join | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/join | 0b9c1228d715 |
-| join | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/join | 12b7fe60b492 |
-| join | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/join | 2f237bae26f0 |
+| join | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/join | d648a73dd9da |
+| join | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/join | 07078f2bd74e |
 | joker | turn process into daemon. Zero-Configuration | https://github.com/txthinking/joker | https://bin.pkgforge.dev/aarch64/joker | e27f1164e4a9 |
 | jot | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/jot | 155047a21887 |
 | jq | Command-line JSON processor | https://github.com/jqlang/jq | https://bin.pkgforge.dev/aarch64/jq | c195594f5497 |
@@ -1271,8 +1271,8 @@
 | keyspace | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/keyspace | 413c4a023441 |
 | kill | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/kill | 857451971d96 |
 | kill | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/kill | 7092925d6988 |
-| kill | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/kill | ad0e7172cccb |
-| kill | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/kill | 50aa67f9f9cf |
+| kill | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/kill | 73dbc5f26c07 |
+| kill | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/kill | e14ffb256857 |
 | kill | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/kill | 1b5913953dcc |
 | kill | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/kill | 2b5d13da7766 |
 | killall | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/killall | 13f9decf3a48 |
@@ -1280,7 +1280,7 @@
 | killall5 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/killall5 | 2b8080810dab |
 | killport | A command-line tool to easily kill processes running on a specified port. | https://github.com/jkfran/killport | https://bin.pkgforge.dev/aarch64/killport | 5bee90afa72d |
 | kitten | Cross-platform, fast, feature-rich, GPU based terminal | https://github.com/kovidgoyal/kitty | https://bin.pkgforge.dev/aarch64/kitten | 9f923156aca4 |
-| klogd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/klogd | 65befa3749f2 |
+| klogd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/klogd | a0f4abe0a406 |
 | kmod | Tools for loading and managing Linux kernel modules | https://github.com/kmod-project/kmod | https://bin.pkgforge.dev/aarch64/Baseutils/kmod/kmod | ec109bd93b24 |
 | kmon | Linux Kernel Manager and Activity Monitor 🐧💻 | https://github.com/orhun/kmon | https://bin.pkgforge.dev/aarch64/kmon | 4d22fde70d94 |
 | knoxssme | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/knoxssme | f3794f9f957c |
@@ -1313,8 +1313,8 @@
 | libtree | Tree ldd with an option to bundle dependencies into a single folder | https://github.com/haampie/libtree | https://bin.pkgforge.dev/aarch64/libtree | 88bb835b2f6b |
 | link | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/link | b5047de16310 |
 | link | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/link | 792af43c8e17 |
-| link | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/link | 9ea6079d431a |
-| link | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/link | 78d23cfce94f |
+| link | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/link | 354d8fb3bb6d |
+| link | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/link | 7f40c4879b7a |
 | link | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/link | 014ea7d5d8f1 |
 | linutil | Chris Titus Tech's Distro-agnostic Toolbox designed to simplify everyday Linux tasks | https://github.com/ChrisTitusTech/linutil | https://bin.pkgforge.dev/aarch64/linutil | 56b9c06756ac |
 | linux32 | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/linux32 | 69a8a70f9ea2 |
@@ -1330,8 +1330,8 @@
 | lklfuse | Tools for LKL (Linux Kernel Library) | https://github.com/lkl/linux | https://bin.pkgforge.dev/aarch64/Baseutils/lkl/lklfuse | 030ca4dac64c |
 | ln | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ln | e191afd9fd4f |
 | ln | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/ln | ee405b3fbaae |
-| ln | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ln | b48871641b0e |
-| ln | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ln | 2cc13ec71ece |
+| ln | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ln | 8fdfe76f5396 |
+| ln | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ln | d2acda9a4051 |
 | ln | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/ln | 7e67b9838a88 |
 | lndir | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/lndir | a7fbc7dc1266 |
 | lnstat | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/lnstat | 5b8bd3e7ce24 |
@@ -1348,8 +1348,8 @@
 | login | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/login | 0ec92ed41c97 |
 | logname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/logname | 46a595e8e38a |
 | logname | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/logname | 11fdd2f69114 |
-| logname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/logname | 0d1cc20ce47a |
-| logname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/logname | 97dc165205df |
+| logname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/logname | 4fb6c8140340 |
+| logname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/logname | d7d9bf1399f3 |
 | logread | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/logread | 927b91f2c791 |
 | logrotate | Simplify the administration of log files on a system which generates a lot of log files | https://github.com/logrotate/logrotate | https://bin.pkgforge.dev/aarch64/logrotate | e7a788afb65c |
 | logsave | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/logsave | 27933d0e9bb0 |
@@ -1366,8 +1366,8 @@
 | lpr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lpr | 31b910fbd0e8 |
 | ls | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/ls | 6bb72434fd26 |
 | ls | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/ls | d2304081414d |
-| ls | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ls | e646ce1d566b |
-| ls | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ls | 6d9ff13033c3 |
+| ls | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ls | 01158a123ea3 |
+| ls | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ls | 5cfbf18b85da |
 | ls | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/ls | 618a908c19b9 |
 | lsattr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/lsattr | 3b1f6266c2b4 |
 | lsattr | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/lsattr | 5341ab3c3931 |
@@ -1434,8 +1434,8 @@
 | mcookie | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mcookie | 6f72c12043e6 |
 | md5 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/md5 | 674078f73911 |
 | md5sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/md5sum | 05751ce36632 |
-| md5sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/md5sum | e4731e62326a |
-| md5sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/md5sum | f4b4ee7d9c7d |
+| md5sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/md5sum | 59de4215cc15 |
+| md5sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/md5sum | 60ce25730cc7 |
 | md5sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/md5sum | df28cb168b8e |
 | mdcat | cat for markdown | https://github.com/swsnr/mdcat | https://bin.pkgforge.dev/aarch64/mdcat | acfbcd2596e9 |
 | mdev | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mdev | 4de5a8a2366c |
@@ -1469,8 +1469,8 @@
 | mkbundle | Cloudflares PKI and TLS toolkit | https://github.com/cloudflare/cfssl | https://bin.pkgforge.dev/aarch64/mkbundle | 37824eb1c364 |
 | mkdir | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkdir | 8ea717cf018b |
 | mkdir | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mkdir | 5ff2220b5052 |
-| mkdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mkdir | c2b15f903c33 |
-| mkdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mkdir | 0a82a7870173 |
+| mkdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mkdir | 75a60f65fcba |
+| mkdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mkdir | 2c826c437c13 |
 | mkdir | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/mkdir | 7e48dd4117b9 |
 | mkdosfs | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkdosfs | bc2e5d7a92a1 |
 | mke2fs | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mke2fs | 986238cba063 |
@@ -1478,8 +1478,8 @@
 | mkexfatfs | Tools for exFAT file system implementations | https://github.com/relan/exfat | https://bin.pkgforge.dev/aarch64/Baseutils/exfat/mkexfatfs | 460e58cbea3a |
 | mkfifo | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkfifo | 69c64d2d8819 |
 | mkfifo | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mkfifo | b762759980e6 |
-| mkfifo | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mkfifo | 3add632ed44c |
-| mkfifo | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mkfifo | 49730231440f |
+| mkfifo | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mkfifo | 3f9c75d3e1cd |
+| mkfifo | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mkfifo | 79bc04a03b08 |
 | mkfifo | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/mkfifo | a86abdba12f2 |
 | mkfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs | a67ca9becfcf |
 | mkfs.bfs | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkfs.bfs | 05734f3a8783 |
@@ -1498,8 +1498,8 @@
 | mkfs_vfat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkfs_vfat | ce6f1f50242c |
 | mknod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mknod | 2f893ae3e0a4 |
 | mknod | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mknod | e69bdbc5c075 |
-| mknod | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mknod | ae3512855aeb |
-| mknod | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mknod | c53277ea964d |
+| mknod | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mknod | 6003809e804a |
+| mknod | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mknod | 7b619d23bb4e |
 | mkpasswd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mkpasswd | 858ad5df6173 |
 | mksquashfs | Tool for creating and unpacking squashfs filesystems | https://github.com/plougher/squashfs-tools | https://bin.pkgforge.dev/aarch64/Baseutils/squashfstools/mksquashfs | c798895442a0 |
 | mksub | Generate tens of thousands of subdomain combinations in a matter of seconds | https://github.com/trickest/mksub | https://bin.pkgforge.dev/aarch64/mksub | 17c698178245 |
@@ -1507,8 +1507,8 @@
 | mkswap | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/mkswap | 845190ef1ffa |
 | mktemp | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mktemp | f1194056a113 |
 | mktemp | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mktemp | 52b417ca4577 |
-| mktemp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mktemp | 96272c17e826 |
-| mktemp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mktemp | 6066f69881fc |
+| mktemp | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mktemp | 9c8ec47b47e8 |
+| mktemp | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mktemp | fd9f637e7ac1 |
 | mktemp | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/mktemp | b3d5f7dffe1e |
 | mkvol_bad | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/mkvol_bad | a2bf9d088104 |
 | mkvol_basic | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/mkvol_basic | ba5cb63154ae |
@@ -1568,8 +1568,8 @@
 | multirootca | Cloudflares PKI and TLS toolkit | https://github.com/cloudflare/cfssl | https://bin.pkgforge.dev/aarch64/multirootca | eac6b308e389 |
 | mv | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/mv | 9870dae76e11 |
 | mv | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/mv | 3fcf16b16861 |
-| mv | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mv | fa803cb30720 |
-| mv | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mv | d5d9609f5eba |
+| mv | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/mv | cdf11f09009e |
+| mv | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/mv | 3c8815344e51 |
 | mv | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/mv | e0125ba85b78 |
 | naabu | A fast port scanner written in go with a focus on reliability and simplicity | https://github.com/projectdiscovery/naabu | https://bin.pkgforge.dev/aarch64/naabu | 916f03880d8c |
 | naabu_staticx | A fast port scanner written in go with a focus on reliability and simplicity | https://github.com/projectdiscovery/naabu | https://bin.pkgforge.dev/aarch64/naabu_staticx | 4537846ea573 |
@@ -1624,14 +1624,14 @@
 | ngrok | External Tunnel to Internal Assets | https://ngrok.com/ | https://bin.pkgforge.dev/aarch64/ngrok | 5951429a5487 |
 | nice | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nice | ae1add0f9d18 |
 | nice | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/nice | abce780f1834 |
-| nice | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nice | 29feb042a3ac |
-| nice | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nice | a46336bd7528 |
+| nice | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nice | 1952594d3ffc |
+| nice | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nice | 66482f4e2389 |
 | nisdomainname | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/nisdomainname | 2b0ddc2b0d1a |
 | njs | Static Nginx and njs binaries for Linux | https://github.com/jirutka/nginx-binaries | https://bin.pkgforge.dev/aarch64/njs | e6912153aae2 |
 | nl | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nl | bf35f271576c |
 | nl | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/nl | 36d5350c57a4 |
-| nl | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nl | 87bd55d465bb |
-| nl | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nl | 4a9ff32b3db0 |
+| nl | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nl | 06167172be4e |
+| nl | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nl | ec002238a2a6 |
 | nmap | port scanner | https://github.com/nmap/nmap | https://bin.pkgforge.dev/aarch64/nmap | cec6f57720dd |
 | nmap-formatter | A tool to convert NMAP results to html, csv, json, markdown, graphviz (dot) or sqlite | https://github.com/vdjagilev/nmap-formatter | https://bin.pkgforge.dev/aarch64/nmap-formatter | 98ac54226041 |
 | nmapurls | parses Nmap xml reports and outputs a list of http(s) URLs | https://github.com/sdcampbell/nmapurls | https://bin.pkgforge.dev/aarch64/nmapurls | abffc7261159 |
@@ -1640,8 +1640,8 @@
 | nnn | n³ The unorthodox terminal file manager | https://github.com/jarun/nnn | https://bin.pkgforge.dev/aarch64/nnn | 07f1414f7056 |
 | nohup | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nohup | a33dbcf8e84d |
 | nohup | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/nohup | b2dc7e2fdeb1 |
-| nohup | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nohup | 8eb5bc1a76ce |
-| nohup | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nohup | 7682363d807a |
+| nohup | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nohup | 3712f90e8707 |
+| nohup | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nohup | 620f5b834aec |
 | nohup | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/nohup | 1eee03968764 |
 | noir | ♠️ Noir is an attack surface detector that identifies endpoints by static analysis | https://github.com/hahwul/noir | https://bin.pkgforge.dev/aarch64/noir | 82986bc7d922 |
 | nologin | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nologin | 6c376ecbf939 |
@@ -1655,8 +1655,8 @@
 | nping | port scanner | https://github.com/nmap/nmap | https://bin.pkgforge.dev/aarch64/nping | 9ee9087e220f |
 | nproc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nproc | aeac7c0197c8 |
 | nproc | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/nproc | b9b66c97aa61 |
-| nproc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nproc | f21f584b7745 |
-| nproc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nproc | a203c3753615 |
+| nproc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/nproc | 366f26eda18f |
+| nproc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/nproc | 0848d9ec86bf |
 | nproc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/nproc | e6f827385e8e |
 | nrp | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/nrp | 1c0f1471b344 |
 | nsenter | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/nsenter | 56cdfdb1cdeb |
@@ -1670,8 +1670,8 @@
 | numademo | NUMA stats | https://github.com/numactl/numactl | https://bin.pkgforge.dev/aarch64/numademo | 47fa1fbf8447 |
 | numastat | NUMA stats | https://github.com/numactl/numactl | https://bin.pkgforge.dev/aarch64/numastat | 52f4961296d8 |
 | numfmt | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/numfmt | 48acdfec97a9 |
-| numfmt | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/numfmt | b166f768b1d4 |
-| numfmt | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/numfmt | 454b830a8ad1 |
+| numfmt | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/numfmt | fc13dbe3c987 |
+| numfmt | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/numfmt | c8d2d23522dc |
 | numfmt | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/numfmt | 26b657fed715 |
 | nushell | A new type of shell | https://github.com/nushell/nushell | https://bin.pkgforge.dev/aarch64/nushell | b8c507ef6b67 |
 | nvme | NVMe management command line interface. | https://github.com/linux-nvme/nvme-cli | https://bin.pkgforge.dev/aarch64/nvme | e42582578d0b |
@@ -1680,8 +1680,8 @@
 | ockam | Orchestrate end-to-end encryption, cryptographic identities, mutual authentication, and authorization policies between distributed applications – at massive scale. | https://github.com/build-trust/ockam | https://bin.pkgforge.dev/aarch64/ockam | 239ba79a4f90 |
 | od | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/od | c8366228ce74 |
 | od | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/od | 4e645133bf5c |
-| od | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/od | 80b77925ac35 |
-| od | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/od | be68b06a4917 |
+| od | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/od | a681e62894c4 |
+| od | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/od | da83f3c284a7 |
 | oha | HTTP load generator | https://github.com/hatoo/oha | https://bin.pkgforge.dev/aarch64/oha | e1fe2226375e |
 | oksh | Portable OpenBSD ksh, based on the Public Domain Korn Shell (pdksh) | https://github.com/ibara/oksh | https://bin.pkgforge.dev/aarch64/oksh | 35a218fd373d |
 | onetun | User space WireGuard proxy in Rust | https://github.com/aramperes/onetun | https://bin.pkgforge.dev/aarch64/onetun | 70993c1ec15a |
@@ -1712,13 +1712,13 @@
 | passwd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/passwd | 0a5ff9488596 |
 | paste | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/paste | 7e1ebe12ac40 |
 | paste | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/paste | 04f9d9d8ee24 |
-| paste | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/paste | 554385b8a97b |
-| paste | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/paste | 6cd10702d3a8 |
+| paste | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/paste | ea1c76ca0fa9 |
+| paste | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/paste | 510e475baced |
 | patch | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/patch | 17d7687446f9 |
 | patchelf | A small utility to modify the dynamic linker and RPATH of ELF executables | https://github.com/NixOS/patchelf | https://bin.pkgforge.dev/aarch64/patchelf | 4c8715dd8e21 |
 | pathchk | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pathchk | a7d31e3690f1 |
-| pathchk | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pathchk | aa64293d8fab |
-| pathchk | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pathchk | 32b6ed645f45 |
+| pathchk | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pathchk | fe46db34b069 |
+| pathchk | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pathchk | 1f3e19f4e813 |
 | pcmanfm.dwfs.appbundle | Extremely fast and lightweight file manager | https://github.com/lxde/pcmanfm | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/pcmanfm.dwfs.appbundle | 1.3.2 |
 | pdfcpu | A PDF processor written in Go. | https://github.com/pdfcpu/pdfcpu | https://bin.pkgforge.dev/aarch64/pdfcpu | cae49881df5f |
 | pdfrun | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/pdfrun | af6921374fea |
@@ -1754,8 +1754,8 @@
 | pingmole | CLI that helps to filter pingmole servers and pick the closest one. | https://github.com/norskeld/pingmole | https://bin.pkgforge.dev/aarch64/pingmole | 4663cab86994 |
 | pingtunnel | Pingtunnel is a tool that send TCP/UDP traffic over ICMP | https://github.com/esrrhs/pingtunnel | https://bin.pkgforge.dev/aarch64/pingtunnel | 86241e7a2455 |
 | pinky | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pinky | 937606255996 |
-| pinky | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pinky | 2d22c23cfcf7 |
-| pinky | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pinky | def61f3c49ef |
+| pinky | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pinky | 8ffe4d9e330d |
+| pinky | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pinky | ee873669746c |
 | pipe_progress | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pipe_progress | 70b9e5f6d1d0 |
 | pipesz | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/pipesz | 0842ca02c0ae |
 | pipetty | tools for logs with ANSI color | https://github.com/kilobyte/colorized-logs | https://bin.pkgforge.dev/aarch64/pipetty | adccf19fe4a2 |
@@ -1783,22 +1783,22 @@
 | pping | tcp ping, tls ping, http ping, icmp ping, dns ping, quic ping | https://github.com/wzv5/pping | https://bin.pkgforge.dev/aarch64/pping | 727b3e4d7ef9 |
 | ppsspp.dwfs.appbundle | A Fast and Portable PSP emulator | https://github.com/hrydgard/ppsspp | https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ppsspp.dwfs.appbundle | 1.17.1 |
 | pr | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pr | 87b12d08d2a0 |
-| pr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pr | 226395e94401 |
-| pr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pr | 963398addf6d |
+| pr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pr | 0bb48a5d9439 |
+| pr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pr | 7b74c32af178 |
 | prepare | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/prepare | 15508985e01a |
 | presenterm | A terminal slideshow tool | https://github.com/mfontanini/presenterm | https://bin.pkgforge.dev/aarch64/presenterm | 3d9c4206f5fa |
 | pretender | MitM sidekick for relaying attacks featuring DHCPv6 DNS takeover as well as mDNS, LLMNR and NetBIOS-NS spoofing. | https://github.com/RedTeamPentesting/pretender | https://bin.pkgforge.dev/aarch64/pretender | 101642aa7fc6 |
 | prettyping | Ping prettier, more colorful, more compact, and easier to read | https://github.com/denilsonsa/prettyping | https://bin.pkgforge.dev/aarch64/prettyping | 31eae6eaadb5 |
 | printenv | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/printenv | 5275d6405f24 |
 | printenv | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/printenv | bd44518d2c36 |
-| printenv | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/printenv | ae1b402ee852 |
-| printenv | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/printenv | 8f466ba831e8 |
+| printenv | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/printenv | cadf7c1bc58e |
+| printenv | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/printenv | 69e4e2027f08 |
 | printenv | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/printenv | bfa767e541ea |
 | printf | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/printf | 8a6b40ee390a |
 | printf | Core Utilities of https://github.com/xplshn/Andes | https://github.com/xplshn/a-utils/ | https://bin.pkgforge.dev/aarch64/Baseutils/a-utils/printf | 717247db4638 |
 | printf | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/printf | 75a8a36123e2 |
-| printf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/printf | 07bcefe7208d |
-| printf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/printf | 67cd345b9ff0 |
+| printf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/printf | d1c3d6babb95 |
+| printf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/printf | 7f17ab27bf56 |
 | printf | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/printf | da42dd36fac0 |
 | prlimit | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/prlimit | 8dec7791c6c6 |
 | procan | socat is a program for identifying or deleting duplicate files residing within specified directories. | https://github.com/adrianlopezroche/socat | https://bin.pkgforge.dev/aarch64/procan | 85e4905d2cdc |
@@ -1821,8 +1821,8 @@
 | pstree | A set of small useful utilities that use the proc filesystem | https://gitlab.com/psmisc/psmisc | https://bin.pkgforge.dev/aarch64/Baseutils/psmisc/pstree | 9e7635e7334a |
 | pstree.x11 | A set of small useful utilities that use the proc filesystem | https://gitlab.com/psmisc/psmisc | https://bin.pkgforge.dev/aarch64/Baseutils/psmisc/pstree.x11 | 9e7635e7334a |
 | ptx | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/ptx | 8b0d91e54915 |
-| ptx | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ptx | d464cf405bd9 |
-| ptx | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ptx | 849c8d3ef5c0 |
+| ptx | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/ptx | 2eff7b5719a9 |
+| ptx | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/ptx | 067a876de082 |
 | ptyspawn | Tool for executing a command in a new PTY (pseudo-terminal) with new PGID and SID | https://github.com/VHSgunzo/ptyspawn | https://bin.pkgforge.dev/aarch64/ptyspawn | 7a082ec04e1a |
 | pueue | task management tool for sequential and parallel execution of long-running tasks | https://github.com/Nukesor/pueue | https://bin.pkgforge.dev/aarch64/pueue | 2460a4d28395 |
 | pueued | task management tool for sequential and parallel execution of long-running tasks | https://github.com/Nukesor/pueue | https://bin.pkgforge.dev/aarch64/pueued | 50ec166c0421 |
@@ -1832,8 +1832,8 @@
 | pwcat | GNU implementation of the Awk programming language | https://git.savannah.gnu.org/cgit/gawk.git | https://bin.pkgforge.dev/aarch64/Baseutils/gawk/pwcat | cab76806bf6a |
 | pwd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pwd | f0f3a50354b0 |
 | pwd | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/pwd | d6e89d9bf230 |
-| pwd | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pwd | 517611fe813c |
-| pwd | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pwd | 273cdae1d165 |
+| pwd | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/pwd | 5a1da5c9147c |
+| pwd | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/pwd | 97ca6b5d8fdc |
 | pwd | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/pwd | 6d4d2635e771 |
 | pwdx | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/pwdx | 5ab8654c42fc |
 | pwdx | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/pwdx | 49e653421ae3 |
@@ -1910,16 +1910,16 @@
 | reader | A lightweight tool offering better readability of web pages on the CLI | https://github.com/mrusme/reader | https://bin.pkgforge.dev/aarch64/reader | a2118bcb0b70 |
 | readlink | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/readlink | 902764fb538a |
 | readlink | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/readlink | 7e232abdbaa2 |
-| readlink | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/readlink | 466cd9fccded |
-| readlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/readlink | 81bc10e672f1 |
+| readlink | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/readlink | 91a922440cfd |
+| readlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/readlink | 848c77ee3a4c |
 | readlink | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/readlink | 459dd182d1cc |
 | readprofile | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/readprofile | 8b4d1d726a75 |
 | readprofile | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/readprofile | 645083b8f9d4 |
 | realm | A network relay tool | https://github.com/zhboner/realm | https://bin.pkgforge.dev/aarch64/realm | 34561bbc0e2a |
 | realpath | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/realpath | e53ba03ec565 |
 | realpath | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/realpath | b99998938076 |
-| realpath | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/realpath | 93dee7e36cb4 |
-| realpath | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/realpath | b2f2aa3cf90d |
+| realpath | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/realpath | f53c8707efce |
+| realpath | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/realpath | 1f3a182974e6 |
 | reboot | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/reboot | 58310129803b |
 | rebuilderd-worker | Independent verification of binary packages - reproducible builds | https://github.com/kpcyrd/rebuilderd | https://bin.pkgforge.dev/aarch64/rebuilderd-worker | 21a3bf245664 |
 | recode-sr-latin | Well integrated set of Translation Tools | https://git.savannah.gnu.org/gitweb/?p=gettext.git | https://bin.pkgforge.dev/aarch64/Baseutils/gettext/recode-sr-latin | fcba34dcf073 |
@@ -1971,13 +1971,13 @@
 | rli2 | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/rli2 | 7711f943305e |
 | rm | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rm | 3770d9c1537f |
 | rm | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/rm | e7289542424c |
-| rm | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/rm | 1a8aa66213c9 |
-| rm | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/rm | 05be43a4e7f3 |
+| rm | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/rm | 3884f39cb02c |
+| rm | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/rm | ce80d7b5a279 |
 | rm | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/rm | 30221f10afe6 |
 | rmdir | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rmdir | a6977b096502 |
 | rmdir | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/rmdir | a37a44723445 |
-| rmdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/rmdir | 93e098be2d31 |
-| rmdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/rmdir | d535df7bb673 |
+| rmdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/rmdir | aa7006b91ddd |
+| rmdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/rmdir | 8b4c82563795 |
 | rmdir | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/rmdir | 0af123804195 |
 | rmdir00 | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/rmdir00 | e8ad77125c13 |
 | rmmod | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/rmmod | 4480e2e7ad25 |
@@ -2021,8 +2021,8 @@
 | run_parts | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/run_parts | 85f74041615f |
 | runc | CLI tool for spawning and running containers according to the OCI specification | https://github.com/opencontainers/runc | https://bin.pkgforge.dev/aarch64/runc | 92c230655d2e |
 | runc | Container | https://github.com/docker/cli | https://bin.pkgforge.dev/aarch64/runc | 92c230655d2e |
-| runcon | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/runcon | d04b9a26cd97 |
-| runcon | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/runcon | ad4f756769dc |
+| runcon | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/runcon | 61f14d51cb2d |
+| runcon | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/runcon | 99bf2a8c9c72 |
 | runimage-run | ELF wrapper for RunImage Run.sh script in the extracted form | https://github.com/VHSgunzo/Run-wrapper | https://bin.pkgforge.dev/aarch64/runimage-run | 6294a940cfd9 |
 | runiq | An efficient way to filter duplicate lines from input, à la uniq. | https://github.com/whitfin/runiq | https://bin.pkgforge.dev/aarch64/runiq | 79e9b3e2669f |
 | runlevel | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/runlevel | 8dc660f9f205 |
@@ -2245,8 +2245,8 @@
 | seprule.pl | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/seprule.pl | f089cfd5ae8f |
 | seq | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/seq | 849a631d2616 |
 | seq | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/seq | 094fd8477169 |
-| seq | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/seq | 984a3eaf20eb |
-| seq | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/seq | d29050ee79ac |
+| seq | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/seq | b7d9d4bf7298 |
+| seq | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/seq | aa518c6f9ce6 |
 | seq | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/seq | 92477c68a830 |
 | serve_image | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/serve_image | 65e0de30f2b3 |
 | serverstatus-client | Multi Server, Multi Cloud Probing & Server Monitoring | https://github.com/zdz/ServerStatus-Rust | https://bin.pkgforge.dev/aarch64/serverstatus-client | ca5cbb0aedc3 |
@@ -2276,25 +2276,25 @@
 | sh_is_ash | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sh_is_ash | 6539e070db9a |
 | sha1 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/sha1 | 674078f73911 |
 | sha1sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sha1sum | d638078a2d65 |
-| sha1sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha1sum | 854cd2e89ff1 |
-| sha1sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha1sum | 3413c9f6b844 |
+| sha1sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha1sum | e1712b6bf974 |
+| sha1sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha1sum | d27124cd4c9e |
 | sha1sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha1sum | 30f5ae5821c3 |
-| sha224sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha224sum | 03c632b96a11 |
-| sha224sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha224sum | 08d74ecfef94 |
+| sha224sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha224sum | c3cf8f16c438 |
+| sha224sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha224sum | 2b9879d750f3 |
 | sha224sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha224sum | ca75e1bfeb84 |
 | sha256 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/sha256 | 674078f73911 |
 | sha256sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sha256sum | b403849e6e24 |
-| sha256sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha256sum | cafbbb3beb5a |
-| sha256sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha256sum | c19ad203e3ab |
+| sha256sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha256sum | 36e744cd9d79 |
+| sha256sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha256sum | a0373557a151 |
 | sha256sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha256sum | 2dc756bc6b7d |
-| sha384sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha384sum | 0dc8c257b9f8 |
-| sha384sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha384sum | a8bc82a3ae4a |
+| sha384sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha384sum | 7730cf7abbfe |
+| sha384sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha384sum | b87ac6138a9d |
 | sha384sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha384sum | 7bab29424c84 |
 | sha3sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sha3sum | 309e615b68b8 |
 | sha512 | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/sha512 | 674078f73911 |
 | sha512sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sha512sum | a0a1a4a7d8b9 |
-| sha512sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha512sum | eb8090e366f0 |
-| sha512sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha512sum | 48b2f7af3207 |
+| sha512sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sha512sum | 7a67befb4db6 |
+| sha512sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sha512sum | 3d5ed9c554d9 |
 | sha512sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sha512sum | 3c6f18471c9a |
 | shar | Tools for remote synchronization and shell archives | https://git.savannah.gnu.org/git/sharutils.git | https://bin.pkgforge.dev/aarch64/Baseutils/sharutils/shar | 8e377c154e1c |
 | sharun | Run shared binary everywhere | https://github.com/VHSgunzo/sharun | https://bin.pkgforge.dev/aarch64/sharun | 8e0ed633afac |
@@ -2310,13 +2310,13 @@
 | showkey | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/showkey | 999a58eccb64 |
 | shred | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/shred | 3ae5ed67dce3 |
 | shred | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/shred | 23bb192cf742 |
-| shred | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/shred | 37f96287fdcd |
-| shred | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/shred | 9ec6244f28c9 |
+| shred | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/shred | 19e0b4c874a6 |
+| shred | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/shred | bc16c0bf9a5f |
 | shred | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/shred | 925f80e9f7c5 |
 | shuf | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/shuf | f7c6ce1e3372 |
 | shuf | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/shuf | 5a9d1225ac24 |
-| shuf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/shuf | 2a9425fc1592 |
-| shuf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/shuf | 4e7fc2118127 |
+| shuf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/shuf | 64a0de4925b0 |
+| shuf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/shuf | 02a7a77f42a6 |
 | shuf | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/shuf | 6a3940be8ac4 |
 | shuffledns | MassDNS wrapper written in go | https://github.com/projectdiscovery/shuffledns | https://bin.pkgforge.dev/aarch64/shuffledns | 0e5040898317 |
 | sic | Accessible image processing and conversion from the terminal using image-rs/image | https://github.com/foresterre/sic | https://bin.pkgforge.dev/aarch64/sic | 2bdd0f056f0f |
@@ -2333,8 +2333,8 @@
 | slattach | A set of tools for controlling the network subsystem in Linux | https://git.code.sf.net/p/net-tools/code | https://bin.pkgforge.dev/aarch64/Baseutils/nettools/slattach | 6def1b98f414 |
 | sleep | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sleep | c785d1a8b68e |
 | sleep | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sleep | 063d34aefb93 |
-| sleep | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sleep | fa6f269e05d6 |
-| sleep | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sleep | 31206d812880 |
+| sleep | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sleep | e88b35bbfa4a |
+| sleep | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sleep | dedb6a31058c |
 | sleep | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sleep | 26c27cec7b5b |
 | slirp4netns | User-mode networking for unprivileged network namespaces | https://github.com/rootless-containers/slirp4netns | https://bin.pkgforge.dev/aarch64/slirp4netns | 11a64914adf9 |
 | slskd.no_strip | A modern client-server application for the Soulseek file sharing network. (DockerC) | https://github.com/slskd/slskd | https://bin.pkgforge.dev/aarch64/slskd.no_strip | d105eb8a5043 |
@@ -2350,8 +2350,8 @@
 | softlimit | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/softlimit | c80a47308bd8 |
 | sort | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sort | 49f95ac9b3ca |
 | sort | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sort | 2b0986d4cf38 |
-| sort | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sort | 93667939a8d4 |
-| sort | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sort | f9781064af44 |
+| sort | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sort | f0147a90d20b |
+| sort | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sort | 2119daea925d |
 | sort | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sort | 4e9c7ae3a048 |
 | sourcemapper | Extract JavaScript source trees from Sourcemap files | https://github.com/denandz/sourcemapper | https://bin.pkgforge.dev/aarch64/sourcemapper | 39a87036506c |
 | speedtest-go | CLI and Go API to Test Internet Speed using multiple-servers | https://github.com/showwin/speedtest-go | https://bin.pkgforge.dev/aarch64/speedtest-go | 906cde8a84eb |
@@ -2360,8 +2360,8 @@
 | spk | A small OSINT/Recon tool to find CIDRs that belong to a specific organization | https://github.com/dhn/spk | https://bin.pkgforge.dev/aarch64/spk | 452219e2cf8e |
 | split | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/split | f441476ca886 |
 | split | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/split | 0a9766e85684 |
-| split | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/split | a3448e366b2a |
-| split | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/split | 78bd92ff8f68 |
+| split | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/split | 926d861da471 |
+| split | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/split | cab8b0267101 |
 | splitlen | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/splitlen | cfbddf83bfa1 |
 | spoof-dpi | A simple and fast anti-censorship tool written in Go | https://github.com/xvzc/SpoofDPI | https://bin.pkgforge.dev/aarch64/spoof-dpi | eeea7457d2e7 |
 | sq | jq for sql | https://github.com/neilotoole/sq | https://bin.pkgforge.dev/aarch64/sq | 669745b499d5 |
@@ -2390,11 +2390,11 @@
 | start_stop_daemon | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/start_stop_daemon | 584d1576f347 |
 | stat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/stat | 17385a279017 |
 | stat | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/stat | 9ea9339a8cf6 |
-| stat | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stat | 01ef7a58890f |
-| stat | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stat | f8b26db92bd8 |
+| stat | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stat | ae043d2ab84f |
+| stat | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stat | d1f86f3679ae |
 | stdbuf | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/stdbuf | 3cb276f91ca5 |
-| stdbuf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stdbuf | 97f38e32922d |
-| stdbuf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stdbuf | d2be6dd1de35 |
+| stdbuf | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stdbuf | e7f23bb8178a |
+| stdbuf | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stdbuf | 838b057e0165 |
 | steampipe | Live query APIs, code & more with SQL. No DB required. | https://github.com/turbot/steampipe | https://bin.pkgforge.dev/aarch64/steampipe | 79e5c76f9d16 |
 | stest | Flexible I/O Tester | https://github.com/axboe/fio | https://bin.pkgforge.dev/aarch64/Baseutils/fio/stest | 66c2c46afb9a |
 | stew | 🥘 An independent package manager for compiled binaries. | https://github.com/marwanhawari/stew | https://bin.pkgforge.dev/aarch64/stew | 13de4cdac6ef |
@@ -2412,8 +2412,8 @@
 | sttr | cli app to perform various operations on string | https://github.com/abhimanyu003/sttr | https://bin.pkgforge.dev/aarch64/sttr | 25c603e0ebfa |
 | stty | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/stty | 290c35c60106 |
 | stty | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/stty | 74faa03fbc2f |
-| stty | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stty | abc284dd156b |
-| stty | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stty | 8308306c6625 |
+| stty | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/stty | 0cc5c23525ed |
+| stty | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/stty | b94e6012108f |
 | stuffbin | Compress and embed static files and assets into Go binaries and access them with a virtual file system in production | https://github.com/knadh/stuffbin | https://bin.pkgforge.dev/aarch64/stuffbin | 56a798842152 |
 | stunner | tool to test and exploit STUN, TURN and TURN over TCP servers. | https://github.com/firefart/stunner | https://bin.pkgforge.dev/aarch64/stunner | 994b3d912840 |
 | su | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/su | d61cce945d66 |
@@ -2435,8 +2435,8 @@
 | sulogin | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/sulogin | 445ab4e92175 |
 | sum | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sum | 47adf7aaa0ee |
 | sum | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sum | 3f2fda12edc3 |
-| sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sum | 481a70502047 |
-| sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sum | 778b2376a657 |
+| sum | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sum | e4bdbf51896a |
+| sum | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sum | b51816f17957 |
 | sum | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/sum | 779d1b90c38d |
 | sumtool | Tools for MTD filesystems | https://git.infradead.org/mtd-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/mtdutils/sumtool | db50d5f70c8a |
 | sunbeam | a general purpose command-line launcher | https://github.com/pomdtr/sunbeam | https://bin.pkgforge.dev/aarch64/sunbeam | 2e5fefd3ed4c |
@@ -2458,8 +2458,8 @@
 | symtree | ELF utils that can check files for security relevant properties | https://anongit.gentoo.org/git/proj/pax-utils.git | https://bin.pkgforge.dev/aarch64/Baseutils/pax-utils/symtree | 935f2095a742 |
 | sync | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/sync | b586f8fe9872 |
 | sync | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/sync | 591d4b1069f1 |
-| sync | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sync | 1f551537d068 |
-| sync | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sync | f12fea5b9157 |
+| sync | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/sync | 33284d504bf0 |
+| sync | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/sync | eb047e41dcba |
 | sync-color-schemes | A GPU-accelerated cross-platform terminal emulator and multiplexer | https://github.com/wez/wezterm | https://bin.pkgforge.dev/aarch64/sync-color-schemes | 69b2e6eae471 |
 | syncat | Syntax aware cat | https://github.com/foxfriends/syncat | https://bin.pkgforge.dev/aarch64/syncat | bc705b788762 |
 | syncthing | Open Source Continuous File Synchronization | https://github.com/syncthing/syncthing | https://bin.pkgforge.dev/aarch64/syncthing | a6a38a167d66 |
@@ -2474,15 +2474,15 @@
 | systeroid | A more powerful alternative to sysctl(8) with a terminal user interface 🐧 | https://github.com/orhun/systeroid | https://bin.pkgforge.dev/aarch64/systeroid | 75eb0339953d |
 | tac | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tac | 3121d896eeb6 |
 | tac | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tac | f88cb136482c |
-| tac | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tac | cc9b417a9e3d |
-| tac | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tac | f72aa48a0690 |
+| tac | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tac | 36047c0bb006 |
+| tac | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tac | 1875c13acfd3 |
 | tac | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/tac | 6768a2bc390a |
 | tahm | misc bb tools | https://github.com/edoardottt/lit-bb-hack-tools | https://bin.pkgforge.dev/aarch64/tahm | 48a07e2f7185 |
 | taierspeed-cli | Speedtest cli for Tel Speed Test | https://github.com/ztelliot/taierspeed-cli | https://bin.pkgforge.dev/aarch64/taierspeed-cli | b414242ed8d1 |
 | tail | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tail | ee948f1f1b5f |
 | tail | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tail | 7a869a5d0a42 |
-| tail | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tail | eaaa7564bb02 |
-| tail | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tail | bdbffcfebf30 |
+| tail | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tail | 660a9bfb93d0 |
+| tail | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tail | a27ad3ab8c15 |
 | tail | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/tail | ac20edf8ad5c |
 | tailscale | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/aarch64/tailscale | 4ddafd937286 |
 | tailscale_bb | The easiest, most secure way to use WireGuard and 2FA | https://github.com/tailscale/tailscale | https://bin.pkgforge.dev/aarch64/tailscale_bb | fa42535660a6 |
@@ -2504,8 +2504,8 @@
 | tealdeer | A very fast implementation of tldr in Rust | https://github.com/tealdeer-rs/tealdeer | https://bin.pkgforge.dev/aarch64/tealdeer | d5c81d0f789e |
 | tee | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tee | e34d9d4f4286 |
 | tee | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tee | 27f37276be02 |
-| tee | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tee | 805607d37a3f |
-| tee | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tee | 46d28988df15 |
+| tee | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tee | a70370ae199f |
+| tee | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tee | 214ac4bccc33 |
 | teldrive | Telegram Drive Storage | https://github.com/divyam234/teldrive | https://bin.pkgforge.dev/aarch64/teldrive | addb85e8ae32 |
 | telnet | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/telnet | 967a660f1fd3 |
 | telnetd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/telnetd | da2f58c028da |
@@ -2530,8 +2530,8 @@
 | time | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/time | 486bb4f7819d |
 | timeout | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/timeout | e3d9c5af7964 |
 | timeout | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/timeout | 6d43d17392e0 |
-| timeout | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/timeout | ff0729bb9ca7 |
-| timeout | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/timeout | 943920977d0a |
+| timeout | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/timeout | a7018215520a |
+| timeout | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/timeout | 420b86d8aed4 |
 | timer | A sleep with progress | https://github.com/caarlos0/timer | https://bin.pkgforge.dev/aarch64/timer | 8369923f63fd |
 | tinja | CLI tool for testing web pages for template injection vulnerabilities | https://github.com/Hackmanit/TInjA | https://bin.pkgforge.dev/aarch64/tinja | 2113ae1ce725 |
 | tio | A serial device I/O tool | https://github.com/tio/tio | https://bin.pkgforge.dev/aarch64/tio | e187c07ec80f |
@@ -2558,14 +2558,14 @@
 | toru | Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads. | https://github.com/sweetbbak/toru | https://bin.pkgforge.dev/aarch64/toru | 8dc82e6d0a83 |
 | touch | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/touch | 27a6fb5f7605 |
 | touch | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/touch | 80d7cd89a2e3 |
-| touch | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/touch | 717d4ecce979 |
-| touch | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/touch | 6d1e1c138b7b |
+| touch | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/touch | c3e3b9cd33db |
+| touch | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/touch | f5a1dc56ed97 |
 | touch | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/touch | d1ed3e16db73 |
 | toybox | minimal busybox | https://github.com/landley/toybox | https://bin.pkgforge.dev/aarch64/toybox | a6db9d826c49 |
 | tr | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tr | a2c51df197fe |
 | tr | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tr | e496ee022e3f |
-| tr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tr | 3daaebbe1511 |
-| tr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tr | 6ae0f7ec24ea |
+| tr | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tr | 274da45521c8 |
+| tr | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tr | c8185138bda1 |
 | tracepath | A set of small useful utilities for Linux networking | https://github.com/iputils/iputils | https://bin.pkgforge.dev/aarch64/Baseutils/iputils/tracepath | 8841ced41a2a |
 | tracepath | A set of small useful utilities for Linux networking | https://github.com/iputils/iputils | https://bin.pkgforge.dev/aarch64/tracepath | f73ca505b863 |
 | traceroute | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/traceroute | 9053eb8fff4f |
@@ -2576,14 +2576,14 @@
 | trip | A network diagnostic tool | https://github.com/fujiapple852/trippy | https://bin.pkgforge.dev/aarch64/trip | 447e04a09956 |
 | true | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/true | d66716af41c3 |
 | true | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/true | a37f2941a253 |
-| true | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/true | 1945b9bd9274 |
-| true | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/true | 055c57d8c354 |
+| true | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/true | 2086a0fbe90e |
+| true | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/true | cd84b52aca8d |
 | true | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/true | 878ab27124fc |
 | trufflehog | Find and verify credentials | https://github.com/trufflesecurity/trufflehog | https://bin.pkgforge.dev/aarch64/trufflehog | 328245ece415 |
 | truncate | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/truncate | 22da7241b0f9 |
 | truncate | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/truncate | b740947fff21 |
-| truncate | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/truncate | 20e97f77abdd |
-| truncate | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/truncate | 765686c82c55 |
+| truncate | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/truncate | 62846d4962ad |
+| truncate | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/truncate | 3058e703618c |
 | truncate | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/truncate | 93c7ebdc375f |
 | trurl | A command line tool for transferring files with URL syntax | https://github.com/stunnel/static-curl | https://bin.pkgforge.dev/aarch64/trurl | f195591d00ed |
 | try | Inspect a commands effects before modifying your live system | https://github.com/binpash/try | https://bin.pkgforge.dev/aarch64/try | ccca8eb18b94 |
@@ -2591,13 +2591,13 @@
 | ts | Port of some non-standard OpenBSD tools to Linux | https://github.com/leahneukirchen/outils | https://bin.pkgforge.dev/aarch64/Baseutils/outils/ts | 304ce66eefd9 |
 | tsort | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tsort | 85cb3bb62d93 |
 | tsort | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tsort | be6a63247e52 |
-| tsort | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tsort | 47e607d80749 |
-| tsort | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tsort | 2349c4151eac |
+| tsort | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tsort | a16d1361f0e4 |
+| tsort | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tsort | af40dc319a18 |
 | tssh | an alternative to ssh client, offers additional useful features, such as login prompt, trzsz ( trz / tsz ), batch login, remember password, zmodem ( rz / sz ), etc. | https://github.com/trzsz/trzsz-ssh | https://bin.pkgforge.dev/aarch64/tssh | 8cc7baeefc8d |
 | tty | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/tty | c13bb07c15b7 |
 | tty | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/tty | 00972bb15a20 |
-| tty | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tty | a8664eb1571f |
-| tty | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tty | 907874791d92 |
+| tty | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/tty | 29c2745e57f9 |
+| tty | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/tty | 1776f58a15e9 |
 | tty | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/tty | 3cf18fd8b7d4 |
 | tty2web | Share your terminal as a web application in bind/reverse mode | https://github.com/kost/tty2web | https://bin.pkgforge.dev/aarch64/tty2web | 0389d9640493 |
 | ttyd | Share your terminal over the web | https://github.com/tsl0922/ttyd | https://bin.pkgforge.dev/aarch64/ttyd | f7e1333a6742 |
@@ -2660,16 +2660,16 @@
 | umount | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/umount | 34e31c47c8f3 |
 | uname | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uname | 4afb47155c5d |
 | uname | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/uname | f9db4440cbab |
-| uname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uname | 1255c9906fdb |
-| uname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uname | 9b57c3970d91 |
+| uname | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uname | 125825c0ea3a |
+| uname | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uname | 48f93a3e43cd |
 | uname | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/uname | f0c8db766870 |
 | uname26 | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/uname26 | a6b8bc486b02 |
 | uncompress | data compression program | https://git.savannah.gnu.org/cgit/gzip.git | https://bin.pkgforge.dev/aarch64/Baseutils/gzip/uncompress | 1902e7114630 |
 | uncover | Quickly discover exposed hosts on the internet using multiple search engines | https://github.com/projectdiscovery/uncover | https://bin.pkgforge.dev/aarch64/uncover | 4bcdd8b050a2 |
 | unexpand | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unexpand | 56d4ea14a6f2 |
 | unexpand | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/unexpand | 102e2837f05d |
-| unexpand | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/unexpand | 6674042389f5 |
-| unexpand | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/unexpand | a20d6b830830 |
+| unexpand | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/unexpand | 5ec3a8919250 |
+| unexpand | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/unexpand | 33d0a846d420 |
 | unexpand | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/unexpand | 554c216c27cf |
 | unf | UNixize Filename -- replace annoying anti-unix characters in filenames | https://github.com/io12/unf | https://bin.pkgforge.dev/aarch64/unf | f639a5a18de5 |
 | unfurl | Pull out bits of URLs provided on stdin | https://github.com/tomnomnom/unfurl | https://bin.pkgforge.dev/aarch64/unfurl | eef399ba4b4d |
@@ -2680,16 +2680,16 @@
 | unionfsctl | Tools for union filesystem using fuse3 | https://github.com/rpodgorny/unionfs-fuse | https://bin.pkgforge.dev/aarch64/Baseutils/unionfs-fuse3/unionfsctl | 7bc615de4544 |
 | uniq | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uniq | 9d759678a8b9 |
 | uniq | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/uniq | d60c890630bb |
-| uniq | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uniq | 98d907b313f9 |
-| uniq | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uniq | c2db4f17054b |
+| uniq | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uniq | 42fb22427c9c |
+| uniq | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uniq | 841d82ef03db |
 | uniq | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/uniq | f3354286e5b1 |
 | unix2dos | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unix2dos | 93adf21614fd |
 | unix2dos | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/unix2dos | 78ce44b4a5be |
 | unix2mac | Convert Line Endings | https://dos2unix.sourceforge.io | https://bin.pkgforge.dev/aarch64/unix2mac | 78ce44b4a5be |
 | unlink | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unlink | 1a7c565e9c08 |
 | unlink | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/unlink | 961b9ad10419 |
-| unlink | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/unlink | 66f18061bb11 |
-| unlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/unlink | e4696a510ceb |
+| unlink | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/unlink | 190b5f055e4c |
+| unlink | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/unlink | eabcaee7e88b |
 | unlink | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/unlink | 848c002bf5a2 |
 | unlzma | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/unlzma | f67bf64b25f3 |
 | unlzma | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/unlzma | 926c468dc1c1 |
@@ -2705,16 +2705,16 @@
 | update-desktop-database | Command line utilities for working with .desktop files | https://www.freedesktop.org/wiki/Software/desktop-file-utils | https://bin.pkgforge.dev/aarch64/update-desktop-database | 6fecf15f6eb9 |
 | uptime | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/uptime | 56d4352ced12 |
 | uptime | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/uptime | 708785ddfa8c |
-| uptime | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uptime | 87113985fec1 |
-| uptime | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uptime | 50dcd57a2e37 |
+| uptime | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/uptime | ae9b22b3740c |
+| uptime | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/uptime | b174e6278854 |
 | uptime | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/uptime | afe56f612494 |
 | upx | Ultimate Packer for eXecutables | https://github.com/upx/upx | https://bin.pkgforge.dev/aarch64/upx | f13bf685e127 |
 | uroot | create a one-binary root file system (initramfs) containing a busybox-like set of tools | https://github.com/u-root/u-root | https://bin.pkgforge.dev/aarch64/uroot | 8d4016356da7 |
 | uroot-busybox | Tools for compiling many Go commands into one binary to save space | https://github.com/u-root/gobusybox | https://bin.pkgforge.dev/aarch64/uroot-busybox | 61b680ea62f3 |
 | users | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/users | 5b6124d9b29e |
 | users | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/users | be0124072729 |
-| users | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/users | d1df003dd49e |
-| users | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/users | 9303874fc47f |
+| users | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/users | a7f9733f2fba |
+| users | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/users | ff3debc431b5 |
 | users | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/users | 7adcf745c717 |
 | usleep | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/usleep | b5ba8850d8f1 |
 | usql | Universal command-line interface for SQL databases | https://github.com/xo/usql | https://bin.pkgforge.dev/aarch64/usql | b0069c8baaeb |
@@ -2731,8 +2731,8 @@
 | validtoml | simple toml validitor | https://github.com/martinlindhe/validtoml | https://bin.pkgforge.dev/aarch64/validtoml | 14de0792bfb8 |
 | vconfig | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/vconfig | 0d05fe6ecafd |
 | vdir | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/vdir | 7ef81915ce41 |
-| vdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/vdir | f78d66cbd8b5 |
-| vdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/vdir | a1f1ba3c1a4c |
+| vdir | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/vdir | 59726482a0b3 |
+| vdir | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/vdir | ff0671ef9e70 |
 | vdpa | A Collection of utilities for controlling TCP/IP networking and traffic control in Linux | https://github.com/iproute2/iproute2 | https://bin.pkgforge.dev/aarch64/Baseutils/iproute2/vdpa | 75ae9868e79f |
 | vegeta | HTTP load testing tool and library | https://github.com/tsenart/vegeta | https://bin.pkgforge.dev/aarch64/vegeta | 2e4b31f9c326 |
 | veritysetup | LUKS for dm-crypt | https://gitlab.com/cryptsetup/cryptsetup | https://bin.pkgforge.dev/aarch64/Baseutils/cryptsetup/veritysetup | 011b7134b5c4 |
@@ -2785,8 +2785,8 @@
 | waybackurls | Fetch all the URLs that the Wayback Machine knows about for a domain | https://github.com/tomnomnom/waybackurls | https://bin.pkgforge.dev/aarch64/waybackurls | fbbd194c3ea1 |
 | wc | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/wc | 21e3a9f5c22b |
 | wc | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/wc | 8271fb726d60 |
-| wc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/wc | b67680882f88 |
-| wc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/wc | 1f6d34458d3c |
+| wc | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/wc | db6df790d57c |
+| wc | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/wc | c2fec0163114 |
 | wc | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/wc | 9a9392b8eda6 |
 | wdctl | random collection of Linux utilities | https://github.com/util-linux/util-linux | https://bin.pkgforge.dev/aarch64/Baseutils/util-linux/wdctl | 94471c9a8e82 |
 | web-cache-vulnerability-scanner | CLI tool for testing for web cache poisoning | https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner | https://bin.pkgforge.dev/aarch64/web-cache-vulnerability-scanner | 37d2bcc6c957 |
@@ -2803,12 +2803,12 @@
 | which | Shows the full path of (shell) commands | https://www.gnu.org/software/which/ | https://bin.pkgforge.dev/aarch64/which | bb5189d65b69 |
 | who | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/who | 0130d96ec46f |
 | who | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/who | 3b1c50a76be5 |
-| who | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/who | 2f91174c9cfd |
-| who | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/who | ab36d4e14943 |
+| who | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/who | 1bc03a5a3251 |
+| who | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/who | caf6e3ef9096 |
 | whoami | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/whoami | b567392df858 |
 | whoami | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/whoami | 6e009302195a |
-| whoami | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/whoami | 27e9e8a93439 |
-| whoami | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/whoami | aa79ab461663 |
+| whoami | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/whoami | 89d38a1ac93b |
+| whoami | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/whoami | 5b37c2a7fc17 |
 | whoami | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/whoami | 19a054fb1917 |
 | whois | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/whois | 3a21856a1b71 |
 | whoismac | https //github.com/ZerBea/hcxtools | https://github.com/checkpoint-restore/hcxtools | https://bin.pkgforge.dev/aarch64/whoismac | 7adfd568034f |
@@ -2862,7 +2862,7 @@
 | xplr | A hackable, minimal, fast TUI file explorer | https://github.com/sayanarijit/xplr | https://bin.pkgforge.dev/aarch64/xplr | 06ef5a0ef4b8 |
 | xq | Command-line XML and HTML beautifier and content extractor | https://github.com/sibprogrammer/xq | https://bin.pkgforge.dev/aarch64/xq | a408c78ebb29 |
 | xurls | Extract urls from text | https://github.com/mvdan/xurls | https://bin.pkgforge.dev/aarch64/xurls | 8304c44052ec |
-| xxd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xxd | 4de66f53ebc4 |
+| xxd | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xxd | 5e8491d01228 |
 | xz | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xz | 67af608844a1 |
 | xz | A general-purpose data compression software, successor of LZMA | https://github.com/tukaani-project/xz | https://bin.pkgforge.dev/aarch64/Baseutils/xz/xz | 926c468dc1c1 |
 | xzcat | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/xzcat | d6d99c47d103 |
@@ -2881,8 +2881,8 @@
 | yazi | 💥 Blazing fast terminal file manager written in Rust, based on async I/O. | https://github.com/sxyazi/yazi | https://bin.pkgforge.dev/aarch64/yazi | 3d5ca2c1e22c |
 | yes | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/yes | 28442df8d322 |
 | yes | Cross-platform Rust rewrite of the GNU coreutils | https://github.com/uutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils_uutils/yes | bf1737743a74 |
-| yes | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/yes | 30adb766a2ea |
-| yes | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/yes | 36313666b3ae |
+| yes | GNU File, Shell, and Text utilities (GLIBC) | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-glibc/yes | a0bfc66ef8e9 |
+| yes | GNU File, Shell, and Text utilities | https://github.com/coreutils/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils/yes | 8111bdf06e9a |
 | yes | Programs equivalent to GNU coreutils, written in the V language | https://github.com/vlang/coreutils | https://bin.pkgforge.dev/aarch64/Baseutils/coreutils-vlang/yes | ef219c741e2b |
 | yggdrasil | An experiment in scalable routing as an encrypted IPv6 overlay network | https://github.com/yggdrasil-network/yggdrasil-go | https://bin.pkgforge.dev/aarch64/yggdrasil | 5d7e27075098 |
 | yggdrasilctl | An experiment in scalable routing as an encrypted IPv6 overlay network | https://github.com/yggdrasil-network/yggdrasil-go | https://bin.pkgforge.dev/aarch64/yggdrasilctl | e44888a6f14a |
