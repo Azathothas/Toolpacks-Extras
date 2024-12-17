@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+4
+# VERSION=0.0.9+5
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -296,7 +296,7 @@ upload_to_ghcr()
 local PROG="$1"
 if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
  #Clear ENV
-  unset ARCH BUILD_LOG BUILD_SCRIPT DOWNLOAD_URL GHCR_PKG PKG_BSUM PKG_CATEGORY PKG_DATE PKG_DESCRIPTION PKG_FAMILY PKG_HOMEPAGE PKG_ICON PKG_JSON PKG_NAME PKG_NOTE PKG_ORIG PKG_REPOLOGY PKG_SCREENSHOT PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRCURL PKG_TAG PKG_VERSION VERSION
+  unset ARCH BUILD_LOG BUILD_SCRIPT DOWNLOAD_URL GHCR_PKG PKG_BSUM PKG_CATEGORY PKG_DATE PKG_DESCRIPTION PKG_HOMEPAGE PKG_ICON PKG_JSON PKG_NAME PKG_NOTE PKG_ORIG PKG_REPOLOGY PKG_SCREENSHOT PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRCURL PKG_TAG PKG_VERSION VERSION
  #Parse
   if jq --exit-status . "${SBUILD_OUTDIR}/${PROG}.json" >/dev/null 2>&1; then
    GHCR_PKG="$(realpath ${SBUILD_OUTDIR})/${PROG}"
@@ -304,6 +304,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    export GHCR_PKG PKG_JSON
    echo "export PKG_JSON='${PKG_JSON}'" >> "${OCWD}/ENVPATH"
    if [[ -s "${GHCR_PKG}" && $(stat -c%s "${GHCR_PKG}") -gt 100 ]]; then
+     PKG_NAME="$(jq -r '.pkg_name' "${PKG_JSON}" | tr -d '[:space:]')"
      BUILD_LOG="$(jq -r '.build_log' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${BUILD_LOG}" == "null" ]] && BUILD_LOG=""
      BUILD_SCRIPT="$(jq -r '.build_script' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -314,14 +315,16 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      PKG_DATE="$(jq -r '.build_date' "${PKG_JSON}" | tr -d '[:space:]')"
      PKG_DATE="${PKG_DATE:-$(date --utc +%Y-%m-%dT%H:%M:%S)}Z"
      PKG_DESCRIPTION="$(jq -r '.description' "${PKG_JSON}")"
-     PKG_FAMILY="$(jq -r '.pkg_family' "${PKG_JSON}" | tr -d '[:space:]')"
+     if [ -z "${PKG_FAMILY+x}" ] || [ -z "${PKG_FAMILY##*[[:space:]]}" ]; then
+       PKG_FAMILY="$(jq -r '.pkg_family' "${PKG_JSON}" | tr -d '[:space:]')"
+       [[ "${PKG_FAMILY}" == "null" ]] && PKG_FAMILY="${PKG_NAME}"
+     fi
      PKG_HOMEPAGE="$(jq -r 'if .homepage | type == "array" then .homepage[0] else .homepage end' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_HOMEPAGE}" == "null" ]] && PKG_HOMEPAGE=""
      PKG_ICON="$(jq -r 'if .icon | type == "array" then .icon[0] else .icon end' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_ICON}" == "null" ]] && PKG_ICON=""
      PKG_ID="$(jq -r '.pkg_id' "${PKG_JSON}" | tr -d '[:space:]')"
      [[ "${PKG_ID}" == "null" ]] && PKG_ID="${PKG_FAMILY}"
-     PKG_NAME="$(jq -r '.pkg_name' "${PKG_JSON}" | tr -d '[:space:]')"
      PKG_NOTE="$(jq -r 'if .note | type == "array" then .note[0] else .note end' "${PKG_JSON}")"
      [[ "${PKG_NOTE}" == "null" ]] && PKG_NOTE=""
      PKG_ORIG="$(jq -r '.pkg' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -354,7 +357,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
     return
    fi
    if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG##*[[:space:]]}" ]; then
-     GHCRPKG_URL="$(echo "${GHCRPKG_URL}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
+     GHCRPKG_URL="$(echo "${GHCRPKG}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
    else
      GHCRPKG_URL="ghcr.io/pkgforge/${PKG_REPO}/${PKG_FAMILY:-PKG_NAME}/${PKG_ID:-${PKG_FAMILY:-PKG_NAME}}"
      GHCRPKG_URL="$(echo "${GHCRPKG_URL}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
