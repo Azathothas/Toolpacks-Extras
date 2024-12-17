@@ -132,7 +132,8 @@ export -f sanitize_logs
      popd >/dev/null 2>&1
     fi
     END_TIME="$(date +%s)" && export END_TIME="${END_TIME}"
-    ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")" 
+    ELAPSED_TIME="$(date -u -d@"$((END_TIME - START_TIME))" "+%H(Hr):%M(Min):%S(Sec)")"
+    echo -e "\n[+] Completed (Building|Fetching) ${RECIPE} :: ${ELAPSED_TIME}\n"
    done
    echo -e "\n\n [+] Finished Building at :: $(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)')\n\n"
  popd >/dev/null 2>&1

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+9
+# VERSION=1.0.0
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -391,7 +391,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      return 1 || exit 1
     else
      cp -fv "${LOGPATH}" "${SBUILD_OUTDIR}/${PROG}.log"
-     echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${PKG_REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${ARCH}]"
+     echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${PKG_REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${HOST_TRIPLET}]"
      oras push --concurrency "100" --disable-path-validation \
      --config "/dev/null:application/vnd.oci.empty.v1+json" \
      --annotation "com.github.package.type=soar_pkg" \
