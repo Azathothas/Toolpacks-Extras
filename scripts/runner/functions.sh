@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+3
+# VERSION=0.0.9+4
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -195,6 +195,10 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
          echo -e "[+] ENVPATH=$(realpath "${OCWD}/ENVPATH")"
          echo "export LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" >> "${OCWD}/ENVPATH"
        fi
+       if [[ $(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]') != "${SBUILD_PKGVER}" ]]; then
+         SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" ; export SBUILD_PKGVER
+         echo "[+] Resetting Version: ${SBUILD_PKGVER} <== [${SBUILD_OUTDIR}/${SBUILD_PKG}.version]"
+       fi
      else
        echo -e "\n[✗] FATAL: Could NOT Build ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}]\n"
        cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" 2>/dev/null
@@ -349,7 +353,12 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      echo -e "\n[✗] No Valid \$GHCR_PKG was Provided\n"
     return
    fi
-   GHCRPKG_URL="ghcr.io/pkgforge/${PKG_REPO}/${PKG_FAMILY:-PKG_NAME}/${PKG_ID:-${PKG_FAMILY:-PKG_NAME}}" ; export GHCRPKG_URL
+   if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG##*[[:space:]]}" ]; then
+     GHCRPKG_URL="$(echo "${GHCRPKG_URL}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
+   else
+     GHCRPKG_URL="ghcr.io/pkgforge/${PKG_REPO}/${PKG_FAMILY:-PKG_NAME}/${PKG_ID:-${PKG_FAMILY:-PKG_NAME}}"
+     GHCRPKG_URL="$(echo "${GHCRPKG_URL}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
+   fi
    echo "export GHCRPKG_URL='${GHCRPKG_URL}'" >> "${OCWD}/ENVPATH"
    PKG_SIZE="$(jq -r '.size' "${PKG_JSON}" | tr -d '[:space:]')"
    PKG_SIZE="${PKG_SIZE:-$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')}"
@@ -394,7 +403,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    --annotation "org.opencontainers.image.url=${PKG_SRCURL}" \
    --annotation "org.opencontainers.image.vendor=pkgforge" \
    --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
-   "${GHCRPKG_URL}:${PKG_VERSION}" "${GHCR_PKG}"
+   "${GHCRPKG_URL}:${PKG_VERSION}-${HOST_TRIPLET,,}" "${GHCR_PKG}"
    echo -e "\n[+] Registry --> ${GHCRPKG_URL}\n"
    rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
    else
