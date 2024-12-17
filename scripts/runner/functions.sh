@@ -196,7 +196,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
          echo "export LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'" >> "${OCWD}/ENVPATH"
        fi
        if [[ $(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]') != "${SBUILD_PKGVER}" ]]; then
-         SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" ; export SBUILD_PKGVER
+         SBUILD_PKGVER="$(cat ${SBUILD_OUTDIR}/${SBUILD_PKG}.version)" ; export SBUILD_PKGVER
          echo "[+] Resetting Version: ${SBUILD_PKGVER} <== [${SBUILD_OUTDIR}/${SBUILD_PKG}.version]"
        fi
      else
