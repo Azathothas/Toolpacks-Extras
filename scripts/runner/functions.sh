@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+7
+# VERSION=0.0.9+8
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -188,6 +188,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'printf "\nFile: {}\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)\n"'
       #End
        export SBUILD_SUCCESSFUL="YES"
+       echo "export SBUILD_SUCCESSFUL='${SBUILD_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
        echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}] [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
        echo -e "[+] Total Size: $(du -sh "${SBUILD_OUTDIR}" 2>/dev/null | awk '{print $1}' 2>/dev/null)"
        if [ -d "${OCWD}" ]; then
@@ -205,12 +206,14 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        ls "${SBUILD_OUTDIR}" -lah
        return 1 || exit 1
        export SBUILD_SUCCESSFUL="NO"
+       echo "export SBUILD_SUCCESSFUL='${SBUILD_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
      fi
    popd >/dev/null 2>&1
  else
    echo -e "\n[✗] FATAL: Could NOT parse ${INPUT_SBUILD} ==> ${TMPJSON}\n"
    return 1 || exit 1
    export SBUILD_SUCCESSFUL="NO"
+   echo "export SBUILD_SUCCESSFUL='${SBUILD_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
  fi
 fi
 }
@@ -397,7 +400,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    --annotation "dev.pkgforge.soar.icon=${PKG_ICON}" \
    --annotation "dev.pkgforge.soar.json=$(jq . ${PKG_JSON})" \
    --annotation "dev.pkgforge.soar.note=${PKG_NOTE}" \
-   --annotation "dev.pkgforge.soar.pkg=${PKG_ORIG}" \
+   --annotation "dev.pkgforge.soar.pkg=${SBUILD_PKG:-PKG_ORIG}" \
    --annotation "dev.pkgforge.soar.pkg_family=${PKG_FAMILY}" \
    --annotation "dev.pkgforge.soar.pkg_name=${PKG_NAME}" \
    --annotation "dev.pkgforge.soar.pkg_webindex=https://pkgs.pkgforge.dev/stable/${HOST_TRIPLET}/${PKG_FAMILY:-PKG_NAME}/${PKG_NAME}" \
@@ -419,7 +422,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    --annotation "org.opencontainers.image.url=${PKG_SRCURL}" \
    --annotation "org.opencontainers.image.vendor=pkgforge" \
    --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
-   "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./$(basename ${GHCR_PKG})"
+   "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./$(basename ${GHCR_PKG})" "./$(basename ${LOGPATH})"
    if [[ "$(oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq -r '.annotations["org.opencontainers.image.created"]')" == "${PKG_DATE}" ]]; then
      echo -e "\n[+] Registry --> https://${GHCRPKG_URL}\n"
      export PUSH_SUCCESSFUL="YES"
