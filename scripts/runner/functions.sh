@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=0.0.9+6
+# VERSION=0.0.9+7
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -294,9 +294,10 @@ export -f generate_json
 upload_to_ghcr()
 {
 local PROG="$1"
+pushd "${SBUILD_OUTDIR}" >/dev/null 2>&1
 if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
  #Clear ENV
-  unset ARCH BUILD_LOG BUILD_SCRIPT DOWNLOAD_URL GHCR_PKG PKG_BSUM PKG_CATEGORY PKG_DATE PKG_DESCRIPTION PKG_HOMEPAGE PKG_ICON PKG_JSON PKG_NAME PKG_NOTE PKG_ORIG PKG_REPOLOGY PKG_SCREENSHOT PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRCURL PKG_TAG PKG_VERSION VERSION
+  unset ARCH BUILD_LOG BUILD_SCRIPT DOWNLOAD_URL GHCR_PKG GHCRPKG_TAG PKG_BSUM PKG_CATEGORY PKG_DATE PKG_DESCRIPTION PKG_HOMEPAGE PKG_ICON PKG_JSON PKG_NAME PKG_NOTE PKG_ORIG PKG_REPOLOGY PKG_SCREENSHOT PKG_SHASUM PKG_SIZE PKG_SIZE_RAW PKG_SRCURL PKG_TAG PKG_VERSION PUSH_SUCCESSFUL VERSION
  #Parse
   if jq --exit-status . "${SBUILD_OUTDIR}/${PROG}.json" >/dev/null 2>&1; then
    GHCR_PKG="$(realpath ${SBUILD_OUTDIR})/${PROG}"
@@ -372,6 +373,8 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      GHCRPKG_URL="$(echo "${GHCRPKG_URL}/${PROG}" | sed ':a; s/\/\//\//g; ta')" ; export GHCRPKG_URL
    fi
    echo "export GHCRPKG_URL='${GHCRPKG_URL}'" >> "${OCWD}/ENVPATH"
+   GHCRPKG_TAG="${PKG_VERSION}-${HOST_TRIPLET,,}"
+   echo "export GHCRPKG_TAG='${GHCRPKG_TAG}'" >> "${OCWD}/ENVPATH"
    PKG_SIZE="$(jq -r '.size' "${PKG_JSON}" | tr -d '[:space:]')"
    PKG_SIZE="${PKG_SIZE:-$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')}"
    PKG_SIZE_RAW="$(jq -r '.size_raw' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -389,6 +392,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    --annotation "dev.pkgforge.soar.category=${PKG_CATEGORY}" \
    --annotation "dev.pkgforge.soar.description=${PKG_DESCRIPTION}" \
    --annotation "dev.pkgforge.soar.download_url=${GHCRPKG_URL}:${PKG_VERSION}" \
+   --annotation "dev.pkgforge.soar.ghcrpkg=${GHCRPKG_URL}:${GHCRPKG_TAG}" \
    --annotation "dev.pkgforge.soar.homepage=${PKG_HOMEPAGE:-PKG_SRCURL}" \
    --annotation "dev.pkgforge.soar.icon=${PKG_ICON}" \
    --annotation "dev.pkgforge.soar.json=$(jq . ${PKG_JSON})" \
@@ -415,15 +419,23 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    --annotation "org.opencontainers.image.url=${PKG_SRCURL}" \
    --annotation "org.opencontainers.image.vendor=pkgforge" \
    --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
-   "${GHCRPKG_URL}:${PKG_VERSION}-${HOST_TRIPLET,,}" "${GHCR_PKG}"
-   echo -e "\n[+] Registry --> ${GHCRPKG_URL}\n"
-   rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
+   "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./$(basename ${GHCR_PKG})"
+   if [[ "$(oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq -r '.annotations["org.opencontainers.image.created"]')" == "${PKG_DATE}" ]]; then
+     echo -e "\n[+] Registry --> https://${GHCRPKG_URL}\n"
+     export PUSH_SUCCESSFUL="YES"
+     #rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
+   else
+     echo -e "\n[✗] Failed to Push Artifact to {GHCRPKG_URL}:${GHCRPKG_TAG}\n"
+     export PUSH_SUCCESSFUL="NO"
+   fi
+   echo "export PUSH_SUCCESSFUL='${PUSH_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
    else
     echo -e "\n[-] FAILED to Parse ${PKG_FAMILY}/${PKG_NAME} Metadata <-- ["${SBUILD_OUTDIR}/${PROG}.json"]\n"
     cat "${PKG_JSON}"
     return
    fi
 fi
+popd >/dev/null 2>&1
 }
 export -f upload_to_ghcr
 popd >/dev/null 2>&1
