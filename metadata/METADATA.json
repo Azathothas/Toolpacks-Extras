@@ -463,7 +463,7 @@
         "build_log": "https://huggingface.co/datasets/pkgforge/pkgcache/resolve/main/aarch64-Linux/ristretto.appbundle.log",
         "appstream": "",
         "category": "ImageProcessing,Photography,Viewer",
-        "desktop": "",
+        "desktop": "https://pkgcache.pkgforge.dev/aarch64/ristretto.alpine.desktop",
         "icon": "https://pkgcache.pkgforge.dev/aarch64/ristretto.dwfs.appbundle.icon.png",
         "screenshots": [
           "https://pkg.pkgforge.dev/aarch64/ristretto.appbundle.screen_1.png"
