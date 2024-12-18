@@ -2549,10 +2549,10 @@
 | top | A Software Suite that provides Several Unix Utilities in a single Executable | https://git.busybox.net/busybox/ | https://bin.pkgforge.dev/aarch64/Baseutils/busybox/top | 36dd69ccad2b |
 | top | Utilities that give information about processes using the /proc filesystem | https://gitlab.com/procps-ng/procps | https://bin.pkgforge.dev/aarch64/Baseutils/procps/top | 4e15966d68b7 |
 | topmorph.pl | Utilities that are useful in advanced password cracking (HashCat) | https://github.com/hashcat/hashcat-utils | https://bin.pkgforge.dev/aarch64/Baseutils/hashcat-utils/topmorph.pl | 8396aa9e18de |
-| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor | 20ada623dd71 |
-| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-gencert | b648501653ba |
-| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-print-ed-signing-cert | 35b946476831 |
-| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-resolve | f1701c67e6d7 |
+| tor | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor | 15c1d31bf52a |
+| tor-gencert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-gencert | db1decfba528 |
+| tor-print-ed-signing-cert | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-print-ed-signing-cert | f366c6bb7f06 |
+| tor-resolve | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/tor-resolve | e2aece304560 |
 | torify | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/torify | 49453cad50a0 |
 | torsocks | Anonymizing overlay network | https://gitlab.torproject.org/tpo/core/tor/ | https://bin.pkgforge.dev/aarch64/Baseutils/tor/torsocks | b4d64c6dd269 |
 | toru | Bittorrent streaming CLI for anime torrents, real-time with no waiting for downloads. | https://github.com/sweetbbak/toru | https://bin.pkgforge.dev/aarch64/toru | 8dc82e6d0a83 |
@@ -2610,11 +2610,11 @@
 | tune2fs | Tools for creating and checking ext2/ext3/ext4 filesystems | https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git | https://bin.pkgforge.dev/aarch64/Baseutils/e2fsprogs/tune2fs | e545ca614e3b |
 | tusd | Server for tus, the open protocol for resumable file uploads | https://github.com/tus/tusd | https://bin.pkgforge.dev/aarch64/tusd | 1601f4922f14 |
 | tut | TUI for Mastodon with vim inspired keys | https://github.com/RasmusLindroth/tut | https://bin.pkgforge.dev/aarch64/tut | 13f5e2b937b3 |
-| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate | 9248f16983a2 |
-| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connector | eba206b4645a |
-| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connectorctl | 5011a65964eb |
-| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-notifier | 3972a4e8b7b4 |
-| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingated | 7c82cb1bf490 |
+| twingate | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate | a07d5d7f4989 |
+| twingate-connector | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connector | 40e83d915b8b |
+| twingate-connectorctl | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-connectorctl | a7243a97cb7e |
+| twingate-notifier | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingate-notifier | 1c0452740a34 |
+| twingated | Zero Trust VPN replacement for programmatic & Secure access to Infrastructures | https://github.com/Twingate | https://bin.pkgforge.dev/aarch64/Baseutils/twingate/twingated | 8f2565cea30a |
 | txeh | CLI utility for /etc/hosts management. | https://github.com/txn2/txeh | https://bin.pkgforge.dev/aarch64/txeh | aa062e346180 |
 | tz | 🌐 A time zone helper | https://github.com/oz/tz | https://bin.pkgforge.dev/aarch64/tz | dc9aaee88b98 |
 | u-root | create a one-binary root file system (initramfs) containing a busybox-like set of tools | https://github.com/u-root/u-root | https://bin.pkgforge.dev/aarch64/u-root | 8d4016356da7 |
