@@ -4270,6 +4270,10 @@ NAME: Betaflight Configurator
 APP_ID: io.github.betaflight.BetaflightConfigurator.desktop
 Descr: Crossplatform configuration tool for the Betaflight flight control system
 -----------------------------
+NAME: LazPaint
+APP_ID: io.github.bgrabitmap.LazPaint
+Descr: Fast raster image editor
+-----------------------------
 NAME: LNXlink
 APP_ID: io.github.bkbilly.lnxlink
 Descr: Manage Linux machine with MQTT

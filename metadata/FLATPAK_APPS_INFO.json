@@ -5715,6 +5715,11 @@
     "description": "Simple BrainFuck IDE"
   },
   {
+    "pkg": "LazPaint",
+    "app_id": "io.github.bgrabitmap.LazPaint",
+    "description": "Fast raster image editor"
+  },
+  {
     "pkg": "Le Biniou",
     "app_id": "net.biniou.LeBiniou",
     "description": "User-friendly, powerful music visualization / VJing tool"
