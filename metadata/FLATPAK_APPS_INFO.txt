@@ -84,7 +84,7 @@ Descr: Free offline maps for everyone
 -----------------------------
 NAME: PianoCheetah
 APP_ID: app.pianocheetah.pianocheetah
-Descr: Piano practice that&apos;s kinda fun
+Descr: a better way to play it
 -----------------------------
 NAME: Polychromatic
 APP_ID: app.polychromatic.controller
@@ -3724,7 +3724,7 @@ Descr: Reverse Polish Notation CLI calculator
 -----------------------------
 NAME: Bodev
 APP_ID: fr.sgued.bodev
-Descr: The developper&apos;s toolbox
+Descr: Low level dev tools
 -----------------------------
 NAME: Ten Forward
 APP_ID: fr.sgued.ten_forward
@@ -4013,10 +4013,6 @@ Descr: Unofficial fork of Stardrop with custom changes
 NAME: Wyrmsun
 APP_ID: io.github.Andrettin.Wyrmsun
 Descr: Strategy game based on history, mythology and fiction
------------------------------
-NAME: OpenTrace
-APP_ID: wyrmsun.desktop
-Descr: A cross-platform GUI wrapper for NextTrace
 -----------------------------
 NAME: OpenTrace
 APP_ID: io.github.Archeb.opentrace

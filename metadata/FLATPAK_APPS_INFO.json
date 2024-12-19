@@ -1147,7 +1147,7 @@
   {
     "pkg": "Bodev",
     "app_id": "fr.sgued.bodev",
-    "description": "The developper&apos;s toolbox"
+    "description": "Low level dev tools"
   },
   {
     "pkg": "BoilR",
@@ -8806,11 +8806,6 @@
   },
   {
     "pkg": "OpenTrace",
-    "app_id": "wyrmsun.desktop",
-    "description": "A cross-platform GUI wrapper for NextTrace"
-  },
-  {
-    "pkg": "OpenTrace",
     "app_id": "io.github.Archeb.opentrace",
     "description": "A cross-platform GUI wrapper for NextTrace"
   },
@@ -9277,7 +9272,7 @@
   {
     "pkg": "PianoCheetah",
     "app_id": "app.pianocheetah.pianocheetah",
-    "description": "Piano practice that&apos;s kinda fun"
+    "description": "a better way to play it"
   },
   {
     "pkg": "PicGuard",
