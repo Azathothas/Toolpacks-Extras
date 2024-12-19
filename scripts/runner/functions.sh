@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# VERSION=1.0.0
+# VERSION=1.0.2
 
 #-------------------------------------------------------#
 ## <DO NOT RUN STANDALONE, meant for CI Only>
@@ -33,7 +33,8 @@ setup_env()
  SBUILD_TMPDIR="${SBUILD_OUTDIR}/SBUILD_TMPDIR"
  mkdir -p "${SBUILD_TMPDIR}"
  export BUILD_DIR INPUT_SBUILD SBUILD_OUTDIR SBUILD_TMPDIR
- echo -e "\n[+] Building ${INPUT_SBUILD} --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+ #echo -e "\n[+] Building ["$(echo "${RECIPE}" | awk -F'/' '{print $(NF-1) "/" $NF}')"] (${INPUT_SBUILD}) --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
+ echo -e "\n[+] Building (${RECIPE}) --> ${SBUILD_OUTDIR} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]\n"
  echo "export INPUT_SBUILD='${INPUT_SBUILD}'" > "${OCWD}/ENVPATH"
  echo "export BUILD_DIR='${BUILD_DIR}'" >> "${OCWD}/ENVPATH"
  echo "export SBUILD_OUTDIR='${SBUILD_OUTDIR}'" >> "${OCWD}/ENVPATH"
@@ -115,7 +116,6 @@ gen_json_from_sbuild()
          else
            SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]')" ; export SBUILD_PKGVER
            echo "[+] Version: ${SBUILD_PKGVER} [${SBUILD_OUTDIR}/${SBUILD_PKG}.version]"
-           export CONTINUE_SBUILD="YES"
          fi
        else
          echo -e "\n[✗] FATAL: Failed to Extract ('x_exec.pkgver')\n"
@@ -152,6 +152,7 @@ export -f gen_json_from_sbuild
 ##Build Progs
 build_progs()
 {
+unset SBUILD_SUCCESSFUL
 if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
  if jq --exit-status . "${TMPJSON}" >/dev/null 2>&1; then
  #Get Progs
@@ -166,7 +167,23 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
    echo -e "[+] Progs: ${SBUILD_PKGS[*]}"
   fi
   printf "export SBUILD_PKGS='%s'\n" "${SBUILD_PKGS[*]}" >> "${OCWD}/ENVPATH"
+ #check rebuild
+  if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG##*[[:space:]]}" ]; then
+    for PROG in "${SBUILD_PKGS[@]}"; do
+      if [[ "$(oras manifest fetch "${GHCRPKG}/${PROG}:${SBUILD_PKGVER}-${HOST_TRIPLET,,}" 2>/dev/null | jq -r '.annotations["org.opencontainers.image.version"]')" == "${SBUILD_PKGVER}" ]]; then
+        if [[ "${SBUILD_REBUILD}" == "false" ]] && [[ "${FORCE_REBUILD_ALL}" != "YES" ]]; then
+          echo -e "\n[+] SKIPPED: ${SBUILD_PKG} [${GHCRPKG}/${PROG}:${SBUILD_PKGVER}-${HOST_TRIPLET,,}] (PreBuilt Exists)"
+          echo -e "[+] ReRun with: '.rebuild == true' (https://github.com/pkgforge/${PKG_REPO}/blob/main/SBUILD_LIST.json)"
+          echo -e "[+] Or to Re Build Everything: FORCE_REBUILD_ALL=YES sbuild-builder\n"
+          export CONTINUE_SBUILD="NO"
+          return 0 || exit 0
+        fi
+        break
+      fi
+    done
+  fi
  #Run
+  if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
    check_sane_env
    pushd "${SBUILD_OUTDIR}" >/dev/null 2>&1
      printf "\n" && timeout -k 60m 5m "${TMPXRUN}" ; printf "\n"
@@ -186,12 +203,12 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        '
       #Sanity
        find "${SBUILD_OUTDIR}" -type f -exec touch "{}" \;
-       find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'printf "\nFile: {}\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)\n"'
+       find "${SBUILD_OUTDIR}" -maxdepth 1 -type f -print | xargs -I "{}" sh -c 'printf "\nFile: $(basename {})\n  Type: $(file -b {})\n  B3sum: $(b3sum {} | cut -d" " -f1)\n  SHA256sum: $(sha256sum {} | cut -d" " -f1)\n  Size: $(du -sh {} | cut -f1)\n"'
       #End
        export SBUILD_SUCCESSFUL="YES"
        echo "export SBUILD_SUCCESSFUL='${SBUILD_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
-       echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${INPUT_SBUILD} [${SBUILD_SCRIPT}] [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
-       echo -e "[+] Total Size: $(du -sh "${SBUILD_OUTDIR}" 2>/dev/null | awk '{print $1}' 2>/dev/null)"
+       echo -e "[✓] SuccessFully Built ${SBUILD_PKG} using ${RECIPE:-INPUT_SBUILD} [$(TZ='UTC' date +'%A, %Y-%m-%d (%I:%M:%S %p)') UTC]"
+       echo -e "[+] Total Size: $(du -sh "${SBUILD_OUTDIR}" 2>/dev/null | awk '{print $1}' 2>/dev/null) (Includes TMPFILES)"
        if [ -d "${OCWD}" ]; then
          echo -e "[+] LOGPATH='${SBUILD_OUTDIR}/${SBUILD_PKG}.log'"
          echo -e "[+] ENVPATH=$(realpath "${OCWD}/ENVPATH")"
@@ -210,6 +227,7 @@ if [[ "${CONTINUE_SBUILD}" == "YES" ]]; then
        echo "export SBUILD_SUCCESSFUL='${SBUILD_SUCCESSFUL}'" >> "${OCWD}/ENVPATH"
      fi
    popd >/dev/null 2>&1
+  fi
  else
    echo -e "\n[✗] FATAL: Could NOT parse ${INPUT_SBUILD} ==> ${TMPJSON}\n"
    return 1 || exit 1
@@ -230,6 +248,11 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
  for PROG in "${SBUILD_PKGS[@]}"; do
   if [[ -s "${SBUILD_OUTDIR}/${PROG}" && $(stat -c%s "${SBUILD_OUTDIR}/${PROG}") -gt 10 ]]; then
    export PROG SBUILD_PKGVER
+   if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG##*[[:space:]]}" ]; then
+     DOWNLOAD_URL="$(echo "${GHCRPKG}/${PROG}" | sed 's|^ghcr.io|https://api.ghcr.pkgforge.dev|' | sed ':a; s/\/\//\//g; ta')?tag=${SBUILD_PKGVER}-${HOST_TRIPLET,,}&download=${PROG}"
+     BUILD_LOG="$(echo "${DOWNLOAD_URL}" | sed 's/download=[^&]*/download='"${PROG}"'.log/')"
+     export BUILD_LOG DOWNLOAD_URL
+   fi
    GHCR_PKG="$(realpath ${SBUILD_OUTDIR}/${PROG})"
    PKG_DATE="$(date --utc +%Y-%m-%dT%H:%M:%S)Z"
    PKG_DESCRIPTION="$(jq -r 'if (.description | has(env.PROG) and .description[env.PROG] != "") then .description[env.PROG] else (.description // "") end' ${TMPJSON})"
@@ -241,6 +264,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    SBUILD_PKGVER="$(cat "${SBUILD_OUTDIR}/${SBUILD_PKG}.version" | tr -d '[:space:]')" ; export SBUILD_PKGVER
    export GHCR_PKG PROG PKG_BSUM PKG_DATE PKG_SIZE PKG_SIZE_RAW PKG_SHASUM SBUILD_PKGVER
    echo "[+] Generating Json for ${SBUILD_PKG} (PROG=${PROG}) ==> ${SBUILD_OUTDIR}/${PROG}.json"
+   echo -e "[+] ==> $(echo "${DOWNLOAD_URL}" | sed 's/download=[^&]*/download='"${PROG}"'.json/')"
    cat "${TMPJSON}" | jq -r \
    '{
     "_disabled": (._disabled | tostring // "unknown"),
@@ -279,6 +303,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
     "version": (env.SBUILD_PKGVER // ""),
     "bsum": (env.PKG_BSUM // ""),
     "build_date": (env.PKG_DATE // ""),
+    "build_log": (env.BUILD_LOG // ""),
     "build_script": (env.SBUILD_SCRIPT // ""),
     "download_url": (env.DOWNLOAD_URL // ""),
     "shasum": (env.PKG_SHASUM // ""),
@@ -379,6 +404,11 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
    echo "export GHCRPKG_URL='${GHCRPKG_URL}'" >> "${OCWD}/ENVPATH"
    GHCRPKG_TAG="${PKG_VERSION}-${HOST_TRIPLET,,}"
    echo "export GHCRPKG_TAG='${GHCRPKG_TAG}'" >> "${OCWD}/ENVPATH"
+   if [ -n "${GHCRPKG+x}" ] && [ -n "${GHCRPKG_TAG+x}" ]; then
+     DOWNLOAD_URL="$(echo "${GHCRPKG_URL}" | sed 's|^ghcr.io|https://api.ghcr.pkgforge.dev|' | sed ':a; s/\/\//\//g; ta')?tag=${GHCRPKG_TAG}&download=${PROG}"
+     export DOWNLOAD_URL
+     echo "export DOWNLOAD_URL='${DOWNLOAD_URL}'" >> "${OCWD}/ENVPATH"
+   fi
    PKG_SIZE="$(jq -r '.size' "${PKG_JSON}" | tr -d '[:space:]')"
    PKG_SIZE="${PKG_SIZE:-$(du -sh "${GHCR_PKG}" | awk '{unit=substr($1,length($1)); sub(/[BKMGT]$/,"",$1); print $1 " " unit "B"}')}"
    PKG_SIZE_RAW="$(jq -r '.size_raw' "${PKG_JSON}" | tr -d '[:space:]')"
@@ -391,6 +421,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      return 1 || exit 1
     else
      cp -fv "${LOGPATH}" "${SBUILD_OUTDIR}/${PROG}.log"
+     echo -e "[+] ==> $(echo "${DOWNLOAD_URL}" | sed 's/download=[^&]*/download='"${PROG}"'.log/')"
      echo -e "\n[+] Parsing/Uploading ${PKG_FAMILY}/${PKG_NAME} --> https://github.com/orgs/pkgforge/packages/container/package/${PKG_REPO}%2F${PKG_FAMILY:-PKG_NAME}%2F${PKG_NAME} [${HOST_TRIPLET}]"
      oras push --concurrency "100" --disable-path-validation \
      --config "/dev/null:application/vnd.oci.empty.v1+json" \
@@ -402,7 +433,7 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      --annotation "dev.pkgforge.soar.bsum=${PKG_BSUM}" \
      --annotation "dev.pkgforge.soar.category=${PKG_CATEGORY}" \
      --annotation "dev.pkgforge.soar.description=${PKG_DESCRIPTION}" \
-     --annotation "dev.pkgforge.soar.download_url=${GHCRPKG_URL}:${PKG_VERSION}" \
+     --annotation "dev.pkgforge.soar.download_url=${DOWNLOAD_URL}" \
      --annotation "dev.pkgforge.soar.ghcrpkg=${GHCRPKG_URL}:${GHCRPKG_TAG}" \
      --annotation "dev.pkgforge.soar.homepage=${PKG_HOMEPAGE:-PKG_SRCURL}" \
      --annotation "dev.pkgforge.soar.icon=${PKG_ICON}" \
@@ -432,7 +463,8 @@ if [[ "${SBUILD_SUCCESSFUL}" == "YES" ]]; then
      --annotation "org.opencontainers.image.version=${PKG_VERSION}" \
      "${GHCRPKG_URL}:${GHCRPKG_TAG}" "./${PROG}" "./${PROG}.json" "./${PROG}.log"
      if [[ "$(oras manifest fetch "${GHCRPKG_URL}:${GHCRPKG_TAG}" | jq -r '.annotations["org.opencontainers.image.created"]')" == "${PKG_DATE}" ]]; then
-       echo -e "\n[+] Registry --> https://${GHCRPKG_URL}\n"
+       echo -e "\n[+] Registry --> https://${GHCRPKG_URL}"
+       echo -e "[+] ==>'${DOWNLOAD_URL}'\n"
        export PUSH_SUCCESSFUL="YES"
        #rm -rf "${GHCR_PKG}" "${PKG_JSON}" 2>/dev/null
      else
