@@ -1908,7 +1908,7 @@ Descr: Leading Java and Kotlin editor
 -----------------------------
 NAME: IntelliJ IDEA Ultimate
 APP_ID: com.jetbrains.IntelliJ-IDEA-Ultimate
-Descr: Leading Java and Kotlin IDE
+Descr: Leading Java and Kotlin editor
 -----------------------------
 NAME: PhpStorm
 APP_ID: com.jetbrains.PhpStorm
@@ -4043,7 +4043,7 @@ APP_ID: io.github.Dretch.MonomerFlatpakExample
 Descr: Monomer Flatpak Example Application
 -----------------------------
 NAME: Random Number Five
-APP_ID: io.github.FailurePoint.RandomNumberFive.desktop
+APP_ID: io.github.FailurePoint.RandomNumberFive
 Descr: Random number generator for For the Linux desktop!
 -----------------------------
 NAME: EventRecorder
@@ -4877,10 +4877,6 @@ Descr: The creativity playground of lines and curves
 NAME: Emulsion
 APP_ID: io.github.lainsce.Emulsion
 Descr: Stock up on colors
------------------------------
-NAME: Khronos
-APP_ID: io.github.lainsce.Khronos
-Descr: Log the time it took to do tasks
 -----------------------------
 NAME: Notejot
 APP_ID: io.github.lainsce.Notejot
@@ -6237,10 +6233,6 @@ Descr: Edit PDF metadata
 NAME: Unnamed SDVX Clone
 APP_ID: me.drewol.Unnamed-SDVX-Clone
 Descr: A game based on KShootMANIA &amp; SDVX
------------------------------
-NAME: Fluent Reader
-APP_ID: me.dusansimic.DynamicWallpaper.desktop
-Descr: Modern desktop RSS reader
 -----------------------------
 NAME: Fluent Reader
 APP_ID: me.hyliu.fluentreader

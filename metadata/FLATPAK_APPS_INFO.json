@@ -3471,11 +3471,6 @@
   },
   {
     "pkg": "Fluent Reader",
-    "app_id": "me.dusansimic.DynamicWallpaper.desktop",
-    "description": "Modern desktop RSS reader"
-  },
-  {
-    "pkg": "Fluent Reader",
     "app_id": "me.hyliu.fluentreader",
     "description": "Modern desktop RSS reader"
   },
@@ -4977,7 +4972,7 @@
   {
     "pkg": "IntelliJ IDEA Ultimate",
     "app_id": "com.jetbrains.IntelliJ-IDEA-Ultimate",
-    "description": "Leading Java and Kotlin IDE"
+    "description": "Leading Java and Kotlin editor"
   },
   {
     "pkg": "Interstellar",
@@ -5428,11 +5423,6 @@
     "pkg": "Keysign",
     "app_id": "org.gnome.Keysign",
     "description": "OpenPGP Keysigning helper"
-  },
-  {
-    "pkg": "Khronos",
-    "app_id": "io.github.lainsce.Khronos",
-    "description": "Log the time it took to do tasks"
   },
   {
     "pkg": "KiCad 3D Model Libraries",
@@ -10421,7 +10411,7 @@
   },
   {
     "pkg": "Random Number Five",
-    "app_id": "io.github.FailurePoint.RandomNumberFive.desktop",
+    "app_id": "io.github.FailurePoint.RandomNumberFive",
     "description": "Random number generator for For the Linux desktop!"
   },
   {
