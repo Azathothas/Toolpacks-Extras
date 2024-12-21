@@ -7348,7 +7348,7 @@ Descr: A Simple Reference Image Viewer
 -----------------------------
 NAME: BibleMultiTheLife
 APP_ID: org.biblemulti.thelife
-Descr: Bible multi languages, free, offline, no advertising.
+Descr: Offline Bible multi languages
 -----------------------------
 NAME: Bino
 APP_ID: org.bino3d.bino
