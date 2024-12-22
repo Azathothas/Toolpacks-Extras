@@ -112,6 +112,21 @@
     "rank": 6
   },
   {
+    "pkg": "Dolphin Emulator",
+    "app_id": "org.DolphinEmu.dolphin-emu",
+    "description": "GameCube / Wii / Triforce Emulator",
+    "description_long": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!",
+    "build_date": "2024-12-03T17:22:23",
+    "category": [
+      "Game",
+      "Emulator"
+    ],
+    "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/0788ad24f16dd824bd39692d58c89c6f/icons/128x128/org.DolphinEmu.dolphin-emu.png",
+    "license": "GPL-2.0+",
+    "tag": [],
+    "rank": 7
+  },
+  {
     "pkg": "VLC",
     "app_id": "org.videolan.VLC",
     "description": "VLC media player, the open-source multimedia player",
@@ -133,21 +148,6 @@
       "Server",
       "Broadcast"
     ],
-    "rank": 7
-  },
-  {
-    "pkg": "Dolphin Emulator",
-    "app_id": "org.DolphinEmu.dolphin-emu",
-    "description": "GameCube / Wii / Triforce Emulator",
-    "description_long": "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!",
-    "build_date": "2024-12-03T17:22:23",
-    "category": [
-      "Game",
-      "Emulator"
-    ],
-    "icon": "https://dl.flathub.org/media/org/dolphinemu/dolphin-emu/0788ad24f16dd824bd39692d58c89c6f/icons/128x128/org.DolphinEmu.dolphin-emu.png",
-    "license": "GPL-2.0+",
-    "tag": [],
     "rank": 8
   },
   {
@@ -264,21 +264,6 @@
     "rank": 13
   },
   {
-    "pkg": "xemu",
-    "app_id": "app.xemu.xemu",
-    "description": "Original Xbox Emulator",
-    "description_long": "<br>A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.<br>Note: Only can be written by xemu.<br>The Hard Disk image has to be placed there, for example, at .",
-    "build_date": "2024-11-26T10:56:40",
-    "category": [
-      "Game",
-      "Emulator"
-    ],
-    "icon": "https://dl.flathub.org/media/app/xemu/xemu/04cd9dec59cfb27a8557e1c4045999ae/icons/128x128/app.xemu.xemu.png",
-    "license": "GPL-2.0-only",
-    "tag": [],
-    "rank": 14
-  },
-  {
     "pkg": "Lutris",
     "app_id": "net.lutris.Lutris",
     "description": "Video game preservation platform",
@@ -294,22 +279,22 @@
       "wine",
       "emulator"
     ],
-    "rank": 15
+    "rank": 14
   },
   {
-    "pkg": "OBS Studio",
-    "app_id": "com.obsproject.Studio",
-    "description": "Live stream and record videos",
-    "description_long": "Free and open source software for video capturing, recording, and live streaming.<br>Features:<br>High performance real time video/audio capturing and mixing. Create scenes made up of multiple sources including window captures, images, text, browser windows, webcams, capture cards and more.<br>Set up an unlimited number of scenes you can switch between seamlessly via custom transitions.<br>Intuitive audio mixer with per-source filters such as noise gate, noise suppression, and gain. Take full control with VST plugin support.<br>Powerful and easy to use configuration options. Add new Sources, duplicate existing ones, and adjust their properties effortlessly.<br>Streamlined Settings panel gives you access to a wide array of configuration options to tweak every aspect of your broadcast or recording.<br>Modular 'Dock' UI allows you to rearrange the layout exactly as you like. You can even pop out each individual Dock to its own window.<br>Create Professional Productions:<br>Choose from a number of different and customizable transitions for when you switch between your scenes or add your own stinger video files.<br>Set hotkeys for nearly every sort of action, such as switching between scenes, starting/stopping streams or recordings, muting audio sources, push to talk, and more.<br>Studio Mode lets you preview your scenes and sources before pushing them live. Adjust your scenes and sources or create new ones and ensure they're perfect before your viewers ever see them.<br>Get a high level view of your production using the Multiview. Monitor 8 different scenes and easily cue or transition to any of them with merely a single or double click.<br>",
-    "build_date": "2024-08-15T22:57:46",
+    "pkg": "xemu",
+    "app_id": "app.xemu.xemu",
+    "description": "Original Xbox Emulator",
+    "description_long": "<br>A free and open-source application that emulates the original Microsoft Xbox game console. Supports connecting up to 4 controllers for local play, networking for multiplayer, resolution scaling, and more.<br>Note: Only can be written by xemu.<br>The Hard Disk image has to be placed there, for example, at .",
+    "build_date": "2024-11-26T10:56:40",
     "category": [
-      "AudioVideo",
-      "Recorder"
+      "Game",
+      "Emulator"
     ],
-    "icon": "https://dl.flathub.org/media/com/obsproject/Studio/64a8eafe927594ac1e633ee2be68a3a9/icons/128x128/com.obsproject.Studio.png",
-    "license": "GPL-2.0-or-later",
+    "icon": "https://dl.flathub.org/media/app/xemu/xemu/04cd9dec59cfb27a8557e1c4045999ae/icons/128x128/app.xemu.xemu.png",
+    "license": "GPL-2.0-only",
     "tag": [],
-    "rank": 16
+    "rank": 15
   },
   {
     "pkg": "Supermodel",
@@ -324,6 +309,21 @@
     ],
     "icon": "https://dl.flathub.org/media/com/supermodel3/Supermodel/114baf6298d43b46e7b0a6330b305766/icons/128x128/com.supermodel3.Supermodel.png",
     "license": "GPL-3.0-or-later",
+    "tag": [],
+    "rank": 16
+  },
+  {
+    "pkg": "OBS Studio",
+    "app_id": "com.obsproject.Studio",
+    "description": "Live stream and record videos",
+    "description_long": "Free and open source software for video capturing, recording, and live streaming.<br>Features:<br>High performance real time video/audio capturing and mixing. Create scenes made up of multiple sources including window captures, images, text, browser windows, webcams, capture cards and more.<br>Set up an unlimited number of scenes you can switch between seamlessly via custom transitions.<br>Intuitive audio mixer with per-source filters such as noise gate, noise suppression, and gain. Take full control with VST plugin support.<br>Powerful and easy to use configuration options. Add new Sources, duplicate existing ones, and adjust their properties effortlessly.<br>Streamlined Settings panel gives you access to a wide array of configuration options to tweak every aspect of your broadcast or recording.<br>Modular 'Dock' UI allows you to rearrange the layout exactly as you like. You can even pop out each individual Dock to its own window.<br>Create Professional Productions:<br>Choose from a number of different and customizable transitions for when you switch between your scenes or add your own stinger video files.<br>Set hotkeys for nearly every sort of action, such as switching between scenes, starting/stopping streams or recordings, muting audio sources, push to talk, and more.<br>Studio Mode lets you preview your scenes and sources before pushing them live. Adjust your scenes and sources or create new ones and ensure they're perfect before your viewers ever see them.<br>Get a high level view of your production using the Multiview. Monitor 8 different scenes and easily cue or transition to any of them with merely a single or double click.<br>",
+    "build_date": "2024-08-15T22:57:46",
+    "category": [
+      "AudioVideo",
+      "Recorder"
+    ],
+    "icon": "https://dl.flathub.org/media/com/obsproject/Studio/64a8eafe927594ac1e633ee2be68a3a9/icons/128x128/com.obsproject.Studio.png",
+    "license": "GPL-2.0-or-later",
     "tag": [],
     "rank": 17
   },
@@ -361,6 +361,21 @@
     "rank": 19
   },
   {
+    "pkg": "ScummVM",
+    "app_id": "org.scummvm.ScummVM",
+    "description": "Interpreter for numerous adventure games and role-playing games",
+    "description_long": "<br>ScummVM is a program which allows you to run a wide variety of classic<br>graphical point-and-click adventure games and role-playing games,<br>provided you already have their data files. The clever part about this:<br>ScummVM just replaces the executables shipped with the game,<br>allowing you to play them on systems for which they were never designed!<br>Currently, ScummVM supports a huge library of adventures with over 250 games in total.<br>It supports many classics published by legendary studios like LucasArts, Sierra On-Line,<br>Revolution Software, Cyan, Inc. and Westwood Studios.<br>Next to ground-breaking titles like the Monkey Island series, Broken Sword,<br>Myst, Blade Runner and countless other games you will find<br>some really obscure adventures and truly hidden gems to explore.<br>",
+    "build_date": "2024-10-27T10:22:57",
+    "category": [
+      "Game",
+      "AdventureGame"
+    ],
+    "icon": "https://dl.flathub.org/media/org/scummvm/ScummVM/83f0aa84b7439eae76363bac70f9205b/icons/128x128/org.scummvm.ScummVM.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [],
+    "rank": 20
+  },
+  {
     "pkg": "GNU Image Manipulation Program",
     "app_id": "org.gimp.GIMP",
     "description": "Create images and edit photographs",
@@ -377,21 +392,6 @@
       "GIMP",
       "Photoshop"
     ],
-    "rank": 20
-  },
-  {
-    "pkg": "ScummVM",
-    "app_id": "org.scummvm.ScummVM",
-    "description": "Interpreter for numerous adventure games and role-playing games",
-    "description_long": "<br>ScummVM is a program which allows you to run a wide variety of classic<br>graphical point-and-click adventure games and role-playing games,<br>provided you already have their data files. The clever part about this:<br>ScummVM just replaces the executables shipped with the game,<br>allowing you to play them on systems for which they were never designed!<br>Currently, ScummVM supports a huge library of adventures with over 250 games in total.<br>It supports many classics published by legendary studios like LucasArts, Sierra On-Line,<br>Revolution Software, Cyan, Inc. and Westwood Studios.<br>Next to ground-breaking titles like the Monkey Island series, Broken Sword,<br>Myst, Blade Runner and countless other games you will find<br>some really obscure adventures and truly hidden gems to explore.<br>",
-    "build_date": "2024-10-27T10:22:57",
-    "category": [
-      "Game",
-      "AdventureGame"
-    ],
-    "icon": "https://dl.flathub.org/media/org/scummvm/ScummVM/83f0aa84b7439eae76363bac70f9205b/icons/128x128/org.scummvm.ScummVM.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [],
     "rank": 21
   },
   {
@@ -587,20 +587,22 @@
     "rank": 31
   },
   {
-    "pkg": "Zoom",
-    "app_id": "us.zoom.Zoom",
-    "description": "Video Conferencing, Web Conferencing, Webinars, Screen Sharing",
-    "description_long": "Award winning Zoom brings video conferencing, online meetings and group messaging into one easy-to-use application.<br>One consistent enterprise experience for all use cases<br>Engineered and optimized to work reliably<br>Up to 500 video participants and 10,000 viewers<br>Easy-to-use, buy and scale<br>Most affordable, straightforward pricing<br>NOTE: This wrapper is not verified by, affiliated with, or supported by zoom.us.",
-    "build_date": "2024-12-18T13:09:14",
+    "pkg": "LibreWolf",
+    "app_id": "io.gitlab.librewolf-community",
+    "description": "LibreWolf Web Browser",
+    "description_long": "LibreWolf<br>This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.<br>LibreWolf uses more than 500 privacy/security/performance settings, patches, LibreWolf-Addons (optional) and is designed to minimize data collection and telemetry as much as possible (updater, crashreporter and Firefox’s integrated addons that don’t respect privacy are removed).<br>LibreWolf is NOT associated with Mozilla or its products.<br>Features:<br>Latest Version of Firefox: LibreWolf is compiled directly from the latest build of Firefox Stable. You will have the the latest features, and security updates.<br>Completely Independent Build: LibreWolf uses a completely independent build from Firefox and has its own settings, profile folder and installation path. As a result, it can be installed alongside Firefox or any other browser.<br>Settings protection: important settings are enforced/locked within librewolf.cfg and policies.json, those settings cannot be changed by addons/updates/LibreWolf itself or unwanted/accidental manipulation; To change those settings you can easily do it by editing librewolf.cfg and policies.json.<br>LibreWolf-addons: set of optional LibreWolf extensions<br>Statistics disabled: telemetry and similar functions are disabled<br>Tested settings: settings are performance aware<br>Recommended and code reviewed addons list<br>Community-Driven<br>And much more…<br>",
+    "build_date": "2024-12-13T21:26:46",
     "category": [
       "Network",
-      "InstantMessaging",
-      "VideoConference",
-      "Telephony"
+      "WebBrowser"
     ],
-    "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/2736d65f8d4180a1105f36e095ecf20e/icons/128x128/us.zoom.Zoom.desktop.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [],
+    "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/1d4a2016b81a3e1d587cee5804bf13da/icons/128x128/io.gitlab.librewolf-community.png",
+    "license": "MPL-2.0",
+    "tag": [
+      "librewolf",
+      "internet",
+      "web"
+    ],
     "rank": 32
   },
   {
@@ -618,25 +620,6 @@
     "license": "GPL-3.0-only",
     "tag": [],
     "rank": 33
-  },
-  {
-    "pkg": "LibreWolf",
-    "app_id": "io.gitlab.librewolf-community",
-    "description": "LibreWolf Web Browser",
-    "description_long": "LibreWolf<br>This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.<br>LibreWolf uses more than 500 privacy/security/performance settings, patches, LibreWolf-Addons (optional) and is designed to minimize data collection and telemetry as much as possible (updater, crashreporter and Firefox’s integrated addons that don’t respect privacy are removed).<br>LibreWolf is NOT associated with Mozilla or its products.<br>Features:<br>Latest Version of Firefox: LibreWolf is compiled directly from the latest build of Firefox Stable. You will have the the latest features, and security updates.<br>Completely Independent Build: LibreWolf uses a completely independent build from Firefox and has its own settings, profile folder and installation path. As a result, it can be installed alongside Firefox or any other browser.<br>Settings protection: important settings are enforced/locked within librewolf.cfg and policies.json, those settings cannot be changed by addons/updates/LibreWolf itself or unwanted/accidental manipulation; To change those settings you can easily do it by editing librewolf.cfg and policies.json.<br>LibreWolf-addons: set of optional LibreWolf extensions<br>Statistics disabled: telemetry and similar functions are disabled<br>Tested settings: settings are performance aware<br>Recommended and code reviewed addons list<br>Community-Driven<br>And much more…<br>",
-    "build_date": "2024-12-13T21:26:46",
-    "category": [
-      "Network",
-      "WebBrowser"
-    ],
-    "icon": "https://dl.flathub.org/media/io/gitlab/librewolf-community/1d4a2016b81a3e1d587cee5804bf13da/icons/128x128/io.gitlab.librewolf-community.png",
-    "license": "MPL-2.0",
-    "tag": [
-      "librewolf",
-      "internet",
-      "web"
-    ],
-    "rank": 34
   },
   {
     "pkg": "Fedora Media Writer",
@@ -659,7 +642,7 @@
       "creator",
       "media"
     ],
-    "rank": 35
+    "rank": 34
   },
   {
     "pkg": "Proton VPN",
@@ -672,6 +655,23 @@
     ],
     "icon": "https://dl.flathub.org/media/com/protonvpn/www/36efc0ebf82f3f8857e8a4cbc41640b7/icons/128x128/com.protonvpn.www.png",
     "license": "GPL-3.0",
+    "tag": [],
+    "rank": 35
+  },
+  {
+    "pkg": "Zoom",
+    "app_id": "us.zoom.Zoom",
+    "description": "Video Conferencing, Web Conferencing, Webinars, Screen Sharing",
+    "description_long": "Award winning Zoom brings video conferencing, online meetings and group messaging into one easy-to-use application.<br>One consistent enterprise experience for all use cases<br>Engineered and optimized to work reliably<br>Up to 500 video participants and 10,000 viewers<br>Easy-to-use, buy and scale<br>Most affordable, straightforward pricing<br>NOTE: This wrapper is not verified by, affiliated with, or supported by zoom.us.",
+    "build_date": "2024-12-21T15:07:16",
+    "category": [
+      "Network",
+      "InstantMessaging",
+      "VideoConference",
+      "Telephony"
+    ],
+    "icon": "https://dl.flathub.org/media/us/zoom/Zoom.desktop/2736d65f8d4180a1105f36e095ecf20e/icons/128x128/us.zoom.Zoom.desktop.png",
+    "license": "LicenseRef-proprietary",
     "tag": [],
     "rank": 36
   },
@@ -718,37 +718,6 @@
     "rank": 38
   },
   {
-    "pkg": "Gear Lever",
-    "app_id": "it.mijorus.gearlever",
-    "description": "Manage AppImages",
-    "description_long": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.",
-    "build_date": "2024-12-11T08:39:45",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/882d85e19eb6e5b1b2148b6b01cc6007/icons/128x128/it.mijorus.gearlever.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "AppImage"
-    ],
-    "rank": 39
-  },
-  {
-    "pkg": "Tor Browser Launcher",
-    "app_id": "org.torproject.torbrowser-launcher",
-    "description": "A program to help you download, keep updated, and run the Tor Browser Bundle",
-    "description_long": "Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. It downloads the same TBB from torproject.org that everyone else uses, and it doesn't alter it in any way. But it does make it much more usable, and it makes the task of keeping it up-to-date more secure.<br>You install torbrowser-launcher from your distribution's package manager and it handles everything else, including:<br>Downloading the most recent version of TBB for you, in your language and for your architecture<br>Automatically updating (while preserving your bookmarks and preferences)<br>Verifying the TBB's GnuPG signature<br>Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some distros)<br>Adding a Tor Browser application launcher to your desktop environment's menu<br>Lets you set Tor Browser as your default browser<br>Optionally playing a modem sound when you open Tor Browser (because Tor is so slow)<br>",
-    "build_date": "2024-12-14T20:59:54",
-    "category": [
-      "Network",
-      "WebBrowser"
-    ],
-    "icon": "https://dl.flathub.org/media/org/torproject/torbrowser-launcher/ae36b908cfdf59ccee799b141e06f4cb/icons/128x128/org.torproject.torbrowser-launcher.png",
-    "license": "MIT",
-    "tag": [],
-    "rank": 40
-  },
-  {
     "pkg": "Mission Center",
     "app_id": "io.missioncenter.MissionCenter",
     "description": "Monitor system resource usage",
@@ -776,7 +745,23 @@
       "Utilisation",
       "Utilization"
     ],
-    "rank": 41
+    "rank": 39
+  },
+  {
+    "pkg": "Gear Lever",
+    "app_id": "it.mijorus.gearlever",
+    "description": "Manage AppImages",
+    "description_long": "An utility to manage AppImages with ease! Gear lever will organize and manage AppImage files for you, generate desktop entries and app metadata, update apps in-place or keep multiple versions side-by-side.",
+    "build_date": "2024-12-11T08:39:45",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/it/mijorus/gearlever/882d85e19eb6e5b1b2148b6b01cc6007/icons/128x128/it.mijorus.gearlever.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "AppImage"
+    ],
+    "rank": 40
   },
   {
     "pkg": "Okular",
@@ -791,6 +776,21 @@
     ],
     "icon": "https://dl.flathub.org/media/org/kde/okular.desktop/be9324aece4a6cc0f3de13ecd65cadea/icons/128x128/org.kde.okular.desktop.png",
     "license": "GPL-2.0+ and GFDL-1.3",
+    "tag": [],
+    "rank": 41
+  },
+  {
+    "pkg": "Tor Browser Launcher",
+    "app_id": "org.torproject.torbrowser-launcher",
+    "description": "A program to help you download, keep updated, and run the Tor Browser Bundle",
+    "description_long": "Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier to maintain and use for GNU/Linux users. It downloads the same TBB from torproject.org that everyone else uses, and it doesn't alter it in any way. But it does make it much more usable, and it makes the task of keeping it up-to-date more secure.<br>You install torbrowser-launcher from your distribution's package manager and it handles everything else, including:<br>Downloading the most recent version of TBB for you, in your language and for your architecture<br>Automatically updating (while preserving your bookmarks and preferences)<br>Verifying the TBB's GnuPG signature<br>Includes AppArmor profiles to make a Tor Browser compromise not as bad (in some distros)<br>Adding a Tor Browser application launcher to your desktop environment's menu<br>Lets you set Tor Browser as your default browser<br>Optionally playing a modem sound when you open Tor Browser (because Tor is so slow)<br>",
+    "build_date": "2024-12-14T20:59:54",
+    "category": [
+      "Network",
+      "WebBrowser"
+    ],
+    "icon": "https://dl.flathub.org/media/org/torproject/torbrowser-launcher/ae36b908cfdf59ccee799b141e06f4cb/icons/128x128/org.torproject.torbrowser-launcher.png",
+    "license": "MIT",
     "tag": [],
     "rank": 42
   },
@@ -856,20 +856,6 @@
     "rank": 45
   },
   {
-    "pkg": "AnyDesk",
-    "app_id": "com.anydesk.Anydesk",
-    "description": "Connect to a computer remotely",
-    "description_long": "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by AnyDesk.",
-    "build_date": "2024-11-19T23:45:48",
-    "category": [
-      "Network"
-    ],
-    "icon": "https://dl.flathub.org/media/com/anydesk/Anydesk.desktop/c088db68534b2cda271fa3a91f095fd0/icons/128x128/com.anydesk.Anydesk.desktop.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [],
-    "rank": 46
-  },
-  {
     "pkg": "Opera",
     "app_id": "com.opera.Opera",
     "description": "Your personal browser",
@@ -887,6 +873,20 @@
     "tag": [
       "web browser"
     ],
+    "rank": 46
+  },
+  {
+    "pkg": "AnyDesk",
+    "app_id": "com.anydesk.Anydesk",
+    "description": "Connect to a computer remotely",
+    "description_long": "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by AnyDesk.",
+    "build_date": "2024-11-19T23:45:48",
+    "category": [
+      "Network"
+    ],
+    "icon": "https://dl.flathub.org/media/com/anydesk/Anydesk.desktop/c088db68534b2cda271fa3a91f095fd0/icons/128x128/com.anydesk.Anydesk.desktop.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [],
     "rank": 47
   },
   {
@@ -1086,7 +1086,7 @@
     "app_id": "io.github.peazip.PeaZip",
     "description": "Free file archiver utility",
     "description_long": "<br>PeaZip is a free, Open Source (LGPLv3) archive manager utility for BSD, Linux, <br>macOS and Windows.<br>Cross-platform, desktop-agnostic GUI archive manager based on Open Source technologies <br>of 7-Zip / p7zip, Zstandard, Brotli, ZPAQ, PEA, and other Free Software file compression <br>tools, alternative to 7-Zip, Engrampa, FileRoller, Keka, WinRar, WinZip and similar apps.<br>Create, convert open and extract 7Z, Brotli, BZip2, GZip, PEA, RAR, TAR, XZ, ZIP, <br>ZPAQ, Zstandard files, and many more (200+) archive formats.<br>PeaZip supports encryption / decryption of archives (with optional two factor authentication), <br>and its scripting engine makes easy to export the tasks defined in the GUI as CLI scripts.<br>",
-    "build_date": "2024-12-20T07:53:37",
+    "build_date": "2024-12-21T15:48:58",
     "category": [
       "Utility",
       "Archiving",
@@ -1137,33 +1137,18 @@
     "rank": 57
   },
   {
-    "pkg": "Postman",
-    "app_id": "com.getpostman.Postman",
-    "description": "Platform for building and using APIs",
-    "description_long": "<br>Postman is the complete toolchain for API developers, used by 5 million<br>developers and more than 100,000 companies worldwide to access 130 million<br>APIs every month. Postman makes working with APIs faster and easier by<br>supporting developers at every stage of their workflow, and is available<br>for macOS, Windows, Linux and Chrome users.<br>This wrapper is not verified by, affiliated with, or supported by Postman<br>Inc.<br>",
-    "build_date": "2024-12-19T06:18:12",
-    "category": [
-      "Development",
-      "WebDevelopment"
-    ],
-    "icon": "https://dl.flathub.org/media/com/getpostman/Postman/882bdbb4b7aabb3092094e99ef57b1cf/icons/128x128/com.getpostman.Postman.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [],
-    "rank": 58
-  },
-  {
     "pkg": "Ungoogled Chromium",
     "app_id": "io.github.ungoogled_software.ungoogled_chromium",
     "description": "Chromium without Google",
     "description_long": "Ungoogled Chromium is Google Chromium, sans dependency on Google web services. It also<br>features some tweaks to enhance privacy, control, and transparency (almost all of which<br>require manual activation or enabling).<br>Ungoogled Chromium retains the default Chromium experience as closely as possible. Unlike<br>other Chromium forks that have their own visions of a web browser, Ungoogled Chromium is<br>essentially a drop-in replacement for Chromium.<br>Without signing in to a Google Account, Chromium does pretty well in terms of security and<br>privacy. However, Chromium still has some dependency on Google web services and binaries. In<br>addition, Google designed Chromium to be easy and intuitive for users, which means they<br>compromise on transparency and control of inner operations.<br>Ungoogled Chromium addresses these issues in the following ways:<br>Remove all remaining background requests to any web services while building and running<br>the browser<br>Remove all code specific to Google web services<br>Remove all uses of pre-made binaries from the source code, and replace them with<br>user-provided alternatives when possible<br>Disable features that inhibit control and transparency, and add or modify features that<br>promote them (these changes will almost always require manual activation or enabling)<br>These features are implemented as configuration flags, patches, and custom scripts.",
-    "build_date": "2024-12-13T00:03:58",
+    "build_date": "2024-12-21T00:02:39",
     "category": [
       "Network",
       "WebBrowser",
       "WebDevelopment",
       "Viewer"
     ],
-    "icon": "https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/d7f0e7680a298b254ff843cea6493b08/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png",
+    "icon": "https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/8d3d52989b2d9c6ba4fb7b58a09ea59d/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png",
     "license": "BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)",
     "tag": [
       "web browser",
@@ -1174,7 +1159,7 @@
       "transparency",
       "control"
     ],
-    "rank": 59
+    "rank": 58
   },
   {
     "pkg": "Remmina",
@@ -1194,6 +1179,21 @@
       "ssh",
       "spice"
     ],
+    "rank": 59
+  },
+  {
+    "pkg": "Postman",
+    "app_id": "com.getpostman.Postman",
+    "description": "Platform for building and using APIs",
+    "description_long": "<br>Postman is the complete toolchain for API developers, used by 5 million<br>developers and more than 100,000 companies worldwide to access 130 million<br>APIs every month. Postman makes working with APIs faster and easier by<br>supporting developers at every stage of their workflow, and is available<br>for macOS, Windows, Linux and Chrome users.<br>This wrapper is not verified by, affiliated with, or supported by Postman<br>Inc.<br>",
+    "build_date": "2024-12-19T06:18:12",
+    "category": [
+      "Development",
+      "WebDevelopment"
+    ],
+    "icon": "https://dl.flathub.org/media/com/getpostman/Postman/882bdbb4b7aabb3092094e99ef57b1cf/icons/128x128/com.getpostman.Postman.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [],
     "rank": 60
   },
   {
@@ -1243,6 +1243,26 @@
     "rank": 62
   },
   {
+    "pkg": "Filelight",
+    "app_id": "org.kde.filelight",
+    "description": "Show disk usage and delete unused files",
+    "description_long": "<br>Filelight is an application to visualize the disk usage on your computer by showing folders using an easy-to-understand view of concentric rings. Filelight makes it simple to free up space!<br>Features:<br>Scan local, remote, or removable disks<br>View detailed information about files and folders<br>Delete files or folders that are taking up too much space<br>Integration into the Dolphin, Konqueror, and Krusader file managers<br>Configurable color schemes<br>",
+    "build_date": "2024-12-12T23:31:17",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/filelight.desktop/096705352ad07fdf4b179f5e85795895/icons/128x128/org.kde.filelight.desktop.png",
+    "license": "GPL-2.0+",
+    "tag": [
+      "disk",
+      "drive",
+      "space",
+      "storage",
+      "usage"
+    ],
+    "rank": 63
+  },
+  {
     "pkg": "LocalSend",
     "app_id": "org.localsend.localsend_app",
     "description": "Share files to nearby devices",
@@ -1254,7 +1274,7 @@
     "icon": "https://dl.flathub.org/media/org/localsend/localsend_app/1a9db3543dba901fb0eac0354e953eed/icons/128x128/org.localsend.localsend_app.png",
     "license": "Apache-2.0",
     "tag": [],
-    "rank": 63
+    "rank": 64
   },
   {
     "pkg": "Moonlight",
@@ -1275,43 +1295,7 @@
       "sunshine",
       "remote play"
     ],
-    "rank": 64
-  },
-  {
-    "pkg": "Filelight",
-    "app_id": "org.kde.filelight",
-    "description": "Show disk usage and delete unused files",
-    "description_long": "<br>Filelight is an application to visualize the disk usage on your computer by showing folders using an easy-to-understand view of concentric rings. Filelight makes it simple to free up space!<br>Features:<br>Scan local, remote, or removable disks<br>View detailed information about files and folders<br>Delete files or folders that are taking up too much space<br>Integration into the Dolphin, Konqueror, and Krusader file managers<br>Configurable color schemes<br>",
-    "build_date": "2024-12-12T23:31:17",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/org/kde/filelight.desktop/096705352ad07fdf4b179f5e85795895/icons/128x128/org.kde.filelight.desktop.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "disk",
-      "drive",
-      "space",
-      "storage",
-      "usage"
-    ],
     "rank": 65
-  },
-  {
-    "pkg": "Portal for Teams",
-    "app_id": "com.github.IsmaelMartinez.teams_for_linux",
-    "description": "Unofficial Microsoft Teams client for Linux",
-    "description_long": "Experience seamless integration with the Microsoft Teams Web App in a standalone Electron application.<br>This application is an unofficial client for Microsoft Teams.",
-    "build_date": "2024-12-09T17:42:48",
-    "category": [
-      "Chat",
-      "Network",
-      "Office"
-    ],
-    "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/57eb9aa36f81af40079dbc295cc077cb/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
-    "license": "GPL-3.0",
-    "tag": [],
-    "rank": 66
   },
   {
     "pkg": "Minecraft",
@@ -1325,21 +1309,7 @@
     "icon": "https://dl.flathub.org/media/com/mojang/Minecraft/05238507cc15ca4f5e34bfff3bd9423e/icons/128x128/com.mojang.Minecraft.png",
     "license": "LicenseRef-proprietary",
     "tag": [],
-    "rank": 67
-  },
-  {
-    "pkg": "chiaki-ng",
-    "app_id": "io.github.streetpea.Chiaki4deck",
-    "description": "Free and Open Source Client for PlayStation Remote Play",
-    "description_long": "<br>chiaki-ng is the next-generation of Chiaki, adding new features and ongoing support as the original project (Chiaki) is in maintenance mode. It is a free and Open Source Client for PlayStation 4 and PlayStation 5 Remote Play. It can be used to play in real time on a PlayStation as long as there is a network connection.<br>",
-    "build_date": "2024-12-15T02:50:19",
-    "category": [
-      "Game"
-    ],
-    "icon": "https://dl.flathub.org/media/io/github/streetpea.Chiaki4deck/635ca1f24c737e5846f80ab336ac8a2b/icons/128x128/io.github.streetpea.Chiaki4deck.png",
-    "license": "AGPL-3.0-only",
-    "tag": [],
-    "rank": 68
+    "rank": 66
   },
   {
     "pkg": "Minecraft Bedrock Launcher",
@@ -1352,6 +1322,36 @@
     ],
     "icon": "https://dl.flathub.org/media/io/mrarm/mcpelauncher/8f88ac821ec0cac6ae8e50b22e60ee28/icons/128x128/io.mrarm.mcpelauncher.png",
     "license": "GPL-3.0",
+    "tag": [],
+    "rank": 67
+  },
+  {
+    "pkg": "Portal for Teams",
+    "app_id": "com.github.IsmaelMartinez.teams_for_linux",
+    "description": "Unofficial Microsoft Teams client for Linux",
+    "description_long": "Experience seamless integration with the Microsoft Teams Web App in a standalone Electron application.<br>This application is an unofficial client for Microsoft Teams.",
+    "build_date": "2024-12-20T11:53:50",
+    "category": [
+      "Chat",
+      "Network",
+      "Office"
+    ],
+    "icon": "https://dl.flathub.org/media/com/github/IsmaelMartinez.teams_for_linux/5ce7aef481ca0fb6831065a917a03346/icons/128x128/com.github.IsmaelMartinez.teams_for_linux.png",
+    "license": "GPL-3.0",
+    "tag": [],
+    "rank": 68
+  },
+  {
+    "pkg": "chiaki-ng",
+    "app_id": "io.github.streetpea.Chiaki4deck",
+    "description": "Free and Open Source Client for PlayStation Remote Play",
+    "description_long": "<br>chiaki-ng is the next-generation of Chiaki, adding new features and ongoing support as the original project (Chiaki) is in maintenance mode. It is a free and Open Source Client for PlayStation 4 and PlayStation 5 Remote Play. It can be used to play in real time on a PlayStation as long as there is a network connection.<br>",
+    "build_date": "2024-12-15T02:50:19",
+    "category": [
+      "Game"
+    ],
+    "icon": "https://dl.flathub.org/media/io/github/streetpea.Chiaki4deck/635ca1f24c737e5846f80ab336ac8a2b/icons/128x128/io.github.streetpea.Chiaki4deck.png",
+    "license": "AGPL-3.0-only",
     "tag": [],
     "rank": 69
   },
@@ -1374,6 +1374,22 @@
     "rank": 70
   },
   {
+    "pkg": "Gwenview",
+    "app_id": "org.kde.gwenview",
+    "description": "Image Viewer",
+    "description_long": "<br>Gwenview is a fast and easy to use image viewer by KDE, ideal for browsing and displaying a collection of images.<br>Features:<br>Simple image editing: rotate, crop, resize, mirror, flip, reduce red eye, and adjust brightness, contrast, or gamma<br>Annotate and mark up images with arrows, shapes, text boxes, image stamps, and more<br>Basic file management actions such as copy, move, delete, and others<br>Functions both as a standalone application and an embedded viewer in the Konqueror web browser<br>",
+    "build_date": "2024-12-13T02:16:20",
+    "category": [
+      "Graphics",
+      "Viewer",
+      "Photography"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/gwenview.desktop/655d5baa5c8825e7ded7153f22a88ce9/icons/128x128/org.kde.gwenview.desktop.png",
+    "license": "GPL-2.0+",
+    "tag": [],
+    "rank": 71
+  },
+  {
     "pkg": "Disk Usage Analyzer",
     "app_id": "org.gnome.baobab",
     "description": "Check folder sizes and available disk space",
@@ -1390,7 +1406,7 @@
       "space",
       "cleanup"
     ],
-    "rank": 71
+    "rank": 72
   },
   {
     "pkg": "Resources",
@@ -1416,22 +1432,6 @@
       "Memory",
       "GPU"
     ],
-    "rank": 72
-  },
-  {
-    "pkg": "Gwenview",
-    "app_id": "org.kde.gwenview",
-    "description": "Image Viewer",
-    "description_long": "<br>Gwenview is a fast and easy to use image viewer by KDE, ideal for browsing and displaying a collection of images.<br>Features:<br>Simple image editing: rotate, crop, resize, mirror, flip, reduce red eye, and adjust brightness, contrast, or gamma<br>Annotate and mark up images with arrows, shapes, text boxes, image stamps, and more<br>Basic file management actions such as copy, move, delete, and others<br>Functions both as a standalone application and an embedded viewer in the Konqueror web browser<br>",
-    "build_date": "2024-12-13T02:16:20",
-    "category": [
-      "Graphics",
-      "Viewer",
-      "Photography"
-    ],
-    "icon": "https://dl.flathub.org/media/org/kde/gwenview.desktop/655d5baa5c8825e7ded7153f22a88ce9/icons/128x128/org.kde.gwenview.desktop.png",
-    "license": "GPL-2.0+",
-    "tag": [],
     "rank": 73
   },
   {
@@ -1488,25 +1488,6 @@
     "rank": 76
   },
   {
-    "pkg": "Ryujinx",
-    "app_id": "org.ryujinx.Ryujinx",
-    "description": "A Nintendo Switch Emulator",
-    "description_long": "Ryujinx is an open-source Nintendo Switch emulator written in C#<br>This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds.",
-    "build_date": "2024-10-01T11:03:07",
-    "category": [
-      "Emulator",
-      "Game"
-    ],
-    "icon": "https://dl.flathub.org/media/org/ryujinx/Ryujinx/b514d7a6c92c696bd7965704823dd29d/icons/128x128/org.ryujinx.Ryujinx.png",
-    "license": "MIT",
-    "tag": [
-      "Switch",
-      "Nintendo",
-      "Emulator"
-    ],
-    "rank": 77
-  },
-  {
     "pkg": "Easy Effects",
     "app_id": "com.github.wwmm.easyeffects",
     "description": "Audio Effects for PipeWire Applications",
@@ -1524,6 +1505,25 @@
       "reverberation",
       "equalizer",
       "autovolume"
+    ],
+    "rank": 77
+  },
+  {
+    "pkg": "Ryujinx",
+    "app_id": "org.ryujinx.Ryujinx",
+    "description": "A Nintendo Switch Emulator",
+    "description_long": "Ryujinx is an open-source Nintendo Switch emulator written in C#<br>This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds.",
+    "build_date": "2024-10-01T11:03:07",
+    "category": [
+      "Emulator",
+      "Game"
+    ],
+    "icon": "https://dl.flathub.org/media/org/ryujinx/Ryujinx/b514d7a6c92c696bd7965704823dd29d/icons/128x128/org.ryujinx.Ryujinx.png",
+    "license": "MIT",
+    "tag": [
+      "Switch",
+      "Nintendo",
+      "Emulator"
     ],
     "rank": 78
   },
@@ -1599,21 +1599,6 @@
     "rank": 82
   },
   {
-    "pkg": "Slack",
-    "app_id": "com.slack.Slack",
-    "description": "Business communication",
-    "description_long": "<br>Caution: Slack for Linux is in beta. We’re still busy adding features and<br>ironing out potential issues.<br>Slack brings team communication and collaboration into one place so you<br>can get more work done, whether you belong to a large enterprise or a<br>small business. Check off your to-do list and move your projects forward<br>by bringing the right people, conversations, tools, and information you<br>need together. Slack is available on any device, so you can find and<br>access your team and your work, whether you’re at your desk or on the go.<br>Scientifically proven (or at least rumored) to make your working life<br>simpler, more pleasant, and more productive. We hope you’ll give Slack a<br>try.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by<br>Slack Technologies, Inc.<br>",
-    "build_date": "2024-12-19T20:17:09",
-    "category": [
-      "Network",
-      "InstantMessaging"
-    ],
-    "icon": "https://dl.flathub.org/media/com/slack/Slack/59c6c40ef449e0bcf92eaa26bdbe8552/icons/128x128/com.slack.Slack.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [],
-    "rank": 83
-  },
-  {
     "pkg": "Vinegar",
     "app_id": "org.vinegarhq.Vinegar",
     "description": "A feature-packed small and fast bootstrapper for Roblox",
@@ -1625,7 +1610,7 @@
     "icon": "https://dl.flathub.org/media/org/vinegarhq/Vinegar/0b680557d7fba18a9e4ddba00f60325f/icons/128x128/org.vinegarhq.Vinegar.png",
     "license": "GPL-3.0-only",
     "tag": [],
-    "rank": 84
+    "rank": 83
   },
   {
     "pkg": "Shotcut",
@@ -1651,6 +1636,21 @@
       "blackmagic",
       "decklink"
     ],
+    "rank": 84
+  },
+  {
+    "pkg": "Slack",
+    "app_id": "com.slack.Slack",
+    "description": "Business communication",
+    "description_long": "<br>Caution: Slack for Linux is in beta. We’re still busy adding features and<br>ironing out potential issues.<br>Slack brings team communication and collaboration into one place so you<br>can get more work done, whether you belong to a large enterprise or a<br>small business. Check off your to-do list and move your projects forward<br>by bringing the right people, conversations, tools, and information you<br>need together. Slack is available on any device, so you can find and<br>access your team and your work, whether you’re at your desk or on the go.<br>Scientifically proven (or at least rumored) to make your working life<br>simpler, more pleasant, and more productive. We hope you’ll give Slack a<br>try.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by<br>Slack Technologies, Inc.<br>",
+    "build_date": "2024-12-19T20:17:09",
+    "category": [
+      "Network",
+      "InstantMessaging"
+    ],
+    "icon": "https://dl.flathub.org/media/com/slack/Slack/59c6c40ef449e0bcf92eaa26bdbe8552/icons/128x128/com.slack.Slack.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [],
     "rank": 85
   },
   {
@@ -1735,6 +1735,21 @@
     "rank": 90
   },
   {
+    "pkg": "Plex",
+    "app_id": "tv.plex.PlexDesktop",
+    "description": "Plex client for desktop computers",
+    "description_long": "Plex for Linux is your client for playback on the Linux desktop. It features the point and<br>click interface you see in your browser but uses a more powerful playback engine as well as<br>some other advanced features.",
+    "build_date": "2024-12-12T17:32:43",
+    "category": [
+      "AudioVideo",
+      "Player"
+    ],
+    "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/3b6e574b4a68cda26715011e076c8065/icons/128x128/tv.plex.PlexDesktop.png",
+    "license": "LicenseRef-proprietary=https://www.plex.tv/en-gb/about/privacy-legal/plex-terms-of-service/",
+    "tag": [],
+    "rank": 91
+  },
+  {
     "pkg": "PDF Arranger",
     "app_id": "com.github.jeromerobert.pdfarranger",
     "description": "Merge, shuffle, and crop PDFs",
@@ -1750,57 +1765,7 @@
       "pdfshuffler",
       "PDF Shuffler"
     ],
-    "rank": 91
-  },
-  {
-    "pkg": "Floorp",
-    "app_id": "one.ablaze.floorp",
-    "description": "A Firefox-based, flexible browser developed in Japan with a variety of features.",
-    "description_long": "Unlimited customization with Floorp<br>Features<br>Strong Tracking Protection<br>Flexible Layout<br>Switchable Design<br>Regular Updates<br>No User Tracking<br>Powered by Open Source<br>",
-    "build_date": "2024-11-24T17:12:20",
-    "category": [
-      "Network",
-      "WebBrowser"
-    ],
-    "icon": "https://dl.flathub.org/media/one/ablaze/floorp/813c9c92b45de1050c307d10372cf47f/icons/128x128/one.ablaze.floorp.png",
-    "license": "MPL-2.0",
-    "tag": [
-      "ablaze",
-      "web",
-      "browser",
-      "internet"
-    ],
     "rank": 92
-  },
-  {
-    "pkg": "Plex",
-    "app_id": "tv.plex.PlexDesktop",
-    "description": "Plex client for desktop computers",
-    "description_long": "Plex for Linux is your client for playback on the Linux desktop. It features the point and<br>click interface you see in your browser but uses a more powerful playback engine as well as<br>some other advanced features.",
-    "build_date": "2024-12-12T17:32:43",
-    "category": [
-      "AudioVideo",
-      "Player"
-    ],
-    "icon": "https://dl.flathub.org/media/tv/plex/PlexDesktop/3b6e574b4a68cda26715011e076c8065/icons/128x128/tv.plex.PlexDesktop.png",
-    "license": "LicenseRef-proprietary=https://www.plex.tv/en-gb/about/privacy-legal/plex-terms-of-service/",
-    "tag": [],
-    "rank": 93
-  },
-  {
-    "pkg": "Adobe Reader",
-    "app_id": "com.adobe.Reader",
-    "description": "PDF viewer",
-    "description_long": "<br>Adobe Reader software is the official Adobe software for viewing, printing, and annotating PDF documents.<br>NOTE: This software is unmaintained by the vendor and may contain security vulnerabilities.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by Adobe.",
-    "build_date": "2024-12-06T20:49:49",
-    "category": [
-      "Office",
-      "Viewer"
-    ],
-    "icon": "https://dl.flathub.org/media/com/adobe/Reader/beded05b6321463b9a6f52365cface9b/icons/128x128/com.adobe.Reader.png",
-    "license": "LicenseRef-proprietary=https://www.adobe.com/products/eulas/pdfs/Reader_Player_AIR_WWEULA-Combined-20080204_1313.pdf",
-    "tag": [],
-    "rank": 94
   },
   {
     "pkg": "4KTUBE",
@@ -1860,7 +1825,22 @@
       "linkedin video downloader",
       "SoundCloud Downloader"
     ],
-    "rank": 95
+    "rank": 93
+  },
+  {
+    "pkg": "Adobe Reader",
+    "app_id": "com.adobe.Reader",
+    "description": "PDF viewer",
+    "description_long": "<br>Adobe Reader software is the official Adobe software for viewing, printing, and annotating PDF documents.<br>NOTE: This software is unmaintained by the vendor and may contain security vulnerabilities.<br>NOTE: This wrapper is not verified by, affiliated with, or supported by Adobe.",
+    "build_date": "2024-12-06T20:49:49",
+    "category": [
+      "Office",
+      "Viewer"
+    ],
+    "icon": "https://dl.flathub.org/media/com/adobe/Reader/beded05b6321463b9a6f52365cface9b/icons/128x128/com.adobe.Reader.png",
+    "license": "LicenseRef-proprietary=https://www.adobe.com/products/eulas/pdfs/Reader_Player_AIR_WWEULA-Combined-20080204_1313.pdf",
+    "tag": [],
+    "rank": 94
   },
   {
     "pkg": "JDownloader",
@@ -1874,7 +1854,7 @@
     "icon": "https://dl.flathub.org/media/org/jdownloader/JDownloader/efd39f833fdb3747f71e262ca5746b6c/icons/128x128/org.jdownloader.JDownloader.png",
     "license": "LicenseRef-proprietary",
     "tag": [],
-    "rank": 96
+    "rank": 95
   },
   {
     "pkg": "RustDesk",
@@ -1890,28 +1870,27 @@
     "tag": [
       "internet"
     ],
-    "rank": 97
+    "rank": 96
   },
   {
-    "pkg": "Image Viewer",
-    "app_id": "org.gnome.Loupe",
-    "description": "View images",
-    "description_long": "Browse through your images and inspect their metadata with:<br>Fast GPU accelerated image rendering<br>Tiled rendering for vector graphics<br>Extendable and sandboxed image decoding<br>Accessible presentation of the most important metadata.<br>",
-    "build_date": "2024-11-26T14:15:31",
+    "pkg": "Floorp",
+    "app_id": "one.ablaze.floorp",
+    "description": "A Firefox-based, flexible browser developed in Japan with a variety of features.",
+    "description_long": "Unlimited customization with Floorp<br>Features<br>Strong Tracking Protection<br>Flexible Layout<br>Switchable Design<br>Regular Updates<br>No User Tracking<br>Powered by Open Source<br>",
+    "build_date": "2024-11-24T17:12:20",
     "category": [
-      "Graphics",
-      "Viewer",
-      "GTK",
-      "GNOME"
+      "Network",
+      "WebBrowser"
     ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Loupe/a7d9885c6790772ae9c9feb9969a9a86/icons/128x128/org.gnome.Loupe.png",
-    "license": "GPL-3.0-or-later",
+    "icon": "https://dl.flathub.org/media/one/ablaze/floorp/813c9c92b45de1050c307d10372cf47f/icons/128x128/one.ablaze.floorp.png",
+    "license": "MPL-2.0",
     "tag": [
-      "Picture",
-      "Graphics",
-      "Loupe"
+      "ablaze",
+      "web",
+      "browser",
+      "internet"
     ],
-    "rank": 98
+    "rank": 97
   },
   {
     "pkg": "Camera",
@@ -1933,7 +1912,7 @@
       "webcam",
       "snapshot"
     ],
-    "rank": 99
+    "rank": 98
   },
   {
     "pkg": "Warpinator",
@@ -1951,25 +1930,28 @@
       "transfer",
       "exchange"
     ],
-    "rank": 100
+    "rank": 99
   },
   {
-    "pkg": "BoxBuddy",
-    "app_id": "io.github.dvlv.boxbuddyrs",
-    "description": "A Graphical Distrobox Manager",
-    "description_long": "BoxBuddy is a graphical user interface for Distrobox.<br>Distrobox allows users to create container images of many different Linux distributions which are nicely integrated with your host system, but still completely separate.<br>BoxBuddy makes creating and using these containers simple and convenient by providing a simple UI for many common tasks.<br>NOTE: BoxBuddy does not package Distrobox, it must be installed on your system separately.",
-    "build_date": "2024-12-04T10:20:23",
+    "pkg": "Image Viewer",
+    "app_id": "org.gnome.Loupe",
+    "description": "View images",
+    "description_long": "Browse through your images and inspect their metadata with:<br>Fast GPU accelerated image rendering<br>Tiled rendering for vector graphics<br>Extendable and sandboxed image decoding<br>Accessible presentation of the most important metadata.<br>",
+    "build_date": "2024-11-26T14:15:31",
     "category": [
-      "Utility"
+      "Graphics",
+      "Viewer",
+      "GTK",
+      "GNOME"
     ],
-    "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/3f46f6ff5b5de9f48cd795742beeb33b/icons/128x128/io.github.dvlv.boxbuddyrs.png",
-    "license": "MIT",
+    "icon": "https://dl.flathub.org/media/org/gnome/Loupe/a7d9885c6790772ae9c9feb9969a9a86/icons/128x128/org.gnome.Loupe.png",
+    "license": "GPL-3.0-or-later",
     "tag": [
-      "container",
-      "podman",
-      "distrobox"
+      "Picture",
+      "Graphics",
+      "Loupe"
     ],
-    "rank": 101
+    "rank": 100
   },
   {
     "pkg": "CPU-X",
@@ -1993,23 +1975,7 @@
       "AMD",
       "motherboard"
     ],
-    "rank": 102
-  },
-  {
-    "pkg": "Steam Link",
-    "app_id": "com.valvesoftware.SteamLink",
-    "description": "Stream games from another computer with Steam",
-    "description_long": "The Steam Link app allows you to stream games from your other<br>computers. Just plug in a controller, connect to a computer<br>running Steam on the same local network, and start playing your<br>existing Steam games.",
-    "build_date": "2024-10-26T05:54:22",
-    "category": [
-      "Game"
-    ],
-    "icon": "https://dl.flathub.org/media/com/valvesoftware/SteamLink/18799f5871d6216cc99f5a27e8cfec78/icons/128x128/com.valvesoftware.SteamLink.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [
-      "Games"
-    ],
-    "rank": 103
+    "rank": 101
   },
   {
     "pkg": "Jellyfin Media Player",
@@ -2026,6 +1992,40 @@
     "icon": "https://dl.flathub.org/media/com/github/iwalton3.jellyfin-media-player/20eebaca475a7aa1b2511bed6a86abeb/icons/128x128/com.github.iwalton3.jellyfin-media-player.png",
     "license": "GPL-2.0",
     "tag": [],
+    "rank": 102
+  },
+  {
+    "pkg": "BoxBuddy",
+    "app_id": "io.github.dvlv.boxbuddyrs",
+    "description": "A Graphical Distrobox Manager",
+    "description_long": "BoxBuddy is a graphical user interface for Distrobox.<br>Distrobox allows users to create container images of many different Linux distributions which are nicely integrated with your host system, but still completely separate.<br>BoxBuddy makes creating and using these containers simple and convenient by providing a simple UI for many common tasks.<br>NOTE: BoxBuddy does not package Distrobox, it must be installed on your system separately.",
+    "build_date": "2024-12-04T10:20:23",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/io/github/dvlv.boxbuddyrs/3f46f6ff5b5de9f48cd795742beeb33b/icons/128x128/io.github.dvlv.boxbuddyrs.png",
+    "license": "MIT",
+    "tag": [
+      "container",
+      "podman",
+      "distrobox"
+    ],
+    "rank": 103
+  },
+  {
+    "pkg": "Steam Link",
+    "app_id": "com.valvesoftware.SteamLink",
+    "description": "Stream games from another computer with Steam",
+    "description_long": "The Steam Link app allows you to stream games from your other<br>computers. Just plug in a controller, connect to a computer<br>running Steam on the same local network, and start playing your<br>existing Steam games.",
+    "build_date": "2024-10-26T05:54:22",
+    "category": [
+      "Game"
+    ],
+    "icon": "https://dl.flathub.org/media/com/valvesoftware/SteamLink/18799f5871d6216cc99f5a27e8cfec78/icons/128x128/com.valvesoftware.SteamLink.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [
+      "Games"
+    ],
     "rank": 104
   },
   {
@@ -2082,26 +2082,6 @@
     "rank": 107
   },
   {
-    "pkg": "Alpaca",
-    "app_id": "com.jeffser.Alpaca",
-    "description": "Chat with local AI models",
-    "description_long": "An Ollama client<br>Features<br>Built in Ollama instance<br>Talk to multiple models in the same conversation<br>Pull and delete models from the app<br>Have multiple conversations<br>Image recognition (Only available with compatible models)<br>Plain text documents recognition<br>Import and export chats<br>Append YouTube transcripts to the prompt<br>Append text from a website to the prompt<br>PDF recognition<br>Disclaimer<br>This project is not affiliated at all with Ollama, I'm not responsible for any damages to your device or software caused by running code given by any models.",
-    "build_date": "2024-11-28T20:44:57",
-    "category": [
-      "Utility",
-      "Development",
-      "Chat"
-    ],
-    "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/669492bc75ddf5e852d45d6942b68db8/icons/128x128/com.jeffser.Alpaca.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "ai",
-      "ollama",
-      "llm"
-    ],
-    "rank": 108
-  },
-  {
     "pkg": "Parabolic",
     "app_id": "org.nickvision.tubeconverter",
     "description": "Download web video and audio",
@@ -2124,6 +2104,26 @@
       "video",
       "media",
       "download"
+    ],
+    "rank": 108
+  },
+  {
+    "pkg": "Alpaca",
+    "app_id": "com.jeffser.Alpaca",
+    "description": "Chat with local AI models",
+    "description_long": "An Ollama client<br>Features<br>Built in Ollama instance<br>Talk to multiple models in the same conversation<br>Pull and delete models from the app<br>Have multiple conversations<br>Image recognition (Only available with compatible models)<br>Plain text documents recognition<br>Import and export chats<br>Append YouTube transcripts to the prompt<br>Append text from a website to the prompt<br>PDF recognition<br>Disclaimer<br>This project is not affiliated at all with Ollama, I'm not responsible for any damages to your device or software caused by running code given by any models.",
+    "build_date": "2024-11-28T20:44:57",
+    "category": [
+      "Utility",
+      "Development",
+      "Chat"
+    ],
+    "icon": "https://dl.flathub.org/media/com/jeffser/Alpaca/669492bc75ddf5e852d45d6942b68db8/icons/128x128/com.jeffser.Alpaca.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "ai",
+      "ollama",
+      "llm"
     ],
     "rank": 109
   },
@@ -2247,20 +2247,6 @@
     "rank": 115
   },
   {
-    "pkg": "GitHub Desktop",
-    "app_id": "io.github.shiftey.Desktop",
-    "description": "Simple collaboration from your desktop",
-    "description_long": "<br>Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned<br>user, GitHub Desktop simplifies your development workflow.<br>Attribute commits with collaborators easily. Quickly add co-authors to your commit. Great for<br>pairing and excellent for sending a little love/credit to that special someone who helped fix<br>that gnarly bug of yours. See the attribution on the history page, undo an accidental<br>attribution, and see the co-authors on github.com<br>Checkout branches with pull requests and view CI statuses. See all open pull requests for your<br>repositories and check them out as if they were a local branch, even if they're from upstream<br>branches or forks. See which pull requests pass commit status checks, too!]<br>Syntax highlighted diffs. The new GitHub Desktop supports syntax highlighting when viewing<br>diffs for a variety of different languages.<br>Expanded image diff support. Easily compare changed images. See the before and after, swipe or<br>fade between the two, or look at just the changed parts.<br>Extensive editor &amp; shell integrations. Open your favorite editor or shell from the app, or<br>jump back to GitHub Desktop from your shell. GitHub Desktop is your springboard for work.<br>Community supported. GitHub Desktop is open source now! Check out our roadmap, contribute, and<br>help us make collaboration even easier.<br>This version of GitHub Desktop is a fork that adds support for Linux.<br>",
-    "build_date": "2024-12-09T04:41:18",
-    "category": [
-      "Development"
-    ],
-    "icon": "https://dl.flathub.org/media/io/github/shiftey.Desktop/53b04cf353d546df2faba7a6f311a535/icons/128x128/io.github.shiftey.Desktop.png",
-    "license": "MIT",
-    "tag": [],
-    "rank": 116
-  },
-  {
     "pkg": "Bambu Studio",
     "app_id": "com.bambulab.BambuStudio",
     "description": "Get perfect 3D prints!",
@@ -2287,6 +2273,20 @@
       "amf",
       "SLA"
     ],
+    "rank": 116
+  },
+  {
+    "pkg": "GitHub Desktop",
+    "app_id": "io.github.shiftey.Desktop",
+    "description": "Simple collaboration from your desktop",
+    "description_long": "<br>Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned<br>user, GitHub Desktop simplifies your development workflow.<br>Attribute commits with collaborators easily. Quickly add co-authors to your commit. Great for<br>pairing and excellent for sending a little love/credit to that special someone who helped fix<br>that gnarly bug of yours. See the attribution on the history page, undo an accidental<br>attribution, and see the co-authors on github.com<br>Checkout branches with pull requests and view CI statuses. See all open pull requests for your<br>repositories and check them out as if they were a local branch, even if they're from upstream<br>branches or forks. See which pull requests pass commit status checks, too!]<br>Syntax highlighted diffs. The new GitHub Desktop supports syntax highlighting when viewing<br>diffs for a variety of different languages.<br>Expanded image diff support. Easily compare changed images. See the before and after, swipe or<br>fade between the two, or look at just the changed parts.<br>Extensive editor &amp; shell integrations. Open your favorite editor or shell from the app, or<br>jump back to GitHub Desktop from your shell. GitHub Desktop is your springboard for work.<br>Community supported. GitHub Desktop is open source now! Check out our roadmap, contribute, and<br>help us make collaboration even easier.<br>This version of GitHub Desktop is a fork that adds support for Linux.<br>",
+    "build_date": "2024-12-09T04:41:18",
+    "category": [
+      "Development"
+    ],
+    "icon": "https://dl.flathub.org/media/io/github/shiftey.Desktop/53b04cf353d546df2faba7a6f311a535/icons/128x128/io.github.shiftey.Desktop.png",
+    "license": "MIT",
+    "tag": [],
     "rank": 117
   },
   {
@@ -2308,6 +2308,25 @@
     "rank": 118
   },
   {
+    "pkg": "Space Cadet Pinball",
+    "app_id": "com.github.k4zmu2a.spacecadetpinball",
+    "description": "Game engine for Space Cadet Pinball",
+    "description_long": "<br>Reverse engineering of '3D Pinball for Windows - Space Cadet', a game bundled with Windows.<br>",
+    "build_date": "2024-11-14T08:45:07",
+    "category": [
+      "Game",
+      "ArcadeGame"
+    ],
+    "icon": "https://dl.flathub.org/media/com/github/k4zmu2a.spacecadetpinball/934b9db0b60a0ce4827fb82bfe104764/icons/128x128/com.github.k4zmu2a.spacecadetpinball.png",
+    "license": "MIT",
+    "tag": [
+      "pinball",
+      "space",
+      "cadet"
+    ],
+    "rank": 119
+  },
+  {
     "pkg": "IntelliJ IDEA Community",
     "app_id": "com.jetbrains.IntelliJ-IDEA-Community",
     "description": "Leading Java and Kotlin editor",
@@ -2325,7 +2344,7 @@
       "development",
       "ide"
     ],
-    "rank": 119
+    "rank": 120
   },
   {
     "pkg": "Flameshot",
@@ -2344,46 +2363,7 @@
       "screenshot",
       "shutter"
     ],
-    "rank": 120
-  },
-  {
-    "pkg": "Space Cadet Pinball",
-    "app_id": "com.github.k4zmu2a.spacecadetpinball",
-    "description": "Game engine for Space Cadet Pinball",
-    "description_long": "<br>Reverse engineering of '3D Pinball for Windows - Space Cadet', a game bundled with Windows.<br>",
-    "build_date": "2024-11-14T08:45:07",
-    "category": [
-      "Game",
-      "ArcadeGame"
-    ],
-    "icon": "https://dl.flathub.org/media/com/github/k4zmu2a.spacecadetpinball/934b9db0b60a0ce4827fb82bfe104764/icons/128x128/com.github.k4zmu2a.spacecadetpinball.png",
-    "license": "MIT",
-    "tag": [
-      "pinball",
-      "space",
-      "cadet"
-    ],
     "rank": 121
-  },
-  {
-    "pkg": "Document Scanner",
-    "app_id": "org.gnome.SimpleScan",
-    "description": "Make a digital copy of your photos and documents",
-    "description_long": "<br>A really easy way to scan both text and images.<br>You can crop out the bad parts of an image and rotate it if it is the wrong way round.<br>You can print your scans, export them to pdf, or save them in a range of image formats.<br>This app uses the SANE framework to support most existing scanners.<br>",
-    "build_date": "2024-11-08T23:40:18",
-    "category": [
-      "Graphics",
-      "Scanning"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/SimpleScan/2ab6ba6d77766e2e174f6df3b9bcea0d/icons/128x128/org.gnome.SimpleScan.png",
-    "license": "GPL-3.0+",
-    "tag": [
-      "scan",
-      "scanner",
-      "flatbed",
-      "adf"
-    ],
-    "rank": 122
   },
   {
     "pkg": "BleachBit",
@@ -2404,411 +2384,27 @@
       "performance",
       "privacy"
     ],
+    "rank": 122
+  },
+  {
+    "pkg": "Document Scanner",
+    "app_id": "org.gnome.SimpleScan",
+    "description": "Make a digital copy of your photos and documents",
+    "description_long": "<br>A really easy way to scan both text and images.<br>You can crop out the bad parts of an image and rotate it if it is the wrong way round.<br>You can print your scans, export them to pdf, or save them in a range of image formats.<br>This app uses the SANE framework to support most existing scanners.<br>",
+    "build_date": "2024-11-08T23:40:18",
+    "category": [
+      "Graphics",
+      "Scanning"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/SimpleScan/2ab6ba6d77766e2e174f6df3b9bcea0d/icons/128x128/org.gnome.SimpleScan.png",
+    "license": "GPL-3.0+",
+    "tag": [
+      "scan",
+      "scanner",
+      "flatbed",
+      "adf"
+    ],
     "rank": 123
-  },
-  {
-    "pkg": "Text Editor",
-    "app_id": "org.gnome.TextEditor",
-    "description": "Edit text files",
-    "description_long": "GNOME Text Editor is a simple text editor focused on a pleasing default experience.",
-    "build_date": "2024-11-22T21:23:09",
-    "category": [
-      "Utility",
-      "TextEditor"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/TextEditor.desktop/836a48c335663aada64358833fb3ee80/icons/128x128/org.gnome.TextEditor.desktop.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "write",
-      "notepad"
-    ],
-    "rank": 124
-  },
-  {
-    "pkg": "Maps",
-    "app_id": "org.gnome.Maps",
-    "description": "Find places around the world",
-    "description_long": "<br>Maps gives you quick access to maps all across the world. It allows you<br>to quickly find the place you’re looking for by searching for a city or<br>street, or locate a place to meet a friend.<br>Maps uses the collaborative OpenStreetMap database, made by hundreds of<br>thousands of people across the globe.<br>",
-    "build_date": "2024-11-23T09:44:34",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Maps/509a811fdc0e990e5c7cd2ccb4385238/icons/128x128/org.gnome.Maps.png",
-    "license": "GPL-2.0-or-later",
-    "tag": [
-      "Maps"
-    ],
-    "rank": 125
-  },
-  {
-    "pkg": "Joplin",
-    "app_id": "net.cozic.joplin_desktop",
-    "description": "open source note taking and to-do application",
-    "description_long": "<br>Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.<br>Notes exported from Evernote via .enex files can be imported into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.<br>The notes can be synchronised with various cloud services including Nextcloud, Dropbox, OneDrive, WebDAV or the file system (for example with a network directory). When synchronising the notes, notebooks, tags and other metadata are saved to plain text files which can be easily inspected, backed up and moved around.<br>The application is available for Windows, Linux, macOS, Android and iOS (the terminal app also works on FreeBSD). A Web Clipper, to save web pages and screenshots from your browser, is also available for Firefox and Chrome.<br>",
-    "build_date": "2024-11-02T02:36:48",
-    "category": [
-      "Office"
-    ],
-    "icon": "https://dl.flathub.org/media/net/cozic/joplin_desktop/61350668d16985ed5fff5ea2d33a3bbb/icons/128x128/net.cozic.joplin_desktop.png",
-    "license": "MIT",
-    "tag": [],
-    "rank": 126
-  },
-  {
-    "pkg": "Dolphin",
-    "app_id": "org.kde.dolphin",
-    "description": "Manage your files",
-    "description_long": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.<br>Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.<br>Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.<br>Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.<br>Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.",
-    "build_date": "2024-12-13T23:38:57",
-    "category": [
-      "System",
-      "FileTools",
-      "FileManager"
-    ],
-    "icon": "https://dl.flathub.org/media/org/kde/dolphin.desktop/8d9a2689385e240000d465e31e2266d9/icons/128x128/org.kde.dolphin.desktop.png",
-    "license": "GPL-2.0-or-later",
-    "tag": [
-      "files",
-      "file management",
-      "file browsing",
-      "samba",
-      "network shares",
-      "Explorer",
-      "Finder"
-    ],
-    "rank": 127
-  },
-  {
-    "pkg": "Yandex Browser",
-    "app_id": "ru.yandex.Browser",
-    "description": "Web browser from Yandex",
-    "description_long": "New Yandex Browser with AI search and Alisa voice assistant is a modern fast web browser with familiar user interface.",
-    "build_date": "2024-12-09T08:11:46",
-    "category": [
-      "Network",
-      "WebBrowser"
-    ],
-    "icon": "https://dl.flathub.org/media/ru/yandex/Browser/7dbda3ae6dcd975db9e390440ec40561/icons/128x128/ru.yandex.Browser.png",
-    "license": "LicenseRef-proprietary=https://yandex.ru/legal/browser_agreement",
-    "tag": [],
-    "rank": 128
-  },
-  {
-    "pkg": "Xournal++",
-    "app_id": "com.github.xournalpp.xournalpp",
-    "description": "Take handwritten notes",
-    "description_long": "<br>Xournal++ is a hand note-taking software written in C++ with the target of<br>flexibility, functionality and speed. Stroke recognizer and other parts are<br>based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux<br>(e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input<br>from devices such as Wacom Tablets.<br>Xournal++ features:<br>Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)<br>Paper backgrounds for note-taking, scratch paper, or whiteboarding<br>Annotate on top of PDFs<br>Select text from the background PDF, copy, highlight or underline it or strike it through<br>Follow links from the background PDF<br>Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line<br>Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)<br>Shape drawing (line, arrow, circle, rectangle, spline)<br>Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii<br>Fill shape functionality<br>Shape resizing and rotation<br>Rotation and grid snapping for precise alignment of objects<br>Input stabilization for smoother writing/drawing<br>Text tool for adding text in different fonts, colors, and sizes<br>Enhanced support for image insertion<br>Eraser with multiple configurations<br>LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting<br>Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)<br>Allows mapping different tools/colors etc. to stylus/mouse buttons<br>Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape<br>Custom color palette support using the .gpl format<br>Page template definitions<br>Bug reporting, autosave, and auto backup tools<br>Audio recording and playback alongside with handwritten notes<br>Multi language support (over 20 languages supported)<br>Plugins using Lua scripting<br>",
-    "build_date": "2024-12-10T09:12:24",
-    "category": [
-      "Office"
-    ],
-    "icon": "https://dl.flathub.org/media/com/github/xournalpp.xournalpp/227dbd1a546fa0498986ad2713821670/icons/128x128/com.github.xournalpp.xournalpp.png",
-    "license": "GPL-2.0",
-    "tag": [
-      "tablet",
-      "Wacom",
-      "pen input",
-      "PDF Annotation",
-      "markup"
-    ],
-    "rank": 129
-  },
-  {
-    "pkg": "draw.io",
-    "app_id": "com.jgraph.drawio.desktop",
-    "description": "Create and share diagrams",
-    "description_long": "<br>draw.io is the most flexible and privacy-focused of any production<br>grade diagramming tool. Create flowcharts, process diagrams, org<br>charts, UML, ER diagrams, network diagrams and much more.<br>",
-    "build_date": "2024-12-03T13:33:47",
-    "category": [
-      "Graphics"
-    ],
-    "icon": "https://dl.flathub.org/media/com/jgraph/drawio.desktop/3e96bede055ad4b69d838d1c7710edaa/icons/128x128/com.jgraph.drawio.desktop.png",
-    "license": "Apache-2.0",
-    "tag": [
-      "chart",
-      "diagram",
-      "draw",
-      "flowchart",
-      "uml"
-    ],
-    "rank": 130
-  },
-  {
-    "pkg": "Pinta",
-    "app_id": "com.github.PintaProject.Pinta",
-    "description": "Edit images and paint digitally",
-    "description_long": "Pinta is a image editing, drawing and painting application with a simple yet powerful interface. Pinta has a wide range of drawing tools, including: freehand, rectangles, circles and lines. It also has over 35 effects to apply to your images, and also has the ability to create unlimited layers to help organize your creativity.",
-    "build_date": "2024-10-07T21:51:14",
-    "category": [
-      "Graphics",
-      "2DGraphics",
-      "RasterGraphics"
-    ],
-    "icon": "https://dl.flathub.org/media/com/github/PintaProject.Pinta/9968d31751f1862c860c137833ec829c/icons/128x128/com.github.PintaProject.Pinta.png",
-    "license": "MIT",
-    "tag": [
-      "draw",
-      "drawing",
-      "paint",
-      "painting",
-      "graphics",
-      "raster",
-      "2d"
-    ],
-    "rank": 131
-  },
-  {
-    "pkg": "Upscaler",
-    "app_id": "io.gitlab.theevilskeleton.Upscaler",
-    "description": "Upscale and enhance images",
-    "description_long": "<br>Upscaler enhances and enlarges images up to four times their original size, with special modes for cartoons, anime and photos.<br>",
-    "build_date": "2024-11-24T21:14:56",
-    "category": [
-      "Graphics",
-      "ImageProcessing"
-    ],
-    "icon": "https://dl.flathub.org/media/io/gitlab/theevilskeleton.Upscaler/134198c2b97491c917b5ba35d7d676c2/icons/128x128/io.gitlab.theevilskeleton.Upscaler.png",
-    "license": "GPL-3.0",
-    "tag": [
-      "image",
-      "upscale",
-      "upscaling",
-      "processing",
-      "enhance",
-      "enhancing",
-      "artificial intelligence",
-      "ai"
-    ],
-    "rank": 132
-  },
-  {
-    "pkg": "Hidamari",
-    "app_id": "io.github.jeffshee.Hidamari",
-    "description": "Video wallpaper for Linux",
-    "description_long": "Video wallpaper for Linux. Written in Python. 🐍<br>Hidamari 日溜まり【ひだまり】(n) sunny spot; exposure to the sun<br>Similar functionality to Xwinwrap + mpv or Komorebi, with more features.",
-    "build_date": "2024-10-21T04:27:24",
-    "category": [
-      "GTK",
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/io/github/jeffshee.Hidamari/ea07287dc3f323c43aeab776027fbe7e/icons/128x128/io.github.jeffshee.Hidamari.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "Live Wallpaper",
-      "Video Wallpaper",
-      "Wallpaper"
-    ],
-    "rank": 133
-  },
-  {
-    "pkg": "Master PDF Editor",
-    "app_id": "net.codeindustry.MasterPDFEditor",
-    "description": "Master PDF Editor is a full solutions for work with PDF documents",
-    "description_long": "<br>Edit PDF text and images, Mark and annotate, Merge and split.<br>JavaScript and Dynamic XFA form support.<br>Validation Forms and Calculate Values.<br>Adding a digital signature and Signing PDF Documents.<br>Fast and simple PDF forms fill out.<br>",
-    "build_date": "2024-11-20T10:32:24",
-    "category": [
-      "Office",
-      "Graphics"
-    ],
-    "icon": "https://dl.flathub.org/media/net/codeindustry/MasterPDFEditor/e6378517f853efcb4bf7cd85d586d148/icons/128x128/net.codeindustry.MasterPDFEditor.png",
-    "license": "LicenseRef-proprietary",
-    "tag": [],
-    "rank": 134
-  },
-  {
-    "pkg": "PulseEffects",
-    "app_id": "com.github.wwmm.pulseeffects",
-    "description": "Audio Effects for PulseAudio Applications",
-    "description_long": "<br>PulseEffects is an advanced audio manipulation tools. It includes an<br>equalizer, limiter, compressor and a reverberation tool, just to mention<br>a few. To complement this there is also a built in spectrum analyzer.<br>Because PulseEffects uses the default PulseAudio sound server it will<br>work with most, if not all, applications you use. All supported<br>applications are presented in the main window, where each can be enabled<br>individually.<br>Besides manipulating sound output, PulseEffects is able to apply effects<br>to an input device, such as a microphone. This is, for example, useful in<br>audio recording, but it also works well during voice conversations.<br>When PulseEffects is launched it will conveniently remember the<br>configuration used in the last session. It is also possible to save<br>all the current settings as profiles.<br>",
-    "build_date": "2024-03-17T14:51:34",
-    "category": [
-      "AudioVideo",
-      "Audio"
-    ],
-    "icon": "https://dl.flathub.org/media/com/github/wwmm.pulseeffects.desktop/8b69b5505751120597eef6c41578ba0a/icons/128x128/com.github.wwmm.pulseeffects.desktop.png",
-    "license": "GPL-3.0",
-    "tag": [
-      "limiter",
-      "compressor",
-      "reverberation",
-      "equalizer",
-      "autovolume"
-    ],
-    "rank": 135
-  },
-  {
-    "pkg": "ytDownloader",
-    "app_id": "io.github.aandrew_me.ytdn",
-    "description": "Download videos and audios from hundreds of sites",
-    "description_long": "ytDownloader (Formerly know as Youtube Downloader Plus) lets you download videos and audios of different qualities from hundreds of<br>sites including the popular ones but not limited to Youtube, Facebook, Instagram, Tiktok,<br>Twitter, Twitch and so on.<br>✔️ Supports high quality video resolutions<br>✔️ Supports audio extraction in multiple formats<br>✔️ Supports playlist downloads<br>✔️ Supports downloading particular ranges<br>✔️ Supports downloading subtitles<br>✔️ Supports multiple themes<br>✔️ Completely free and open source<br>✔️ Fast download speeds",
-    "build_date": "2024-11-29T08:31:44",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/io/github/aandrew_me.ytdn/bd7f863260010d929c0b8f08a9fbb1ae/icons/128x128/io.github.aandrew_me.ytdn.png",
-    "license": "GPL-3.0",
-    "tag": [],
-    "rank": 136
-  },
-  {
-    "pkg": "Weather",
-    "app_id": "org.gnome.Weather",
-    "description": "Show weather conditions and forecast",
-    "description_long": "<br>A small application that allows you to monitor the current weather<br>conditions for your city, or anywhere in the world.<br>It provides access to detailed forecasts, up to 7 days, with hourly<br>details for the current and next day, using various internet services.<br>It also optionally integrates with the GNOME Shell, allowing you to see<br>the current conditions of the most recently searched cities by just<br>typing the name in the Activities Overview.<br>",
-    "build_date": "2024-09-21T07:56:30",
-    "category": [
-      "Utility",
-      "Core"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Weather/83bc6d9a6980bbe5d3af5ffb6df74576/icons/128x128/org.gnome.Weather.png",
-    "license": "GPL-2.0-or-later and CC-BY-3.0 and CC-BY-SA-3.0",
-    "tag": [
-      "Weather",
-      "Forecast"
-    ],
-    "rank": 137
-  },
-  {
-    "pkg": "q4wine",
-    "app_id": "ua.org.brezblock.q4wine",
-    "description": "Utility for Wine applications and prefixes management",
-    "description_long": "<br>Q4Wine is a Qt GUI for Wine. It will help you manage Wine prefixes and installed applications.<br>",
-    "build_date": "2024-06-26T12:32:32",
-    "category": [
-      "System"
-    ],
-    "icon": "https://dl.flathub.org/media/ua/org/brezblock.q4wine/462ee8264de81d47ca0bc979131c789f/icons/128x128/ua.org.brezblock.q4wine.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "Wine",
-      "Windows",
-      "Emulator"
-    ],
-    "rank": 138
-  },
-  {
-    "pkg": "Blanket",
-    "app_id": "com.rafaelmardojai.Blanket",
-    "description": "Listen to ambient sounds",
-    "description_long": "Improve focus and increase your productivity by listening to different ambient sounds<br>Also can help you to fall asleep in a noisy environment.<br>Features:<br>Save presets<br>Add custom sounds<br>Auto start in background<br>MPRIS integration<br>Included Sounds in the App:<br>Birds<br>Boat<br>City<br>Coffee Shop<br>Fireplace<br>Pink Noise<br>Rain<br>Summer Night<br>Storm<br>Stream<br>Train<br>Waves<br>White Noise<br>Wind<br>",
-    "build_date": "2024-12-08T23:55:05",
-    "category": [
-      "AudioVideo",
-      "Audio"
-    ],
-    "icon": "https://dl.flathub.org/media/com/rafaelmardojai/Blanket/801e6da0940f8a926439768f4d138c4f/icons/128x128/com.rafaelmardojai.Blanket.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "Concentrate",
-      "Focus",
-      "Noise",
-      "Productivity",
-      "Sleep"
-    ],
-    "rank": 139
-  },
-  {
-    "pkg": "Calendar",
-    "app_id": "org.gnome.Calendar",
-    "description": "Manage your schedule",
-    "description_long": "<br>GNOME Calendar is an elegant tool to help you plan and stay on top of your schedule for<br>upcoming days and weeks, whether your months are filled with meetings and appointments,<br>public events, travel logistics, or other commitments in your life.<br>Easily create and manage unlimited calendars and events with GNOME Calendar's infinite<br>scrolling month view, week timetable, and scheduling list view.<br>Integrating the latest GNOME technologies and design best practices, GNOME Calendar builds on<br>top of the mature Evolution data server to manage large quantities of events and to provide<br>integration with other applications. You can add calendars from various online calendaring<br>services (like NextCloud, Google Calendar, and CalDAV / WebDAV servers), enabling you to<br>synchronize your events across multiple devices and platforms. GNOME Calendar also supports<br>local and offline calendaring, so you can use it anywhere and anytime while travelling<br>(or after civilization's collapse.)<br>",
-    "build_date": "2024-09-22T20:44:15",
-    "category": [
-      "Office",
-      "Calendar",
-      "Core"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Calendar.desktop/13107e4341da62c7e2f4a8e719132602/icons/128x128/org.gnome.Calendar.desktop.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "Calendar",
-      "Event",
-      "Reminder"
-    ],
-    "rank": 140
-  },
-  {
-    "pkg": "GNOME Network Displays",
-    "app_id": "org.gnome.NetworkDisplays",
-    "description": "Screencasting for GNOME",
-    "description_long": "<br>GNOME Network Displays allows you to cast your desktop to a remote display.<br>Supports the Miracast and Chromecast protocols.<br>",
-    "build_date": "2024-12-04T07:55:03",
-    "category": [
-      "AudioVideo"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/NetworkDisplays.desktop/2cefef2e31c09369f36494764ebac065/icons/128x128/org.gnome.NetworkDisplays.desktop.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [],
-    "rank": 141
-  },
-  {
-    "pkg": "Raspberry Pi Imager",
-    "app_id": "org.raspberrypi.rpi-imager",
-    "description": "Raspberry Pi imaging utility",
-    "description_long": "<br>Raspberry Pi Imager downloads a .JSON file from the Raspberry Pi<br>website with a list of all current download options, ensuring you are<br>always installing the most up-to-date version.<br>Once you’ve selected an operating system from the available options,<br>the utility reads the relevant file directly from the Raspberry Pi<br>website and writes it straight to the SD card. This speeds up the<br>process quite considerably compared to the standard process of reading<br>it from the website, writing it to a file on your hard drive, and then,<br>as a separate step, reading it back from the hard drive and writing it<br>to the SD card.<br>During this process, Raspberry Pi Imager also caches the downloaded<br>operating system image – that is to say, it saves a local copy on your<br>computer, so you can program additional SD cards without having to<br>download the file again.<br>",
-    "build_date": "2024-12-08T22:11:45",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/org/raspberrypi/rpi-imager/c2db49d04ca0eaaec139ac128aafd67e/icons/128x128/org.raspberrypi.rpi-imager.png",
-    "license": "Apache-2.0",
-    "tag": [],
-    "rank": 142
-  },
-  {
-    "pkg": "Luanti",
-    "app_id": "net.minetest.Minetest",
-    "description": "Block-based multiplayer game platform",
-    "description_long": "<br>Luanti is a block-based sandbox game platform.<br>Players can create and destroy various types of blocks in a<br>three-dimensional open world. This allows forming structures in<br>every possible creation, on multiplayer servers or in singleplayer.<br>Luanti is designed to be simple, stable, and portable.<br>It is lightweight enough to run on fairly old hardware.<br>Luanti has many features, including:<br>Ability to walk around, dig, and build in a near-infinite voxel world<br>Crafting of items from raw materials<br>A simple modding API that supports many additions and modifications to the game<br>Multiplayer support via servers hosted by users<br>Beautiful lightning-fast map generator<br>",
-    "build_date": "2024-11-28T08:33:35",
-    "category": [
-      "Game",
-      "Simulation"
-    ],
-    "icon": "https://dl.flathub.org/media/net/minetest/Minetest/067516b419777a1e8d2989d35d2fe6aa/icons/128x128/net.minetest.Minetest.png",
-    "license": "LGPL-2.1+ AND CC-BY-SA-3.0 AND MIT AND Apache-2.0",
-    "tag": [
-      "sandbox",
-      "world",
-      "mining",
-      "crafting",
-      "blocks",
-      "nodes",
-      "multiplayer",
-      "roleplaying"
-    ],
-    "rank": 143
-  },
-  {
-    "pkg": "OpenShot Video Editor",
-    "app_id": "org.openshot.OpenShot",
-    "description": "An easy to use, quick to learn, and surprisingly powerful video editor",
-    "description_long": "<br>OpenShot Video Editor is an award-winning, open-source video editor, available on Linux, Mac, Chrome OS,<br>and Windows. OpenShot can create stunning videos, films, and animations with an easy-to-use interface<br>and rich set of features.<br>Features include:<br>Free &amp; open-source (licensed under GPLv3)<br>Cross-platform (Linux, OS X, Chrome OS, and Windows)<br>Easy-to-use user interface (designed for beginners, built-in tutorial)<br>Supports most video, audio, &amp; image formats (based on FFmpeg)<br>Includes popular video profiles &amp; presets (over 70+ profiles, including YouTube HD)<br>Advanced timeline (including drag and drop, scrolling, panning, zooming, and snapping)<br>Advanced clips (including trimming, alpha, scaling, location, rotation, and shearing)<br>Real-time preview (multi-threaded, and optimized for performance)<br>Simple &amp; advanced views (or customize your own unique view)<br>Powerful, curve-based Keyframe animations (linear, Bézier, and constant interpolation)<br>Compositing, image overlays, watermarks, &amp; transparency<br>Unlimited tracks / layers (support for complex projects)<br>Video transitions, masks, &amp; wipes (grayscale images and animated masks)<br>Video &amp; audio effects (including brightness, gamma, hue, chroma key / blue screen, and more)<br>Image sequences &amp; 2D animations (001.png, 002.png, 003.png, etc…)<br>Blender 3D integration (animated 3D title templates)<br>Vector file support &amp; editing (SVG / scalable vector graphics used for titles and credits)<br>Audio mixing, waveform, &amp; editing<br>Emojis (open-source stickers &amp; artwork included)<br>Frame accuracy (step through each frame of video)<br>Time mapping &amp; speed changes (slow/fast, forward/backward)<br>Advanced AI (motion tracking, object detection, &amp; stabilization effects)<br>Credits &amp; captions (scrolling and animated)<br>Hardware accelerated (encoding &amp; decoding supports NVIDIA, AMD, Intel and more)<br>Import &amp; export (EDL and Final Cut Pro formats, supports most video editors)<br>Customizable keyboard shortcuts<br>Translations (available in 100+ languages)<br>",
-    "build_date": "2024-09-07T23:25:46",
-    "category": [
-      "AudioVideo",
-      "Video",
-      "AudioVideoEditing"
-    ],
-    "icon": "https://dl.flathub.org/media/org/openshot/OpenShot/c98cc7078a6bdff0c1a83fb8ba798f54/icons/128x128/org.openshot.OpenShot.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [],
-    "rank": 144
-  },
-  {
-    "pkg": "Proton Mail",
-    "app_id": "me.proton.Mail",
-    "description": "Secure email that protects your privacy",
-    "description_long": "<br>NOTE: This a wrapper of the official packages, but it is not verified,<br>affiliated with, or supported by Proton AG.<br>Keep your conversations private. Proton Mail is encrypted email from<br>Switzerland. Used by millions worldwide, our all-new email app protects your<br>communications and has everything you need to easily manage your inbox.<br>The Wall Street Journal says:<br>“Proton Mail offers encrypted email, which makes it virtually impossible for<br>anyone to read it except the sender and the recipient.”<br>With the all-new Proton Mail app, you can:<br>Create a @proton.me or @protonmail.com email address<br>Send and receive encrypted emails and attachments with ease<br>Switch between multiple Proton Mail accounts<br>Easily manage your email with conversations<br>Keep your inbox tidy and clean with folders, labels and simple<br>swipe-gestures<br>Receive new email notifications<br>Send Password-protected Emails to anyone<br>Enjoy your inbox in dark mode<br>Why use Proton Mail?<br>Proton Mail is free — We believe everyone deserves privacy. Upgrade to a<br>paid plan to get more done and support our mission.<br>Easy to use — Our all-new app has been redesigned to make it easier to<br>read, organize, and write your emails.<br>Your inbox is yours — We don’t spy on your communications to show you<br>targeted ads. Your inbox, your rules.<br>Rigorous encryption — Your entire inbox is secured, on all your devices.<br>No one can read your emails but you. Proton is privacy, guaranteed by<br>end-to-end and zero-access encryption.<br>Unmatched protection — We offer strong phishing, spam, and spying/tracking<br>protection for all your communications.<br>Industry Leading Security Features<br>Messages are stored on Proton Mail servers using end-to-end encryption at<br>all times and are transmitted securely between Proton servers and user<br>devices. This largely eliminates the risk of message interception.<br>Zero Access to Your Email Content<br>Proton Mail's zero access architecture means that your data is encrypted in<br>a way that makes it inaccessible to us. Data is encrypted on the client side<br>using an encryption key that Proton does not have access to. This means we<br>don't have the technical ability to decrypt your messages.<br>Open-Source Cryptography<br>Proton Mail's open-source software has been thoroughly vetted by security<br>experts from around the world to ensure the highest levels of protection.<br>Proton Mail only uses secure implementations of AES, RSA, along with<br>OpenPGP, while all of the cryptographic libraries used are open source. By<br>using open-source libraries, Proton Mail can guarantee that the encryption<br>algorithms used do not have clandestinely built-in back doors.<br>Proton Mail in the press:<br>“Proton Mail is a Gmail-like email system which uses end-to-end encryption,<br>making it impossible for outside parties to monitor.” Forbes<br>“A new email service being developed by a group who met at MIT and CERN<br>promises to bring secure, encrypted email to the masses and keep sensitive<br>information away from prying eyes.” Huffington Post<br>",
-    "build_date": "2024-12-16T19:07:15",
-    "category": [
-      "Network",
-      "Email"
-    ],
-    "icon": "https://dl.flathub.org/media/me/proton/Mail/1967f9338f22ddca99ea30ce1037997b/icons/128x128/me.proton.Mail.png",
-    "license": "GPL-3.0",
-    "tag": [],
-    "rank": 145
   },
   {
     "pkg": "PrusaSlicer",
@@ -2837,7 +2433,489 @@
       "amf",
       "SLA"
     ],
+    "rank": 124
+  },
+  {
+    "pkg": "Maps",
+    "app_id": "org.gnome.Maps",
+    "description": "Find places around the world",
+    "description_long": "<br>Maps gives you quick access to maps all across the world. It allows you<br>to quickly find the place you’re looking for by searching for a city or<br>street, or locate a place to meet a friend.<br>Maps uses the collaborative OpenStreetMap database, made by hundreds of<br>thousands of people across the globe.<br>",
+    "build_date": "2024-11-23T09:44:34",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Maps/509a811fdc0e990e5c7cd2ccb4385238/icons/128x128/org.gnome.Maps.png",
+    "license": "GPL-2.0-or-later",
+    "tag": [
+      "Maps"
+    ],
+    "rank": 125
+  },
+  {
+    "pkg": "Text Editor",
+    "app_id": "org.gnome.TextEditor",
+    "description": "Edit text files",
+    "description_long": "GNOME Text Editor is a simple text editor focused on a pleasing default experience.",
+    "build_date": "2024-11-22T21:23:09",
+    "category": [
+      "Utility",
+      "TextEditor"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/TextEditor.desktop/836a48c335663aada64358833fb3ee80/icons/128x128/org.gnome.TextEditor.desktop.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "write",
+      "notepad"
+    ],
+    "rank": 126
+  },
+  {
+    "pkg": "Joplin",
+    "app_id": "net.cozic.joplin_desktop",
+    "description": "open source note taking and to-do application",
+    "description_long": "<br>Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.<br>Notes exported from Evernote via .enex files can be imported into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.<br>The notes can be synchronised with various cloud services including Nextcloud, Dropbox, OneDrive, WebDAV or the file system (for example with a network directory). When synchronising the notes, notebooks, tags and other metadata are saved to plain text files which can be easily inspected, backed up and moved around.<br>The application is available for Windows, Linux, macOS, Android and iOS (the terminal app also works on FreeBSD). A Web Clipper, to save web pages and screenshots from your browser, is also available for Firefox and Chrome.<br>",
+    "build_date": "2024-11-02T02:36:48",
+    "category": [
+      "Office"
+    ],
+    "icon": "https://dl.flathub.org/media/net/cozic/joplin_desktop/61350668d16985ed5fff5ea2d33a3bbb/icons/128x128/net.cozic.joplin_desktop.png",
+    "license": "MIT",
+    "tag": [],
+    "rank": 127
+  },
+  {
+    "pkg": "Dolphin",
+    "app_id": "org.kde.dolphin",
+    "description": "Manage your files",
+    "description_long": "Dolphin is KDE's file manager that lets you navigate and browse the contents of your hard drives, USB sticks, SD cards, and more. Creating, moving, or deleting files and folders is simple and fast.<br>Dolphin contains plenty of productivity features that will save you time. The multiple tabs and split view features allow navigating multiple folders at the same time, and you can easily drag and drop files between views to move or copy them. Dolphin's right-click menu provides with many quick actions that let you compress, share, and duplicate files, among many other things. You can also add your own custom actions.<br>Dolphin is very lightweight, but at the same time, you can adapt it to your specific needs. This means that you can carry out your file management exactly the way you want to. Dolphin supports three different view modes: a classic grid view of all the files, a more detailed view, and a tree view. You can also configure most of Dolphin's behavior.<br>Dolphin can display files and folders from many Internet cloud services and other remote machines as if they were right there on your desktop.<br>Dolphin also comes with an integrated terminal that allows you to run commands on the current folder. You can extend the capabilities of Dolphin even further with powerful plugins to adapt it to your workflow. You can use the git integration plugin to interact with git repositories, or the Nextcloud plugin to synchronize your files online, and much more.",
+    "build_date": "2024-12-13T23:38:57",
+    "category": [
+      "System",
+      "FileTools",
+      "FileManager"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/dolphin.desktop/8d9a2689385e240000d465e31e2266d9/icons/128x128/org.kde.dolphin.desktop.png",
+    "license": "GPL-2.0-or-later",
+    "tag": [
+      "files",
+      "file management",
+      "file browsing",
+      "samba",
+      "network shares",
+      "Explorer",
+      "Finder"
+    ],
+    "rank": 128
+  },
+  {
+    "pkg": "Yandex Browser",
+    "app_id": "ru.yandex.Browser",
+    "description": "Web browser from Yandex",
+    "description_long": "New Yandex Browser with AI search and Alisa voice assistant is a modern fast web browser with familiar user interface.",
+    "build_date": "2024-12-09T08:11:46",
+    "category": [
+      "Network",
+      "WebBrowser"
+    ],
+    "icon": "https://dl.flathub.org/media/ru/yandex/Browser/7dbda3ae6dcd975db9e390440ec40561/icons/128x128/ru.yandex.Browser.png",
+    "license": "LicenseRef-proprietary=https://yandex.ru/legal/browser_agreement",
+    "tag": [],
+    "rank": 129
+  },
+  {
+    "pkg": "Xournal++",
+    "app_id": "com.github.xournalpp.xournalpp",
+    "description": "Take handwritten notes",
+    "description_long": "<br>Xournal++ is a hand note-taking software written in C++ with the target of<br>flexibility, functionality and speed. Stroke recognizer and other parts are<br>based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux<br>(e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input<br>from devices such as Wacom Tablets.<br>Xournal++ features:<br>Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)<br>Paper backgrounds for note-taking, scratch paper, or whiteboarding<br>Annotate on top of PDFs<br>Select text from the background PDF, copy, highlight or underline it or strike it through<br>Follow links from the background PDF<br>Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line<br>Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)<br>Shape drawing (line, arrow, circle, rectangle, spline)<br>Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii<br>Fill shape functionality<br>Shape resizing and rotation<br>Rotation and grid snapping for precise alignment of objects<br>Input stabilization for smoother writing/drawing<br>Text tool for adding text in different fonts, colors, and sizes<br>Enhanced support for image insertion<br>Eraser with multiple configurations<br>LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting<br>Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)<br>Allows mapping different tools/colors etc. to stylus/mouse buttons<br>Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape<br>Custom color palette support using the .gpl format<br>Page template definitions<br>Bug reporting, autosave, and auto backup tools<br>Audio recording and playback alongside with handwritten notes<br>Multi language support (over 20 languages supported)<br>Plugins using Lua scripting<br>",
+    "build_date": "2024-12-10T09:12:24",
+    "category": [
+      "Office"
+    ],
+    "icon": "https://dl.flathub.org/media/com/github/xournalpp.xournalpp/227dbd1a546fa0498986ad2713821670/icons/128x128/com.github.xournalpp.xournalpp.png",
+    "license": "GPL-2.0",
+    "tag": [
+      "tablet",
+      "Wacom",
+      "pen input",
+      "PDF Annotation",
+      "markup"
+    ],
+    "rank": 130
+  },
+  {
+    "pkg": "draw.io",
+    "app_id": "com.jgraph.drawio.desktop",
+    "description": "Create and share diagrams",
+    "description_long": "<br>draw.io is the most flexible and privacy-focused of any production<br>grade diagramming tool. Create flowcharts, process diagrams, org<br>charts, UML, ER diagrams, network diagrams and much more.<br>",
+    "build_date": "2024-12-03T13:33:47",
+    "category": [
+      "Graphics"
+    ],
+    "icon": "https://dl.flathub.org/media/com/jgraph/drawio.desktop/3e96bede055ad4b69d838d1c7710edaa/icons/128x128/com.jgraph.drawio.desktop.png",
+    "license": "Apache-2.0",
+    "tag": [
+      "chart",
+      "diagram",
+      "draw",
+      "flowchart",
+      "uml"
+    ],
+    "rank": 131
+  },
+  {
+    "pkg": "Pinta",
+    "app_id": "com.github.PintaProject.Pinta",
+    "description": "Edit images and paint digitally",
+    "description_long": "Pinta is a image editing, drawing and painting application with a simple yet powerful interface. Pinta has a wide range of drawing tools, including: freehand, rectangles, circles and lines. It also has over 35 effects to apply to your images, and also has the ability to create unlimited layers to help organize your creativity.",
+    "build_date": "2024-10-07T21:51:14",
+    "category": [
+      "Graphics",
+      "2DGraphics",
+      "RasterGraphics"
+    ],
+    "icon": "https://dl.flathub.org/media/com/github/PintaProject.Pinta/9968d31751f1862c860c137833ec829c/icons/128x128/com.github.PintaProject.Pinta.png",
+    "license": "MIT",
+    "tag": [
+      "draw",
+      "drawing",
+      "paint",
+      "painting",
+      "graphics",
+      "raster",
+      "2d"
+    ],
+    "rank": 132
+  },
+  {
+    "pkg": "Upscaler",
+    "app_id": "io.gitlab.theevilskeleton.Upscaler",
+    "description": "Upscale and enhance images",
+    "description_long": "<br>Upscaler enhances and enlarges images up to four times their original size, with special modes for cartoons, anime and photos.<br>",
+    "build_date": "2024-11-24T21:14:56",
+    "category": [
+      "Graphics",
+      "ImageProcessing"
+    ],
+    "icon": "https://dl.flathub.org/media/io/gitlab/theevilskeleton.Upscaler/134198c2b97491c917b5ba35d7d676c2/icons/128x128/io.gitlab.theevilskeleton.Upscaler.png",
+    "license": "GPL-3.0",
+    "tag": [
+      "image",
+      "upscale",
+      "upscaling",
+      "processing",
+      "enhance",
+      "enhancing",
+      "artificial intelligence",
+      "ai"
+    ],
+    "rank": 133
+  },
+  {
+    "pkg": "Hidamari",
+    "app_id": "io.github.jeffshee.Hidamari",
+    "description": "Video wallpaper for Linux",
+    "description_long": "Video wallpaper for Linux. Written in Python. 🐍<br>Hidamari 日溜まり【ひだまり】(n) sunny spot; exposure to the sun<br>Similar functionality to Xwinwrap + mpv or Komorebi, with more features.",
+    "build_date": "2024-10-21T04:27:24",
+    "category": [
+      "GTK",
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/io/github/jeffshee.Hidamari/ea07287dc3f323c43aeab776027fbe7e/icons/128x128/io.github.jeffshee.Hidamari.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "Live Wallpaper",
+      "Video Wallpaper",
+      "Wallpaper"
+    ],
+    "rank": 134
+  },
+  {
+    "pkg": "ytDownloader",
+    "app_id": "io.github.aandrew_me.ytdn",
+    "description": "Download videos and audios from hundreds of sites",
+    "description_long": "ytDownloader (Formerly know as Youtube Downloader Plus) lets you download videos and audios of different qualities from hundreds of<br>sites including the popular ones but not limited to Youtube, Facebook, Instagram, Tiktok,<br>Twitter, Twitch and so on.<br>✔️ Supports high quality video resolutions<br>✔️ Supports audio extraction in multiple formats<br>✔️ Supports playlist downloads<br>✔️ Supports downloading particular ranges<br>✔️ Supports downloading subtitles<br>✔️ Supports multiple themes<br>✔️ Completely free and open source<br>✔️ Fast download speeds",
+    "build_date": "2024-11-29T08:31:44",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/io/github/aandrew_me.ytdn/bd7f863260010d929c0b8f08a9fbb1ae/icons/128x128/io.github.aandrew_me.ytdn.png",
+    "license": "GPL-3.0",
+    "tag": [],
+    "rank": 135
+  },
+  {
+    "pkg": "PulseEffects",
+    "app_id": "com.github.wwmm.pulseeffects",
+    "description": "Audio Effects for PulseAudio Applications",
+    "description_long": "<br>PulseEffects is an advanced audio manipulation tools. It includes an<br>equalizer, limiter, compressor and a reverberation tool, just to mention<br>a few. To complement this there is also a built in spectrum analyzer.<br>Because PulseEffects uses the default PulseAudio sound server it will<br>work with most, if not all, applications you use. All supported<br>applications are presented in the main window, where each can be enabled<br>individually.<br>Besides manipulating sound output, PulseEffects is able to apply effects<br>to an input device, such as a microphone. This is, for example, useful in<br>audio recording, but it also works well during voice conversations.<br>When PulseEffects is launched it will conveniently remember the<br>configuration used in the last session. It is also possible to save<br>all the current settings as profiles.<br>",
+    "build_date": "2024-03-17T14:51:34",
+    "category": [
+      "AudioVideo",
+      "Audio"
+    ],
+    "icon": "https://dl.flathub.org/media/com/github/wwmm.pulseeffects.desktop/8b69b5505751120597eef6c41578ba0a/icons/128x128/com.github.wwmm.pulseeffects.desktop.png",
+    "license": "GPL-3.0",
+    "tag": [
+      "limiter",
+      "compressor",
+      "reverberation",
+      "equalizer",
+      "autovolume"
+    ],
+    "rank": 136
+  },
+  {
+    "pkg": "Master PDF Editor",
+    "app_id": "net.codeindustry.MasterPDFEditor",
+    "description": "Master PDF Editor is a full solutions for work with PDF documents",
+    "description_long": "<br>Edit PDF text and images, Mark and annotate, Merge and split.<br>JavaScript and Dynamic XFA form support.<br>Validation Forms and Calculate Values.<br>Adding a digital signature and Signing PDF Documents.<br>Fast and simple PDF forms fill out.<br>",
+    "build_date": "2024-11-20T10:32:24",
+    "category": [
+      "Office",
+      "Graphics"
+    ],
+    "icon": "https://dl.flathub.org/media/net/codeindustry/MasterPDFEditor/e6378517f853efcb4bf7cd85d586d148/icons/128x128/net.codeindustry.MasterPDFEditor.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [],
+    "rank": 137
+  },
+  {
+    "pkg": "q4wine",
+    "app_id": "ua.org.brezblock.q4wine",
+    "description": "Utility for Wine applications and prefixes management",
+    "description_long": "<br>Q4Wine is a Qt GUI for Wine. It will help you manage Wine prefixes and installed applications.<br>",
+    "build_date": "2024-06-26T12:32:32",
+    "category": [
+      "System"
+    ],
+    "icon": "https://dl.flathub.org/media/ua/org/brezblock.q4wine/462ee8264de81d47ca0bc979131c789f/icons/128x128/ua.org.brezblock.q4wine.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "Wine",
+      "Windows",
+      "Emulator"
+    ],
+    "rank": 138
+  },
+  {
+    "pkg": "GNOME Network Displays",
+    "app_id": "org.gnome.NetworkDisplays",
+    "description": "Screencasting for GNOME",
+    "description_long": "<br>GNOME Network Displays allows you to cast your desktop to a remote display.<br>Supports the Miracast and Chromecast protocols.<br>",
+    "build_date": "2024-12-21T16:18:01",
+    "category": [
+      "AudioVideo"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/NetworkDisplays.desktop/2cefef2e31c09369f36494764ebac065/icons/128x128/org.gnome.NetworkDisplays.desktop.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [],
+    "rank": 139
+  },
+  {
+    "pkg": "Weather",
+    "app_id": "org.gnome.Weather",
+    "description": "Show weather conditions and forecast",
+    "description_long": "<br>A small application that allows you to monitor the current weather<br>conditions for your city, or anywhere in the world.<br>It provides access to detailed forecasts, up to 7 days, with hourly<br>details for the current and next day, using various internet services.<br>It also optionally integrates with the GNOME Shell, allowing you to see<br>the current conditions of the most recently searched cities by just<br>typing the name in the Activities Overview.<br>",
+    "build_date": "2024-09-21T07:56:30",
+    "category": [
+      "Utility",
+      "Core"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Weather/83bc6d9a6980bbe5d3af5ffb6df74576/icons/128x128/org.gnome.Weather.png",
+    "license": "GPL-2.0-or-later and CC-BY-3.0 and CC-BY-SA-3.0",
+    "tag": [
+      "Weather",
+      "Forecast"
+    ],
+    "rank": 140
+  },
+  {
+    "pkg": "Blanket",
+    "app_id": "com.rafaelmardojai.Blanket",
+    "description": "Listen to ambient sounds",
+    "description_long": "Improve focus and increase your productivity by listening to different ambient sounds<br>Also can help you to fall asleep in a noisy environment.<br>Features:<br>Save presets<br>Add custom sounds<br>Auto start in background<br>MPRIS integration<br>Included Sounds in the App:<br>Birds<br>Boat<br>City<br>Coffee Shop<br>Fireplace<br>Pink Noise<br>Rain<br>Summer Night<br>Storm<br>Stream<br>Train<br>Waves<br>White Noise<br>Wind<br>",
+    "build_date": "2024-12-08T23:55:05",
+    "category": [
+      "AudioVideo",
+      "Audio"
+    ],
+    "icon": "https://dl.flathub.org/media/com/rafaelmardojai/Blanket/801e6da0940f8a926439768f4d138c4f/icons/128x128/com.rafaelmardojai.Blanket.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "Concentrate",
+      "Focus",
+      "Noise",
+      "Productivity",
+      "Sleep"
+    ],
+    "rank": 141
+  },
+  {
+    "pkg": "Calendar",
+    "app_id": "org.gnome.Calendar",
+    "description": "Manage your schedule",
+    "description_long": "<br>GNOME Calendar is an elegant tool to help you plan and stay on top of your schedule for<br>upcoming days and weeks, whether your months are filled with meetings and appointments,<br>public events, travel logistics, or other commitments in your life.<br>Easily create and manage unlimited calendars and events with GNOME Calendar's infinite<br>scrolling month view, week timetable, and scheduling list view.<br>Integrating the latest GNOME technologies and design best practices, GNOME Calendar builds on<br>top of the mature Evolution data server to manage large quantities of events and to provide<br>integration with other applications. You can add calendars from various online calendaring<br>services (like NextCloud, Google Calendar, and CalDAV / WebDAV servers), enabling you to<br>synchronize your events across multiple devices and platforms. GNOME Calendar also supports<br>local and offline calendaring, so you can use it anywhere and anytime while travelling<br>(or after civilization's collapse.)<br>",
+    "build_date": "2024-09-22T20:44:15",
+    "category": [
+      "Office",
+      "Calendar",
+      "Core"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Calendar.desktop/13107e4341da62c7e2f4a8e719132602/icons/128x128/org.gnome.Calendar.desktop.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "Calendar",
+      "Event",
+      "Reminder"
+    ],
+    "rank": 142
+  },
+  {
+    "pkg": "Raspberry Pi Imager",
+    "app_id": "org.raspberrypi.rpi-imager",
+    "description": "Raspberry Pi imaging utility",
+    "description_long": "<br>Raspberry Pi Imager downloads a .JSON file from the Raspberry Pi<br>website with a list of all current download options, ensuring you are<br>always installing the most up-to-date version.<br>Once you’ve selected an operating system from the available options,<br>the utility reads the relevant file directly from the Raspberry Pi<br>website and writes it straight to the SD card. This speeds up the<br>process quite considerably compared to the standard process of reading<br>it from the website, writing it to a file on your hard drive, and then,<br>as a separate step, reading it back from the hard drive and writing it<br>to the SD card.<br>During this process, Raspberry Pi Imager also caches the downloaded<br>operating system image – that is to say, it saves a local copy on your<br>computer, so you can program additional SD cards without having to<br>download the file again.<br>",
+    "build_date": "2024-12-08T22:11:45",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/org/raspberrypi/rpi-imager/c2db49d04ca0eaaec139ac128aafd67e/icons/128x128/org.raspberrypi.rpi-imager.png",
+    "license": "Apache-2.0",
+    "tag": [],
+    "rank": 143
+  },
+  {
+    "pkg": "Luanti",
+    "app_id": "net.minetest.Minetest",
+    "description": "Block-based multiplayer game platform",
+    "description_long": "<br>Luanti is a block-based sandbox game platform.<br>Players can create and destroy various types of blocks in a<br>three-dimensional open world. This allows forming structures in<br>every possible creation, on multiplayer servers or in singleplayer.<br>Luanti is designed to be simple, stable, and portable.<br>It is lightweight enough to run on fairly old hardware.<br>Luanti has many features, including:<br>Ability to walk around, dig, and build in a near-infinite voxel world<br>Crafting of items from raw materials<br>A simple modding API that supports many additions and modifications to the game<br>Multiplayer support via servers hosted by users<br>Beautiful lightning-fast map generator<br>",
+    "build_date": "2024-11-28T08:33:35",
+    "category": [
+      "Game",
+      "Simulation"
+    ],
+    "icon": "https://dl.flathub.org/media/net/minetest/Minetest/067516b419777a1e8d2989d35d2fe6aa/icons/128x128/net.minetest.Minetest.png",
+    "license": "LGPL-2.1+ AND CC-BY-SA-3.0 AND MIT AND Apache-2.0",
+    "tag": [
+      "sandbox",
+      "world",
+      "mining",
+      "crafting",
+      "blocks",
+      "nodes",
+      "multiplayer",
+      "roleplaying"
+    ],
+    "rank": 144
+  },
+  {
+    "pkg": "Proton Mail",
+    "app_id": "me.proton.Mail",
+    "description": "Secure email that protects your privacy",
+    "description_long": "<br>NOTE: This a wrapper of the official packages, but it is not verified,<br>affiliated with, or supported by Proton AG.<br>Keep your conversations private. Proton Mail is encrypted email from<br>Switzerland. Used by millions worldwide, our all-new email app protects your<br>communications and has everything you need to easily manage your inbox.<br>The Wall Street Journal says:<br>“Proton Mail offers encrypted email, which makes it virtually impossible for<br>anyone to read it except the sender and the recipient.”<br>With the all-new Proton Mail app, you can:<br>Create a @proton.me or @protonmail.com email address<br>Send and receive encrypted emails and attachments with ease<br>Switch between multiple Proton Mail accounts<br>Easily manage your email with conversations<br>Keep your inbox tidy and clean with folders, labels and simple<br>swipe-gestures<br>Receive new email notifications<br>Send Password-protected Emails to anyone<br>Enjoy your inbox in dark mode<br>Why use Proton Mail?<br>Proton Mail is free — We believe everyone deserves privacy. Upgrade to a<br>paid plan to get more done and support our mission.<br>Easy to use — Our all-new app has been redesigned to make it easier to<br>read, organize, and write your emails.<br>Your inbox is yours — We don’t spy on your communications to show you<br>targeted ads. Your inbox, your rules.<br>Rigorous encryption — Your entire inbox is secured, on all your devices.<br>No one can read your emails but you. Proton is privacy, guaranteed by<br>end-to-end and zero-access encryption.<br>Unmatched protection — We offer strong phishing, spam, and spying/tracking<br>protection for all your communications.<br>Industry Leading Security Features<br>Messages are stored on Proton Mail servers using end-to-end encryption at<br>all times and are transmitted securely between Proton servers and user<br>devices. This largely eliminates the risk of message interception.<br>Zero Access to Your Email Content<br>Proton Mail's zero access architecture means that your data is encrypted in<br>a way that makes it inaccessible to us. Data is encrypted on the client side<br>using an encryption key that Proton does not have access to. This means we<br>don't have the technical ability to decrypt your messages.<br>Open-Source Cryptography<br>Proton Mail's open-source software has been thoroughly vetted by security<br>experts from around the world to ensure the highest levels of protection.<br>Proton Mail only uses secure implementations of AES, RSA, along with<br>OpenPGP, while all of the cryptographic libraries used are open source. By<br>using open-source libraries, Proton Mail can guarantee that the encryption<br>algorithms used do not have clandestinely built-in back doors.<br>Proton Mail in the press:<br>“Proton Mail is a Gmail-like email system which uses end-to-end encryption,<br>making it impossible for outside parties to monitor.” Forbes<br>“A new email service being developed by a group who met at MIT and CERN<br>promises to bring secure, encrypted email to the masses and keep sensitive<br>information away from prying eyes.” Huffington Post<br>",
+    "build_date": "2024-12-16T19:07:15",
+    "category": [
+      "Network",
+      "Email"
+    ],
+    "icon": "https://dl.flathub.org/media/me/proton/Mail/1967f9338f22ddca99ea30ce1037997b/icons/128x128/me.proton.Mail.png",
+    "license": "GPL-3.0",
+    "tag": [],
+    "rank": 145
+  },
+  {
+    "pkg": "OpenShot Video Editor",
+    "app_id": "org.openshot.OpenShot",
+    "description": "An easy to use, quick to learn, and surprisingly powerful video editor",
+    "description_long": "<br>OpenShot Video Editor is an award-winning, open-source video editor, available on Linux, Mac, Chrome OS,<br>and Windows. OpenShot can create stunning videos, films, and animations with an easy-to-use interface<br>and rich set of features.<br>Features include:<br>Free &amp; open-source (licensed under GPLv3)<br>Cross-platform (Linux, OS X, Chrome OS, and Windows)<br>Easy-to-use user interface (designed for beginners, built-in tutorial)<br>Supports most video, audio, &amp; image formats (based on FFmpeg)<br>Includes popular video profiles &amp; presets (over 70+ profiles, including YouTube HD)<br>Advanced timeline (including drag and drop, scrolling, panning, zooming, and snapping)<br>Advanced clips (including trimming, alpha, scaling, location, rotation, and shearing)<br>Real-time preview (multi-threaded, and optimized for performance)<br>Simple &amp; advanced views (or customize your own unique view)<br>Powerful, curve-based Keyframe animations (linear, Bézier, and constant interpolation)<br>Compositing, image overlays, watermarks, &amp; transparency<br>Unlimited tracks / layers (support for complex projects)<br>Video transitions, masks, &amp; wipes (grayscale images and animated masks)<br>Video &amp; audio effects (including brightness, gamma, hue, chroma key / blue screen, and more)<br>Image sequences &amp; 2D animations (001.png, 002.png, 003.png, etc…)<br>Blender 3D integration (animated 3D title templates)<br>Vector file support &amp; editing (SVG / scalable vector graphics used for titles and credits)<br>Audio mixing, waveform, &amp; editing<br>Emojis (open-source stickers &amp; artwork included)<br>Frame accuracy (step through each frame of video)<br>Time mapping &amp; speed changes (slow/fast, forward/backward)<br>Advanced AI (motion tracking, object detection, &amp; stabilization effects)<br>Credits &amp; captions (scrolling and animated)<br>Hardware accelerated (encoding &amp; decoding supports NVIDIA, AMD, Intel and more)<br>Import &amp; export (EDL and Final Cut Pro formats, supports most video editors)<br>Customizable keyboard shortcuts<br>Translations (available in 100+ languages)<br>",
+    "build_date": "2024-09-07T23:25:46",
+    "category": [
+      "AudioVideo",
+      "Video",
+      "AudioVideoEditing"
+    ],
+    "icon": "https://dl.flathub.org/media/org/openshot/OpenShot/c98cc7078a6bdff0c1a83fb8ba798f54/icons/128x128/org.openshot.OpenShot.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [],
     "rank": 146
+  },
+  {
+    "pkg": "darktable",
+    "app_id": "org.darktable.Darktable",
+    "description": "Organize and develop images from digital cameras",
+    "description_long": "darktable manages your camera raw files and images in a database, lets you view them through lighttable mode and develop/enhance them in darkroom mode.<br>Other modes besides lighttable and darkroom are a map for geotagging, tethering, print and a slideshow.<br>darktable supports most modern cameras' raw formats, and does all of its processing at very high precision.",
+    "build_date": "2024-10-19T02:57:18",
+    "category": [
+      "Graphics",
+      "Photography"
+    ],
+    "icon": "https://dl.flathub.org/media/org/darktable/Darktable/09d9681f04e19f0f9c88b3d6a079c91f/icons/128x128/org.darktable.Darktable.png",
+    "license": "GPL-3.0+",
+    "tag": [
+      "graphics",
+      "photography",
+      "raw"
+    ],
+    "rank": 147
+  },
+  {
+    "pkg": "Popsicle",
+    "app_id": "com.system76.Popsicle",
+    "description": "Flash multiple USB devices in parallel",
+    "description_long": "Write an ISO or other image to multiple USB devices all at once. Easily preparing a bunch of flash drives of your favorite OS with just a couple of clicks.<br>Supports USB 2 and 3 devices<br>Use USB hubs for massively parallel writing<br>Verify your image with the SHA256 or MD5 checksum<br>Check the progress, speed, and success of each device while flashing<br>Open ISO or IMG files from the app, or straight from your file manager<br>",
+    "build_date": "2024-10-25T05:54:40",
+    "category": [
+      "System"
+    ],
+    "icon": "https://dl.flathub.org/media/com/system76/Popsicle/fc857df3d728d3116518fb22c02ea229/icons/128x128/com.system76.Popsicle.png",
+    "license": "MIT",
+    "tag": [
+      "\"USB",
+      "Flash",
+      "Drive",
+      "Popsicle",
+      "\""
+    ],
+    "rank": 148
+  },
+  {
+    "pkg": "ClamTk",
+    "app_id": "com.gitlab.davem.ClamTk",
+    "description": "Easy to use graphical user interface for Clam Antivirus (ClamAV)",
+    "description_long": "ClamTk is intended to be an easy to use, light-weight, on-demand scanner for Linux systems.",
+    "build_date": "2023-08-24T04:15:46",
+    "category": [
+      "System",
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.gitlab.davem.ClamTk.png",
+    "license": "GPL-2.0+",
+    "tag": [
+      "antivirus",
+      "malware",
+      "scan",
+      "scanner",
+      "virus"
+    ],
+    "rank": 149
+  },
+  {
+    "pkg": "RPCS3",
+    "app_id": "net.rpcs3.RPCS3",
+    "description": "Open-source Sony PlayStation 3 Emulator",
+    "description_long": "RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem.\nThe emulator is currently capable of running over 2500 commercial titles powered by Vulkan and OpenGL.<br>The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems.\nAll information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation.\nMost of this information can be found on the PlayStation 3 Developer Wiki.",
+    "build_date": "2024-10-22T09:43:31",
+    "category": [
+      "Game",
+      "Emulator"
+    ],
+    "icon": "https://dl.flathub.org/media/net/rpcs3/RPCS3/8d76da7074cb0ad01fb297dd9a5ff8f7/icons/128x128/net.rpcs3.RPCS3.png",
+    "license": "GPL-2.0-only",
+    "tag": [
+      "ps3",
+      "playstation"
+    ],
+    "rank": 150
   },
   {
     "pkg": "RetroDECK",
@@ -2859,28 +2937,21 @@
       "steam",
       "deck"
     ],
-    "rank": 147
+    "rank": 151
   },
   {
-    "pkg": "ClamTk",
-    "app_id": "com.gitlab.davem.ClamTk",
-    "description": "Easy to use graphical user interface for Clam Antivirus (ClamAV)",
-    "description_long": "ClamTk is intended to be an easy to use, light-weight, on-demand scanner for Linux systems.",
-    "build_date": "2023-08-24T04:15:46",
+    "pkg": "Google Earth Pro",
+    "app_id": "com.google.EarthPro",
+    "description": "3D planet viewer",
+    "description_long": "Create maps with advanced tools: Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery<br>NOTE: This wrapper is not verified by, affiliated with, or supported by Google",
+    "build_date": "2024-09-22T17:29:41",
     "category": [
-      "System",
-      "Utility"
+      "Network"
     ],
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.gitlab.davem.ClamTk.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "antivirus",
-      "malware",
-      "scan",
-      "scanner",
-      "virus"
-    ],
-    "rank": 148
+    "icon": "https://dl.flathub.org/media/com/google/EarthPro/3eb9b4e885957c304ef7e91ecab40e9c/icons/128x128/com.google.EarthPro.png",
+    "license": "LicenseRef-proprietary",
+    "tag": [],
+    "rank": 152
   },
   {
     "pkg": "Spotube",
@@ -2896,77 +2967,6 @@
     ],
     "icon": "https://dl.flathub.org/media/com/github/KRTirtho.Spotube/5a5a82785d912e63eeacbe22bccf4e34/icons/128x128/com.github.KRTirtho.Spotube.png",
     "license": "BSD-4-Clause",
-    "tag": [],
-    "rank": 149
-  },
-  {
-    "pkg": "darktable",
-    "app_id": "org.darktable.Darktable",
-    "description": "Organize and develop images from digital cameras",
-    "description_long": "darktable manages your camera raw files and images in a database, lets you view them through lighttable mode and develop/enhance them in darkroom mode.<br>Other modes besides lighttable and darkroom are a map for geotagging, tethering, print and a slideshow.<br>darktable supports most modern cameras' raw formats, and does all of its processing at very high precision.",
-    "build_date": "2024-10-19T02:57:18",
-    "category": [
-      "Graphics",
-      "Photography"
-    ],
-    "icon": "https://dl.flathub.org/media/org/darktable/Darktable/09d9681f04e19f0f9c88b3d6a079c91f/icons/128x128/org.darktable.Darktable.png",
-    "license": "GPL-3.0+",
-    "tag": [
-      "graphics",
-      "photography",
-      "raw"
-    ],
-    "rank": 150
-  },
-  {
-    "pkg": "Popsicle",
-    "app_id": "com.system76.Popsicle",
-    "description": "Flash multiple USB devices in parallel",
-    "description_long": "Write an ISO or other image to multiple USB devices all at once. Easily preparing a bunch of flash drives of your favorite OS with just a couple of clicks.<br>Supports USB 2 and 3 devices<br>Use USB hubs for massively parallel writing<br>Verify your image with the SHA256 or MD5 checksum<br>Check the progress, speed, and success of each device while flashing<br>Open ISO or IMG files from the app, or straight from your file manager<br>",
-    "build_date": "2024-10-25T05:54:40",
-    "category": [
-      "System"
-    ],
-    "icon": "https://dl.flathub.org/media/com/system76/Popsicle/fc857df3d728d3116518fb22c02ea229/icons/128x128/com.system76.Popsicle.png",
-    "license": "MIT",
-    "tag": [
-      "\"USB",
-      "Flash",
-      "Drive",
-      "Popsicle",
-      "\""
-    ],
-    "rank": 151
-  },
-  {
-    "pkg": "RPCS3",
-    "app_id": "net.rpcs3.RPCS3",
-    "description": "Open-source Sony PlayStation 3 Emulator",
-    "description_long": "RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem.\nThe emulator is currently capable of running over 2500 commercial titles powered by Vulkan and OpenGL.<br>The goal of this project is to experiment, research, and educate on the topic of PlayStation 3 emulation that can be performed on compatible devices and operating systems.\nAll information was obtained legally by purchasing PlayStation 3 hardware and software. Additional information was obtained from various sources on the internet that include but is not limited to system hardware and software documentation.\nMost of this information can be found on the PlayStation 3 Developer Wiki.",
-    "build_date": "2024-10-22T09:43:31",
-    "category": [
-      "Game",
-      "Emulator"
-    ],
-    "icon": "https://dl.flathub.org/media/net/rpcs3/RPCS3/8d76da7074cb0ad01fb297dd9a5ff8f7/icons/128x128/net.rpcs3.RPCS3.png",
-    "license": "GPL-2.0-only",
-    "tag": [
-      "ps3",
-      "playstation"
-    ],
-    "rank": 152
-  },
-  {
-    "pkg": "Google Earth Pro",
-    "app_id": "com.google.EarthPro",
-    "description": "3D planet viewer",
-    "description_long": "Create maps with advanced tools: Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery<br>NOTE: This wrapper is not verified by, affiliated with, or supported by Google",
-    "build_date": "2024-09-22T17:29:41",
-    "category": [
-      "Network"
-    ],
-    "icon": "https://dl.flathub.org/media/com/google/EarthPro/3eb9b4e885957c304ef7e91ecab40e9c/icons/128x128/com.google.EarthPro.png",
-    "license": "LicenseRef-proprietary",
     "tag": [],
     "rank": 153
   },
@@ -3131,23 +3131,6 @@
     "rank": 160
   },
   {
-    "pkg": "Fonts",
-    "app_id": "org.gnome.font-viewer",
-    "description": "View fonts on your system",
-    "description_long": "<br>Fonts shows you the fonts installed on your computer for your use as<br>thumbnails.<br>Selecting any thumbnails shows the full view of how the font would look under<br>various sizes.<br>Fonts also supports installing new font files downloaded in the .ttf<br>and other formats.<br>Fonts may be installed only for your use or made available to all users on the computer.<br>",
-    "build_date": "2024-09-22T12:07:08",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/font-viewer/24dbfc49cd1d9f3229c2457408a5208c/icons/128x128/org.gnome.font-viewer.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "fonts",
-      "fontface"
-    ],
-    "rank": 161
-  },
-  {
     "pkg": "OpenRGB",
     "app_id": "org.openrgb.OpenRGB",
     "description": "Open source RGB lighting control",
@@ -3162,7 +3145,7 @@
       "rgb",
       "utility"
     ],
-    "rank": 162
+    "rank": 161
   },
   {
     "pkg": "Amberol",
@@ -3184,41 +3167,24 @@
       "audio",
       "playlist"
     ],
-    "rank": 163
+    "rank": 162
   },
   {
-    "pkg": "Nextcloud Desktop",
-    "app_id": "com.nextcloud.desktopclient.nextcloud",
-    "description": "Nextcloud desktop synchronization client",
-    "description_long": "The Nextcloud desktop client allows you to keep one or more folders full of\nyour photos, videos and documents synchronized with your server. Any file you\nadd, modify or delete in the synced folders on your desktop or laptop will show\nup, change or disappear on the server and all other connected devices. Thanks\nto the client, you can work with your files even when you are not online!",
-    "build_date": "2024-12-19T16:24:02",
+    "pkg": "Fonts",
+    "app_id": "org.gnome.font-viewer",
+    "description": "View fonts on your system",
+    "description_long": "<br>Fonts shows you the fonts installed on your computer for your use as<br>thumbnails.<br>Selecting any thumbnails shows the full view of how the font would look under<br>various sizes.<br>Fonts also supports installing new font files downloaded in the .ttf<br>and other formats.<br>Fonts may be installed only for your use or made available to all users on the computer.<br>",
+    "build_date": "2024-09-22T12:07:08",
     "category": [
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/6e7ee7ba2911a70ffe86252bc19f7af8/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
+    "icon": "https://dl.flathub.org/media/org/gnome/font-viewer/24dbfc49cd1d9f3229c2457408a5208c/icons/128x128/org.gnome.font-viewer.png",
     "license": "GPL-2.0+",
     "tag": [
-      "Nextcloud",
-      "syncing",
-      "file",
-      "sharing"
+      "fonts",
+      "fontface"
     ],
-    "rank": 164
-  },
-  {
-    "pkg": "Snes9x",
-    "app_id": "com.snes9x.Snes9x",
-    "description": "A Super Nintendo emulator",
-    "description_long": "Snes9x is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. It basically allows you to play most games designed for the SNES and Super Famicom Nintendo game systems on your PC or Workstation; which includes some real gems that were only ever released in Japan.",
-    "build_date": "2024-10-18T18:31:31",
-    "category": [
-      "Game",
-      "Emulator"
-    ],
-    "icon": "https://dl.flathub.org/media/com/snes9x/Snes9x/f3817290a4e5ec502fac6f387e97a57c/icons/128x128/com.snes9x.Snes9x.png",
-    "license": "LicenseRef-proprietary=https://raw.githubusercontent.com/snes9xgit/snes9x/master/docs/snes9x-license.txt AND LGPL-2.1",
-    "tag": [],
-    "rank": 165
+    "rank": 163
   },
   {
     "pkg": "Ultimate Media Downloader",
@@ -3274,6 +3240,40 @@
       "ytdlp",
       "ytdownloaderplus"
     ],
+    "rank": 164
+  },
+  {
+    "pkg": "Nextcloud Desktop",
+    "app_id": "com.nextcloud.desktopclient.nextcloud",
+    "description": "Nextcloud desktop synchronization client",
+    "description_long": "The Nextcloud desktop client allows you to keep one or more folders full of\nyour photos, videos and documents synchronized with your server. Any file you\nadd, modify or delete in the synced folders on your desktop or laptop will show\nup, change or disappear on the server and all other connected devices. Thanks\nto the client, you can work with your files even when you are not online!",
+    "build_date": "2024-12-19T16:24:02",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/com/nextcloud/desktopclient.nextcloud/6e7ee7ba2911a70ffe86252bc19f7af8/icons/128x128/com.nextcloud.desktopclient.nextcloud.png",
+    "license": "GPL-2.0+",
+    "tag": [
+      "Nextcloud",
+      "syncing",
+      "file",
+      "sharing"
+    ],
+    "rank": 165
+  },
+  {
+    "pkg": "Snes9x",
+    "app_id": "com.snes9x.Snes9x",
+    "description": "A Super Nintendo emulator",
+    "description_long": "Snes9x is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. It basically allows you to play most games designed for the SNES and Super Famicom Nintendo game systems on your PC or Workstation; which includes some real gems that were only ever released in Japan.",
+    "build_date": "2024-10-18T18:31:31",
+    "category": [
+      "Game",
+      "Emulator"
+    ],
+    "icon": "https://dl.flathub.org/media/com/snes9x/Snes9x/f3817290a4e5ec502fac6f387e97a57c/icons/128x128/com.snes9x.Snes9x.png",
+    "license": "LicenseRef-proprietary=https://raw.githubusercontent.com/snes9xgit/snes9x/master/docs/snes9x-license.txt AND LGPL-2.1",
+    "tag": [],
     "rank": 166
   },
   {
@@ -3315,11 +3315,40 @@
     "rank": 168
   },
   {
+    "pkg": "MakeMKV",
+    "app_id": "com.makemkv.MakeMKV",
+    "description": "DVD and Blu-ray to MKV converter and network streamer",
+    "description_long": "<br>MakeMKV is your one-click solution to convert video that you own<br>into free and patents-unencumbered format that can be played<br>everywhere. MakeMKV is a format converter, otherwise called<br>. It converts the video clips from proprietary (and<br>usually encrypted) disc into a set of MKV files, preserving most<br>information but not changing it in any way. The MKV format can<br>store multiple video/audio tracks with all meta-information and<br>preserve chapters.<br>Additionally MakeMKV can instantly stream decrypted video<br>without intermediate conversion to wide range of players, so you<br>may watch Blu-ray and DVD discs with your favorite player on<br>your favorite OS or on your favorite device.<br>NOTE: users of this software must accept the terms of the .<br>",
+    "build_date": "2024-11-05T21:04:35",
+    "category": [
+      "AudioVideo"
+    ],
+    "icon": "https://dl.flathub.org/media/com/makemkv/MakeMKV/618ae48fc595881d52a9938cff74dc4c/icons/128x128/com.makemkv.MakeMKV.png",
+    "license": "LicenseRef-proprietary AND GPL-2.0 AND LGPL-2.1-only",
+    "tag": [],
+    "rank": 169
+  },
+  {
+    "pkg": "KPatience",
+    "app_id": "org.kde.kpat",
+    "description": "Solitaire card game",
+    "description_long": "KPat (aka KPatience) is a relaxing card sorting game. To win the game a player has to arrange a single deck of cards in certain order amongst each other.",
+    "build_date": "2024-12-11T17:11:48",
+    "category": [
+      "Game",
+      "CardGame"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/kpat/165bb6d7ce13d595884219472a45784e/icons/128x128/org.kde.kpat.png",
+    "license": "GPL-2.0+",
+    "tag": [],
+    "rank": 170
+  },
+  {
     "pkg": "Web",
     "app_id": "org.gnome.Epiphany",
     "description": "Browse the web",
     "description_long": "<br>The web browser for GNOME, featuring tight integration with the desktop<br>and a simple and intuitive user interface that allows you to focus on your<br>web pages. If you’re looking for a simple, clean, beautiful view of the<br>web, this is the browser for you.<br>Web is often referred to by its code name, Epiphany.<br>",
-    "build_date": "2024-10-23T14:59:02",
+    "build_date": "2024-12-21T19:27:55",
     "category": [
       "Network",
       "WebBrowser"
@@ -3332,7 +3361,7 @@
       "internet",
       "epiphany"
     ],
-    "rank": 169
+    "rank": 171
   },
   {
     "pkg": "fan-control",
@@ -3352,35 +3381,6 @@
       "temp",
       "sensor"
     ],
-    "rank": 170
-  },
-  {
-    "pkg": "MakeMKV",
-    "app_id": "com.makemkv.MakeMKV",
-    "description": "DVD and Blu-ray to MKV converter and network streamer",
-    "description_long": "<br>MakeMKV is your one-click solution to convert video that you own<br>into free and patents-unencumbered format that can be played<br>everywhere. MakeMKV is a format converter, otherwise called<br>. It converts the video clips from proprietary (and<br>usually encrypted) disc into a set of MKV files, preserving most<br>information but not changing it in any way. The MKV format can<br>store multiple video/audio tracks with all meta-information and<br>preserve chapters.<br>Additionally MakeMKV can instantly stream decrypted video<br>without intermediate conversion to wide range of players, so you<br>may watch Blu-ray and DVD discs with your favorite player on<br>your favorite OS or on your favorite device.<br>NOTE: users of this software must accept the terms of the .<br>",
-    "build_date": "2024-11-05T21:04:35",
-    "category": [
-      "AudioVideo"
-    ],
-    "icon": "https://dl.flathub.org/media/com/makemkv/MakeMKV/618ae48fc595881d52a9938cff74dc4c/icons/128x128/com.makemkv.MakeMKV.png",
-    "license": "LicenseRef-proprietary AND GPL-2.0 AND LGPL-2.1-only",
-    "tag": [],
-    "rank": 171
-  },
-  {
-    "pkg": "KPatience",
-    "app_id": "org.kde.kpat",
-    "description": "Solitaire card game",
-    "description_long": "KPat (aka KPatience) is a relaxing card sorting game. To win the game a player has to arrange a single deck of cards in certain order amongst each other.",
-    "build_date": "2024-12-11T17:11:48",
-    "category": [
-      "Game",
-      "CardGame"
-    ],
-    "icon": "https://dl.flathub.org/media/org/kde/kpat/165bb6d7ce13d595884219472a45784e/icons/128x128/org.kde.kpat.png",
-    "license": "GPL-2.0+",
-    "tag": [],
     "rank": 172
   },
   {
@@ -3464,28 +3464,6 @@
     "rank": 176
   },
   {
-    "pkg": "Cheese",
-    "app_id": "org.gnome.Cheese",
-    "description": "Take photos and videos with your webcam, with fun graphical effects",
-    "description_long": "<br>Cheese uses your webcam to take photos and videos, applies fancy<br>special effects and lets you share the fun with others.<br>Take multiple photos in quick succession with burst mode.<br>Use the countdown to give yourself time to strike a pose, and wait for the<br>flash!<br>Under the hood, Cheese uses GStreamer to apply fancy effects to<br>photos and videos.<br>With Cheese it is easy to take photos of you, your friends, pets or<br>whatever you want and share them with others.<br>",
-    "build_date": "2024-06-12T15:50:36",
-    "category": [
-      "AudioVideo",
-      "Video",
-      "Recorder"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Cheese.desktop/962e060d32982bab12c31d91654bd1d6/icons/128x128/org.gnome.Cheese.desktop.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "photo",
-      "video",
-      "webcam",
-      "camera",
-      "selfie"
-    ],
-    "rank": 177
-  },
-  {
     "pkg": "Document Viewer",
     "app_id": "org.gnome.Evince",
     "description": "Document viewer for popular document formats",
@@ -3513,7 +3491,7 @@
       "viewer",
       "evince"
     ],
-    "rank": 178
+    "rank": 177
   },
   {
     "pkg": "Metadata Cleaner",
@@ -3530,6 +3508,28 @@
       "Metadata",
       "Remover",
       "Cleaner"
+    ],
+    "rank": 178
+  },
+  {
+    "pkg": "Cheese",
+    "app_id": "org.gnome.Cheese",
+    "description": "Take photos and videos with your webcam, with fun graphical effects",
+    "description_long": "<br>Cheese uses your webcam to take photos and videos, applies fancy<br>special effects and lets you share the fun with others.<br>Take multiple photos in quick succession with burst mode.<br>Use the countdown to give yourself time to strike a pose, and wait for the<br>flash!<br>Under the hood, Cheese uses GStreamer to apply fancy effects to<br>photos and videos.<br>With Cheese it is easy to take photos of you, your friends, pets or<br>whatever you want and share them with others.<br>",
+    "build_date": "2024-06-12T15:50:36",
+    "category": [
+      "AudioVideo",
+      "Video",
+      "Recorder"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Cheese.desktop/962e060d32982bab12c31d91654bd1d6/icons/128x128/org.gnome.Cheese.desktop.png",
+    "license": "GPL-2.0+",
+    "tag": [
+      "photo",
+      "video",
+      "webcam",
+      "camera",
+      "selfie"
     ],
     "rank": 179
   },
@@ -3607,87 +3607,6 @@
     "rank": 182
   },
   {
-    "pkg": "Aisleriot Solitaire",
-    "app_id": "org.gnome.Aisleriot",
-    "description": "Play many different solitaire games",
-    "description_long": "<br>Aisleriot — also known as sol or solitaire — is a card game application<br>that features over 80 different solitaire-type card games which are designed to<br>play using a mouse, keyboard, or trackpad.<br>",
-    "build_date": "2024-10-05T14:07:12",
-    "category": [
-      "Game",
-      "CardGame"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Aisleriot/feb4261899cc31b4876002816fe682da/icons/128x128/org.gnome.Aisleriot.png",
-    "license": "GPL-3.0+",
-    "tag": [
-      "solitaire",
-      "cards",
-      "klondike",
-      "spider",
-      "freecell",
-      "patience"
-    ],
-    "rank": 183
-  },
-  {
-    "pkg": "Sticky Notes",
-    "app_id": "com.vixalien.sticky",
-    "description": "Pin notes to your desktop",
-    "description_long": "<br>Sticky Notes is a simple sticky notes app for GNOME. It allows you to create<br>notes and format them.<br>Current features:<br>simple formatting (bold, italic, underline and strikethrough)<br>notes are restored if they were open when the application was closed<br>changing color of notes<br>dark theme support<br>",
-    "build_date": "2024-10-30T18:29:03",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/com/vixalien/sticky/daa217c74d58ebdc7793f1b9f109d5f9/icons/128x128/com.vixalien.sticky.png",
-    "license": "MIT",
-    "tag": [
-      "Sticky",
-      "Notes",
-      "Write",
-      "PostIt"
-    ],
-    "rank": 184
-  },
-  {
-    "pkg": "Evolution",
-    "app_id": "org.gnome.Evolution",
-    "description": "Manage your email, contacts and schedule",
-    "description_long": "Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.<br>Evolution supports a wide range of industry standard data formats and network protocols for information exchange, with an emphasis on standards compliance and security. Evolution can also integrate smoothly with Microsoft Exchange by way of the “Exchange Web Services” (EWS) extension.",
-    "build_date": "2024-12-06T13:22:36",
-    "category": [
-      "Office",
-      "Email",
-      "Calendar",
-      "ContactManagement"
-    ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Evolution.desktop/7b8c6932f5b7eb5c49970db955feef63/icons/128x128/org.gnome.Evolution.desktop.png",
-    "license": "GPL-2.0+ and GFDL-1.3",
-    "tag": [
-      "email",
-      "calendar",
-      "contact",
-      "addressbook",
-      "task"
-    ],
-    "rank": 185
-  },
-  {
-    "pkg": "Tweaks",
-    "app_id": "dev.edfloreshz.CosmicTweaks",
-    "description": "Beyond the limits of your desktop",
-    "description_long": "Personalize your COSMIC desktop beyond infinity<br>Save, import and download color schemes<br>Customize the panel and dock<br>Replicate other desktop's layouts<br>Fearless tweaking with snapshots<br>",
-    "build_date": "2024-11-15T09:11:25",
-    "category": [
-      "Utility"
-    ],
-    "icon": "https://dl.flathub.org/media/dev/edfloreshz/CosmicTweaks/b870a070d98c0b7425a103b3a9391615/icons/128x128/dev.edfloreshz.CosmicTweaks.png",
-    "license": "GPL-3.0-only",
-    "tag": [
-      "Folder",
-      "Manager"
-    ],
-    "rank": 186
-  },
-  {
     "pkg": "Volume Control",
     "app_id": "org.pulseaudio.pavucontrol",
     "description": "Adjust device and app volumes",
@@ -3724,7 +3643,29 @@
       "Settings",
       "Preferences"
     ],
-    "rank": 187
+    "rank": 183
+  },
+  {
+    "pkg": "Aisleriot Solitaire",
+    "app_id": "org.gnome.Aisleriot",
+    "description": "Play many different solitaire games",
+    "description_long": "<br>Aisleriot — also known as sol or solitaire — is a card game application<br>that features over 80 different solitaire-type card games which are designed to<br>play using a mouse, keyboard, or trackpad.<br>",
+    "build_date": "2024-10-05T14:07:12",
+    "category": [
+      "Game",
+      "CardGame"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Aisleriot/feb4261899cc31b4876002816fe682da/icons/128x128/org.gnome.Aisleriot.png",
+    "license": "GPL-3.0+",
+    "tag": [
+      "solitaire",
+      "cards",
+      "klondike",
+      "spider",
+      "freecell",
+      "patience"
+    ],
+    "rank": 184
   },
   {
     "pkg": "Speech Note",
@@ -3761,23 +3702,66 @@
       "coqui",
       "bergamot"
     ],
-    "rank": 188
+    "rank": 185
   },
   {
-    "pkg": "Sublime Text",
-    "app_id": "com.sublimetext.three",
-    "description": "Sophisticated text editor for code, markup and prose",
-    "description_long": "A sophisticated text editor for code, markup and prose.",
-    "build_date": "2022-01-13T22:49:44",
+    "pkg": "Tweaks",
+    "app_id": "dev.edfloreshz.CosmicTweaks",
+    "description": "Beyond the limits of your desktop",
+    "description_long": "Personalize your COSMIC desktop beyond infinity<br>Save, import and download color schemes<br>Customize the panel and dock<br>Replicate other desktop's layouts<br>Fearless tweaking with snapshots<br>",
+    "build_date": "2024-11-15T09:11:25",
     "category": [
-      "Development",
-      "TextEditor",
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.sublimetext.three.png",
-    "license": "LicenseRef-proprietary=https://www.sublimetext.com/eula",
-    "tag": [],
-    "rank": 189
+    "icon": "https://dl.flathub.org/media/dev/edfloreshz/CosmicTweaks/b870a070d98c0b7425a103b3a9391615/icons/128x128/dev.edfloreshz.CosmicTweaks.png",
+    "license": "GPL-3.0-only",
+    "tag": [
+      "Folder",
+      "Manager"
+    ],
+    "rank": 186
+  },
+  {
+    "pkg": "Sticky Notes",
+    "app_id": "com.vixalien.sticky",
+    "description": "Pin notes to your desktop",
+    "description_long": "<br>Sticky Notes is a simple sticky notes app for GNOME. It allows you to create<br>notes and format them.<br>Current features:<br>simple formatting (bold, italic, underline and strikethrough)<br>notes are restored if they were open when the application was closed<br>changing color of notes<br>dark theme support<br>",
+    "build_date": "2024-10-30T18:29:03",
+    "category": [
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/media/com/vixalien/sticky/daa217c74d58ebdc7793f1b9f109d5f9/icons/128x128/com.vixalien.sticky.png",
+    "license": "MIT",
+    "tag": [
+      "Sticky",
+      "Notes",
+      "Write",
+      "PostIt"
+    ],
+    "rank": 187
+  },
+  {
+    "pkg": "Evolution",
+    "app_id": "org.gnome.Evolution",
+    "description": "Manage your email, contacts and schedule",
+    "description_long": "Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.<br>Evolution supports a wide range of industry standard data formats and network protocols for information exchange, with an emphasis on standards compliance and security. Evolution can also integrate smoothly with Microsoft Exchange by way of the “Exchange Web Services” (EWS) extension.",
+    "build_date": "2024-12-06T13:22:36",
+    "category": [
+      "Office",
+      "Email",
+      "Calendar",
+      "ContactManagement"
+    ],
+    "icon": "https://dl.flathub.org/media/org/gnome/Evolution.desktop/7b8c6932f5b7eb5c49970db955feef63/icons/128x128/org.gnome.Evolution.desktop.png",
+    "license": "GPL-2.0+ and GFDL-1.3",
+    "tag": [
+      "email",
+      "calendar",
+      "contact",
+      "addressbook",
+      "task"
+    ],
+    "rank": 188
   },
   {
     "pkg": "Parsec",
@@ -3792,6 +3776,22 @@
     ],
     "icon": "https://dl.flathub.org/media/com/parsecgaming/parsec/22a654406fc9c48c5935415a0d5b6cc4/icons/128x128/com.parsecgaming.parsec.png",
     "license": "LicenseRef-proprietary",
+    "tag": [],
+    "rank": 189
+  },
+  {
+    "pkg": "Sublime Text",
+    "app_id": "com.sublimetext.three",
+    "description": "Sophisticated text editor for code, markup and prose",
+    "description_long": "A sophisticated text editor for code, markup and prose.",
+    "build_date": "2022-01-13T22:49:44",
+    "category": [
+      "Development",
+      "TextEditor",
+      "Utility"
+    ],
+    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.sublimetext.three.png",
+    "license": "LicenseRef-proprietary=https://www.sublimetext.com/eula",
     "tag": [],
     "rank": 190
   },
@@ -3808,23 +3808,6 @@
     "license": "LGPL-3.0 and CC-BY-SA-4.0",
     "tag": [],
     "rank": 191
-  },
-  {
-    "pkg": "Cemu",
-    "app_id": "info.cemu.Cemu",
-    "description": "Nintendo Wii U Emulator",
-    "description_long": "Cemu is a Nintendo Wii U emulator that is able to run most Wii U games and homebrew in a playable state. Created by Exzap, and written in C/C++.<br>This emulator aims at providing both high-accuracy and performance, and is actively being developed with new features and fixes to increase compatibility, convenience and usability.<br>It was written from scratch and development on the project began roughly early 2015.",
-    "build_date": "2024-12-15T16:41:47",
-    "category": [
-      "Game",
-      "Emulator"
-    ],
-    "icon": "https://dl.flathub.org/media/info/cemu/Cemu/7d061266e293cb932a765ac402e33715/icons/128x128/info.cemu.Cemu.png",
-    "license": "MPL-2.0",
-    "tag": [
-      "nintendo"
-    ],
-    "rank": 192
   },
   {
     "pkg": "File Roller",
@@ -3845,7 +3828,42 @@
       "extract",
       "unpack"
     ],
+    "rank": 192
+  },
+  {
+    "pkg": "Cemu",
+    "app_id": "info.cemu.Cemu",
+    "description": "Nintendo Wii U Emulator",
+    "description_long": "Cemu is a Nintendo Wii U emulator that is able to run most Wii U games and homebrew in a playable state. Created by Exzap, and written in C/C++.<br>This emulator aims at providing both high-accuracy and performance, and is actively being developed with new features and fixes to increase compatibility, convenience and usability.<br>It was written from scratch and development on the project began roughly early 2015.",
+    "build_date": "2024-12-15T16:41:47",
+    "category": [
+      "Game",
+      "Emulator"
+    ],
+    "icon": "https://dl.flathub.org/media/info/cemu/Cemu/7d061266e293cb932a765ac402e33715/icons/128x128/info.cemu.Cemu.png",
+    "license": "MPL-2.0",
+    "tag": [
+      "nintendo"
+    ],
     "rank": 193
+  },
+  {
+    "pkg": "GPT4ALL",
+    "app_id": "io.gpt4all.gpt4all",
+    "description": "Open-source assistant",
+    "description_long": "Cross platform Qt based GUI for GPT4All<br>Fast CPU and GPU based inference using ggml for open source LLM's<br>The UI is made to look and feel like you've come to expect from a chatty gpt<br>Check for updates so you can always stay fresh with latest models<br>Easy to install with precompiled binaries available for all three major desktop platforms<br>Multi-model - Ability to load more than one model and switch between them<br>Supports llama.cpp style models<br>Model downloader in GUI featuring many popular open source models<br>Settings dialog to change temp, top_p, top_k, threads, etc<br>Copy your conversation to clipboard<br>",
+    "build_date": "2024-12-20T19:58:54",
+    "category": [
+      "Utility",
+      "Office"
+    ],
+    "icon": "https://dl.flathub.org/media/io/gpt4all/gpt4all/36f7138458d7a506f022ebbc317fff8b/icons/128x128/io.gpt4all.gpt4all.png",
+    "license": "MIT",
+    "tag": [
+      "GPT,Chat",
+      "AI"
+    ],
+    "rank": 194
   },
   {
     "pkg": "Rnote",
@@ -3870,7 +3888,7 @@
       "Graphics",
       "Notes"
     ],
-    "rank": 194
+    "rank": 195
   },
   {
     "pkg": "Planify",
@@ -3897,7 +3915,23 @@
       "calendar",
       "todoist"
     ],
-    "rank": 195
+    "rank": 196
+  },
+  {
+    "pkg": "Avidemux",
+    "app_id": "org.avidemux.Avidemux",
+    "description": "Multi-purpose video editing and processing software",
+    "description_long": "<br>Avidemux is a free open-source program designed for multi-purpose<br>video editing and processing, which can be used on almost all known<br>operating systems and computer platforms.<br>",
+    "build_date": "2024-11-11T14:19:45",
+    "category": [
+      "AudioVideo",
+      "AudioVideoEditing",
+      "Video"
+    ],
+    "icon": "https://dl.flathub.org/media/org/avidemux/Avidemux/e4404c98dbe7267a8389a93960cd77ed/icons/128x128/org.avidemux.Avidemux.png",
+    "license": "GPL-2.0+",
+    "tag": [],
+    "rank": 197
   },
   {
     "pkg": "KiCad",
@@ -3923,25 +3957,7 @@
       "PcbNew",
       "Eeschema"
     ],
-    "rank": 196
-  },
-  {
-    "pkg": "GPT4ALL",
-    "app_id": "io.gpt4all.gpt4all",
-    "description": "Open-source assistant",
-    "description_long": "Cross platform Qt based GUI for GPT4All<br>Fast CPU and GPU based inference using ggml for open source LLM's<br>The UI is made to look and feel like you've come to expect from a chatty gpt<br>Check for updates so you can always stay fresh with latest models<br>Easy to install with precompiled binaries available for all three major desktop platforms<br>Multi-model - Ability to load more than one model and switch between them<br>Supports llama.cpp style models<br>Model downloader in GUI featuring many popular open source models<br>Settings dialog to change temp, top_p, top_k, threads, etc<br>Copy your conversation to clipboard<br>",
-    "build_date": "2024-12-20T19:58:54",
-    "category": [
-      "Utility",
-      "Office"
-    ],
-    "icon": "https://dl.flathub.org/media/io/gpt4all/gpt4all/36f7138458d7a506f022ebbc317fff8b/icons/128x128/io.gpt4all.gpt4all.png",
-    "license": "MIT",
-    "tag": [
-      "GPT,Chat",
-      "AI"
-    ],
-    "rank": 197
+    "rank": 198
   },
   {
     "pkg": "Viber",
@@ -3957,7 +3973,7 @@
     "icon": "https://dl.flathub.org/media/com/viber/Viber.desktop/78f70335af49e15ecf00aa1bbf8e879f/icons/128x128/com.viber.Viber.desktop.png",
     "license": "LicenseRef-proprietary",
     "tag": [],
-    "rank": 198
+    "rank": 199
   },
   {
     "pkg": "Solaar",
@@ -3977,22 +3993,6 @@
       "mouse",
       "keyboard"
     ],
-    "rank": 199
-  },
-  {
-    "pkg": "Avidemux",
-    "app_id": "org.avidemux.Avidemux",
-    "description": "Multi-purpose video editing and processing software",
-    "description_long": "<br>Avidemux is a free open-source program designed for multi-purpose<br>video editing and processing, which can be used on almost all known<br>operating systems and computer platforms.<br>",
-    "build_date": "2024-11-11T14:19:45",
-    "category": [
-      "AudioVideo",
-      "AudioVideoEditing",
-      "Video"
-    ],
-    "icon": "https://dl.flathub.org/media/org/avidemux/Avidemux/e4404c98dbe7267a8389a93960cd77ed/icons/128x128/org.avidemux.Avidemux.png",
-    "license": "GPL-2.0+",
-    "tag": [],
     "rank": 200
   },
   {
@@ -4017,18 +4017,38 @@
     "rank": 201
   },
   {
-    "pkg": "Web Apps",
-    "app_id": "net.codelogistics.webapps",
-    "description": "Install websites as apps",
-    "description_long": "<br>Install websites as desktop apps, so that they appear in their own windows separate from any browsers installed.<br>This is similar to the feature found in popular web browsers.<br>It uses an internal browser isolated from the system browser, which can optionally be used in incognito mode.<br>Links to websites other than the one installed open in a new browser window.<br>",
-    "build_date": "2024-11-24T07:58:37",
+    "pkg": "Virtual Machine Manager",
+    "app_id": "org.virt_manager.virt-manager",
+    "description": "Graphically manage KVM, Xen, or LXC via libvirt",
+    "description_long": "<br>Virtual Machine Manager provides a graphical tool for administering virtual<br>machines for KVM, Xen, and LXC. Start, stop, add or remove virtual devices,<br>connect to a graphical or serial console, and see resource usage statistics<br>for existing VMs on local or remote machines. Uses libvirt as the backend<br>management API.<br>",
+    "build_date": "2024-12-17T15:55:53",
     "category": [
-      "Network"
+      "System"
     ],
-    "icon": "https://dl.flathub.org/media/net/codelogistics/webapps/d19a10959d03640f1c0bfc4200687f5e/icons/128x128/net.codelogistics.webapps.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [],
+    "icon": "https://dl.flathub.org/media/org/virt_manager/virt-manager/e583a2a3efc3a49bb7835e3fff31989b/icons/128x128/org.virt_manager.virt-manager.png",
+    "license": "GPL-2.0+",
+    "tag": [
+      "virtualization",
+      "libvirt",
+      "qemu",
+      "kvm"
+    ],
     "rank": 202
+  },
+  {
+    "pkg": "Weather",
+    "app_id": "org.kde.kweather",
+    "description": "View real-time weather forecasts",
+    "description_long": "A convergent weather application for Plasma. Has flat and dynamic/animated views for showing forecasts and other information.",
+    "build_date": "2024-12-13T01:31:16",
+    "category": [
+      "Utility",
+      "KDE"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/kweather/b04d00cfa62c3cc6db1fe3d10d4b8244/icons/128x128/org.kde.kweather.png",
+    "license": "GPL-2.0-or-later",
+    "tag": [],
+    "rank": 203
   },
   {
     "pkg": "Video Trimmer",
@@ -4048,21 +4068,6 @@
       "Film",
       "Clip"
     ],
-    "rank": 203
-  },
-  {
-    "pkg": "Weather",
-    "app_id": "org.kde.kweather",
-    "description": "View real-time weather forecasts",
-    "description_long": "A convergent weather application for Plasma. Has flat and dynamic/animated views for showing forecasts and other information.",
-    "build_date": "2024-12-13T01:31:16",
-    "category": [
-      "Utility",
-      "KDE"
-    ],
-    "icon": "https://dl.flathub.org/media/org/kde/kweather/b04d00cfa62c3cc6db1fe3d10d4b8244/icons/128x128/org.kde.kweather.png",
-    "license": "GPL-2.0-or-later",
-    "tag": [],
     "rank": 204
   },
   {
@@ -4099,21 +4104,6 @@
     "rank": 206
   },
   {
-    "pkg": "Wireshark",
-    "app_id": "org.wireshark.Wireshark",
-    "description": "Network protocol analyzer",
-    "description_long": "<br>Wireshark allows you to examine protocol data stored in files.<br>It supports dozens of protocol capture file formats and understands<br>more than a thousand protocols.<br>It has many powerful features including a rich display filter language<br>and the ability to reassemble multiple protocol packets in order to,<br>for example, view a complete TCP stream, save the contents of a file<br>which was transferred over HTTP or CIFS, or play back an RTP audio<br>stream.<br>NOTE: This version of Wireshark does not support capturing data.<br>",
-    "build_date": "2024-12-16T12:28:22",
-    "category": [
-      "Network",
-      "Monitor"
-    ],
-    "icon": "https://dl.flathub.org/media/org/wireshark/Wireshark/9006ce859c2eca3dc0fc9a0af37ebc0e/icons/128x128/org.wireshark.Wireshark.png",
-    "license": "GPL-2.0",
-    "tag": [],
-    "rank": 207
-  },
-  {
     "pkg": "Fragments",
     "app_id": "de.haeckerfelix.Fragments",
     "description": "Manage torrents",
@@ -4133,26 +4123,7 @@
       "download",
       "p2p"
     ],
-    "rank": 208
-  },
-  {
-    "pkg": "Virtual Machine Manager",
-    "app_id": "org.virt_manager.virt-manager",
-    "description": "Graphically manage KVM, Xen, or LXC via libvirt",
-    "description_long": "<br>Virtual Machine Manager provides a graphical tool for administering virtual<br>machines for KVM, Xen, and LXC. Start, stop, add or remove virtual devices,<br>connect to a graphical or serial console, and see resource usage statistics<br>for existing VMs on local or remote machines. Uses libvirt as the backend<br>management API.<br>",
-    "build_date": "2024-12-17T15:55:53",
-    "category": [
-      "System"
-    ],
-    "icon": "https://dl.flathub.org/media/org/virt_manager/virt-manager/e583a2a3efc3a49bb7835e3fff31989b/icons/128x128/org.virt_manager.virt-manager.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "virtualization",
-      "libvirt",
-      "qemu",
-      "kvm"
-    ],
-    "rank": 209
+    "rank": 207
   },
   {
     "pkg": "TLP-UI",
@@ -4168,32 +4139,22 @@
     "icon": "https://dl.flathub.org/media/com/github/d4nj1.tlpui/5a600ebec75378d7d3e5fe282e73fc66/icons/128x128/com.github.d4nj1.tlpui.png",
     "license": "GPL-2.0+",
     "tag": [],
-    "rank": 210
+    "rank": 208
   },
   {
-    "pkg": "Kate",
-    "app_id": "org.kde.kate",
-    "description": "Advanced Text Editor",
-    "description_long": "<br>Kate is a multi-document, multi-view text editor by KDE. It features stuff like codefolding, syntaxhighlighting,<br>dynamic word wrap, an embedded console, an extensive plugin interface and some preliminary scripting support.<br>Features:<br>MDI, window splitting, window tabbing<br>Spell checking<br>CR, CRLF, LF newline support<br>Encoding support (utf-8, utf-16, ascii etc.)<br>Encoding conversion<br>Regular expression based find &amp; replace<br>Powerful syntax highlighting and bracket matching<br>Code and text folding<br>Infinite undo/redo support<br>Block selection mode<br>Auto indentation<br>Auto completion support<br>Shell integration<br>Wide protocol support (http, ftp, ssh, webdav etc.)<br>Plugin architecture for the application and editor component<br>Customizable shortcuts<br>Integrated command line<br>Scriptable using JavaScript<br>",
-    "build_date": "2024-12-13T01:37:08",
+    "pkg": "Wireshark",
+    "app_id": "org.wireshark.Wireshark",
+    "description": "Network protocol analyzer",
+    "description_long": "<br>Wireshark allows you to examine protocol data stored in files.<br>It supports dozens of protocol capture file formats and understands<br>more than a thousand protocols.<br>It has many powerful features including a rich display filter language<br>and the ability to reassemble multiple protocol packets in order to,<br>for example, view a complete TCP stream, save the contents of a file<br>which was transferred over HTTP or CIFS, or play back an RTP audio<br>stream.<br>NOTE: This version of Wireshark does not support capturing data.<br>",
+    "build_date": "2024-12-16T12:28:22",
     "category": [
-      "Utility",
-      "TextEditor",
-      "Development"
+      "Network",
+      "Monitor"
     ],
-    "icon": "https://dl.flathub.org/media/org/kde/kate.desktop/cedbcc5dad93d805108d2fcd73b3790d/icons/128x128/org.kde.kate.desktop.png",
-    "license": "LGPL-2.1+",
-    "tag": [
-      "text",
-      "txt",
-      "editor",
-      "programming",
-      "programmer",
-      "development",
-      "developer",
-      "code"
-    ],
-    "rank": 211
+    "icon": "https://dl.flathub.org/media/org/wireshark/Wireshark/9006ce859c2eca3dc0fc9a0af37ebc0e/icons/128x128/org.wireshark.Wireshark.png",
+    "license": "GPL-2.0",
+    "tag": [],
+    "rank": 209
   },
   {
     "pkg": "Connections",
@@ -4218,24 +4179,7 @@
       "access",
       "view"
     ],
-    "rank": 212
-  },
-  {
-    "pkg": "KDiskMark",
-    "app_id": "io.github.jonmagon.kdiskmark",
-    "description": "Disk benchmark tool",
-    "description_long": "A simple open-source disk benchmark tool for Linux distros.Features:Configurable block size, queues, and threads count for each testMany languages supportReport generation",
-    "build_date": "2023-10-20T20:16:34",
-    "category": [
-      "System"
-    ],
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/io.github.jonmagon.kdiskmark.png",
-    "license": "GPL-3.0-only",
-    "tag": [
-      "benchmark",
-      "disk"
-    ],
-    "rank": 213
+    "rank": 210
   },
   {
     "pkg": "CoreKeyboard",
@@ -4257,6 +4201,62 @@
       "CoreKeyboard",
       "CuboCore",
       "Virtual Keyboard"
+    ],
+    "rank": 211
+  },
+  {
+    "pkg": "Kate",
+    "app_id": "org.kde.kate",
+    "description": "Advanced Text Editor",
+    "description_long": "<br>Kate is a multi-document, multi-view text editor by KDE. It features stuff like codefolding, syntaxhighlighting,<br>dynamic word wrap, an embedded console, an extensive plugin interface and some preliminary scripting support.<br>Features:<br>MDI, window splitting, window tabbing<br>Spell checking<br>CR, CRLF, LF newline support<br>Encoding support (utf-8, utf-16, ascii etc.)<br>Encoding conversion<br>Regular expression based find &amp; replace<br>Powerful syntax highlighting and bracket matching<br>Code and text folding<br>Infinite undo/redo support<br>Block selection mode<br>Auto indentation<br>Auto completion support<br>Shell integration<br>Wide protocol support (http, ftp, ssh, webdav etc.)<br>Plugin architecture for the application and editor component<br>Customizable shortcuts<br>Integrated command line<br>Scriptable using JavaScript<br>",
+    "build_date": "2024-12-13T01:37:08",
+    "category": [
+      "Utility",
+      "TextEditor",
+      "Development"
+    ],
+    "icon": "https://dl.flathub.org/media/org/kde/kate.desktop/cedbcc5dad93d805108d2fcd73b3790d/icons/128x128/org.kde.kate.desktop.png",
+    "license": "LGPL-2.1+",
+    "tag": [
+      "text",
+      "txt",
+      "editor",
+      "programming",
+      "programmer",
+      "development",
+      "developer",
+      "code"
+    ],
+    "rank": 212
+  },
+  {
+    "pkg": "Web Apps",
+    "app_id": "net.codelogistics.webapps",
+    "description": "Install websites as apps",
+    "description_long": "<br>Install websites as desktop apps, so that they appear in their own windows separate from any browsers installed.<br>This is similar to the feature found in popular web browsers.<br>It uses an internal browser isolated from the system browser, which can optionally be used in incognito mode.<br>Links to websites other than the one installed open in a new browser window.<br>",
+    "build_date": "2024-11-24T07:58:37",
+    "category": [
+      "Network"
+    ],
+    "icon": "https://dl.flathub.org/media/net/codelogistics/webapps/d19a10959d03640f1c0bfc4200687f5e/icons/128x128/net.codelogistics.webapps.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [],
+    "rank": 213
+  },
+  {
+    "pkg": "KDiskMark",
+    "app_id": "io.github.jonmagon.kdiskmark",
+    "description": "Disk benchmark tool",
+    "description_long": "A simple open-source disk benchmark tool for Linux distros.Features:Configurable block size, queues, and threads count for each testMany languages supportReport generation",
+    "build_date": "2023-10-20T20:16:34",
+    "category": [
+      "System"
+    ],
+    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/io.github.jonmagon.kdiskmark.png",
+    "license": "GPL-3.0-only",
+    "tag": [
+      "benchmark",
+      "disk"
     ],
     "rank": 214
   },
@@ -4281,25 +4281,22 @@
     "rank": 215
   },
   {
-    "pkg": "Characters",
-    "app_id": "org.gnome.Characters",
-    "description": "Character map application",
-    "description_long": "<br>Characters is a simple utility application to find and insert unusual characters. It allows you to quickly find the character you are looking for by searching for keywords.<br>You can also browse characters by categories, such as Punctuation, Pictures, etc.<br>",
-    "build_date": "2024-09-20T14:02:24",
+    "pkg": "Wineglass",
+    "app_id": "io.github.aggalex.Wineglass",
+    "description": "A GUI for Wine",
+    "description_long": "Wineglass is a small application that allows the user to manage their wineprefixes easily and install windows programs without the need of the terminal. It can:Easily create and remove wineprefixesInstall supported windows apps on their corresponding wineprefixMake installed apps available normally through the applications menu.Provide an easy way to add windows libraries to wineprefixes through .Configure winerun winprefix-specific system appsThis app is useful for running windows apps and games easily without hustle.",
+    "build_date": "2023-10-02T18:15:42",
     "category": [
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/media/org/gnome/Characters/e4cd98675dfac8e44ab88d6b3f0f32e6/icons/128x128/org.gnome.Characters.png",
-    "license": "BSD-3-Clause AND GPL-2.0-or-later",
+    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/io.github.aggalex.Wineglass.png",
+    "license": "GPL-3.0+",
     "tag": [
-      "characters",
-      "unicode",
-      "punctuation",
-      "math",
-      "letters",
-      "emoji",
-      "emoticon",
-      "symbols"
+      "Windows",
+      "Wine",
+      "app",
+      "exe",
+      "run"
     ],
     "rank": 216
   },
@@ -4324,75 +4321,27 @@
     "rank": 217
   },
   {
-    "pkg": "Wineglass",
-    "app_id": "io.github.aggalex.Wineglass",
-    "description": "A GUI for Wine",
-    "description_long": "Wineglass is a small application that allows the user to manage their wineprefixes easily and install windows programs without the need of the terminal. It can:Easily create and remove wineprefixesInstall supported windows apps on their corresponding wineprefixMake installed apps available normally through the applications menu.Provide an easy way to add windows libraries to wineprefixes through .Configure winerun winprefix-specific system appsThis app is useful for running windows apps and games easily without hustle.",
-    "build_date": "2023-10-02T18:15:42",
+    "pkg": "Characters",
+    "app_id": "org.gnome.Characters",
+    "description": "Character map application",
+    "description_long": "<br>Characters is a simple utility application to find and insert unusual characters. It allows you to quickly find the character you are looking for by searching for keywords.<br>You can also browse characters by categories, such as Punctuation, Pictures, etc.<br>",
+    "build_date": "2024-09-20T14:02:24",
     "category": [
       "Utility"
     ],
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/io.github.aggalex.Wineglass.png",
-    "license": "GPL-3.0+",
+    "icon": "https://dl.flathub.org/media/org/gnome/Characters/e4cd98675dfac8e44ab88d6b3f0f32e6/icons/128x128/org.gnome.Characters.png",
+    "license": "BSD-3-Clause AND GPL-2.0-or-later",
     "tag": [
-      "Windows",
-      "Wine",
-      "app",
-      "exe",
-      "run"
+      "characters",
+      "unicode",
+      "punctuation",
+      "math",
+      "letters",
+      "emoji",
+      "emoticon",
+      "symbols"
     ],
     "rank": 218
-  },
-  {
-    "pkg": "Notesnook",
-    "app_id": "com.notesnook.Notesnook",
-    "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote",
-    "description_long": "<br>Notesnook is a free (as in speech) &amp; open source note taking app<br>focused on user privacy &amp; ease of use. To ensure zero knowledge<br>principles, Notesnook encrypts everything on your device using<br>XChaCha20-Poly1305 &amp; Argon2.<br>Notesnook is our proof that privacy does not (always) have to come at the<br>cost of convenience. Our goal is to provide users peace of mind &amp; 100%<br>confidence that their notes are safe and secure. Our decision to go fully<br>open source is one of the most crucial steps towards that.<br>Notesnook is a user focused note taking tool meant to offer a fully<br>end-to-end encrypted note taking experience for everyone. This includes<br>the majority of our less tech savy users who just want to take notes<br>without all the hassle.<br>In short, Notesnook aims to offer a complete replacement for other<br>insecure note taking tools like Evernote &amp; Notion. Because let's be<br>honest, these tools offer great productivity but at a great cost to your<br>privacy.<br>",
-    "build_date": "2024-11-24T18:33:59",
-    "category": [
-      "Education",
-      "Office"
-    ],
-    "icon": "https://dl.flathub.org/media/com/notesnook/Notesnook/00b2f2ccd6eee0ec69c11ec35232ae27/icons/128x128/com.notesnook.Notesnook.png",
-    "license": "GPL-3.0-or-later",
-    "tag": [
-      "notepad",
-      "note taking app",
-      "note taking",
-      "end-to-end encrypted",
-      "notebook"
-    ],
-    "rank": 219
-  },
-  {
-    "pkg": "Upscayl",
-    "app_id": "org.upscayl.Upscayl",
-    "description": "Free and Open Source AI Image Upscaler",
-    "description_long": "<br>Upscayl is a free and open source AI Image Upscaler.<br>",
-    "build_date": "2024-06-01T21:58:46",
-    "category": [
-      "ImageProcessing",
-      "RasterGraphics",
-      "Graphics"
-    ],
-    "icon": "https://dl.flathub.org/media/org/upscayl/Upscayl/0ee47653b0ea921760bac3d8016222b6/icons/128x128/org.upscayl.Upscayl.png",
-    "license": "AGPL-3.0",
-    "tag": [],
-    "rank": 220
-  },
-  {
-    "pkg": "Open TV",
-    "app_id": "dev.fredol.open-tv",
-    "description": "Fast And Powerful IPTV App",
-    "description_long": "Completely rewritten to accomodate new features and to be even speedier, Open TV has been carefully crafted to deliver the best IPTV experience<br>Features:<br>Import your IPTV channels from any source (M3U File, M3U link, Xtream) 🗃️<br>Record while watching 🎥<br>Multi IPTV sources 🎊<br>Control the UI from a TV remote 📺<br>Super low ram usage, crazy speeds and instant search 🚅<br>Refresh your sources when you need it 🔄<br>Add channels to favorites 🌟<br>PLEASE consider donating, I've been developing this app solo for the past 2 years! Instructions on my github (https://github.com/Fredolx/open-tv)",
-    "build_date": "2024-12-13T03:32:21",
-    "category": [
-      "AudioVideo"
-    ],
-    "icon": "https://dl.flathub.org/media/dev/fredol/open-tv/df3fafa61b7c0ef7d6ef50ca6464f9b8/icons/128x128/dev.fredol.open-tv.png",
-    "license": "GPL-2.0",
-    "tag": [],
-    "rank": 221
   },
   {
     "pkg": "0 A.D.",
@@ -4433,34 +4382,37 @@
       "Spartans",
       "Warfare"
     ],
-    "rank": 222
+    "rank": 219
   },
   {
-    "pkg": "Videos",
-    "app_id": "org.gnome.Totem",
-    "description": "Play movies",
-    "description_long": "Videos is the official movie player of the GNOME desktop environment. It features a searchable list of local videos, and DVDs, as well as local network video shares (using UPnP/DLNA) and video highlights from a number of web sites.Videos comes with added functionality such as a subtitle downloader, the ability to speed up or down playback, create screenshot galleries, and support for recording DVDs.",
-    "build_date": "2023-09-03T13:52:41",
+    "pkg": "Upscayl",
+    "app_id": "org.upscayl.Upscayl",
+    "description": "Free and Open Source AI Image Upscaler",
+    "description_long": "<br>Upscayl is a free and open source AI Image Upscaler.<br>",
+    "build_date": "2024-06-01T21:58:46",
     "category": [
-      "AudioVideo",
-      "Player",
-      "Video"
+      "ImageProcessing",
+      "RasterGraphics",
+      "Graphics"
     ],
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Totem.png",
-    "license": "GPL-2.0+",
-    "tag": [
-      "Clip",
-      "DVD",
-      "Disc",
-      "Film",
-      "Movie",
-      "Player",
-      "Series",
-      "TV",
-      "Totem",
-      "Video"
+    "icon": "https://dl.flathub.org/media/org/upscayl/Upscayl/0ee47653b0ea921760bac3d8016222b6/icons/128x128/org.upscayl.Upscayl.png",
+    "license": "AGPL-3.0",
+    "tag": [],
+    "rank": 220
+  },
+  {
+    "pkg": "Open TV",
+    "app_id": "dev.fredol.open-tv",
+    "description": "Fast And Powerful IPTV App",
+    "description_long": "Completely rewritten to accomodate new features and to be even speedier, Open TV has been carefully crafted to deliver the best IPTV experience<br>Features:<br>Import your IPTV channels from any source (M3U File, M3U link, Xtream) 🗃️<br>Record while watching 🎥<br>Multi IPTV sources 🎊<br>Control the UI from a TV remote 📺<br>Super low ram usage, crazy speeds and instant search 🚅<br>Refresh your sources when you need it 🔄<br>Add channels to favorites 🌟<br>PLEASE consider donating, I've been developing this app solo for the past 2 years! Instructions on my github (https://github.com/Fredolx/open-tv)",
+    "build_date": "2024-12-13T03:32:21",
+    "category": [
+      "AudioVideo"
     ],
-    "rank": 223
+    "icon": "https://dl.flathub.org/media/dev/fredol/open-tv/df3fafa61b7c0ef7d6ef50ca6464f9b8/icons/128x128/dev.fredol.open-tv.png",
+    "license": "GPL-2.0",
+    "tag": [],
+    "rank": 221
   },
   {
     "pkg": "Konsole",
@@ -4490,6 +4442,46 @@
       "zsh",
       "cmd",
       "command prompt"
+    ],
+    "rank": 222
+  },
+  {
+    "pkg": "SuperTuxKart",
+    "app_id": "net.supertuxkart.SuperTuxKart",
+    "description": "A 3D open-source kart racing game",
+    "description_long": "<br>Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a variety of characters, tracks, and modes to play. Our aim is to create a game that is more fun than realistic, and provide an enjoyable experience for all ages.<br>We have several tracks with various themes for players to enjoy, from driving underwater, rural farmlands, jungles or even in space! Try your best while avoiding other karts as they may overtake you, but don't eat the bananas! Watch for bowling balls, plungers, bubble gum, and cakes thrown by your opponents.<br>You can do a single race against other karts, compete in one of several Grand Prix, try to beat the high score in time trials on your own, play battle mode against the computer or your friends, and more! For a greater challenge, join online and meet players from all over the world and prove your racing skills!<br>",
+    "build_date": "2024-10-31T12:41:13",
+    "category": [
+      "Game",
+      "ArcadeGame"
+    ],
+    "icon": "https://dl.flathub.org/media/net/supertuxkart/SuperTuxKart/8136424dd3beeb3c292dc8dee8cc4928/icons/128x128/net.supertuxkart.SuperTuxKart.png",
+    "license": "GPL-3.0+",
+    "tag": [
+      "tux",
+      "game",
+      "race"
+    ],
+    "rank": 223
+  },
+  {
+    "pkg": "Notesnook",
+    "app_id": "com.notesnook.Notesnook",
+    "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote",
+    "description_long": "<br>Notesnook is a free (as in speech) &amp; open source note taking app<br>focused on user privacy &amp; ease of use. To ensure zero knowledge<br>principles, Notesnook encrypts everything on your device using<br>XChaCha20-Poly1305 &amp; Argon2.<br>Notesnook is our proof that privacy does not (always) have to come at the<br>cost of convenience. Our goal is to provide users peace of mind &amp; 100%<br>confidence that their notes are safe and secure. Our decision to go fully<br>open source is one of the most crucial steps towards that.<br>Notesnook is a user focused note taking tool meant to offer a fully<br>end-to-end encrypted note taking experience for everyone. This includes<br>the majority of our less tech savy users who just want to take notes<br>without all the hassle.<br>In short, Notesnook aims to offer a complete replacement for other<br>insecure note taking tools like Evernote &amp; Notion. Because let's be<br>honest, these tools offer great productivity but at a great cost to your<br>privacy.<br>",
+    "build_date": "2024-11-24T18:33:59",
+    "category": [
+      "Education",
+      "Office"
+    ],
+    "icon": "https://dl.flathub.org/media/com/notesnook/Notesnook/00b2f2ccd6eee0ec69c11ec35232ae27/icons/128x128/com.notesnook.Notesnook.png",
+    "license": "GPL-3.0-or-later",
+    "tag": [
+      "notepad",
+      "note taking app",
+      "note taking",
+      "end-to-end encrypted",
+      "notebook"
     ],
     "rank": 224
   }

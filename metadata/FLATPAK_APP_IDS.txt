@@ -1089,6 +1089,7 @@ io.github.aganzha.Stage
 io.github.aggalex.Wineglass
 io.github.alainm23.planify
 io.github.alescdb.mailviewer
+io.github.alfianlosari.GTKChatGPT
 io.github.am2r_community_developers.AM2RLauncher
 io.github.am2r_community_developers.Atomic
 io.github.amit9838.mousam
@@ -1182,6 +1183,7 @@ io.github.fin_ger.OvGUCanteen
 io.github.finefindus.Hieroglyphic
 io.github.fizzyizzy05.binary
 io.github.fkinoshita.Telegraph
+io.github.flattool.Ignition
 io.github.flattool.Warehouse
 io.github.fm_elpac.pmim_ibus
 io.github.foldynl.QLog
@@ -1649,6 +1651,7 @@ net.blockattack.game
 net.blockbench.Blockbench
 net.blockout.BlockOutII
 net.blumia.pineapple-pictures
+net.carrotindustries.usbkvm
 net.casimirlab.frigoligo
 net.cebix.basilisk
 net.christianbeier.Gromit-MPX

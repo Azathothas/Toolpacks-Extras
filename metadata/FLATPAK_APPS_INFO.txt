@@ -4222,6 +4222,10 @@ NAME: MailViewer
 APP_ID: io.github.alescdb.mailviewer
 Descr: EML and MSG file viewer
 -----------------------------
+NAME: XCA AI Chat
+APP_ID: io.github.alfianlosari.GTKChatGPT
+Descr: Chat with AI - Powered by ChatGPT API
+-----------------------------
 NAME: AM2RLauncher
 APP_ID: io.github.am2r_community_developers.AM2RLauncher
 Descr: A front-end for dealing with AM2R updates and mods
@@ -4553,6 +4557,10 @@ Descr: The dictionary app you need
 NAME: OvGU Canteen
 APP_ID: io.github.fin_ger.OvGUCanteen
 Descr: View the OvGU Mensa Menu in a small GTK App
+-----------------------------
+NAME: Ignition
+APP_ID: io.github.flattool.Ignition
+Descr: Create and edit startup apps and scripts
 -----------------------------
 NAME: Warehouse
 APP_ID: io.github.flattool.Warehouse.desktop
@@ -6390,6 +6398,10 @@ NAME: Pineapple Pictures
 APP_ID: net.blumia.pineapple-pictures
 Descr: Image Viewer
 -----------------------------
+NAME: USBKVM
+APP_ID: net.carrotindustries.usbkvm
+Descr: Keyboard, video and mouse over USB
+-----------------------------
 NAME: Frigoligo
 APP_ID: net.casimirlab.frigoligo
 Descr: Your articles with you
@@ -7008,11 +7020,7 @@ Descr: This is a program for extreme sound stretching (like 50x) and for applyin
 -----------------------------
 NAME: PDF Chain
 APP_ID: net.sourceforge.pdfchain
-Descr: PDF Chain is a graphical user interface for the PDF Toolkit (PDFtk)
------------------------------
-NAME: projectM
-APP_ID: pdfchain.desktop
-Descr: Music visualizer which uses 3D accelerated iterative image based rendering
+Descr: Graphical interface for the PDF Toolkit (PDFtk)
 -----------------------------
 NAME: projectM
 APP_ID: net.sourceforge.projectM.desktop

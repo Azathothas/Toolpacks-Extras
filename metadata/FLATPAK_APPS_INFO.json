@@ -4845,6 +4845,11 @@
     "description": "It is a tool for the QA team and developers"
   },
   {
+    "pkg": "Ignition",
+    "app_id": "io.github.flattool.Ignition",
+    "description": "Create and edit startup apps and scripts"
+  },
+  {
     "pkg": "Ikona",
     "app_id": "org.kde.Ikona",
     "description": "Ikona is a design companion to help you design icons"
@@ -8932,7 +8937,7 @@
   {
     "pkg": "PDF Chain",
     "app_id": "net.sourceforge.pdfchain",
-    "description": "PDF Chain is a graphical user interface for the PDF Toolkit (PDFtk)"
+    "description": "Graphical interface for the PDF Toolkit (PDFtk)"
   },
   {
     "pkg": "PDF Mix Tool",
@@ -13230,6 +13235,11 @@
     "description": "UPBGE is a free and open source 3D Game Engine integrated in Blender"
   },
   {
+    "pkg": "USBKVM",
+    "app_id": "net.carrotindustries.usbkvm",
+    "description": "Keyboard, video and mouse over USB"
+  },
+  {
     "pkg": "UYAP Editor",
     "app_id": "tr.gov.uyap.Editor",
     "description": "UYAP Document Editor is an application to display and create UDF documents in UYAP system."
@@ -14073,6 +14083,11 @@
     "pkg": "XCA",
     "app_id": "io.github.chris2511.xca",
     "description": "X Certificate and Key management"
+  },
+  {
+    "pkg": "XCA AI Chat",
+    "app_id": "io.github.alfianlosari.GTKChatGPT",
+    "description": "Chat with AI - Powered by ChatGPT API"
   },
   {
     "pkg": "XClicker",
@@ -15473,11 +15488,6 @@
     "pkg": "pomodorolm",
     "app_id": "org.jousse.vincent.Pomodorolm",
     "description": "A simple, good looking and configurable pomodoro tracker with tray icon."
-  },
-  {
-    "pkg": "projectM",
-    "app_id": "pdfchain.desktop",
-    "description": "Music visualizer which uses 3D accelerated iterative image based rendering"
   },
   {
     "pkg": "projectM",
