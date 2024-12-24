@@ -5482,6 +5482,10 @@ NAME: HBud
 APP_ID: io.github.swanux.hbud
 Descr: Simple audio/video player and karaoke app written in Python and GTK4
 -----------------------------
+NAME: Hunt
+APP_ID: io.github.swordpuffin.hunt
+Descr: A simple word search game
+-----------------------------
 NAME: Splices
 APP_ID: io.github.swordpuffin.splices
 Descr: A word making game
@@ -8977,10 +8981,6 @@ Descr: Magic self hosted Git file sync
 NAME: Speed Dreams
 APP_ID: org.speed_dreams.SpeedDreams
 Descr: Speed Dreams is a 3d cross-platform, open source motorsport simulation and racing game
------------------------------
-NAME: SpeedCrunch
-APP_ID: org.speedcrunch.SpeedCrunch
-Descr: A high-precision scientific calculator
 -----------------------------
 NAME: Spyder
 APP_ID: org.spyder_ide.spyder

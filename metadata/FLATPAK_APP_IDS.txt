@@ -1422,6 +1422,7 @@ io.github.stella_emu.Stella
 io.github.streetpea.Chiaki4deck
 io.github.subhra74.Muon
 io.github.swanux.hbud
+io.github.swordpuffin.hunt
 io.github.swordpuffin.splices
 io.github.tareksander.StoryReader
 io.github.tcobbs.LDView
@@ -2378,6 +2379,7 @@ org.kde.neochat
 org.kde.okteta
 org.kde.okular
 org.kde.okular.kirigami
+org.kde.optiimage
 org.kde.palapeli
 org.kde.parley
 org.kde.peruse

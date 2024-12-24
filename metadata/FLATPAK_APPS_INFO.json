@@ -4730,6 +4730,11 @@
     "description": "A comedic visual novel about an android dressed as a high school girl as she prepares to destroy humanity"
   },
   {
+    "pkg": "Hunt",
+    "app_id": "io.github.swordpuffin.hunt",
+    "description": "A simple word search game"
+  },
+  {
     "pkg": "Hurrican",
     "app_id": "io.github.hurricangame.hurrican",
     "description": "Freeware jump and shoot game created by Poke53280"
@@ -11783,11 +11788,6 @@
     "pkg": "Speed Dreams",
     "app_id": "org.speed_dreams.SpeedDreams",
     "description": "Speed Dreams is a 3d cross-platform, open source motorsport simulation and racing game"
-  },
-  {
-    "pkg": "SpeedCrunch",
-    "app_id": "org.speedcrunch.SpeedCrunch",
-    "description": "A high-precision scientific calculator"
   },
   {
     "pkg": "Speedtest",
